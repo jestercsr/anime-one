@@ -10,7 +10,7 @@ import Faq from "./ui/Faq";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <nav className="flex justify-end p-1 bg-white-claire">
         <Button variant="destructive">S'identifier</Button>
       </nav>

@@ -17,46 +17,46 @@ export default function Navbar(props) {
       <nav className={props.className}>
         <img src="assets/logoAnimeplus.png" className="w-20"/>
 
-        <ul className="flex justify between gap-5 list-none w-10/12">
-          <li className="inlline-flex">
-            <Link href="/accueil">
-              <Home className="inline-flex items-center mr-1" />
+        <ul className="flex justify-between space-x-32 list-none m-auto">
+          <li className="flex justify-center">
+            <Link href="/accueil" className="inline-flex items-center">
+              <Home className="mr-1" />
               Accueil
             </Link>
           </li>
-          <li className="inlline-flex">
-            <Link href="/search">
-              <Search className="inline-flex items-center mr-1" />
+          <li className="inline-flex">
+            <Link href="/search" className="inline-flex items-center">
+              <Search className="mr-1" />
               Rechercher
             </Link>
           </li>
-          <li className="inlline-flex">
-            <Link href="/films">
-              <Film className="inline-flex items-center mr-1" />
+          <li className="inline-flex">
+            <Link href="/films" className="inline-flex items-center">
+              <Film className="mr-1" />
               Films
             </Link>
           </li>
-          <li className="inlline-flex">
-            <Link href="/series">
-              <Clapperboard className="inline-flex items-center mr-1" />
+          <li className="inline-flex">
+            <Link href="/series" className="inline-flex items-center">
+              <Clapperboard className="mr-1" />
               Séries
             </Link>
           </li>
-          <li className="inlline-flex">
-            <Link href="/scans">
-              <BookOpenText className="inline-flex items-center mr-1" />
+          <li className="inline-flex">
+            <Link href="/scans" className="inline-flex items-center">
+              <BookOpenText className="mr-1" />
               Scans
             </Link>
           </li>
-          <li className="inlline-flex">
-            <Link href="/stores">
-              <ShoppingCart className="inline-flex items-center mr-1" />
+          <li className="inline-flex">
+            <Link href="/stores" className="inline-flex items-center">
+              <ShoppingCart className="mr-1" />
               Boutique
             </Link>
           </li>
-          <li className="inlline-flex">
-            <Link href="/post_edit">
-              <Newspaper className="inline-flex items-center mr-1" />
+          <li className="inline-flex">
+            <Link href="/post_edit" className="inline-flex items-center">
+              <Newspaper className="mr-1" />
               Feeds
             </Link>
           </li>
