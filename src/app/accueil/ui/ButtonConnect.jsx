@@ -38,7 +38,7 @@ export function ButtonConnect() {
 
   return (
     <div>
-      <div className="">
+      <div className="flex flex-row justify-center py-3 px-2.5">
         {boutton.map((cliquer) => {
           return (
             <ul key={cliquer.id}>

@@ -15,8 +15,10 @@ module.exports = {
       colors: {
         'custom-black': '#000505',
         'turquoise-dark': '#021B1B',
-        'blue-ciel': '#0879aa',
-        'blue-marine': '#033144',
+        'sky-bleu': '#0879aa',
+        'sky-marine': '#033144',
+        'turquoise-claire': '#078181',
+        'blue-darker': '#021b1b',
       },
     },
   },
