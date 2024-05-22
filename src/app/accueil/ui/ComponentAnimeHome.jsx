@@ -90,7 +90,7 @@ export const trendings = [
   {
     id: 13,
     image:
-      "https://pm1.narvii.com/8392/8c1984a1d22db478f4c94b02ad24a60bb2129f44r1-1920-1080v2_hq.jpg",
+      "assets/Konosuba.png",
     name: "Konosuba",
     url: "/konosuba",
   },
@@ -139,7 +139,7 @@ export const trendings = [
   {
     id: 20,
     image:
-      "https://th.bing.com/th/id/OIP.BwQexopLcK9tzD1U3_pu5AHaEK?rs=1&pid=ImgDetMain",
+      "assets/ReMonster_poster.png",
     name: "Re: Monster",
     url: "/re-monster",
   },
