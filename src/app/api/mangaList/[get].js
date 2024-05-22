@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  const {slug } = req.query;
+  const {slug } = req.query; 
   if (req.method === "GET") {
     res.status(200).json([
       {
