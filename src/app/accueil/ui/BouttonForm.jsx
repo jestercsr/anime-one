@@ -8,7 +8,7 @@ export function BouttonForm(props) {
           src={props.image}
           className="items-center opacity-0 transition easi-in duration-500 rounded-2xl  justify-center hover:opacity-100 "
         />
-        <span className="md:absolute top-6 left-8 right-10 laptop:absolute top-10 left-14 right-14">
+        <span className="md:absolute top-6 left-8 right-10 laptop:absolute top-9 left-12 right-14">
           {props.text}
         </span>
       </button>

@@ -34,6 +34,7 @@ module.exports = {
         "cyan-claire": "#86FFFF",
         "cyan-blanc": "#84FFFF",
         "turquoise-darker": "#0ABCBC",
+        "red-onepiece": "rgba(235,0,27,0.5)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

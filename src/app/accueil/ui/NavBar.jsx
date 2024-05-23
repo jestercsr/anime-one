@@ -14,14 +14,14 @@ import {
 
 export default function Navbar(props) {
   return (
-    <div className="w-full laptop:w-screen">
+    <div className="w-full md:max-w-screen-md text-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
       <nav className={props.className}>
         <div>
           <Link href={"/accueil"}>
-            <div className="hidden tablet:block">
-              <img src="assets/logoAnimeplus.png" className="w-20 block" />
+            <div className="hidden tablet:block w-20">
+              <img src="assets/logoAnimeplus.png" className=" block" />
             </div>
-            <div className="block w-24 tablet:hidden">
+            <div className="block w-20 tablet:hidden">
               <img src="assets/logoAnimeplusHome.png" className="block" />
             </div>
           </Link>
@@ -43,8 +43,8 @@ export default function Navbar(props) {
         <div className="flex">
           <div className="flex justify-end items-center relative">
             <div className="flex mr-4 items-center">
-              <ul className="flex items-center justify-between space-x-16 list-none m-auto">
-                <li className="inline-flex">
+              <ul className="flex items-center justify-between space-x-16 list-none m-auto laptop:flex items-center justify-between space-x-40 list-none m-auto">
+                <li className="inline-flex ">
                   <Link href="/films" className="inline-flex items-center">
                     <Film className="mr-1" />
                     Films
@@ -86,7 +86,7 @@ export default function Navbar(props) {
                 <div className="flex">
                   <div className="relative">
                     <button className="inline-flex items-end space-x-16">
-                      <CircleUserRound className="" />
+                      <CircleUserRound />
                     </button>
                   </div>
                 </div>

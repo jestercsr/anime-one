@@ -9,6 +9,7 @@ import {
   currently,
   movieRec,
 } from "./ComponentAnimeHome";
+import Link from "next/link";
 
 export default function AfficheCarousel() {
   const responsive = {
@@ -42,10 +43,10 @@ export default function AfficheCarousel() {
           {recommanded.map((recommander) => {
             return (
               <div className="mx-5 relative py-8" key={recommander.id}>
-                <a href={recommander.url}>
+                <Link href={`/${recommander.url}`}>
                   <img src={recommander.image} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{recommander.name}</p>
-                </a>
+                </Link>
               </div>
             );
           })}
@@ -58,10 +59,10 @@ export default function AfficheCarousel() {
           {trendings.map((trends) => {
             return (
               <div className="mx-5 relative py-8" key={trends.id}>
-                <a href={trends.url}>
+                <Link href={`/${trends.url}`}>
                   <img src={trends.image} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{trends.name}</p>
-                </a>
+                </Link>
               </div>
             );
           })}
@@ -74,10 +75,10 @@ export default function AfficheCarousel() {
           {currently.map((current) => {
             return (
               <div className="mx-5 relative py-8" key={current.id}>
-                <a href={current.url}>
+                <Link href={`/${current.url}`}>
                   <img src={current.image} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{current.name}</p>
-                </a>
+                </Link>
               </div>
             );
           })}
@@ -90,10 +91,10 @@ export default function AfficheCarousel() {
           {movieRec.map((movReco) => {
             return (
               <div className="mx-5 relative py-8" key={movReco.id}>
-                <a href={movReco.url}>
+                <Link href={`/${movReco.url}`}>
                   <img src={movReco.image} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{movReco.name}</p>
-                </a>
+                </Link>
               </div>
             );
           })}
