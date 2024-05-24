@@ -14,8 +14,8 @@ import {
 
 export default function Navbar(props) {
   return (
-    <div className="w-full md:max-w-screen-md text-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
-      <nav className={props.className}>
+    <div className={props.className}>
+      <nav className=" flex w-screen justify-between items-center w-full md:max-w-screen-md text-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
         <div>
           <Link href={"/accueil"}>
             <div className="hidden tablet:block w-20">

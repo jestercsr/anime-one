@@ -13,7 +13,7 @@ export default function page() {
 
   return (
     <div className="bg-gradient-to-b from-sky-bleu to-sky-marine">
-      <Navbar className="bg-teal-900 text-white flex w-screen justify-between items-center" />
+      <Navbar className="bg-teal-900 text-white" />
       <CarrouselForm />
       <ButtonConnect />
 
