@@ -1,10 +1,10 @@
 "use client";
 
 import Navbar from "../accueil/ui/NavBar";
+import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -48,28 +48,28 @@ export default function MangaList({ params }) {
         <Navbar className={found.class} />
         <MainComposent className={found.back}>
           <div className="h-4/5 justify-center m-auto flex">
-            <img src={found.imageTop} className="w-4/5"/>
+            <img src={found.imageTop} className="w-4/5" />
           </div>
-          <section id="teams" className="block teams-block">
+          <section id="teams" className="block teams-block ">
             <Container fluid>
               <Row>
-                <Col sm={3} className="mx-5 overflow-hidden py-8 flex flex-row justify-between ">
-                  <Link href={found.url1}>
-                    <Image src={found.image1} className="w-full rounded-2xl"></Image>
-                  </Link>
-                  <Link href={found.url2}>
-                    <Image src={found.image2} className="w-full rounded-2xl"></Image>
-                  </Link>
-                  <Link href={found.url3}>
-                    <Image src={found.image3} className="w-full rounded-2xl"></Image>
-                  </Link>
-                  <Link href={found.url4}>
-                    <Image src={found.image4} className="w-full rounded-2xl"></Image>
-                  </Link>
-                  <Link href={found.url5}>
-                    <Image src={found.image5} className="w-full rounded-2xl"></Image>
-                  </Link>
-                </Col>
+                {found.imageShow.map((select) => {
+                  return (
+                    <Col sm={3}>
+                      <div
+                        className="mx-5 py-8 relative"
+                        key={select.id}
+                      >
+                        <Link href={`/${select.url}`}>
+                          <Image
+                            src={select.img}
+                            className="w-full rounded-2xl hover:opacity-100 rounded-2xl"
+                          />
+                        </Link>
+                      </div>
+                    </Col>
+                  );
+                })}
               </Row>
             </Container>
           </section>
@@ -81,8 +81,13 @@ export default function MangaList({ params }) {
                 return (
                   <div className="mx-5 py-8 relative" key={select.id}>
                     <Link href={`/${select.url}`}>
-                      <img src={select.image} className="w-full rounded-2xl hover:opacity-100 rounded-2xl" />
-                      <p className="absolute bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{select.name}</p>
+                      <img
+                        src={select.image}
+                        className="w-full rounded-2xl hover:opacity-100 rounded-2xl"
+                      />
+                      <p className="absolute bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
+                        {select.name}
+                      </p>
                     </Link>
                   </div>
                 );
