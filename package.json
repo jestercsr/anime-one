@@ -24,8 +24,10 @@
     "react": "^18",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
+    "react-grid-gallery": "^1.0.1",
     "react-multi-carousel": "^2.8.5",
     "react-responsive-carousel": "^3.2.23",
+    "react-responsive-masonry": "^2.2.0",
     "react-router-dom": "^6.23.1",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"

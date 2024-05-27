@@ -3,23 +3,23 @@ export const liste = [
     id: "one-piece",
     imageTop:
       "https://is4-ssl.mzstatic.com/image/thumb/9CNTcBGBPRW5eiQV_dVdsg/1600x900.jpg",
-    class: "bg-red-600 text-slate-50  list-none",
+    class: "bg-red-600 text-slate-50 list-none",
     back: "bg-red-onepiece",
     imageShow: [
       {
-        img: "assets/OP_poster.png",
+        img: "/assets/OP_poster.png",
         url: "one-piece/episodes",
       },
       {
-        img: "assets/OP_FILMS.png",
+        img: "/assets/OP_FILMS.png",
         url: "one-piece/films",
       },
       {
-        img: "assets/scan/OP_scan.png",
+        img: "/assets/scan/OP_scan.png",
         url: "one-piece/scans",
       },
       {
-        img: "assets/OP_API.png",
+        img: "/assets/OP_API.png",
         url: "https://onepiece.fandom.com/fr/wiki/Personnages",
       },
     ],
@@ -87,19 +87,19 @@ export const liste = [
         url: "naruto/episodes",
       },
       {
-        img: "assets/shippuden.png",
+        img: "/assets/shippuden.png",
         url: "naruto-shippuden",
       },
       {
-        img: "assets/Naruto_FILMS.png",
+        img: "/assets/Naruto_FILMS.png",
         url: "naruto/films",
       },
       {
-        img: "assets/scan/naruto_scan.jpg",
+        img: "/assets/scan/naruto_scan.jpg",
         url: "naruto/scans",
       },
       {
-        img: "assets/Naruto_API.png",
+        img: "/assets/Naruto_API.png",
         url: "https://naruto.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -162,7 +162,7 @@ export const liste = [
     back: "bg-orange-db",
     imageShow: [
       {
-        img: "assets/DB_poster.png",
+        img: "/assets/DB_poster.png",
         url: "dragon-ball/episodes",
       },
       {
@@ -170,23 +170,23 @@ export const liste = [
         url: "dragon-ball-z",
       },
       {
-        img: "assets/DBGT.png",
+        img: "/assets/DBGT.png",
         url: "dragon-ball-gt",
       },
       {
-        img: "assets/DBS.png",
+        img: "/assets/DBS.png",
         url: "dragon-ball-super",
       },
       {
-        img: "assets/DB_FILMS.png",
+        img: "/assets/DB_FILMS.png",
         url: "dragon-ball/films",
       },
       {
-        img: "assets/scan/db_scan.png",
+        img: "/assets/scan/db_scan.png",
         url: "dragon-ball/scans",
       },
       {
-        img: "assets/DB_API.png",
+        img: "/assets/DB_API.png",
         url: "https://dragonball.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -199,7 +199,7 @@ export const liste = [
         url: "digimon",
       },
       {
-        image: "assets/Slump&Arale_poster.png",
+        image: "/assets/Slump&Arale_poster.png",
         name: "Dr Slump and Arale",
         url: "dr-slump-and-arale",
       },
@@ -249,19 +249,19 @@ export const liste = [
     back: "bg-black-bleach",
     imageShow: [
       {
-        img: "assets/Bleach_poster.png",
+        img: "/assets/Bleach_poster.png",
         url: "bleach/episodes",
       },
       {
-        img: "assets/Bleach_FILMS.png",
+        img: "/assets/Bleach_FILMS.png",
         url: "bleach/films",
       },
       {
-        img: "assets/scan/bleach_scan.png",
+        img: "/assets/scan/bleach_scan.png",
         url: "bleach/scans",
       },
       {
-        img: "assets/Bleach_API.png",
+        img: "/assets/Bleach_API.png",
         url: "https://bleach.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -329,19 +329,19 @@ export const liste = [
         url: "hunter-x-hunter/episodes",
       },
       {
-        img: "assets/Hunter1999.png",
+        img: "/assets/Hunter1999.png",
         url: "hunter-x-hunter-1999",
       },
       {
-        img: "assets/Hunter_FILMS.png",
+        img: "/assets/Hunter_FILMS.png",
         url: "hunter-x-hunter/films",
       },
       {
-        img: "assets/scan/hunter_scan.png",
+        img: "/assets/scan/hunter_scan.png",
         url: "hunter-x-hunter/scans",
       },
       {
-        img: "assets/Hunter_API.png",
+        img: "/assets/Hunter_API.png",
         url: "https://hunterxhunter.fandom.com/fr/wiki/Liste_des_personnages_d%27Hunter_x_Hunter",
       },
     ],
@@ -405,19 +405,19 @@ export const liste = [
     back: "bg-amber-snk",
     imageShow: [
       {
-        img: "assets/Aot_poster.png",
+        img: "/assets/Aot_poster.png",
         url: "shingeki-no-kyojin/episodes",
       },
       {
-        img: "assets/Aot_FILMS.png",
+        img: "/assets/Aot_FILMS.png",
         url: "shingeki-no-kyojin/films",
       },
       {
-        img: "assets/scan/aot_scan.png",
+        img: "/assets/scan/aot_scan.png",
         url: "shingeki-no-kyojin/scans",
       },
       {
-        img: "assets/Aot_API.png",
+        img: "/assets/Aot_API.png",
         url: "https://attaque-des-titans.fandom.com/fr/wiki/Wiki_L%27Attaque_des_Titans",
       },
     ],
@@ -481,19 +481,19 @@ export const liste = [
     back: "bg-neutral-mha",
     imageShow: [
       {
-        img: "assets/MHA_poster.png",
+        img: "/assets/MHA_poster.png",
         url: "my-hero-academia/episodes",
       },
       {
-        img: "assets/MHA_FILMS.png",
+        img: "/assets/MHA_FILMS.png",
         url: "my-hero-academia/films",
       },
       {
-        img: "assets/scan/mha_scan.png",
+        img: "/assets/scan/mha_scan.png",
         url: "my-hero-academia/scans",
       },
       {
-        img: "assets/MHA_API.png",
+        img: "/assets/MHA_API.png",
         url: "https://myheroacademia.fandom.com/fr/wiki/Liste_des_Personnages",
       },
     ],
@@ -529,7 +529,7 @@ export const liste = [
         url: "mashle",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
@@ -555,19 +555,19 @@ export const liste = [
     back: "bg-black-jjk",
     imageShow: [
       {
-        img: "assets/JJK_poster.png",
+        img: "/assets/JJK_poster.png",
         url: "jujustu-kaisen/episodes",
       },
       {
-        img: "assets/JJK_FILMS.png",
+        img: "/assets/JJK_FILMS.png",
         url: "jujustu-kaisen/films",
       },
       {
-        img: "assets/scan/jjk_scan.png",
+        img: "/assets/scan/jjk_scan.png",
         url: "jujustu-kaisen/scans",
       },
       {
-        img: "assets/JJK_API.png",
+        img: "/assets/JJK_API.png",
         url: "https://jujutsu-kaisen.fandom.com/fr/wiki/Liste_des_Personnages",
       },
     ],
@@ -631,29 +631,29 @@ export const liste = [
     back: "bg-neutral-fma",
     imageShow: [
       {
-        img: "assets/FT_poster.png",
+        img: "/assets/FT_poster.png",
         url: "fairy-tail/episodes",
       },
       {
-        img: "assets/FT_FILMS.png",
+        img: "/assets/FT_FILMS.png",
         url: "fairy-tail/films",
       },
       {
-        img: "assets/scan/ft_scan.png",
+        img: "/assets/scan/ft_scan.png",
         url: "fairy-tail/scans",
       },
       {
-        img: "assets/FT_API.png",
+        img: "/assets/FT_API.png",
         url: "https://fairy-tail.fandom.com/fr/wiki/Cat%C3%A9gorie:Membres_de_Fairy_Tail",
       },
     ],
-    image1: "assets/FMA.png",
+    image1: "/assets/FMA.png",
     url1: "fullmetal-alchemist/episodes",
-    image2: "assets/Fmab_poster.png",
+    image2: "/assets/Fmab_poster.png",
     url2: "fullmetal-alchemist-brotherhood",
-    image3: "assets/scan/fma_scan.png",
+    image3: "/assets/scan/fma_scan.png",
     url3: "fullmetal-alchemist/scans",
-    image4: "assets/Fma_API.png",
+    image4: "/assets/Fma_API.png",
     url4: "https://fullmetalalchemist.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
     image5: "",
     url5: "",
@@ -694,7 +694,7 @@ export const liste = [
         url: "berserk",
       },
       {
-        image: "assets/MobPsycho_poster.png",
+        image: "/assets/MobPsycho_poster.png",
         name: "Mob Psycho 100",
         url: "mob-psycho",
       },
@@ -719,19 +719,19 @@ export const liste = [
     back: "bg-yellow-ft",
     imageShow: [
       {
-        img: "assets/FT_poster.png",
+        img: "/assets/FT_poster.png",
         url: "fairy-tail/episodes",
       },
       {
-        img: "assets/FT_FILMS.png",
+        img: "/assets/FT_FILMS.png",
         url: "fairy-tail/films",
       },
       {
-        img: "assets/scan/ft_scan.png",
+        img: "/assets/scan/ft_scan.png",
         url: "fairy-tail/scans",
       },
       {
-        img: "assets/FT_API.png",
+        img: "/assets/FT_API.png",
         url: "https://fairy-tail.fandom.com/fr/wiki/Cat%C3%A9gorie:Membres_de_Fairy_Tail",
       },
     ],
@@ -794,26 +794,26 @@ export const liste = [
     back: "bg-black-clover",
     imageShow: [
       {
-        img: "assets/BlackClover_poster.png",
+        img: "/assets/BlackClover_poster.png",
         url: "black-clover/episodes",
       },
       {
-        img: "assets/BC_FILMS.png",
+        img: "/assets/BC_FILMS.png",
         url: "black-clover/films",
       },
       {
-        img: "assets/scan/clover_scan.png",
+        img: "/assets/scan/clover_scan.png",
         url: "black-clover/scans",
       },
       {
-        img: "assets/BC_API.png",
+        img: "/assets/BC_API.png",
         url: "https://blackclover.fandom.com/fr/wiki/Liste_des_Personnages",
       },
     ],
     titre: "text-emerald-400 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/BlackS_poster.png",
+        image: "/assets/BlackS_poster.png",
         name: "Black Summoner",
         url: "black-summoner",
       },
@@ -854,7 +854,7 @@ export const liste = [
         url: "tsukimichi-moonlit-fantasy",
       },
       {
-        image: "assets/TWFA_poster.png",
+        image: "/assets/TWFA_poster.png",
         name: "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
         url: "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
       },
@@ -868,19 +868,19 @@ export const liste = [
     back: "bg-blue-lock",
     imageShow: [
       {
-        img: "assets/BlueLock_poster.png",
+        img: "/assets/BlueLock_poster.png",
         url: "blue-lock/episodes",
       },
       {
-        img: "assets/BlueLock_FILMS.png",
+        img: "/assets/BlueLock_FILMS.png",
         url: "blue-lock/films",
       },
       {
-        img: "assets/scan/bluelock_scan.png",
+        img: "/assets/scan/bluelock_scan.png",
         url: "blue-lock/scans",
       },
       {
-        img: "assets/BlueLock_API.png",
+        img: "/assets/BlueLock_API.png",
         url: "https://bluelock.fandom.com/wiki/List_of_Characters",
       },
     ],
@@ -944,23 +944,23 @@ export const liste = [
     back: "bg-slate-boruto",
     imageShow: [
       {
-        img: "assets/Boruto_poster.png",
+        img: "/assets/Boruto_poster.png",
         url: "boruto/episodes",
       },
       {
-        img: "assets/BorutoTwoBlueVortex.png",
+        img: "/assets/BorutoTwoBlueVortex.png",
         url: "boruto-two-blue-vortex",
       },
       {
-        img: "assets/Boruto_FILMS.png",
+        img: "/assets/Boruto_FILMS.png",
         url: "boruto/films",
       },
       {
-        img: "assets/scan/boruto_scan.png",
+        img: "/assets/scan/boruto_scan.png",
         url: "boruto/scans",
       },
       {
-        img: "assets/Boruto_API.png",
+        img: "/assets/Boruto_API.png",
         url: "https://boruto.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1024,15 +1024,15 @@ export const liste = [
     back: "bg-lime-burn",
     imageShow: [
       {
-        img: "assets/BurnWitch_FILMS.png",
+        img: "/assets/BurnWitch_FILMS.png",
         url: "burn-the-witch/films",
       },
       {
-        img: "assets/scan/burnwitch_scan.png",
+        img: "/assets/scan/burnwitch_scan.png",
         url: "burn-the-witch/scans",
       },
       {
-        img: "assets/BurnWitch_API.png",
+        img: "/assets/BurnWitch_API.png",
         url: "https://burn-the-witch.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1069,7 +1069,7 @@ export const liste = [
         url: "the-misfit-of-demon-king-academy",
       },
       {
-        image: "assets/Antimagic_poster.png",
+        image: "/assets/Antimagic_poster.png",
         name: "Antimagic Academy",
         url: "antimagic-academy",
       },
@@ -1095,15 +1095,15 @@ export const liste = [
     back: "bg-orange-chainsaw",
     imageShow: [
       {
-        img: "assets/ChainsawMan_poster.png",
+        img: "/assets/ChainsawMan_poster.png",
         url: "chainsaw-man/episodes",
       },
       {
-        img: "assets/scan/chainsawman_scan.png",
+        img: "/assets/scan/chainsawman_scan.png",
         url: "chainsaw-man/scans",
       },
       {
-        img: "assets/ChainsawMan_API.png",
+        img: "/assets/ChainsawMan_API.png",
         url: "https://chainsaw-man.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -1167,11 +1167,11 @@ export const liste = [
     back: "bg-fuchsia-400",
     imageShow: [
       {
-        img: "assets/scan/dandadan_scan.png",
+        img: "/assets/scan/dandadan_scan.png",
         url: "dandadan/scans",
       },
       {
-        img: "assets/Dandadan_API.png",
+        img: "/assets/Dandadan_API.png",
         url: "https://dandadan.fandom.com/wiki/Characters",
       },
     ],
@@ -1214,7 +1214,7 @@ export const liste = [
         url: "jujustu-kaisen",
       },
       {
-        image: "assets/DemonSlave_poster.png",
+        image: "/assets/DemonSlave_poster.png",
         name: "Demon Slave",
         url: "demon-slave",
       },
@@ -1233,15 +1233,15 @@ export const liste = [
     back: "bg-black-death-note",
     imageShow: [
       {
-        img: "assets/DeathNote_poster.png",
+        img: "/assets/DeathNote_poster.png",
         url: "death-note/episodes",
       },
       {
-        img: "assets/scan/deathnote_scan.png",
+        img: "/assets/scan/deathnote_scan.png",
         url: "death-note/scans",
       },
       {
-        img: "assets/DeathNote_API.png",
+        img: "/assets/DeathNote_API.png",
         url: "https://deathnote.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -1305,27 +1305,27 @@ export const liste = [
     back: "bg-purple-demonKing-academy",
     imageShow: [
       {
-        img: "assets/DemonKingAcademy_poster.png",
+        img: "/assets/DemonKingAcademy_poster.png",
         url: "the-misfit-of-demon-king-academy/episodes",
       },
       {
-        img: "assets/scan/demonking_scan.png",
+        img: "/assets/scan/demonking_scan.png",
         url: "the-misfit-of-demon-king-academy/scans",
       },
       {
-        img: "assets/DemonKingAcademy_API.png",
+        img: "/assets/DemonKingAcademy_API.png",
         url: "https://maou-gakuin.fandom.com/wiki/Category:Characters",
       },
     ],
     titre: "text-stone-300 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/Irregular_poster.png",
+        image: "/assets/Irregular_poster.png",
         name: "The Irregular at Magic High School",
         url: "the-irregular-at-magic-high-school",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
@@ -1354,7 +1354,7 @@ export const liste = [
         url: "my-hero-academia",
       },
       {
-        image: "assets/EminenceShadow_poster.png",
+        image: "/assets/EminenceShadow_poster.png",
         name: "The Eminence in Shadow",
         url: "the-eminence-in-shadow",
       },
@@ -1374,19 +1374,19 @@ export const liste = [
     back: "bg-yellow-conan",
     imageShow: [
       {
-        img: "assets/Conan_poster.png",
+        img: "/assets/Conan_poster.png",
         url: "detective-conan/episodes",
       },
       {
-        img: "assets/Conan_FILMS.png",
+        img: "/assets/Conan_FILMS.png",
         url: "detective-conan/films",
       },
       {
-        img: "assets/scan/conan_scan.png",
+        img: "/assets/scan/conan_scan.png",
         url: "detective-conan/scans",
       },
       {
-        img: "assets/Conan_API.png",
+        img: "/assets/Conan_API.png",
         url: "https://detective-conan.fandom.com/fr/wiki/Personnages",
       },
     ],
@@ -1411,7 +1411,7 @@ export const liste = [
         url: "one-punch-man",
       },
       {
-        image: "assets/Lupin3rd_poster.png",
+        image: "/assets/Lupin3rd_poster.png",
         name: "Lupin the 3rd",
         url: "lupin-the-third",
       },
@@ -1422,12 +1422,12 @@ export const liste = [
         url: "haikyuu",
       },
       {
-        image: "assets/Frieren_poster.png",
+        image: "/assets/Frieren_poster.png",
         name: "Frieren",
         url: "frieren",
       },
       {
-        image: "assets/Kochikame_poster.png",
+        image: "/assets/Kochikame_poster.png",
         name: "Kochikame",
         url: "kochikame",
       },
@@ -1447,15 +1447,15 @@ export const liste = [
     back: "bg-lime-300",
     imageShow: [
       {
-        img: "assets/Dororo_poster.png",
+        img: "/assets/Dororo_poster.png",
         url: "dororo/episodes",
       },
       {
-        img: "assets/scan/dororo_scan.png",
+        img: "/assets/scan/dororo_scan.png",
         url: "dororo/scans",
       },
       {
-        img: "assets/Dororo_API.png",
+        img: "/assets/Dororo_API.png",
         url: "https://dororo.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1513,20 +1513,20 @@ export const liste = [
   },
   {
     id: "the-eminence-in-shadow",
-    imageTop: "assets/Shadow.png",
+    imageTop: "/assets/Shadow.png",
     class: "bg-violet-700 text-neutral-950 ",
     back: "bg-violet-shadow",
     imageShow: [
       {
-        img: "assets/EminenceShadow_poster.png",
+        img: "/assets/EminenceShadow_poster.png",
         url: "the-eminence-in-shadow/episodes",
       },
       {
-        img: "assets/scan/eminence_scan.png",
+        img: "/assets/scan/eminence_scan.png",
         url: "the-eminence-in-shadow/scans",
       },
       {
-        img: "assets/Eminence_API.png",
+        img: "/assets/Eminence_API.png",
         url: "https://the-eminence-in-shadow.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1545,12 +1545,12 @@ export const liste = [
         url: "mushoku-tensei",
       },
       {
-        image: "assets/TWFA_poster.png",
+        image: "/assets/TWFA_poster.png",
         name: "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
         url: "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
@@ -1588,19 +1588,19 @@ export const liste = [
     back: "bg-zinc-100",
     imageShow: [
       {
-        img: "assets/Ippo_poster.png",
+        img: "/assets/Ippo_poster.png",
         url: "hajime-no-ippo/episodes",
       },
       {
-        img: "assets/Ippo_FILMS.png",
+        img: "/assets/Ippo_FILMS.png",
         url: "hajime-no-ippo/films",
       },
       {
-        img: "assets/scan/ippo_scan.png",
+        img: "/assets/scan/ippo_scan.png",
         url: "hajime-no-ippo/scans",
       },
       {
-        img: "assets/Ippo_API.png",
+        img: "/assets/Ippo_API.png",
         url: "https://ippo.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnage",
       },
     ],
@@ -1612,7 +1612,7 @@ export const liste = [
         url: "ashita-no-joe",
       },
       {
-        image: "assets/Baki_poster.png",
+        image: "/assets/Baki_poster.png",
         name: "Baki",
         url: "baki",
       },
@@ -1629,7 +1629,7 @@ export const liste = [
         url: "one-piece",
       },
       {
-        image: "assets/KenganAshura_poster.png",
+        image: "/assets/KenganAshura_poster.png",
         name: "Kengan Ashura",
         url: "kengan-ashura",
       },
@@ -1655,20 +1655,20 @@ export const liste = [
   },
   {
     id: "jojo-bizarre-adventure",
-    imageTop: "assets/Jojo_top.png",
+    imageTop: "/assets/Jojo_top.png",
     class: "bg-violet-jojo text-yellow-300 ",
     back: "bg-blue-jojo",
     imageShow: [
       {
-        img: "assets/Jojo_poster.png",
+        img: "/assets/Jojo_poster.png",
         url: "jojo-bizarre-adventure/episodes",
       },
       {
-        img: "assets/scan/jojo_scan.png",
+        img: "/assets/scan/jojo_scan.png",
         url: "jojo-bizarre-adventure/scans",
       },
       {
-        img: "assets/Jojo_API.png",
+        img: "/assets/Jojo_API.png",
         url: "https://jjba.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -1711,7 +1711,7 @@ export const liste = [
         url: "hunter-x-hunter",
       },
       {
-        image: "assets/MobPsycho_poster.png",
+        image: "/assets/MobPsycho_poster.png",
         name: "Mob Psycho 100",
         url: "mob-psycho",
       },
@@ -1731,15 +1731,15 @@ export const liste = [
     back: "bg-teal-300",
     imageShow: [
       {
-        img: "assets/Kaiju_poster.png",
+        img: "/assets/Kaiju_poster.png",
         url: "kaiju-no-8/episodes",
       },
       {
-        img: "assets/scan/kaiju_scan.png",
+        img: "/assets/scan/kaiju_scan.png",
         url: "kaiju-no-8/scans",
       },
       {
-        img: "assets/Kaiju_API.png",
+        img: "/assets/Kaiju_API.png",
         url: "https://kaiju-no-8.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1770,7 +1770,7 @@ export const liste = [
         url: "jujustu-kaisen",
       },
       {
-        image: "assets/LoserRanger_poster.png",
+        image: "/assets/LoserRanger_poster.png",
         name: "No Longer Rangers",
         url: "no-longer-rangers",
       },
@@ -1802,19 +1802,19 @@ export const liste = [
     back: "bg-violet-kimetsu",
     imageShow: [
       {
-        img: "assets/DS_poster.png",
+        img: "/assets/DS_poster.png",
         url: "demon-slayer-kimetsu-no-yaiba/episodes",
       },
       {
-        img: "assets/DS_FILMS.png",
+        img: "/assets/DS_FILMS.png",
         url: "demon-slayer-kimetsu-no-yaiba/films",
       },
       {
-        img: "assets/scan/kimetsu_scan.png",
+        img: "/assets/scan/kimetsu_scan.png",
         url: "demon-slayer-kimetsu-no-yaiba/scans",
       },
       {
-        img: "assets/DS_API.png",
+        img: "/assets/DS_API.png",
         url: "https://kimetsu-no-yaiba.fandom.com/fr/wiki/Personnages",
       },
     ],
@@ -1878,15 +1878,15 @@ export const liste = [
     back: "bg-amber-kingdom",
     imageShow: [
       {
-        img: "assets/Kingdom_poster.png",
+        img: "/assets/Kingdom_poster.png",
         url: "kingdom/episodes",
       },
       {
-        img: "assets/scan/kingdom_scan.png",
+        img: "/assets/scan/kingdom_scan.png",
         url: "kingdom/scans",
       },
       {
-        img: "assets/Kingdom_API.png",
+        img: "/assets/Kingdom_API.png",
         url: "https://kingdom.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1950,15 +1950,15 @@ export const liste = [
     back: "bg-cyan-konosuba",
     imageShow: [
       {
-        img: "assets/Konosuba.png",
+        img: "/assets/Konosuba.png",
         url: "konosuba/episodes",
       },
       {
-        img: "assets/Konosuba_FILMS.png",
+        img: "/assets/Konosuba_FILMS.png",
         url: "konosuba/films",
       },
       {
-        img: "assets/Konosuba_API.png",
+        img: "/assets/Konosuba_API.png",
         url: "https://konosuba.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -1977,7 +1977,7 @@ export const liste = [
         url: "mushoku-tensei",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
@@ -1994,7 +1994,7 @@ export const liste = [
         url: "danmachi",
       },
       {
-        image: "assets/Frieren_poster.png",
+        image: "/assets/Frieren_poster.png",
         name: "Frieren",
         url: "frieren",
       },
@@ -2005,7 +2005,7 @@ export const liste = [
         url: "sword-art-online",
       },
       {
-        image: "assets/EminenceShadow_poster.png",
+        image: "/assets/EminenceShadow_poster.png",
         name: "The Eminence in Shadow",
         url: "the-eminence-in-shadow",
       },
@@ -2019,19 +2019,19 @@ export const liste = [
     back: "bg-zinc-100",
     imageShow: [
       {
-        img: "assets/Kuroko_poster.png",
+        img: "/assets/Kuroko_poster.png",
         url: "kuroko-basket/episodes",
       },
       {
-        img: "assets/Kuroko_FILMS.png",
+        img: "/assets/Kuroko_FILMS.png",
         url: "kuroko-basket/films",
       },
       {
-        img: "assets/scan/kuroko_scan.png",
+        img: "/assets/scan/kuroko_scan.png",
         url: "kuroko-basket/scans",
       },
       {
-        img: "assets/Kuroko_API.png",
+        img: "/assets/Kuroko_API.png",
         url: "https://kurokosbasket.fandom.com/fr/wiki/Personnages",
       },
     ],
@@ -2094,22 +2094,22 @@ export const liste = [
     back: "bg-red-mashle",
     imageShow: [
       {
-        img: "assets/Mashle_poster.png",
+        img: "/assets/Mashle_poster.png",
         url: "mashle/episodes",
       },
       {
-        img: "assets/scan/mashle_scan.png",
+        img: "/assets/scan/mashle_scan.png",
         url: "mashle/scans",
       },
       {
-        img: "assets/Mashle_API.png",
+        img: "/assets/Mashle_API.png",
         url: "https://mashle.fandom.com/wiki/List_of_Characters",
       },
     ],
     titre: "text-yellow-300 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/MobPsycho_poster.png",
+        image: "/assets/MobPsycho_poster.png",
         name: "Mob Psycho 100",
         url: "mob-psycho",
       },
@@ -2132,7 +2132,7 @@ export const liste = [
         url: "one-punch-man",
       },
       {
-        image: "assets/Frieren_poster.png",
+        image: "/assets/Frieren_poster.png",
         name: "Frieren",
         url: "frieren",
       },
@@ -2164,19 +2164,19 @@ export const liste = [
     back: "bg-cyan-slime",
     imageShow: [
       {
-        img: "assets/Slime_poster.png",
+        img: "/assets/Slime_poster.png",
         url: "moi-quand-je-me-reincarne-en-slime/episodes",
       },
       {
-        img: "assets/Slime_FILMS.png",
+        img: "/assets/Slime_FILMS.png",
         url: "moi-quand-je-me-reincarne-en-slime/films",
       },
       {
-        img: "assets/scan/slime_scan.png",
+        img: "/assets/scan/slime_scan.png",
         url: "moi-quand-je-me-reincarne-en-slime/scans",
       },
       {
-        img: "assets/Slime_API.png",
+        img: "/assets/Slime_API.png",
         url: "https://tensura.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -2224,7 +2224,7 @@ export const liste = [
         url: "arifureta",
       },
       {
-        image: "assets/EminenceShadow_poster.png",
+        image: "/assets/EminenceShadow_poster.png",
         name: "The Eminence in Shadow",
         url: "the-eminence-in-shadow",
       },
@@ -2232,20 +2232,20 @@ export const liste = [
   },
   {
     id: "mushoku-tensei",
-    imageTop: "assets/Mushoku.png",
+    imageTop: "/assets/Mushoku.png",
     class: "bg-yellow-900 text-yellow-500",
     back: "bg-cyan-slime",
     imageShow: [
       {
-        img: "assets/MushokuTensei_poster.png",
+        img: "/assets/MushokuTensei_poster.png",
         url: "mushoku-tensei/episodes",
       },
       {
-        img: "assets/scan/mushokutensei_scan.png",
+        img: "/assets/scan/mushokutensei_scan.png",
         url: "mushoku-tensei/scans",
       },
       {
-        img: "assets/Mushoku_API.png",
+        img: "/assets/Mushoku_API.png",
         url: "https://mushokutensei.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -2258,7 +2258,7 @@ export const liste = [
         url: "demon-slayer-kimetsu-no-yaiba",
       },
       {
-        image: "assets/Frieren_poster.png",
+        image: "/assets/Frieren_poster.png",
         name: "Frieren",
         url: "frieren",
       },
@@ -2293,7 +2293,7 @@ export const liste = [
         url: "vinland-saga",
       },
       {
-        image: "assets/DemonSlave_poster.png",
+        image: "/assets/DemonSlave_poster.png",
         name: "Demon Slave",
         url: "demon-slave",
       },
@@ -2307,22 +2307,22 @@ export const liste = [
     back: "bg-yellow-300",
     imageShow: [
       {
-        img: "assets/OnePunch_poster.png",
+        img: "/assets/OnePunch_poster.png",
         url: "one-punch-man/episodes",
       },
       {
-        img: "assets/scan/onepunch_scan.png",
+        img: "/assets/scan/onepunch_scan.png",
         url: "one-punch-man/scans",
       },
       {
-        img: "assets/OnePunch_API.png",
+        img: "/assets/OnePunch_API.png",
         url: "https://onepunchman.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
     titre: "text-red-600 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/MobPsycho_poster.png",
+        image: "/assets/MobPsycho_poster.png",
         name: "Mob Psycho 100",
         url: "mob-psycho",
       },
@@ -2376,15 +2376,15 @@ export const liste = [
     back: "bg-amber-remonster",
     imageShow: [
       {
-        img: "assets/ReMonster_poster.png",
+        img: "/assets/ReMonster_poster.png",
         url: "re-monster/episodes",
       },
       {
-        img: "assets/scan/remonster_scan.png",
+        img: "/assets/scan/remonster_scan.png",
         url: "re-monster/scans",
       },
       {
-        img: "assets/ReMonster_API.png",
+        img: "/assets/ReMonster_API.png",
         url: "https://re-monster.fandom.com/wiki/Characters",
       },
     ],
@@ -2397,7 +2397,7 @@ export const liste = [
         url: "re-zero",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
@@ -2420,12 +2420,12 @@ export const liste = [
         url: "wind-breaker",
       },
       {
-        image: "assets/Konosuba.png",
+        image: "/assets/Konosuba.png",
         name: "Konosuba",
         url: "konosuba",
       },
       {
-        image: "assets/SoloLevelling_poster.png",
+        image: "/assets/SoloLevelling_poster.png",
         name: "Solo Levelling",
         url: "solo-levelling",
       },
@@ -2445,22 +2445,22 @@ export const liste = [
     back: "bg-green-shieldhero",
     imageShow: [
       {
-        img: "assets/ShieldHero_poster.png",
+        img: "/assets/ShieldHero_poster.png",
         url: "the-rising-of-the-shield-hero/episodes",
       },
       {
-        img: "assets/scan/shieldhero_scan.png",
+        img: "/assets/scan/shieldhero_scan.png",
         url: "the-rising-of-the-shield-hero/scans",
       },
       {
-        img: "assets/ShieldHero_API.png",
+        img: "/assets/ShieldHero_API.png",
         url: "https://shield-hero.fandom.com/wiki/Characters",
       },
     ],
     titre: "text-zinc-300 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/RealistHero_poster.png",
+        image: "/assets/RealistHero_poster.png",
         name: "How a Realist Hero Rebuilt the Kingdom",
         url: "how-a-realist-hero-rebuilt-the-kingdom",
       },
@@ -2483,12 +2483,12 @@ export const liste = [
         url: "the-demon-sword-master-of-excalibur-academy",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
       {
-        image: "assets/BlackS_poster.png",
+        image: "/assets/BlackS_poster.png",
         name: "Black Summoner",
         url: "black-summoner",
       },
@@ -2614,11 +2614,11 @@ export const liste = [
     back: "bg-yellow-200",
     imageShow: [
       {
-        img: "assets/scan/sakamotodays_scan.png",
+        img: "/assets/scan/sakamotodays_scan.png",
         url: "sakamoto-days/scans",
       },
       {
-        img: "assets/Sakamoto_API.png",
+        img: "/assets/Sakamoto_API.png",
         url: "https://sakamoto-days.fandom.com/wiki/List_of_Characters",
       },
     ],
@@ -2682,15 +2682,15 @@ export const liste = [
     back: "bg-orange-shippuden",
     imageShow: [
       {
-        img: "assets/shippuden.png",
+        img: "/assets/shippuden.png",
         url: "naruto-shippuden/episodes",
       },
       {
-        img: "assets/Shippuden_FILMS.png",
+        img: "/assets/Shippuden_FILMS.png",
         url: "naruto-shippuden/films",
       },
       {
-        img: "assets/scan/shippuden_scan.png",
+        img: "/assets/scan/shippuden_scan.png",
         url: "naruto-shippuden/scans",
       },
     ],
@@ -2709,7 +2709,7 @@ export const liste = [
         url: "boruto",
       },
       {
-        image: "assets/DBS.png",
+        image: "/assets/DBS.png",
         name: "Dragon Ball Super",
         url: "dragon-ball-super",
       },
@@ -2753,15 +2753,15 @@ export const liste = [
     back: "bg-emerald-spyfamily",
     imageShow: [
       {
-        img: "assets/SpyFamily_poster.png",
+        img: "/assets/SpyFamily_poster.png",
         url: "spy-x-family/episodes",
       },
       {
-        img: "assets/scan/spy_scan.png",
+        img: "/assets/scan/spy_scan.png",
         url: "spy-x-family/scans",
       },
       {
-        img: "assets/SpyFamily_API.png",
+        img: "/assets/SpyFamily_API.png",
         url: "https://spy-x-family.fandom.com/wiki/List_of_Characters",
       },
     ],
@@ -2804,7 +2804,7 @@ export const liste = [
         url: "urusei-yatsura",
       },
       {
-        image: "assets/MyOneKillSister_poster.png",
+        image: "/assets/MyOneKillSister_poster.png",
         name: "My One-Hit Kill Sister",
         url: "my-one-hit-kill-sister",
       },
@@ -2831,15 +2831,15 @@ export const liste = [
         url: "tokyo-ghoul-re",
       },
       {
-        img: "assets/TokyoGhoul_FILMS.png",
+        img: "/assets/TokyoGhoul_FILMS.png",
         url: "tokyo-ghoul/films",
       },
       {
-        img: "assets/scan/tokyoghoul_scan.png",
+        img: "/assets/scan/tokyoghoul_scan.png",
         url: "tokyo-ghoul/scans",
       },
       {
-        img: "assets/TokyoGhoul_API.png",
+        img: "/assets/TokyoGhoul_API.png",
         url: "https://tokyoghoul.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnages",
       },
     ],
@@ -2903,22 +2903,22 @@ export const liste = [
     back: "bg-slate-800",
     imageShow: [
       {
-        img: "assets/TomodachiGame_poster.png",
+        img: "/assets/TomodachiGame_poster.png",
         url: "tomodachi-game/episodes",
       },
       {
-        img: "assets/scan/tomodachigame_scan.png",
+        img: "/assets/scan/tomodachigame_scan.png",
         url: "tomodachi-game/scans",
       },
       {
-        img: "assets/TomodachiGame_API.png",
+        img: "/assets/TomodachiGame_API.png",
         url: "https://tomodachi-game.fandom.com/wiki/Characters",
       },
     ],
     titre: "text-red-600 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/Doubt_poster.png",
+        image: "/assets/Doubt_poster.png",
         name: "Doubt",
         url: "rabbit-doubt",
       },
@@ -2947,7 +2947,7 @@ export const liste = [
         url: "tokyo-revengers",
       },
       {
-        image: "assets/5seconds_poster.png",
+        image: "/assets/5seconds_poster.png",
         name: "5 Seconds to Death",
         url: "5-seconds-to-death",
       },
@@ -2973,18 +2973,18 @@ export const liste = [
     back: "bg-blue-tsukimichi",
     imageShow: [
       {
-        img: "assets/Tsukimichi_poster.png",
+        img: "/assets/Tsukimichi_poster.png",
         url: "tsukimichi-moonlit-fantasy/episodes",
       },
       {
-        img: "assets/Tsukimichi_API.png",
+        img: "/assets/Tsukimichi_API.png",
         url: "https://tsukimichi.fandom.com/wiki/Category:Character",
       },
     ],
     titre: "text-yellow-400 text-2xl pb-2.5 ml-2",
     imageCarousel: [
       {
-        image: "assets/RealistHero_poster.png",
+        image: "/assets/RealistHero_poster.png",
         name: "How a Realist Hero Rebuilt the Kingdom",
         url: "how-a-realist-hero-rebuilt-the-kingdom",
       },
@@ -3001,12 +3001,12 @@ export const liste = [
         url: "im-quitting-heroing",
       },
       {
-        image: "assets/Slime_poster.png",
+        image: "/assets/Slime_poster.png",
         name: "Moi, Quand je me Réincarne en Slime",
         url: "moi-quand-je-me-reincarne-en-slime",
       },
       {
-        image: "assets/Antimagic_poster.png",
+        image: "/assets/Antimagic_poster.png",
         name: "Antimagic Academy",
         url: "antimagic-academy",
       },
@@ -3038,15 +3038,15 @@ export const liste = [
     back: "bg-amber-200",
     imageShow: [
       {
-        img: "assets/VinlandSaga_poster.png",
+        img: "/assets/VinlandSaga_poster.png",
         url: "vinland-saga/episodes",
       },
       {
-        img: "assets/scan/vinlandsaga_scan.png",
+        img: "/assets/scan/vinlandsaga_scan.png",
         url: "vinland-saga/scans",
       },
       {
-        img: "assets/VinlandSaga_API.png",
+        img: "/assets/VinlandSaga_API.png",
         url: "https://vinlandsaga.fandom.com/wiki/Category:Characters",
       },
     ],
@@ -3110,15 +3110,15 @@ export const liste = [
     back: "bg-green-400",
     imageShow: [
       {
-        img: "assets/WindBreaker_poster.png",
+        img: "/assets/WindBreaker_poster.png",
         url: "wind-breaker/episodes",
       },
       {
-        img: "assets/scan/windbreaker_scan.png",
+        img: "/assets/scan/windbreaker_scan.png",
         url: "wind-breaker/scans",
       },
       {
-        img: "assets/WindBreaker_API.png",
+        img: "/assets/WindBreaker_API.png",
         url: "https://wind-breaker.fandom.com/wiki/List_of_characters",
       },
     ],
@@ -3155,17 +3155,17 @@ export const liste = [
         url: "one-piece",
       },
       {
-        image: "assets/Frieren_poster.png",
+        image: "/assets/Frieren_poster.png",
         name: "Frieren",
         url: "frieren",
       },
       {
-        image: "assets/LoserRanger_poster.png",
+        image: "/assets/LoserRanger_poster.png",
         name: "No Longer Rangers",
         url: "no-longer-rangers",
       },
       {
-        image: "assets/EminenceShadow_poster.png",
+        image: "/assets/EminenceShadow_poster.png",
         name: "The Eminence in Shadow",
         url: "the-eminence-in-shadow",
       },
@@ -3179,19 +3179,19 @@ export const liste = [
     back: "bg-green-yuyuhakusho",
     imageShow: [
       {
-        img: "assets/YuYuHakusho_poster.png",
+        img: "/assets/YuYuHakusho_poster.png",
         url: "yu-yu-hakusho/episodes",
       },
       {
-        img: "assets/YuYuHakusho_FILMS.png",
+        img: "/assets/YuYuHakusho_FILMS.png",
         url: "yu-yu-hakusho/films",
       },
       {
-        img: "assets/scan/yuyuhakusho_scan.png",
+        img: "/assets/scan/yuyuhakusho_scan.png",
         url: "yu-yu-hakusho/scans",
       },
       {
-        img: "assets/YuYuHakusho_API.png",
+        img: "/assets/YuYuHakusho_API.png",
         url: "https://yuyuhakusho.fandom.com/wiki/Characters",
       },
     ],

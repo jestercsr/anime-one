@@ -10,24 +10,64 @@ import {
   Home,
   ShoppingCart,
   CircleUserRound,
+  Menu,
+  X,
 } from "lucide-react";
+import { useState } from "react";
 
 export default function Navbar(props) {
+  const [isMenu, setIsMenu] = useState(false);
+
+  function toogleNavbar() {
+    setIsMenu(!isMenu);
+  }
+
+  const navlinks = [
+    {
+      label: "Films",
+      lien: "/films",
+      icon: <Film />,
+    },
+    {
+      label: "Séries",
+      lien: "/series",
+      icon: <Clapperboard />,
+    },
+    {
+      label: "Scans",
+      lien: "/scans",
+      icon: <BookOpenText />,
+    },
+    {
+      label: "Boutiques",
+      lien: "/stores",
+      icon: <ShoppingCart />,
+    },
+    {
+      label: "Feeds",
+      lien: "/post_edit",
+      icon: <Newspaper />,
+    },
+  ];
+
   return (
     <div className={props.className}>
-      <nav className=" flex w-screen justify-between items-center w-full md:max-w-screen-md text-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl ">
-        <div>
-          <Link href={"/accueil"}>
-            <div className="hidden tablet:block w-20">
-              <img src="assets/logoAnimeplus.png" className=" block" />
-            </div>
-            <div className="block w-20 tablet:hidden">
-              <img src="assets/logoAnimeplusHome.png" className="block" />
-            </div>
-          </Link>
-        </div>
-
-        <div className="hidden sm:block flex-shrink flex-grow-0 justify-start px-2">
+      <nav className="flex justify-between px-8 items-center py-6">
+        <section className="flex items-center gap-4">
+          <div>
+            <Link href={"/accueil"}>
+              <div className="hidden tablet:block w-20">
+                <img src="assets/logoAnimeplus.png" className=" block" />
+              </div>
+              <div className="block w-20 tablet:hidden">
+                <img src="assets/logoAnimeplusHome.png" className="block" />
+              </div>
+            </Link>
+          </div>
+        </section>
+        <Menu className="text-3xl items-end cursor-pointer md:hidden" />
+        <section className="md:static md:min-h-fit absolute min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex">
+        <div className="hidden md:block flex-shrink flex-grow-0 justify-start px-2">
           <div className="inline-block">
             <div className="inline-flex items-center max-w-full">
               <button className="flex items-center flex-grow-0 flex-shrink pl-2 relative w-60 border rounded-full px-1  py-1">
@@ -39,61 +79,34 @@ export default function Navbar(props) {
             </div>
           </div>
         </div>
-
-        <div className="flex">
-          <div className="flex justify-end items-center relative">
-            <div className="flex mr-4 items-center">
-              <ul className="flex items-center justify-between space-x-16 list-none m-auto laptop:flex items-center justify-between space-x-40 list-none m-auto">
-                <li className="inline-flex ">
-                  <Link href="/films" className="inline-flex items-center">
-                    <Film className="mr-1" />
-                    Films
-                  </Link>
-                </li>
+          <ul
+            style={{
+              display: "flex",
+              gap: "20px",
+              listStyle: "none",
+              right: isMenu ? "0" : "-100%",
+              marginRight: "10px",
+            }}
+          >
+            {navlinks.map((link, i) => {
+              return (
                 <li>
                   <Link
-                    href="/series"
-                    className="inline-flex items-center"
+                    key={i}
+                    href={link.lien}
+                    className="inline-flex items-center mr-5"
                   >
-                    <Clapperboard className="mr-1" />
-                    Séries
+                    {link.icon}
+                    <span>{link.label}</span>
                   </Link>
                 </li>
-                <li>
-                  <Link href="/scans" className="inline-flex items-center">
-                    <BookOpenText className="mr-1" />
-                    Scans
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/stores"
-                    className="inline-flex items-center"
-                  >
-                    <ShoppingCart className="mr-1" />
-                    Boutique
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/post_edit"
-                    className="inline-flex items-center m-5"
-                  >
-                    <Newspaper className="mr-1" />
-                    Feeds
-                  </Link>
-                </li>
-                <div className="flex">
-                  <div className="relative">
-                    <button className="inline-flex items-end space-x-16">
-                      <CircleUserRound />
-                    </button>
-                  </div>
-                </div>
-              </ul>
-            </div>
-          </div>
-        </div>
+              );
+            })}
+          </ul>
+          <section className="items-center gap-6">
+            <CircleUserRound />
+          </section>
+        </section>
       </nav>
     </div>
   );
