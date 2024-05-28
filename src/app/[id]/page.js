@@ -43,7 +43,7 @@ export default function MangaList({ params }) {
         <Navbar className={found.class} />
         <MainComposent className={found.back}>
           <div className="h-4/5 justify-center m-auto flex">
-            <img src={found.imageTop} className="w-4/5" />
+            <img src={found.imageTop} className="w-9/12 h-svh" />
           </div>
           <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
             {found.imageShow.map((select) => {

@@ -75,6 +75,8 @@ module.exports = {
         "emerald-spyfamily": "rgba(129,167,137,0.7)",
         "blue-tsukimichi": "rgba(12,27,102,0.7)",
         "green-yuyuhakusho": "rgba(14,116,34,0.6)",
+        "sky-undead-unluck": "rgb(2,132,199,0.7)",
+        "yellow-koro-sensei": "rgb(251,255,0,0.6)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

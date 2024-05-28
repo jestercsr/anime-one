@@ -2,7 +2,7 @@ export const liste = [
   {
     id: "one-piece",
     imageTop:
-      "https://is4-ssl.mzstatic.com/image/thumb/9CNTcBGBPRW5eiQV_dVdsg/1600x900.jpg",
+      "https://plus.tver.jp/prod/kanren_news/20231117/7750da3b7f0448cb55bb2614b9d68133.jpg",
     class: "bg-red-600 text-slate-50 list-none",
     back: "bg-red-onepiece",
     imageShow: [
@@ -78,7 +78,7 @@ export const liste = [
   {
     id: "naruto",
     imageTop:
-      "https://is5-ssl.mzstatic.com/image/thumb/RfZQAWSAK4klWt7UbrqXFA/1200x630.jpg",
+      "https://is5-ssl.mzstatic.com/image/thumb/ob2qWtC0Nbrgc7tqdVOeyQ/1200x675mf.jpg",
     class: "bg-blue-600 text-orange-500 ",
     back: "bg-orange-naruto",
     imageShow: [
@@ -320,7 +320,7 @@ export const liste = [
   {
     id: "hunter-x-hunter",
     imageTop:
-      "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
+      "https://www.compgamer.com/mainpage/wp-content/uploads/2023/12/hunterend-1024x574-1.jpg",
     class: "bg-orange-500 text-slate-50 ",
     back: "bg-green-hunter",
     imageShow: [
@@ -400,7 +400,7 @@ export const liste = [
   {
     id: "shingeki-no-kyojin",
     imageTop:
-      "https://is3-ssl.mzstatic.com/image/thumb/u0Y-4aNADi2HCk8xlePR9A/1200x675.jpg",
+      "https://th.bing.com/th/id/R.4ad23a95908f13ccbfb9500061dfc4f1?rik=QIxiqUmwCs7xgg&riu=http%3a%2f%2fm.gettywallpapers.com%2fwp-content%2fuploads%2f2023%2f12%2fAttack-on-Titan-Computer-Wallpaper-1536x864.jpg&ehk=7l%2f2QH65HaPtujOeIf3lifYMgiDdMD1VL4fjf6bzA9k%3d&risl=&pid=ImgRaw&r=0",
     class: "bg-amber-marron text-slate-50 ",
     back: "bg-amber-snk",
     imageShow: [
@@ -938,8 +938,7 @@ export const liste = [
   },
   {
     id: "boruto",
-    imageTop:
-      "https://is3-ssl.mzstatic.com/image/thumb/Xf7YHUc82n3YYLOYtTRIGw/1200x675mf.jpg",
+    imageTop: "/assets/Boruto_Top.png",
     class: "bg-neutral-boruto text-pink-boruto ",
     back: "bg-slate-boruto",
     imageShow: [
@@ -1299,8 +1298,7 @@ export const liste = [
   },
   {
     id: "the-misfit-of-demon-king-academy",
-    imageTop:
-      "https://i.ytimg.com/vi/LTa0YUsfuUg/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDUgUCh_MA8=&rs=AOn4CLCvaMHQb094xDgUCUR5pNcOHoz4SQ",
+    imageTop: "https://wallpapercave.com/wp/wp6746184.jpg",
     class: "bg-slate-50 text-blue-700 ",
     back: "bg-purple-demonKing-academy",
     imageShow: [
@@ -1796,8 +1794,7 @@ export const liste = [
   },
   {
     id: "demon-slayer-kimetsu-no-yaiba",
-    imageTop:
-      "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+    imageTop: "https://wallpapercave.com/wp/wp6374954.jpg",
     class: "bg-green-400 text-neutral-950",
     back: "bg-violet-kimetsu",
     imageShow: [
@@ -2158,8 +2155,7 @@ export const liste = [
   },
   {
     id: "moi-quand-je-me-reincarne-en-slime",
-    imageTop:
-      "https://tugumalang.id/wp-content/uploads/2022/08/WhatsApp-Image-2022-08-10-at-08.11.45.jpeg",
+    imageTop: "/assets/Slime_Top.png",
     class: "bg-blue-600 text-slate-50",
     back: "bg-cyan-slime",
     imageShow: [
@@ -2967,8 +2963,7 @@ export const liste = [
   },
   {
     id: "tsukimichi-moonlit-fantasy",
-    imageTop:
-      "https://images-geeknative-com.exactdn.com/wp-content/uploads/2020/10/22203757/Tsukimichi-Moonlit-Fantasy-banner.jpg?strip=all&lossy=1&ssl=1",
+    imageTop: "https://wallpaperaccess.com/full/7186685.png",
     class: "bg-indigo-900 text-yellow-400",
     back: "bg-blue-tsukimichi",
     imageShow: [
@@ -3244,6 +3239,405 @@ export const liste = [
           "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
         name: "Naruto",
         url: "naruto",
+      },
+    ],
+  },
+  {
+    id: "undead-unluck",
+    imageTop: "assets/Undead_Top.png",
+    class: "bg-pink-400 text-sky-500",
+    back: "bg-sky-undead-unluck",
+    imageShow: [
+      {
+        img: "/assets/Undead_poster.png",
+        url: "undead-unluck/episodes",
+      },
+      {
+        img: "/assets/scan/undead_scan.png",
+        url: "undead-unluck/scans",
+      },
+      {
+        img: "/assets/Undead_API.png",
+        url: "https://undead-unluck.fandom.com/wiki/Category:Characters",
+      },
+    ],
+    titre: "text-pink-400 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
+      {
+        image: "/assets/Frieren_poster.png",
+        name: "Frieren",
+        url: "frieren",
+      },
+      {
+        image:
+          "https://tierragamer.com/wp-content/uploads/2022/08/Sakamoto-days-2-1024x576.jpg",
+        name: "Sakamoto Days",
+        url: "sakamoto-days",
+      },
+      {
+        image: "https://mashle.pw/teaser/img/special/tw100000/wp_pc.jpg",
+        name: "Mashle",
+        url: "mashle",
+      },
+      {
+        image:
+          "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+        name: "Jujustu Kaisen",
+        url: "jujustu-kaisen",
+      },
+      {
+        image:
+          "https://originalnews.nico/wp-content/uploads/2021/06/24160033/ynsns01.jpg",
+        name: "Dandadan",
+        url: "dandadan",
+      },
+      {
+        image:
+          "https://image.tmdb.org/t/p/original/pRYu2rW3zPs07BiymQeTxqrnk5r.jpg",
+        name: "Zom 100: Bucket List of the Dead",
+        url: "bucket-list-of-the-dead",
+      },
+      {
+        image:
+          "https://images.everyeye.it/img-notizie/kaiju-no-8-anime-verrA-annunciato-secondo-leak-v3-601343.jpg",
+        name: "Kaiju8",
+        url: "kaiju-no-8",
+      },
+      {
+        image:
+          "https://is5-ssl.mzstatic.com/image/thumb/9tMv1_hQCBxT2nIKAMEE2g/1200x630.jpg",
+        name: "One Punch Man",
+        url: "one-punch-man",
+      },
+    ],
+  },
+  {
+    id: "assassination-classroom",
+    imageTop:
+      "https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1dsIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5eb062131799c8c49637c7ae7fb753f7482e3615/27216f7a-a59d-4865-b34b-08e5b3e62f2c.jpg",
+    class: "bg-yellow-300 text-neutral-950",
+    back: "bg-yellow-koro-sensei",
+    imageShow: [
+      {
+        img: "/assets/A_Classroom_poster.png",
+        url: "assassination-classroom/episodes",
+      },
+      {
+        img: "/assets/A_Classroom_FILMS.png",
+        url: "assassination-classroom/films",
+      },
+      {
+        img: "/assets/scan/a_classroom_scan.png",
+        url: "assassination-classroom/scans",
+      },
+      {
+        img: "/assets/A_Classroom_API.png",
+        url: "https://ansatsukyoshitsu.fandom.com/wiki/Characters",
+      },
+    ],
+    titre: "text-neutral-950 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
+      {
+        image:
+          "https://is1-ssl.mzstatic.com/image/thumb/SvPOWK0GLAc6oa1ZgFjBYA/1200x675.jpg",
+        name: "Classroom of the Elite",
+        url: "classroom-of-the-elite",
+      },
+      {
+        image: "/assets/TWFA_poster.png",
+        name: "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
+        url: "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
+      },
+      {
+        image:
+          "https://is1-ssl.mzstatic.com/image/thumb/jB9Ven0nPhh6qLdbmZrRQA/1200x675.jpg",
+        name: "Saiki Kusuo no Psi Nan",
+        url: "saiki-kusuo",
+      },
+      {
+        image:
+          "https://gameranx.com/wp-content/uploads/2022/12/SpyClassroom_KV_GANX-1536x864.png",
+        name: "Spy Classroom",
+        url: "spy-classroom",
+      },
+      {
+        image: "/assets/MobPsycho_poster.png",
+        name: "Mob Psycho 100",
+        url: "mob-psycho",
+      },
+      {
+        image:
+          "https://is5-ssl.mzstatic.com/image/thumb/abu8Qv9coRFNW9HJVX0mMg/1200x675.jpg",
+        name: "Akashic Record of Bastard Magic Instructor",
+        url: "akashic-record",
+      },
+      {
+        image: "assets/Iruma_poster.png",
+        name: "Iruma à l'école des Démons",
+        url: "iruma-a-l-ecole-des-demons",
+      },
+      {
+        image:
+          "https://th.bing.com/th/id/R.2e59552aec741aaf1a9764fdf56b4059?rik=prx9LLzPc25sCA&riu=http%3a%2f%2fwww.animearchivos.com%2fwp-content%2fuploads%2f2016%2f03%2fPrison-School-AnimeArchivos.png&ehk=WxvRSWv01b0X3ui23%2fl0%2b2q%2ftzzQKID6XDzg%2fx6cCfQ%3d&risl=&pid=ImgRaw&r=0",
+        name: "Prison School",
+        url: "prison-school",
+      },
+    ],
+  },
+  {
+    id: "re-zero",
+    imageTop:
+      "https://images2-mega.cdn.mdstrm.com/etcetera/2020/06/23/11774_1_5ef26f44aa067.jpg?d=1200x500",
+    class: "bg-violet-600 text-slate-50",
+    back: "bg-purple-400",
+    imageShow: [
+      {
+        img: "/assets/ReZero_poster.png",
+        url: "re-zero/episodes",
+      },
+      {
+        img: "/assets/ReZero_API.png",
+        url: "https://rezero.fandom.com/wiki/Characters",
+      },
+    ],
+    titre: "text-slate-50 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
+      {
+        image: "/assets/Konosuba.png",
+        name: "Konosuba",
+        url: "konosuba",
+      },
+      {
+        image:
+          "https://is4-ssl.mzstatic.com/image/thumb/GZn_ZBjRo6X7slSNUPxA2A/1200x675.jpg",
+        name: "Sword Art Online",
+        url: "sword-art-online",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
+        name: "Mushoku Tensei",
+        url: "mushoku-tensei",
+      },
+      {
+        image:
+          "https://www.themoviedb.org/t/p/original/9W7JRC7MLpjLSLZsUScHHFRkDPR.jpg",
+        name: "Overlord",
+        url: "overlord",
+      },
+      {
+        image: "assets/ReMonster_poster.png",
+        name: "Re: Monster",
+        url: "re-monster",
+      },
+      {
+        image: "/assets/Slime_poster.png",
+        name: "Moi, Quand je me Réincarne en Slime",
+        url: "moi-quand-je-me-reincarne-en-slime",
+      },
+      {
+        image:
+          "https://images.ciatr.jp/2020/06/w_1000/WgHHSxRmlOxF94ih62riNXuBi4uHtXh7an3nIDQS.jpeg",
+        name: "DanMachi",
+        url: "danmachi",
+      },
+      {
+        image:
+          "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
+        name: "Naruto",
+        url: "naruto",
+      },
+    ],
+  },
+  {
+    id: "reincarnated-as-a-sword",
+    imageTop:
+      "https://is3-ssl.mzstatic.com/image/thumb/ZE9DYiSJB5Nj1Sx57Fw0AQ/1200x675.jpg",
+    class: "bg-slate-50 text-fuchsia-500",
+    back: "bg-zinc-200",
+    imageShow: [
+      {
+        img: "https://wallpaperaccess.com/full/11143339.jpg",
+        url: "reincarnated-as-a-sword/episodes",
+      },
+      {
+        img: "/assets/Sword_API.png",
+        url: "https://ten-ken.fandom.com/wiki/Category:Characters",
+      },
+    ],
+    titre: "text-fuchsia-500 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
+      {
+        image: "/assets/Slime_poster.png",
+        name: "Moi, Quand je me Réincarne en Slime",
+        url: "moi-quand-je-me-reincarne-en-slime",
+      },
+      {
+        image: "/assets/7thPrince_poster.png",
+        name: "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+        url: "le-7-eme-prince",
+      },
+      {
+        image: "/assets/Skeleton_poster.png",
+        name: "Skeleton Knight in Another World",
+        url: "skeleton-knight-in-another-world",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
+        name: "Mushoku Tensei",
+        url: "mushoku-tensei",
+      },
+      {
+        image: "/assets/EminenceShadow_poster.png",
+        name: "The Eminence in Shadow",
+        url: "the-eminence-in-shadow",
+      },
+      {
+        image: "/assets/Konosuba.png",
+        name: "Konosuba",
+        url: "konosuba",
+      },
+      {
+        image: "/assets/Spider_poster.png",
+        name: "So I'm a Spider, So What?",
+        url: "kumo-desu-ga-nani-ka",
+      },
+      {
+        image:
+          "https://is5-ssl.mzstatic.com/image/thumb/sx8IfleuLqVRCn-hai3uvg/1200x675.jpg",
+        name: "The Familiar of Zero",
+        url: "zero-no-tsukaima",
+      },
+    ],
+  },
+  {
+    id: "the-irregular-at-magic-high-school",
+    imageTop: "https://images2.alphacoders.com/828/thumb-1920-828201.png",
+    class: "bg-slate-50 text-emerald-500",
+    back: "bg-emerald-300",
+    imageShow: [
+      {
+        img: "/assets/Irregular_poster.png",
+        url: "the-irregular-at-magic-high-school/episodes",
+      },
+      {
+        img: "/assets/Irregular_API.png",
+        url: "https://mahouka-koukou-no-rettousei.fandom.com/wiki/Category:Characters",
+      },
+    ],
+    titre: "text-slate-50 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
+      {
+        image:
+          "https://th.bing.com/th/id/OIP.m-1XQO-XgJug0OfXwSbCsgHaEK?rs=1&pid=ImgDetMain",
+        name: "The Misfit of Demon King Academy",
+        url: "the-misfit-of-demon-king-academy",
+      },
+      {
+        image: "/assets/Slime_poster.png",
+        name: "Moi, Quand je me Réincarne en Slime",
+        url: "moi-quand-je-me-reincarne-en-slime",
+      },
+      {
+        image:
+          "https://is4-ssl.mzstatic.com/image/thumb/GZn_ZBjRo6X7slSNUPxA2A/1200x675.jpg",
+        name: "Sword Art Online",
+        url: "sword-art-online",
+      },
+      {
+        image:
+          "https://is1-ssl.mzstatic.com/image/thumb/SvPOWK0GLAc6oa1ZgFjBYA/1200x675.jpg",
+        name: "Classroom of the Elite",
+        url: "classroom-of-the-elite",
+      },
+      {
+        image: "/assets/Konosuba.png",
+        name: "Konosuba",
+        url: "konosuba",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
+        name: "Mushoku Tensei",
+        url: "mushoku-tensei",
+      },
+      {
+        image:
+          "https://www.animegeek.com/wp-content/uploads/2022/07/TheDemonSwordMasterofExcaliburAcademy2.jpg",
+        name: "The Demon Sword Master of Excalibur Academy",
+        url: "the-demon-sword-master-of-excalibur-academy",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
+        name: "Tsukimichi Moonlit Fantasy",
+        url: "tsukimichi-moonlit-fantasy",
+      },
+    ],
+  },
+  {
+    id: "in-another-world-with-my-smartphone",
+    imageTop: "https://c.wallhere.com/photos/c5/36/anime_anime_girls_anime_boys_Isekai_wa_Smartphone_to_Tomo_ni_Mochizuki_Touya_Yumina_Urnea_Belfast_Sushie_Urnea_Ortlinde_Linze_Silhoueska-1397671.jpg!d",
+    class: "bg-pink-400 text-slate-50",
+    back: "bg-zinc-100",
+    imageShow: [
+      {
+        img: "https://cdn.idntimes.com/content-images/duniaku/post/20240120/untitled-5265013fc98535f3edc12f8fd9c76c40.png",
+        url: "in-another-world-with-my-smartphone/episodes",
+      },
+      {
+        img: "/assets/Smartphone_API.png",
+        url: "https://mahouka-koukou-no-rettousei.fandom.com/wiki/Category:Characters",
+      },
+    ],
+    titre: "text-pink-500 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
+      {
+        image:
+          "https://cdn.idntimes.com/content-images/duniaku/post/20240120/untitled-5265013fc98535f3edc12f8fd9c76c40.png",
+        name: "In Another World With My Smartphone",
+        url: "in-another-world-with-my-smartphone",
+      },
+      {
+        image: "/assets/Slime_poster.png",
+        name: "Moi, Quand je me Réincarne en Slime",
+        url: "moi-quand-je-me-reincarne-en-slime",
+      },
+      {
+        image:
+          "https://is4-ssl.mzstatic.com/image/thumb/GZn_ZBjRo6X7slSNUPxA2A/1200x675.jpg",
+        name: "Sword Art Online",
+        url: "sword-art-online",
+      },
+      {
+        image:
+          "https://is1-ssl.mzstatic.com/image/thumb/SvPOWK0GLAc6oa1ZgFjBYA/1200x675.jpg",
+        name: "Classroom of the Elite",
+        url: "classroom-of-the-elite",
+      },
+      {
+        image: "/assets/Konosuba.png",
+        name: "Konosuba",
+        url: "konosuba",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
+        name: "Mushoku Tensei",
+        url: "mushoku-tensei",
+      },
+      {
+        image:
+          "https://www.animegeek.com/wp-content/uploads/2022/07/TheDemonSwordMasterofExcaliburAcademy2.jpg",
+        name: "The Demon Sword Master of Excalibur Academy",
+        url: "the-demon-sword-master-of-excalibur-academy",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
+        name: "Tsukimichi Moonlit Fantasy",
+        url: "tsukimichi-moonlit-fantasy",
       },
     ],
   },

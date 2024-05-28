@@ -9,7 +9,7 @@ import AfficheCarousel from "./ui/AfficheCarousel";
 import { Categories } from "./ui/Categories";
 
 
-export default function page() {
+export default function PageAccueil() {
 
   return (
     <div className="bg-gradient-to-b from-sky-bleu to-sky-marine">
