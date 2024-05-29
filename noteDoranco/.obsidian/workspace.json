@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "cd086c5428d34718",
+    "type": "split",
+    "children": [
+      {
+        "id": "34e71197c737031a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50769d66470194ec",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "9307794d5dbc9131",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Page Catalogue fini.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e37ff15e15ad713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "No Sql Cours.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9388177491e74445",
+    "type": "split",
+    "children": [
+      {
+        "id": "4aa5d6b82354bb46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ba743d13fc3545a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "30a71f71e0448c3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1202443acdd7658a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "265ac653fa0bdf3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "da922b6d51f7fd5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7021927fd2c5e4fc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "No Sql Cours.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "faa6f9e89ecd1261",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "No Sql Cours.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1c9e79cf56fe107",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c45f3d672ff7c2c3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "No Sql Cours.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false
+    }
+  },
+  "active": "3e37ff15e15ad713",
+  "lastOpenFiles": [
+    "Page Catalogue fini.md",
+    "Projet Anime +.md",
+    "No Sql Cours.md",
+    "Cours Doranco.md",
+    "Welcome.md",
+    "Base de données.md",
+    "2024-05-27.md",
+    "Sans titre.canvas",
+    "create a link.md"
+  ]
+}

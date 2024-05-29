@@ -3578,7 +3578,8 @@ export const liste = [
   },
   {
     id: "in-another-world-with-my-smartphone",
-    imageTop: "https://c.wallhere.com/photos/c5/36/anime_anime_girls_anime_boys_Isekai_wa_Smartphone_to_Tomo_ni_Mochizuki_Touya_Yumina_Urnea_Belfast_Sushie_Urnea_Ortlinde_Linze_Silhoueska-1397671.jpg!d",
+    imageTop:
+      "https://c.wallhere.com/photos/c5/36/anime_anime_girls_anime_boys_Isekai_wa_Smartphone_to_Tomo_ni_Mochizuki_Touya_Yumina_Urnea_Belfast_Sushie_Urnea_Ortlinde_Linze_Silhoueska-1397671.jpg!d",
     class: "bg-pink-400 text-slate-50",
     back: "bg-zinc-100",
     imageShow: [
@@ -3595,32 +3596,71 @@ export const liste = [
     imageCarousel: [
       {
         image:
-          "https://cdn.idntimes.com/content-images/duniaku/post/20240120/untitled-5265013fc98535f3edc12f8fd9c76c40.png",
-        name: "In Another World With My Smartphone",
-        url: "in-another-world-with-my-smartphone",
-      },
-      {
-        image: "/assets/Slime_poster.png",
-        name: "Moi, Quand je me Réincarne en Slime",
-        url: "moi-quand-je-me-reincarne-en-slime",
+          "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/81/eb/de/81ebde79-c369-4f5c-9d7d-0aba80bbf11c/pr_source.jpg/1200x675.jpg",
+        name: "Death March to the Parallel World Rhapsody",
+        url: "death-march-to-the-parallel-world-rhapsody",
       },
       {
         image:
-          "https://is4-ssl.mzstatic.com/image/thumb/GZn_ZBjRo6X7slSNUPxA2A/1200x675.jpg",
-        name: "Sword Art Online",
-        url: "sword-art-online",
+          "https://th.bing.com/th/id/OIP.GG65U6V5wXwzPT0kzQJqJgHaEK?rs=1&pid=ImgDetMain",
+        name: "Isekai Cheat Magician",
+        url: "isekai-cheat-magician",
       },
       {
         image:
-          "https://is1-ssl.mzstatic.com/image/thumb/SvPOWK0GLAc6oa1ZgFjBYA/1200x675.jpg",
-        name: "Classroom of the Elite",
-        url: "classroom-of-the-elite",
+          "https://www.tadaima.com.mx/wp-content/uploads/2021/02/hownottosummonademonlord004.jpg",
+        name: "How Not to Summon a Demon Lord",
+        url: "how-not-to-summon-a-demon-lord",
       },
       {
-        image: "/assets/Konosuba.png",
-        name: "Konosuba",
-        url: "konosuba",
+        image:
+          "https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/08/isekaishoukannidomedesu_teaservisual-1-scaled-e1660109155912.jpg",
+        name: "Isekai Shoukan wa Nidome Desu",
+        url: "summoned-to-another-world-again",
       },
+      {
+        image:
+          "https://staticg.sportskeeda.com/editor/2023/03/8a95f-16792595167317-1920.jpg",
+        name: "The Reincarnation of the Strongest Exorcist in Another World",
+        url: "the-reincarnation-of-the-strongest-exorcist-in-another-world",
+      },
+      {
+        image:
+          "https://th.bing.com/th/id/R.1fe690b7fd50b3862d5746b27ad665e3?rik=mayudpBz%2fYhaXw&pid=ImgRaw&r=0",
+        name: "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+        url: "the-greatest-demon-lord-is-reborn-as-a-typical-nobody",
+      },
+      {
+        image:
+          "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
+        name: "Tsukimichi Moonlit Fantasy",
+        url: "tsukimichi-moonlit-fantasy",
+      },
+      {
+        image: "/assets/MyOneKillSister_poster.png",
+        name: "My One-Hit Kill Sister",
+        url: "my-one-hit-kill-sister",
+      },
+    ],
+  },
+  {
+    id: "arifureta",
+    imageTop:
+      "/assets/Arifureta_Top.png",
+    class: "bg-neutral-800 text-red-600",
+    back: "bg-black-death-note",
+    imageShow: [
+      {
+        img: "https://th.bing.com/th/id/R.50c4039f10887e3f9799d7b2c3b6ea34?rik=cU4XYZ40snL8HQ&pid=ImgRaw&r=0",
+        url: "arifureta/episodes",
+      },
+      {
+        img: "/assets/Arifureta_API.png",
+        url: "https://mahouka-koukou-no-rettousei.fandom.com/wiki/Category:Characters",
+      },
+    ],
+    titre: "text-red-700 text-2xl pb-2.5 ml-2",
+    imageCarousel: [
       {
         image:
           "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
@@ -3629,15 +3669,42 @@ export const liste = [
       },
       {
         image:
-          "https://www.animegeek.com/wp-content/uploads/2022/07/TheDemonSwordMasterofExcaliburAcademy2.jpg",
-        name: "The Demon Sword Master of Excalibur Academy",
-        url: "the-demon-sword-master-of-excalibur-academy",
+          "https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/50/55/aa/5055aa33-b569-807b-2319-2bcfd0bb1b63/pr_source.jpg/1000x563.jpg",
+        name: "Goblin Slayer",
+        url: "goblin-slayer",
       },
       {
         image:
-          "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
-        name: "Tsukimichi Moonlit Fantasy",
-        url: "tsukimichi-moonlit-fantasy",
+          "https://images.ciatr.jp/2020/06/w_1000/WgHHSxRmlOxF94ih62riNXuBi4uHtXh7an3nIDQS.jpeg",
+        name: "DanMachi",
+        url: "danmachi",
+      },
+      {
+        image: "/assets/SoloLevelling_poster.png",
+        name: "Solo Levelling",
+        url: "solo-levelling",
+      },
+      {
+        image: "/assets/EminenceShadow_poster.png",
+        name: "The Eminence in Shadow",
+        url: "the-eminence-in-shadow",
+      },
+      {
+        image:
+          "https://1.bp.blogspot.com/-p-OT-9O66q8/YBsroZTru1I/AAAAAAAAp9I/jx5BS_t1xosB5hZymObiaP2yvKU_NJwYACLcBGAsYHQ/w640-h360/Episodios-Re-Zero-Relleno-Orden-Cronologico.jpg",
+        name: "Re-Zero",
+        url: "re-zero",
+      },
+      {
+        image:
+          "https://animehunch.com/wp-content/uploads/2022/08/The-Rising-Of-The-Shield-Hero.jpg",
+        name: "The Rising Of The Shield Hero",
+        url: "the-rising-of-the-shield-hero",
+      },
+      {
+        image: "/assets/RealistHero_poster.png",
+        name: "How a Realist Hero Rebuilt the Kingdom",
+        url: "how-a-realist-hero-rebuilt-the-kingdom",
       },
     ],
   },

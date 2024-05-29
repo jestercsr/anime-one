@@ -1,15 +1,15 @@
 "use client";
 
-import Navbar from "../accueil/ui/NavBar";
+import Navbar from "@/app/accueil/ui/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { liste } from "../api/mangaList/liste";
+import { listeSelection } from "@/app/api/mangaList/listeSelection";
 import Link from "next/link";
-import MainComposent from "./ui/MainComposent";
-import Footer from "../ui/Footer";
+import MainComposent from "../ui/MainComposent";
+import Footer from "@/app/ui/Footer";
 import { useParams } from "next/navigation";
 
-export default function MangaList() {
+export default function EpisodeList() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },
@@ -32,30 +32,33 @@ export default function MangaList() {
       slidesToSlide: 1,
     },
   };
-  const params = useParams()
 
-  let found = liste.find(function (element) {
-    return element.id == params.id;
+  const props = useParams()
+  
+  console.log(props);
+
+  let found = listeSelection.find(function (element) {
+    return element.url == props.id
   });
 
   return (
     <>
       <div>
-        {liste[found]}
-        <Navbar className={found.class} />
+        {listeSelection[found]}
+        <Navbar className={found.nav} />
         <MainComposent className={found.back}>
           <div className="h-4/5 justify-center m-auto flex">
             <img src={found.imageTop} className="w-9/12 h-svh" />
           </div>
           <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
-            {found.imageShow.map((select, i) => {
+            {found.imageSee.map((select, indice) => {
               return (
                 <div
                   className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
-                  key={i}
+                  key={indice}
                 >
                   <Link href={select.url}>
-                    <img src={select.img} className="w-full rounded-2xl" />
+                    <img src={select.images} className="w-full rounded-2xl" />
                   </Link>
                 </div>
               );
