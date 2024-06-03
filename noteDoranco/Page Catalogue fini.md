@@ -48,11 +48,14 @@
 - [x] Reincarnated as a sword
 - [x] Undead unluck
 - [x] In another world with my smartphone
+- [x] Arifureta
+- [x] Goblin slayer
+- [x] Captain tsubasa
+- [x] Danmachi
 
 
 
-
-### Front à faire
+### <font color="#6425d0">Front à faire</font>
 - [ ] Digimon
 - [ ] Dr Slump
 - [ ] Yu gi oh
@@ -70,29 +73,25 @@
 - [ ] Code geass
 - [ ] Steins;gate
 - [ ] Soul eater
-- [ ] Goblin slayer
+
 - [ ] Edens zero
 - [ ] Monster
 - [ ] Erased
 - [ ] Ninja kamui
 - [ ] Spice & wolf
-- [ ] Captain tsubasa
+
 - [ ] Frieren
 - [ ] No Longer Rangers
 
-
-- [ ] Arifureta
 - [ ] Overlord
-- [ ] Danmachi
+
 - [ ] Sword art online
 - [ ] Tokyo revengers
 - [ ] Solo levelling
 - [ ] Dr stone
 - [ ] Demon slave
-
 - [ ] Doubt
 - [ ] Gambling school kakeguri
-
 - [ ] 5 Seconds to death
 - [ ] Charlotte
 - [ ] Blue exorcist

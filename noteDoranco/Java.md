@@ -1,0 +1,6 @@
+
+
+|                                    | ***<font color="#ffff00">private</font>***              | <font color="#ffff00">**protected**</font>                                            | **<font color="#ffff00">default</font>**                                    | **<font color="#ffff00">public</font>** |
+| ---------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------- |
+| <center>attribut/ methode</center> | <center>visible dans la classe où il se trouve</center> | <center>visible par toutes les classes du même package et des classes filles</center> | <center>visible par toutes les classes du projet où elle se trouve</center> | <center>visible par tous</center>       |
+| <center>classe</center>            | <center>non concerné</center>                           | <center>non concerné</center>                                                         | <center>//</center>                                                         | <center>//</center>                     |

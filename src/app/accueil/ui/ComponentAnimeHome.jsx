@@ -276,7 +276,7 @@ export const movieRec = [
     image:
       "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
     name: "Boruto",
-    url: "boruto/",
+    url: "boruto",
   },
   {
     id: 39,

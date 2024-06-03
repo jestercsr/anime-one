@@ -1,15 +1,20 @@
-"use client";
+'use client'
 
 import Navbar from "../accueil/ui/NavBar";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { liste } from "../api/mangaList/liste";
 import Link from "next/link";
 import MainComposent from "./ui/MainComposent";
 import Footer from "../ui/Footer";
-import { useParams } from "next/navigation";
 
-export default function MangaList() {
+
+const getData = async (id) => {
+  const res = await fetch(`http://localhost:4000/mangaName/${id}`);
+  const data = await res.json();
+  return data;
+};
+
+export default async function MangaList({ params }) {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },
@@ -32,23 +37,19 @@ export default function MangaList() {
       slidesToSlide: 1,
     },
   };
-  const params = useParams()
-
-  let found = liste.find(function (element) {
-    return element.id == params.id;
-  });
+  const manga = await getData(params.id);
+  console.log(params.id);
 
   return (
     <>
       <div>
-        {liste[found]}
-        <Navbar className={found.class} />
-        <MainComposent className={found.back}>
+        <Navbar className={manga.class} />
+        <MainComposent className={manga.back}>
           <div className="h-4/5 justify-center m-auto flex">
-            <img src={found.imageTop} className="w-9/12 h-svh" />
+            <img src={manga.imageTop} className="w-9/12 h-svh" />
           </div>
           <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
-            {found.imageShow.map((select, i) => {
+            {manga.imageShow.map((select, i) => {
               return (
                 <div
                   className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
@@ -63,9 +64,9 @@ export default function MangaList() {
           </section>
 
           <div className="my-px">
-            <h2 className={found.titre}>A voir également</h2>
+            <h2 className={manga.titre}>A voir également</h2>
             <Carousel responsive={responsive}>
-              {found.imageCarousel.map((select, indice) => {
+              {manga.imageCarousel.map((select, indice) => {
                 return (
                   <div
                     className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
