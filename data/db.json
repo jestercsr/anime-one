@@ -916,7 +916,7 @@
         },
         {
           "image": "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
-          "name": "HunterxHunter",
+          "name": "Hunter x Hunter",
           "url": "hunter-x-hunter"
         },
         {
@@ -1832,7 +1832,7 @@
         },
         {
           "image": "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
-          "name": "HunterxHunter",
+          "name": "Hunter x Hunter",
           "url": "hunter-x-hunter"
         },
         {
@@ -2750,7 +2750,7 @@
         },
         {
           "image": "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
-          "name": "HunterxHunter",
+          "name": "Hunter x Hunter",
           "url": "hunter-x-hunter"
         },
         {
@@ -3646,11 +3646,11 @@
       "back": "bg-black-death-note",
       "imageShow": [
         {
-          "img": "https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/50/55/aa/5055aa33-b569-807b-2319-2bcfd0bb1b63/pr_source.jpg/1000x563.jpg",
+          "img": "/assets/GoblinSlayer_poster.png",
           "url": "goblin-slayer/episodes"
         },
         {
-          "img": "https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/50/55/aa/5055aa33-b569-807b-2319-2bcfd0bb1b63/pr_source.jpg/1000x563.jpg",
+          "img": "/assets/scan/goblinslayer_scan.png",
           "url": "goblin-slayer/scans"
         },
         {
@@ -3676,7 +3676,7 @@
           "url": "berserk"
         },
         {
-          "image": "https://f.ptcdn.info/017/047/000/og4gyxc2bhhGyGSBh7c-o.jpg",
+          "image": "/assets/HighSchoolDxD-poster.png",
           "name": "High School DxD",
           "url": "high-school-dxd"
         },
@@ -3696,7 +3696,7 @@
           "url": "frieren"
         },
         {
-          "image": "https://otakukart.com/wp-content/uploads/2024/03/High-School-of-the-Dead-vv-1140x570.jpeg",
+          "image": "/assets/HOTD_poster.png",
           "name": "Highschool of the Dead",
           "url": "highschool-of-the-dead"
         }
@@ -3709,15 +3709,15 @@
       "back": "bg-zinc-100",
       "imageShow": [
         {
-          "img": "https://image-cf.kddi-video.com/007/0076bca596b0edd1684a4155df1e5e2a/fit-background-transparent/1524078287/1080x608.png",
+          "img": "/assets/Tsubasa_poster.png",
           "url": "captain-tsubasa/episodes"
         },
         {
-          "img": "https://image-cf.kddi-video.com/007/0076bca596b0edd1684a4155df1e5e2a/fit-background-transparent/1524078287/1080x608.png",
+          "img": "/assets/scan/tsubasa_scan.png",
           "url": "captain-tsubasa/scans"
         },
         {
-          "img": "https://capitan-tsubasa.it/wp-content/uploads/2017/12/captain-tsubasa-nuova-serie-anime.jpg",
+          "img": "/assets/Tsubasa_API.png",
           "url": "https://captaintsubasa.fandom.com/wiki/Category:Characters"
         }
       ],
@@ -3772,11 +3772,11 @@
       "back": "bg-sky-marine",
       "imageShow": [
         {
-          "img": "https://images.ciatr.jp/2020/06/w_1000/WgHHSxRmlOxF94ih62riNXuBi4uHtXh7an3nIDQS.jpeg",
+          "img": "/assets/Danmachi_poster.png",
           "url": "danmachi/episodes"
         },
         {
-          "img": "https://www.danmachi-danchro.com/wp-content/themes/officialsite/images/special/wallpaper2-pc-ko.jpg",
+          "img": "/assets/Danmachi_API.png",
           "url": "https://danmachi.fandom.com/wiki/Characters"
         }
       ],
@@ -3818,9 +3818,72 @@
           "url": "solo-levelling"
         },
         {
-          "image": "https://animenewsandfacts.com/wp-content/uploads/2022/04/The-Executioner-and-Her-Way-of-Life-Episode-Release-Schedule.jpg",
+          "image": "/assets/Executioner_poster.png",
           "name": "The Executioner and Her Way of Life",
           "url": "the-executioner-and-her-way-of-life"
+        }
+      ]
+    },
+    {
+      "id": "dr-stone",
+      "imageTop": "https://1.bp.blogspot.com/-K6iM-sLiVxc/XUAD9-PHbKI/AAAAAAAABxs/tYLhk8uHRWAVdndI6eOgLzOrP5Vrs4R4wCLcBGAs/s1600/drstone.jpg",
+      "class": "bg-stone-600 text-orange-600",
+      "back": "bg-orange-700",
+      "imageShow": [
+        {
+          "img": "/assets/Stone_poster.png",
+          "url": "dr-stone/episodes"
+        },
+        {
+          "img": "/assets/scan/stone_scan.png",
+          "url": "dr-stone/scans"
+        },
+        {
+          "img": "/assets/Stone_API.png",
+          "url": "https://dr-stone.fandom.com/wiki/Category:Characters"
+        }
+      ],
+      "titre": "text-stone-600 text-2xl pb-2.5 ml-2",
+      "imageCarousel": [
+        {
+          "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+          "name": "Black Clover",
+          "url": "black-clover"
+        },
+        {
+          "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+          "name": "Jujustu Kaisen",
+          "url": "jujustu-kaisen"
+        },
+        {
+          "image": "https://is4-ssl.mzstatic.com/image/thumb/9CNTcBGBPRW5eiQV_dVdsg/1600x900.jpg",
+          "name": "One Piece",
+          "url": "one-piece"
+        },
+        {
+          "image": "https://is3-ssl.mzstatic.com/image/thumb/L20cvExVVgeVXSALdC0uyQ/1200x675.jpg",
+          "name": "Fullmetal Alchemist",
+          "url": "fullmetal-alchemist"
+        },
+        {
+          "image": "https://sm.ign.com/t/ign_mear/screenshot/default/scale_1ac1.1200.jpg",
+          "name": "Tokyo Revengers",
+          "url": "tokyo-revengers"
+        },
+        {
+          "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+          "name": "Demon Slayer",
+          "url": "demon-slayer-kimetsu-no-yaiba"
+        },
+        {
+          "image": "https://is5-ssl.mzstatic.com/image/thumb/9tMv1_hQCBxT2nIKAMEE2g/1200x630.jpg",
+          "name": "One Punch Man",
+          "url": "one-punch-man"
+        },
+        {
+          "image": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/16/78/c4/1678c4de-fc35-3b44-984f-dc4f31ab86ac/pr_source.jpg/1200x675.jpg",
+          "name": "Fire Force",
+          "url": "fire-force"
         }
       ]
     }

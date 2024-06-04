@@ -1,4 +1,5 @@
 
+[[Code Layout.css]]
 ### <font color="#c00000">Front réaliser</font>
 - [x]  Naruto
 - [x] Boruto
@@ -52,6 +53,7 @@
 - [x] Goblin slayer
 - [x] Captain tsubasa
 - [x] Danmachi
+- [x] Dr stone
 
 
 
@@ -88,7 +90,7 @@
 - [ ] Sword art online
 - [ ] Tokyo revengers
 - [ ] Solo levelling
-- [ ] Dr stone
+
 - [ ] Demon slave
 - [ ] Doubt
 - [ ] Gambling school kakeguri
@@ -98,3 +100,31 @@
 - [ ] Hokuto no ken
 - [ ] Inuyasha
 - [ ] Parasyte
+- [ ] Fire Force
+- [ ] The Executioner and Her Way of Life
+- [ ] Inazuma Eleven
+- [ ] Highschool of the Dead
+- [ ] Redo of Healer
+- [ ] High School DxD
+- [ ] My One-Hit Kill Sister
+- [ ] The Greatest Demon Lord Is Reborn as a Typical Nobody
+- [ ] The Reincarnation of the Strongest Exorcist in Another World
+- [ ] Isekai Shoukan wa Nidome Desu
+- [ ] How Not to Summon a Demon Lord
+- [ ] Isekai Cheat Magician
+- [ ] Death March to the Parallel World Rhapsody
+- [ ] The Demon Sword Master of Excalibur Academy
+- [ ] Classroom of the Elite
+- [ ] The Familiar of Zero
+- [ ] So I'm a Spider, So What?
+- [ ] Skeleton Knight in Another World
+- [ ] I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability
+- [ ] Prison School
+- [ ] Iruma à l'école des Démons
+- [ ] Akashic Record of Bastard Magic Instructor
+- [ ] Spy Classroom
+- [ ] Saiki Kusuo no Psi Nan
+- [ ] Zom 100: Bucket List of the Dead
+- [ ] How a Realist Hero Rebuilt the Kingdom
+- [ ] I'm Quitting Heroing
+- [ ] 

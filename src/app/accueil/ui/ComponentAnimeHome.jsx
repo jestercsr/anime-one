@@ -1,4 +1,3 @@
-
 export const recommanded = [
   {
     id: 1,
@@ -32,7 +31,7 @@ export const recommanded = [
     id: 5,
     image:
       "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
-    name: "HunterxHunter",
+    name: "Hunter x Hunter",
     url: "hunter-x-hunter",
   },
   {
@@ -88,8 +87,7 @@ export const trendings = [
   },
   {
     id: 13,
-    image:
-      "assets/Konosuba.png",
+    image: "assets/Konosuba.png",
     name: "Konosuba",
     url: "konosuba",
   },
@@ -137,8 +135,7 @@ export const trendings = [
   },
   {
     id: 20,
-    image:
-      "assets/ReMonster_poster.png",
+    image: "assets/ReMonster_poster.png",
     name: "Re: Monster",
     url: "re-monster",
   },
