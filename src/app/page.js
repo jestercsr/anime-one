@@ -7,6 +7,7 @@ import { AvailableComponent } from "./ui/AvailableComponent";
 import { EmailHomeComponent } from "./ui/EmailHomeComponent";
 import Info from "./ui/Info";
 import Faq from "./ui/Faq";
+import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Home() {
   return (

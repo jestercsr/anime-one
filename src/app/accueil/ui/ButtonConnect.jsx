@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { BouttonForm } from "./BouttonForm";
 
 export function ButtonConnect() {
@@ -42,12 +43,12 @@ export function ButtonConnect() {
         {boutton.map((cliquer) => {
           return (
             <ul key={cliquer.id}>
-              <a href={cliquer.url}>
+              <Link href={cliquer.url}>
                 <BouttonForm
                   image={cliquer.picture}
                   text={cliquer.titre}
                 ></BouttonForm>
-              </a>
+              </Link>
             </ul>
           );
         })}

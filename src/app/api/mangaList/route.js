@@ -9,7 +9,6 @@ const getData = async () => {
 export async function GET(req) {
   const data = await getData();
   return NextResponse.json({
-    message: "Données récupérées avec succès depuis nextjs",
     data,
   });
 }
