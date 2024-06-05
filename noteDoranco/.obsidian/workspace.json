@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java Intro.md",
+                "file": "Page Catalogue fini.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java Intro.md",
+                "file": "Page Catalogue fini.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java Intro.md"
+                "file": "Page Catalogue fini.md"
               }
             }
           }
@@ -182,12 +181,12 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "0a1885e89559aa67",
+  "active": "50769d66470194ec",
   "lastOpenFiles": [
+    "Java Intro.md",
     "Page Catalogue fini.md",
     "Code Layout.css.md",
     "No Sql Cours.md",
-    "Java Intro.md",
     "Cours Doranco.md",
     "Projet Anime +.md",
     "Welcome.md",

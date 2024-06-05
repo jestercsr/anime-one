@@ -245,7 +245,7 @@ export const movieRec = [
     id: 34,
     image:
       "https://www.omegascopio.com.br/wp-content/uploads/2023/01/FT_S1_VERTICAL.jpg",
-    name: "FairyTail",
+    name: "Fairy Tail",
     url: "fairy-tail",
   },
   {

@@ -54,6 +54,9 @@
 - [x] Captain tsubasa
 - [x] Danmachi
 - [x] Dr stone
+- [x] World finest assassin
+- [x] Seven deadly sins
+- [x] Soul eater
 
 
 
@@ -69,12 +72,12 @@
 - [ ] Kenshin le vagabon
 - [ ] Ao ashi
 - [ ] Black summoner
-- [ ] Seven deadly sins
-- [ ] World finest assassin
+
+
 - [ ] Mob psycho
 - [ ] Code geass
 - [ ] Steins;gate
-- [ ] Soul eater
+
 
 - [ ] Edens zero
 - [ ] Monster

@@ -4,13 +4,11 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
-
+import Navbar from "../accueil/ui/NavBar";
+import MainComposent from "./ui/MainComposent";
 import Footer from "../ui/Footer";
 import { Suspense, useEffect, useState } from "react";
-import dynamic from "next/dynamic";
 
-const Navbar = dynamic(() => import('../accueil/ui/NavBar'))
-const MainComposent = dynamic(() => import('./ui/MainComposent'))
 
 function MangaListe({id}) {
   const [data, setData] = useState([]);

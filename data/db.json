@@ -3,7 +3,7 @@
     {
       "id": "one-piece",
       "imageTop": "https://plus.tver.jp/prod/kanren_news/20231117/7750da3b7f0448cb55bb2614b9d68133.jpg",
-      "class": "bg-red-600 text-slate-50 list-none",
+      "class": "bg-red-600 text-slate-50",
       "back": "bg-red-onepiece",
       "imageShow": [
         {
@@ -66,325 +66,222 @@
           "url": "black-clover"
         }
       ],
-      "films": [
+      "animation": [
         {
-          "id": "one-piece/films",
-          "imageTop": "/assets/OP_FILMS.png",
-          "class": "bg-red-600 text-slate-50 list-none",
-          "back": "bg-red-onepiece",
+          "animeId": "films",
+          "anime_imageTop": "/assets/OP_FILMS.png",
+          "classNav": "bg-red-600 text-slate-50 list-none",
+          "backNav": "bg-red-onepiece",
           "imageSee": [
             {
               "images": "",
-              "url": "one-piece/films/one-piece-le-film"
+              "href": "one-piece/films/one-piece-le-film"
             },
             {
               "images": "https://image.tmdb.org/t/p/original/qgaVJE4SK2qRtggVyRlISKQ1zBE.jpg",
-              "url": "one-piece/films/one-piece-l-adventure-de-l-ile-de-l-horloge"
+              "href": "one-piece/films/one-piece-l-adventure-de-l-ile-de-l-horloge"
             },
             {
               "images": "https://is1-ssl.mzstatic.com/image/thumb/nnLoO6dyyUauSbXtqLemvQ/1200x675.jpg",
-              "url": "one-piece/films/one-piece-le-royaume-de-chopper-l-ile-des-betes-etranges"
+              "href": "one-piece/films/one-piece-le-royaume-de-chopper-l-ile-des-betes-etranges"
             },
             {
               "images": "https://smailog.com/wp-content/uploads/2022/05/8F86DB3B-124F-47A8-8C2A-183005F8547F.jpeg",
-              "url": "one-piece/films/one-piece-l-adventure-sans-issue"
+              "href": "one-piece/films/one-piece-l-adventure-sans-issue"
             },
             {
               "images": "https://is1-ssl.mzstatic.com/image/thumb/qeM5PFID0kx4pH5KIQu1AQ/1200x675.jpg",
-              "url": "one-piece/films/one-piece-la-malediction-de-l-epee-sacree"
+              "href": "one-piece/films/one-piece-la-malediction-de-l-epee-sacree"
             },
             {
               "images": "https://is1-ssl.mzstatic.com/image/thumb/jRjKkKg5Eq7FdEst5UTOiQ/1200x675.jpg",
-              "url": "one-piece/films/one-piece-le-baron-omatsuri-et-l-ile-secrete"
+              "href": "one-piece/films/one-piece-le-baron-omatsuri-et-l-ile-secrete"
             },
             {
               "images": "https://is2-ssl.mzstatic.com/image/thumb/3m82ue952hGDmKFT9ME4zw/1200x675.jpg",
-              "url": "one-piece/films/one-piece-le-mecha-geant-du-chateau-karakuri"
+              "href": "one-piece/films/one-piece-le-mecha-geant-du-chateau-karakuri"
             },
             {
               "images": "https://is2-ssl.mzstatic.com/image/thumb/49eb1YlpptSEtCT5Io0g1A/1600x900.jpg",
-              "url": "one-piece/films/one-piece-strong-world"
+              "href": "one-piece/films/one-piece-strong-world"
             },
             {
               "images": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/01/d2/15/01d21596-1171-5988-180d-741f50c8f76d/TOEI_OP_FILM_Z_JPN_169.png/1600x900.jpg",
-              "url": "one-piece/films/one-piece-z"
+              "href": "one-piece/films/one-piece-z"
             },
             {
               "images": "https://is4-ssl.mzstatic.com/image/thumb/9G0vL-er2G8jHQd_LPKbfg/1200x675.jpg",
-              "url": "one-piece/films/one-piece-gold"
+              "href": "one-piece/films/one-piece-gold"
             },
             {
               "images": "https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/cd/a3/3c/cda33c06-cbad-9c2f-6fa0-36f841f95afe/FR_OnePieceStampede_EN_3840x2160_CoverArt.png/1200x675.jpg",
-              "url": "one-piece/films/one-piece-stampede"
+              "href": "one-piece/films/one-piece-stampede"
             },
             {
               "images": "https://images.prod.hjholdings.tv/d3urerHm/uploads/6e8de710-4a27-43c3-b5e6-b4ab8017ec80.png?w=1600&h=600&p=t",
-              "url": "one-piece/films/one-piece-red"
+              "href": "one-piece/films/one-piece-red"
             }
           ],
-          "titre": "text-white text-2xl pb-2.5 ml-2",
-          "imageCarousel": [
+          "anime_titre": "text-white text-2xl pb-2.5 ml-2",
+          "anime_imageCarousel": [
             {
-              "image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
-              "name": "Naruto",
-              "url": "naruto"
+              "anime_image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
+              "anime_name": "Naruto",
+              "anime_href": "naruto"
             },
             {
-              "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
-              "name": "Jujustu Kaisen",
-              "url": "jujustu-kaisen"
+              "anime_image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+              "anime_name": "Jujustu Kaisen",
+              "anime_href": "jujustu-kaisen"
             },
             {
-              "image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
-              "name": "Dragon Ball",
-              "url": "dragon-ball"
+              "anime_image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
+              "anime_name": "Dragon Ball",
+              "anime_href": "dragon-ball"
             },
             {
-              "image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
-              "name": "My Hero Academia",
-              "url": "my-hero-academia"
+              "anime_image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
+              "anime_name": "My Hero Academia",
+              "anime_href": "my-hero-academia"
             },
             {
-              "image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
-              "name": "Boruto",
-              "url": "boruto"
+              "anime_image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
+              "anime_name": "Boruto",
+              "anime_href": "boruto"
             },
             {
-              "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
-              "name": "Demon Slayer",
-              "url": "demon-slayer-kimetsu-no-yaiba"
+              "anime_image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+              "anime_name": "Demon Slayer",
+              "anime_href": "demon-slayer-kimetsu-no-yaiba"
             },
             {
-              "image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
-              "name": "Kingdom",
-              "url": "kingdom"
+              "anime_image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
+              "anime_name": "Kingdom",
+              "anime_href": "kingdom"
             },
             {
-              "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
-              "name": "Black Clover",
-              "url": "black-clover"
+              "anime_image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+              "anime_name": "Black Clover",
+              "anime_href": "black-clover"
             }
           ]
-        }
-      ],
-      "episodes": [
+        },
         {
-          "id": "one-piece/episodes",
-          "imageTop": "/assets/OP_poster.png",
-          "class": "bg-red-600 text-slate-50 list-none",
-          "back": "bg-red-onepiece",
+          "animeId": "episodes",
+          "anime_imageTop": "/assets/OP_poster.png",
+          "classNav": "bg-red-600 text-slate-50 list-none",
+          "backNav": "bg-red-onepiece",
           "imageSee": [
             {
               "images": "/assets/OP_poster.png",
-              "url": "one-piece/episodes/filler"
+              "href": "one-piece/episodes/filler"
             },
             {
               "images": "/assets/scan/OP_scan.png",
-              "url": "one-piece/episodes/sans-filler"
+              "href": "one-piece/episodes/sans-filler"
             }
           ],
-          "titre": "text-white text-2xl pb-2.5 ml-2",
-          "imageCarousel": [
+          "anime_titre": "text-white text-2xl pb-2.5 ml-2",
+          "anime_imageCarousel": [
             {
-              "image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
-              "name": "Naruto",
-              "url": "naruto"
+              "anime_image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
+              "anime_name": "Naruto",
+              "anime_href": "naruto"
             },
             {
-              "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
-              "name": "Jujustu Kaisen",
-              "url": "jujustu-kaisen"
+              "anime_image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+              "anime_name": "Jujustu Kaisen",
+              "anime_href": "jujustu-kaisen"
             },
             {
-              "image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
-              "name": "Dragon Ball",
-              "url": "dragon-ball"
+              "anime_image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
+              "anime_name": "Dragon Ball",
+              "anime_href": "dragon-ball"
             },
             {
-              "image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
-              "name": "My Hero Academia",
-              "url": "my-hero-academia"
+              "anime_image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
+              "anime_name": "My Hero Academia",
+              "anime_href": "my-hero-academia"
             },
             {
-              "image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
-              "name": "Boruto",
-              "url": "boruto"
+              "anime_image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
+              "anime_name": "Boruto",
+              "anime_href": "boruto"
             },
             {
-              "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
-              "name": "Demon Slayer",
-              "url": "demon-slayer-kimetsu-no-yaiba"
+              "anime_image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+              "anime_name": "Demon Slayer",
+              "anime_href": "demon-slayer-kimetsu-no-yaiba"
             },
             {
-              "image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
-              "name": "Kingdom",
-              "url": "kingdom"
+              "anime_image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
+              "anime_name": "Kingdom",
+              "anime_href": "kingdom"
             },
             {
-              "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
-              "name": "Black Clover",
-              "url": "black-clover"
+              "anime_image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+              "anime_name": "Black Clover",
+              "anime_href": "black-clover"
             }
           ]
-        }
-      ],
-      "scans": [
+        },
         {
-          "id": "one-piece/scans",
-          "imageTop": "/assets/scan/OP_scan.png",
-          "class": "bg-red-600 text-slate-50 list-none",
-          "back": "bg-red-onepiece",
+          "animeId": "scans",
+          "anime_imageTop": "/assets/scan/OP_scan.png",
+          "classNav": "bg-red-600 text-slate-50 list-none",
+          "backNav": "bg-red-onepiece",
           "imageSee": [
             {
               "images": "https://th.bing.com/th/id/OIP.Xoj1DPuv8YinjycuYxv6IwHaFS?rs=1&pid=ImgDetMain",
-              "url": "one-piece/scans/chapitre-1"
+              "href": "one-piece/scans/chapitre-1"
             }
           ],
-          "titre": "text-white text-2xl pb-2.5 ml-2",
-          "imageCarousel": [
+          "anime_titre": "text-white text-2xl pb-2.5 ml-2",
+          "anime_imageCarousel": [
             {
-              "image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
-              "name": "Naruto",
-              "url": "naruto"
+              "anime_image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
+              "anime_name": "Naruto",
+              "anime_href": "naruto"
             },
             {
-              "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
-              "name": "Jujustu Kaisen",
-              "url": "jujustu-kaisen"
+              "anime_image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+              "anime_name": "Jujustu Kaisen",
+              "anime_href": "jujustu-kaisen"
             },
             {
-              "image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
-              "name": "Dragon Ball",
-              "url": "dragon-ball"
+              "anime_image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
+              "anime_name": "Dragon Ball",
+              "anime_href": "dragon-ball"
             },
             {
-              "image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
-              "name": "My Hero Academia",
-              "url": "my-hero-academia"
+              "anime_image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
+              "anime_name": "My Hero Academia",
+              "anime_href": "my-hero-academia"
             },
             {
-              "image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
-              "name": "Boruto",
-              "url": "boruto"
+              "anime_image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
+              "anime_name": "Boruto",
+              "anime_href": "boruto"
             },
             {
-              "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
-              "name": "Demon Slayer",
-              "url": "demon-slayer-kimetsu-no-yaiba"
+              "anime_image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+              "anime_name": "Demon Slayer",
+              "anime_href": "demon-slayer-kimetsu-no-yaiba"
             },
             {
-              "image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
-              "name": "Kingdom",
-              "url": "kingdom"
+              "anime_image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
+              "anime_name": "Kingdom",
+              "anime_href": "kingdom"
             },
             {
-              "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
-              "name": "Black Clover",
-              "url": "black-clover"
+              "anime_image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+              "anime_name": "Black Clover",
+              "anime_href": "black-clover"
             }
           ]
         }
       ]
-    },
-    {
-      "id": "one-piece/films",
-      "imageTop": "/assets/OP_FILMS.png",
-      "class": "bg-red-600 text-slate-50 list-none",
-      "back": "bg-red-onepiece",
-      "imageSee": [
-        {
-          "images": "",
-          "url": "one-piece/films/one-piece-le-film"
-        },
-        {
-          "images": "https://image.tmdb.org/t/p/original/qgaVJE4SK2qRtggVyRlISKQ1zBE.jpg",
-          "url": "one-piece/films/one-piece-l-adventure-de-l-ile-de-l-horloge"
-        },
-        {
-          "images": "https://is1-ssl.mzstatic.com/image/thumb/nnLoO6dyyUauSbXtqLemvQ/1200x675.jpg",
-          "url": "one-piece/films/one-piece-le-royaume-de-chopper-l-ile-des-betes-etranges"
-        },
-        {
-          "images": "https://smailog.com/wp-content/uploads/2022/05/8F86DB3B-124F-47A8-8C2A-183005F8547F.jpeg",
-          "url": "one-piece/films/one-piece-l-adventure-sans-issue"
-        },
-        {
-          "images": "https://is1-ssl.mzstatic.com/image/thumb/qeM5PFID0kx4pH5KIQu1AQ/1200x675.jpg",
-          "url": "one-piece/films/one-piece-la-malediction-de-l-epee-sacree"
-        },
-        {
-          "images": "https://is1-ssl.mzstatic.com/image/thumb/jRjKkKg5Eq7FdEst5UTOiQ/1200x675.jpg",
-          "url": "one-piece/films/one-piece-le-baron-omatsuri-et-l-ile-secrete"
-        },
-        {
-          "images": "https://is2-ssl.mzstatic.com/image/thumb/3m82ue952hGDmKFT9ME4zw/1200x675.jpg",
-          "url": "one-piece/films/one-piece-le-mecha-geant-du-chateau-karakuri"
-        },
-        {
-          "images": "https://is2-ssl.mzstatic.com/image/thumb/49eb1YlpptSEtCT5Io0g1A/1600x900.jpg",
-          "url": "one-piece/films/one-piece-strong-world"
-        },
-        {
-          "images": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/01/d2/15/01d21596-1171-5988-180d-741f50c8f76d/TOEI_OP_FILM_Z_JPN_169.png/1600x900.jpg",
-          "url": "one-piece/films/one-piece-z"
-        },
-        {
-          "images": "https://is4-ssl.mzstatic.com/image/thumb/9G0vL-er2G8jHQd_LPKbfg/1200x675.jpg",
-          "url": "one-piece/films/one-piece-gold"
-        },
-        {
-          "images": "https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/cd/a3/3c/cda33c06-cbad-9c2f-6fa0-36f841f95afe/FR_OnePieceStampede_EN_3840x2160_CoverArt.png/1200x675.jpg",
-          "url": "one-piece/films/one-piece-stampede"
-        },
-        {
-          "images": "https://images.prod.hjholdings.tv/d3urerHm/uploads/6e8de710-4a27-43c3-b5e6-b4ab8017ec80.png?w=1600&h=600&p=t",
-          "url": "one-piece/films/one-piece-red"
-        }
-      ],
-      "titre": "text-white text-2xl pb-2.5 ml-2",
-      "imageCarousel": [
-        {
-          "image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
-          "name": "Naruto",
-          "url": "naruto"
-        },
-        {
-          "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
-          "name": "Jujustu Kaisen",
-          "url": "jujustu-kaisen"
-        },
-        {
-          "image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
-          "name": "Dragon Ball",
-          "url": "dragon-ball"
-        },
-        {
-          "image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
-          "name": "My Hero Academia",
-          "url": "my-hero-academia"
-        },
-        {
-          "image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
-          "name": "Boruto",
-          "url": "boruto"
-        },
-        {
-          "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
-          "name": "Demon Slayer",
-          "url": "demon-slayer-kimetsu-no-yaiba"
-        },
-        {
-          "image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
-          "name": "Kingdom",
-          "url": "kingdom"
-        },
-        {
-          "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
-          "name": "Black Clover",
-          "url": "black-clover"
-        }
-      ]
-    },
+    }, 
     {
       "id": "naruto",
       "imageTop": "/assets/naruto_Top.png",
@@ -3884,6 +3781,199 @@
           "image": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/16/78/c4/1678c4de-fc35-3b44-984f-dc4f31ab86ac/pr_source.jpg/1200x675.jpg",
           "name": "Fire Force",
           "url": "fire-force"
+        }
+      ]
+    },
+    {
+      "id": "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
+      "imageTop": "https://wallpapercave.com/wp/wp10221981.jpg",
+      "class": "bg-neutral-950 text-red-600",
+      "back": "bg-zinc-100",
+      "imageShow": [
+        {
+          "img": "/assets/TWFA_poster.png",
+          "url": "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat/episodes"
+        },
+        {
+          "img": "https://i1.wp.com/anitrendz.net/news/wp-content/uploads/2021/07/21_05_CR_TheWorld_sFinestAssassin_S1_Seasonal_16x9.png",
+          "url": "https://the-world-finest-assassin.fandom.com/wiki/Category:Characters"
+        }
+      ],
+      "titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+      "imageCarousel": [
+        {
+          "image": "https://staticg.sportskeeda.com/editor/2023/03/8a95f-16792595167317-1920.jpg",
+          "name": "The Reincarnation of the Strongest Exorcist in Another World",
+          "url": "the-reincarnation-of-the-strongest-exorcist-in-another-world"
+        },
+        {
+          "image": "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
+          "name": "Mushoku Tensei",
+          "url": "mushoku-tensei"
+        },
+        {
+          "image": "https://image.tmdb.org/t/p/original/uo8fG6ws57LZZ0K7wMfzf3nDF6y.jpg",
+          "name": "My Isekai Life",
+          "url": "my-isekai-life"
+        },
+        {
+          "image": "/assets/Spider_poster.png",
+          "name": "So I'm a Spider, So What?",
+          "url": "kumo-desu-ga-nani-ka"
+        },
+        {
+          "image": "https://is1-ssl.mzstatic.com/image/thumb/_DTyXOaEVk3QKO20m8JcaA/1200x675.jpg",
+          "name": "Redo of Healer",
+          "url": "redo-of-healer"
+        },
+        {
+          "image": "/assets/5seconds_poster.png",
+          "name": "5 Seconds to Death",
+          "url": "5-seconds-to-death"
+        },
+        {
+          "image": "https://is1-ssl.mzstatic.com/image/thumb/BeoI83pqMVW9iZbWcQl2VA/1200x675.jpg",
+          "name": "Grimgar, Ashes and Illusions",
+          "url": "hai-to-genshou-no-grimgar"
+        },
+        {
+          "image": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cheat-skill-level-up.jpg",
+          "name": "Cheat Skill Level Up",
+          "url": "cheat-skill-level-up"
+        }
+      ]
+    },
+    {
+      "id": "seven-deadly-sins",
+      "imageTop": "https://thecinemaholic.com/wp-content/uploads/2021/06/seven-deadly-sins-kjk.jpg",
+      "class": "bg-lime-600 text-orange-500",
+      "back": "bg-green-300",
+      "imageShow": [
+        {
+          "img": "/assets/7Sins_poster.png",
+          "url": "seven-deadly-sins/episodes"
+        },
+        {
+          "img": "/assets/4Knights_poster.png",
+          "url": "four-knights-of-the-apocalypse"
+        },
+        {
+          "img": "/assets/scan/7sins_scan.png",
+          "url": "seven-deadly-sins/scans"
+        },
+        {
+          "img": "/assets/7Sins_API.png",
+          "url": "https://nanatsu-no-taizai.fandom.com/wiki/Category:Characters"
+        }
+      ],
+      "titre": "text-orange-500 text-2xl pb-2.5 ml-2",
+      "imageCarousel": [
+        {
+          "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+          "name": "Black Clover",
+          "url": "black-clover"
+        },
+        {
+          "image": "/assets/Chivalry_poster.png",
+          "name": "Chivalry of a Failed Knight",
+          "url": "chilvalry-of-a-failed-knight"
+        },
+        {
+          "image": "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
+          "name": "Tsukimichi Moonlit Fantasy",
+          "url": "tsukimichi-moonlit-fantasy"
+        },
+        {
+          "image": "https://th.bing.com/th/id/OIP.m-1XQO-XgJug0OfXwSbCsgHaEK?rs=1&pid=ImgDetMain",
+          "name": "The Misfit of Demon King Academy",
+          "url": "the-misfit-of-demon-king-academy"
+        },
+        {
+          "image": "https://www.tvinsider.com/wp-content/uploads/2023/04/hells-paradise.jpg",
+          "name": "Hell's Paradise",
+          "url": "hell-paradise"
+        },
+        {
+          "image": "https://animehunch.com/wp-content/uploads/2022/08/The-Rising-Of-The-Shield-Hero.jpg",
+          "name": "The Rising Of The Shield Hero",
+          "url": "the-rising-of-the-shield-hero"
+        },
+        {
+          "image": "/assets/TWFA_poster.png",
+          "name": "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
+          "url": "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat"
+        },
+        {
+          "image": "https://staticg.sportskeeda.com/editor/2023/03/8a95f-16792595167317-1920.jpg",
+          "name": "The Reincarnation of the Strongest Exorcist in Another World",
+          "url": "the-reincarnation-of-the-strongest-exorcist-in-another-world"
+        }
+      ]
+    },
+    {
+      "id": "soul-eater",
+      "imageTop": "https://1.bp.blogspot.com/-Vd9h6CPpuwU/VAP89x6KKRI/AAAAAAAAAKc/NTpYQ9wVFbE/s1600/souleater.jpg",
+      "class": "bg-yellow-500 text-neutral-950 ",
+      "back": "bg-black-death-note",
+      "imageShow": [
+        {
+          "img": "/assets/SoulEater_poster.png",
+          "url": "soul-eater/episodes"
+        },
+        {
+          "img": "https://is1-ssl.mzstatic.com/image/thumb/HKTOwOouzUfTq-cW6hh5pw/1200x675.jpg",
+          "url": "soul-eater-not"
+        },
+        {
+          "img": "/assets/scan/souleater_scan.png",
+          "url": "soul-eater/scans"
+        },
+        {
+          "img": "/assets/SoulEater_API.png",
+          "url": "https://souleater.fandom.com/wiki/Category:Character"
+        }
+      ],
+      "titre": "text-yellow-500 text-2xl pb-2.5 ml-2",
+      "imageCarousel": [
+        {
+          "image": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/16/78/c4/1678c4de-fc35-3b44-984f-dc4f31ab86ac/pr_source.jpg/1200x675.jpg",
+          "name": "Fire Force",
+          "url": "fire-force"
+        },
+        {
+          "image": "https://laverdadnoticias.com/img/2024/01/02/en_que_orden_ver_todo_blue_exorcist_anime.jpg",
+          "name": "Blue Exorcist",
+          "url": "blue-exorcist"
+        },
+        {
+          "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+          "name": "Jujustu Kaisen",
+          "url": "jujustu-kaisen"
+        },
+        {
+          "image": "https://www.omegascopio.com.br/wp-content/uploads/2023/01/FT_S1_VERTICAL.jpg",
+          "name": "Fairy Tail",
+          "url": "fairy-tail"
+        },
+        {
+          "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+          "name": "Black Clover",
+          "url": "black-clover"
+        },
+        {
+          "image": "https://occ-0-2706-2705.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSJ0iUzE6BAInldiHhPLWhhUApKB6WatDTze_NNWX40qOD3CupcaFXp13AWtlZK2D9q_NZYOYpX1BurnZown-wcIM_FZ.jpg?r=1c8",
+          "name": "Tokyo Ghoul",
+          "url": "tokyo-ghoul"
+        },
+        {
+          "image": "/assets/MobPsycho_poster.png",
+          "name": "Mob Psycho 100",
+          "url": "mob-psycho"
+        },
+        {
+          "image": "/assets/BlackButler_poster.png",
+          "name": "Black Butler",
+          "url": "black-butler"
         }
       ]
     }
