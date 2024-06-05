@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java.md",
+                "file": "Java Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java.md",
+                "file": "Java Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java.md",
+                "file": "Java Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java.md"
+                "file": "Java Intro.md"
               }
             }
           }
@@ -187,7 +187,7 @@
     "Page Catalogue fini.md",
     "Code Layout.css.md",
     "No Sql Cours.md",
-    "Java.md",
+    "Java Intro.md",
     "Cours Doranco.md",
     "Projet Anime +.md",
     "Welcome.md",

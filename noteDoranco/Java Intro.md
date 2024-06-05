@@ -1,5 +1,5 @@
 
-## <font color="#00b050">5 concepts<span style="background:#fff88f"> POO</span> (Programmation Orientées Objet ) : </font>
+## <font color="#00b050">5 concepts <span style="background:#fff88f">POO</span> (Programmation Orientées Objet ) : </font>
 1.  L'encapsulation
 2.  L'héritage
 3.  Redéfinition
@@ -30,8 +30,11 @@ C'est un dossier qui contient des classes Nom de package est unique. Nommage obl
 Au niveau des répertoires on aura src avec des packages dedans, ressources avec des packages dedans (images, html, PDF,...). 
 Si on a un projet sans module c'est le projet lui-même qui est le seul module avec les classes dedans.
 
-<span style="background:#ff4d4f"> !!!!! </span> Pour tous les projets faire 4 dossiers. Avant aller sur src puis clic droit / Build path / Remove from build. cela permet de ne pas identifier src comme répertoire source (ça lui enlève le carré marron). Ensuite clic droit sur le projet / New / source folder puis créer un répertoire src/main/java
+##### <span style="background:#ff4d4f"> !!!!! </span> 
+Pour tous les projets faire 4 dossiers. Avant aller sur src puis clic droit / Build path / Remove from build. cela permet de ne pas identifier src comme répertoire source (ça lui enlève le carré marron). Ensuite clic droit sur le projet / New / source folder puis créer un répertoire src/main/java
 Ensuite on aura 4 dossiers au total pour l'appli en créant les 3 autres :
 - src/main/resources
 - src/test/java
 - src/test/resources
+
+## <font color="#00b050">POO</font>
