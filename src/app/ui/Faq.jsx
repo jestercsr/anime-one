@@ -8,8 +8,8 @@ import {
 
 export default function Faq() {
   return (
-    <div className="bg-gradient-to-b from-green-darker to-custom-black pt-14 text-white text-base">
-      <div className="bg-sky-bleu">
+    <div className="bg-gradient-to-b from-greener-950 to-blacker-950 pt-14 text-white text-base">
+      <div className="bg-skyer-500">
         <Accordion type="multiple">
           <h1 className="text-4xl font-bold text-center p-4">
             FOIRE AUX QUESTIONS

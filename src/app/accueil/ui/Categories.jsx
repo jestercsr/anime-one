@@ -11,28 +11,28 @@ export function Categories() {
           <div className="flex flex-row justify-around my-5 mr-2.5">
             <li>
               <Link href="/categories/action">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Action
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/adventure">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Adventure
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/combats">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Combats
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/isekai">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Isekai
                 </button>
               </Link>
@@ -41,35 +41,35 @@ export function Categories() {
           <div className="flex flex-row justify-around my-5 mr-2.5">
             <li>
               <Link href="/categories/comedies">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Comédies
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/drame">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Drame
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/fantaisie">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Fantaisie
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/sports">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Sports
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/romance">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Romance
                 </button>
               </Link>
@@ -78,28 +78,28 @@ export function Categories() {
           <div className="flex flex-row justify-around my-5 mr-2.5">
             <li>
               <Link href="/categories/ecole">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Ecole
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/horreur">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Horreur
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/ecchi">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Ecchi
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/mystere">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Mystère
                 </button>
               </Link>
@@ -108,21 +108,21 @@ export function Categories() {
           <div className="flex flex-row justify-around my-5 mr-2.5">
             <li>
               <Link href="/categories/seinen">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Seinen
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/shonen">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Shônen
                 </button>
               </Link>
             </li>
             <li>
               <Link href="/categories/shojo">
-                <button className="px-8 py-2.5 bg-gradient-to-b from-turquoise-claire to-turquoise-dark">
+                <button className="px-8 py-2.5 bg-gradient-to-b from-emeralder-100 to-emeralder-900">
                   Shôjo
                 </button>
               </Link>

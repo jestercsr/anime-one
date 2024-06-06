@@ -11,7 +11,7 @@ import Faq from "./ui/Faq";
 export default function Home() {
   return (
     <main>
-      <nav className="flex justify-end p-1 bg-white-claire">
+      <nav className="flex justify-end p-1 bg-neutraler-50">
         <Button variant="destructive">S'identifier</Button>
       </nav>
       <EmailHomeComponent />

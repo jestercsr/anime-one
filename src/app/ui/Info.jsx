@@ -3,8 +3,8 @@ import React from "react";
 export default function Info() {
   return (
     <div>
-      <div className="bg-gradient-to-b from-cyan-blanc to-turquoise-darker pt-14">
-        <div className="bg-sky-bleu flex items-center justify-between">
+      <div className="bg-gradient-to-b from-cyaner-100 to-emeralder-950 pt-14">
+        <div className="bg-skyer-500 flex items-center justify-between">
           <div className="ml-1 text-white ">
             <h1 className="text-6xl font-bold">Seulement sur Anime+</h1>
             <p className="text-3xl">
@@ -15,8 +15,8 @@ export default function Info() {
           <img src="assets/big3.jpg" className="w-2/3" />
         </div>
       </div>
-      <div className="bg-gradient-to-b from-turquoise-darker to-green-bleu pt-14">
-        <div className="bg-sky-bleu flex items-center justify-between">
+      <div className="bg-gradient-to-b from-emeralder-950 to-greener-400 pt-14">
+        <div className="bg-skyer-500 flex items-center justify-between">
           <img src="assets/gokussjscan.jpg" className="w-1/4" />
           <div className="text-white flex flex-col ml-1.5">
             <h1 className="text-6xl font-bold">

@@ -8,11 +8,9 @@ import Footer from "../ui/Footer";
 import AfficheCarousel from "./ui/AfficheCarousel";
 import { Categories } from "./ui/Categories";
 
-
 export default function PageAccueil() {
-
   return (
-    <div className="bg-gradient-to-b from-sky-bleu to-sky-marine">
+    <div className="bg-gradient-to-b from-skyer-500 to-skyer-950">
       <Navbar className="bg-teal-900 text-white" />
       <CarrouselForm />
       <ButtonConnect />

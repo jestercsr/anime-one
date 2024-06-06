@@ -4,8 +4,8 @@ import React from "react";
 
 export function AvailableComponent() {
   return (
-    <div className="pt-14 bg-gradient-to-b from-green-bleu to-green-darker text-white">
-      <div className="bg-sky-bleu flex text-center justify-around">
+    <div className="pt-14 bg-gradient-to-b from-greener-400 to-greener-950 text-white">
+      <div className="bg-skyer-500 flex text-center justify-around">
         <div className="">
           <img src="assets/iconoir--cinema-old.svg" className="w-1/5 m-auto" />
           <h1 className="text-3xl font-bold">Regardez selon vos envies</h1>

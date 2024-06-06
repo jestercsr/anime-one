@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-gradient-to-b from-turquoise-dark to-custom-black text-white">
+    <div className="bg-gradient-to-b from-emeralder-900 to-blacker-950 text-white">
       <Link href="/">
         <img src="assets/LogoFooter.png" className="m-auto w-1/12" />
       </Link>
