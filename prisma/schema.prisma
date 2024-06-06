@@ -9,8 +9,18 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+model Manga {
+  id  String  @id
+  imageTop  String
+  class String @db.VarChar(255)
+  back  String @db.VarChar(255)
+  imageShows   ImageShow[] 
+  titre   String @db.VarChar(255)
+  imageCarousels   ImageCarousel[]
 }
 
 model ImageShow {
@@ -24,14 +34,6 @@ model ImageCarousel {
   url   String
 }
 
-model Manga {
-  id  String  @id
-  imageTop  String
-  class String @db.VarChar(255)
-  back  String @db.VarChar(255)
-  imageShows   ImageShow[] 
-  titre   String @db.VarChar(255)
-  imageCarousels   ImageCarousel[]
-}
+
 
 

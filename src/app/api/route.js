@@ -1,7 +1,13 @@
-import { dbConnect } from "../lib/db";
-import { NextResponse } from "next/server";
+import { connectToDatabase } from "../lib/mongodb";
 
-export async function GET() {
-  const con = await dbConnect();
-  return new NextResponse("connected");
-}
+export default async (req, res) => {
+    const { db } = await connectToDatabase();
+  
+    const manga = await db
+      .collection("mangaName")
+      .find({})
+      .sort({ metacritic: -1 })
+      .toArray();
+  
+    res.json(manga);
+  };
