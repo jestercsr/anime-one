@@ -43,10 +43,10 @@ model mangaName {
   id            String                   @id @default(auto()) @map("_id") @db.ObjectId
   animation     MangaNameAnimation[]
   back          String
-  class         String
   imageCarousel MangaNameImageCarousel[]
   imageShow     MangaNameImageShow[]
   imageTop      String
-  slug          String
+  navClass      String
+  slug          String                   @unique
   titre         String
 }

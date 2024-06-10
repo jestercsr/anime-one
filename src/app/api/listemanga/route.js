@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client"
-import { connectToDB } from "../../../../../utils"
+import { connectToDB } from "../../../../utils"
 import { NextResponse } from "next/server"
 
 
