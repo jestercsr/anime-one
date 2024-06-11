@@ -1,0 +1,288 @@
+.bg-blacker-8{
+    background-color: "rgba(0,0,0,0.8)";
+}
+.text-blacker-8{
+    color: "rgba(0,0,0,0.8)";
+}
+.bg-blacker-10{
+    background-color: "rgba(39,39,39,0.7)";
+}
+.text-blacker-10{
+    color: "rgba(39,39,39,0.7)";
+}
+.bg-blacker-200{
+    background-color: "#383B38";
+}
+.text-blacker-200{
+    color: "#383B38";
+}
+.bg-blacker-300{
+    background-color: "rgba(12,14,52,0.8)";
+}
+.text-blacker-300{
+    color: "rgba(12,14,52,0.8)";
+}
+.bg-blacker-950{
+    background-color: "#000505";
+}
+.text-blacker-950{
+    color: "#000505";
+}
+.bg-reder-10{
+    background-color: "rgba(235,0,27,0.5)";
+}
+.text-reder-10{
+    color: "rgba(235,0,27,0.5)";
+}
+.bg-reder-800{
+    background-color: "rgba(200,18,15,0.7)";
+}
+.text-reder-800{
+    color: "rgba(200,18,15,0.7)";
+}
+.bg-amberer-500{
+    background-color: "rgba(134,85,26,0.7)";
+}
+.text-amberer-500{
+    color: "rgba(134,85,26,0.7)";
+}
+.bg-amberer-600{
+    background-color: "rgba(209,191,60,0.7)";
+}
+.text-amberer-600{
+    color: "rgba(209,191,60,0.7)";
+}
+.bg-amberer-700{
+    background-color: "rgba(168,148,35,0.7)";
+}
+.text-amberer-700{
+    color: "rgba(168,148,35,0.7)";
+}
+.bg-greener-300{
+    background-color: "rgba(29,129,13,0.7)";
+}
+.text-greener-300{
+    color: "rgba(29,129,13,0.7)";
+}
+.bg-greener-400{
+    background-color: "#078888";
+}
+.text-greener-400{
+    color: "#078888";
+}
+.bg-greener-450{
+    background-color: "#5AA569";
+}
+.text-greener-450{
+    color: "#5AA569";
+}
+.bg-greener-500{
+    background-color: "#377B28";
+}
+.text-greener-500{
+    color: "#377B28";
+}
+.bg-greener-550{
+    background-color: "rgba(33,125,29,0.7)";
+}
+.text-greener-550{
+    color: "rgba(33,125,29,0.7)";
+}
+.bg-greener-600{
+    background-color: "#14540A";
+}
+.text-greener-600{
+    color: "#14540A";
+}
+.bg-greener-650{
+    background-color: "rgba(14,116,34,0.6)";
+}
+.text-greener-650{
+    color: "rgba(14,116,34,0.6)";
+}
+.bg-greener-700{
+    background-color: "#0fcb23";
+}
+.text-greener-700{
+    color: "#0fcb23";
+}
+.bg-greener-950{
+    background-color: "#055656";
+}
+.text-greener-950{
+    color: "#055656";
+}
+.bg-yellower-600{
+    background-color: "rgb(251,255,0,0.6)";
+}
+.text-yellower-600{
+    color: "rgb(251,255,0,0.6)";
+}
+.bg-yellower-700{
+    background-color: "rgba(255,166,0,0.6)";
+}
+.text-yellower-700{
+    color: "rgba(255,166,0,0.6)";
+}
+.bg-yellower-900{
+    background-color: "rgba(124,75,13,0.6)";
+}
+.text-yellower-900{
+    color: "rgba(124,75,13,0.6)";
+}
+.bg-skyer-500{
+    background-color: "#0879AA";
+}
+.text-skyer-500{
+    color: "#0879AA";
+}
+.bg-skyer-600{
+    background-color: "rgb(2,132,199,0.7)";
+}
+.text-skyer-600{
+    color: "rgb(2,132,199,0.7)";
+}
+.bg-skyer-950{
+    background-color: "#033144";
+}
+.text-skyer-950{
+    color: "#033144";
+}
+.bg-bluer-600{
+    background-color: "rgba(11,30,80,0.7)";
+}
+.text-bluer-600{
+    color: "rgba(11,30,80,0.7)";
+}
+.bg-bluer-700{
+    background-color: "rgba(12,27,102,0.7)";
+}
+.text-bluer-700{
+    color: "rgba(12,27,102,0.7)";
+}
+.bg-bluer-800{
+    background-color: "rgba(15,47,137,0.6)";
+}
+.text-bluer-800{
+    color: "rgba(15,47,137,0.6)";
+}
+.bg-bluer-950{
+    background-color: "rgba(10,30,120,0.9)";
+}
+.text-bluer-950{
+    color: "rgba(10,30,120,0.9)";
+}
+.bg-emeralder-100{
+    background-color: "#078181";
+}
+.text-emeralder-100{
+    color: "#078181";
+}
+.bg-emeralder-300{
+    background-color: "rgba(129,167,137,0.7)";
+}
+.text-emeralder-300{
+    color: "rgba(129,167,137,0.7)";
+}
+.bg-emeralder-900{
+    background-color: "#021B1B";
+}
+.text-emeralder-900{
+    color: "#021B1B";
+}
+.bg-emeralder-950{
+    background-color: "#0ABCBC";
+}
+.text-emeralder-950{
+    color: "#0ABCBC";
+}
+.bg-cyaner-50{
+    background-color: "#86FFFF";
+}
+.text-cyaner-50{
+    color: "#86FFFF";
+}
+.bg-cyaner-100{
+    background-color: "#84FFFF";
+}
+.text-cyaner-100{
+    color: "#84FFFF";
+}
+.bg-cyaner-600{
+    background-color: "rgba(117,240,255,0.6)";
+}
+.text-cyaner-600{
+    color: "rgba(117,240,255,0.6)";
+}
+.bg-cyaner-700{
+    background-color: "rgba(117,240,255,0.7)";
+}
+.text-cyaner-700{
+    color: "rgba(117,240,255,0.7)";
+}
+.bg-oranger-700{
+    background-color: "rgba(255, 124, 0, 0.5)";
+}
+.text-oranger-700{
+    color: "rgba(255, 124, 0, 0.5)";
+}
+.bg-oranger-800{
+    background-color: "rgba(255,135,0,0.7)";
+}
+.text-oranger-800{
+    color: "rgba(255,135,0,0.7)";
+}
+.bg-neutraler-50{
+    background-color: "#E0FFFF";
+}
+.text-neutraler-50{
+    color: "#E0FFFF";
+}
+.bg-neutraler-100{
+    background-color: "rgba(56,59,56,0.8)";
+}
+.text-neutraler-100{
+    color: "rgba(56,59,56,0.8)";
+}
+.bg-neutraler-800{
+    background-color: "rgba(161,158,153,0.6)";
+}
+.text-neutraler-800{
+    color: "rgba(161,158,153,0.6)";
+}
+.bg-neutraler-900{
+    background-color: "rgba(212,212,212,0.8)";
+}
+.text-neutraler-900{
+    color: "rgba(212,212,212,0.8)";
+}
+.bg-violeter-600{
+    background-color: "rgba(126,68,85,0.6)";
+}
+.text-violeter-600{
+    color: "rgba(126,68,85,0.6)";
+}
+.bg-violeter-700{
+    background-color: "#481069";
+}
+.text-violeter-700{
+    color: "#481069";
+}
+.bg-violeter-800{
+    background-color: "rgba(76,12,174,0.7)";
+}
+.text-violeter-800{
+    color: "rgba(76,12,174,0.7)";
+}
+.bg-pinker-400{
+    background-color: "#E141B5";
+}
+.text-pinker-400{
+    color: "#E141B5";
+}
+.bg-limer-600{
+    background-color: "rgba(55,123,40,0.6)";
+}
+.text-limer-600{
+    color: "rgba(55,123,40,0.6)";
+}

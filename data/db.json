@@ -2,7 +2,7 @@
   {
     "slug": "one-piece",
     "imageTop": "https://plus.tver.jp/prod/kanren_news/20231117/7750da3b7f0448cb55bb2614b9d68133.jpg",
-    "class": "bg-red-600 text-slate-50",
+    "navClass": "bg-red-600 text-slate-50",
     "back": "bg-reder-10",
     "imageShow": [
       {
@@ -284,7 +284,7 @@
   {
     "slug": "naruto",
     "imageTop": "/assets/naruto_Top.png",
-    "class": "bg-blue-600 text-orange-500 ",
+    "navClass": "bg-blue-600 text-orange-500 ",
     "back": "bg-oranger-800",
     "imageShow": [
       {
@@ -355,7 +355,7 @@
   {
     "slug": "dragon-ball",
     "imageTop": "https://wallpapercave.com/wp/wp3717627.png",
-    "class": "bg-blue-800 text-slate-50 ",
+    "navClass": "bg-blue-800 text-slate-50 ",
     "back": "bg-oranger-700",
     "imageShow": [
       {
@@ -434,7 +434,7 @@
   {
     "slug": "bleach",
     "imageTop": "https://is5-ssl.mzstatic.com/image/thumb/FBYX1Ukd8kOe3_Hd1CXoaw/1200x675mf.jpg",
-    "class": "bg-neutral-50 text-red-600 ",
+    "navClass": "bg-neutral-50 text-red-600 ",
     "back": "bg-blacker-8",
     "imageShow": [
       {
@@ -501,7 +501,7 @@
   {
     "slug": "hunter-x-hunter",
     "imageTop": "https://www.compgamer.com/mainpage/wp-content/uploads/2023/12/hunterend-1024x574-1.jpg",
-    "class": "bg-orange-500 text-slate-50 ",
+    "navClass": "bg-orange-500 text-slate-50 ",
     "back": "bg-greener-300",
     "imageShow": [
       {
@@ -572,7 +572,7 @@
   {
     "slug": "shingeki-no-kyojin",
     "imageTop": "https://th.bing.com/th/id/R.4ad23a95908f13ccbfb9500061dfc4f1?rik=QIxiqUmwCs7xgg&riu=http%3a%2f%2fm.gettywallpapers.com%2fwp-content%2fuploads%2f2023%2f12%2fAttack-on-Titan-Computer-Wallpaper-1536x864.jpg&ehk=7l%2f2QH65HaPtujOeIf3lifYMgiDdMD1VL4fjf6bzA9k%3d&risl=&pid=ImgRaw&r=0",
-    "class": "bg-greener-600 text-slate-50 ",
+    "navClass": "bg-greener-600 text-slate-50 ",
     "back": "bg-amberer-500",
     "imageShow": [
       {
@@ -639,7 +639,7 @@
   {
     "slug": "my-hero-academia",
     "imageTop": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
-    "class": "bg-green-700 text-slate-50 ",
+    "navClass": "bg-green-700 text-slate-50 ",
     "back": "bg-neutraler-900",
     "imageShow": [
       {
@@ -706,7 +706,7 @@
   {
     "slug": "jujustu-kaisen",
     "imageTop": "https://mangascout.com/wp-content/uploads/2023/02/How-many-volumes-does-Jujutsu-Kaisen-have-min.png",
-    "class": "bg-pink-400 text-neutral-950 ",
+    "navClass": "bg-pink-400 text-neutral-950 ",
     "back": "bg-blacker-300",
     "imageShow": [
       {
@@ -773,7 +773,7 @@
   {
     "slug": "fullmetal-alchemist",
     "imageTop": "https://occ-0-769-768.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWDsZQXISuxzR0py6rA9WjnTQITCfgZzalbdWSbK_spW8rTqYvxfwu5I7FNLC7dzxZcHtAXZM6O6Dzn1eK-Hv5eHiaC_.jpg?r=b49",
-    "class": "bg-red-800 text-neutral-950 ",
+    "navClass": "bg-red-800 text-neutral-950 ",
     "back": "bg-neutraler-800",
     "imageShow": [
       {
@@ -840,7 +840,7 @@
   {
     "slug": "fairy-tail",
     "imageTop": "https://t1.daumcdn.net/cfile/tistory/997E57345AC825E81D",
-    "class": "bg-amber-500 text-red-600 ",
+    "navClass": "bg-amber-500 text-red-600 ",
     "back": "bg-yellower-700",
     "imageShow": [
       {
@@ -907,7 +907,7 @@
   {
     "slug": "black-clover",
     "imageTop": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
-    "class": "bg-neutral-950 text-stone-400 ",
+    "navClass": "bg-neutral-950 text-stone-400 ",
     "back": "bg-blacker-10",
     "imageShow": [
       {
@@ -974,7 +974,7 @@
   {
     "slug": "blue-lock",
     "imageTop": "https://i.ytimg.com/vi/ak0j47AWnGk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBMgFyh_MA8=&rs=AOn4CLABjrwDw8eLdNs3ZaHTXNFT2eZOiQ",
-    "class": "bg-blue-950 text-neutral-950 ",
+    "navClass": "bg-blue-950 text-neutral-950 ",
     "back": "bg-bluer-950",
     "imageShow": [
       {
@@ -1041,7 +1041,7 @@
   {
     "slug": "boruto",
     "imageTop": "/assets/Boruto_Top.png",
-    "class": "bg-blacker-200 text-pinker-400 ",
+    "navClass": "bg-blacker-200 text-pinker-400 ",
     "back": "bg-neutraler-100",
     "imageShow": [
       {
@@ -1112,7 +1112,7 @@
   {
     "slug": "burn-the-witch",
     "imageTop": "https://vigilianerd.com.br/wp-content/uploads/2020/09/burn-the-witch-crunchyroll-novo-trailer-vigilia-nerd.jpg",
-    "class": "bg-greener-500 text-red-700 ",
+    "navClass": "bg-greener-500 text-red-700 ",
     "back": "bg-limer-600",
     "imageShow": [
       {
@@ -1175,7 +1175,7 @@
   {
     "slug": "chainsaw-man",
     "imageTop": "https://i2.wp.com/www.serieously.com/app/uploads/2021/07/chainsaw-man-1-e1625150832548.jpg",
-    "class": "bg-orange-600 text-yellow-300 ",
+    "navClass": "bg-orange-600 text-yellow-300 ",
     "back": "bg-oranger-800",
     "imageShow": [
       {
@@ -1238,7 +1238,7 @@
   {
     "slug": "dandadan",
     "imageTop": "https://live.staticflickr.com/65535/53362060558_f668c85a6d_c.jpg",
-    "class": "bg-purple-800 text-emerald-400 ",
+    "navClass": "bg-purple-800 text-emerald-400 ",
     "back": "bg-fuchsia-400",
     "imageShow": [
       {
@@ -1297,7 +1297,7 @@
   {
     "slug": "death-note",
     "imageTop": "https://wallpapercave.com/wp/cev0wxh.jpg",
-    "class": "bg-neutral-950 text-red-600 ",
+    "navClass": "bg-neutral-950 text-red-600 ",
     "back": "bg-blacker-8",
     "imageShow": [
       {
@@ -1360,7 +1360,7 @@
   {
     "slug": "the-misfit-of-demon-king-academy",
     "imageTop": "https://wallpapercave.com/wp/wp6746184.jpg",
-    "class": "bg-slate-50 text-blue-700 ",
+    "navClass": "bg-slate-50 text-blue-700 ",
     "back": "bg-violeter-800",
     "imageShow": [
       {
@@ -1423,7 +1423,7 @@
   {
     "slug": "detective-conan",
     "imageTop": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/b3/7f/2d/b37f2db8-2b7e-22b5-39d7-a3cefaea7f5a/TMS_CC_The_Darkest_Nightmare_BDW.png/1200x675mf.jpg",
-    "class": "bg-yellow-700 text-slate-50 ",
+    "navClass": "bg-yellow-700 text-slate-50 ",
     "back": "bg-yellower-900",
     "imageShow": [
       {
@@ -1490,7 +1490,7 @@
   {
     "slug": "dororo",
     "imageTop": "https://is1-ssl.mzstatic.com/image/thumb/zfe-O6QXQV7U2GjiUwhnXw/1200x675mf.jpg",
-    "class": "bg-emerald-400 text-green-700 ",
+    "navClass": "bg-emerald-400 text-green-700 ",
     "back": "bg-lime-300",
     "imageShow": [
       {
@@ -1553,7 +1553,7 @@
   {
     "slug": "the-eminence-in-shadow",
     "imageTop": "/assets/Shadow.png",
-    "class": "bg-violet-700 text-neutral-950 ",
+    "navClass": "bg-violet-700 text-neutral-950 ",
     "back": "bg-violet-shadow",
     "imageShow": [
       {
@@ -1616,7 +1616,7 @@
   {
     "slug": "hajime-no-ippo",
     "imageTop": "https://is1-ssl.mzstatic.com/image/thumb/EndsSqUgwa5sG07z6QiS-w/1200x675.jpg",
-    "class": "bg-red-700 text-blue-800 ",
+    "navClass": "bg-red-700 text-blue-800 ",
     "back": "bg-zinc-100",
     "imageShow": [
       {
@@ -1683,7 +1683,7 @@
   {
     "slug": "jojo-bizarre-adventure",
     "imageTop": "/assets/Jojo_top.png",
-    "class": "bg-violeter-700 text-yellow-300 ",
+    "navClass": "bg-violeter-700 text-yellow-300 ",
     "back": "bg-bluer-600",
     "imageShow": [
       {
@@ -1746,7 +1746,7 @@
   {
     "slug": "kaiju-no-8",
     "imageTop": "https://areajugones.sport.es/wp-content/uploads/2021/06/kaiju-no-8.jpg",
-    "class": "bg-red-700 text-emerald-400",
+    "navClass": "bg-red-700 text-emerald-400",
     "back": "bg-teal-300",
     "imageShow": [
       {
@@ -1809,7 +1809,7 @@
   {
     "slug": "demon-slayer-kimetsu-no-yaiba",
     "imageTop": "https://wallpapercave.com/wp/wp6374954.jpg",
-    "class": "bg-green-400 text-neutral-950",
+    "navClass": "bg-green-400 text-neutral-950",
     "back": "bg-violeter-600",
     "imageShow": [
       {
@@ -1876,7 +1876,7 @@
   {
     "slug": "kingdom",
     "imageTop": "https://is5-ssl.mzstatic.com/image/thumb/Oxdu32BEvQnnBr14sKzkpQ/1200x675mf.jpg",
-    "class": "bg-red-700 text-yellow-300",
+    "navClass": "bg-red-700 text-yellow-300",
     "back": "bg-amberer-700",
     "imageShow": [
       {
@@ -1939,7 +1939,7 @@
   {
     "slug": "konosuba",
     "imageTop": "https://wallpapers.com/images/high/konosuba-megumin-aqua-and-darkness-3ti7yt7iuonsiqya.jpg",
-    "class": "bg-blue-700 text-emerald-300",
+    "navClass": "bg-blue-700 text-emerald-300",
     "back": "bg-cyaner-700",
     "imageShow": [
       {
@@ -2002,7 +2002,7 @@
   {
     "slug": "kuroko-basket",
     "imageTop": "https://th.bing.com/th/id/R.e31180e7f307ef7fee05f4601b9effd0?rik=yN1dcDibr0LvAw&riu=http%3a%2f%2flescarnetsdemelyiane.com%2fwp-content%2fuploads%2f2016%2f11%2fkuroko1.jpg&ehk=VZNz3Yjg9rDq8HctHRgKbBtBlJidF7p5mViGeAIaXTY%3d&risl=&pid=ImgRaw&r=0",
-    "class": "bg-slate-50 text-neutral-950",
+    "navClass": "bg-slate-50 text-neutral-950",
     "back": "bg-zinc-100",
     "imageShow": [
       {
@@ -2069,7 +2069,7 @@
   {
     "slug": "mashle",
     "imageTop": "https://mashle.pw/teaser/img/special/tw100000/wp_pc.jpg",
-    "class": "bg-red-900 text-yellow-300",
+    "navClass": "bg-red-900 text-yellow-300",
     "back": "bg-red-800",
     "imageShow": [
       {
@@ -2132,7 +2132,7 @@
   {
     "slug": "moi-quand-je-me-reincarne-en-slime",
     "imageTop": "/assets/Slime_Top.png",
-    "class": "bg-blue-600 text-slate-50",
+    "navClass": "bg-blue-600 text-slate-50",
     "back": "bg-cyaner-600",
     "imageShow": [
       {
@@ -2199,7 +2199,7 @@
   {
     "slug": "mushoku-tensei",
     "imageTop": "/assets/Mushoku.png",
-    "class": "bg-yellow-900 text-yellow-500",
+    "navClass": "bg-yellow-900 text-yellow-500",
     "back": "bg-cyaner-600",
     "imageShow": [
       {
@@ -2262,7 +2262,7 @@
   {
     "slug": "one-punch-man",
     "imageTop": "https://sm.ign.com/t/ign_latam/screenshot/default/opm-personajes_j8qr.2560.jpg",
-    "class": "bg-slate-50 text-red-600",
+    "navClass": "bg-slate-50 text-red-600",
     "back": "bg-yellow-300",
     "imageShow": [
       {
@@ -2325,7 +2325,7 @@
   {
     "slug": "re-monster",
     "imageTop": "https://vistapointe.net/images/remonster-9.jpg",
-    "class": "bg-amber-400 text-neutral-950",
+    "navClass": "bg-amber-400 text-neutral-950",
     "back": "bg-amberer-600",
     "imageShow": [
       {
@@ -2388,7 +2388,7 @@
   {
     "slug": "the-rising-of-the-shield-hero",
     "imageTop": "https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2024/01/naofumi-iwatani-from-the-rising-of-the-shield-hero.jpg",
-    "class": "bg-green-700 text-zinc-400",
+    "navClass": "bg-green-700 text-zinc-400",
     "back": "bg-greener-550",
     "imageShow": [
       {
@@ -2451,7 +2451,7 @@
   {
     "slug": "saint-seiya",
     "imageTop": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/09/Pegasus-Fantasy-Cronica-y-resena-del-primer-concierto-oficial-de-Caballeros-del-Zodiaco-en-Mexico.jpg",
-    "class": "bg-neutral-950 text-blue-800",
+    "navClass": "bg-neutral-950 text-blue-800",
     "back": "bg-bluer-800",
     "imageShow": [
       {
@@ -2542,7 +2542,7 @@
   {
     "slug": "sakamoto-days",
     "imageTop": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d759e9fd-d71b-472e-8c4e-3cc04f7aad23.__CR0,0,1464,600_PT0_SX1464_V1___.png",
-    "class": "bg-red-600 text-neutral-950",
+    "navClass": "bg-red-600 text-neutral-950",
     "back": "bg-yellower-600",
     "imageShow": [
       {
@@ -2601,7 +2601,7 @@
   {
     "slug": "naruto-shippuden",
     "imageTop": "https://is3-ssl.mzstatic.com/image/thumb/QL_BoZgvNAWrJuw0GTa_FA/1600x900.jpg",
-    "class": "bg-neutral-950 text-orange-500",
+    "navClass": "bg-neutral-950 text-orange-500",
     "back": "bg-oranger-800",
     "imageShow": [
       {
@@ -2664,7 +2664,7 @@
   {
     "slug": "spy-x-family",
     "imageTop": "https://assets.st-note.com/production/uploads/images/81449111/rectangle_large_type_2_62ab36256d8db1456e9a7509c4d6b474.jpeg?fit=bounds&quality=85&width=1280",
-    "class": "bg-greener-450 text-neutral-950",
+    "navClass": "bg-greener-450 text-neutral-950",
     "back": "bg-emeralder-300",
     "imageShow": [
       {
@@ -2727,7 +2727,7 @@
   {
     "slug": "tokyo-ghoul",
     "imageTop": "https://w.wallha.com/ws/12/AkV2uWEr.png",
-    "class": "bg-slate-50 text-red-600",
+    "navClass": "bg-slate-50 text-red-600",
     "back": "bg-slate-800",
     "imageShow": [
       {
@@ -2798,7 +2798,7 @@
   {
     "slug": "tomodachi-game",
     "imageTop": "https://is1-ssl.mzstatic.com/image/thumb/cQJl5sjZ03_Te83v26ZhTQ/1200x675mf.jpg",
-    "class": "bg-yellow-400 text-red-600",
+    "navClass": "bg-yellow-400 text-red-600",
     "back": "bg-slate-800",
     "imageShow": [
       {
@@ -2861,7 +2861,7 @@
   {
     "slug": "tsukimichi-moonlit-fantasy",
     "imageTop": "https://wallpaperaccess.com/full/7186685.png",
-    "class": "bg-indigo-900 text-yellow-400",
+    "navClass": "bg-indigo-900 text-yellow-400",
     "back": "bg-bluer-700",
     "imageShow": [
       {
@@ -2920,7 +2920,7 @@
   {
     "slug": "vinland-saga",
     "imageTop": "https://laverdadnoticias.com/img/2022/08/22/entrevista_makoto_yukimura_final_manga_vinland_saga.jpg",
-    "class": "bg-red-600 text-slate-50",
+    "navClass": "bg-red-600 text-slate-50",
     "back": "bg-amber-200",
     "imageShow": [
       {
@@ -2983,7 +2983,7 @@
   {
     "slug": "wind-breaker",
     "imageTop": "https://staticg.sportskeeda.com/editor/2023/03/89965-16801731089414-1920.jpg",
-    "class": "bg-greener-700 text-yellow-400",
+    "navClass": "bg-greener-700 text-yellow-400",
     "back": "bg-green-400",
     "imageShow": [
       {
@@ -3046,7 +3046,7 @@
   {
     "slug": "yu-yu-hakusho",
     "imageTop": "https://is2-ssl.mzstatic.com/image/thumb/x8p5qIplzCDG2HO_WraxoA/1200x675.jpg",
-    "class": "bg-green-700 text-lime-950",
+    "navClass": "bg-green-700 text-lime-950",
     "back": "bg-greener-650",
     "imageShow": [
       {
@@ -3113,7 +3113,7 @@
   {
     "slug": "undead-unluck",
     "imageTop": "assets/Undead_Top.png",
-    "class": "bg-pink-400 text-sky-500",
+    "navClass": "bg-pink-400 text-sky-500",
     "back": "bg-skyer-600",
     "imageShow": [
       {
@@ -3176,7 +3176,7 @@
   {
     "slug": "assassination-classroom",
     "imageTop": "https://renote.jp/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZ1dsIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5eb062131799c8c49637c7ae7fb753f7482e3615/27216f7a-a59d-4865-b34b-08e5b3e62f2c.jpg",
-    "class": "bg-yellow-300 text-neutral-950",
+    "navClass": "bg-yellow-300 text-neutral-950",
     "back": "bg-yellower-600",
     "imageShow": [
       {
@@ -3243,7 +3243,7 @@
   {
     "slug": "re-zero",
     "imageTop": "https://images2-mega.cdn.mdstrm.com/etcetera/2020/06/23/11774_1_5ef26f44aa067.jpg?d=1200x500",
-    "class": "bg-violet-600 text-slate-50",
+    "navClass": "bg-violet-600 text-slate-50",
     "back": "bg-purple-400",
     "imageShow": [
       {
@@ -3302,7 +3302,7 @@
   {
     "slug": "reincarnated-as-a-sword",
     "imageTop": "https://is3-ssl.mzstatic.com/image/thumb/ZE9DYiSJB5Nj1Sx57Fw0AQ/1200x675.jpg",
-    "class": "bg-slate-50 text-fuchsia-500",
+    "navClass": "bg-slate-50 text-fuchsia-500",
     "back": "bg-zinc-200",
     "imageShow": [
       {
@@ -3361,7 +3361,7 @@
   {
     "slug": "the-irregular-at-magic-high-school",
     "imageTop": "https://images2.alphacoders.com/828/thumb-1920-828201.png",
-    "class": "bg-slate-50 text-emerald-500",
+    "navClass": "bg-slate-50 text-emerald-500",
     "back": "bg-emerald-300",
     "imageShow": [
       {
@@ -3420,7 +3420,7 @@
   {
     "slug": "in-another-world-with-my-smartphone",
     "imageTop": "https://c.wallhere.com/photos/c5/36/anime_anime_girls_anime_boys_Isekai_wa_Smartphone_to_Tomo_ni_Mochizuki_Touya_Yumina_Urnea_Belfast_Sushie_Urnea_Ortlinde_Linze_Silhoueska-1397671.jpg!d",
-    "class": "bg-pink-400 text-slate-50",
+    "navClass": "bg-pink-400 text-slate-50",
     "back": "bg-zinc-100",
     "imageShow": [
       {
@@ -3479,7 +3479,7 @@
   {
     "slug": "arifureta",
     "imageTop": "/assets/Arifureta_Top.png",
-    "class": "bg-neutral-800 text-red-600",
+    "navClass": "bg-neutral-800 text-red-600",
     "back": "bg-blacker-8",
     "imageShow": [
       {
@@ -3538,7 +3538,7 @@
   {
     "slug": "goblin-slayer",
     "imageTop": "https://staticg.sportskeeda.com/editor/2023/01/4f77c-16729364464184.png",
-    "class": "bg-neutral-800 text-red-600",
+    "navClass": "bg-neutral-800 text-red-600",
     "back": "bg-blacker-8",
     "imageShow": [
       {
@@ -3601,7 +3601,7 @@
   {
     "slug": "captain-tsubasa",
     "imageTop": "https://metadata-static.plex.tv/2/gracenote/23fbb9d48c1299bc02e013dd627c54d1.jpg",
-    "class": "bg-slate-50 text-sky-600",
+    "navClass": "bg-slate-50 text-sky-600",
     "back": "bg-zinc-100",
     "imageShow": [
       {
@@ -3664,12 +3664,12 @@
   {
     "slug": "danmachi",
     "imageTop": "https://i.ytimg.com/vi/b8YJMLIDcB0/maxresdefault.jpg",
-    "class": "bg-skyer-500 text-slate-50",
+    "navClass": "bg-skyer-500 text-slate-50",
     "back": "bg-skyer-950",
     "imageShow": [
       {
         "img": "/assets/Danmachi_poster.png",
-        "url": "danmachi/episodes"
+        "url": "danmachi/scans"
       },
       {
         "img": "/assets/Danmachi_API.png",
@@ -3723,7 +3723,7 @@
   {
     "slug": "dr-stone",
     "imageTop": "https://1.bp.blogspot.com/-K6iM-sLiVxc/XUAD9-PHbKI/AAAAAAAABxs/tYLhk8uHRWAVdndI6eOgLzOrP5Vrs4R4wCLcBGAs/s1600/drstone.jpg",
-    "class": "bg-stone-600 text-orange-600",
+    "navClass": "bg-stone-600 text-orange-600",
     "back": "bg-orange-700",
     "imageShow": [
       {
@@ -3786,7 +3786,7 @@
   {
     "slug": "the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
     "imageTop": "https://wallpapercave.com/wp/wp10221981.jpg",
-    "class": "bg-neutral-950 text-red-600",
+    "navClass": "bg-neutral-950 text-red-600",
     "back": "bg-zinc-100",
     "imageShow": [
       {
@@ -3845,7 +3845,7 @@
   {
     "slug": "seven-deadly-sins",
     "imageTop": "https://thecinemaholic.com/wp-content/uploads/2021/06/seven-deadly-sins-kjk.jpg",
-    "class": "bg-lime-600 text-orange-500",
+    "navClass": "bg-lime-600 text-orange-500",
     "back": "bg-green-300",
     "imageShow": [
       {
@@ -3912,7 +3912,7 @@
   {
     "slug": "soul-eater",
     "imageTop": "https://1.bp.blogspot.com/-Vd9h6CPpuwU/VAP89x6KKRI/AAAAAAAAAKc/NTpYQ9wVFbE/s1600/souleater.jpg",
-    "class": "bg-yellow-500 text-neutral-950 ",
+    "navClass": "bg-yellow-500 text-neutral-950 ",
     "back": "bg-blacker-8",
     "imageShow": [
       {

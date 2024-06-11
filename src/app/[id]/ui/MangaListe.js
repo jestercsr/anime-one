@@ -1,6 +1,4 @@
-
-
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
@@ -9,8 +7,25 @@ import MainComposent from "./MainComposent";
 import Footer from "@/app/ui/Footer";
 import { getAllManga } from "../../../../prisma";
 
+function MangaListe({ props }) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
 
-export async function MangaListe({ props }) { 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const mangaData = await getAllManga(props);
+        setData(mangaData);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching manga data:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [props.id]);
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },
@@ -34,60 +49,56 @@ export async function MangaListe({ props }) {
     },
   };
 
-  let data = await getAllManga(props.id) 
-  console.log(data);
-  
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div>
-      <div>
-        <Navbar className={data.navClass} />
-        <MainComposent className={data.back}>
-          <div className="h-4/5 justify-center m-auto flex">
-            <img src={data.imageTop} className="w-9/12 h-svh" />
-          </div>
-          <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
-            {data.imageShow?.map((select, i) => {
-              return (
-                <div
-                  className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
-                  key={i}
-                >
-                  <Link href={select.url}>
-                    <img src={select.img} className="w-full rounded-2xl" />
-                  </Link>
-                </div>
-              );
-            })}
-          </section>
+      <Navbar className={data.navClass} />
+      <MainComposent className={data.back}>
+        <div className="h-4/5 justify-center m-auto flex">
+          <img src={data.imageTop} className="w-9/12 h-svh" />
+        </div>
+        <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
+          {data.imageShow?.map((select, i) => (
+            <div
+              className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
+              key={i}
+            >
+              <Link href={select.url}>
+                <img src={select.img} className="w-full rounded-2xl" />
+              </Link>
+            </div>
+          ))}
+        </section>
 
-          <div className="my-px">
-            <h2 className={data.titre}>A voir également</h2>
-            <Carousel responsive={responsive}>
-              {data.imageCarousel?.map((select, indice) => {
-                return (
-                  <div
-                    className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
-                    key={indice}
-                  >
-                    <Link href={`/${select.url}`}>
-                      <img
-                        src={select.image}
-                        className="w-full rounded-2xl hover:opacity-100"
-                      />
-                      <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
-                        {select.name}
-                      </p>
-                    </Link>
-                  </div>
-                );
-              })}
-            </Carousel>
-          </div>
+        <div className="my-px">
+          <h2 className={data.titre}>A voir également</h2>
+          <Carousel responsive={responsive}>
+            {data.imageCarousel?.map((select, indice) => (
+              <div
+                className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
+                key={indice}
+              >
+                <Link href={`/${select.url}`}>
+                  <img
+                    src={select.image}
+                    className="w-full rounded-2xl hover:opacity-100"
+                  />
+                  <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
+                    {select.name}
+                  </p>
+                </Link>
+              </div>
+            ))}
+          </Carousel>
+        </div>
 
-          <Footer />
-        </MainComposent>
-      </div>
+        <Footer />
+      </MainComposent>
     </div>
   );
 }
 
+export default MangaListe;
