@@ -36,6 +36,7 @@ export async function MangaListe({ props }) {
 
   let data = await getAllManga(props.id) 
   console.log(data);
+  
   return (
     <div>
       <div>
