@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 
 
 export async function getAllManga(id: string) {
-  const prisma = new PrismaClient();
+  const prisma = new PrismaClient()
   try {
     const allManga = await prisma.mangaName.findUnique({
       where: {
@@ -21,4 +21,14 @@ export async function getAllManga(id: string) {
     return null;
   }
   
+}
+export async function getListeAll(){
+  const prisma = new PrismaClient();
+  try {
+    const listeAllManga = await prisma.listeAll.findMany()    
+    return listeAllManga
+  } catch (error) {
+    console.error('Error fetching manga data:', error);
+    return null;
+  }
 }

@@ -39,6 +39,14 @@ type MangaNameImageShow {
   url String
 }
 
+model listeAll {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  categorie String[]
+  image     String
+  name      String   @unique
+  url       String
+}
+
 model mangaName {
   id            String                   @id @default(auto()) @map("_id") @db.ObjectId
   animation     MangaNameAnimation[]

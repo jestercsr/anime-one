@@ -3,9 +3,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
-import MainComposent from "./MainComposent";
 import Footer from "@/app/ui/Footer";
-import { getAllManga } from "../../../../prisma";
+import { getAllManga } from "../../../../../prisma";
 
 function MangaListe({ props }) {
   const [data, setData] = useState(null);
@@ -54,14 +53,13 @@ function MangaListe({ props }) {
   }
 
   return (
-    <div>
-      <Navbar className={data.navClass} />
-      <MainComposent className={data.back}>
+    <div className={data?.back}>
+      <Navbar className={data?.navClass} />
         <div className="h-4/5 justify-center m-auto flex">
-          <img src={data.imageTop} className="w-9/12 h-svh" />
+          <img src={data?.imageTop} className="w-9/12 h-svh" />
         </div>
         <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
-          {data.imageShow?.map((select, i) => (
+          {data?.imageShow?.map((select, i) => (
             <div
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
@@ -74,9 +72,9 @@ function MangaListe({ props }) {
         </section>
 
         <div className="my-px">
-          <h2 className={data.titre}>A voir également</h2>
+          <h2 className={data?.titre}>A voir également</h2>
           <Carousel responsive={responsive}>
-            {data.imageCarousel?.map((select, indice) => (
+            {data?.imageCarousel?.map((select, indice) => (
               <div
                 className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
                 key={indice}
@@ -96,7 +94,6 @@ function MangaListe({ props }) {
         </div>
 
         <Footer />
-      </MainComposent>
     </div>
   );
 }
