@@ -17,7 +17,7 @@ function MangaListe({ props }) {
         setData(mangaData);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching manga data:", error);
+        console.error("Erreur d'import de la base:", error);
         setLoading(false);
       }
     };
@@ -79,7 +79,7 @@ function MangaListe({ props }) {
                 className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
                 key={indice}
               >
-                <Link href={`/${select.url}`}>
+                <Link href={select.url}>
                   <img
                     src={select.image}
                     className="w-full rounded-2xl hover:opacity-100"

@@ -1,12 +1,14 @@
 
-## <font color="#00b050">5 concepts <span style="background:#fff88f">POO</span> (Programmation Orientées Objet ) : </font>
+
+## <font color="#ffc000">Intro</font>
+### <font color="#00b050">5 concepts <span style="background:#fff88f">POO</span> (Programmation Orientées Objet ) : </font>
 1.  L'encapsulation
 2.  L'héritage
 3.  Redéfinition
 4.  Surcharge
 5.  Polymorphisme
 
-## <font color="#00b050">4 Niveaux de visibilités pour les attributs, les méthodes et les classes :</font>
+### <font color="#00b050">4 Niveaux de visibilités pour les attributs, les méthodes et les classes :</font>
 
 <span style="background:#fff88f">Protected</span> : L'attribut ou la méthode n'est visible que par les classes présentes dans le même dossier (package) et les classes filles. Pas applicable pour les classes. 
 <span style="background:#fff88f">Default</span> : Visible uniquement dans le même projet. Il n'est pas nécessaire de le préciser pour les attributs, les méthodes et les classes car sans précision c'est ce qui est appliqué par défaut. 
@@ -37,4 +39,10 @@ Ensuite on aura 4 dossiers au total pour l'appli en créant les 3 autres :
 - src/test/java
 - src/test/resources
 
-## <font color="#00b050">POO</font>
+### <font color="#00b050">POO</font>
+
+
+## <font color="#ffc000">Perfectionement</font>
+M = Model => Stockage
+V = Vue => Template
+C = Controller

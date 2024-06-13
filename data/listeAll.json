@@ -10,7 +10,8 @@
       "Fantasy",
       "Drame",
       "Shonen"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/Konosuba.png",
@@ -23,7 +24,8 @@
       "Fantasy",
       "Drame",
       "Romance"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
@@ -40,7 +42,8 @@
       "Harem",
       "Reincarnation",
       "Shonen"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": " /assets/Slime_poster.png",
@@ -55,13 +58,15 @@
       "Civilisation",
       "Monstres",
       "Shonen"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://images.everyeye.it/img-notizie/kaiju-no-8-anime-verrA-annunciato-secondo-leak-v3-601343.jpg",
     "name": "Kaiju n°8",
     "url": "/manga/kaiju-no-8",
-    "categorie": ["Shonen", "Adventure", "Science-Fiction"]
+    "categorie": ["Shonen", "Adventure", "Science-Fiction"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://occ-0-56-55.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcTQfPHhYZq2gpzwzXWwIBSyDkw-s-fL9TVeDNEloSS8Hcg-dYdsJh8dP-r7dAm-i2n-7XuKWlHDGg8zJ2fQp4-MJJW0PW_K5_HB.jpg?r=a39",
@@ -77,7 +82,8 @@
       "Roman Policier",
       "Enigme",
       "Detective"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
@@ -93,19 +99,22 @@
       "Autre Monde",
       "Dieux/ Déesses",
       "Shonen"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://th.bing.com/th/id/OIP.BwQexopLcK9tzD1U3_pu5AHaEK?rs=1&pid=ImgDetMain",
     "name": "Wind Breaker",
     "url": "/manga/wind-breaker",
-    "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"]
+    "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://ntvb.tmsimg.com/assets/p26583083_b_h10_aa.jpg?w=960&h=540",
     "name": "Ninja Kamui",
     "url": "/manga/ninja-kamui",
-    "categorie": ["Action", "Cyborgs", "Ninja", "Vengeance", "Seinen"]
+    "categorie": ["Action", "Cyborgs", "Ninja", "Vengeance", "Seinen"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
@@ -118,13 +127,15 @@
       "Fantasy",
       "Super-Héros",
       "Science-Fiction"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://th.bing.com/th/id/R.3ac626b77d582190ba616398e7245188?rik=IzZ1DQJe0pZfnQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f5%2ff%2f65614.jpg&ehk=G1QCaUTmnND8DydGwoyr9HIFW3vxtlUGf2s%2bo4iZK4g%3d&risl=&pid=ImgRaw&r=0",
     "name": "Spice & Wolf",
     "url": "/manga/spice-and-wolf",
-    "categorie": ["Seinen", "Fantasy", "Adventure", "Romance"]
+    "categorie": ["Seinen", "Fantasy", "Adventure", "Romance"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://techduffer.com/wp-content/uploads/2023/09/Chainsaw-Man-PFP-1024x576.webp",
@@ -139,13 +150,15 @@
       "Romance",
       "Démons",
       "Monstres"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://www.joyfreak.com/attachments/spy-x-family-review-jpg.3970/",
     "name": "Spy x Family",
     "url": "/manga/spy-x-family",
-    "categorie": ["Shonen", "Action", "Comédie", "Ecole", "Espion", "Famille"]
+    "categorie": ["Shonen", "Action", "Comédie", "Ecole", "Espion", "Famille"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/DBS.png",
@@ -158,7 +171,8 @@
       "Comédie",
       "Arts-Martiaux",
       "Science-Fiction"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
@@ -171,7 +185,8 @@
       "Arts-Martiaux",
       "Drame",
       "Combats"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is3-ssl.mzstatic.com/image/thumb/u0Y-4aNADi2HCk8xlePR9A/1200x675.jpg",
@@ -187,19 +202,22 @@
       "Thriller",
       "Apocalyptique",
       "Militaire"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://theilluminerdi.com/wp-content/uploads/2022/03/AOASHI-Seasonal-Announcement-Assets16x9-1024x576.png",
     "name": "Ao Ashi",
     "url": "/manga/ao-ashi",
-    "categorie": ["Seinen", "Tournoi", "Sports", "Football"]
+    "categorie": ["Seinen", "Tournoi", "Sports", "Football"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://eliteone.in/wp-content/uploads/2020/07/19033224951_82ae471683_c.jpg",
     "name": "Hajime no Ippo",
     "url": "/manga/hajime-no-ippo",
-    "categorie": ["Shonen", "Sports", "Boxe", "Romance"]
+    "categorie": ["Shonen", "Sports", "Boxe", "Romance"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/91/3b/44/913b440e-710a-bf32-821b-91ec4c47b30f/AMP_JOJOBA_TCS2_H_DD_KA_TT_3415x1920_300dpi_EN_ab7b72b0.jpg/1200x675.jpg",
@@ -212,7 +230,8 @@
       "Adventure",
       "Super-Pouvoir",
       "Fantasy"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/7rCcLy52FSSb0LQThIOL3A/1200x675.jpg",
@@ -226,7 +245,8 @@
       "Drame",
       "Vikings",
       "Historique"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/2d/04/a1/2d04a1e2-e8f6-bfbe-ec2b-7d3369cfc3b3/1226115527-WW-AMP_SF.lsr/2000x1125.jpg",
@@ -240,7 +260,8 @@
       "Fantasy",
       "Combats",
       "Romance"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/rcNyu75X95z9aFfro5Irew/1200x630.jpg",
@@ -257,7 +278,8 @@
       "Mystère",
       "Crime",
       "Shinigami"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/x8p5qIplzCDG2HO_WraxoA/1200x675.jpg",
@@ -275,7 +297,8 @@
       "Arts-Martiaux",
       "Combats",
       "Detective"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://image-cf.kddi-video.com/ede/ede90cb50be485e52e566a80900c4f97/fit-background-transparent/1524723655/750x422.png",
@@ -288,19 +311,22 @@
       "Combats",
       "Drame",
       "Shinigami"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/57/8a/bc/578abc37-2dba-b507-eef9-ed0cb811adf8/352460068-WW-AMP_SF.lsr/1200x675.jpg",
     "name": "Soul Eater",
     "url": "/manga/soul-eater",
-    "categorie": ["Shonen", "Action", "Adventure", "Comédie", "Fantasy"]
+    "categorie": ["Shonen", "Action", "Adventure", "Comédie", "Fantasy"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://animeukiyo.com/wp-content/uploads/2021/03/eyeshield-21-anime.png",
     "name": "Eyeshield 21",
     "url": "/manga/eyeshield-21",
-    "categorie": ["Shonen", "Football Américain", "Sports", "Lycée", "Tournoi"]
+    "categorie": ["Shonen", "Football Américain", "Sports", "Lycée", "Tournoi"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is3-ssl.mzstatic.com/image/thumb/L20cvExVVgeVXSALdC0uyQ/1200x675.jpg",
@@ -315,7 +341,8 @@
       "Surnaturel",
       "Alchimie",
       "Militaire"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/zGy0qlpYoJlRosxfiFEPbw/1200x630.jpg",
@@ -328,13 +355,15 @@
       "Comédie",
       "Arts-Martiaux",
       "Science-Fiction"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
     "name": "Boruto",
     "url": "/manga/boruto",
-    "categorie": ["Shonen", "Action", "Comédie", "Ninja", "Drame", "Combats"]
+    "categorie": ["Shonen", "Action", "Comédie", "Ninja", "Drame", "Combats"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/9tMv1_hQCBxT2nIKAMEE2g/1200x630.jpg",
@@ -349,19 +378,22 @@
       "Science-Fiction",
       "Surnaturel",
       "Fantasy"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
     "name": "Jujustu Kaisen",
     "url": "/manga/jujustu-kaisen",
-    "categorie": ["Shonen", "Action", "Dark Fantasy"]
+    "categorie": ["Shonen", "Action", "Dark Fantasy"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/EminenceShadow_poster.png",
     "name": "The Eminence in Shadow",
     "url": "/manga/the-eminence-in-shadow",
-    "categorie": ["Seinen", "Dark Fantasy", "Comédie", "Isekai"]
+    "categorie": ["Seinen", "Dark Fantasy", "Comédie", "Isekai"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/shippuden.png",
@@ -374,7 +406,8 @@
       "Arts-Martiaux",
       "Drame",
       "Combats"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://mashle.pw/teaser/img/special/tw100000/wp_pc.jpg",
@@ -389,13 +422,15 @@
       "Combats",
       "Arts-Martiaux",
       "Magie"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
     "name": "Black Clover",
     "url": "/manga/black-clover",
-    "categorie": ["Shonen", "Action", "Adventure", "Romance", "Fantasy"]
+    "categorie": ["Shonen", "Action", "Adventure", "Romance", "Fantasy"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/MobPsycho_poster.png",
@@ -409,7 +444,8 @@
       "Surnaturel",
       "Science-Fiction",
       "Psychique"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
@@ -423,7 +459,8 @@
       "Combats",
       "Horreur",
       "Surnaturel"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://occ-0-2706-2705.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSJ0iUzE6BAInldiHhPLWhhUApKB6WatDTze_NNWX40qOD3CupcaFXp13AWtlZK2D9q_NZYOYpX1BurnZown-wcIM_FZ.jpg?r=1c8",
@@ -437,7 +474,8 @@
       "Drame",
       "Horreur",
       "Monstres"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
@@ -452,7 +490,8 @@
       "Combats",
       "Arts-Martiaux",
       "Examen"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://edens-zero.net/wp-content/uploads/2021/03/spe01-in.png",
@@ -466,7 +505,8 @@
       "Drame",
       "Science-Fiction",
       "Fantasy"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
@@ -480,7 +520,8 @@
       "Comédie",
       "Combats",
       "Science-Fiction"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
@@ -493,7 +534,8 @@
       "Militaire",
       "Drame",
       "Historique"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://img-douga.flat-flat.jp/S002508/S002508_large.jpg",
@@ -506,7 +548,8 @@
       "Jeux",
       "Drame",
       "Trahison"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/LoserRanger_poster.png",
@@ -519,13 +562,15 @@
       "Super-Héros",
       "Drame",
       "Combats"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://wallpaperaccess.com/full/11143339.jpg",
     "name": "Reincarnated as a Sword",
     "url": "/manga/reincarnated-as-a-sword",
-    "categorie": ["Seinen", "Fantasy", "Isekai"]
+    "categorie": ["Seinen", "Fantasy", "Isekai"],
+    "anime": ["Series"]
   },
   {
     "image": "https://www.omegascopio.com.br/wp-content/uploads/2023/01/FT_S1_VERTICAL.jpg",
@@ -539,7 +584,8 @@
       "Fantasy",
       "Combats",
       "Magie"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://th.bing.com/th/id/OIP.m-1XQO-XgJug0OfXwSbCsgHaEK?rs=1&pid=ImgDetMain",
@@ -553,13 +599,15 @@
       "Ecole",
       "Magie",
       "Reincarnation"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://cdn.idntimes.com/content-images/duniaku/post/20240120/untitled-5265013fc98535f3edc12f8fd9c76c40.png",
     "name": "In Another World With My Smartphone",
     "url": "/manga/in-another-world-with-my-smartphone",
-    "categorie": ["Isekai", "Fantasy", "Harem", "Autre Monde"]
+    "categorie": ["Isekai", "Fantasy", "Harem", "Autre Monde"],
+    "anime": ["Series"]
   },
   {
     "image": "https://th.bing.com/th/id/R.50c4039f10887e3f9799d7b2c3b6ea34?rik=cU4XYZ40snL8HQ&pid=ImgRaw&r=0",
@@ -575,7 +623,8 @@
       "Isekai",
       "Combats",
       "Vengeance"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://www.themoviedb.org/t/p/original/9W7JRC7MLpjLSLZsUScHHFRkDPR.jpg",
@@ -589,7 +638,8 @@
       "Isekai",
       "Combats",
       "Monstres"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://images.ciatr.jp/2020/06/w_1000/WgHHSxRmlOxF94ih62riNXuBi4uHtXh7an3nIDQS.jpeg",
@@ -604,7 +654,8 @@
       "Combats",
       "Magie",
       "Romance"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/DBGT.png",
@@ -617,7 +668,8 @@
       "Arts-Martiaux",
       "Combats",
       "Science-Fiction"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/GZn_ZBjRo6X7slSNUPxA2A/1200x675.jpg",
@@ -630,7 +682,8 @@
       "Fantasy",
       "Science-Fiction",
       "Romance"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://sm.ign.com/t/ign_mear/screenshot/default/scale_1ac1.1200.jpg",
@@ -643,13 +696,15 @@
       "Science-Fiction",
       "Romance",
       "Vengeance"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/SoloLevelling_poster.png",
     "name": "Solo Levelling",
     "url": "/manga/solo-levelling",
-    "categorie": ["Seinen", "Action", "Dark Fantasy", "Combats", "Magie"]
+    "categorie": ["Seinen", "Action", "Dark Fantasy", "Combats", "Magie"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://th.bing.com/th/id/OIP.SSoxHBpWstQdN9nZipT8MgHaEK?rs=1&pid=ImgDetMain",
@@ -663,7 +718,8 @@
       "Fantasy",
       "Post-Apocalyptique",
       "Science-Fiction"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "assets/ReMonster_poster.png",
@@ -679,25 +735,29 @@
       "Monstres",
       "Civilisation",
       "Adventure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://pbs.twimg.com/media/CyqcrOaUsAAr8Xp.jpg",
     "name": "Kuroko's Basket",
     "url": "/manga/kuroko-basket",
-    "categorie": ["Shonen", "Sports", "Basket-ball"]
+    "categorie": ["Shonen", "Sports", "Basket-ball"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/Frieren_poster.png",
     "name": "Frieren",
     "url": "/manga/frieren",
-    "categorie": ["Shonen", "Adventure", "Drame", "Fantasy", "Magie"]
+    "categorie": ["Shonen", "Adventure", "Drame", "Fantasy", "Magie"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://image-cf.kddi-video.com/007/0076bca596b0edd1684a4155df1e5e2a/fit-background-transparent/1524078287/1080x608.png",
     "name": "Captain Tsubasa",
     "url": "/manga/captain-tsubasa",
-    "categorie": ["Shonen", "Sports", "Football"]
+    "categorie": ["Shonen", "Sports", "Football"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://th.bing.com/th/id/R.dcdfe7c3a65385da9b5c36e83d3b1763?rik=SGtOsV2CAFuOlg&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2f3y9ZOjHNBt0fp1lf31lMlF6nngd.jpg&ehk=Uosjl9hQbuiZqdJLOkHucjtaotsDHKhqr7l91N2Z8bs%3d&risl=&pid=ImgRaw&r=0",
@@ -710,25 +770,29 @@
       "Thriller",
       "Ecole",
       "Psychologique"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/j6PkuTQRMsh-6P0XS2rO1g/1200x675.jpg",
     "name": "Assassination Classroom",
     "url": "/manga/assassination-classroom",
-    "categorie": ["Shonen", "Action", "Comédie", "Science-Fiction"]
+    "categorie": ["Shonen", "Action", "Comédie", "Science-Fiction"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/Doubt_poster.png",
     "name": "Doubt",
     "url": "/manga/rabbit-doubt",
-    "categorie": ["Seinen", "Mystère", "Horreur", "Thriller", "Psychologique"]
+    "categorie": ["Seinen", "Mystère", "Horreur", "Thriller", "Psychologique"],
+    "anime": ["Scans"]
   },
   {
     "image": "https://fictionhorizon.com/wp-content/uploads/2022/09/DaYs1.jpg",
     "name": "Days",
     "url": "/manga/days",
-    "categorie": ["Shonen", "Sports", "Football", "Comédie"]
+    "categorie": ["Shonen", "Sports", "Football", "Comédie"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/5seconds_poster.png",
@@ -742,19 +806,22 @@
       "Surnaturel",
       "Jeux",
       "Combats"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/qi-s90W-qy0UW68Dho6JVQ/1600x900.jpg",
     "name": "Digimon",
     "url": "/manga/digimon",
-    "categorie": ["Shonen", "Jeux", "Cartes", "Monstres", "Gadget"]
+    "categorie": ["Shonen", "Jeux", "Cartes", "Monstres", "Gadget"],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/Slump&Arale_poster.png",
     "name": "Dr Slump",
     "url": "/manga/dr-slump",
-    "categorie": ["Shonen", "Comédie", "Drame", "Science-Fiction"]
+    "categorie": ["Shonen", "Comédie", "Drame", "Science-Fiction"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/PWufH12KH1OiHjfe3vaUZA/1200x675.jpg",
@@ -768,7 +835,8 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://www.cordcuttersnews.com/wp-content/uploads/2020/11/Pluto_FeaturedArt5_Yu-Gi-Oh_1920x1080.jpg",
@@ -783,7 +851,8 @@
       "Jeux",
       "Monstres",
       "Duels"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://th.bing.com/th/id/R.107f569ea99a9867f0c4c67b0b79b500?rik=W3ys9j8Luk5PhA&pid=ImgRaw&r=0",
@@ -796,13 +865,15 @@
       "Science-Fiction",
       "Surnaturel",
       "Arts-Martiaux"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://images.kktv.com.tw/stills/32/32736d1a91fb15687fb4e3b87a4a5d79f3ec8588.sm.jpg",
     "name": "Burn The Witch",
     "url": "/manga/burn-the-witch",
-    "categorie": ["Shonen", "Fantasy", "Action"]
+    "categorie": ["Shonen", "Fantasy", "Action"],
+    "anime": ["Films", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/Video113/v4/31/ac/04/31ac04c2-eb54-454a-c89a-0f8ba1317f12/1382888010-WW-AMP_SF.lsr/1200x675.jpg",
@@ -816,19 +887,22 @@
       "Horreur",
       "Démons",
       "Guerre"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is3-ssl.mzstatic.com/image/thumb/L20cvExVVgeVXSALdC0uyQ/1200x675.jpg",
     "name": "Fullmetal Alchemist",
     "url": "/manga/fullmetal-alchemist",
-    "categorie": ["Shonen", "Adventure", "Fantasy"]
+    "categorie": ["Shonen", "Adventure", "Fantasy"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://m.media-amazon.com/images/S/pv-target-images/cc6652f5808536c9b16791a336b57ce9406a9daa73ae64ae44861a17cb443c5c._UR1920,1080_BR-6_SX720_FMjpg_.jpg",
     "name": "Dororo",
     "url": "/manga/dororo",
-    "categorie": ["Shonen", "Dark Fantasy", "Surnaturel"]
+    "categorie": ["Shonen", "Dark Fantasy", "Surnaturel"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://animehunch.com/wp-content/uploads/2022/08/The-Rising-Of-The-Shield-Hero.jpg",
@@ -844,7 +918,8 @@
       "Magie",
       "Monstres",
       "Vengeance"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://1.bp.blogspot.com/-p-OT-9O66q8/YBsroZTru1I/AAAAAAAAp9I/jx5BS_t1xosB5hZymObiaP2yvKU_NJwYACLcBGAsYHQ/w640-h360/Episodios-Re-Zero-Relleno-Orden-Cronologico.jpg",
@@ -857,25 +932,35 @@
       "Action",
       "Drame",
       "Autre Monde"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://i.ytimg.com/vi/ak0j47AWnGk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBMgFyh_MA8=&rs=AOn4CLABjrwDw8eLdNs3ZaHTXNFT2eZOiQ",
     "name": "Blue Lock",
     "url": "/manga/blue-lock",
-    "categorie": ["Shonen", "Sports", "Thriller", "Football"]
+    "categorie": ["Shonen", "Sports", "Thriller", "Football"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://cdn.alfabetajuega.com/alfabetajuega/2023/06/code-geass-anime-ciencia-ficcion.jpg?width=800",
     "name": "Code Geass",
     "url": "/manga/code-geass",
-    "categorie": ["Shonen", "Science-Fiction", "Fantasy", "Mecha", "Drame"]
+    "categorie": ["Shonen", "Science-Fiction", "Fantasy", "Mecha", "Drame"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/54/88/71/548871fb-a078-9035-f6bd-d6619fd21eb4/560623074-WW-AMP_SF.lsr/1200x675.jpg",
     "name": "Steins;Gate",
     "url": "/manga/steins-gate",
-    "categorie": ["Seinen", "Science-Fiction", "Romance", "Mystère", "Thriller"]
+    "categorie": [
+      "Seinen",
+      "Science-Fiction",
+      "Romance",
+      "Mystère",
+      "Thriller"
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/BlackS_poster.png",
@@ -891,7 +976,8 @@
       "Dieux/ Déesses",
       "Harem",
       "Reincarnation"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/TWFA_poster.png",
@@ -907,13 +993,15 @@
       "Harem",
       "Reincarnation",
       "Assassinat"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/36/af/06/36af06ec-984e-e464-54ae-0d84419cef0a/pr_source.png/1200x675.jpg",
     "name": "Haikyuu",
     "url": "/manga/haikyuu",
-    "categorie": ["Shonen", "Sports", "Volley-ball"]
+    "categorie": ["Shonen", "Sports", "Volley-ball"],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/BorutoTwoBlueVortex.png",
@@ -926,7 +1014,8 @@
       "Action",
       "Drame",
       "Arts-Martiaux"
-    ]
+    ],
+    "anime": ["Scans"]
   },
   {
     "image": "/assets/Antimagic_poster.png",
@@ -940,7 +1029,8 @@
       "Comédie",
       "Ecchi",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://th.bing.com/th/id/R.1fe690b7fd50b3862d5746b27ad665e3?rik=mayudpBz%2fYhaXw&pid=ImgRaw&r=0",
@@ -955,7 +1045,8 @@
       "Harem",
       "Reincarnation",
       "Isekai"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/RebornMasterBlade_poster.png",
@@ -969,19 +1060,22 @@
       "Comédie",
       "Isekai",
       "Reincarnation"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://tierragamer.com/wp-content/uploads/2022/08/Sakamoto-days-2-1024x576.jpg",
     "name": "Sakamoto Days",
     "url": "/manga/sakamoto-days",
-    "categorie": ["Shonen", "Action", "Comédie", "Assassinat", "Combats"]
+    "categorie": ["Shonen", "Action", "Comédie", "Assassinat", "Combats"],
+    "anime": ["Scans"]
   },
   {
     "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/796786E40C85A334688E6D837A607C925A32A753D562745FB312F414CF53D967/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
     "name": "Undead Unluck",
     "url": "/manga/undead-unluck",
-    "categorie": ["Shonen", "Action", "Fantasy", "Comédie", "Combats"]
+    "categorie": ["Shonen", "Action", "Fantasy", "Comédie", "Combats"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://www.tvinsider.com/wp-content/uploads/2023/04/hells-paradise.jpg",
@@ -995,7 +1089,8 @@
       "Historique",
       "Surnaturel",
       "Arts-Martiaux"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/DemonSlave_poster.png",
@@ -1009,13 +1104,15 @@
       "Ecchi",
       "Drame",
       "Romance"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://occ-0-1490-1489.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcs1C9Ayhg6jzSCGEC29WqnSDKCrSkzrcmrHPqjPao2kxfNSvA-tOVXY8uGZXzIE79Hf6vsQcVk1CpFKsXB5NNN78kls.jpg?r=677",
     "name": "Erased",
     "url": "/manga/erased",
-    "categorie": ["Seinen", "Suspense", "Fantasy", "Psychologique"]
+    "categorie": ["Seinen", "Suspense", "Fantasy", "Psychologique"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/Irregular_poster.png",
@@ -1030,31 +1127,36 @@
       "Romance",
       "Ecole",
       "Magie"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/WQi5evUQgwxAht1aaYLGHw/1200x675.jpg",
     "name": "Magic Kaito",
     "url": "/manga/magic-kaito",
-    "categorie": ["Shonen", "Comédie", "Adventure", "Mystère", "Magie"]
+    "categorie": ["Shonen", "Comédie", "Adventure", "Mystère", "Magie"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/Lupin3rd_poster.png",
     "name": "Lupin the 3rd",
     "url": "/manga/lupin-the-third",
-    "categorie": ["Shonen", "Adventure", "Comédie"]
+    "categorie": ["Shonen", "Adventure", "Comédie"],
+    "anime": ["Films", "Series"]
   },
   {
     "image": "/assets/Kochikame_poster.png",
     "name": "Kochikame",
     "url": "/manga/kochikame",
-    "categorie": ["Shonen", "Comédie", "Policier"]
+    "categorie": ["Shonen", "Comédie", "Policier"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/-iyaPzjH5t1hPOWCKVbRyw/1200x675.jpg",
     "name": "Charlotte",
     "url": "/manga/charlotte",
-    "categorie": ["Seinen", "Drame", "Surnaturel", "Romance"]
+    "categorie": ["Seinen", "Drame", "Surnaturel", "Romance"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://cdn-ak.f.st-hatena.com/images/fotolife/N/NarimiyaIssa/20231125/20231125121850.png",
@@ -1068,7 +1170,8 @@
       "Guerre",
       "Vengeance",
       "Ninja"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://www.animegeek.com/wp-content/uploads/2022/07/TheDemonSwordMasterofExcaliburAcademy2.jpg",
@@ -1083,7 +1186,8 @@
       "Romance",
       "Ecole",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/50/55/aa/5055aa33-b569-807b-2319-2bcfd0bb1b63/pr_source.jpg/1000x563.jpg",
@@ -1099,25 +1203,29 @@
       "Vengeance",
       "Horreur",
       "Ecchi"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://wallpapercave.com/wp/wp7983258.jpg",
     "name": "Ashita no Joe",
     "url": "/manga/ashita-no-joe",
-    "categorie": ["Shonen", "Sports", "Drame", "Boxe"]
+    "categorie": ["Shonen", "Sports", "Drame", "Boxe"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/Baki_poster.png",
     "name": "Baki",
     "url": "/manga/baki",
-    "categorie": ["Shonen", "Action", "Combats", "Arts-Martiaux", "Sports"]
+    "categorie": ["Shonen", "Action", "Combats", "Arts-Martiaux", "Sports"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/KenganAshura_poster.png",
     "name": "Kengan Ashura",
     "url": "/manga/kengan-ashura",
-    "categorie": ["Shonen", "Combats", "Action"]
+    "categorie": ["Shonen", "Combats", "Action"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://originalnews.nico/wp-content/uploads/2021/06/24160033/ynsns01.jpg",
@@ -1132,13 +1240,15 @@
       "Horreur",
       "Fantôme",
       "Aliens"
-    ]
+    ],
+    "anime": ["Scans"]
   },
   {
     "image": "https://www.24horas.cl/24horas/site/artic/20220703/imag/foto_0000000720220703113319/asd.jpg",
     "name": "Slam Dunk",
     "url": "/manga/slam-dunk",
-    "categorie": ["Shonen", "Sports", "Basket-ball"]
+    "categorie": ["Shonen", "Sports", "Basket-ball"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/RealistHero_poster.png",
@@ -1151,7 +1261,8 @@
       "Action",
       "Romance",
       "Autre Monde"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://i.ytimg.com/vi/qFd4iAScMPs/maxresdefault.jpg",
@@ -1165,7 +1276,8 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://somoskudasai.net/wp-content/uploads/2020/09/portada_hokuto-no-ken.jpg",
@@ -1178,13 +1290,15 @@
       "Dark Fantasy",
       "Combats",
       "Arts-Martiaux"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/c1E3qgXT8izuEuTcGXxsBQ/1200x675.jpg",
     "name": "Inuyasha",
     "url": "/manga/inuyasha",
-    "categorie": ["Shonen", "Romance", "Historique", "Action", "Horreur"]
+    "categorie": ["Shonen", "Romance", "Historique", "Action", "Horreur"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://somoskudasai.com/wp-content/uploads/2017/10/bbc875f4-a3e0-4cfc-8cad-3314d01a2d4b.jpg",
@@ -1198,7 +1312,8 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://gameranx.com/wp-content/uploads/2022/12/SpyClassroom_KV_GANX-1536x864.png",
@@ -1212,13 +1327,15 @@
       "Comédie",
       "Drame",
       "Mystère"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/SvPOWK0GLAc6oa1ZgFjBYA/1200x675.jpg",
     "name": "Classroom of the Elite",
     "url": "/manga/classroom-of-the-elite",
-    "categorie": ["Shonen", "Drame", "Ecole", "Psychologique", "Romance"]
+    "categorie": ["Shonen", "Drame", "Ecole", "Psychologique", "Romance"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/Mrm_NhrcoYUm3LimqDqENA/1200x675.jpg",
@@ -1232,13 +1349,15 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://m.media-amazon.com/images/S/pv-target-images/eeb59742c88101246ca201e35b9da47f1b619a1469e94a14a5d9c080400eb32f._AC_SX720_FMjpg_.jpg",
     "name": "Urusei Yatsura",
     "url": "/manga/urusei-yatsura",
-    "categorie": ["Shonen", "Comédie", "Démons", "Aliens"]
+    "categorie": ["Shonen", "Comédie", "Démons", "Aliens"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/MyOneKillSister_poster.png",
@@ -1251,7 +1370,8 @@
       "Isekai",
       "Combats",
       "Autre Monde"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/UQclqzQ0jg0W5KxnnU7d_g/1200x675.jpg",
@@ -1265,7 +1385,8 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/f3/f3/94/f3f3949e-a2dd-c4fe-8540-31f4b76f8e07/pr_source.jpg/2000x1125.jpg",
@@ -1280,13 +1401,15 @@
       "Drame",
       "Horreur",
       "Monstres"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is2-ssl.mzstatic.com/image/thumb/IKdVEEZGy9O6XR0rmWmmqw/1200x675.jpg",
     "name": "Parasyte the Maxim",
     "url": "/manga/parasyte",
-    "categorie": ["Seinen", "Horreur", "Thriller", "Science-Fiction"]
+    "categorie": ["Seinen", "Horreur", "Thriller", "Science-Fiction"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://nerdiertides.files.wordpress.com/2022/06/im-quitting-heroing-ova-hidive-836x470-1.png?w=768",
@@ -1301,7 +1424,8 @@
       "Surnaturel",
       "Démons",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://www.justwatch.com/images/backdrop/251207513/s1440/saint-seiya-soul-of-gold",
@@ -1315,13 +1439,15 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://laverdadnoticias.com/img/2024/01/02/en_que_orden_ver_todo_blue_exorcist_anime.jpg",
     "name": "Blue Exorcist",
     "url": "/manga/blue-exorcist",
-    "categorie": ["Shonen", "Action", "Démons", "Surnaturel"]
+    "categorie": ["Shonen", "Action", "Démons", "Surnaturel"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://image.tmdb.org/t/p/original/pRYu2rW3zPs07BiymQeTxqrnk5r.jpg",
@@ -1335,13 +1461,15 @@
       "Science-Fiction",
       "Post-Apocalyptique",
       "Zombie"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/jB9Ven0nPhh6qLdbmZrRQA/1200x675.jpg",
     "name": "Saiki Kusuo no Psi Nan",
     "url": "/manga/saiki-kusuo",
-    "categorie": ["Shonen", "Science-Fiction", "Comédie", "Psychique"]
+    "categorie": ["Shonen", "Science-Fiction", "Comédie", "Psychique"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://image.jimcdn.com/app/cms/image/transf/none/path/s69ebe8422cebb09c/image/i29dadec14e92fbff/version/1672800650/image.jpg",
@@ -1355,13 +1483,15 @@
       "Combats",
       "Mythologie",
       "Armure"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/abu8Qv9coRFNW9HJVX0mMg/1200x675.jpg",
     "name": "Akashic Record of Bastard Magic Instructor",
     "url": "/manga/akashic-record",
-    "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Ecole", "Magie"]
+    "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Ecole", "Magie"],
+    "anime": ["Series"]
   },
   {
     "image": "assets/Iruma_poster.png",
@@ -1375,7 +1505,8 @@
       "Autre Monde",
       "Surnaturel",
       "Démons"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/7thPrince_poster.png",
@@ -1391,7 +1522,8 @@
       "Isekai",
       "Harem",
       "Reincarnation"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/Skeleton_poster.png",
@@ -1406,13 +1538,15 @@
       "Isekai",
       "Jeux",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://th.bing.com/th/id/R.2e59552aec741aaf1a9764fdf56b4059?rik=prx9LLzPc25sCA&riu=http%3a%2f%2fwww.animearchivos.com%2fwp-content%2fuploads%2f2016%2f03%2fPrison-School-AnimeArchivos.png&ehk=WxvRSWv01b0X3ui23%2fl0%2b2q%2ftzzQKID6XDzg%2fx6cCfQ%3d&risl=&pid=ImgRaw&r=0",
     "name": "Prison School",
     "url": "/manga/prison-school",
-    "categorie": ["Seinen", "Action", "Comédie", "Ecchi"]
+    "categorie": ["Seinen", "Action", "Comédie", "Ecchi"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/Spider_poster.png",
@@ -1429,7 +1563,8 @@
       "Magie",
       "Reincarnation",
       "Monstres"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/sx8IfleuLqVRCn-hai3uvg/1200x675.jpg",
@@ -1444,7 +1579,8 @@
       "Isekai",
       "Autre Monde",
       "Magie"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/81/eb/de/81ebde79-c369-4f5c-9d7d-0aba80bbf11c/pr_source.jpg/1200x675.jpg",
@@ -1460,7 +1596,8 @@
       "Isekai",
       "Autre Monde",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://th.bing.com/th/id/OIP.GG65U6V5wXwzPT0kzQJqJgHaEK?rs=1&pid=ImgDetMain",
@@ -1475,7 +1612,8 @@
       "Isekai",
       "Autre Monde",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://www.tadaima.com.mx/wp-content/uploads/2021/02/hownottosummonademonlord004.jpg",
@@ -1490,7 +1628,8 @@
       "Action",
       "Romance",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/08/isekaishoukannidomedesu_teaservisual-1-scaled-e1660109155912.jpg",
@@ -1505,7 +1644,8 @@
       "Harem",
       "Ecchi",
       "Autre Monde"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://staticg.sportskeeda.com/editor/2023/03/8a95f-16792595167317-1920.jpg",
@@ -1520,7 +1660,8 @@
       "Isekai",
       "Reincarnation",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/HighSchoolDxD-poster.png",
@@ -1535,13 +1676,15 @@
       "Romance",
       "Surnaturel",
       "Ecchi"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/_DTyXOaEVk3QKO20m8JcaA/1200x675.jpg",
     "name": "Redo of Healer",
     "url": "/manga/redo-of-healer",
-    "categorie": ["Seinen", "Dark Fantasy", "Vengeance", "Ecchi", "Harem"]
+    "categorie": ["Seinen", "Dark Fantasy", "Vengeance", "Ecchi", "Harem"],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/HOTD_poster.png",
@@ -1557,13 +1700,15 @@
       "Zombie",
       "Ecchi",
       "Post-Apocalyptique"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
     "name": "Inazuma Eleven",
     "url": "/manga/inazuma-eleven",
-    "categorie": ["Shonen", "Sports", "Football"]
+    "categorie": ["Shonen", "Sports", "Football"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/Executioner_poster.png",
@@ -1577,7 +1722,8 @@
       "Adventure",
       "Romance",
       "Autre Monde"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/16/78/c4/1678c4de-fc35-3b44-984f-dc4f31ab86ac/pr_source.jpg/1200x675.jpg",
@@ -1591,7 +1737,8 @@
       "Science-Fiction",
       "Démons",
       "Pompiers"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "https://image.tmdb.org/t/p/original/uo8fG6ws57LZZ0K7wMfzf3nDF6y.jpg",
@@ -1605,7 +1752,8 @@
       "Adventure",
       "Autre Monde",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/BeoI83pqMVW9iZbWcQl2VA/1200x675.jpg",
@@ -1619,7 +1767,8 @@
       "Autre Monde",
       "Drame",
       "Magie"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cheat-skill-level-up.jpg",
@@ -1634,7 +1783,8 @@
       "Autre Monde",
       "Ecole",
       "Harem"
-    ]
+    ],
+    "anime": ["Series"]
   },
   {
     "image": "/assets/4Knights_poster.png",
@@ -1648,19 +1798,22 @@
       "Combats",
       "Démons",
       "Magie"
-    ]
+    ],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/Chivalry_poster.png",
     "name": "Chivalry of a Failed Knight",
     "url": "/manga/chilvalry-of-a-failed-knight",
-    "categorie": ["Shonen", "Isekai", "Fantasy", "Action", "Romance", "Ecchi"]
+    "categorie": ["Shonen", "Isekai", "Fantasy", "Action", "Romance", "Ecchi"],
+    "anime": ["Series"]
   },
   {
     "image": "https://is1-ssl.mzstatic.com/image/thumb/HKTOwOouzUfTq-cW6hh5pw/1200x675.jpg",
     "name": "Soul Eater Not",
     "url": "/manga/soul-eater-not",
-    "categorie": ["Shonen", "Adventure", "Fantasy", "Action", "Combats"]
+    "categorie": ["Shonen", "Adventure", "Fantasy", "Action", "Combats"],
+    "anime": ["Series", "Scans"]
   },
   {
     "image": "/assets/BlackButler_poster.png",
@@ -1675,6 +1828,7 @@
       "Drame",
       "Policier",
       "Historique"
-    ]
+    ],
+    "anime": ["Films", "Series", "Scans"]
   }
 ]

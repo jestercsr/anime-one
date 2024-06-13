@@ -1,6 +1,5 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
 import React from 'react'
 
 export function EmailHomeComponent() {
@@ -15,7 +14,7 @@ export function EmailHomeComponent() {
             abonnement.
           </p>
           <input type="email" placeholder="Adresse e-mail" className='w-1/2 p-2 rounded-lg bg-slate-200'/>
-          <Button variant="destructive">Commencer</Button>
+          <button className="bg-red-600 text-slate-50 p-2 rounded-xl">Commencer</button>
         </div>
     </div>
   )

@@ -41,6 +41,7 @@ type MangaNameImageShow {
 
 model listeAll {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  anime     String[]
   categorie String[]
   image     String
   name      String   @unique
