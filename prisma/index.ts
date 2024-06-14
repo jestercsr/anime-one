@@ -88,3 +88,21 @@ export async function getListeScans() {
     return null;
   }
 }
+
+export async function getListeAction() {
+  const prisma = new PrismaClient();
+  try {
+    const listeAllManga = await prisma.listeAll.findMany({
+      orderBy: {
+        name: "asc",
+      },
+      where: {
+        categorie: {has: "Action"}
+      },
+    });
+    return listeAllManga;
+  } catch (error) {
+    console.error("Error fetching manga data:", error);
+    return null;
+  }
+}

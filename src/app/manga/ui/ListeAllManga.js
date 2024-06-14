@@ -41,9 +41,6 @@ function ListeAllManga() {
                   src={select.image}
                   className="w-full rounded-2xl hover:opacity-100"
                 />
-                <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
-                  {select.name}
-                </p>
               </Link>
             </div>
           );

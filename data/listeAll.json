@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/9CNTcBGBPRW5eiQV_dVdsg/1600x900.jpg",
+    "image": "/assets/OP_poster.png",
     "name": "One Piece",
     "url": "/manga/one-piece",
     "categorie": [
@@ -28,7 +28,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/MqI-oBhox3oAkY7NnLphLA/1200x675.jpg",
+    "image": "/assets/MushokuTensei_poster.png",
     "name": "Mushoku Tensei",
     "url": "/manga/mushoku-tensei",
     "categorie": [
@@ -46,7 +46,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": " /assets/Slime_poster.png",
+    "image": "/assets/Slime_poster.png",
     "name": "Moi, Quand je me Réincarne en Slime",
     "url": "/manga/moi-quand-je-me-reincarne-en-slime",
     "categorie": [
@@ -62,14 +62,14 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://images.everyeye.it/img-notizie/kaiju-no-8-anime-verrA-annunciato-secondo-leak-v3-601343.jpg",
+    "image": "/assets/Kaiju_poster.png",
     "name": "Kaiju n°8",
     "url": "/manga/kaiju-no-8",
     "categorie": ["Shonen", "Adventure", "Science-Fiction"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://occ-0-56-55.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcTQfPHhYZq2gpzwzXWwIBSyDkw-s-fL9TVeDNEloSS8Hcg-dYdsJh8dP-r7dAm-i2n-7XuKWlHDGg8zJ2fQp4-MJJW0PW_K5_HB.jpg?r=a39",
+    "image": "/assets/Conan_poster.png",
     "name": "Detective Conan",
     "url": "/manga/detective-conan",
     "categorie": [
@@ -86,7 +86,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/OmUGN4SFQclXoYhFcfpr7Q/1200x675.jpg",
+    "image": "/assets/Tsukimichi_poster.png",
     "name": "Tsukimichi Moonlit Fantasy",
     "url": "/manga/tsukimichi-moonlit-fantasy",
     "categorie": [
@@ -103,21 +103,21 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://th.bing.com/th/id/OIP.BwQexopLcK9tzD1U3_pu5AHaEK?rs=1&pid=ImgDetMain",
+    "image": "/assets/WindBreaker_poster.png",
     "name": "Wind Breaker",
     "url": "/manga/wind-breaker",
     "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://ntvb.tmsimg.com/assets/p26583083_b_h10_aa.jpg?w=960&h=540",
+    "image": "/assets/NinjaKamui_poster.png",
     "name": "Ninja Kamui",
     "url": "/manga/ninja-kamui",
     "categorie": ["Action", "Cyborgs", "Ninja", "Vengeance", "Seinen"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://i0.wp.com/myotakuworld.com/wp-content/uploads/2020/11/My-Hero-Academia-1.jpg?resize=1250%2C703&ssl=1",
+    "image": "/assets/Mha_first.png",
     "name": "My Hero Academia",
     "url": "/manga/my-hero-academia",
     "categorie": [
@@ -131,14 +131,14 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://th.bing.com/th/id/R.3ac626b77d582190ba616398e7245188?rik=IzZ1DQJe0pZfnQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f5%2ff%2f65614.jpg&ehk=G1QCaUTmnND8DydGwoyr9HIFW3vxtlUGf2s%2bo4iZK4g%3d&risl=&pid=ImgRaw&r=0",
+    "image": "/assets/SpiceWolf_poster.png",
     "name": "Spice & Wolf",
     "url": "/manga/spice-and-wolf",
     "categorie": ["Seinen", "Fantasy", "Adventure", "Romance"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://techduffer.com/wp-content/uploads/2023/09/Chainsaw-Man-PFP-1024x576.webp",
+    "image": "/assets/ChainsawMan_poster.png",
     "name": "Chainsaw Man",
     "url": "/manga/chainsaw-man",
     "categorie": [
@@ -154,7 +154,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://www.joyfreak.com/attachments/spy-x-family-review-jpg.3970/",
+    "image": "/assets/SpyFamily_poster.png",
     "name": "Spy x Family",
     "url": "/manga/spy-x-family",
     "categorie": ["Shonen", "Action", "Comédie", "Ecole", "Espion", "Famille"],
@@ -175,7 +175,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/rdEdwlpcQaHmm0oQHNsClA/1200x630.jpg",
+    "image": "/assets/Naruto_first.png",
     "name": "Naruto",
     "url": "/manga/naruto",
     "categorie": [
@@ -189,7 +189,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is3-ssl.mzstatic.com/image/thumb/u0Y-4aNADi2HCk8xlePR9A/1200x675.jpg",
+    "image": "/assets/Aot_poster.png",
     "name": "L'Attaque des Titans",
     "url": "/manga/shingeki-no-kyojin",
     "categorie": [
@@ -206,21 +206,21 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://theilluminerdi.com/wp-content/uploads/2022/03/AOASHI-Seasonal-Announcement-Assets16x9-1024x576.png",
+    "image": "/assets/AoAshi_poster.png",
     "name": "Ao Ashi",
     "url": "/manga/ao-ashi",
     "categorie": ["Seinen", "Tournoi", "Sports", "Football"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://eliteone.in/wp-content/uploads/2020/07/19033224951_82ae471683_c.jpg",
+    "image": "/assets/Ippo_first.png",
     "name": "Hajime no Ippo",
     "url": "/manga/hajime-no-ippo",
     "categorie": ["Shonen", "Sports", "Boxe", "Romance"],
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is3-ssl.mzstatic.com/image/thumb/Video124/v4/91/3b/44/913b440e-710a-bf32-821b-91ec4c47b30f/AMP_JOJOBA_TCS2_H_DD_KA_TT_3415x1920_300dpi_EN_ab7b72b0.jpg/1200x675.jpg",
+    "image": "/assets/Jojo_poster.png",
     "name": "Jojo's Bizarre Adventure",
     "url": "/manga/jojo-bizarre-adventure",
     "categorie": [
@@ -234,7 +234,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/7rCcLy52FSSb0LQThIOL3A/1200x675.jpg",
+    "image": "/assets/VinlandSaga_poster.png",
     "name": "Vinland Saga",
     "url": "/manga/vinland-saga",
     "categorie": [
@@ -249,7 +249,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Video124/v4/2d/04/a1/2d04a1e2-e8f6-bfbe-ec2b-7d3369cfc3b3/1226115527-WW-AMP_SF.lsr/2000x1125.jpg",
+    "image": "/assets/7Sins_poster.png",
     "name": "Seven Deadly Sins",
     "url": "/manga/seven-deadly-sins",
     "categorie": [
@@ -264,7 +264,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/rcNyu75X95z9aFfro5Irew/1200x630.jpg",
+    "image": "/assets/DeathNote_poster.png",
     "name": "Death Note",
     "url": "/manga/death-note",
     "categorie": [
@@ -282,7 +282,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/x8p5qIplzCDG2HO_WraxoA/1200x675.jpg",
+    "image": "/assets/YuYuHakusho.png",
     "name": "Yu Yu Hakusho",
     "url": "/manga/yu-yu-hakusho",
     "categorie": [
@@ -301,7 +301,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://image-cf.kddi-video.com/ede/ede90cb50be485e52e566a80900c4f97/fit-background-transparent/1524723655/750x422.png",
+    "image": "/assets/Bleach_poster.png",
     "name": "Bleach",
     "url": "/manga/bleach",
     "categorie": [
@@ -315,21 +315,21 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/57/8a/bc/578abc37-2dba-b507-eef9-ed0cb811adf8/352460068-WW-AMP_SF.lsr/1200x675.jpg",
+    "image": "/assets/SoulEater_poster.png",
     "name": "Soul Eater",
     "url": "/manga/soul-eater",
     "categorie": ["Shonen", "Action", "Adventure", "Comédie", "Fantasy"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://animeukiyo.com/wp-content/uploads/2021/03/eyeshield-21-anime.png",
+    "image": "/assets/Eyeshield21_poster.png",
     "name": "Eyeshield 21",
     "url": "/manga/eyeshield-21",
     "categorie": ["Shonen", "Football Américain", "Sports", "Lycée", "Tournoi"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is3-ssl.mzstatic.com/image/thumb/L20cvExVVgeVXSALdC0uyQ/1200x675.jpg",
+    "image": "/assets/Fmab_poster.png",
     "name": "Fullmetal Alchemist Brotherhood",
     "url": "/manga/fullmetal-alchemist-brotherhood",
     "categorie": [
@@ -345,7 +345,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/zGy0qlpYoJlRosxfiFEPbw/1200x630.jpg",
+    "image": "/assets/Dbz_poster.png",
     "name": "Dragon Ball Z",
     "url": "/manga/dragon-ball-z",
     "categorie": [
@@ -359,14 +359,14 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://e0.pxfuel.com/wallpapers/14/196/desktop-wallpaper-anime-naruto-next-generation-28-anime-movie-boruto-manga-update-boruto-naruto-next-generations.jpg",
+    "image": "/assets/Boruto_first.png",
     "name": "Boruto",
     "url": "/manga/boruto",
     "categorie": ["Shonen", "Action", "Comédie", "Ninja", "Drame", "Combats"],
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/9tMv1_hQCBxT2nIKAMEE2g/1200x630.jpg",
+    "image": "/assets/OnePunch_poster.png",
     "name": "One Punch Man",
     "url": "/manga/one-punch-man",
     "categorie": [
@@ -382,7 +382,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://sm.ign.com/t/ign_in/screenshot/default/jjk2_uzg5.960.png",
+    "image": "/assets/JJK_poster.png",
     "name": "Jujustu Kaisen",
     "url": "/manga/jujustu-kaisen",
     "categorie": ["Shonen", "Action", "Dark Fantasy"],
@@ -410,7 +410,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://mashle.pw/teaser/img/special/tw100000/wp_pc.jpg",
+    "image": "/assets/Mashle.png",
     "name": "Mashle",
     "url": "/manga/mashle",
     "categorie": [
@@ -426,7 +426,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/7b/8e/44/7b8e440c-5bc7-74ff-2e77-2bd7564000b1/pr_source.jpg/1200x630.jpg",
+    "image": "/assets/BlackClover_first.png",
     "name": "Black Clover",
     "url": "/manga/black-clover",
     "categorie": ["Shonen", "Action", "Adventure", "Romance", "Fantasy"],
@@ -448,7 +448,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+    "image": "/assets/DS_poster.png",
     "name": "Demon Slayer",
     "url": "/manga/demon-slayer-kimetsu-no-yaiba",
     "categorie": [
@@ -463,7 +463,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://occ-0-2706-2705.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSJ0iUzE6BAInldiHhPLWhhUApKB6WatDTze_NNWX40qOD3CupcaFXp13AWtlZK2D9q_NZYOYpX1BurnZown-wcIM_FZ.jpg?r=1c8",
+    "image": "/assets/TokyoGhoul_poster.png",
     "name": "Tokyo Ghoul",
     "url": "/manga/tokyo-ghoul",
     "categorie": [
@@ -478,7 +478,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/SLp-4Z0s_jyJBrpJ3MCBNA/1200x630.jpg",
+    "image": "/assets/Hunter_poster.png",
     "name": "Hunter x Hunter",
     "url": "/manga/hunter-x-hunter",
     "categorie": [
@@ -494,7 +494,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://edens-zero.net/wp-content/uploads/2021/03/spe01-in.png",
+    "image": "/assets/EdensZero_poster.png",
     "name": "Edens Zero",
     "url": "/manga/edens-zero",
     "categorie": [
@@ -509,7 +509,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is3-ssl.mzstatic.com/image/thumb/-sprp1PZNmaJNY494x0EQA/1200x630.jpg",
+    "image": "/assets/DB_poster.png",
     "name": "Dragon Ball",
     "url": "/manga/dragon-ball",
     "categorie": [
@@ -524,7 +524,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://images.kktv.com.tw/stills/cd/cd15fd2afb7386dde9cee7752bfefbe66baf04a2.sm.jpg",
+    "image": "/assets/Kingdom_poster.png",
     "name": "Kingdom",
     "url": "/manga/kingdom",
     "categorie": [
@@ -538,7 +538,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://img-douga.flat-flat.jp/S002508/S002508_large.jpg",
+    "image": "/assets/Tomodachi_poster.png",
     "name": "Tomodochi Game",
     "url": "/manga/tomodochi-game",
     "categorie": [
@@ -566,14 +566,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://wallpaperaccess.com/full/11143339.jpg",
+    "image": "/assets/Sword_poster.png",
     "name": "Reincarnated as a Sword",
     "url": "/manga/reincarnated-as-a-sword",
     "categorie": ["Seinen", "Fantasy", "Isekai"],
     "anime": ["Series"]
   },
   {
-    "image": "https://www.omegascopio.com.br/wp-content/uploads/2023/01/FT_S1_VERTICAL.jpg",
+    "image": "/assets/FT_poster.png",
     "name": "FairyTail",
     "url": "/manga/fairy-tail",
     "categorie": [
@@ -588,7 +588,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://th.bing.com/th/id/OIP.m-1XQO-XgJug0OfXwSbCsgHaEK?rs=1&pid=ImgDetMain",
+    "image": "/assets/DemonKingAcademy_poster.png",
     "name": "The Misfit of Demon King Academy",
     "url": "/manga/the-misfit-of-demon-king-academy",
     "categorie": [
@@ -603,14 +603,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://cdn.idntimes.com/content-images/duniaku/post/20240120/untitled-5265013fc98535f3edc12f8fd9c76c40.png",
+    "image": "/assets/Smartphone_poster.png",
     "name": "In Another World With My Smartphone",
     "url": "/manga/in-another-world-with-my-smartphone",
     "categorie": ["Isekai", "Fantasy", "Harem", "Autre Monde"],
     "anime": ["Series"]
   },
   {
-    "image": "https://th.bing.com/th/id/R.50c4039f10887e3f9799d7b2c3b6ea34?rik=cU4XYZ40snL8HQ&pid=ImgRaw&r=0",
+    "image": "/assets/Arifureta_poster.png",
     "name": "Arifureta",
     "url": "/manga/arifureta",
     "categorie": [
@@ -627,7 +627,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://www.themoviedb.org/t/p/original/9W7JRC7MLpjLSLZsUScHHFRkDPR.jpg",
+    "image": "/assets/Overlord_poster.png",
     "name": "Overlord",
     "url": "/manga/overlord",
     "categorie": [
@@ -642,7 +642,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://images.ciatr.jp/2020/06/w_1000/WgHHSxRmlOxF94ih62riNXuBi4uHtXh7an3nIDQS.jpeg",
+    "image": "/assets/Danmachi_poster.png",
     "name": "DanMachi",
     "url": "/manga/danmachi",
     "categorie": [
@@ -672,7 +672,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/GZn_ZBjRo6X7slSNUPxA2A/1200x675.jpg",
+    "image": "/assets/SAO_poster.png",
     "name": "Sword Art Online",
     "url": "/manga/sword-art-online",
     "categorie": [
@@ -686,7 +686,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://sm.ign.com/t/ign_mear/screenshot/default/scale_1ac1.1200.jpg",
+    "image": "/assets/TokyoRevengers_poster.png",
     "name": "Tokyo Revengers",
     "url": "/manga/tokyo-revengers",
     "categorie": [
@@ -707,7 +707,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://th.bing.com/th/id/OIP.SSoxHBpWstQdN9nZipT8MgHaEK?rs=1&pid=ImgDetMain",
+    "image": "/assets/Stone_poster.png",
     "name": "Dr Stone",
     "url": "/manga/dr-stone",
     "categorie": [
@@ -722,7 +722,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "assets/ReMonster_poster.png",
+    "image": "/assets/ReMonster_poster.png",
     "name": "Re: Monster",
     "url": "/manga/re-monster",
     "categorie": [
@@ -739,7 +739,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://pbs.twimg.com/media/CyqcrOaUsAAr8Xp.jpg",
+    "image": "/assets/KurokoBasket.png",
     "name": "Kuroko's Basket",
     "url": "/manga/kuroko-basket",
     "categorie": ["Shonen", "Sports", "Basket-ball"],
@@ -753,16 +753,16 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://image-cf.kddi-video.com/007/0076bca596b0edd1684a4155df1e5e2a/fit-background-transparent/1524078287/1080x608.png",
+    "image": "/assets/Tsubasa_poster.png",
     "name": "Captain Tsubasa",
     "url": "/manga/captain-tsubasa",
     "categorie": ["Shonen", "Sports", "Football"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://th.bing.com/th/id/R.dcdfe7c3a65385da9b5c36e83d3b1763?rik=SGtOsV2CAFuOlg&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2f3y9ZOjHNBt0fp1lf31lMlF6nngd.jpg&ehk=Uosjl9hQbuiZqdJLOkHucjtaotsDHKhqr7l91N2Z8bs%3d&risl=&pid=ImgRaw&r=0",
-    "name": "Gambling School (Kakeguri)",
-    "url": "/manga/gambling-school-kakeguri",
+    "image": "/assets/Kakegurui_poster.png",
+    "name": "Gambling School (Kakegurui)",
+    "url": "/manga/gambling-school-kakegurui",
     "categorie": [
       "Seinen",
       "Action",
@@ -774,7 +774,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/j6PkuTQRMsh-6P0XS2rO1g/1200x675.jpg",
+    "image": "/assets/A_Classroom_poster.png",
     "name": "Assassination Classroom",
     "url": "/manga/assassination-classroom",
     "categorie": ["Shonen", "Action", "Comédie", "Science-Fiction"],
@@ -788,7 +788,7 @@
     "anime": ["Scans"]
   },
   {
-    "image": "https://fictionhorizon.com/wp-content/uploads/2022/09/DaYs1.jpg",
+    "image": "/assets/Days_poster.png",
     "name": "Days",
     "url": "/manga/days",
     "categorie": ["Shonen", "Sports", "Football", "Comédie"],
@@ -810,7 +810,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/qi-s90W-qy0UW68Dho6JVQ/1600x900.jpg",
+    "image": "/assets/Digimon_poster.png",
     "name": "Digimon",
     "url": "/manga/digimon",
     "categorie": ["Shonen", "Jeux", "Cartes", "Monstres", "Gadget"],
@@ -824,7 +824,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/PWufH12KH1OiHjfe3vaUZA/1200x675.jpg",
+    "image": "/assets/SaintSeiya.png",
     "name": "Saint Seiya",
     "url": "/manga/saint-seiya",
     "categorie": [
@@ -839,7 +839,7 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://www.cordcuttersnews.com/wp-content/uploads/2020/11/Pluto_FeaturedArt5_Yu-Gi-Oh_1920x1080.jpg",
+    "image": "/assets/YuGiOh_poster.png",
     "name": "Yu Gi Oh",
     "url": "/manga/yu-gi-oh",
     "categorie": [
@@ -855,7 +855,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://th.bing.com/th/id/R.107f569ea99a9867f0c4c67b0b79b500?rik=W3ys9j8Luk5PhA&pid=ImgRaw&r=0",
+    "image": "/assets/GodHighSchool_poster.png",
     "name": "The God of High School",
     "url": "/manga/the-god-of-high-school",
     "categorie": [
@@ -869,14 +869,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://images.kktv.com.tw/stills/32/32736d1a91fb15687fb4e3b87a4a5d79f3ec8588.sm.jpg",
+    "image": "/assets/BurnWitch.png",
     "name": "Burn The Witch",
     "url": "/manga/burn-the-witch",
     "categorie": ["Shonen", "Fantasy", "Action"],
     "anime": ["Films", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/Video113/v4/31/ac/04/31ac04c2-eb54-454a-c89a-0f8ba1317f12/1382888010-WW-AMP_SF.lsr/1200x675.jpg",
+    "image": "/assets/Berserk_poster.png",
     "name": "Berserk",
     "url": "/manga/berserk",
     "categorie": [
@@ -891,21 +891,21 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is3-ssl.mzstatic.com/image/thumb/L20cvExVVgeVXSALdC0uyQ/1200x675.jpg",
+    "image": "/assets/FMA.png",
     "name": "Fullmetal Alchemist",
     "url": "/manga/fullmetal-alchemist",
     "categorie": ["Shonen", "Adventure", "Fantasy"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://m.media-amazon.com/images/S/pv-target-images/cc6652f5808536c9b16791a336b57ce9406a9daa73ae64ae44861a17cb443c5c._UR1920,1080_BR-6_SX720_FMjpg_.jpg",
+    "image": "/assets/Dororo_poster.png",
     "name": "Dororo",
     "url": "/manga/dororo",
     "categorie": ["Shonen", "Dark Fantasy", "Surnaturel"],
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://animehunch.com/wp-content/uploads/2022/08/The-Rising-Of-The-Shield-Hero.jpg",
+    "image": "/assets/ShieldHero_poster.png",
     "name": "The Rising Of The Shield Hero",
     "url": "/manga/the-rising-of-the-shield-hero",
     "categorie": [
@@ -922,7 +922,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://1.bp.blogspot.com/-p-OT-9O66q8/YBsroZTru1I/AAAAAAAAp9I/jx5BS_t1xosB5hZymObiaP2yvKU_NJwYACLcBGAsYHQ/w640-h360/Episodios-Re-Zero-Relleno-Orden-Cronologico.jpg",
+    "image": "/assets/ReZero_first.png",
     "name": "Re-Zero",
     "url": "/manga/re-zero",
     "categorie": [
@@ -936,21 +936,21 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://i.ytimg.com/vi/ak0j47AWnGk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBMgFyh_MA8=&rs=AOn4CLABjrwDw8eLdNs3ZaHTXNFT2eZOiQ",
+    "image": "/assets/BlueLock_poster.png",
     "name": "Blue Lock",
     "url": "/manga/blue-lock",
     "categorie": ["Shonen", "Sports", "Thriller", "Football"],
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://cdn.alfabetajuega.com/alfabetajuega/2023/06/code-geass-anime-ciencia-ficcion.jpg?width=800",
+    "image": "/assets/CodeGeass_poster.png",
     "name": "Code Geass",
     "url": "/manga/code-geass",
     "categorie": ["Shonen", "Science-Fiction", "Fantasy", "Mecha", "Drame"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/Video123/v4/54/88/71/548871fb-a078-9035-f6bd-d6619fd21eb4/560623074-WW-AMP_SF.lsr/1200x675.jpg",
+    "image": "/assets/SteinsGate_poster.png",
     "name": "Steins;Gate",
     "url": "/manga/steins-gate",
     "categorie": [
@@ -997,7 +997,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/36/af/06/36af06ec-984e-e464-54ae-0d84419cef0a/pr_source.png/1200x675.jpg",
+    "image": "/assets/Haikyu_poster.png",
     "name": "Haikyuu",
     "url": "/manga/haikyuu",
     "categorie": ["Shonen", "Sports", "Volley-ball"],
@@ -1033,7 +1033,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://th.bing.com/th/id/R.1fe690b7fd50b3862d5746b27ad665e3?rik=mayudpBz%2fYhaXw&pid=ImgRaw&r=0",
+    "image": "/assets/GreatestDemonLordNobody_poster.png",
     "name": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
     "url": "/manga/the-greatest-demon-lord-is-reborn-as-a-typical-nobody",
     "categorie": [
@@ -1064,21 +1064,21 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://tierragamer.com/wp-content/uploads/2022/08/Sakamoto-days-2-1024x576.jpg",
+    "image": "/assets/SakamotoDays_poster.png",
     "name": "Sakamoto Days",
     "url": "/manga/sakamoto-days",
     "categorie": ["Shonen", "Action", "Comédie", "Assassinat", "Combats"],
     "anime": ["Scans"]
   },
   {
-    "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/796786E40C85A334688E6D837A607C925A32A753D562745FB312F414CF53D967/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+    "image": "/assets/Undead_poster.png",
     "name": "Undead Unluck",
     "url": "/manga/undead-unluck",
     "categorie": ["Shonen", "Action", "Fantasy", "Comédie", "Combats"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://www.tvinsider.com/wp-content/uploads/2023/04/hells-paradise.jpg",
+    "image": "/assets/HellParadise_poster.png",
     "name": "Hell's Paradise",
     "url": "/manga/hell-paradise",
     "categorie": [
@@ -1108,7 +1108,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://occ-0-1490-1489.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcs1C9Ayhg6jzSCGEC29WqnSDKCrSkzrcmrHPqjPao2kxfNSvA-tOVXY8uGZXzIE79Hf6vsQcVk1CpFKsXB5NNN78kls.jpg?r=677",
+    "image": "/assets/Erased_poster.png",
     "name": "Erased",
     "url": "/manga/erased",
     "categorie": ["Seinen", "Suspense", "Fantasy", "Psychologique"],
@@ -1131,7 +1131,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/WQi5evUQgwxAht1aaYLGHw/1200x675.jpg",
+    "image": "/assets/MagicKaito_poster.png",
     "name": "Magic Kaito",
     "url": "/manga/magic-kaito",
     "categorie": ["Shonen", "Comédie", "Adventure", "Mystère", "Magie"],
@@ -1152,14 +1152,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/-iyaPzjH5t1hPOWCKVbRyw/1200x675.jpg",
+    "image": "/assets/Charlotte_poster.png",
     "name": "Charlotte",
     "url": "/manga/charlotte",
     "categorie": ["Seinen", "Drame", "Surnaturel", "Romance"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://cdn-ak.f.st-hatena.com/images/fotolife/N/NarimiyaIssa/20231125/20231125121850.png",
+    "image": "/assets/KenshinVagabon_poster.png",
     "name": "Kenshin le vagabond",
     "url": "/manga/kenshin-le-vagabond",
     "categorie": [
@@ -1174,7 +1174,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://www.animegeek.com/wp-content/uploads/2022/07/TheDemonSwordMasterofExcaliburAcademy2.jpg",
+    "image": "/assets/DemonSwordMaster_poster.png",
     "name": "The Demon Sword Master of Excalibur Academy",
     "url": "/manga/the-demon-sword-master-of-excalibur-academy",
     "categorie": [
@@ -1190,7 +1190,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/Video113/v4/50/55/aa/5055aa33-b569-807b-2319-2bcfd0bb1b63/pr_source.jpg/1000x563.jpg",
+    "image": "/assets/GoblinSlayer_poster.png",
     "name": "Goblin Slayer",
     "url": "/manga/goblin-slayer",
     "categorie": [
@@ -1207,7 +1207,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://wallpapercave.com/wp/wp7983258.jpg",
+    "image": "/assets/AshitaJoe_poster.png",
     "name": "Ashita no Joe",
     "url": "/manga/ashita-no-joe",
     "categorie": ["Shonen", "Sports", "Drame", "Boxe"],
@@ -1228,7 +1228,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://originalnews.nico/wp-content/uploads/2021/06/24160033/ynsns01.jpg",
+    "image": "/assets/Dandadan_poster.png",
     "name": "Dandadan",
     "url": "/manga/dandadan",
     "categorie": [
@@ -1244,7 +1244,7 @@
     "anime": ["Scans"]
   },
   {
-    "image": "https://www.24horas.cl/24horas/site/artic/20220703/imag/foto_0000000720220703113319/asd.jpg",
+    "image": "/assets/SlamDunk_poster.png",
     "name": "Slam Dunk",
     "url": "/manga/slam-dunk",
     "categorie": ["Shonen", "Sports", "Basket-ball"],
@@ -1265,7 +1265,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://i.ytimg.com/vi/qFd4iAScMPs/maxresdefault.jpg",
+    "image": "/assets/EpisodeG_poster.png",
     "name": "Saint Seiya : Episode G",
     "url": "/manga/saint-seiya-episode-g",
     "categorie": [
@@ -1280,7 +1280,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://somoskudasai.net/wp-content/uploads/2020/09/portada_hokuto-no-ken.jpg",
+    "image": "/assets/HokutonoKen_poster.png",
     "name": "Hokuto no Ken",
     "url": "/manga/hokuto-no-ken",
     "categorie": [
@@ -1294,14 +1294,14 @@
     "anime": ["Films", "Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/c1E3qgXT8izuEuTcGXxsBQ/1200x675.jpg",
+    "image": "/assets/Inuyasha_poster.png",
     "name": "Inuyasha",
     "url": "/manga/inuyasha",
     "categorie": ["Shonen", "Romance", "Historique", "Action", "Horreur"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://somoskudasai.com/wp-content/uploads/2017/10/bbc875f4-a3e0-4cfc-8cad-3314d01a2d4b.jpg",
+    "image": "/assets/NextDimension_poster.png",
     "name": "Saint Seiya : Next Dimension",
     "url": "/manga/saint-seiya-next-dimension",
     "categorie": [
@@ -1316,7 +1316,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://gameranx.com/wp-content/uploads/2022/12/SpyClassroom_KV_GANX-1536x864.png",
+    "image": "/assets/SpyClassroom_poster.png",
     "name": "Spy Classroom",
     "url": "/manga/spy-classroom",
     "categorie": [
@@ -1331,14 +1331,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/SvPOWK0GLAc6oa1ZgFjBYA/1200x675.jpg",
+    "image": "/assets/ClassroomElite_poster.png",
     "name": "Classroom of the Elite",
     "url": "/manga/classroom-of-the-elite",
     "categorie": ["Shonen", "Drame", "Ecole", "Psychologique", "Romance"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/Mrm_NhrcoYUm3LimqDqENA/1200x675.jpg",
+    "image": "/assets/LostCanvas_poster.png",
     "name": "Saint Seiya : The Lost Canvas",
     "url": "/manga/saint-seiya-the-lost-canvas",
     "categorie": [
@@ -1353,7 +1353,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://m.media-amazon.com/images/S/pv-target-images/eeb59742c88101246ca201e35b9da47f1b619a1469e94a14a5d9c080400eb32f._AC_SX720_FMjpg_.jpg",
+    "image": "/assets/UruseiYatsura_poster.png",
     "name": "Urusei Yatsura",
     "url": "/manga/urusei-yatsura",
     "categorie": ["Shonen", "Comédie", "Démons", "Aliens"],
@@ -1374,7 +1374,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/UQclqzQ0jg0W5KxnnU7d_g/1200x675.jpg",
+    "image": "/assets/Omega_poster.png",
     "name": "Saint Seiya : Omega",
     "url": "/manga/saint-seiya-omega",
     "categorie": [
@@ -1389,7 +1389,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/Video113/v4/f3/f3/94/f3f3949e-a2dd-c4fe-8540-31f4b76f8e07/pr_source.jpg/2000x1125.jpg",
+    "image": "/assets/TokyoGhoulRe_poster.png",
     "name": "Tokyo Ghoul : Re",
     "url": "/manga/tokyo-ghoul-re",
     "categorie": [
@@ -1405,14 +1405,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is2-ssl.mzstatic.com/image/thumb/IKdVEEZGy9O6XR0rmWmmqw/1200x675.jpg",
+    "image": "/assets/Parasyte_poster.png",
     "name": "Parasyte the Maxim",
     "url": "/manga/parasyte",
     "categorie": ["Seinen", "Horreur", "Thriller", "Science-Fiction"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://nerdiertides.files.wordpress.com/2022/06/im-quitting-heroing-ova-hidive-836x470-1.png?w=768",
+    "image": "/assets/QuittingHeroing_poster.png",
     "name": "I'm Quitting Heroing",
     "url": "/manga/im-quitting-heroing",
     "categorie": [
@@ -1428,7 +1428,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://www.justwatch.com/images/backdrop/251207513/s1440/saint-seiya-soul-of-gold",
+    "image": "/assets/SoulofGod_poster.png",
     "name": "Saint Seiya : Soul of God",
     "url": "/manga/saint-seiya-soul-of-god",
     "categorie": [
@@ -1443,14 +1443,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://laverdadnoticias.com/img/2024/01/02/en_que_orden_ver_todo_blue_exorcist_anime.jpg",
+    "image": "/assets/BlueExorcist_poster.png",
     "name": "Blue Exorcist",
     "url": "/manga/blue-exorcist",
     "categorie": ["Shonen", "Action", "Démons", "Surnaturel"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://image.tmdb.org/t/p/original/pRYu2rW3zPs07BiymQeTxqrnk5r.jpg",
+    "image": "/assets/Zom100_poster.png",
     "name": "Zom 100: Bucket List of the Dead",
     "url": "/manga/bucket-list-of-the-dead",
     "categorie": [
@@ -1465,14 +1465,14 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/jB9Ven0nPhh6qLdbmZrRQA/1200x675.jpg",
+    "image": "/assets/Saiki_poster.png",
     "name": "Saiki Kusuo no Psi Nan",
     "url": "/manga/saiki-kusuo",
     "categorie": ["Shonen", "Science-Fiction", "Comédie", "Psychique"],
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://image.jimcdn.com/app/cms/image/transf/none/path/s69ebe8422cebb09c/image/i29dadec14e92fbff/version/1672800650/image.jpg",
+    "image": "/assets/SaintiaSho_poster.png",
     "name": "Saint Seiya : Saintia Sho",
     "url": "/manga/saint-seiya-saintia-sho",
     "categorie": [
@@ -1487,7 +1487,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/abu8Qv9coRFNW9HJVX0mMg/1200x675.jpg",
+    "image": "/assets/Akashic_poster.png",
     "name": "Akashic Record of Bastard Magic Instructor",
     "url": "/manga/akashic-record",
     "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Ecole", "Magie"],
@@ -1542,7 +1542,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://th.bing.com/th/id/R.2e59552aec741aaf1a9764fdf56b4059?rik=prx9LLzPc25sCA&riu=http%3a%2f%2fwww.animearchivos.com%2fwp-content%2fuploads%2f2016%2f03%2fPrison-School-AnimeArchivos.png&ehk=WxvRSWv01b0X3ui23%2fl0%2b2q%2ftzzQKID6XDzg%2fx6cCfQ%3d&risl=&pid=ImgRaw&r=0",
+    "image": "/assets/PrisonSchool_poster.png",
     "name": "Prison School",
     "url": "/manga/prison-school",
     "categorie": ["Seinen", "Action", "Comédie", "Ecchi"],
@@ -1567,7 +1567,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/sx8IfleuLqVRCn-hai3uvg/1200x675.jpg",
+    "image": "/assets/FamiliarZero_poster.png",
     "name": "The Familiar of Zero",
     "url": "/manga/zero-no-tsukaima",
     "categorie": [
@@ -1583,7 +1583,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/81/eb/de/81ebde79-c369-4f5c-9d7d-0aba80bbf11c/pr_source.jpg/1200x675.jpg",
+    "image": "/assets/DeathMarch_poster.png",
     "name": "Death March to the Parallel World Rhapsody",
     "url": "/manga/death-march-to-the-parallel-world-rhapsody",
     "categorie": [
@@ -1600,7 +1600,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://th.bing.com/th/id/OIP.GG65U6V5wXwzPT0kzQJqJgHaEK?rs=1&pid=ImgDetMain",
+    "image": "/assets/IsekaiCheatMagician_poster.png",
     "name": "Isekai Cheat Magician",
     "url": "/manga/isekai-cheat-magician",
     "categorie": [
@@ -1616,7 +1616,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://www.tadaima.com.mx/wp-content/uploads/2021/02/hownottosummonademonlord004.jpg",
+    "image": "/assets/HowSummonDemonLord_poster.png",
     "name": "How Not to Summon a Demon Lord",
     "url": "/manga/how-not-to-summon-a-demon-lord",
     "categorie": [
@@ -1632,7 +1632,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://i0.wp.com/anitrendz.net/news/wp-content/uploads/2022/08/isekaishoukannidomedesu_teaservisual-1-scaled-e1660109155912.jpg",
+    "image": "/assets/Summonded2ndTime_poster.png",
     "name": "Isekai Shoukan wa Nidome Desu",
     "url": "/manga/summoned-to-another-world-again",
     "categorie": [
@@ -1648,7 +1648,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://staticg.sportskeeda.com/editor/2023/03/8a95f-16792595167317-1920.jpg",
+    "image": "/assets/StrongestExorcist_poster.png",
     "name": "The Reincarnation of the Strongest Exorcist in Another World",
     "url": "/manga/the-reincarnation-of-the-strongest-exorcist-in-another-world",
     "categorie": [
@@ -1680,7 +1680,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/_DTyXOaEVk3QKO20m8JcaA/1200x675.jpg",
+    "image": "/assets/RedoHealer_poster.png",
     "name": "Redo of Healer",
     "url": "/manga/redo-of-healer",
     "categorie": ["Seinen", "Dark Fantasy", "Vengeance", "Ecchi", "Harem"],
@@ -1704,7 +1704,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://is5-ssl.mzstatic.com/image/thumb/Video114/v4/c8/63/3b/c8633b19-d81d-e59c-2eed-148007676383/pr_source.jpg/1200x675.jpg",
+    "image": "/assets/InazumaEleven_poster.png",
     "name": "Inazuma Eleven",
     "url": "/manga/inazuma-eleven",
     "categorie": ["Shonen", "Sports", "Football"],
@@ -1726,7 +1726,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is4-ssl.mzstatic.com/image/thumb/Video124/v4/16/78/c4/1678c4de-fc35-3b44-984f-dc4f31ab86ac/pr_source.jpg/1200x675.jpg",
+    "image": "/assets/FireForce_poster.png",
     "name": "Fire Force",
     "url": "/manga/fire-force",
     "categorie": [
@@ -1741,7 +1741,7 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "https://image.tmdb.org/t/p/original/uo8fG6ws57LZZ0K7wMfzf3nDF6y.jpg",
+    "image": "/assets/MyIsekaiLife_poster.png",
     "name": "My Isekai Life",
     "url": "/manga/my-isekai-life",
     "categorie": [
@@ -1756,7 +1756,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/BeoI83pqMVW9iZbWcQl2VA/1200x675.jpg",
+    "image": "/assets/Grimgar_poster.png",
     "name": "Grimgar, Ashes and Illusions",
     "url": "/manga/hai-to-genshou-no-grimgar",
     "categorie": [
@@ -1771,7 +1771,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://cdn.statically.io/gh/Anime-Sama/IMG/img/contenu/cheat-skill-level-up.jpg",
+    "image": "/assets/CheatSkill_poster.png",
     "name": "Cheat Skill Level Up",
     "url": "/manga/cheat-skill-level-up",
     "categorie": [
@@ -1809,7 +1809,7 @@
     "anime": ["Series"]
   },
   {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/HKTOwOouzUfTq-cW6hh5pw/1200x675.jpg",
+    "image": "/assets/SoulNot_poster.png",
     "name": "Soul Eater Not",
     "url": "/manga/soul-eater-not",
     "categorie": ["Shonen", "Adventure", "Fantasy", "Action", "Combats"],

@@ -9,6 +9,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "telephone": "390px",
+        "phone": "660px",
+        "tablet": "768px",
+        "laptop": "1024px",
+        "desktop": "1280px",
+        "2xl": "1536px",
+      },
+    },
     extend: {
       colors: {
         blacker: {
