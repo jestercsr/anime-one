@@ -131,7 +131,7 @@
   color: #055656;
 }
 .bg-yellower-600 {
-  background-color: rgb(251, 255, 0, 0);
+  background-color: rgb(251, 255, 0, 0.6);
 }
 .text-yellower-600 {
   color: rgb(251, 255, 0, 0.6);

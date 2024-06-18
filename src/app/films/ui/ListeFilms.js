@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/app/ui/Footer";
-import { getListeFilms } from "../../../../prisma";
+import { getListeFilms } from "../../../../_actions/postAction";
 import Navbar from "@/app/accueil/ui/NavBar";
 
 function ListeFilms() {

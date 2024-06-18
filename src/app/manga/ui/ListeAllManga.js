@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/app/ui/Footer";
-import { getListeAll } from "../../../../prisma";
+import { getListeAll } from "../../../../_actions/postAction";
 
 function ListeAllManga() {
   const [data, setData] = useState(null);

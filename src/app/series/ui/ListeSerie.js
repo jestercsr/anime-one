@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/app/ui/Footer";
-import { getListeSeries } from "../../../../prisma";
+import { getListeSeries } from "../../../../_actions/postAction";
 import Navbar from "@/app/accueil/ui/NavBar";
 
 function ListeSeries() {

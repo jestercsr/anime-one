@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/app/ui/Footer";
-import { getListeScans } from "../../../../prisma";
+import { getListeScans } from "../../../../_actions/postAction";
 import Navbar from "@/app/accueil/ui/NavBar";
 
 function ListeScans() {
