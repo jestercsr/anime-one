@@ -7,11 +7,9 @@ import {
   Clapperboard,
   Film,
   Search,
-  Home,
   ShoppingCart,
   CircleUserRound,
   Menu,
-  X,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -52,7 +50,7 @@ export default function Navbar(props) {
 
   return (
     <div className={props.className}>
-      <nav className="flex justify-between px-8 items-center py-6">
+      <nav className="flex justify-between px-8 items-center py-2">
         <section className="flex items-center gap-4">
           <div>
             <Link href={"/accueil"}>
