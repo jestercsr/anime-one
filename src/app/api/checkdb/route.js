@@ -1,6 +1,6 @@
 'use server'
 import  dbConnect from "@/app/lib/db";
-import MangaName from "../../../../models/testModel";
+import MangaModel from "../../../../models/testModel";
 
 export default async function handler(req, res) {
   await dbConnect();
@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   switch (req.method) {
     case 'GET':
       try {
-        const mangas = await MangaName.find({});
+        const mangas = await MangaModel.find({});
         res.status(200).json(mangas);
       } catch (error) {
         res.status(500).json({ error: 'Erreur fetching manga' });
@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       break;
     case 'POST':
       try {
-        const manga = new MangaName(req.body);
+        const manga = new MangaModel(req.body);
         await manga.save();
         res.status(201).json(manga);
       } catch (error) {

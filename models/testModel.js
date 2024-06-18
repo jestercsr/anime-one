@@ -1,10 +1,10 @@
 'use server'
-import mongoose, {Schema} from "mongoose";
+import mongoose, {Schema, models} from "mongoose";
 
-let MangaName;
+let MangaModel;
 
 if (mongoose.models.mangaName) {
-  MangaName = mongoose.model("mangaName");
+  MangaModel = models.mangaName;
 } else {
   const mangaSchema = new Schema({
     id: {
@@ -46,7 +46,7 @@ if (mongoose.models.mangaName) {
     },
     titre: String,
   });
-  MangaName = mongoose.model("mangaName", mangaSchema);
+  MangaModel = mongoose.model("mangaName", mangaSchema);
 }
 
-export default MangaName;
+export default MangaModel;

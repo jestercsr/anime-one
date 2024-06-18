@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className="bg-gradient-to-b from-emeralder-900 to-blacker-950 text-white">
       <Link href="/">
-        <img src="assets/LogoFooter.png" className="m-auto w-1/12" />
+        <img src="/assets/LogoFooter.png" className="m-auto w-1/12" />
       </Link>
       <div className="flex flex-row justify-between mb-5 mr-2 ml-2">
         <button>Conditions générales d’abonnement</button>
@@ -23,7 +23,7 @@ export default function Footer() {
         <button>Gérer les préférences de confidentialité</button>
       </div>
       <div className="flex flex-row justify-center mb-5 mr-2 ml-2">
-        <img src="assets/world.svg" className="w-1/10" />
+        <img src="/assets/world.svg" className="w-1/10" />
         <button>Français</button>
         <ChevronDown></ChevronDown>
       </div>

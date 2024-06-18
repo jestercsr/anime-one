@@ -4,16 +4,15 @@ import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
-import { getAllManga } from "../../../../../prisma";
+import { getManga } from "../../../../../_actions/postAction";
 
 function MangaListe({ props }) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const mangaData = await getAllManga(props);
+        const mangaData = await getManga(props);
         setData(mangaData);
         setLoading(false);
       } catch (error) {
