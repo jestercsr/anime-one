@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Search } from "lucide-react";
+import { Search, ShoppingCart } from "lucide-react";
 
 export default function E_Navbar() {
   const menuL = [
@@ -41,7 +41,7 @@ export default function E_Navbar() {
     <div className="duration-200 relative z-40 bg-teal-900 text-slate-50">
       <nav className="flex justify-between items-center px-8 items-center py-2">
         <div className="">
-          <Link href={"/accueil"}>
+          <Link href={"/stores"}>
             <div className="hidden tablet:block w-20">
               <img src="/assets/logoAnimeplus.png" className=" block" />
             </div>
@@ -70,7 +70,13 @@ export default function E_Navbar() {
             <input type="text" placeholder="Rechercher..." className="search-bar" />
             <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200 text-slate-50 group-hover:text-neutral-950"/>
           </div>
+          <div className="relative">
+          <ShoppingCart />
+          <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">0</div>
         </div>
+        </div>
+
+        
       </nav>
     </div>
   );
