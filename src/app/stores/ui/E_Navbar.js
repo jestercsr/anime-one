@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Search, ShoppingCart } from "lucide-react";
+import { Search, ShoppingBag } from "lucide-react";
 
 export default function E_Navbar() {
   const menuL = [
@@ -38,8 +38,8 @@ export default function E_Navbar() {
     },
   ];
   return (
-    <div className="duration-200 relative z-40 bg-teal-900 text-slate-50">
-      <nav className="flex justify-between items-center px-8 items-center py-2">
+    <div className="duration-200 relative z-40 bg-teal-900 text-slate-50 sticky">
+      <nav className="flex justify-between items-center px-8 items-center py-2 top-0 left-0">
         <div className="">
           <Link href={"/stores"}>
             <div className="hidden tablet:block w-20">
@@ -56,7 +56,7 @@ export default function E_Navbar() {
             {menuL.map((data, i) => {
               return (
                 <li key={i}>
-                  <Link href={data.href} className="">
+                  <Link href={data.href} className="text-xs md:text-md lg:text-lg hover:text-sky-500 transition ease-in duration-300">
                     {data.name}
                   </Link>
                 </li>
@@ -71,7 +71,7 @@ export default function E_Navbar() {
             <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200 text-slate-50 group-hover:text-neutral-950"/>
           </div>
           <div className="relative">
-          <ShoppingCart />
+          <ShoppingBag />
           <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">0</div>
         </div>
         </div>
