@@ -76,7 +76,7 @@ export default function Products() {
   ];
   return (
     <div className="text-center p-5">
-      <h2 className="text-3xl my-10 text-slate-50 font-extrabold">
+      <h2 className="text-[50px] my-10 text-slate-50 font-extrabold">
         Nouveaux Arrivages
       </h2>
       <div className="flex grid grid-cols-5">
@@ -84,19 +84,24 @@ export default function Products() {
           return (
             <div
               key={i}
-              className="w-[23%] bg-white min-w-[250px] px-[10px] py-[12px] border border-2 cursor-pointer shadow-xl hover:shadow-2xl rounded-2xl mb-5 relative"
+              className="w-[23%] bg-white min-w-[250px] px-[10px] py-[12px] border border-2 cursor-pointer shadow-xl hover:shadow-2xl rounded-2xl mb-5"
             >
               <img src={item.image} className="w-full rounded-2xl" />
               <div className="text-start">
                 <p className="pt-4 text-xs md:text-md lg:text-lg">
                   {item.titre}
                 </p>
-                <p className="pt-4 text-xs md:text-md lg:text-lg text-skyer-600 font-semibold absolute">
-                  {item.prix} €
-                </p>
-                <button className="p-4 text-3xl" title={item.add}>
-                  <ShoppingCart className="w-[40px] leading-10 rounded-full bg-slate-50 text-skyer-600 hover:bg-skyer-600 hover:text-slate-50 absolute bottom-5 right-3 w-[60px]" />
-                </button>
+                <div className="flex justify-between">
+                  <p className="pt-4 text-xs md:text-md lg:text-lg text-skyer-600 font-semibold">
+                    {item.prix} €
+                  </p>
+                  <button
+                    className="p-4 text-[20%] rounded-[100%] bg-slate-50 text-skyer-600 hover:bg-skyer-600 hover:text-slate-50 bottom-5"
+                    title={item.add}
+                  >
+                    <ShoppingCart />
+                  </button>
+                </div>
               </div>
             </div>
           );
