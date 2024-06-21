@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java Hibernate.md",
+                "file": "Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java Hibernate.md",
+                "file": "Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java Hibernate.md"
+                "file": "Java.md"
               }
             }
           }
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,10 +195,8 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "107d046b3dc84f1e",
+  "active": "0a1885e89559aa67",
   "lastOpenFiles": [
-    "Java.md",
-    "Java Hibernate.md",
     "Page Catalogue fini.md",
     "Code Layout.css.md",
     "No Sql Cours.md",
