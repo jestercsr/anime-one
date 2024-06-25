@@ -16,11 +16,23 @@ export async function getManga(_actions) {
   }
 }
 
+export async function getMangaAnimeID(_actions, anime) {
+  try {
+    await connectDB();
+    const data = JSON.parse(
+      JSON.stringify(await MangaModel.findOne({ slug: _actions, animation: {$elemMatch: {animeId: anime}} }))
+    );
+    return data;
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
 export async function getListeAll() {
   try {
     await connectDB();
     const data = JSON.parse(
-      JSON.stringify(await ListeModel.find().sort({ createdAt: "asc" }))
+      JSON.stringify(await ListeModel.find().sort({ name: "asc" }))
     );
     console.log(data);
     return data;

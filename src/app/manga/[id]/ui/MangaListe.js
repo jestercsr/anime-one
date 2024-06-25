@@ -23,7 +23,7 @@ function MangaListe({ props }) {
     };
 
     fetchData();
-  }, [props.id]);
+  }, []);
 
   const responsive = {
     superLargeDesktop: {
@@ -56,7 +56,7 @@ function MangaListe({ props }) {
     <div className={data?.back}>
       <Navbar className={data?.navClass} />
         <div className="h-4/5 justify-center m-auto flex">
-          <img src={data?.imageTop} className="w-9/12 h-svh" />
+          <img src={data?.imageTop} className="w-9/12 h-5/6" />
         </div>
         <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
           {data?.imageShow?.map((select, i) => (
