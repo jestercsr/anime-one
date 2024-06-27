@@ -76,7 +76,7 @@ export default function PageAnimeID({ props, animation }) {
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} className="w-full rounded-2xl" />
+                <img src={select.images} className="w-[80%] rounded-2xl" />
               </Link>
             </div>
           ))}

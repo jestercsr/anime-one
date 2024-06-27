@@ -381,44 +381,44 @@
         "anime_titre": "text-white text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "/assets/scan/naruto_scan.jpg",
+            "anime_image": "/assets/scan/naruto_scan.png",
             "anime_name": "Naruto",
-            "anime_href": "/manga/naruto/scan"
+            "anime_href": "/manga/naruto/scans"
           },
           {
             "anime_image": "/assets/scan/jjk_scan.png",
             "anime_name": "Jujustu Kaisen",
-            "anime_href": "/manga/jujustu-kaisen/scan"
+            "anime_href": "/manga/jujustu-kaisen/scans"
           },
           {
             "anime_image": "/assets/scan/db_scan.png",
             "anime_name": "Dragon Ball",
-            "anime_href": "/manga/dragon-ball/scan"
+            "anime_href": "/manga/dragon-ball/scans"
           },
           {
             "anime_image": "/assets/scan/mha_scan.png",
             "anime_name": "My Hero Academia",
-            "anime_href": "/manga/my-hero-academia/scan"
+            "anime_href": "/manga/my-hero-academia/scans"
           },
           {
             "anime_image": "/assets/scan/boruto_scan.png",
             "anime_name": "Boruto",
-            "anime_href": "/manga/boruto/scan"
+            "anime_href": "/manga/boruto/scans"
           },
           {
             "anime_image": "/assets/scan/kimetsu_scan.png",
             "anime_name": "Demon Slayer",
-            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scan"
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans"
           },
           {
             "anime_image": "/assets/scan/kingdom_scan.png",
             "anime_name": "Kingdom",
-            "anime_href": "/manga/kingdom/scan"
+            "anime_href": "/manga/kingdom/scans"
           },
           {
             "anime_image": "/assets/scan/clover_scan.png",
             "anime_name": "Black Clover",
-            "anime_href": "/manga/black-clover/scan"
+            "anime_href": "/manga/black-clover/scans"
           }
         ]
       }
@@ -543,11 +543,11 @@
             "anime_image": "/assets/JJK_FILMS.png",
             "anime_name": "Jujustu Kaisen",
             "anime_href": "/manga/jujustu-kaisen/films"
-      },
-      {
-        "anime_image": "/assets/Aot_FILMS.png",
-        "anime_name": "L'Attaque des Titans",
-        "anime_href": "/manga/shingeki-no-kyojin/films"
+          },
+          {
+            "anime_image": "/assets/Aot_FILMS.png",
+            "anime_name": "L'Attaque des Titans",
+            "anime_href": "/manga/shingeki-no-kyojin/films"
           },
           {
             "anime_image": "/assets/DS_FILMS.png",
@@ -630,11 +630,11 @@
             "anime_image": "/assets/JJK_poster.png",
             "anime_name": "Jujustu Kaisen",
             "anime_href": "/manga/jujustu-kaisen/episodes"
-      },
-      {
-        "anime_image": "/assets/Aot_poster.png",
-        "anime_name": "L'Attaque des Titans",
-        "anime_href": "/manga/shingeki-no-kyojin/episodes"
+          },
+          {
+            "anime_image": "/assets/Aot_poster.png",
+            "anime_name": "L'Attaque des Titans",
+            "anime_href": "/manga/shingeki-no-kyojin/episodes"
           },
           {
             "anime_image": "/assets/DS_poster.png",
@@ -740,42 +740,42 @@
           {
             "anime_image": "/assets/scan/boruto_scan.png",
             "anime_name": "Boruto",
-            "anime_href": "/manga/boruto/scan"
+            "anime_href": "/manga/boruto/scans"
           },
           {
             "anime_image": "/assets/scan/OP_scan.png",
             "anime_name": "One Piece",
-            "anime_href": "/manga/one-piece/scan"
+            "anime_href": "/manga/one-piece/scans"
           },
           {
             "anime_image": "/assets/scan/db_scan.png",
             "anime_name": "Dragon Ball",
-            "anime_href": "/manga/dragon-ball/scan"
+            "anime_href": "/manga/dragon-ball/scans"
           },
           {
             "anime_image": "/assets/scan/bleach_scan.png",
             "anime_name": "Bleach",
-            "anime_href": "/manga/bleach/scan"
+            "anime_href": "/manga/bleach/scans"
           },
           {
             "anime_image": "/assets/scan/jjk_scan.png",
             "anime_name": "Jujustu Kaisen",
-            "anime_href": "/manga/jujustu-kaisen/scan"
-      },
-      {
-        "anime_image": "/assets/scan/aot_scan.png",
-        "anime_name": "L'Attaque des Titans",
-        "anime_href": "/manga/shingeki-no-kyojin/scan"
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/aot_scan.png",
+            "anime_name": "L'Attaque des Titans",
+            "anime_href": "/manga/shingeki-no-kyojin/scans"
           },
           {
             "anime_image": "/assets/scan/kimetsu_scan.png",
             "anime_name": "Demon Slayer",
-            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scan"
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans"
           },
           {
             "anime_image": "/assets/scan/mha_scan.png",
             "anime_name": "My Hero Academia",
-            "anime_href": "/manga/my-hero-academia/scan"
+            "anime_href": "/manga/my-hero-academia/scans"
           }
         ]
       }
@@ -870,12 +870,20 @@
         "backNav": "bg-oranger-700",
         "imageSee": [
           {
-            "images": "/assets/films/Naruto_F1.png",
-            "href": "/manga/dragon-ball/films"
+            "images": "/assets/films/DB_F1.png",
+            "href": "/manga/dragon-ball/films/la-legende-de-shenron"
           },
           {
-            "images": "/assets/films/Naruto_F2.png",
-            "href": "/manga/dragon-ball/films"
+            "images": "/assets/films/DB_F2.png",
+            "href": "/manga/dragon-ball/films/le-chateau-du-demon"
+          },
+          {
+            "images": "/assets/films/DB_F3.png",
+            "href": "/manga/dragon-ball/films/l-aventure-mystique"
+          },
+          {
+            "images": "/assets/films/DB_F4.png",
+            "href": "/manga/dragon-ball/films/l-armee-du-ruban-rouge"
           }
         ],
         "anime_titre": "text-blue-700 text-2xl pb-2.5 ml-2",
@@ -883,17 +891,17 @@
           {
             "anime_image": "/assets/Digimon_poster.png",
             "anime_name": "Digimon",
-            "anime_href": "/manga/digimon"
+            "anime_href": "/manga/digimon/films"
           },
           {
-            "anime_image": "/assets/Slump&Arale_poster.png",
-            "anime_name": "Dr Slump and Arale",
-            "anime_href": "/manga/dr-slump-and-arale"
+            "anime_image": "/assets/Naruto_FILMS.png",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/films"
           },
           {
-            "anime_image": "/assets/OnePunch_poster.png",
-            "anime_name": "One Punch Man",
-            "anime_href": "/manga/one-punch-man"
+            "anime_image": "/assets/Bleach_FILMS.png",
+            "anime_name": "Bleach",
+            "anime_href": "/manga/bleach/films"
           },
           {
             "anime_image": "/assets/SaintSeiya_FILMS.png",
@@ -913,12 +921,12 @@
           {
             "anime_image": "/assets/YuGiOh_poster.png",
             "anime_name": "Yu Gi Oh",
-            "anime_href": "/manga/yu-gi-oh"
+            "anime_href": "/manga/yu-gi-oh/films"
           },
           {
-            "anime_image": "/assets/GodHighSchool_poster.png",
-            "anime_name": "The God of High School",
-            "anime_href": "/manga/the-god-of-high-school"
+            "anime_image": "/assets/DS_FILMS.png",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/films"
           }
         ]
       },
@@ -929,16 +937,24 @@
         "backNav": "bg-oranger-700",
         "imageSee": [
           {
-            "images": "/assets/DB_poster.png",
+            "images": "/assets/series/DBS1.png",
             "href": "/manga/dragon-ball/episodes/saison-1"
           },
           {
-            "images": "/assets/DB_poster.png",
+            "images": "/assets/series/DBS2.png",
             "href": "/manga/dragon-ball/episodes/saison-2"
           },
           {
-            "images": "/assets/DB_poster.png",
+            "images": "/assets/series/DBS3.png",
             "href": "/manga/dragon-ball/episodes/saison-3"
+          },
+          {
+            "images": "/assets/series/DBS4.png",
+            "href": "/manga/dragon-ball/episodes/saison-4"
+          },
+          {
+            "images": "/assets/series/DBS5.png",
+            "href": "/manga/dragon-ball/episodes/saison-5"
           }
         ],
         "anime_titre": "text-blue-700 text-2xl pb-2.5 ml-2",
@@ -982,6 +998,121 @@
             "anime_image": "/assets/GodHighSchool_poster.png",
             "anime_name": "The God of High School",
             "anime_href": "/manga/the-god-of-high-school/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/db_scan.png",
+        "classNav": "bg-blue-800 text-slate-50",
+        "backNav": "bg-oranger-700",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/DB1.png",
+            "href": "/manga/dragon-ball/scans/tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB2.png",
+            "href": "/manga/dragon-ball/scans/tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB3.png",
+            "href": "/manga/dragon-ball/scans/tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB4.png",
+            "href": "/manga/dragon-ball/scans/tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB5.png",
+            "href": "/manga/dragon-ball/scans/tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB6.png",
+            "href": "/manga/dragon-ball/scans/tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB7.png",
+            "href": "/manga/dragon-ball/scans/tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB8.png",
+            "href": "/manga/dragon-ball/scans/tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB9.png",
+            "href": "/manga/dragon-ball/scans/tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB10.png",
+            "href": "/manga/dragon-ball/scans/tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB11.png",
+            "href": "/manga/dragon-ball/scans/tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB12.png",
+            "href": "/manga/dragon-ball/scans/tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB13.png",
+            "href": "/manga/dragon-ball/scans/tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB14.png",
+            "href": "/manga/dragon-ball/scans/tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB15.png",
+            "href": "/manga/dragon-ball/scans/tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/DB16.png",
+            "href": "/manga/dragon-ball/scans/tome-16"
+          }
+        ],
+        "anime_titre": "text-blue-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/Digimon_poster.png",
+            "anime_name": "Digimon",
+            "anime_href": "/manga/digimon/scans"
+          },
+          {
+            "anime_image": "/assets/Slump&Arale_poster.png",
+            "anime_name": "Dr Slump and Arale",
+            "anime_href": "/manga/dr-slump-and-arale/scans"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.png",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/saintseiya_scan.png",
+            "anime_name": "Saint Seiya",
+            "anime_href": "/manga/saint-seiya/scans"
+          },
+          {
+            "anime_image": "/assets/scan/yuyuhakusho_scan.png",
+            "anime_name": "Yu Yu Hakusho",
+            "anime_href": "/manga/yu-yu-hakusho/scans"
+          },
+          {
+            "anime_image": "/assets/scan/mha_scan.png",
+            "anime_name": "My Hero Academia",
+            "anime_href": "/manga/my-hero-academia/scans"
+          },
+          {
+            "anime_image": "/assets/YuGiOh_poster.png",
+            "anime_name": "Yu Gi Oh",
+            "anime_href": "/manga/yu-gi-oh/scans"
+          },
+          {
+            "anime_image": "/assets/GodHighSchool_poster.png",
+            "anime_name": "The God of High School",
+            "anime_href": "/manga/the-god-of-high-school/scans"
           }
         ]
       }
@@ -1055,6 +1186,325 @@
         "name": "Death Note",
         "url": "/manga/death-note"
       }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "/assets/Bleach_FILMS.png",
+        "classNav": "bg-neutral-50 text-red-600",
+        "backNav": "bg-blacker-8",
+        "imageSee": [
+          {
+            "images": "/assets/films/Bleach_F1.png",
+            "href": "/manga/bleach/films/memories-of-nobody"
+          },
+          {
+            "images": "/assets/films/Bleach_F2.png",
+            "href": "/manga/bleach/films/the-diamond-dust-rebellion"
+          },
+          {
+            "images": "/assets/films/Bleach_F3.png",
+            "href": "/manga/bleach/films/fade-to-black"
+          },
+          {
+            "images": "/assets/films/Bleach_F4.png",
+            "href": "/manga/bleach/films/hell-verse"
+          }
+        ],
+        "anime_titre": "text-white text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/BurnWitch_FILMS.png",
+            "anime_name": "Burn The Witch",
+            "anime_href": "/manga/burn-the-witch/films"
+          },
+          {
+            "anime_image": "/assets/Naruto_FILMS.png",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/films"
+          },
+          {
+            "anime_image": "/assets/JJK_FILMS.png",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/films"
+          },
+          {
+            "anime_image": "/assets/OP_FILMS.png",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/films"
+          },
+          {
+            "anime_image": "/assets/BC_FILMS.png",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/films"
+          },
+          {
+            "anime_image": "/assets/Hunter_FILMS.png",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/films"
+          },
+          {
+            "anime_image": "/assets/DS_FILMS.png",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/films"
+          },
+          {
+            "anime_image": "/assets/FT_FILMS.png",
+            "anime_name": "Fairy Tail",
+            "anime_href": "/manga/fairy-tail/films"
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Bleach_poster.png",
+        "classNav": "bg-neutral-50 text-red-600",
+        "backNav": "bg-blacker-8",
+        "imageSee": [
+          {
+            "images": "/assets/series/BleachS1.png",
+            "href": "/manga/bleach/episodes/saison-1"
+          },
+          {
+            "images": "/assets/series/BleachS2.png",
+            "href": "/manga/bleach/episodes/saison-2"
+          },
+          {
+            "images": "/assets/series/BleachS3.png",
+            "href": "/manga/bleach/episodes/saison-3"
+          },
+          {
+            "images": "/assets/series/BleachS4.png",
+            "href": "/manga/bleach/episodes/saison-4"
+          },
+          {
+            "images": "/assets/series/BleachS5.png",
+            "href": "/manga/bleach/episodes/saison-5"
+          },
+          {
+            "images": "/assets/series/BleachS6.png",
+            "href": "/manga/bleach/episodes/saison-6"
+          },
+          {
+            "images": "/assets/series/BleachS7.png",
+            "href": "/manga/bleach/episodes/saison-7"
+          },
+          {
+            "images": "/assets/series/BleachS8.png",
+            "href": "/manga/bleach/episodes/saison-8"
+          },
+          {
+            "images": "/assets/series/BleachS9.png",
+            "href": "/manga/bleach/episodes/saison-9"
+          },
+          {
+            "images": "/assets/series/BleachS10.png",
+            "href": "/manga/bleach/episodes/saison-10"
+          },
+          {
+            "images": "/assets/series/BleachS11.png",
+            "href": "/manga/bleach/episodes/saison-11"
+          },
+          {
+            "images": "/assets/series/BleachS12.png",
+            "href": "/manga/bleach/episodes/saison-12"
+          },
+          {
+            "images": "/assets/series/BleachS13.png",
+            "href": "/manga/bleach/episodes/saison-13"
+          },
+          {
+            "images": "/assets/series/BleachS14.png",
+            "href": "/manga/bleach/episodes/saison-14"
+          },
+          {
+            "images": "/assets/series/BleachS15.png",
+            "href": "/manga/bleach/episodes/saison-15"
+          },
+          {
+            "images": "/assets/series/BleachS16.png",
+            "href": "/manga/bleach/episodes/saison-16"
+          },
+          {
+            "images": "/assets/series/BleachS17.png",
+            "href": "/manga/bleach/episodes/saison-17"
+          }
+        ],
+        "anime_titre": "text-white text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/Naruto_first.png",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/episodes"
+          },
+          {
+            "anime_image": "/assets/JJK_poster.png",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/episodes"
+          },
+          {
+            "anime_image": "/assets/OP_Top.png",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/episodes"
+          },
+          {
+            "anime_image": "/assets/BlackClover_poster.png",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/episodes"
+          },
+          {
+            "anime_image": "/assets/Hunter_poster.png",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/episodes"
+          },
+          {
+            "anime_image": "/assets/DS_poster.png",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/episodes"
+          },
+          {
+            "anime_image": "/assets/DeathNote_poster.png",
+            "anime_name": "Death Note",
+            "anime_href": "/manga/death-note/episodes"
+          },
+          {
+            "anime_image": "/assets/FT_poster.png",
+            "anime_name": "Fairy Tail",
+            "anime_href": "/manga/fairy-tail/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/bleach_scan.png",
+        "classNav": "bg-neutral-50 text-red-600",
+        "backNav": "bg-blacker-8",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Bleach1.png",
+            "href": "/manga/bleach/scans/tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach2.png",
+            "href": "/manga/bleach/scans/tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach3.png",
+            "href": "/manga/bleach/scans/tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach4.png",
+            "href": "/manga/bleach/scans/tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach5.png",
+            "href": "/manga/bleach/scans/tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach6.png",
+            "href": "/manga/bleach/scans/tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach7.png",
+            "href": "/manga/bleach/scans/tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach8.png",
+            "href": "/manga/bleach/scans/tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach9.png",
+            "href": "/manga/bleach/scans/tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach10.png",
+            "href": "/manga/bleach/scans/tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach11.png",
+            "href": "/manga/bleach/scans/tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach12.png",
+            "href": "/manga/bleach/scans/tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach13.png",
+            "href": "/manga/bleach/scans/tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach14.png",
+            "href": "/manga/bleach/scans/tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach15.png",
+            "href": "/manga/bleach/scans/tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach16.png",
+            "href": "/manga/bleach/scans/tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach17.png",
+            "href": "/manga/bleach/scans/tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach18.png",
+            "href": "/manga/bleach/scans/tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach19.png",
+            "href": "/manga/bleach/scans/tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Bleach20.png",
+            "href": "/manga/bleach/scans/tome-20"
+          }
+        ],
+        "anime_titre": "text-white text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/BurnWitch_FILMS.png",
+            "anime_name": "Burn The Witch",
+            "anime_href": "/manga/burn-the-witch/scans"
+          },
+          {
+            "anime_image": "/assets/scan/naruto_scan.png",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.png",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/OP_scan.png",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/scans"
+          },
+          {
+            "anime_image": "/assets/scan/clover_scan.png",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/scans"
+          },
+          {
+            "anime_image": "/assets/scan/hunter_scan.png",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/scans"
+          },
+          {
+            "anime_image": "/assets/scan/kimetsu_scan.png",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans"
+          },
+          {
+            "anime_image": "/assets/scan/deathnote_scan.png",
+            "anime_name": "Death Note",
+            "anime_href": "/manga/death-note/scans"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1063,7 +1513,7 @@
     },
     "slug": "hunter-x-hunter",
     "imageTop": "/assets/HxH_first.png",
-    "navClass": "bg-orange-500 text-slate-50 ",
+    "navClass": "bg-orange-500 text-slate-50",
     "back": "bg-greener-300",
     "imageShow": [
       {
