@@ -43,10 +43,10 @@ export default function E_Navbar() {
         <div className="">
           <Link href={"/stores"}>
             <div className="hidden tablet:block w-20">
-              <img src="/assets/logoAnimeplus.png" className=" block" />
+              <img src="/assets/logoAnimeplus.webp" className=" block" />
             </div>
             <div className="block w-20 tablet:hidden">
-              <img src="/assets/logoAnimeplusHome.png" className="block" />
+              <img src="/assets/logoAnimeplusHome.webp" className="block" />
             </div>
           </Link>
         </div>
@@ -56,7 +56,10 @@ export default function E_Navbar() {
             {menuL.map((data, i) => {
               return (
                 <li key={i}>
-                  <Link href={data.href} className="text-xs md:text-md lg:text-lg hover:text-sky-500 transition ease-in duration-300">
+                  <Link
+                    href={data.href}
+                    className="text-xs md:text-md lg:text-lg hover:text-sky-500 transition ease-in duration-300"
+                  >
                     {data.name}
                   </Link>
                 </li>
@@ -67,16 +70,20 @@ export default function E_Navbar() {
 
         <div className="flex justify-between items-center gap-4">
           <div className="relative group hidden md:block text-neutral-950">
-            <input type="text" placeholder="Rechercher..." className="search-bar" />
-            <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200 text-slate-50 group-hover:text-neutral-950"/>
+            <input
+              type="text"
+              placeholder="Rechercher..."
+              className="search-bar"
+            />
+            <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200 text-slate-50 group-hover:text-neutral-950" />
           </div>
           <div className="relative">
-          <ShoppingBag />
-          <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">0</div>
+            <ShoppingBag />
+            <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">
+              0
+            </div>
+          </div>
         </div>
-        </div>
-
-        
       </nav>
     </div>
   );

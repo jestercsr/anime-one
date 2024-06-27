@@ -7,13 +7,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function Slider() {
   const top = [
     {
-      image: "/assets/TopScreen/Boutiques/onePiece.png",
+      image: "/assets/TopScreen/Boutiques/onePiece.webp",
       titre: "Découvrer tous les produits de One Piece",
       select: "ACHETER MAINTENANT",
       href: "/stores/collections/one-piece",
     },
     {
-      image: "/assets/TopScreen/Boutiques/naruto.png",
+      image: "/assets/TopScreen/Boutiques/naruto.webp",
       titre: "Découvrer tous les produits de Naruto",
       select: "ACHETER MAINTENANT",
       href: "/stores/collections/naruto",

@@ -12,12 +12,12 @@ export default function Info() {
               aucun autre service de streaming.
             </p>
           </div>
-          <img src="assets/big3.jpg" className="w-2/3" />
+          <img src="assets/big3.webp" className="w-2/3" />
         </div>
       </div>
       <div className="bg-gradient-to-b from-emeralder-950 to-greener-400 pt-14">
         <div className="bg-skyer-500 flex items-center justify-between">
-          <img src="assets/gokussjscan.jpg" className="w-1/4" />
+          <img src="assets/gokussjscan.webp" className="w-1/4" />
           <div className="text-white flex flex-col ml-1.5">
             <h1 className="text-6xl font-bold">
               Regardez vos scans où que vous soyez

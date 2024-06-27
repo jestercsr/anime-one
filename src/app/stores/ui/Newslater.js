@@ -4,7 +4,7 @@ export default function Newslater() {
   return (
     <div
       style={{
-        backgroundImage: "url(/assets/TopScreen/Boutiques/Newsletter.png)",
+        backgroundImage: "url(/assets/TopScreen/Boutiques/Newsletter.webp)",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "20% 30%",
         backgroundSize: "cover",
