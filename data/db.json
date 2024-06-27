@@ -2903,6 +2903,194 @@
         "name": "Soul Eater",
         "url": "/manga/soul-eater"
       }
+    ],
+    "animation": [
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/FMA.webp",
+        "classNav": "bg-red-800 text-neutral-950",
+        "backNav": "bg-neutraler-800",
+        "imageSee": [
+          {
+            "images": "/assets/series/FmaS1.webp",
+            "href": "saison-1"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/CodeGeass_poster.webp",
+            "anime_name": "Code Geass",
+            "anime_href": "/manga/code-geass/episodes"
+          },
+          {
+            "anime_image": "/assets/Dororo_poster.webp",
+            "anime_name": "Dororo",
+            "anime_href": "/manga/dororo/episodes"
+          },
+          {
+            "anime_image": "/assets/SteinsGate_poster.webp",
+            "anime_name": "Steins;Gate",
+            "anime_href": "/manga/steins-gate/episodes"
+          },
+          {
+            "anime_image": "/assets/Hunter_poster.webp",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/episodes"
+          },
+          {
+            "anime_image": "/assets/Berserk_poster.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/episodes"
+          },
+          {
+            "anime_image": "/assets/MobPsycho_poster.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/episodes"
+          },
+          {
+            "anime_image": "/assets/Bleach_poster.webp",
+            "anime_name": "Bleach",
+            "anime_href": "/manga/bleach/episodes"
+          },
+          {
+            "anime_image": "/assets/SoulEater_poster.webp",
+            "anime_name": "Soul Eater",
+            "anime_href": "/manga/soul-eater/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/fma_scan.webp",
+        "classNav": "bg-red-800 text-neutral-950",
+        "backNav": "bg-neutraler-800",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Fma1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma12.webp",
+            "href": "tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma13.webp",
+            "href": "tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma14.webp",
+            "href": "tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma15.webp",
+            "href": "tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma16.webp",
+            "href": "tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma17.webp",
+            "href": "tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma18.webp",
+            "href": "tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma19.webp",
+            "href": "tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Fma20.webp",
+            "href": "tome-20"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/codegeass_scan.webp",
+            "anime_name": "Code Geass",
+            "anime_href": "/manga/code-geass/scans"
+          },
+          {
+            "anime_image": "/assets/scan/dororo_scan.webp",
+            "anime_name": "Dororo",
+            "anime_href": "/manga/dororo/scans"
+          },
+          {
+            "anime_image": "/assets/scan/steinsgate_scan.webp",
+            "anime_name": "Steins;Gate",
+            "anime_href": "/manga/steins-gate/scans"
+          },
+          {
+            "anime_image": "/assets/scan/hunter_scan.webp",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/scans"
+          },
+          {
+            "anime_image": "/assets/scan/berserk_scan.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/scans"
+          },
+          {
+            "anime_image": "/assets/scan/mob_scan.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/episodes"
+          },
+          {
+            "anime_image": "/assets/scan/bleach_scan.webp",
+            "anime_name": "Bleach",
+            "anime_href": "/manga/bleach/scans"
+          },
+          {
+            "anime_image": "/assets/scan/souleater_scan.webp",
+            "anime_name": "Soul Eater",
+            "anime_href": "/manga/soul-eater/scans"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2973,7 +3161,8 @@
         "name": "One Piece",
         "url": "/manga/one-piece"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3043,7 +3232,8 @@
         "name": "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
         "url": "/manga/the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3113,7 +3303,8 @@
         "name": "Days",
         "url": "/manga/days"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3187,7 +3378,8 @@
         "name": "My Hero Academia",
         "url": "/manga/my-hero-academia"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3253,7 +3445,8 @@
         "name": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
         "url": "/manga/reborn-to-master-the-blade"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3319,7 +3512,8 @@
         "name": "Kaiju n°8",
         "url": "/manga/kaiju-no-8"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3381,7 +3575,8 @@
         "name": "Spy x Family",
         "url": "/manga/spy-x-family"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3447,7 +3642,8 @@
         "name": "Chainsaw Man",
         "url": "/manga/chainsaw-man"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3513,7 +3709,8 @@
         "name": "Wind Breaker",
         "url": "/manga/wind-breaker"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3583,7 +3780,8 @@
         "name": "Spy x Family",
         "url": "/manga/spy-x-family"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3649,7 +3847,8 @@
         "name": "Demon Slayer",
         "url": "/manga/demon-slayer-kimetsu-no-yaiba"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3715,7 +3914,8 @@
         "name": "Goblin Slayer",
         "url": "/manga/goblin-slayer"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3785,7 +3985,8 @@
         "name": "Kingdom",
         "url": "/manga/kingdom"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3851,7 +4052,8 @@
         "name": "Goblin Slayer",
         "url": "/manga/goblin-slayer"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3917,7 +4119,8 @@
         "name": "Chainsaw Man",
         "url": "/manga/chainsaw-man"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -3987,7 +4190,8 @@
         "name": "Kenshin le vagabond",
         "url": "/manga/kenshin-le-vagabond"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4053,7 +4257,8 @@
         "name": "Berserk",
         "url": "/manga/berserk"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4119,7 +4324,8 @@
         "name": "The Eminence in Shadow",
         "url": "/manga/the-eminence-in-shadow"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4189,7 +4395,8 @@
         "name": "Days",
         "url": "/manga/days"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4255,7 +4462,8 @@
         "name": "Undead Unluck",
         "url": "/manga/undead-unluck"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4325,7 +4533,8 @@
         "name": "The Eminence in Shadow",
         "url": "/manga/the-eminence-in-shadow"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4391,7 +4600,8 @@
         "name": "Demon Slave",
         "url": "/manga/demon-slave"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4457,7 +4667,8 @@
         "name": "Chainsaw Man",
         "url": "/manga/chainsaw-man"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4523,7 +4734,8 @@
         "name": "Dr Stone",
         "url": "/manga/dr-stone"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4589,7 +4801,8 @@
         "name": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
         "url": "/manga/reborn-to-master-the-blade"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4683,7 +4896,8 @@
         "name": "Kenshin le vagabond",
         "url": "/manga/kenshin-le-vagabond"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4745,7 +4959,8 @@
         "name": "Chainsaw Man",
         "url": "/manga/chainsaw-man"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4811,7 +5026,8 @@
         "name": "Black Clover",
         "url": "/manga/black-clover"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4877,7 +5093,8 @@
         "name": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
         "url": "/manga/reborn-to-master-the-blade"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -4951,7 +5168,8 @@
         "name": "Black Clover",
         "url": "/manga/black-clover"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5017,7 +5235,8 @@
         "name": "Tokyo Ghoul",
         "url": "/manga/tokyo-ghoul"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5079,7 +5298,8 @@
         "name": "DanMachi",
         "url": "/manga/danmachi"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5145,7 +5365,8 @@
         "name": "Tokyo Ghoul",
         "url": "/manga/tokyo-ghoul"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5211,7 +5432,8 @@
         "name": "The Eminence in Shadow",
         "url": "/manga/the-eminence-in-shadow"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5281,7 +5503,8 @@
         "name": "Naruto",
         "url": "/manga/naruto"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5347,7 +5570,8 @@
         "name": "One Punch Man",
         "url": "/manga/one-punch-man"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5417,7 +5641,8 @@
         "name": "Prison School",
         "url": "/manga/prison-school"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5479,7 +5704,8 @@
         "name": "Naruto",
         "url": "/manga/naruto"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5541,7 +5767,8 @@
         "name": "The Familiar of Zero",
         "url": "/manga/zero-no-tsukaima"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5603,7 +5830,8 @@
         "name": "Tsukimichi Moonlit Fantasy",
         "url": "/manga/tsukimichi-moonlit-fantasy"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5665,7 +5893,8 @@
         "name": "My One-Hit Kill Sister",
         "url": "/manga/my-one-hit-kill-sister"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5727,7 +5956,8 @@
         "name": "How a Realist Hero Rebuilt the Kingdom",
         "url": "/manga/how-a-realist-hero-rebuilt-the-kingdom"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5793,7 +6023,8 @@
         "name": "Highschool of the Dead",
         "url": "/manga/highschool-of-the-dead"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5859,7 +6090,8 @@
         "name": "Slam Dunk",
         "url": "/manga/slam-dunk"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5921,7 +6153,8 @@
         "name": "The Executioner and Her Way of Life",
         "url": "/manga/the-executioner-and-her-way-of-life"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -5987,7 +6220,8 @@
         "name": "Fire Force",
         "url": "/manga/fire-force"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -6049,7 +6283,8 @@
         "name": "Cheat Skill Level Up",
         "url": "/manga/cheat-skill-level-up"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -6119,7 +6354,8 @@
         "name": "The Reincarnation of the Strongest Exorcist in Another World",
         "url": "/manga/the-reincarnation-of-the-strongest-exorcist-in-another-world"
       }
-    ]
+    ],
+    "animation": []
   },
   {
     "_id": {
@@ -6189,6 +6425,7 @@
         "name": "Black Butler",
         "url": "/manga/black-butler"
       }
-    ]
+    ],
+    "animation": []
   }
 ]
