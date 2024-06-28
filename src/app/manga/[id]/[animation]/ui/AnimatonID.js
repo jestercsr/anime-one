@@ -117,6 +117,8 @@ export default function PageAnimeID({ props, animation }) {
       anime_imageCarousel,
     } = data.animation[2];
 
+    console.log(imageSee);
+
     return (
       <div className={backNav}>
         <Navbar className={classNav} />

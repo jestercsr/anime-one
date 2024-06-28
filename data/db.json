@@ -299,83 +299,83 @@
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/OnePiece1.webp",
-            "href": "chapitre-1"
+            "href": "tome-1"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece2.webp",
-            "href": "chapitre-2"
+            "href": "tome-2"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece3.webp",
-            "href": "chapitre-3"
+            "href": "tome-3"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece4.webp",
-            "href": "chapitre-4"
+            "href": "tome-4"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece5.webp",
-            "href": "chapitre-5"
+            "href": "tome-5"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece6.webp",
-            "href": "chapitre-6"
+            "href": "tome-6"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece7.webp",
-            "href": "chapitre-7"
+            "href": "tome-7"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece8.webp",
-            "href": "chapitre-8"
+            "href": "tome-8"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece9.webp",
-            "href": "chapitre-9"
+            "href": "tome-9"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece10.webp",
-            "href": "chapitre-10"
+            "href": "tome-10"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece11.webp",
-            "href": "chapitre-11"
+            "href": "tome-11"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece12.webp",
-            "href": "chapitre-12"
+            "href": "tome-12"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece13.webp",
-            "href": "chapitre-13"
+            "href": "tome-13"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece14.webp",
-            "href": "chapitre-14"
+            "href": "tome-14"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece15.webp",
-            "href": "chapitre-15"
+            "href": "tome-15"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece16.webp",
-            "href": "chapitre-16"
+            "href": "tome-16"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece17.webp",
-            "href": "chapitre-17"
+            "href": "tome-17"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece18.webp",
-            "href": "chapitre-18"
+            "href": "tome-18"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece19.webp",
-            "href": "chapitre-19"
+            "href": "tome-19"
           },
           {
             "images": "/assets/scan/ScanAll/OnePiece20.webp",
-            "href": "chapitre-20"
+            "href": "tome-20"
           }
         ],
         "anime_titre": "text-white text-2xl pb-2.5 ml-2",
@@ -2141,8 +2141,8 @@
           },
           {
             "anime_image": "/assets/scan/tokyoghoul_scan.webp",
-            "name": "Tokyo Ghoul",
-            "url": "/manga/tokyo-ghoul/scans"
+            "anime_name": "Tokyo Ghoul",
+            "anime_href": "/manga/tokyo-ghoul/scans"
           },
           {
             "anime_image": "/assets/scan/berserk_scan.webp",
@@ -3182,7 +3182,281 @@
         "url": "/manga/one-piece"
       }
     ],
-    "animation": []
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "/assets/FT_FILMS.webp",
+        "classNav": "bg-amber-500 text-red-600",
+        "backNav": "bg-yellower-700",
+        "imageSee": [
+          {
+            "images": "/assets/films/Ft_F1.webp",
+            "href": "la-pretresse-du-phoenix"
+          },
+          {
+            "images": "/assets/films/Ft_F2.webp",
+            "href": "dragon-cry"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/BC_FILMS.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/films"
+          },
+          {
+            "anime_image": "/assets/Naruto_FILMS.webp",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/films"
+          },
+          {
+            "anime_image": "/assets/7Sins_FILMS.webp",
+            "anime_name": "7 Deadly Sins",
+            "anime_href": "/manga/seven-deadly-sins/films"
+          },
+          {
+            "anime_image": "/assets/Bleach_FILMS.webp",
+            "anime_name": "Bleach",
+            "anime_href": "/manga/bleach/films"
+          },
+          {
+            "anime_image": "/assets/OP_FILMS.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/films"
+          },
+          {
+            "anime_image": "/assets/MHA_FILMS.webp",
+            "anime_name": "My Hero Academia",
+            "anime_href": "/manga/my-hero-academia/films"
+          },
+          {
+            "anime_image": "/assets/Aot_FILMS.webp",
+            "anime_name": "L'Attaque des Titans",
+            "anime_href": "/manga/shingeki-no-kyojin/films"
+          },
+          {
+            "anime_image": "/assets/BlueLock_FILMS.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/films"
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/FT_poster.webp",
+        "classNav": "bg-amber-500 text-red-600",
+        "backNav": "bg-yellower-700",
+        "imageSee": [
+          {
+            "images": "/assets/series/FtS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/FtS2.webp",
+            "href": "saison-2"
+          },
+          {
+            "images": "/assets/series/FtS3.webp",
+            "href": "saison-3"
+          },
+          {
+            "images": "/assets/series/FtS4.webp",
+            "href": "saison-4"
+          },
+          {
+            "images": "/assets/series/FtS5.webp",
+            "href": "saison-5"
+          },
+          {
+            "images": "/assets/series/FtS6.webp",
+            "href": "saison-6"
+          },
+          {
+            "images": "/assets/series/FtS7.webp",
+            "href": "saison-7"
+          },
+          {
+            "images": "/assets/series/FtS8.webp",
+            "href": "saison-8"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/EdensZero_poster.webp",
+            "anime_name": "Edens Zero",
+            "anime_href": "/manga/edens-zero/episodes"
+          },
+          {
+            "anime_image": "/assets/OnePunch_poster.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/episodes"
+          },
+          {
+            "anime_image": "/assets/BlackClover_first.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/episodes"
+          },
+          {
+            "anime_image": "/assets/Naruto_first.webp",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/episodes"
+          },
+          {
+            "anime_image": "/assets/SoulEater_poster.webp",
+            "anime_name": "Soul Eater",
+            "anime_href": "/manga/soul-eater/episodes"
+          },
+          {
+            "anime_image": "/assets/7Sins_poster.webp",
+            "anime_name": "7 Deadly Sins",
+            "anime_href": "/manga/seven-deadly-sins/episodes"
+          },
+          {
+            "anime_image": "/assets/Bleach_FILMS.webp",
+            "anime_name": "Bleach",
+            "anime_href": "/manga/bleach/films"
+          },
+          {
+            "anime_image": "/assets/OP_FILMS.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/films"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/ft_scan.webp",
+        "classNav": "bg-amber-500 text-red-600",
+        "backNav": "bg-yellower-700",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Ft1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft12.webp",
+            "href": "tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft13.webp",
+            "href": "tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft14.webp",
+            "href": "tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft15.webp",
+            "href": "tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft16.webp",
+            "href": "tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft17.webp",
+            "href": "tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft18.webp",
+            "href": "tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft19.webp",
+            "href": "tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ft20.webp",
+            "href": "tome-20"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/EdensZero_poster.webp",
+            "anime_name": "Edens Zero",
+            "anime_href": "/manga/edens-zero/episodes"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/clover_scan.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/scans"
+          },
+          {
+            "anime_image": "/assets/scan/naruto_scan.webp",
+            "anime_name": "Naruto",
+            "anime_href": "/manga/naruto/scans"
+          },
+          {
+            "anime_image": "/assets/scan/souleater_scan.webp",
+            "anime_name": "Soul Eater",
+            "anime_href": "/manga/soul-eater/scans"
+          },
+          {
+            "anime_image": "/assets/7Sins_poster.webp",
+            "anime_name": "7 Deadly Sins",
+            "anime_href": "/manga/seven-deadly-sins/scans"
+          },
+          {
+            "anime_image": "/assets/scan/bleach_scan.webp",
+            "anime_name": "Bleach",
+            "anime_href": "/manga/bleach/scans"
+          },
+          {
+            "anime_image": "/assets/scan/OP_scan.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/scans"
+          }
+        ]
+      }
+    ]
   },
   {
     "_id": {
@@ -6322,6 +6596,10 @@
       {
         "img": "/assets/4Knights_poster.webp",
         "url": "/manga/four-knights-of-the-apocalypse"
+      },
+      {
+        "img": "/assets/7Sins_FILMS.webp",
+        "url": "seven-deadly-sins/films"
       },
       {
         "img": "/assets/scan/7sins_scan.webp",
