@@ -5,7 +5,7 @@ export function BouttonForm(props) {
     <div>
       <button className="w-2/4 relative flex m-auto mt-2.5 rounded-2xl bg-slate-200 bg-opacity-75 border-black">
         <img
-          src={props.image}
+          src={props.image} alt={props.alt}
           className="items-center opacity-0 transition easi-in duration-500 rounded-2xl  justify-center hover:opacity-100 "
         />
         <span className="md:absolute top-6 left-8 right-10 laptop:absolute top-9 left-12 right-14">

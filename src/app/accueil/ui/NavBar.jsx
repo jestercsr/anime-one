@@ -55,10 +55,10 @@ export default function Navbar(props) {
           <div>
             <Link href={"/accueil"}>
               <div className="hidden tablet:block w-20">
-                <img src="/assets/logoAnimeplus.webp" className=" block" />
+                <img src="/assets/logoAnimeplus.webp" alt="logo" className=" block" />
               </div>
               <div className="block w-20 tablet:hidden">
-                <img src="/assets/logoAnimeplusHome.webp" className="block" />
+                <img src="/assets/logoAnimeplusHome.webp" alt="logo+" className="block" />
               </div>
             </Link>
           </div>

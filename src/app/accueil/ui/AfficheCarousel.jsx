@@ -44,7 +44,7 @@ export default function AfficheCarousel() {
             return (
               <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={recommander.id}>
                 <Link href={`/${recommander.url}`}>
-                  <img src={recommander.image} className="rounded-2xl w-full"/>
+                  <img src={recommander.image} alt={recommander.name} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{recommander.name}</p>
                 </Link>
               </div>
@@ -60,7 +60,7 @@ export default function AfficheCarousel() {
             return (
               <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={trends.id}>
                 <Link href={`/${trends.url}`}>
-                  <img src={trends.image} className="rounded-2xl w-full"/>
+                  <img src={trends.image} alt={trends.name} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{trends.name}</p>
                 </Link>
               </div>
@@ -76,7 +76,7 @@ export default function AfficheCarousel() {
             return (
               <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={current.id}>
                 <Link href={`/${current.url}`}>
-                  <img src={current.image} className="rounded-2xl w-full"/>
+                  <img src={current.image} alt={current.name} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{current.name}</p>
                 </Link>
               </div>
@@ -92,7 +92,7 @@ export default function AfficheCarousel() {
             return (
               <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={movReco.id}>
                 <Link href={`/${movReco.url}`}>
-                  <img src={movReco.image} className="rounded-2xl w-full"/>
+                  <img src={movReco.image} alt={movReco.name} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{movReco.name}</p>
                 </Link>
               </div>

@@ -45,7 +45,7 @@ export function ButtonConnect() {
             <ul key={cliquer.id}>
               <Link href={cliquer.url}>
                 <BouttonForm
-                  image={cliquer.picture}
+                  image={cliquer.picture} alt={cliquer.titre}
                   text={cliquer.titre}
                 ></BouttonForm>
               </Link>

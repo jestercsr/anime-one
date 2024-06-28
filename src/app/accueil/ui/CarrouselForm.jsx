@@ -84,7 +84,7 @@ export function CarrouselForm() {
           {dataImage.map((imgScreen) => {
             return (
               <div key={imgScreen.id}>
-                <img src={imgScreen.image} />
+                <img src={imgScreen.image} alt={imgScreen.name}/>
 
                 <p className="legend">
                   <Link href={imgScreen.url}>{imgScreen.name}</Link>

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <div className="bg-gradient-to-b from-emeralder-900 to-blacker-950 text-white">
       <Link href="/">
-        <img src="/assets/LogoFooter.webp" className="m-auto w-1/12" />
+        <img src="/assets/LogoFooter.webp" alt="logoFooter" className="m-auto w-1/12" />
       </Link>
       <div className="flex flex-row justify-between mb-5 mr-2 ml-2">
         <button>Conditions générales d’abonnement</button>
