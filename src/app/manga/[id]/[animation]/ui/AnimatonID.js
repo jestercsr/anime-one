@@ -76,7 +76,7 @@ export default function PageAnimeID({ props, animation }) {
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} className="w-[80%] rounded-2xl" />
+                <img src={select.images} alt={select.href} className="w-[80%] rounded-2xl" />
               </Link>
             </div>
           ))}
@@ -92,7 +92,7 @@ export default function PageAnimeID({ props, animation }) {
               >
                 <Link href={select.anime_href}>
                   <img
-                    src={select.anime_image}
+                    src={select.anime_image} alt={select.anime_name}
                     className="w-full rounded-2xl hover:opacity-100"
                   />
                   <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
@@ -133,7 +133,7 @@ export default function PageAnimeID({ props, animation }) {
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} className="w-full rounded-2xl" />
+                <img src={select.images} alt={select.href} className="w-full rounded-2xl" />
               </Link>
             </div>
           ))}
@@ -149,7 +149,7 @@ export default function PageAnimeID({ props, animation }) {
               >
                 <Link href={select.anime_href}>
                   <img
-                    src={select.anime_image}
+                    src={select.anime_image} alt={select.anime_name}
                     className="w-full rounded-2xl hover:opacity-100"
                   />
                   <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
@@ -187,7 +187,7 @@ export default function PageAnimeID({ props, animation }) {
         {imageSee?.map((select, i) => (
           <div className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8" key={i}>
             <Link href={select.href}>
-              <img src={select.images} className="w-full rounded-2xl" />
+              <img src={select.images} alt={select.href} className="w-full rounded-2xl" />
             </Link>
           </div>
         ))}
@@ -203,7 +203,7 @@ export default function PageAnimeID({ props, animation }) {
             >
               <Link href={select.anime_href}>
                 <img
-                  src={select.anime_image}
+                  src={select.anime_image} alt={select.anime_name}
                   className="w-full rounded-2xl hover:opacity-100"
                 />
                 <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">

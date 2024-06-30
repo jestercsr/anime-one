@@ -20,12 +20,12 @@ export default function Footer() {
         <button>Appareils compatibles</button>
         <button>Aide</button>
         <button>A propos de Anime+</button>
-        <button>Gérer les préférences de confidentialité</button>
+        <Link href="/manga"><button>Tous nos Mangas</button></Link>
       </div>
       <div className="flex flex-row justify-center mb-5 mr-2 ml-2">
         <img src="/assets/world.svg" className="w-1/10" />
         <button>Français</button>
-        <ChevronDown></ChevronDown>
+        <ChevronDown />
       </div>
       <p className="flex flex-row justify-center mr-2 ml-2">
         Le contenu et les plateformes disponibles peuvent varier selon la zone

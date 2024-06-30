@@ -65,7 +65,7 @@ function MangaListe({ props }) {
               key={i}
             >
               <Link href={select.url}>
-                <img src={select.img} className="w-full rounded-2xl" />
+                <img src={select.img} alt={select.url} className="w-full rounded-2xl" />
               </Link>
             </div>
           ))}
@@ -81,7 +81,7 @@ function MangaListe({ props }) {
               >
                 <Link href={select.url}>
                   <img
-                    src={select.image}
+                    src={select.image} alt={select.name}
                     className="w-full rounded-2xl hover:opacity-100"
                   />
                   <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">

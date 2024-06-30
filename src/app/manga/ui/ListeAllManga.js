@@ -38,7 +38,7 @@ function ListeAllManga() {
             >
               <Link href={select.url}>
                 <img
-                  src={select.image}
+                  src={select.image} alt={select.name}
                   className="w-full rounded-2xl hover:opacity-100"
                 />
               </Link>

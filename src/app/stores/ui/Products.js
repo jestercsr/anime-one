@@ -79,12 +79,12 @@ export default function Products() {
       <h2 className="text-[50px] my-10 text-slate-50 font-extrabold">
         Nouveaux Arrivages
       </h2>
-      <div className="flex grid grid-cols-5">
+      <div className=" grid grid-cols-5">
         {produits.map((item, i) => {
           return (
             <div
               key={i}
-              className="w-[23%] bg-white min-w-[250px] px-[10px] py-[12px] border border-2 cursor-pointer shadow-xl hover:shadow-2xl rounded-2xl mb-5"
+              className="w-[23%] bg-white min-w-[250px] px-[10px] py-[12px] border-2 cursor-pointer shadow-xl hover:shadow-2xl rounded-2xl mb-5"
             >
               <img src={item.image} className="w-full rounded-2xl" />
               <div className="text-start">

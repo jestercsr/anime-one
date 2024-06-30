@@ -38,8 +38,8 @@ export default function E_Navbar() {
     },
   ];
   return (
-    <div className="duration-200 relative z-40 bg-teal-900 text-slate-50 sticky">
-      <nav className="flex justify-between items-center px-8 items-center py-2 top-0 left-0">
+    <div className="duration-200 z-40 bg-teal-900 text-slate-50 sticky">
+      <nav className="flex justify-between px-8 items-center py-2 top-0 left-0">
         <div className="">
           <Link href={"/stores"}>
             <div className="hidden tablet:block w-20">

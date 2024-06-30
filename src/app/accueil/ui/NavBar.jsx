@@ -55,10 +55,18 @@ export default function Navbar(props) {
           <div>
             <Link href={"/accueil"}>
               <div className="hidden tablet:block w-20">
-                <img src="/assets/logoAnimeplus.webp" alt="logo" className=" block" />
+                <img
+                  src="/assets/logoAnimeplus.webp"
+                  alt="logo"
+                  className=" block"
+                />
               </div>
               <div className="block w-20 tablet:hidden">
-                <img src="/assets/logoAnimeplusHome.webp" alt="logo+" className="block" />
+                <img
+                  src="/assets/logoAnimeplusHome.webp"
+                  alt="logo+"
+                  className="block"
+                />
               </div>
             </Link>
           </div>
@@ -66,15 +74,13 @@ export default function Navbar(props) {
         <Menu className="text-3xl items-end cursor-pointer md:hidden" />
         <section className="md:static md:min-h-fit absolute min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex">
           <div className="hidden md:block flex-shrink flex-grow-0 justify-start px-2">
-            <div className="inline-block">
-              <div className="inline-flex items-center max-w-full">
-                <button className="flex items-center flex-grow-0 flex-shrink pl-2 relative w-60 border rounded-full px-1  py-1">
-                  <Search className="mr-1" />
-                  <span className="block flex-grow flex-shrink overflow-hidden">
-                    Rechercher
-                  </span>
-                </button>
-              </div>
+            <div className="relative group hidden md:block">
+              <input
+                type="text"
+                placeholder="Rechercher..."
+                className="search-bar"
+              />
+              <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
             </div>
           </div>
           <ul
