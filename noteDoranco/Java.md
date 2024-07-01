@@ -47,4 +47,6 @@ M = Model => Stockage
 V = Vue => Template
 C = Controller
 
-## [[Java Hibernate]]
+## [[Java Hibernate Spring]]
+
+## [[Java Swing JSF]]
