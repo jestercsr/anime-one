@@ -1207,10 +1207,10 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "/assets/AshitaJoe_poster.webp",
-    "name": "Ashita no Joe",
-    "url": "/manga/ashita-no-joe",
-    "categorie": ["Shonen", "Sports", "Drame", "Boxe"],
+    "image": "/assets/InitialD_poster.webp",
+    "name": "Initial D",
+    "url": "/manga/initial-d",
+    "categorie": ["Seinen", "Sports", "Drame", "Course automobile"],
     "anime": ["Series", "Scans"]
   },
   {

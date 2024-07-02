@@ -69,14 +69,14 @@ export default function PageAnimeID({ props, animation }) {
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
         </div>
         <h2 className={anime_titre}>Saisons disponibles</h2>
-        <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
+        <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 md:grid md:grid-cols-3 md:gap-4 md:items-center xl:grid xl:grid-cols-4">
           {imageSee?.map((select, i) => (
             <div
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} alt={select.href} className="w-[80%] rounded-2xl" />
+                <img src={select.images} alt={select.href} className="w-[70%] rounded-2xl" />
               </Link>
             </div>
           ))}
@@ -126,14 +126,14 @@ export default function PageAnimeID({ props, animation }) {
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
         </div>
         <h2 className={anime_titre}>Lecture en lignes</h2>
-        <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
+        <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 md:grid md:grid-cols-3 md:gap-4 md:items-center xl:grid xl:grid-cols-4">
           {imageSee?.map((select, i) => (
             <div
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} alt={select.href} className="w-full rounded-2xl" />
+                <img src={select.images} alt={select.href} className="w-[70%] rounded-2xl" />
               </Link>
             </div>
           ))}
@@ -183,11 +183,11 @@ export default function PageAnimeID({ props, animation }) {
         <img src={anime_imageTop} className="w-9/12 h-5/6" />
       </div>
       <h2 className={anime_titre}>Films disponibles</h2>
-      <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-4">
+      <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 md:grid md:grid-cols-3 md:gap-4 md:items-center xl:grid xl:grid-cols-4">
         {imageSee?.map((select, i) => (
           <div className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8" key={i}>
             <Link href={select.href}>
-              <img src={select.images} alt={select.href} className="w-full rounded-2xl" />
+              <img src={select.images} alt={select.href} className="w-[70%] rounded-2xl" />
             </Link>
           </div>
         ))}

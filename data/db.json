@@ -3097,7 +3097,7 @@
           {
             "anime_image": "/assets/scan/mob_scan.webp",
             "anime_name": "Mob Psycho 100",
-            "anime_href": "/manga/mob-psycho/episodes"
+            "anime_href": "/manga/mob-psycho/scans"
           },
           {
             "anime_image": "/assets/scan/bleach_scan.webp",
@@ -5649,8 +5649,8 @@
       {
         "animeId": "films",
         "anime_imageTop": "/assets/Conan_FILMS.webp",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "classNav": "bg-yellow-700 text-slate-50",
+        "backNav": "bg-yellower-900",
         "imageSee": [
           {
             "images": "/assets/films/Conan_F1.webp",
@@ -5761,7 +5761,7 @@
             "href": "l-etoile-a-un-million-de-dollars"
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "/assets/OP_FILMS.webp",
@@ -5794,22 +5794,22 @@
             "anime_href": "/manga/naruto/films"
           },
           {
-            "anime_image": "/assets/MHA_FILMS.webp",
+            "anime_image": "/assets/SlamDunk_FILMS.webp",
             "anime_name": "Slam Dunk",
             "anime_href": "/manga/slam-dunk/films"
           },
           {
-            "anime_image": "/assets/MHA_FILMS.webp",
-            "anime_name": "My Hero Academia",
-            "anime_href": "/manga/my-hero-academia/films"
+            "anime_image": "/assets/DS_FILMS.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/films"
           }
         ]
       },
       {
         "animeId": "episodes",
-        "anime_imageTop": "/assets/Conan_FILMS.webp",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "anime_imageTop": "/assets/Conan_poster.webp",
+        "classNav": "bg-yellow-700 text-slate-50",
+        "backNav": "bg-yellower-900",
         "imageSee": [
           {
             "images": "/assets/series/ConanS1.webp",
@@ -5918,14 +5918,22 @@
           {
             "images": "/assets/series/ConanS27.webp",
             "href": "saison-27"
+          },
+          {
+            "images": "/assets/series/ConanS28.webp",
+            "href": "saison-28"
+          },
+          {
+            "images": "/assets/series/ConanS29.webp",
+            "href": "saison-29"
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "/assets/MagicKaito_poster.webp",
             "anime_name": "Magic Kaito",
-            "anime_href": "/manga/magic-kaito"
+            "anime_href": "/manga/magic-kaito/episodes"
           },
           {
             "anime_image": "/assets/OP_Top.webp",
@@ -5943,9 +5951,9 @@
             "anime_href": "/manga/lupin-the-third/episodes"
           },
           {
-            "anime_image": "/assets/Haikyu_FILMS.webp",
+            "anime_image": "/assets/Haikyu_poster.webp",
             "anime_name": "Haikyuu",
-            "anime_href": "/manga/haikyuu/films"
+            "anime_href": "/manga/haikyuu/episodes"
           },
           {
             "anime_image": "/assets/Frieren_poster.webp",
@@ -5953,14 +5961,145 @@
             "anime_href": "/manga/frieren/episodes"
           },
           {
-            "anime_image": "/assets/_poster.webp",
-            "anime_name": "",
-            "anime_href": "/manga//episodes"
+            "anime_image": "/assets/Kochikame_poster.webp",
+            "anime_name": "Kochikame",
+            "anime_href": "/manga/kochikame/episodes"
           },
           {
-            "anime_image": "/assets/_poster.webp",
-            "anime_name": "",
-            "anime_href": "/manga//episodes"
+            "anime_image": "/assets/SpyFamily_poster.webp",
+            "anime_name": "Spy x Family",
+            "anime_href": "/manga/spy-x-family/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/conan_scan.webp",
+        "classNav": "bg-yellow-700 text-slate-50",
+        "backNav": "bg-yellower-900",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Conan1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan12.webp",
+            "href": "tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan13.webp",
+            "href": "tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan14.webp",
+            "href": "tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan15.webp",
+            "href": "tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan16.webp",
+            "href": "tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan17.webp",
+            "href": "tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan18.webp",
+            "href": "tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan19.webp",
+            "href": "tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Conan20.webp",
+            "href": "tome-20"
+          }
+        ],
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/magickaito_scan.webp",
+            "anime_name": "Magic Kaito",
+            "anime_href": "/manga/magic-kaito/scans"
+          },
+          {
+            "anime_image": "/assets/scan/OP_scan.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/scans"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/lupin3rd_scan.webp",
+            "anime_name": "Lupin the 3rd",
+            "anime_href": "/manga/lupin-the-third/scans"
+          },
+          {
+            "anime_image": "/assets/scan/haikyu_scan.webp",
+            "anime_name": "Haikyuu",
+            "anime_href": "/manga/haikyuu/scans"
+          },
+          {
+            "anime_image": "/assets/scan/frieren_scan.webp",
+            "anime_name": "Frieren",
+            "anime_href": "/manga/frieren/scans"
+          },
+          {
+            "anime_image": "/assets/scan/kochikame_scan.webp",
+            "anime_name": "Kochikame",
+            "anime_href": "/manga/kochikame/scans"
+          },
+          {
+            "anime_image": "/assets/scan/spy_scan.webp",
+            "anime_name": "Spy x Family",
+            "anime_href": "/manga/spy-x-family/scans"
           }
         ]
       }
@@ -6035,20 +6174,142 @@
       {
         "animeId": "films",
         "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "classNav": "bg-emerald-400 text-green-700",
+        "backNav": "bg-lime-300",
         "imageSee": [
           {
             "images": "",
             "href": ""
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "",
             "anime_name": "",
             "anime_href": ""
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Dororo_poster.webp",
+        "classNav": "bg-emerald-400 text-green-700",
+        "backNav": "bg-lime-300",
+        "imageSee": [
+          {
+            "images": "/assets/series/DororoS1.webp",
+            "href": "saison-1"
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/HellParadise_poster.webp",
+            "anime_name": "Hell's Paradise",
+            "anime_href": "/manga/hell-paradise/episodes"
+          },
+          {
+            "anime_image": "/assets/Charlotte_poster.webp",
+            "anime_name": "Charlotte",
+            "anime_href": "/manga/charlotte/episodes"
+          },
+          {
+            "anime_image": "/assets/Berserk_poster.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/episodes"
+          },
+          {
+            "anime_image": "/assets/ShieldHero_poster.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "anime_href": "/manga/the-rising-of-the-shield-hero/episodes"
+          },
+          {
+            "anime_image": "/assets/NinjaKamui_poster.webp",
+            "anime_name": "Ninja Kamui",
+            "anime_href": "/manga/ninja-kamui/episodes"
+          },
+          {
+            "anime_image": "/assets/KenshinVagabon_poster.webp",
+            "anime_name": "Kenshin le vagabond",
+            "anime_href": "/manga/kenshin-le-vagabond/episodes"
+          },
+          {
+            "anime_image": "/assets/DemonKingAcademy_poster.webp",
+            "anime_name": "The Misfit of Demon King Academy",
+            "anime_href": "/manga/the-misfit-of-demon-king-academy/episodes"
+          },
+          {
+            "anime_image": "/assets/DS_poster.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/Dororo_poster.webp",
+        "classNav": "bg-emerald-400 text-green-700",
+        "backNav": "bg-lime-300",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Dororo1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Dororo2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Dororo3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Dororo4.webp",
+            "href": "tome-4"
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/hellparadise_scan.webp",
+            "anime_name": "Hell's Paradise",
+            "anime_href": "/manga/hell-paradise/scans"
+          },
+          {
+            "anime_image": "/assets/scan/charlotte_scan.webp",
+            "anime_name": "Charlotte",
+            "anime_href": "/manga/charlotte/scans"
+          },
+          {
+            "anime_image": "/assets/scan/berserk_scan.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/scans"
+          },
+          {
+            "anime_image": "/assets/scan/shieldhero_scan.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "anime_href": "/manga/the-rising-of-the-shield-hero/scans"
+          },
+          {
+            "anime_image": "/assets/scan/bluexorcist_scan.webp",
+            "anime_name": "Blue Exorcist",
+            "anime_href": "/manga/blue-exorcist/scans"
+          },
+          {
+            "anime_image": "/assets/scan/kenshin_scan.webp",
+            "anime_name": "Kenshin le vagabond",
+            "anime_href": "/manga/kenshin-le-vagabond/scans"
+          },
+          {
+            "anime_image": "/assets/scan/demonking_scan.webp",
+            "anime_name": "The Misfit of Demon King Academy",
+            "anime_href": "/manga/the-misfit-of-demon-king-academy/scans"
+          },
+          {
+            "anime_image": "/assets/scan/kimetsu_scan.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans"
           }
         ]
       }
@@ -6123,20 +6384,178 @@
       {
         "animeId": "films",
         "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "classNav": "bg-violet-700 text-neutral-950",
+        "backNav": "bg-violet-shadow",
         "imageSee": [
           {
             "images": "",
             "href": ""
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "",
             "anime_name": "",
             "anime_href": ""
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/EminenceShadow_poster.webp",
+        "classNav": "bg-violet-700 text-neutral-950",
+        "backNav": "bg-violet-shadow",
+        "imageSee": [
+          {
+            "images": "/assets/series/EminenceShadowS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/EminenceShadowS2.webp",
+            "href": "saison-2"
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/ShieldHero_poster.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "anime_href": "/manga/the-rising-of-the-shield-hero/episodes"
+          },
+          {
+            "anime_image": "/assets/MushokuTensei_poster.webp",
+            "anime_name": "Mushoku Tensei",
+            "anime_href": "/manga/mushoku-tensei/episodes"
+          },
+          {
+            "anime_image": "/assets/TWFA_poster.webp",
+            "anime_name": "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
+            "anime_href": "/manga/the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat/episodes"
+          },
+          {
+            "anime_image": "/assets/Slime_poster.webp",
+            "anime_name": "Moi, Quand je me Réincarne en Slime",
+            "anime_href": "/manga/moi-quand-je-me-reincarne-en-slime/episodes"
+          },
+          {
+            "anime_image": "/assets/GreatestDemonLordNobody_poster.webp",
+            "anime_name": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+            "anime_href": "/manga/the-greatest-demon-lord-is-reborn-as-a-typical-nobody/episodes"
+          },
+          {
+            "anime_image": "/assets/DemonSwordMaster_poster.webp",
+            "anime_name": "The Demon Sword Master of Excalibur Academy",
+            "anime_href": "/manga/the-demon-sword-master-of-excalibur-academy/episodes"
+          },
+          {
+            "anime_image": "/assets/Arifureta_poster.webp",
+            "anime_name": "Arifureta",
+            "anime_href": "/manga/arifureta/episodes"
+          },
+          {
+            "anime_image": "/assets/GoblinSlayer_poster.webp",
+            "anime_name": "Goblin Slayer",
+            "anime_href": "/manga/goblin-slayer/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/eminence_scan.webp",
+        "classNav": "bg-violet-700 text-neutral-950",
+        "backNav": "bg-violet-shadow",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/EminenceShadow12.webp",
+            "href": "tome-12"
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/shieldhero_scan.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "anime_href": "/manga/the-rising-of-the-shield-hero/scans"
+          },
+          {
+            "anime_image": "/assets/scan/mushokutensei_scan.webp",
+            "anime_name": "Mushoku Tensei",
+            "anime_href": "/manga/mushoku-tensei/scans"
+          },
+          {
+            "anime_image": "/assets/scan/slime_scan.webp",
+            "anime_name": "Moi, Quand je me Réincarne en Slime",
+            "anime_href": "/manga/moi-quand-je-me-reincarne-en-slime/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/elite_scan.webp",
+            "anime_name": "Classroom of the Elite",
+            "anime_href": "/manga/classroom-of-the-elite/scans"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/demonslave_scan.webp",
+            "anime_name": "Demon Slave",
+            "anime_href": "/manga/demon-slave/scans"
+          },
+          {
+            "anime_image": "/assets/scan/goblinslayer_scan.webp",
+            "anime_name": "Goblin Slayer",
+            "anime_href": "/manga/goblin-slayer/scans"
           }
         ]
       }
@@ -6171,11 +6590,6 @@
     "titre": "text-red-700 text-2xl pb-2.5 ml-2",
     "imageCarousel": [
       {
-        "image": "/assets/AshitaJoe_poster.webp",
-        "name": "Ashita no Joe",
-        "url": "/manga/ashita-no-joe"
-      },
-      {
         "image": "/assets/Baki_poster.webp",
         "name": "Baki",
         "url": "/manga/baki"
@@ -6209,26 +6623,264 @@
         "image": "/assets/Kingdom_poster.webp",
         "name": "Kingdom",
         "url": "/manga/kingdom"
+      },
+      {
+        "image": "/assets/InitialD_poster.webp",
+        "name": "Initial D",
+        "url": "/manga/initial-d"
       }
     ],
     "animation": [
       {
         "animeId": "films",
-        "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "anime_imageTop": "/assets/Ippo_FILMS.webp",
+        "classNav": "bg-red-700 text-blue-800",
+        "backNav": "bg-zinc-100",
         "imageSee": [
           {
-            "images": "",
-            "href": ""
+            "images": "/assets/films/Ippo_F1.webp",
+            "href": "champion-road"
+          },
+          {
+            "images": "/assets/films/Ippo_F2.webp",
+            "href": "mashiba-vs-kimura"
           }
         ],
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "",
-            "anime_name": "",
-            "anime_href": ""
+            "anime_image": "/assets/OP_FILMS.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/films"
+          },
+          {
+            "anime_image": "/assets/BlueLock_FILMS.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/films"
+          },
+          {
+            "anime_image": "/assets/YuYuHakusho_FILMS.webp",
+            "anime_name": "Yu Yu Hakusho",
+            "anime_href": "/manga/yu-yu-hakusho/films"
+          },
+          {
+            "anime_image": "/assets/InitialD_FILMS.webp",
+            "anime_name": "Initial D",
+            "anime_href": "/manga/initial-d/films"
+          },
+          {
+            "anime_image": "/assets/JJK_FILMS.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/films"
+          },
+          {
+            "anime_image": "/assets/SlamDunk_FILMS.webp",
+            "anime_name": "Slam Dunk",
+            "anime_href": "/manga/slam-dunk/films"
+          },
+          {
+            "anime_image": "/assets/Berserk_FILMS.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/films"
+          },
+          {
+            "anime_image": "/assets/Hunter_FILMS.webp",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/films"
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Ippo_poster.webp",
+        "classNav": "bg-red-700 text-blue-800",
+        "backNav": "bg-zinc-100",
+        "imageSee": [
+          {
+            "images": "/assets/series/IppoS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/IppoS2.webp",
+            "href": "saison-2"
+          },
+          {
+            "images": "/assets/series/IppoS3.webp",
+            "href": "saison-3"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/Baki_poster.webp",
+            "anime_name": "Baki",
+            "anime_href": "/manga/baki/episodes"
+          },
+          {
+            "anime_image": "/assets/OnePunch_poster.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/episodes"
+          },
+          {
+            "anime_image": "/assets/OP_Top.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/episodes"
+          },
+          {
+            "anime_image": "/assets/KenganAshura_poster.webp",
+            "anime_name": "Kengan Ashura",
+            "anime_href": "/manga/kengan-ashura/episodes"
+          },
+          {
+            "anime_image": "/assets/BlueLock_poster.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/episodes"
+          },
+          {
+            "anime_image": "/assets/YuYuHakusho_poster.webp",
+            "anime_name": "Yu Yu Hakusho",
+            "anime_href": "/manga/yu-yu-hakusho/episodes"
+          },
+          {
+            "anime_image": "/assets/Kingdom_poster.webp",
+            "anime_name": "Kingdom",
+            "anime_href": "/manga/kingdom/episodes"
+          },
+          {
+            "anime_image": "/assets/InitialD_poster.webp",
+            "anime_name": "Initial D",
+            "anime_href": "/manga/initial-d/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/ippo_scan.webp",
+        "classNav": "bg-red-700 text-blue-800",
+        "backNav": "bg-zinc-100",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Ippo1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo12.webp",
+            "href": "tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo13.webp",
+            "href": "tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo14.webp",
+            "href": "tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo15.webp",
+            "href": "tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo16.webp",
+            "href": "tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo17.webp",
+            "href": "tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo18.webp",
+            "href": "tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo19.webp",
+            "href": "tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Ippo20.webp",
+            "href": "tome-20"
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/baki_scan.webp",
+            "anime_name": "Baki",
+            "anime_href": "/manga/baki/episodes"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/OP_scan.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/scans"
+          },
+          {
+            "anime_image": "/assets/scan/kenganashura_scan.webp",
+            "anime_name": "Kengan Ashura",
+            "anime_href": "/manga/kengan-ashura/episodes"
+          },
+          {
+            "anime_image": "/assets/scan/bluelock_scan.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/scans"
+          },
+          {
+            "anime_image": "/assets/scan/yuyuhakusho_scan.webp",
+            "anime_name": "Yu Yu Hakusho",
+            "anime_href": "/manga/yu-yu-hakusho/scans"
+          },
+          {
+            "anime_image": "/assets/scan/kingdom_scan.webp",
+            "anime_name": "Kingdom",
+            "anime_href": "/manga/kingdom/scans"
+          },
+          {
+            "anime_image": "/assets/scan/initiald_scan.webp",
+            "anime_name": "Initial D",
+            "anime_href": "/manga/initial-d/scans"
           }
         ]
       }
@@ -6303,20 +6955,182 @@
       {
         "animeId": "films",
         "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "classNav": "bg-violeter-700 text-yellow-300",
+        "backNav": "bg-bluer-600",
         "imageSee": [
           {
             "images": "",
             "href": ""
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "",
             "anime_name": "",
             "anime_href": ""
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Jojo_poster.webp",
+        "classNav": "bg-violeter-700 text-yellow-300",
+        "backNav": "bg-bluer-600",
+        "imageSee": [
+          {
+            "images": "/assets/series/JojoS1.webp",
+            "href": "phantom-blood"
+          },
+          {
+            "images": "/assets/series/JojoS2.webp",
+            "href": "battle-tendency"
+          },
+          {
+            "images": "/assets/series/JojoS3.webp",
+            "href": "stardust-crusaders"
+          },
+          {
+            "images": "/assets/series/JojoS4.webp",
+            "href": "diamond-is-unbreakable"
+          },
+          {
+            "images": "/assets/series/JojoS5.webp",
+            "href": "golden-wind"
+          },
+          {
+            "images": "/assets/series/JojoS6.webp",
+            "href": "stone-ocean"
+          }
+        ],
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/Berserk_poster.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/episodes"
+          },
+          {
+            "anime_image": "/assets/Dororo_poster.webp",
+            "anime_name": "Dororo",
+            "anime_href": "/manga/dororo/episodes"
+          },
+          {
+            "anime_image": "/assets/HellParadise_poster.webp",
+            "anime_name": "Hell's Paradise",
+            "anime_href": "/manga/hell-paradise/episodes"
+          },
+          {
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/episodes"
+          },
+          {
+            "anime_image": "/assets/OnePunch_poster.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/episodes"
+          },
+          {
+            "anime_image": "/assets/Hunter_poster.webp",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/episodes"
+          },
+          {
+            "anime_image": "/assets/MobPsycho_poster.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/episodes"
+          },
+          {
+            "anime_image": "/assets/GoblinSlayer_poster.webp",
+            "anime_name": "Goblin Slayer",
+            "anime_href": "/manga/goblin-slayer/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/jojo_scan.webp",
+        "classNav": "bg-violeter-700 text-yellow-300",
+        "backNav": "bg-bluer-600",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Jojo1.webp",
+            "href": "volume-phantom-blood"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo2.webp",
+            "href": "volume-battle-tendency"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo3.webp",
+            "href": "volume-stardust-crusaders"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo4.webp",
+            "href": "volume-diamond-is-unbreakable"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo5.webp",
+            "href": "volume-golden-wind"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo6.webp",
+            "href": "volume-stone-ocean"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo7.webp",
+            "href": "volume-steel-ball"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo8.webp",
+            "href": "volume-jojolion"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Jojo9.webp",
+            "href": "volume-the-jojolands"
+          }
+        ],
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/berserk_scan.webp",
+            "anime_name": "Berserk",
+            "anime_href": "/manga/berserk/scans"
+          },
+          {
+            "anime_image": "/assets/scan/dororo_scan.webp",
+            "anime_name": "Dororo",
+            "anime_href": "/manga/dororo/scans"
+          },
+          {
+            "anime_image": "/assets/scan/hellparadise_scan.webp",
+            "anime_name": "Hell's Paradise",
+            "anime_href": "/manga/hell-paradise/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/hunter_scan.webp",
+            "anime_name": "Hunter x Hunter",
+            "anime_href": "/manga/hunter-x-hunter/scans"
+          },
+          {
+            "anime_image": "/assets/scan/mob_scan.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/scans"
+          },
+          {
+            "anime_image": "/assets/scan/goblinslayer_scan.webp",
+            "anime_name": "Goblin Slayer",
+            "anime_href": "/manga/goblin-slayer/scans"
           }
         ]
       }
@@ -6391,20 +7205,130 @@
       {
         "animeId": "films",
         "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "classNav": "bg-red-700 text-emerald-400",
+        "backNav": "bg-teal-300",
         "imageSee": [
           {
             "images": "",
             "href": ""
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "",
             "anime_name": "",
             "anime_href": ""
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Kaiju_poster.webp",
+        "classNav": "bg-red-700 text-emerald-400",
+        "backNav": "bg-teal-300",
+        "imageSee": [
+          {
+            "images": "/assets/series/KaijuS1.webp",
+            "href": "saison-1"
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/WindBreaker_poster.webp",
+            "anime_name": "Wind Breaker",
+            "anime_href": "/manga/wind-breaker/episodes"
+          },
+          {
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/episodes"
+          },
+          {
+            "anime_image": "/assets/LoserRanger_poster.webp",
+            "anime_name": "No Longer Rangers",
+            "anime_href": "/manga/no-longer-rangers/episodes"
+          },
+          {
+            "anime_image": "/assets/DS_poster.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/episodes"
+          },
+          {
+            "anime_image": "/assets/OnePunch_poster.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/episodes"
+          },
+          {
+            "anime_image": "/assets/ChainsawMan_poster.webp",
+            "anime_name": "Chainsaw Man",
+            "anime_href": "/manga/chainsaw-man/episodes"
+          },
+          {
+            "anime_image": "/assets/OP_Top.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/episodes"
+          },
+          {
+            "anime_image": "/assets/BlackClover_first.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/Kaiju_poster.webp",
+        "classNav": "bg-red-700 text-emerald-400",
+        "backNav": "bg-teal-300",
+        "imageSee": [
+          {
+            "images": "/assets/series/KaijuS1.webp",
+            "href": "saison-1"
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/dandadan_scan.webp",
+            "anime_name": "Dandadan",
+            "anime_href": "/manga/dandadan/scans"
+          },
+          {
+            "anime_image": "/assets/scan/sakamotodays_scan.webp",
+            "anime_name": "Sakamoto Days",
+            "anime_href": "/manga/sakamoto-days/scans"
+          },
+          {
+            "anime_image": "/assets/scan/windbreaker_scan.webp",
+            "anime_name": "Wind Breaker",
+            "anime_href": "/manga/wind-breaker/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/LoserRanger_poster.webp",
+            "anime_name": "No Longer Rangers",
+            "anime_href": "/manga/no-longer-rangers/episodes"
+          },
+          {
+            "anime_image": "/assets/scan/kimetsu_scan.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/chainsawman_scan.webp",
+            "anime_name": "Chainsaw Man",
+            "anime_href": "/manga/chainsaw-man/scans"
           }
         ]
       }

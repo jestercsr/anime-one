@@ -102,7 +102,7 @@ export const trendings = [
     id: 17,
     image: "/assets/Conan_poster.webp",
     name: "Detective Conan",
-    url: "/manga/detective-conan",
+    url: "manga/detective-conan",
   },
   {
     id: 18,
@@ -130,7 +130,7 @@ export const trendings = [
   },
   {
     id: 21,
-    image: "/assets/SpyFamily_poster.webp",
+    image: "/assets/SpiceWolf_poster.webp",
     name: "Spice & Wolf",
     url: "manga/spice-and-wolf",
   },
