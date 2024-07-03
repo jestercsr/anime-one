@@ -77,7 +77,7 @@ export const trendings = [
   {
     id: 13,
     image: "assets/Konosuba.webp",
-    name: "Konosuba",
+    name: "Konosuba : Sois béni monde merveilleux !",
     url: "manga/konosuba",
   },
   {
