@@ -8255,21 +8255,182 @@
     "animation": [
       {
         "animeId": "films",
-        "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "anime_imageTop": "/assets/Kuroko_FILMS.webp",
+        "classNav": "bg-slate-50 text-neutral-950",
+        "backNav": "bg-zinc-100",
         "imageSee": [
           {
-            "images": "",
-            "href": ""
+            "images": "/assets/films/Kuroko_F1.webp",
+            "href": "last-game"
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "",
-            "anime_name": "",
-            "anime_href": ""
+            "anime_image": "/assets/Haikyu_FILMS.webp",
+            "anime_name": "Haikyuu",
+            "anime_href": "/manga/haikyuu/films"
+          },
+          {
+            "anime_image": "/assets/SlamDunk_FILMS.webp",
+            "anime_name": "Slam Dunk",
+            "anime_href": "/manga/slam-dunk/films"
+          },
+          {
+            "anime_image": "/assets/BlueLock_FILMS.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/films"
+          },
+          {
+            "anime_image": "/assets/JJK_FILMS.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/films"
+          },
+          {
+            "anime_image": "/assets/DS_FILMS.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/films"
+          },
+          {
+            "anime_image": "/assets/Aot_FILMS.webp",
+            "anime_name": "L'Attaque des Titans",
+            "anime_href": "/manga/shingeki-no-kyojin/films"
+          },
+          {
+            "anime_image": "/assets/Ippo_FILMS.webp",
+            "anime_name": "Hajime no Ippo",
+            "anime_href": "/manga/hajime-no-ippo/films"
+          },
+          {
+            "anime_image": "/assets/BC_FILMS.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/films"
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Kuroko_poster.webp",
+        "classNav": "bg-slate-50 text-neutral-950",
+        "backNav": "bg-zinc-100",
+        "imageSee": [
+          {
+            "images": "/assets/series/KurokoS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/KurokoS2.webp",
+            "href": "saison-2"
+          },
+          {
+            "images": "/assets/series/KurokoS3.webp",
+            "href": "saison-3"
+          }
+        ],
+        "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/Haikyu_poster.webp",
+            "anime_name": "Haikyuu",
+            "anime_href": "/manga/haikyuu/episodes"
+          },
+          {
+            "anime_image": "/assets/SlamDunk_posterwebp",
+            "anime_name": "Slam Dunk",
+            "anime_href": "/manga/slam-dunk/episodes"
+          },
+          {
+            "anime_image": "/assets/BlueLock_poster.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/episodes"
+          },
+          {
+            "anime_image": "/assets/Eyeshield21_poster.webp",
+            "anime_name": "Eyeshield 21",
+            "anime_href": "/manga/eyeshield-21/episodes"
+          },
+          {
+            "anime_image": "/assets/AoAshi_poster.webp",
+            "anime_name": "Ao Ashi",
+            "anime_href": "/manga/ao-ashi/episodes"
+          },
+          {
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/episodes"
+          },
+          {
+            "anime_image": "/assets/Tsubasa_poster.webp",
+            "anime_name": "Captain Tsubasa",
+            "anime_href": "/manga/captain-tsubasa/episodes"
+          },
+          {
+            "anime_image": "/assets/Days_poster.webp",
+            "anime_name": "Days",
+            "anime_href": "/manga/days/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/kuroko_scan.webp",
+        "classNav": "bg-slate-50 text-neutral-950",
+        "backNav": "bg-zinc-100",
+        "imageSee": [
+          {
+            "images": "/assets/series/KurokoS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/KurokoS2.webp",
+            "href": "saison-2"
+          },
+          {
+            "images": "/assets/series/KurokoS3.webp",
+            "href": "saison-3"
+          }
+        ],
+        "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/haikyu_scan.webp",
+            "anime_name": "Haikyuu",
+            "anime_href": "/manga/haikyuu/scans"
+          },
+          {
+            "anime_image": "/assets/SlamDunk_posterwebp",
+            "anime_name": "Slam Dunk",
+            "anime_href": "/manga/slam-dunk/scans"
+          },
+          {
+            "anime_image": "/assets/scan/bluelock_scan.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/scans"
+          },
+          {
+            "anime_image": "/assets/Eyeshield21_poster.webp",
+            "anime_name": "Eyeshield 21",
+            "anime_href": "/manga/eyeshield-21/scans"
+          },
+          {
+            "anime_image": "/assets/scan/aoashi_scan.webp",
+            "anime_name": "Ao Ashi",
+            "anime_href": "/manga/ao-ashi/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/tsubasa_scan.webp",
+            "anime_name": "Captain Tsubasa",
+            "anime_href": "/manga/captain-tsubasa/scans"
+          },
+          {
+            "anime_image": "/assets/scan/days_scan.webp",
+            "anime_name": "Days",
+            "anime_href": "/manga/days/scans"
           }
         ]
       }
@@ -8344,20 +8505,138 @@
       {
         "animeId": "films",
         "anime_imageTop": "",
-        "classNav": "bg-red-800 text-neutral-950",
-        "backNav": "bg-neutraler-800",
+        "classNav": "bg-red-900 text-yellow-300",
+        "backNav": "bg-red-800",
         "imageSee": [
           {
             "images": "",
             "href": ""
           }
         ],
-        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_titre": "text-yellow-300 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
             "anime_image": "",
             "anime_name": "",
             "anime_href": ""
+          }
+        ]
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Mashle_poster.webp",
+        "classNav": "bg-red-900 text-yellow-300",
+        "backNav": "bg-red-800",
+        "imageSee": [
+          {
+            "images": "/assets/series/MashleS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/MashleS2.webp",
+            "href": "saison-2"
+          }
+        ],
+        "anime_titre": "text-yellow-300 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/MobPsycho_poster.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/episodes"
+          },
+          {
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/episodes"
+          },
+          {
+            "anime_image": "/assets/BlackClover_first.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/episodes"
+          },
+          {
+            "anime_image": "/assets/OnePunch_poster.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/episodes"
+          },
+          {
+            "anime_image": "/assets/Frieren_poster.webp",
+            "anime_name": "Frieren",
+            "anime_href": "/manga/frieren/episodes"
+          },
+          {
+            "anime_image": "/assets/BlueLock_poster.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/episodes"
+          },
+          {
+            "anime_image": "/assets/OP_Top.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/episodes"
+          },
+          {
+            "anime_image": "/assets/Undead_poster.webp",
+            "anime_name": "Undead Unluck",
+            "anime_href": "/manga/undead-unluck/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/mashle_scan.webp",
+        "classNav": "bg-red-900 text-yellow-300",
+        "backNav": "bg-red-800",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/Mashle1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/Mashle2.webp",
+            "href": "tome-2"
+          }
+        ],
+        "anime_titre": "text-yellow-300 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/mob_scan.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/clover_scan.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/scans"
+          },
+          {
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "anime_href": "/manga/one-punch-man/scans"
+          },
+          {
+            "anime_image": "/assets/scan/frieren_scan.webp",
+            "anime_name": "Frieren",
+            "anime_href": "/manga/frieren/scans"
+          },
+          {
+            "anime_image": "/assets/scan/bluelock_scan.webp",
+            "anime_name": "Blue Lock",
+            "anime_href": "/manga/blue-lock/scans"
+          },
+          {
+            "anime_image": "/assets/scan/OP_scan.webp",
+            "anime_name": "One Piece",
+            "anime_href": "/manga/one-piece/scans"
+          },
+          {
+            "anime_image": "/assets/scan/undead_scan.webp",
+            "anime_name": "Undead Unluck",
+            "anime_href": "/manga/undead-unluck/scans"
           }
         ]
       }
