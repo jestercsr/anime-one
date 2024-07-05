@@ -1389,22 +1389,6 @@
     "anime": ["Series", "Scans"]
   },
   {
-    "image": "/assets/TokyoGhoulRe_poster.webp",
-    "name": "Tokyo Ghoul : Re",
-    "url": "/manga/tokyo-ghoul-re",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Fantasy",
-      "Drame",
-      "Psychologique",
-      "Drame",
-      "Horreur",
-      "Monstres"
-    ],
-    "anime": ["Series", "Scans"]
-  },
-  {
     "image": "/assets/Parasyte_poster.webp",
     "name": "Parasyte the Maxim",
     "url": "/manga/parasyte",
