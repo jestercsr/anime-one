@@ -88,3 +88,19 @@ export async function getListeScans() {
     return { message: error.message };
   }
 }
+
+export async function getAction(){
+  try {
+    await connectDB()
+    const data = JSON.parse(
+      JSON.stringify(
+        await ListeModel.find({ catagorie: { $in: "Action "}}).sort({
+          name: "asc",
+        })
+      )
+    )
+    return data
+  } catch (error) {
+    return { message: error.message }
+  }
+}

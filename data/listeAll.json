@@ -1210,8 +1210,14 @@
     "image": "/assets/InitialD_poster.webp",
     "name": "Initial D",
     "url": "/manga/initial-d",
-    "categorie": ["Seinen", "Sports", "Drame", "Course automobile"],
-    "anime": ["Series", "Scans"]
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Drame",
+      "Sports",
+      "Course automobile"
+    ],
+    "anime": ["Films", "Series", "Scans"]
   },
   {
     "image": "/assets/Baki_poster.webp",
@@ -1814,5 +1820,153 @@
       "Historique"
     ],
     "anime": ["Films", "Series", "Scans"]
+  },
+  {
+    "image": "/assets/20thCenturyBoys_poster.webp",
+    "name": "20th Century Boys",
+    "url": "/manga/20th-century-boys",
+    "categorie": [
+      "Seinen",
+      "Drame",
+      "Science-Fiction",
+      "Thriller",
+      "Mystère"
+    ],
+    "anime": ["Scans"]
+  },
+  {
+    "image": "/assets/Bakuman_poster.webp",
+    "name": "Bakuman",
+    "url": "/manga/bakuman",
+    "categorie": [
+      "Shonen",
+      "Comédie",
+      "Romance",
+      "Drame",
+      "Mangaka"
+    ],
+    "anime": ["Series", "Scans"]
+  },
+  {
+    "image": "/assets/Trinity_poster.webp",
+    "name": "Trinity Seven",
+    "url": "/manga/trinity-seven",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Magie",
+      "Harem",
+      "Lycée",
+      "Fantasy"
+    ],
+    "anime": ["Films", "Series", "Scans"]
+  },
+  {
+    "image": "/assets/Unwanted_poster.webp",
+    "name": "The Unwanted Undead Adventurer",
+    "url": "/manga/the-unwanted-undead-adventurer",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Dark Fantasy",
+      "Mystère",
+      "Harem",
+      "Monstres",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"]
+  },
+  {
+    "image": "/assets/Yozakura_poster.webp",
+    "name": "Mission: Yozakura Family",
+    "url": "/manga/mission-yozakura-family",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Romance",
+      "Espion",
+      "Famille",
+      "Mariage"
+    ],
+    "anime": ["Series", "Scans"]
+  },
+  {
+    "image": "/assets/SailorMoon_poster.webp",
+    "name": "Sailor Moon",
+    "url": "/manga/sailor-moon",
+    "categorie": [
+      "Shojo",
+      "Magical Girl",
+      "Amour",
+      "Combats",
+      "Magie"
+    ],
+    "anime": ["Films", "Series", "Scans"]
+  },
+  {
+    "image": "/assets/Beyblade_poster.webp",
+    "name": "Beyblade",
+    "url": "/manga/beyblade",
+    "categorie": [
+      "Kodomo",
+      "Adventure",
+      "Comédie"
+    ],
+    "anime": ["Films", "Series", "Scans"]
+  },
+  {
+    "image": "/assets/BerserkGloutony_poster.webp",
+    "name": "Berserk of Gloutony",
+    "url": "/manga/berserk-of-gloutony",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Drame",
+      "Dark Fantasy"
+    ],
+    "anime": ["Series", "Scans"]
+  },
+  {
+    "image": "/assets/Monster_poster.webp",
+    "name": "Monster",
+    "url": "/manga/monster",
+    "categorie": [
+      "Seinen",
+      "Policier",
+      "Thriller",
+      "Drame",
+      "Psychologique",
+      "Fugitif",
+      "Serial-killer"
+    ],
+    "anime": ["Series", "Scans"]
+  },
+  {
+    "image": "/assets/BeybladeFusion_poster.webp",
+    "name": "Beyblade Metal",
+    "url": "/manga/beyblade-metal",
+    "categorie": [
+      "Kodomo",
+      "Adventure",
+      "Comédie"
+    ],
+    "anime": ["Films", "Series", "Scans"]
+  },
+  {
+    "image": "/assets/BurstTurbo_poster.webp",
+    "name": "Beyblade Burst",
+    "url": "/manga/beyblade-burst",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Action",
+      "Sports"
+    ],
+    "anime": ["Series", "Scans"]
   }
 ]

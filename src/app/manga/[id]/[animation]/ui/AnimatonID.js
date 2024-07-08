@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
+import { ArrowLeftCircle } from "lucide-react";
 import { getMangaAnimeID } from "../../../../../../_actions/postAction";
 
 export default function PageAnimeID({ props, animation }) {
@@ -81,6 +82,9 @@ export default function PageAnimeID({ props, animation }) {
             </div>
           ))}
         </section>
+        <div>
+          <Link href={`/manga/${props}`}><ArrowLeftCircle className={anime_titre} width={"100px"} height={"50px"}/></Link>
+        </div>
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
@@ -139,6 +143,10 @@ export default function PageAnimeID({ props, animation }) {
           ))}
         </section>
 
+        <div>
+          <Link href={`/manga/${props}`}><ArrowLeftCircle className={anime_titre} width={"100px"} height={"50px"}/></Link>
+        </div>
+
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
           <Carousel responsive={responsive}>
@@ -192,6 +200,10 @@ export default function PageAnimeID({ props, animation }) {
           </div>
         ))}
       </section>
+
+      <div>
+          <Link href={`/manga/${props}`}><ArrowLeftCircle className={anime_titre} width={"100px"} height={"50px"}/></Link>
+        </div>
 
       <div className="my-px">
         <h2 className={anime_titre}>A voir également</h2>

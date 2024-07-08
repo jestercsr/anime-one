@@ -130,4 +130,15 @@
 - [ ] Zom 100: Bucket List of the Dead
 - [ ] How a Realist Hero Rebuilt the Kingdom
 - [ ] I'm Quitting Heroing
+- [ ] 20th Century Boys
+- [ ] Bakuman
+- [ ] Trinity Seven
+- [ ] The Unwanted Undead Adventurer
+- [ ] Mission: Yozakura Family
+- [ ] Sailor Moon
+- [ ] Beyblade
+- [ ] Beyblade Metal
+- [ ] Beyblade Burst
+- [ ] Berserk of Gloutony
+- [ ] Monster
 - [ ] 

@@ -3314,14 +3314,14 @@
             "anime_href": "/manga/seven-deadly-sins/episodes"
           },
           {
-            "anime_image": "/assets/Bleach_FILMS.webp",
+            "anime_image": "/assets/Bleach_poster.webp",
             "anime_name": "Bleach",
-            "anime_href": "/manga/bleach/films"
+            "anime_href": "/manga/bleach/episodes"
           },
           {
-            "anime_image": "/assets/OP_FILMS.webp",
+            "anime_image": "/assets/OP_Top.webp",
             "anime_name": "One Piece",
-            "anime_href": "/manga/one-piece/films"
+            "anime_href": "/manga/one-piece/episodes"
           }
         ]
       },
@@ -15685,21 +15685,56 @@
       },
       {
         "animeId": "episodes",
-        "anime_imageTop": "",
+        "anime_imageTop": "/assets/TWFA_poster.webp",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-zinc-100",
         "imageSee": [
           {
-            "images": "",
-            "href": ""
+            "images": "/assets/series/TWFAS1.webp",
+            "href": "saison-1"
           }
         ],
         "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "",
-            "anime_name": "",
-            "anime_href": ""
+            "anime_image": "/assets/StrongestExorcist_poster.webp",
+            "anime_name": "The Reincarnation of the Strongest Exorcist in Another World",
+            "anime_href": "/manga/the-reincarnation-of-the-strongest-exorcist-in-another-world/episodes"
+          },
+          {
+            "anime_image": "/assets/MushokuTensei_poster.webp",
+            "anime_name": "Mushoku Tensei",
+            "anime_href": "/manga/mushoku-tensei/episodes"
+          },
+          {
+            "anime_image": "/assets/MyIsekaiLife_poster.webp",
+            "anime_name": "My Isekai Life",
+            "anime_href": "/manga/my-isekai-life/episodes"
+          },
+          {
+            "anime_image": "/assets/Spider_poster.webp",
+            "anime_name": "So I'm a Spider, So What?",
+            "anime_href": "/manga/kumo-desu-ga-nani-ka/episodes"
+          },
+          {
+            "anime_image": "/assets/RedoHealer_poster.webp",
+            "anime_name": "Redo of Healer",
+            "anime_href": "/manga/redo-of-healer/episodes"
+          },
+          {
+            "anime_image": "/assets/5seconds_poster.webp",
+            "anime_name": "5 Seconds to Death",
+            "anime_href": "/manga/5-seconds-to-death/episodes"
+          },
+          {
+            "anime_image": "/assets/Grimgar_poster.webp",
+            "anime_name": "Grimgar, Ashes and Illusions",
+            "anime_href": "/manga/hai-to-genshou-no-grimgar/episodes"
+          },
+          {
+            "anime_image": "/assets/CheatSkill_poster.webp",
+            "anime_name": "Cheat Skill Level Up",
+            "anime_href": "/manga/cheat-skill-level-up/episodes"
           }
         ]
       },
@@ -15806,36 +15841,257 @@
         "backNav": "bg-green-300",
         "imageSee": [
           {
-            "images": "",
-            "href": ""
+            "images": "/assets/films/7Sins_F1.webp",
+            "href": "prisonners-of-the-sky"
+          },
+          {
+            "images": "/assets/films/7Sins_F2.webp",
+            "href": "cursed-by-light"
+          },
+          {
+            "images": "/assets/films/7Sins_F3.webp",
+            "href": "grudge-of-edinburgh"
           }
         ],
         "anime_titre": "text-orange-500 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "",
-            "anime_name": "",
-            "anime_href": ""
+            "anime_image": "/assets/BC_FILMS.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/films"
+          },
+          {
+            "anime_image": "/assets/Trinity_FILMS.webp",
+            "anime_name": "Trinity Seven",
+            "anime_href": "/manga/trinity-seven/films"
+          },
+          {
+            "anime_image": "/assets/BlueExorcist_FILMS.webp",
+            "anime_name": "Blue Exorcist",
+            "anime_href": "/manga/blue-exorcist/films"
+          },
+          {
+            "anime_image": "/assets/Danmachi_FILMS.webp",
+            "anime_name": "DanMachi : La Légende des Familias",
+            "anime_href": "/manga/danmachi/films"
+          },
+          {
+            "anime_image": "/assets/DS_FILMS.webp",
+            "anime_name": "Demon Slayer",
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/films"
+          },
+          {
+            "anime_image": "/assets/JJK_FILMS.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/films"
+          },
+          {
+            "anime_image": "/assets/Shippuden_FILMS.webp",
+            "anime_name": "Naruto Shippuden",
+            "anime_href": "/manga/naruto-shippuden/films"
+          },
+          {
+            "anime_image": "/assets/MHA_FILMS.webp",
+            "anime_name": "My Hero Academia",
+            "anime_href": "/manga/my-hero-academia/films"
           }
         ]
       },
       {
         "animeId": "episodes",
-        "anime_imageTop": "",
+        "anime_imageTop": "/assets/7Sins_poster.webp",
         "classNav": "bg-lime-600 text-orange-500",
         "backNav": "bg-green-300",
         "imageSee": [
           {
-            "images": "",
-            "href": ""
+            "images": "/assets/series/7SinsS1.webp",
+            "href": "saison-1"
+          },
+          {
+            "images": "/assets/series/7SinsS2.webp",
+            "href": "saison-2"
+          },
+          {
+            "images": "/assets/series/7SinsS3.webp",
+            "href": "saison-3"
+          },
+          {
+            "images": "/assets/series/7SinsS4.webp",
+            "href": "saison-4"
           }
         ],
         "anime_titre": "text-orange-500 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "",
-            "anime_name": "",
-            "anime_href": ""
+            "anime_image": "/assets/BlackClover_first.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/episodes"
+          },
+          {
+            "anime_image": "/assets/Chivalry_poster.webp",
+            "anime_name": "Chivalry of a Failed Knight",
+            "anime_href": "/manga/chilvalry-of-a-failed-knight/episodes"
+          },
+          {
+            "anime_image": "/assets/Tsukimichi_poster.webp",
+            "anime_name": "Tsukimichi Moonlit Fantasy",
+            "anime_href": "/manga/tsukimichi-moonlit-fantasy/episodes"
+          },
+          {
+            "anime_image": "/assets/DemonKingAcademy_poster.webp",
+            "anime_name": "The Misfit of Demon King Academy",
+            "anime_href": "/manga/the-misfit-of-demon-king-academy/episodes"
+          },
+          {
+            "anime_image": "/assets/HellParadise_poster.webp",
+            "anime_name": "Hell's Paradise",
+            "anime_href": "/manga/hell-paradise/episodes"
+          },
+          {
+            "anime_image": "/assets/ShieldHero_poster.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "anime_href": "/manga/the-rising-of-the-shield-hero/episodes"
+          },
+          {
+            "anime_image": "/assets/TWFA_poster.webp",
+            "anime_name": "The World's Finest Assassin Gets Reincarnated In Another World As An Aristocrat",
+            "anime_href": "/manga/the-world-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat/episodes"
+          },
+          {
+            "anime_image": "/assets/StrongestExorcist_poster.webp",
+            "anime_name": "The Reincarnation of the Strongest Exorcist in Another World",
+            "anime_href": "/manga/the-reincarnation-of-the-strongest-exorcist-in-another-world/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/7sins_scan.webp",
+        "classNav": "bg-lime-600 text-orange-500",
+        "backNav": "bg-green-300",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/7Sins1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins12.webp",
+            "href": "tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins13.webp",
+            "href": "tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins14.webp",
+            "href": "tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins15.webp",
+            "href": "tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins16.webp",
+            "href": "tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins17.webp",
+            "href": "tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins18.webp",
+            "href": "tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins19.webp",
+            "href": "tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/7Sins20.webp",
+            "href": "tome-20"
+          }
+        ],
+        "anime_titre": "text-orange-500 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/clover_scan.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/scans"
+          },
+          {
+            "anime_image": "/assets/scan/chivalry_scan.webp",
+            "anime_name": "Chivalry of a Failed Knight",
+            "anime_href": "/manga/chilvalry-of-a-failed-knight/scans"
+          },
+          {
+            "anime_image": "/assets/scan/demonking_scan.webp",
+            "anime_name": "The Misfit of Demon King Academy",
+            "anime_href": "/manga/the-misfit-of-demon-king-academy/scans"
+          },
+          {
+            "anime_image": "/assets/scan/hellparadise_scan.webp",
+            "anime_name": "Hell's Paradise",
+            "anime_href": "/manga/hell-paradise/scans"
+          },
+          {
+            "anime_image": "/assets/scan/shieldhero_scan.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "anime_href": "/manga/the-rising-of-the-shield-hero/scans"
+          },
+          {
+            "anime_image": "/assets/scan/trinity_scan.webp",
+            "anime_name": "Trinity Seven",
+            "anime_href": "/manga/trinity-seven/scans"
+          },
+          {
+            "anime_image": "/assets/scan/bluexorcist_scan.webp",
+            "anime_name": "Blue Exorcist",
+            "anime_href": "/manga/blue-exorcist/scans"
+          },
+          {
+            "anime_image": "/assets/scan/danmachi_scan.webp",
+            "anime_name": "DanMachi : La Légende des Familias",
+            "anime_href": "/manga/danmachi/scans"
           }
         ]
       }
@@ -15933,21 +16189,187 @@
       },
       {
         "animeId": "episodes",
-        "anime_imageTop": "",
+        "anime_imageTop": "/assets/SoulEater_poster.webp",
         "classNav": "bg-yellow-500 text-neutral-950",
         "backNav": "bg-blacker-8",
         "imageSee": [
           {
-            "images": "",
-            "href": ""
+            "images": "/assets/series/SoulEaterS1.webp",
+            "href": "saison-1"
           }
         ],
         "anime_titre": "text-yellow-500 text-2xl pb-2.5 ml-2",
         "anime_imageCarousel": [
           {
-            "anime_image": "",
-            "anime_name": "",
-            "anime_href": ""
+            "anime_image": "/assets/FireForce_poster.webp",
+            "anime_name": "Fire Force",
+            "anime_href": "/manga/fire-force/episodes"
+          },
+          {
+            "anime_image": "/assets/BlueExorcist_poster.webp",
+            "anime_name": "Blue Exorcist",
+            "anime_href": "/manga/blue-exorcist/episodes"
+          },
+          {
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/episodes"
+          },
+          {
+            "anime_image": "/assets/FT_poster.webp",
+            "anime_name": "Fairy Tail",
+            "anime_href": "/manga/fairy-tail/episodes"
+          },
+          {
+            "anime_image": "/assets/BlackClover_first.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/episodes"
+          },
+          {
+            "anime_image": "/assets/TokyoGhoul_poster.webp",
+            "anime_name": "Tokyo Ghoul",
+            "anime_href": "/manga/tokyo-ghoul/episodes"
+          },
+          {
+            "anime_image": "/assets/MobPsycho_poster.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/episodes"
+          },
+          {
+            "anime_image": "/assets/BlackButler_poster.webp",
+            "anime_name": "Black Butler",
+            "anime_href": "/manga/black-butler/episodes"
+          }
+        ]
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/souleater_scan.webp",
+        "classNav": "bg-yellow-500 text-neutral-950",
+        "backNav": "bg-blacker-8",
+        "imageSee": [
+          {
+            "images": "/assets/scan/ScanAll/SoulEater1.webp",
+            "href": "tome-1"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater2.webp",
+            "href": "tome-2"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater3.webp",
+            "href": "tome-3"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater4.webp",
+            "href": "tome-4"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater5.webp",
+            "href": "tome-5"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater6.webp",
+            "href": "tome-6"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater7.webp",
+            "href": "tome-7"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater8.webp",
+            "href": "tome-8"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater9.webp",
+            "href": "tome-9"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater10.webp",
+            "href": "tome-10"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater11.webp",
+            "href": "tome-11"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater12.webp",
+            "href": "tome-12"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater13.webp",
+            "href": "tome-13"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater14.webp",
+            "href": "tome-14"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater15.webp",
+            "href": "tome-15"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater16.webp",
+            "href": "tome-16"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater17.webp",
+            "href": "tome-17"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater18.webp",
+            "href": "tome-18"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater19.webp",
+            "href": "tome-19"
+          },
+          {
+            "images": "/assets/scan/ScanAll/SoulEater20.webp",
+            "href": "tome-20"
+          }
+        ],
+        "anime_titre": "text-yellow-500 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_image": "/assets/scan/fireforce_scan.webp",
+            "anime_name": "Fire Force",
+            "anime_href": "/manga/fire-force/scans"
+          },
+          {
+            "anime_image": "/assets/scan/bluexorcist_scan.webp",
+            "anime_name": "Blue Exorcist",
+            "anime_href": "/manga/blue-exorcist/scans"
+          },
+          {
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "anime_href": "/manga/jujustu-kaisen/scans"
+          },
+          {
+            "anime_image": "/assets/scan/ft_scan.webp",
+            "anime_name": "Fairy Tail",
+            "anime_href": "/manga/fairy-tail/scans"
+          },
+          {
+            "anime_image": "/assets/scan/clover_scan.webp",
+            "anime_name": "Black Clover",
+            "anime_href": "/manga/black-clover/scans"
+          },
+          {
+            "anime_image": "/assets/scan/tokyoghoul_scan.webp",
+            "anime_name": "Tokyo Ghoul",
+            "anime_href": "/manga/tokyo-ghoul/scans"
+          },
+          {
+            "anime_image": "/assets/scan/mob_scan.webp",
+            "anime_name": "Mob Psycho 100",
+            "anime_href": "/manga/mob-psycho/scans"
+          },
+          {
+            "anime_image": "/assets/scan/blackbutler_scan.webp",
+            "anime_name": "Black Butler",
+            "anime_href": "/manga/black-butler/scans"
           }
         ]
       }

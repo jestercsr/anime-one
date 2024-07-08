@@ -11,15 +11,15 @@ export default function Footer() {
         <img
           src="/assets/LogoFooter.webp"
           alt="logoFooter"
-          className="m-auto w-1/12"
+          className="w-[20%] m-auto lg:w-1/12"
         />
       </Link>
-      <div className="flex flex-row justify-between mb-5 mr-2 ml-2">
+      <div className="grid grid-cols-3  mb-5 mr-2 ml-2 text-sm md:text-md lg:text-lg">
         <button>Conditions générales d’abonnement</button>
         <button>Régles de Respect de la Vie Privée</button>
         <button>Droits Données dans l’UE et au R-U</button>
       </div>
-      <div className="flex flex-row justify-between mb-5 mr-2 ml-2">
+      <div className="grid grid-cols-5 md:mb-5 md:mr-2 md:ml-2">
         <button>Politique de cookies</button>
         <button>Appareils compatibles</button>
         <button>Aide</button>
@@ -33,13 +33,15 @@ export default function Footer() {
         <button>Français</button>
         <ChevronDown />
       </div>
-      <p className="flex flex-row justify-center mr-2 ml-2">
+      <div className="grid grid-rows-2 text-center">
+      <p className="mr-2 ml-2">
         Le contenu et les plateformes disponibles peuvent varier selon la zone
         géographique.
       </p>
-      <p className="flex flex-row justify-center mr-2 ml-2">
+      <p className=" mr-2 ml-2">
         © 2024 Anime+ byJester. Tous droits réservés.
       </p>
+      </div>
     </div>
   );
 }
