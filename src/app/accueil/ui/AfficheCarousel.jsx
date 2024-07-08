@@ -30,7 +30,7 @@ export default function AfficheCarousel() {
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 2,
+      items: 3,
       slidesToSlide: 1,
     },
   };
@@ -42,10 +42,10 @@ export default function AfficheCarousel() {
         <Carousel responsive={responsive} infinite>
           {recommanded.map((recommander) => {
             return (
-              <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={recommander.id}>
+              <div className="text-[9px] md:text-xs lg:text-sm mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={recommander.id}>
                 <Link href={`/${recommander.url}`}>
                   <img src={recommander.image} alt={recommander.name} className="rounded-2xl w-full"/>
-                  <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{recommander.name}</p>
+                  <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{recommander.name}</p>
                 </Link>
               </div>
             );
@@ -58,10 +58,10 @@ export default function AfficheCarousel() {
         <Carousel responsive={responsive} infinite>
           {trendings.map((trends) => {
             return (
-              <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={trends.id}>
+              <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={trends.id}>
                 <Link href={`/${trends.url}`}>
                   <img src={trends.image} alt={trends.name} className="rounded-2xl w-full"/>
-                  <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{trends.name}</p>
+                  <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{trends.name}</p>
                 </Link>
               </div>
             );
@@ -74,10 +74,10 @@ export default function AfficheCarousel() {
         <Carousel responsive={responsive} infinite>
           {currently.map((current) => {
             return (
-              <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={current.id}>
+              <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={current.id}>
                 <Link href={`/${current.url}`}>
                   <img src={current.image} alt={current.name} className="rounded-2xl w-full"/>
-                  <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{current.name}</p>
+                  <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{current.name}</p>
                 </Link>
               </div>
             );
@@ -90,10 +90,10 @@ export default function AfficheCarousel() {
         <Carousel responsive={responsive} infinite>
           {movieRec.map((movReco) => {
             return (
-              <div className="xs:text-[2px] md:text-md lg:text-lg mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={movReco.id}>
+              <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={movReco.id}>
                 <Link href={`/${movReco.url}`}>
                   <img src={movReco.image} alt={movReco.name} className="rounded-2xl w-full"/>
-                  <p className="absolute bottom-2 sm:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">{movReco.name}</p>
+                  <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{movReco.name}</p>
                 </Link>
               </div>
             );

@@ -5,7 +5,7 @@ import React from "react";
 export function EmailHomeComponent() {
   return (
     <div className="bg-white">
-      <img src="assets/homeBackground.webp" alt="imgHome" className="w-[100%] h-[60%] md:w-full md:h-4/5" />
+      <img src="/assets/homeBackground.webp" alt="imgHome" className="w-[100%] h-[60%] md:w-full md:h-[50%]" />
       <div className="pt-14 bg-gradient-to-b from-neutraler-50 to-cyaner-50 text-center">
         <h1 className="text-2xl font-bold md:text-4xl lg:text-6xl">
           Films et séries animés en illimité, et plus...

@@ -19,7 +19,7 @@ export default function Faq() {
         <h1 className="text-2xl sm:text-4xl font-bold text-center p-4">
           FOIRE AUX QUESTIONS
         </h1>
-        <div className="md:p-4">
+        <div className="md:p-4 text-center md:text-start">
           <Accordion title="Qu’est ce que Anime+ ? ">
             <p className="text-sm md:text-md lg:text-lg ml-2">
               Anime+ est un service de streaming, un wikia, une boutique en
