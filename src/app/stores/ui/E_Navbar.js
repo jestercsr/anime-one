@@ -46,7 +46,7 @@ export default function E_Navbar() {
               <img src="/assets/logoAnimeplus.webp" className=" block" />
             </div>
             <div className="block w-20 tablet:hidden">
-              <img src="/assets/logoAnimeplusHome.webp" className="block" />
+              <img src="/assets/boutiques/LogoNavbar.webp" className="block w-full" />
             </div>
           </Link>
         </div>

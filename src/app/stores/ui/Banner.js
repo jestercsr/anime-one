@@ -7,10 +7,10 @@ export default function Banner() {
       <div className="flex flex-col justify-center items-center relative">
         <img
           src="/assets/TopScreen/Boutiques/Promotion.webp"
-          alt="Banner" className="w-full h-[300px] md:h-[400px] lg:h-[600px]"
+          alt="Banner" className="w-full h-[200px] md:h-[400px] lg:h-[600px]"
         />
         <Link href="/stores/collections/promotions">
-          <button className="absolute bottom-2 bg-[#fd4607] hover:bg-[#BB3406] text-slate-50 p-2 rounded-full left-[50%] lg:p-3 lg:bottom-10">
+          <button className="absolute bottom-[2px] p-[4px] text-xs left-[45%] bg-[#fd4607] hover:bg-[#BB3406] text-slate-50 rounded-full md:bottom-2 md:p-2 md:left-[50%] md:text-base lg:p-3 lg:bottom-10">
             Shop Now
           </button>
         </Link>

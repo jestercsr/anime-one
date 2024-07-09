@@ -32,14 +32,14 @@ export default function Slider() {
         {top.map((item, i) => {
           return (
             <div key={i} className=" py-4">
-              <div className="bg-sky-500 py-6 mr-2 flex h-[550px]">
-                <img src={item.image} className="w-20 py-5" />
-                <div className="flex flex-col items-center justify-around ">
-                  <h2 className="text-center relative text-3xl font-semibold text-slate-50">
+              <div className="bg-sky-500 py-6 md:mr-2 flex md:h-[450px] lg:h-[550px]">
+                <img src={item.image} className="w-[100%] md:h-[400px] lg:w-20 lg:h-[500px] py-5" />
+                <div className=" flex flex-col items-center justify-around ">
+                  <h2 className="text-center relative text-sm md: lg:text-3xl font-semibold text-slate-50">
                     {item.titre}
                   </h2>
                   <Link href={item.href}>
-                    <button className="p-4 bg-red-500 text-slate-50 hover:bg-red-800">
+                    <button className="p-[4px] text-xs md:p-2 lg:p-4 bg-red-500 text-slate-50 hover:bg-red-800">
                       {item.select}
                     </button>
                   </Link>

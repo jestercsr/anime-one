@@ -6,7 +6,7 @@ export default function Footer() {
     <div>
       <div>
         <Link href="/stores">
-          <img src="/assets/LogoFooter.webp" className=" w-1/12" />
+          <img src="/assets/boutiques/LogoFooter.webp" className=" w-1/12" />
         </Link>
         <h4>Contact</h4>
       </div>
