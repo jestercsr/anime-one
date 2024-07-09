@@ -23,7 +23,7 @@ export default function Footer() {
         <button>Politique de cookies</button>
         <button>Appareils compatibles</button>
         <button>Aide</button>
-        <button>A propos de Anime+</button>
+        <button>A propos de Anime ONE</button>
         <Link href="/manga">
           <button>Tous nos Mangas</button>
         </Link>
@@ -34,13 +34,13 @@ export default function Footer() {
         <ChevronDown />
       </div>
       <div className="grid grid-rows-2 text-center text-xs md:text-md lg:text-lg">
-      <p className="mr-2 ml-2">
-        Le contenu et les plateformes disponibles peuvent varier selon la zone
-        géographique.
-      </p>
-      <p className=" mr-2 ml-2">
-        © 2024 Anime+ byJester. Tous droits réservés.
-      </p>
+        <p className="mr-2 ml-2">
+          Le contenu et les plateformes disponibles peuvent varier selon la zone
+          géographique.
+        </p>
+        <p className=" mr-2 ml-2">
+          © 2024 Anime ONE byJester. Tous droits réservés.
+        </p>
       </div>
     </div>
   );

@@ -5,12 +5,30 @@ import React from "react";
 export function EmailHomeComponent() {
   return (
     <div className="bg-white">
-      <img src="/assets/homeBackground.webp" alt="imgHome" className="w-[100%] h-[60%] md:w-full md:h-[50%]" />
+      <div className="relative">
+        <div className="absolute justify-items-center m-auto">
+          <img
+            src="/assets/logoAnimeplusHome.webp"
+            alt="logoAnimeOne"
+            className="w-full p-12"
+          />
+        </div>
+        <div className="w-full">
+          <img
+            src="/assets/homeBackground.webp"
+            alt="imgHome"
+            className="w-[100%] h-[300px] md:w-full md:h-[50%]"
+          />
+        </div>
+      </div>
+
       <div className="pt-14 bg-gradient-to-b from-neutraler-50 to-cyaner-50 text-center">
         <h1 className="text-2xl font-bold md:text-4xl lg:text-6xl">
           Films et séries animés en illimité, et plus...
         </h1>
-        <h2 className="text-lg md:text-2xl lg:text-4xl">Où que vous soyez. Sans engagement.*</h2>
+        <h2 className="text-lg md:text-2xl lg:text-4xl">
+          Où que vous soyez. Sans engagement.*
+        </h2>
         <p className="text-lg md:text-xl lg:text-2xl">
           Entrez votre adresse e-mail pour commencer où réactiver votre
           abonnement.

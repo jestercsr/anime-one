@@ -7,16 +7,22 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function Slider() {
   const top = [
     {
-      image: "/assets/TopScreen/Boutiques/onePiece.webp",
+      image: "/assets/boutiques/onePiece.webp",
       titre: "Découvrer tous les produits de One Piece",
       select: "ACHETER MAINTENANT",
       href: "/stores/collections/one-piece",
     },
     {
-      image: "/assets/TopScreen/Boutiques/naruto.webp",
+      image: "/assets/boutiques/naruto.webp",
       titre: "Découvrer tous les produits de Naruto",
       select: "ACHETER MAINTENANT",
       href: "/stores/collections/naruto",
+    },
+    {
+      image: "/assets/boutiques/dragonBall.webp",
+      titre: "Découvrer tous les produits de Dragon Ball",
+      select: "ACHETER MAINTENANT",
+      href: "/stores/collections/dragon-ball",
     },
   ];
   return (
@@ -33,7 +39,10 @@ export default function Slider() {
           return (
             <div key={i} className=" py-4">
               <div className="bg-sky-500 py-6 md:mr-2 flex md:h-[450px] lg:h-[550px]">
-                <img src={item.image} className="w-[100%] md:h-[400px] lg:w-20 lg:h-[500px] py-5" />
+                <img
+                  src={item.image}
+                  className="w-[20%] h-[100px] sm:h-[200px] md:w-[50%] md:h-[400px] lg:w-20 lg:h-[500px] lg:py-5"
+                />
                 <div className=" flex flex-col items-center justify-around ">
                   <h2 className="text-center relative text-sm md: lg:text-3xl font-semibold text-slate-50">
                     {item.titre}

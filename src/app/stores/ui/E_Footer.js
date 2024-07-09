@@ -4,11 +4,14 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <div>
-        <Link href="/stores">
+      <Link href="/stores">
           <img src="/assets/boutiques/LogoFooter.webp" className=" w-1/12" />
-        </Link>
-        <h4>Contact</h4>
+      </Link>
+      <div className="grid grid-cols-3"> 
+        <div>
+        <h4>Contact</h4>  
+        </div>
+        <div></div>
       </div>
     </div>
   );
