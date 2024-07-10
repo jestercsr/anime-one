@@ -9,7 +9,7 @@ export default function Footer() {
     <div className="bg-gradient-to-b from-emeralder-900 to-blacker-950 text-white">
       <Link href="/">
         <img
-          src="/assets/LogoFooter.webp"
+          src="/assets/LogoAnimeONE/logoAnimeOneAlt2.webp"
           alt="logoFooter"
           className="w-[30%] m-auto lg:w-1/12"
         />

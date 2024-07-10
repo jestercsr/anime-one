@@ -20,7 +20,12 @@ export async function getMangaAnimeID(_actions, anime) {
   try {
     await connectDB();
     const data = JSON.parse(
-      JSON.stringify(await MangaModel.findOne({ slug: _actions, animation: {$elemMatch: {animeId: anime}} }))
+      JSON.stringify(
+        await MangaModel.findOne({
+          slug: _actions,
+          animation: { $elemMatch: { animeId: anime } },
+        })
+      )
     );
     return data;
   } catch (error) {
@@ -62,7 +67,7 @@ export async function getListeFilms() {
     await connectDB();
     const data = JSON.parse(
       JSON.stringify(
-        await ListeModel.find({ anime: { $in:"Films" } }).sort({
+        await ListeModel.find({ anime: { $in: "Films" } }).sort({
           name: "asc",
         })
       )
@@ -89,18 +94,59 @@ export async function getListeScans() {
   }
 }
 
-export async function getAction(){
+export async function getAction() {
   try {
-    await connectDB()
+    await connectDB();
     const data = JSON.parse(
       JSON.stringify(
-        await ListeModel.find({ catagorie: { $in: "Action "}}).sort({
+        await ListeModel.find({ catagorie: { $in: "Action " } }).sort({
           name: "asc",
         })
       )
-    )
-    return data
+    );
+    return data;
   } catch (error) {
-    return { message: error.message }
+    return { message: error.message };
+  }
+}
+
+export async function postCreatManga(formData) {
+  try {
+    await connectDB();
+    console.log(formData);
+    const data = JSON.parse(
+      JSON.stringify(
+        await MangaModel.create({
+          animation,
+          animeId,
+          anime_imageCarousel,
+          anime_href,
+          anime_image,
+          anime_name,
+          anime_imageTop,
+          anime_titre,
+          backNav,
+          classNav,
+          imageSee,
+          href,
+          images,
+          back,
+          imageCarousel,
+          image,
+          name,
+          url,
+          imageShow,
+          img,
+          url,
+          imageTop,
+          navClass,
+          slug,
+          titre,
+        })
+      )
+    );
+    return data;
+  } catch (error) {
+    return { message: error.message };
   }
 }

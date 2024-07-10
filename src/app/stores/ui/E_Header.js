@@ -7,7 +7,7 @@ export default function E_Header() {
       <div className="container py-2">
         <div className="flex justify-between items-center text-sm">
           <Link href="/accueil" className="hover:text-orange-500">
-            Retour sur Anime +
+            Retour sur Anime ONE
           </Link>
         </div>
       </div>

@@ -42,11 +42,8 @@ export default function E_Navbar() {
       <nav className="flex justify-between px-8 items-center py-2 top-0 left-0">
         <div className="">
           <Link href={"/stores"}>
-            <div className="hidden tablet:block w-20">
-              <img src="/assets/logoAnimeplus.webp" className=" block" />
-            </div>
             <div className="block w-20 tablet:hidden">
-              <img src="/assets/boutiques/LogoNavbar.webp" className="block w-full" />
+              <img src="/assets/LogoAnimeONE/LogoNavbar.webp" className="block w-full" />
             </div>
           </Link>
         </div>

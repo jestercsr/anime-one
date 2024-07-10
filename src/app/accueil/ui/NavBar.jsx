@@ -20,6 +20,23 @@ export default function Navbar(props) {
     setIsMenu(!isMenu);
   }
 
+  const [bgColor] = useState('bg-teal-900')
+
+  const getLogo = () =>{
+    switch (bgColor){
+      case 'bg-neutraler-900' || 'bg-neutraler-800' || 'bg-neutraler-100':
+        return '/assets/LogoAnimeONE/logoAnimeOneDefault3.webp'
+      case 'bg-bluer-950' || 'bg-bluer-800' || 'bg-bluer-700' ||'bg-bluer-600':
+        return '/assets/LogoAnimeONE/logoAnimeOneDefault3.webp'
+      case 'bg-blacker-950' || 'bg-blacker-300' || 'bg-blacker-200' || 'bg-blacker-10' || 'bg-blacker-8' ||'bg-neutral-800':
+        return '/assets/LogoAnimeONE/logoAnimeOneDefault3.webp'
+      case 'bg-skyer-950' || 'bg-skyer-600' || 'bg-skyer-500':
+        return '/assets/LogoAnimeONE/logoAnimeOneDefault2.webp'
+      default:
+        return '/assets/LogoAnimeONE/logoAnimeOneDefault.webp'
+    }
+  }
+
   const navlinks = [
     {
       label: "Films",
@@ -50,21 +67,21 @@ export default function Navbar(props) {
 
   return (
     <div className={props.className}>
-      <nav className="flex justify-between px-8 items-center py-2">
+      <nav className="flex justify-between px-8 items-center py-[4px] md:py-2">
         <section className="flex items-center gap-4">
           <div>
             <Link href={"/accueil"}>
-              <div className="hidden tablet:block w-20">
+              <div className="hidden md:block w-20">
                 <img
-                  src="/assets/logoAnimeplus.webp"
+                  src={getLogo()}
                   alt="logo"
                   className=" block"
                 />
               </div>
-              <div className="block w-20 tablet:hidden">
+              <div className="block w-14 md:hidden">
                 <img
-                  src="/assets/logoAnimeplusHome.webp"
-                  alt="logo+"
+                  src="/assets/LogoAnimeONE/logoAnimeOne.webp"
+                  alt="logoOne"
                   className="block"
                 />
               </div>

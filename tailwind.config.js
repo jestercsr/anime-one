@@ -14,7 +14,7 @@ module.exports = {
       padding: "2rem",
       screens: {
         "telephone": "390px",
-        "phone": "660px",
+        "phone": "600px",
         "tablet": "768px",
         "laptop": "1024px",
         "desktop": "1280px",
@@ -22,6 +22,16 @@ module.exports = {
       },
     },
     extend: {
+      animation: {
+				fade: 'fadeIn .9s ease-in-out',
+			},
+
+			keyframes: {
+				fadeIn: {
+					from: { opacity: 0 },
+					to: { opacity: 1 },
+				},
+      },
       colors: {
         blacker: {
           8: "rgba(0,0,0,0.8)",

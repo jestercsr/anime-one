@@ -4,7 +4,7 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Séries | Anime +",
+  title: "Séries | Anime ONE",
   description: "Regarder toutes vos séries animés en streaming avec toujours plus de manga",
 };
 
