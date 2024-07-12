@@ -15,8 +15,12 @@ export default function PageAnimeID({ props, animation }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const mangaData = await getMangaAnimeID(props, animation);
-        setData(mangaData);
+        const res = await fetch(`/api/mangas/${props}/${animation}`);
+        if (!res.ok) {
+          throw new Error("Failed to fetch");
+        }
+        const mangaData = await res.json();
+        setData(mangaData.mangaName);
         setLoading(false);
       } catch (error) {
         console.error("Erreur d'import de la base:", error);
@@ -26,7 +30,7 @@ export default function PageAnimeID({ props, animation }) {
 
     fetchData();
   }, []);
-
+  
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },

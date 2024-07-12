@@ -7,10 +7,27 @@ if (mongoose.models.mangaName) {
   MangaModel = models.mangaName;
 } else {
   const mangaSchema = new Schema({
-    id: {
+    slug: {
       type: String,
-      required: true,
-    },
+      unique: true,
+    }, 
+    imageTop: String,
+    navClass: String,
+    back: String,    
+    imageShow: [
+      {
+        img: String,
+        url: String,
+      },
+    ],    
+    titre: String,
+    imageCarousel: [
+      {
+        image: String,
+        name: String,
+        url: String,
+      },
+    ],
     animation: [
       {
         animeId: String,
@@ -24,28 +41,7 @@ if (mongoose.models.mangaName) {
         imageSee: [{ href: String, images: String }],
       },
     ],
-    back: String,
-    imageCarousel: [
-      {
-        image: String,
-        name: String,
-        url: String,
-      },
-    ],
-    imageShow: [
-      {
-        img: String,
-        url: String,
-      },
-    ],
-    imageTop: String,
-    navClass: String,
-    slug: {
-      type: String,
-      unique: true,
-    },
-    titre: String,
-  });
+  },{ timestamps: true });
   MangaModel = mongoose.model("mangaName", mangaSchema);
 }
 

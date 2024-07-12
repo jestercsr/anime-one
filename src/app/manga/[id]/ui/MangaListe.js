@@ -13,8 +13,12 @@ function MangaListe({ props }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const mangaData = await getManga(props);
-        setData(mangaData);
+        const res = await fetch(`/api/mangas/${props}`);
+        if (!res.ok) {
+          throw new Error("Failed to fetch");
+        }
+        const mangaData = await res.json();
+        setData(mangaData.mangaName);
         setLoading(false);
       } catch (error) {
         console.error("Erreur d'import de la base:", error);
