@@ -6,13 +6,14 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Admin | Anime ONE",
-  description: "Regarder tous vos films animés en streaming avec toujours plus de manga",
+  description:
+    "Regarder tous vos animés en streaming avec toujours plus de manga",
 };
 
 export default function RootLayout({ children }) {
   return (
     <div className={inter.className}>
-        <Navbar className="bg-red-600 text-slate-50"/>
+      <Navbar className="bg-red-600 text-slate-50" />
       {children}
     </div>
   );

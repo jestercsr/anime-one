@@ -6,11 +6,11 @@ export function EmailHomeComponent() {
   return (
     <div className="bg-white">
       <div className="relative">
-        <div className="absolute transform -translate-y-6 translate-x-14 phone:translate-x-50 md:-translate-y-0 md:translate-x-52 lg:translate-y-14 lg:translate-x-80 xl:translate-y-32 xl:translate-x-[140%] transition animate-fade">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition animate-fade">
           <img
             src="/assets/LogoAnimeONE/logoAnimeOne.webp"
             alt="logoAnimeOne"
-            className="w-[70%] md:w-[80%] xl:w-[90%]"
+            className="w-[100%]"
           />
         </div>
         <div className="w-full">

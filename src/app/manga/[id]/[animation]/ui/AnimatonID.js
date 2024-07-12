@@ -6,7 +6,6 @@ import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
 import { ArrowLeftCircle } from "lucide-react";
-import { getMangaAnimeID } from "../../../../../../_actions/postAction";
 
 export default function PageAnimeID({ props, animation }) {
   const [data, setData] = useState(null);
@@ -30,7 +29,7 @@ export default function PageAnimeID({ props, animation }) {
 
     fetchData();
   }, []);
-  
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1024 },

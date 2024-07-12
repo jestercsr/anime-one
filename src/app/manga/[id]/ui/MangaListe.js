@@ -5,7 +5,6 @@ import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
-import { getManga } from "../../../../../_actions/postAction";
 
 function MangaListe({ props }) {
   const [data, setData] = useState(null);

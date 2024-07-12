@@ -95,7 +95,7 @@ export default function Navbar(props) {
               <input
                 type="text"
                 placeholder="Rechercher..."
-                className="search-bar"
+                className="search-bar text-neutral-900"
               />
               <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
             </div>
