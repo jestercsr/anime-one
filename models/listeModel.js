@@ -11,11 +11,12 @@ if (mongoose.models.listeAll) {
       type: String,
       required: true,
     },
-    anime: [String],
-    categorie: [String],
     image: String,
     name: { type: String, unique: true },
     url: String,
+    categorie: [String],
+    anime: [String],
+    typeCategorie: [String],
   });
   ListeModel = mongoose.model("listeAll", listeAllSchema);
 }

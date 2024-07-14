@@ -134,7 +134,7 @@
 - [ ] Bakuman
 - [ ] Trinity Seven
 - [ ] The Unwanted Undead Adventurer
-- [ ] Mission: Yozakura Family
+- [x] Mission: Yozakura Family
 - [ ] Sailor Moon
 - [ ] Beyblade
 - [ ] Beyblade Metal
