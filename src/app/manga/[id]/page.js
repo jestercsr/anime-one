@@ -4,10 +4,8 @@
 import React, { Suspense } from "react";
 import MangaListe from "./ui/MangaListe";
 
-
 export default function PageManga({ params }) {
 console.log(params.id);
-
 
   return (
     <>
