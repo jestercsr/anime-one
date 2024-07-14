@@ -7,29 +7,10 @@ import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
 import { ArrowLeftCircle } from "lucide-react";
 
-const formatTitle = (string) => {
-  if (!string) return "";
-  return string
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-};
-
-export async function generateMetadata({ params, animation }) {
-  const { id } = params;
-  const formattedTitle = formatTitle(id);
-  const formattedAnimation = formatTitle(animation);
-  return {
-    title: `${formattedTitle} ${formattedAnimation} | Anime ONE`,
-    description: `${formattedTitle} ${formattedAnimation} - Description`,
-  };
-}
 
 export default function PageAnimeID({ props, animation }) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-  const formattedTitle = formatTitle(props);
-  const formattedAnimation = formatTitle(animation);
 
   useEffect(() => {
     const fetchData = async () => {
