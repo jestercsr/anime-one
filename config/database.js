@@ -6,7 +6,11 @@ const connectDB = async ()=> {
     }
 
     try {
-        await mongoose.connect(process.env.MONGODB_URI)
+        await mongoose.connect(process.env.MONGODB_URI, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            serverSelectionTimeoutMS: 10000,
+        });
         console.log('MongoDB connecter');
         return true
     } catch (error) {
