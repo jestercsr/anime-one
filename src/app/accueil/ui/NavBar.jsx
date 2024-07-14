@@ -111,7 +111,7 @@ export default function Navbar(props) {
           >
             {navlinks.map((link) => {
               return (
-                <li key={link.label}>
+                <li key={link.label} className="hover:text-sky-500 transition ease-in duration-300">
                   <Link
                     href={link.lien}
                     className="inline-flex items-center mr-5"

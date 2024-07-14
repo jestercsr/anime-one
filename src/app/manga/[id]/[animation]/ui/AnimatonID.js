@@ -7,9 +7,29 @@ import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
 import { ArrowLeftCircle } from "lucide-react";
 
+const formatTitle = (string) => {
+  if (!string) return "";
+  return string
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+};
+
+export async function generateMetadata({ params, animation }) {
+  const { id } = params;
+  const formattedTitle = formatTitle(id);
+  const formattedAnimation = formatTitle(animation);
+  return {
+    title: `${formattedTitle} ${formattedAnimation} | Anime ONE`,
+    description: `${formattedTitle} ${formattedAnimation} - Description`,
+  };
+}
+
 export default function PageAnimeID({ props, animation }) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const formattedTitle = formatTitle(props);
+  const formattedAnimation = formatTitle(animation);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -80,29 +100,40 @@ export default function PageAnimeID({ props, animation }) {
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} alt={select.href} className="w-[70%] rounded-2xl" />
+                <img
+                  src={select.images}
+                  alt={select.href}
+                  className="w-[80%] md:w-[70%] rounded-2xl"
+                />
               </Link>
             </div>
           ))}
         </section>
         <div>
-          <Link href={`/manga/${props}`}><ArrowLeftCircle className={anime_titre} width={"100px"} height={"50px"}/></Link>
+          <Link href={`/manga/${props}`}>
+            <ArrowLeftCircle
+              className={anime_titre}
+              width={"100px"}
+              height={"50px"}
+            />
+          </Link>
         </div>
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
-          <Carousel responsive={responsive}>
+          <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
             {anime_imageCarousel?.map((select, indice) => (
               <div
-                className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
+                className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
                 key={indice}
               >
                 <Link href={select.anime_href}>
                   <img
-                    src={select.anime_image} alt={select.anime_name}
+                    src={select.anime_image}
+                    alt={select.anime_name}
                     className="w-full rounded-2xl hover:opacity-100"
                   />
-                  <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
+                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
                     {select.anime_name}
                   </p>
                 </Link>
@@ -114,7 +145,7 @@ export default function PageAnimeID({ props, animation }) {
         <Footer />
       </div>
     );
-  }else if(animation === "scans"){
+  } else if (animation === "scans") {
     const {
       backNav,
       classNav,
@@ -140,30 +171,41 @@ export default function PageAnimeID({ props, animation }) {
               key={i}
             >
               <Link href={select.href}>
-                <img src={select.images} alt={select.href} className="w-[70%] rounded-2xl" />
+                <img
+                  src={select.images}
+                  alt={select.href}
+                  className="w-[80%] md:w-[70%] rounded-2xl"
+                />
               </Link>
             </div>
           ))}
         </section>
 
         <div>
-          <Link href={`/manga/${props}`}><ArrowLeftCircle className={anime_titre} width={"100px"} height={"50px"}/></Link>
+          <Link href={`/manga/${props}`}>
+            <ArrowLeftCircle
+              className={anime_titre}
+              width={"100px"}
+              height={"50px"}
+            />
+          </Link>
         </div>
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
-          <Carousel responsive={responsive}>
+          <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
             {anime_imageCarousel?.map((select, indice) => (
               <div
-                className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
+                className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
                 key={indice}
               >
                 <Link href={select.anime_href}>
                   <img
-                    src={select.anime_image} alt={select.anime_name}
+                    src={select.anime_image}
+                    alt={select.anime_name}
                     className="w-full rounded-2xl hover:opacity-100"
                   />
-                  <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
+                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
                     {select.anime_name}
                   </p>
                 </Link>
@@ -176,7 +218,6 @@ export default function PageAnimeID({ props, animation }) {
       </div>
     );
   }
-
 
   const {
     backNav,
@@ -198,30 +239,41 @@ export default function PageAnimeID({ props, animation }) {
         {imageSee?.map((select, i) => (
           <div className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8" key={i}>
             <Link href={select.href}>
-              <img src={select.images} alt={select.href} className="w-[70%] rounded-2xl" />
+              <img
+                src={select.images}
+                alt={select.href}
+                className="w-[80%] md:w-[70%] rounded-2xl"
+              />
             </Link>
           </div>
         ))}
       </section>
 
       <div>
-          <Link href={`/manga/${props}`}><ArrowLeftCircle className={anime_titre} width={"100px"} height={"50px"}/></Link>
-        </div>
+        <Link href={`/manga/${props}`}>
+          <ArrowLeftCircle
+            className={anime_titre}
+            width={"100px"}
+            height={"50px"}
+          />
+        </Link>
+      </div>
 
       <div className="my-px">
         <h2 className={anime_titre}>A voir également</h2>
-        <Carousel responsive={responsive}>
+        <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
           {anime_imageCarousel?.map((select, indice) => (
             <div
-              className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
+              className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
               key={indice}
             >
               <Link href={select.anime_href}>
                 <img
-                  src={select.anime_image} alt={select.anime_name}
+                  src={select.anime_image}
+                  alt={select.anime_name}
                   className="w-full rounded-2xl hover:opacity-100"
                 />
-                <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
+                <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
                   {select.anime_name}
                 </p>
               </Link>

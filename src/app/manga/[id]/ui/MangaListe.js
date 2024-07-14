@@ -76,10 +76,10 @@ function MangaListe({ props }) {
 
         <div className="my-px">
           <h2 className={data?.titre}>A voir également</h2>
-          <Carousel responsive={responsive}>
+          <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
             {data?.imageCarousel?.map((select, indice) => (
               <div
-                className="mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
+                className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
                 key={indice}
               >
                 <Link href={select.url}>
@@ -87,7 +87,7 @@ function MangaListe({ props }) {
                     src={select.image} alt={select.name}
                     className="w-full rounded-2xl hover:opacity-100"
                   />
-                  <p className="absolute bottom-2 text-sm sm:bottom-5 lg:bottom-8 bg-black text-white bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-5 text-center hover:opacity-100 rounded-2xl">
+                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
                     {select.name}
                   </p>
                 </Link>

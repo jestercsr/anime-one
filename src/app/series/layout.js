@@ -8,7 +8,7 @@ export const metadata = {
   description: "Regarder toutes vos séries animés en streaming avec toujours plus de manga",
 };
 
-export default function RootLayout({ children }) {
+export default function SeriesLayout({ children }) {
   return (
     <div className={inter.className}>
       {children}

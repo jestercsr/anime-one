@@ -15,7 +15,7 @@ function ListeAllManga() {
         console.log(listeData);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching manga data:", error);
+        console.error("Erreur pour recuperer la liste des mangas:", error);
         setLoading(false);
       }
     };

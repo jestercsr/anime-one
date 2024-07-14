@@ -40,7 +40,7 @@ export default function UpdateAll({ slug }) {
   };
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)} className="p-8 bg-gray-100 w-[35%] m-auto text-lg rounded-xl text-sky-950">
+      <form onSubmit={handleSubmit(onSubmit)} className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[70%] md:w-[50%] lg:w-[35%] m-auto rounded-xl text-sky-950">
       <input
           {...register("slug")}
           placeholder="Identifiant (slug)"
@@ -60,7 +60,7 @@ export default function UpdateAll({ slug }) {
           {...register("back")}
           placeholder="Background CSS (bg)"
           className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-        />
+        /><br />
 
         {imageShowFields.map((imageShow, index) => (
           <div key={imageShow.id} className="mt-2">
@@ -89,9 +89,9 @@ export default function UpdateAll({ slug }) {
         <button
           type="button"
           onClick={() => appendImageShow({ img: "", url: "" })}
-          className="bg-green-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-green-700"
+          className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
         >
-          Ajouter Info Manga
+          Modifier Info Manga
         </button>
         <br />
 
@@ -135,9 +135,9 @@ export default function UpdateAll({ slug }) {
         <button
           type="button"
           onClick={() => appendImageCarousel({ image: "", name: "", url: "" })}
-          className="bg-green-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-green-700"
+          className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
         >
-          Ajouter Manga Recommander
+          Modifier Manga Recommander
         </button>
         <br />
 
@@ -201,9 +201,9 @@ export default function UpdateAll({ slug }) {
               <button
                 type="button"
                 onClick={() => appendImageSee(animationIndex)}
-                className="bg-green-500 text-slate-50 p-[5px] rounded-lg hover:bg-green-700"
+                className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
               >
-                Ajouter Info Animation-Manga
+                Modifier Info Animation-Manga
               </button>
             </div>
 
@@ -260,9 +260,9 @@ export default function UpdateAll({ slug }) {
               <button
                 type="button"
                 onClick={() => appendAnimeImageCarousel(animationIndex)}
-                className="bg-green-500 text-slate-50 p-[5px] mb-10 rounded-lg hover:bg-green-700"
+                className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
               >
-                Ajouter Animation-Manga Recommander
+                Modifier Animation-Manga Recommander
               </button>
             </div>
 
@@ -288,10 +288,10 @@ export default function UpdateAll({ slug }) {
               imageSee: [],
             })
           }
-          className="bg-green-700 text-slate-50 p-[5px] mb-8 rounded-lg hover:bg-green-700"
+          className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
         >
           {" "}
-          Ajouter Categorie Animation
+          Modifier Categorie Animation
         </button>
         <br />
 

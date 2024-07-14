@@ -116,7 +116,7 @@ export default function PostAll() {
     <div>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="p-8 bg-gray-100 w-[35%] m-auto text-lg rounded-xl text-sky-950"
+        className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[70%] md:w-[50%] lg:w-[35%] m-auto rounded-xl text-sky-950"
       >
         <input
           {...register("slug")}
@@ -137,7 +137,7 @@ export default function PostAll() {
           {...register("back")}
           placeholder="Background CSS (bg)"
           className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-        />
+        /><br />
 
         {imageShowFields.map((imageShow, index) => (
           <div key={imageShow.id} className="mt-2">

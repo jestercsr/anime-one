@@ -8,7 +8,7 @@ export const metadata = {
   description: "Liser tous vos scans avec toujours plus de manga",
 };
 
-export default function RootLayout({ children }) {
+export default function ScansLayout({ children }) {
   return (
     <div className={inter.className}>
       {children}

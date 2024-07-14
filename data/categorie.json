@@ -1,0 +1,326 @@
+[
+    {
+        "nom": "",
+        "label": "All"
+    },
+    {
+        "nom": "action",
+        "label": "Action"
+    },
+    {
+        "nom": "adventure",
+        "label": "Adventure"
+    },
+    {
+        "nom": "combats",
+        "label": "Combats"
+    },
+    {
+        "nom": "isekai",
+        "label": "Isekai"
+    },
+    {
+        "nom": "comedies",
+        "label": "Comédies"
+    },
+    {
+        "nom": "drame",
+        "label": "Drame"
+    },
+    {
+        "nom": "fantasy",
+        "label": "Fantasy"
+    },
+    {
+        "nom": "sports",
+        "label": "Sports"
+    },
+    {
+        "nom": "dark fantasy",
+        "label": "Dark Fantasy"
+    },
+    {
+        "nom": "romance",
+        "label": "Romance"
+    },
+    {
+        "nom": "ecole",
+        "label": "Ecole"
+    },
+    {
+        "nom": "horreur",
+        "label": "Horreur"
+    },
+    {
+        "nom": "ecchi",
+        "label": "Ecchi"
+    },
+    {
+        "nom": "mystere",
+        "label": "Mystère"
+    },
+    {
+        "nom": "harem",
+        "label": "Harem"
+    },
+    {
+        "nom": "reincarnation",
+        "label": "Réincarnation"
+    },
+    {
+        "nom": "civilisation",
+        "label": "Civilisation"
+    },
+    {
+        "nom": "monstres",
+        "label": "Monstres"
+    },
+    {
+        "nom": "science-fiction",
+        "label": "Science-Fiction"
+    },
+    {
+        "nom": "thriller",
+        "label": "Thriller"
+    },
+    {
+        "nom": "detective",
+        "label": "Detective"
+    },
+    {
+        "nom": "enigme",
+        "label": "Enigme"
+    },
+    {
+        "nom": "policier",
+        "label": "Policier"
+    },
+    {
+        "nom": "autre monde",
+        "label": "Autre Monde"
+    },
+    {
+        "nom": "dieux deesses",
+        "label": "Dieux / Déesses"
+    },
+    {
+        "nom": "arts-martiaux",
+        "label": "Art-Martiaux"
+    },
+    {
+        "nom": "cyborgs",
+        "label": "Cyborgs"
+    },
+    {
+        "nom": "ninja",
+        "label": "Ninja"
+    },
+    {
+        "nom": "vengeance",
+        "label": "Vengeance"
+    },
+    {
+        "nom": "super-heros",
+        "label": "Super-Héros"
+    },
+    {
+        "nom": "surnaturel",
+        "label": "Surnaturel"
+    },
+    {
+        "nom": "demons",
+        "label": "Démons"
+    },
+    {
+        "nom": "espion",
+        "label": "Espion"
+    },
+    {
+        "nom": "famille",
+        "label": "Famille"
+    },
+    {
+        "nom": "tragedie",
+        "label": "Tragédie"
+    },
+    {
+        "nom": "apocalyptique",
+        "label": "Apocalyptique"
+    },
+    {
+        "nom": "militaire",
+        "label": "Militaire"
+    },
+    {
+        "nom": "tournoi",
+        "label": "Tournoi"
+    },
+    {
+        "nom": "football",
+        "label": "Football"
+    },
+    {
+        "nom": "boxe",
+        "label": "Boxe"
+    },
+    {
+        "nom": "super-pouvoir",
+        "label": "Super-Pouvoir"
+    },
+    {
+        "nom": "vikings",
+        "label": "Vikings"
+    },
+    {
+        "nom": "historique",
+        "label": "Historique"
+    },
+    {
+        "nom": "psychologique",
+        "label": "Psychologique"
+    },
+    {
+        "nom": "crime",
+        "label": "Crime"
+    },
+    {
+        "nom": "shinigami",
+        "label": "Shinigami"
+    },
+    {
+        "nom": "fantome",
+        "label": "Fantôme"
+    },
+    {
+        "nom": "lycee",
+        "label": "Lycée"
+    },
+    {
+        "nom": "football americain",
+        "label": "Football Américain"
+    },
+    {
+        "nom": "alchimie",
+        "label": "Alchimie"
+    },
+    {
+        "nom": "magie",
+        "label": "Magie"
+    },
+    {
+        "nom": "psychique",
+        "label": "Psychique"
+    },
+    {
+        "nom": "examen",
+        "label": "Examen"
+    },
+    {
+        "nom": "jeux",
+        "label": "Jeux"
+    },
+    {
+        "nom": "trahison",
+        "label": "Trahison"
+    },
+    {
+        "nom": "post-apocalyptique",
+        "label": "Post-Apocalyptique"
+    },
+    {
+        "nom": "basket-ball",
+        "label": "Basket-Ball"
+    },
+    {
+        "nom": "cartes",
+        "label": "Cartes"
+    },
+    {
+        "nom": "gadget",
+        "label": "Gadget"
+    },
+    {
+        "nom": "mythodologie",
+        "label": "Mythodologie"
+    },
+    {
+        "nom": "armures",
+        "label": "Armures"
+    },
+    {
+        "nom": "duels",
+        "label": "Duels"
+    },
+    {
+        "nom": "guerre",
+        "label": "Guerre"
+    },
+    {
+        "nom": "mecha",
+        "label": "Mecha"
+    },
+    {
+        "nom": "assassinat",
+        "label": "Assassinat"
+    },
+    {
+        "nom": "volley-ball",
+        "label": "Volley-Ball"
+    },
+    {
+        "nom": "suspense",
+        "label": "Suspense"
+    },
+    {
+        "nom": "course automobile",
+        "label": "Course Automobile"
+    },
+    {
+        "nom": "aliens",
+        "label": "Aliens"
+    },
+    {
+        "nom": "zombies",
+        "label": "Zombies"
+    },
+    {
+        "nom": "pompiers",
+        "label": "Pompiers"
+    },
+    {
+        "nom": "mangaka",
+        "label": "Mangaka"
+    },
+    {
+        "nom": "mariage",
+        "label": "Mariage"
+    },
+    {
+        "nom": "magical girl",
+        "label": "Magical Girl"
+    },
+    {
+        "nom": "fugitif",
+        "label": "Fugitif"
+    },
+    {
+        "nom": "serial-killer",
+        "label": "Serial-killer"
+    },
+    {
+        "nom": "seinen",
+        "label": "Seinen"
+    },
+    {
+        "nom": "shonen",
+        "label": "Shônen"
+    },
+    {
+        "nom": "shojo",
+        "label": "Shôjo"
+    },
+    {
+        "nom": "kodomo",
+        "label": "Kodomo"
+    }
+]

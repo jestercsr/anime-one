@@ -8,7 +8,7 @@ export const metadata = {
   description: "Le site de streaming avec toujours plus de manga",
 };
 
-export default function RootLayout({ children }) {
+export default function HomeLayout({ children }) {
   return (
     <div className={inter.className}>
       {children}

@@ -894,7 +894,7 @@
     "image": "/assets/FMA.webp",
     "name": "Fullmetal Alchemist",
     "url": "/manga/fullmetal-alchemist",
-    "categorie": ["Shonen", "Adventure", "Fantasy"],
+    "categorie": ["Shonen", "Adventure", "Fantasy", "Alchimie"],
     "anime": ["Series", "Scans"]
   },
   {
@@ -1215,7 +1215,7 @@
       "Action",
       "Drame",
       "Sports",
-      "Course automobile"
+      "Course Automobile"
     ],
     "anime": ["Films", "Series", "Scans"]
   },
@@ -1340,7 +1340,7 @@
     "image": "/assets/ClassroomElite_poster.webp",
     "name": "Classroom of the Elite",
     "url": "/manga/classroom-of-the-elite",
-    "categorie": ["Shonen", "Drame", "Ecole", "Psychologique", "Romance"],
+    "categorie": ["Shonen", "Drame", "Ecole", "Psychologique", "Romance", "Examen"],
     "anime": ["Series", "Scans"]
   },
   {
@@ -1411,7 +1411,7 @@
       "Fantasy",
       "Action",
       "Comédie",
-      "Surnaturel",
+      "Super-Héros",
       "Démons",
       "Magie"
     ],

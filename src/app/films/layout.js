@@ -8,7 +8,7 @@ export const metadata = {
   description: "Regarder tous vos films animés en streaming avec toujours plus de manga",
 };
 
-export default function RootLayout({ children }) {
+export default function MoviesLayout({ children }) {
   return (
     <div className={inter.className}>
       {children}

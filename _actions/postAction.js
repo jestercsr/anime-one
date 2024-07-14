@@ -99,7 +99,7 @@ export async function getAction() {
     await connectDB();
     const data = JSON.parse(
       JSON.stringify(
-        await ListeModel.find({ catagorie: { $in: "Action " } }).sort({
+        await ListeModel.find({ categorie: { $in: "Action " } }).sort({
           name: "asc",
         })
       )
