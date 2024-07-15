@@ -5,17 +5,23 @@ import { ButtonConnect } from "./ui/ButtonConnect";
 import { CarrouselForm } from "./ui/CarrouselForm";
 import Navbar from "./ui/NavBar";
 import Footer from "../ui/Footer";
-import AfficheCarousel from "./ui/AfficheCarousel";
 import { Categories } from "./ui/Categories";
+import Reco from "./ui/Reco";
+import AnimeTrending from "./ui/AnimeTrending";
+import ScanTrending from "./ui/ScanTrending";
+import MovieReco from "./ui/MovieReco";
 
 export default function PageAccueil() {
   return (
     <div className="bg-gradient-to-b from-skyer-500 to-skyer-950">
-      <Navbar className="bg-teal-900 text-white" />
+      <Navbar className="bg-cyan-900 text-white" />
       <CarrouselForm />
       <ButtonConnect />
 
-      <AfficheCarousel />
+      <Reco />
+      <AnimeTrending />
+      <ScanTrending />
+      <MovieReco />
 
       <Categories />
 

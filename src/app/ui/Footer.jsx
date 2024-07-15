@@ -15,17 +15,17 @@ export default function Footer() {
         />
       </Link>
       <div className="grid grid-cols-3  mb-5 mr-2 ml-2 text-xs md:text-md lg:text-lg">
-        <button>Conditions générales d’abonnement</button>
-        <button>Régles de Respect de la Vie Privée</button>
-        <button>Droits Données dans l’UE et au R-U</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">Conditions générales d’abonnement</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">Régles de Respect de la Vie Privée</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">Droits Données dans l’UE et au R-U</button>
       </div>
       <div className="grid grid-cols-5 md:mb-5 md:mr-2 md:ml-2 text-xs md:text-md lg:text-lg">
-        <button>Politique de cookies</button>
-        <button>Appareils compatibles</button>
-        <button>Aide</button>
-        <button>A propos de Anime ONE</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">Politique de cookies</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">Appareils compatibles</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">Aide</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300">A propos de Anime ONE</button>
         <Link href="/manga">
-          <button>Tous nos Mangas</button>
+          <button className="hover:text-sky-500 transition ease-in duration-300">Tous nos Mangas</button>
         </Link>
       </div>
       <div className="flex flex-row justify-center mb-5 mr-2 ml-2 text-xs md:text-md lg:text-lg">

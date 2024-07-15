@@ -16,15 +16,62 @@ export async function getManga(_actions) {
   }
 }
 
-export async function getMangaAnimeID(_actions, anime) {
+export async function getRecommander() {
   try {
     await connectDB();
     const data = JSON.parse(
       JSON.stringify(
-        await MangaModel.findOne({
-          slug: _actions,
-          animation: { $elemMatch: { animeId: anime } },
-        })
+        await ListeModel.find({
+          typeCategorie: { $in: "Recommander" },
+        }).sort({ name: "desc" })
+      )
+    );
+    return data;
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
+export async function getAnimeTrending() {
+  try {
+    await connectDB();
+    const data = JSON.parse(
+      JSON.stringify(
+        await ListeModel.find({
+          typeCategorie: { $in: "AnimeTrending" },
+        }).sort({ name: "asc" })
+      )
+    );
+    return data;
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
+export async function getScanTrending() {
+  try {
+    await connectDB();
+    const data = JSON.parse(
+      JSON.stringify(
+        await ListeModel.find({
+          typeCategorie: { $in: "ScanTrending" },
+        }).sort({ name: "asc" })
+      )
+    );
+    return data;
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
+export async function getMovieReco() {
+  try {
+    await connectDB();
+    const data = JSON.parse(
+      JSON.stringify(
+        await ListeModel.find({
+          typeCategorie: { $in: "MovieRecommander" },
+        }).sort({ name: "asc" })
       )
     );
     return data;

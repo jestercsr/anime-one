@@ -1780,6 +1780,6 @@
 
 @layer components{
   .search-bar{
-    @apply w-0 group-hover:w-[300px] transition-all duration-300 rounded-full group-hover:border group-hover:border-gray-500 hover:px-3 py-1 ;
+    @apply w-0 group-hover:w-[300px] transition-colors duration-200 ease-in-out rounded-full group-hover:border group-hover:border-gray-500 hover:px-3 py-1 ;
   }
 }

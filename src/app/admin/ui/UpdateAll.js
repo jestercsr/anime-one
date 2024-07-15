@@ -288,7 +288,7 @@ export default function UpdateAll({ slug }) {
               imageSee: [],
             })
           }
-          className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
+          className="bg-orange-700 text-slate-50 p-[5px] m-3 rounded-lg "
         >
           {" "}
           Modifier Categorie Animation
