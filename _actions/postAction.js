@@ -86,7 +86,6 @@ export async function getListeAll() {
     const data = JSON.parse(
       JSON.stringify(await ListeModel.find().sort({ name: "asc" }))
     );
-    console.log(data);
     return data;
   } catch (error) {
     return { message: error.message };

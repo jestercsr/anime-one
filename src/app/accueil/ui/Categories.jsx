@@ -6,7 +6,7 @@ export function Categories() {
   return (
     <>
       <div className="mt-3 text-white">
-        <h2 className="text-xl ml-1">Catégories</h2>
+        <Link href="/categories"><h2 className="text-xl ml-1">Catégories</h2></Link>       
         <ul className="grid grid-cols-2 md:grid-rows-4 md:grid-cols-1">
           <div className="grid tablet:grid-rows-4 md:grid-cols-4 justify-around my-5 md:mr-2.5 md:justify-items-center">
             <li>

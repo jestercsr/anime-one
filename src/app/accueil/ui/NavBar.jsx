@@ -106,6 +106,17 @@ export default function Navbar(props) {
   };
 
   const [isHovered, setIsHovered] = useState(false);
+  
+  const [manga, setManga] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const searchMovie =  (e) => {
+     e.preventDefault();
+    const newFilter = manga.filter((value)=>{
+      return value.title.toLowerCase().includes(searchTerm.toLowerCase())
+    });
+    setManga(newFilter); 
+  }
 
   return (
     <div className={props.className + " navbar"}>
@@ -138,8 +149,8 @@ export default function Navbar(props) {
                 } bg-slate-50`}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
               />
               <button onClick={handleSearch}>
                 <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
