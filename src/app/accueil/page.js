@@ -5,7 +5,7 @@ import { ButtonConnect } from "./ui/ButtonConnect";
 import { CarrouselForm } from "./ui/CarrouselForm";
 import Navbar from "./ui/NavBar";
 import Footer from "../ui/Footer";
-import { Categories } from "./ui/Categories";
+import SelectionWidget from "./ui/SelectionWidget";
 import Reco from "./ui/Reco";
 import AnimeTrending from "./ui/AnimeTrending";
 import ScanTrending from "./ui/ScanTrending";
@@ -23,7 +23,7 @@ export default function PageAccueil() {
       <ScanTrending />
       <MovieReco />
 
-      <Categories />
+      <SelectionWidget />
 
       <Footer />
     </div>

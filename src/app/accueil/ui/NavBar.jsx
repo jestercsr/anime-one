@@ -11,7 +11,8 @@ import {
   CircleUserRound,
   Menu,
 } from "lucide-react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { getListeAll } from "../../../../_actions/postAction";
 
 export default function Navbar(props) {
   const [isMenu, setIsMenu] = useState(false);
@@ -65,57 +66,44 @@ export default function Navbar(props) {
     },
     {
       label: "Feeds",
-      lien: "/post_edit",
+      lien: "/feeds",
       icon: <Newspaper />,
     },
   ];
 
-  const [query, setQuery] = useState("");
-  const [results, setResults] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-
-  const handleSearch = async () => {
-    if (query.length === 0) {
-      setResults([]);
-      return;
-    }
-
-    setLoading(true);
-    setError(null);
-
-    try {
-      const res = await fetch(`/api/search?query=${encodeURIComponent(query)}`);
-      if (!res.ok) {
-        throw new Error("Failed to fetch");
-      }
-      const { mangas, error } = await res.json();
-
-      if (error) {
-        throw new Error(error);
-      }
-
-      setResults(mangas);
-      setLoading(false);
-      setError("")
-    } catch (error) {
-      console.error("Erreur de récupération des données:", error);
-      setError("Failed to fetch data");
-      setLoading(false);
-    }
-  };
-
-  const [isHovered, setIsHovered] = useState(false);
-  
-  const [manga, setManga] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [filteredData, setFilteredData] = useState([]);
 
-  const searchMovie =  (e) => {
-     e.preventDefault();
-    const newFilter = manga.filter((value)=>{
-      return value.title.toLowerCase().includes(searchTerm.toLowerCase())
-    });
-    setManga(newFilter); 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const listeData = await getListeAll();
+        setData(listeData);
+      } catch (error) {
+        console.error("Erreur pour récupérer la liste des mangas:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    if (searchTerm === "") {
+      setFilteredData([]);
+    } else {
+      const filtered = data.filter((manga) =>
+        manga.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredData(filtered);
+    }
+  }, [searchTerm, data]);
+
+  if (loading) {
+    return <div>Loading...</div>;
   }
 
   return (
@@ -144,24 +132,23 @@ export default function Navbar(props) {
               <input
                 type="text"
                 placeholder="Rechercher..."
-                className={`search-bar ${
-                  isHovered ? "text-black" : "text-slate-50"
-                } bg-slate-50`}
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
+                className={`search-bar text-neutral-800`}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
-              <button onClick={handleSearch}>
+              <button>
                 <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
               </button>
-              {loading && <p>Loading...</p>}
-              {error && <p className="text-red-500">{error}</p>}
-              <ul>
-                {results.map((manga) => (
-                  <li key={manga._id}>{manga.name}</li>
-                ))}
-              </ul>
+              {searchTerm && filteredData.length > 0 && (
+                <ul className="absolute left-0 w-full bg-white border text-neutral-800 border-gray-300 mt-1 z-10 list-none">
+                  {filteredData.map((manga, i) => (
+                    <li key={i} className="p-2 hover:bg-gray-200 border-b-2 border-cyan-100">
+                      <Link href={`/manga/${manga.url}`}>{manga.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
           <ul

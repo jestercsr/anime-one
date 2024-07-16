@@ -32,7 +32,7 @@ export function ButtonConnect() {
     {
       id: 5,
       titre: "Feeds",
-      url: "/post_edit",
+      url: "/feeds",
       picture: "/assets/shippuden.webp",
     },
   ];

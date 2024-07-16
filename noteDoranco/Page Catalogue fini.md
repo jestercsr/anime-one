@@ -57,6 +57,10 @@
 - [x] World finest assassin
 - [x] Seven deadly sins
 - [x] Soul eater
+- [x] Dragon Ball Z
+- [x] Mission: Yozakura Family
+- [x] Fairy Tail 100 Years Quest
+
 
 
 
@@ -134,11 +138,11 @@
 - [ ] Bakuman
 - [ ] Trinity Seven
 - [ ] The Unwanted Undead Adventurer
-- [x] Mission: Yozakura Family
+
 - [ ] Sailor Moon
 - [ ] Beyblade
 - [ ] Beyblade Metal
 - [ ] Beyblade Burst
 - [ ] Berserk of Gloutony
 - [ ] Monster
-- [ ] 
+- [ ] Seraph of the End

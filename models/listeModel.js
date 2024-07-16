@@ -7,17 +7,13 @@ if (mongoose.models.listeAll) {
   ListeModel = models.listeAll;
 } else {
   const listeAllSchema = new Schema({
-    id: {
-      type: String,
-      required: true,
-    },
     image: String,
     name: { type: String, unique: true },
     url: String,
     categorie: [String],
     anime: [String],
     typeCategorie: [String],
-  });
+  },{ timestamps: true });
   ListeModel = mongoose.model("listeAll", listeAllSchema);
 }
 

@@ -6,7 +6,7 @@ import Footer from "../ui/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Admin | Anime ONE",
+  title: "Catégorie | Anime ONE",
   description:
     "Regarder tous vos animés en streaming avec toujours plus de manga",
 };
@@ -14,7 +14,7 @@ export const metadata = {
 export default function AdminLayout({ children }) {
   return (
     <div className={inter.className}>
-      <Navbar className="bg-red-600 text-slate-50" />
+      <Navbar className="bg-cyan-900 text-slate-50" />
       {children}
       <footer><Footer /></footer>
     </div>

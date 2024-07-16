@@ -57,7 +57,7 @@ export default function ScanTrending() {
     <>
       <div className="mt-5 text-white pb-5 text-xl">
         <h2 className="ml-1 ">En ce Moment Scans</h2>
-        <Carousel
+        <Carousel swipeable={true}
           responsive={responsive}
           infinite
           removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -65,7 +65,7 @@ export default function ScanTrending() {
           {dataScan.map((scan, i) => {
             return (
               <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={i}>
-                <Link href={`/${scan.url}`}>
+                <Link href={`/manga/${scan.url}`}>
                   <img src={scan.image} alt={scan.name} className="rounded-2xl w-full"/>
                   <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{scan.name}</p>
                 </Link>

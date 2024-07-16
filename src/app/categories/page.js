@@ -1,8 +1,8 @@
-'use client'
-import React, { useEffect, useMemo, useState } from 'react'
-import categorie from '../../../data/categorie.json'
-import { getListeAll } from '../../../_actions/postAction';
-import Link from 'next/link';
+"use client";
+import React, { useEffect, useState } from "react";
+import categorie from "../../../data/categorie.json";
+import { getListeAll } from "../../../_actions/postAction";
+import Link from "next/link";
 
 export default function PageCategories() {
   const [genre, setGenre] = useState("");
@@ -30,58 +30,45 @@ export default function PageCategories() {
     return <div>Loading...</div>;
   }
 
-  const liste = useMemo(() => {
-    if (!data) return [];
-
-    let filteredData = data;
-
-    if (genre) {
-      filteredData = filteredData.filter((manga) => {
-        const listeCategorie = manga.categorie.map((val) => val.toLowerCase());
-        return listeCategorie.includes(genre.toLowerCase());
-      });
-    }
-
-    if (searchTerm) {
-      filteredData = filteredData.filter((manga) => {
-        return manga.name.toLowerCase().includes(searchTerm.toLowerCase());
-      });
-    }
-
-    return filteredData;
-  }, [genre, searchTerm, data]);
+  const filteredData = data.filter((manga) => {
+    const matchesGenre =
+      genre === "" ||
+      manga.categorie.some((val) => val.toLowerCase() === genre.toLowerCase());
+    const matchesSearchTerm =
+      searchTerm === "" ||
+      manga.name.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesGenre && matchesSearchTerm;
+  });
 
   return (
-    <div>
+    <div className="bg-gradient-to-b from-skyer-500 to-skyer-950">
       <input
         type="text"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Rechercher par nom"
-        className="mx-5 my-0 p-2 w-full "
+        className="mx-5 my-0 p-2 w-[30%]"
       />
-      <select
-      value={genre}
-      onChange={(e) => setGenre(e.target.value)}
-    >
-      {categorie.map((option, i) => {
-        return (
-          <option value={option.nom} key={i}>
-            {option.label}
-          </option>
-        );
-      })}
-    </select>
+      <select value={genre} onChange={(e) => setGenre(e.target.value)}>
+        {categorie.map((option, i) => {
+          return (
+            <option value={option.nom} key={i}>
+              {option.label}
+            </option>
+          );
+        })}
+      </select>
       <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-4 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-5">
-        {liste.map((select, i) => {
+        {filteredData .map((select, i) => {
           return (
             <div
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
-              <Link href={select.url}>
+              <Link href={`/manga/${select.url}`}>
                 <img
-                  src={select.image} alt={select.name}
+                  src={select.image}
+                  alt={select.name}
                   className="w-full rounded-2xl hover:opacity-100"
                 />
               </Link>

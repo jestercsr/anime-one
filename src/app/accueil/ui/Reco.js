@@ -57,7 +57,7 @@ export default function Reco() {
     <>
       <div className="mt-5 text-white pb-5 text-xl">
         <h2 className="ml-1 ">Recommander pour Vous</h2>
-        <Carousel
+        <Carousel swipeable={true}
           responsive={responsive}
           infinite
           removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -68,7 +68,7 @@ export default function Reco() {
                 className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
                 key={index}
               >
-                <Link href={`/${recommander.url}`}>
+                <Link href={`/manga/${recommander.url}`}>
                   <img
                     src={recommander.image}
                     alt={recommander.name}

@@ -121,7 +121,7 @@ export default function PageAnimeID({ props, animation }) {
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
-          <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
+          <Carousel responsive={responsive} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
             {anime_imageCarousel?.map((select, indice) => (
               <div
                 className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
@@ -193,7 +193,7 @@ export default function PageAnimeID({ props, animation }) {
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
-          <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
+          <Carousel responsive={responsive} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
             {anime_imageCarousel?.map((select, indice) => (
               <div
                 className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
@@ -261,7 +261,7 @@ export default function PageAnimeID({ props, animation }) {
 
       <div className="my-px">
         <h2 className={anime_titre}>A voir également</h2>
-        <Carousel responsive={responsive} removeArrowOnDeviceType={["tablet", "mobile"]}>
+        <Carousel responsive={responsive} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
           {anime_imageCarousel?.map((select, indice) => (
             <div
               className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"

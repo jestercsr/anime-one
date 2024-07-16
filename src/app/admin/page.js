@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import PostAll from "./ui/PostAll";
 import DeleteAll from "./ui/DeleteAll";
 import UpdateAll from "./ui/UpdateAll";
+import AddListeAll from "./ui/AddListeAll";
 
 export default function PageAdmin() {
   const [showDeleteForm, setShowDeleteForm] = useState(false);
@@ -20,6 +21,9 @@ export default function PageAdmin() {
         Ajouter un manga
       </h3>
       <PostAll />
+
+      <h3 className="text-2xl text-slate-100 underline mb-2">Ajouter un manga à la Liste</h3>
+      <AddListeAll />
 
       <h3 className="text-2xl text-slate-100 underline mb-2 hover:text-red-400" onClick={handleShowDelete}>Supprimer un manga</h3>
       {showDeleteForm && <DeleteAll/>}

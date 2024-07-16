@@ -374,7 +374,7 @@ export default function PostAll() {
 
         <button
           type="submit"
-          className="bg-emeralder-300 p-[5px] w-[90%] hover:bg-emeralder-900 hover:text-slate-50"
+          className="bg-emeralder-300 p-[5px] w-[90%] hover:bg-lime-500 hover:text-slate-50"
         >
           Ajouter un Manga
         </button>

@@ -297,7 +297,7 @@ export default function UpdateAll({ slug }) {
 
         <button
           type="submit"
-          className="bg-emeralder-300 p-[5px] w-[90%] hover:bg-emeralder-900 hover:text-slate-50"
+          className="bg-emeralder-300 p-[5px] w-[90%] hover:bg-orange-900 hover:text-slate-50"
         >
           Mettre à jour un Manga
         </button>
