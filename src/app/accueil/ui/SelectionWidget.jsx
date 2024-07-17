@@ -22,10 +22,10 @@ export default function SelectionWidget() {
   ];
   return (
     <>
-      <div className="mt-3 grid grid-cols-1 md:grid-cols-3 md:gap-y-4 justify-items-center p-4 text-slate-50">
+      <div className="mt-3 ml-0 md:ml-3 grid grid-cols-1 md:grid-cols-3 md:gap-y-4 justify-items-center p-4 text-slate-50">
         {selection.map((select, i) => {
           return (
-            <div key={i} className="mt-5 md:mr-5">
+            <div key={i} className="mt-5 mr-0 md:mr-5">
               <Link href={select.lien}>
                 <img src={select.images} alt={select.nom} />
                 <p className="text-slate-50 p-5 text-center text-xs md:text-md lg:text-lg bg-neutral-950 hover:text-sky-500">

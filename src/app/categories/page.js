@@ -10,6 +10,10 @@ export default function PageCategories() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  const sortedCategories = categorie.sort((a, b) =>
+    a.label.localeCompare(b.label)
+  );
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -47,10 +51,14 @@ export default function PageCategories() {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Rechercher par nom"
-        className="mx-5 my-0 p-2 w-[30%]"
+        className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-cyan-950 focus:border-2 outline-none px-[5px] text-neutral-800 mx-5 my-2 p-2 w-[30%]"
       />
-      <select value={genre} onChange={(e) => setGenre(e.target.value)}>
-        {categorie.map((option, i) => {
+      <select
+        value={genre}
+        onChange={(e) => setGenre(e.target.value)}
+        className="bg-cyan-900 text-slate-50 p-2 rounded-lg text-sm lg:text-lg"
+      >
+        {sortedCategories.map((option, i) => {
           return (
             <option value={option.nom} key={i}>
               {option.label}
@@ -59,7 +67,7 @@ export default function PageCategories() {
         })}
       </select>
       <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-4 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-5">
-        {filteredData .map((select, i) => {
+        {filteredData.map((select, i) => {
           return (
             <div
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"

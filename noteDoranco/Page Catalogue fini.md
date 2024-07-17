@@ -60,6 +60,9 @@
 - [x] Dragon Ball Z
 - [x] Mission: Yozakura Family
 - [x] Fairy Tail 100 Years Quest
+- [x] Code geass
+- [x] Blue exorcist
+- [x] 5 Seconds to death
 
 
 
@@ -79,7 +82,7 @@
 
 
 - [ ] Mob psycho
-- [ ] Code geass
+
 - [ ] Steins;gate
 
 
@@ -101,9 +104,9 @@
 - [ ] Demon slave
 - [ ] Doubt
 - [ ] Gambling school kakeguri
-- [ ] 5 Seconds to death
+
 - [ ] Charlotte
-- [ ] Blue exorcist
+
 - [ ] Hokuto no ken
 - [ ] Inuyasha
 - [ ] Parasyte
@@ -146,3 +149,17 @@
 - [ ] Berserk of Gloutony
 - [ ] Monster
 - [ ] Seraph of the End
+- [ ] Psycho Pass
+- [ ] Re Creator
+- [ ] Code Geass: Rozé of the Recapture
+- [ ] Gintama
+- [ ] Neon Genesis Evangelion
+- [ ] Ghost in the Shell
+- [ ] Judge
+- [ ] 86 Eighty Six
+- [ ] The New Gate
+- [ ] Seirei Gensouki: Spirit Chronicles
+- [ ] Our Last Crusade or the Rise of a New World
+- [ ] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs
+- [ ] The Dungeon of Black Company
+- [ ] I'm Standing on a Million Lives

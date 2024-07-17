@@ -126,13 +126,13 @@ export default function Navbar(props) {
           </div>
         </section>
         <Menu className="text-3xl items-end cursor-pointer md:hidden" />
-        <section className="md:static md:min-h-fit absolute min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex">
+        <section className="md:static md:min-h-fit items-center absolute min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex">
           <div className="hidden md:block flex-shrink flex-grow-0 justify-start px-2">
             <div className="relative group hidden md:block">
               <input
                 type="text"
                 placeholder="Rechercher..."
-                className={`search-bar text-neutral-800`}
+                className="max-h-60 overflow-y-auto z-10 text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-cyan-950 focus:border-2 outline-none px-[5px] text-neutral-800"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
@@ -140,9 +140,9 @@ export default function Navbar(props) {
                 <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
               </button>
               {searchTerm && filteredData.length > 0 && (
-                <ul className="absolute left-0 w-full bg-white border text-neutral-800 border-gray-300 mt-1 z-10 list-none">
+                <ul className="absolute left-0 w-full bg-cyan-900 divide-y-2 divide-slate-50 text-slate-50 border-gray-300 mt-1 z-10 list-none">
                   {filteredData.map((manga, i) => (
-                    <li key={i} className="p-2 hover:bg-gray-200 border-b-2 border-cyan-100">
+                    <li key={i} className="cursor-pointer p-2 hover:bg-gray-200 hover:text-cyan-900  border-t-0">
                       <Link href={`/manga/${manga.url}`}>{manga.name}
                       </Link>
                     </li>

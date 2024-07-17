@@ -107,7 +107,7 @@
       "Comédie",
       "Drame",
       "Thriller",
-      "Roman Policier",
+      "Policier",
       "Enigme",
       "Detective"
     ],
@@ -816,7 +816,7 @@
       "$oid": "66965e02f728b7bf2e7a781b"
     },
     "image": "/assets/Arifureta_poster.webp",
-    "name": "Arifureta",
+    "name": "Arifureta: From Commonplace to World's Strongest",
     "url": "arifureta",
     "categorie": [
       "Shonen",
@@ -1034,7 +1034,13 @@
     "image": "/assets/A_Classroom_poster.webp",
     "name": "Assassination Classroom",
     "url": "assassination-classroom",
-    "categorie": ["Shonen", "Action", "Comédie", "Science-Fiction"],
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Science-Fiction",
+      "Assassinat"
+    ],
     "anime": ["Films", "Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -1065,8 +1071,8 @@
       "$oid": "66965e02f728b7bf2e7a782b"
     },
     "image": "/assets/5seconds_poster.webp",
-    "name": "5 Seconds to Death",
-    "url": "5-seconds-to-death",
+    "name": "Battle Game in 5 Seconds",
+    "url": "battle-game-in-5-seconds",
     "categorie": [
       "Shonen",
       "Action",
@@ -1135,7 +1141,8 @@
       "Surnaturel",
       "Jeux",
       "Monstres",
-      "Duels"
+      "Duels",
+      "Cartes"
     ],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
@@ -1236,7 +1243,7 @@
       "$oid": "66965e02f728b7bf2e7a7836"
     },
     "image": "/assets/ReZero_first.webp",
-    "name": "Re-Zero",
+    "name": "Re: Zero",
     "url": "re-zero",
     "categorie": [
       "Seinen",
@@ -1264,12 +1271,12 @@
     "_id": {
       "$oid": "66965e02f728b7bf2e7a7838"
     },
-    "image": "/assets/CodeGeass_poster.webp",
-    "name": "Code Geass",
-    "url": "code-geass",
-    "categorie": ["Shonen", "Science-Fiction", "Fantasy", "Mecha", "Drame"],
+    "image": "/assets/CodeGeass_first.webp",
+    "name": "Code Geass: Lelouch of the Rebellion",
+    "url": "code-geass-lelouch-of-the-rebellion",
+    "categorie": ["Shojo", "Science-Fiction", "Fantasy", "Mecha", "Drame"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": []
   },
   {
     "_id": {
@@ -2597,6 +2604,369 @@
     },
     "updatedAt": {
       "$date": "2024-07-16T13:19:59.791Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669679a8889f59a2a56b0676"
+    },
+    "image": "/assets/Rave_poster.webp",
+    "name": "Rave Master",
+    "url": "rave-master",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Magie"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-16T13:46:16.427Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-16T13:46:16.427Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66967eea889f59a2a56b0686"
+    },
+    "image": "/assets/Seraph_poster.webp",
+    "name": "Seraph of the End",
+    "url": "seraph-of-the-end",
+    "categorie": ["Shonen", "Action", "Drame", "Dark Fantasy"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-16T14:08:42.519Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-16T14:08:42.519Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669786e661ef730bcc4b4bd0"
+    },
+    "image": "/assets/CodeGeassRoze_poster.webp",
+    "name": "Code Geass: Rozé of the Recapture",
+    "url": "code-geass-roze-of-the-recapture",
+    "categorie": ["Drame", "Guerre", "Mecha", "Militaire"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-17T08:55:02.176Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T08:55:02.176Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a01c61ef730bcc4b5183"
+    },
+    "image": "/assets/NeonEvangelion_poster.webp",
+    "name": "Neon Genesis Evangelion",
+    "url": "neon-genesis-evangelion",
+    "categorie": [
+      "Shonen",
+      "Mecha",
+      "Science-Fiction",
+      "Post-Apocalyptique",
+      "Psychologique"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T10:42:36.894Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:42:36.894Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a08e61ef730bcc4b5185"
+    },
+    "image": "/assets/Gintama_poster.webp",
+    "name": "Gintama",
+    "url": "gintama",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Science-Fiction",
+      "Historique"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T10:44:30.070Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:44:30.070Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a11361ef730bcc4b5187"
+    },
+    "image": "/assets/ReCreator_poster.webp",
+    "name": "Re: Creator",
+    "url": "re-creator",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Drame",
+      "Fantasy",
+      "Science-Fiction",
+      "Thriller",
+      "Combats"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T10:46:43.433Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:46:43.433Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a1a261ef730bcc4b5189"
+    },
+    "image": "/assets/PsychoPass_poster.webp",
+    "name": "Psycho Pass",
+    "url": "psycho-pass",
+    "categorie": ["Shonen", "Science-Fiction", "Thriller"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T10:49:06.472Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:49:06.472Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a20d61ef730bcc4b518f"
+    },
+    "image": "/assets/GhostShell_poster.webp",
+    "name": "Ghost in the Shell",
+    "url": "ghost-in-the-shell",
+    "categorie": ["Seinen", "Policier", "Action"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["MovieRecommander"],
+    "createdAt": {
+      "$date": "2024-07-17T10:50:53.803Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:50:53.803Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cabd61ef730bcc4b5746"
+    },
+    "image": "/assets/MillionLives_poster.webp",
+    "name": "I'm Standing on a Million Lives",
+    "url": "i-m-standing-on-a-million-lives",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Drame",
+      "Autre Monde"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:44:29.162Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:44:29.162Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cb1561ef730bcc4b5748"
+    },
+    "image": "/assets/DungeonBlack_poster.webp",
+    "name": "The Dungeon of Black Company",
+    "url": "the-dungeon-of-black-company",
+    "categorie": ["Shonen", "Isekai", "Adventure", "Comédie", "Fantasy"],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:45:57.591Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:45:57.591Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cb6b61ef730bcc4b574a"
+    },
+    "image": "/assets/TrappedDating_poster.webp",
+    "name": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs",
+    "url": "trapped-in-a-dating-sim",
+    "categorie": ["Shonen", "Isekai", "Science-Fiction", "Comédie"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:47:23.951Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:47:23.951Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cbee61ef730bcc4b574c"
+    },
+    "image": "/assets/LastCrusade_poster.webp",
+    "name": "Our Last Crusade or the Rise of a New World",
+    "url": "our-last-crusade-or-the-rise-of-a-new-world",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Drame",
+      "Fantasy",
+      "Romance",
+      "Surnaturel",
+      "Guerre",
+      "Combats"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-17T13:49:34.889Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:49:34.889Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cc8161ef730bcc4b574e"
+    },
+    "image": "/assets/SpiritChronicles_poster.webp",
+    "name": "Seirei Gensouki: Spirit Chronicles",
+    "url": "spirit-chronicles",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Drame",
+      "Fantasy",
+      "Romance",
+      "Autre Monde",
+      "Harem",
+      "Reincarnation",
+      "Combats"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:52:01.918Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:52:01.918Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697ce4a61ef730bcc4b5750"
+    },
+    "image": "/assets/NewGate_poster.webp",
+    "name": "The New Gate",
+    "url": "the-new-gate",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Isekai",
+      "Autre Monde",
+      "Drame",
+      "Romance",
+      "Combats"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:59:38.460Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:59:38.460Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697ceec61ef730bcc4b5752"
+    },
+    "image": "/assets/86_poster.webp",
+    "name": "86 Eighty Six",
+    "url": "eighty-six",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Drame",
+      "Science-Fiction",
+      "Combats",
+      "Guerre",
+      "Militaire"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T14:02:20.214Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T14:02:20.214Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cfb461ef730bcc4b576a"
+    },
+    "image": "/assets/Judge_poster.webp",
+    "name": "Judge",
+    "url": "judge",
+    "categorie": ["Shonen", "Drame", "Horreur", "Thriller", "Psychologique"],
+    "anime": ["Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T14:05:40.722Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T14:05:40.722Z"
     },
     "__v": 0
   }
