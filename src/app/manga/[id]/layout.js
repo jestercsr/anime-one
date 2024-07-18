@@ -1,8 +1,13 @@
 import React from "react";
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import "../../globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+ 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export async function generateMetadata({ params }) {
   const capitalizeFirstLetter = (string) => {
@@ -18,7 +23,7 @@ export async function generateMetadata({ params }) {
 }
 export default function MangaLayout({ children }) {
   return (
-    <div className={inter.className}>
+    <div className={roboto.className}>
         {children}
     </div>
   );

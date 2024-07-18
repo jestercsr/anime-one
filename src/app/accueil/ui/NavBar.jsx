@@ -9,17 +9,17 @@ import {
   Search,
   ShoppingCart,
   CircleUserRound,
-  Menu,
 } from "lucide-react";
 import React, { useState, useEffect } from "react";
+import { Twirl as Hamburger } from 'hamburger-react'
 import { getListeAll } from "../../../../_actions/postAction";
 
 export default function Navbar(props) {
-  const [isMenu, setIsMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  function toogleNavbar() {
-    setIsMenu(!isMenu);
-  }
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
 
   const [bgColor] = useState("bg-teal-900");
 
@@ -108,7 +108,7 @@ export default function Navbar(props) {
 
   return (
     <div className={props.className + " navbar"}>
-      <nav className="flex justify-between px-8 items-center py-[4px] md:py-2">
+      <nav className="flex justify-between lg:px-8 items-center lg:py-[4px] py-0">
         <section className="flex items-center gap-4">
           <div>
             <Link href={"/accueil"}>
@@ -125,10 +125,11 @@ export default function Navbar(props) {
             </Link>
           </div>
         </section>
-        <Menu className="text-3xl items-end cursor-pointer md:hidden" />
-        <section className="md:static md:min-h-fit items-center absolute min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex">
-          <div className="hidden md:block flex-shrink flex-grow-0 justify-start px-2">
-            <div className="relative group hidden md:block">
+
+        
+        <section className={`lg:flex ${isOpen ? "w-[80%] h-0 flex-col border border-red-500" : "hidden"} md:relative lg:min-h-fit items-center absolute min-h-[60vh] lg:w-auto w-full flex`}>
+          <div className={`${isOpen? "mt-0": "block"} lg:flex-shrink lg:flex-grow-0 lg:justify-start lg:px-2`}>
+            <div className="relative block">
               <input
                 type="text"
                 placeholder="Rechercher..."
@@ -147,19 +148,11 @@ export default function Navbar(props) {
                       </Link>
                     </li>
                   ))}
-                </ul>
+                </ul> 
               )}
             </div>
           </div>
-          <ul
-            style={{
-              display: "flex",
-              gap: "20px",
-              listStyle: "none",
-              right: isMenu ? "0" : "-100%",
-              marginRight: "10px",
-            }}
-          >
+          <ul className={`${isOpen? "inline-block": "flex"} gap-5 list-none`}>
             {navlinks.map((link) => {
               return (
                 <li
@@ -176,11 +169,14 @@ export default function Navbar(props) {
                 </li>
               );
             })}
-          </ul>
           <section className="items-center gap-6">
             <CircleUserRound />
           </section>
+          </ul>
         </section>
+        <button onClick={toggleMenu} className="focus:outline-none flex float-right lg:hidden">
+          <Hamburger className="" />
+        </button>
       </nav>
     </div>
   );

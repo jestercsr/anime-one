@@ -5,7 +5,7 @@ import { Search, ShoppingBag } from "lucide-react";
 export default function E_Navbar() {
   const menuL = [
     {
-      name: "News",
+      name: "Nouveautés",
       href: "/stores/news",
     },
     {
@@ -48,7 +48,7 @@ export default function E_Navbar() {
           </Link>
         </div>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <ul className="flex items-center gap-4">
             {menuL.map((data, i) => {
               return (

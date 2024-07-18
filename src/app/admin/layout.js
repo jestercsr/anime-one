@@ -1,9 +1,14 @@
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import "../globals.css";
 import Navbar from "../accueil/ui/NavBar";
 import Footer from "../ui/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
+ 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export const metadata = {
   title: "Admin | Anime ONE",
@@ -13,7 +18,7 @@ export const metadata = {
 
 export default function AdminLayout({ children }) {
   return (
-    <div className={inter.className}>
+    <div className={roboto.className}>
       <Navbar className="bg-red-600 text-slate-50" />
       {children}
       <footer><Footer /></footer>

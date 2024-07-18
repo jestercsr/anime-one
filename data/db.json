@@ -19366,5 +19366,344 @@
       "$date": "2024-07-17T13:42:17.733Z"
     },
     "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6699102069a2079fdd6d621b"
+    },
+    "slug": "berserk-of-glouttony",
+    "imageTop": "/assets/BerserkGlouttony_Top.webp",
+    "navClass": "bg-neutral-700 text-red-700",
+    "back": "bg-neutral-700",
+    "imageShow": [
+      {
+        "img": "/assets/BerserkGlouttony_first.webp",
+        "url": "berserk-of-glouttony/episodes",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d621c"
+        }
+      },
+      {
+        "img": "/assets/scan/berserkglouttony_scan.webp",
+        "url": "berserk-of-glouttony/scans",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d621d"
+        }
+      },
+      {
+        "img": "/assets/BerserkGlouttony_API.webp",
+        "url": "https://berserkofgluttony.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d621e"
+        }
+      }
+    ],
+    "titre": "text-red-700 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/Unwanted_poster.webp",
+        "name": "The Unwanted Undead Adventurer",
+        "url": "/manga/the-unwanted-undead-adventurer",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d621f"
+        }
+      },
+      {
+        "image": "/assets/DemonSwordMaster_poster.webp",
+        "name": "The Demon Sword Master of Excalibur Academy",
+        "url": "/manga/the-demon-sword-master-of-excalibur-academy",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6220"
+        }
+      },
+      {
+        "image": "/assets/MushokuTensei_poster.webp",
+        "name": "Mushoku Tensei",
+        "url": "/manga/mushoku-tensei",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6221"
+        }
+      },
+      {
+        "image": "/assets/SpiritChronicles_poster.webp",
+        "name": "Seirei Gensouki: Spirit Chronicles",
+        "url": "/manga/spirit-chronicles",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6222"
+        }
+      },
+      {
+        "image": "/assets/ShieldHero_poster.webp",
+        "name": "The Rising Of The Shield Hero",
+        "url": "/manga/the-rising-of-the-shield-hero",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6223"
+        }
+      },
+      {
+        "image": "/assets/BlackS_poster.webp",
+        "name": "Black Summoner",
+        "url": "/manga/black-summoner",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6224"
+        }
+      },
+      {
+        "image": "/assets/DungeonBlack_poster.webp",
+        "name": "The Dungeon of Black Company",
+        "url": "/manga/the-dungeon-of-black-company",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6225"
+        }
+      },
+      {
+        "image": "/assets/GoblinSlayer_poster.webp",
+        "name": "Goblin Slayer",
+        "url": "/manga/goblin-slayer",
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6226"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageCarousel": [],
+        "anime_imageTop": "",
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "backNav": "bg-neutral-700",
+        "classNav": "bg-neutral-700 text-red-700",
+        "imageSee": [],
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6227"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/the-unwanted-undead-adventurer/episodes",
+            "anime_image": "/assets/Unwanted_poster.webp",
+            "anime_name": "The Unwanted Undead Adventurer",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6229"
+            }
+          },
+          {
+            "anime_href": "/manga/the-demon-sword-master-of-excalibur-academy/episodes",
+            "anime_image": "/assets/DemonSwordMaster_poster.webp",
+            "anime_name": "The Demon Sword Master of Excalibur Academy",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d622a"
+            }
+          },
+          {
+            "anime_href": "/manga/mushoku-tensei/episodes",
+            "anime_image": "/assets/MushokuTensei_poster.webp",
+            "anime_name": "Mushoku Tensei",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d622b"
+            }
+          },
+          {
+            "anime_href": "/manga/spirit-chronicles/episodes",
+            "anime_image": "/assets/SpiritChronicles_poster.webp",
+            "anime_name": "Seirei Gensouki: Spirit Chronicles",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d622c"
+            }
+          },
+          {
+            "anime_href": "/manga/the-rising-of-the-shield-hero/episodes",
+            "anime_image": "/assets/ShieldHero_poster.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d622d"
+            }
+          },
+          {
+            "anime_href": "/manga/black-summoner/episodes",
+            "anime_image": "/assets/BlackS_poster.webp",
+            "anime_name": "Black Summoner",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d622e"
+            }
+          },
+          {
+            "anime_href": "/manga/the-dungeon-of-black-company/episodes",
+            "anime_image": "/assets/DungeonBlack_poster.webp",
+            "anime_name": "The Dungeon of Black Company",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d622f"
+            }
+          },
+          {
+            "anime_href": "/manga/goblin-slayer/episodes",
+            "anime_image": "/assets/GoblinSlayer_poster.webp",
+            "anime_name": "Goblin Slayer",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6230"
+            }
+          }
+        ],
+        "anime_imageTop": "/assets/BerserkGlouttony_first.webp",
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "backNav": "bg-neutral-700",
+        "classNav": "bg-neutral-700 text-red-700",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/BerserkGlouttonyS1.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6231"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6228"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/the-unwanted-undead-adventurer/scans",
+            "anime_image": "/assets/scan/unwanted_scan.webp",
+            "anime_name": "The Unwanted Undead Adventurer",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6233"
+            }
+          },
+          {
+            "anime_href": "/manga/mushoku-tensei/scans",
+            "anime_image": "/assets/scan/mushokutensei_scan.webp",
+            "anime_name": "Mushoku Tensei",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6234"
+            }
+          },
+          {
+            "anime_href": "/manga/the-rising-of-the-shield-hero/scans",
+            "anime_image": "/assets/scan/shieldhero_scan.webp",
+            "anime_name": "The Rising Of The Shield Hero",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6235"
+            }
+          },
+          {
+            "anime_href": "/manga/black-summoner/scans",
+            "anime_image": "/assets/scan/blacksummoner_scan.webp",
+            "anime_name": "Black Summoner",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6236"
+            }
+          },
+          {
+            "anime_href": "/manga/goblin-slayer/scans",
+            "anime_image": "/assets/scan/goblinslayer_scan.webp",
+            "anime_name": "Goblin Slayer",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6237"
+            }
+          },
+          {
+            "anime_href": "/manga/classroom-for-heroes/scans",
+            "anime_image": "/assets/scan/classheroes_scan.webp",
+            "anime_name": "Classroom for Heroes",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6238"
+            }
+          },
+          {
+            "anime_href": "/manga/villainess-level-99/scans",
+            "anime_image": "/assets/scan/villainess99_scan.webp",
+            "anime_name": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6239"
+            }
+          },
+          {
+            "anime_href": "/manga/undead-unluck/scans",
+            "anime_image": "/assets/scan/undead_scan.webp",
+            "anime_name": "Undead Unluck",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d623a"
+            }
+          }
+        ],
+        "anime_imageTop": "/assets/scan/berserkglouttony_scan.webp",
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "backNav": "bg-neutral-700",
+        "classNav": "bg-neutral-700 text-red-700",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony1.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d623b"
+            }
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony2.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d623c"
+            }
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony3.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d623d"
+            }
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony4.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d623e"
+            }
+          },
+          {
+            "href": "tome-5",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony5.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d623f"
+            }
+          },
+          {
+            "href": "tome-6",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony6.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6240"
+            }
+          },
+          {
+            "href": "tome-7",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony7.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6241"
+            }
+          },
+          {
+            "href": "tome-8",
+            "images": "/assets/scan/ScanAll/BerserkGlouttony8.webp",
+            "_id": {
+              "$oid": "6699102069a2079fdd6d6242"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "6699102069a2079fdd6d6232"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-18T12:52:48.110Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T12:52:48.110Z"
+    },
+    "__v": 0
   }
 ]

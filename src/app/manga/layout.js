@@ -9,8 +9,8 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  title: "Films | Anime ONE",
-  description: "Regarder tous vos films animés en streaming avec toujours plus de manga",
+  title: "Tous nos Mangas | Anime ONE",
+  description: "Regarder tous vos mangas en streaming avec toujours plus de manga",
 };
 
 export default function MoviesLayout({ children }) {

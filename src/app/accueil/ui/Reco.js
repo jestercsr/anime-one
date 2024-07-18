@@ -74,7 +74,7 @@ export default function Reco() {
                     alt={recommander.name}
                     className="rounded-2xl w-full"
                   />
-                  <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
+                  <p className="absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-[2px] md:p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
                     {recommander.name}
                   </p>
                 </Link>

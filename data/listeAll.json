@@ -798,7 +798,7 @@
       "Reincarnation"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -1007,7 +1007,7 @@
     "url": "captain-tsubasa",
     "categorie": ["Shonen", "Sports", "Football"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -1931,7 +1931,7 @@
     "url": "blue-exorcist",
     "categorie": ["Shonen", "Action", "Démons", "Surnaturel"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -2534,9 +2534,9 @@
     "_id": {
       "$oid": "66965e02f728b7bf2e7a7885"
     },
-    "image": "/assets/BerserkGloutony_poster.webp",
-    "name": "Berserk of Gloutony",
-    "url": "berserk-of-gloutony",
+    "image": "/assets/BerserkGlouttony_poster.webp",
+    "name": "Berserk of Glouttony",
+    "url": "berserk-of-glouttony",
     "categorie": ["Seinen", "Action", "Adventure", "Drame", "Dark Fantasy"],
     "anime": ["Series", "Scans"],
     "typeCategorie": ["ScanTrending"]
@@ -2967,6 +2967,390 @@
     },
     "updatedAt": {
       "$date": "2024-07-17T14:05:40.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fa1369a2079fdd6d61ef"
+    },
+    "image": "/assets/Fable_poster.webp",
+    "name": "The Fable",
+    "url": "the-fable",
+    "categorie": ["Seinen", "Action", "Drame"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:18:43.726Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:18:43.726Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fa9869a2079fdd6d61f1"
+    },
+    "image": "/assets/ElusiveSamourai_poster.webp",
+    "name": "The Elusive Samouraï",
+    "url": "the-elusive-samourai",
+    "categorie": ["Shonen", "Action", "Combats"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:20:56.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:20:56.391Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fb5b69a2079fdd6d61f3"
+    },
+    "image": "/assets/NobodyRemember_poster.webp",
+    "name": "Why Does Nobody Remembers My World?",
+    "url": "why-nobody-remembers-my-world",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Ecchi",
+      "Fantasy",
+      "Romance",
+      "Autre Monde",
+      "Guerre",
+      "Combats"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:24:11.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:24:11.391Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fc2269a2079fdd6d61f5"
+    },
+    "image": "/assets/ExplorationHero_poster.webp",
+    "name": "A Nobody's Way Up to an Exploration Hero",
+    "url": "mob-kara-hajimaru-tansaku-eiyuutan",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Ecchi",
+      "Fantasy",
+      "Romance",
+      "Harem",
+      "Monstres"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:27:30.334Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:27:30.334Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fce969a2079fdd6d61f7"
+    },
+    "image": "/assets/QualityAssurance_poster.webp",
+    "name": "Quality Assurance in Another World",
+    "url": "quality-assurance-in-another-world",
+    "categorie": [
+      "Seinen",
+      "Fantasy",
+      "Autre Monde",
+      "Jeux",
+      "Jeux",
+      "Autre Monde"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:30:49.817Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:30:49.817Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fd8369a2079fdd6d61f9"
+    },
+    "image": "/assets/FailureFrame_poster.webp",
+    "name": "Failure Frame",
+    "url": "failureframe",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Ecchi",
+      "Fantasy",
+      "Autre Monde",
+      "Dieux/ Déesses",
+      "Vengeance",
+      "Magie"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:33:23.968Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:33:23.968Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fdf769a2079fdd6d61fb"
+    },
+    "image": "/assets/SuicideIsekai_poster.webp",
+    "name": "Suicide Squad ISEKAI",
+    "url": "suicide-squad-isekai",
+    "categorie": ["Isekai", "Action", "Adventure", "Combats", "Crime"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:35:19.140Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:35:19.140Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fe8e69a2079fdd6d61fd"
+    },
+    "image": "/assets/AlyaRussian_poster.webp",
+    "name": "Alya Sometimes Hides Her Feelings in Russian",
+    "url": "roshidere",
+    "categorie": ["Shonen", "Ecole", "Romance", "Comédie"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:37:50.505Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:37:50.505Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698feef69a2079fdd6d61ff"
+    },
+    "image": "/assets/Bucchigiri_poster.webp",
+    "name": "Bucchigiri?!",
+    "url": "bucchigiri",
+    "categorie": ["Ecole", "Combats", "Combats"],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-18T11:39:27.970Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:39:27.970Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698ff8269a2079fdd6d6201"
+    },
+    "image": "/assets/SengokuYouko_poster.webp",
+    "name": "Sengoku Youko",
+    "url": "sengoku-youko",
+    "categorie": ["Shonen", "Action", "Romance", "Comédie", "Fantasy"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:41:54.448Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:41:54.448Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6699000869a2079fdd6d6203"
+    },
+    "image": "/assets/OshiNoKo_poster.webp",
+    "name": "Oshi no ko",
+    "url": "oshi-no-ko",
+    "categorie": [
+      "Seinen",
+      "Musique",
+      "Idols",
+      "Drame",
+      "Psychologique",
+      "Mystère",
+      "Surnaturel"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:44:08.546Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:44:08.546Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669900a769a2079fdd6d6205"
+    },
+    "image": "/assets/MagicianInDemonArmy_poster.webp",
+    "name": "The Strongest Magician in the Demon's Lord Army was a Human",
+    "url": "the-strongest-magician-in-the-demon-lord-army-was-a-human",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Fantasy",
+      "Isekai",
+      "Monstres",
+      "Combats",
+      "Autre Monde"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:46:47.832Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:46:47.832Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6699012769a2079fdd6d6207"
+    },
+    "image": "/assets/AllowedWorld_poster.webp",
+    "name": "No Longer Allowed in Another World",
+    "url": "no-longer-allowed-in-another-world",
+    "categorie": [
+      "Seinen",
+      "Historique",
+      "Drame",
+      "Comédie",
+      "Fantasy",
+      "Romance",
+      "Autre Monde",
+      "Surnaturel",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:48:55.205Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:48:55.205Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669901d969a2079fdd6d6209"
+    },
+    "image": "/assets/OssanInvincible_poster.webp",
+    "name": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
+    "url": "the-ossan-newbie-adventurer-trained-to-death-by-the-most-powerful-party-became-invincible",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Ecchi",
+      "Fantasy"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:51:53.305Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:51:53.305Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6699025769a2079fdd6d620b"
+    },
+    "image": "/assets/Tasuketsu_poster.webp",
+    "name": "Tasuketsu: Fate of the Majority",
+    "url": "tasuketsu",
+    "categorie": ["Shonen", "Action", "Drame", "Jeux"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:53:59.411Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:53:59.411Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669911ed69a2079fdd6d639a"
+    },
+    "image": "/assets/Villainess99_poster.webp",
+    "name": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+    "url": "villainess-level-99",
+    "categorie": [
+      "Shojo",
+      "Fantasy",
+      "Romance",
+      "Ecole",
+      "Jeux",
+      "Magie",
+      "Reincarnation"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-18T13:00:29.207Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T13:00:29.207Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6699124e69a2079fdd6d639c"
+    },
+    "image": "/assets/ClassHeroes_poster.webp",
+    "name": "Classroom for Heroes",
+    "url": "classroom-for-heroes",
+    "categorie": ["Shonen", "Fantasy", "Super-Héros", "Ecchi"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-18T13:02:06.043Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T13:02:06.043Z"
     },
     "__v": 0
   }

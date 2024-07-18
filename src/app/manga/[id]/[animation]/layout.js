@@ -1,8 +1,13 @@
 import React from "react";
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import "../../../../../src/app/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+ 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 const formatTitle = (string) => {
   if (!string) return "";
@@ -23,5 +28,5 @@ export async function generateMetadata({ params }) {
 }
 
 export default function AnimationLayout({ children }) {
-  return <div className={inter.className}>{children}</div>;
+  return <div className={roboto.className}>{children}</div>;
 }
