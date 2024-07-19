@@ -8,64 +8,64 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export function CarrouselForm() {
   const dataImage = [
     {
-      id: 1,
-      image: "/assets/TopScreen/naruto.webp",
-      name: "Naruto",
-      url: "/manga/naruto",
-    },
-    {
-      id: 2,
       image: "/assets/TopScreen/one_piece.webp",
-      name: "One Piece",
+      name: "One Piece - Arc Egghead Disponible",
       url: "/manga/one-piece",
     },
     {
-      id: 3,
-      image: "/assets/TopScreen/db.webp",
-      name: "Dragon Ball",
-      url: "/manga/dragon-ball",
+      image: "/assets/TopScreen/fairy_tail.webp",
+      name: "Fairy Tail 100 Years Quest - Nouveaux Episodes Disponibles",
+      url: "/manga/fairy-tail-100-years-quest",
     },
     {
-      id: 4,
-      image: "/assets/TopScreen/snk.webp",
-      name: "Shingeki no Kyojin",
-      url: "/manga/shingeki-no-kyojin",
-    },
-    {
-      id: 5,
-      image: "/assets/TopScreen/deathnote.webp",
-      name: "Death Note",
-      url: "/manga/death-note",
-    },
-    {
-      id: 6,
-      image: "/assets/TopScreen/jjk.webp",
-      name: "Jujustu Kaisen",
-      url: "/manga/jujustu-kaisen",
-    },
-    {
-      id: 7,
       image: "/assets/TopScreen/mha.webp",
-      name: "My Hero Academia",
+      name: "My Hero Academia - Nouvelles Saisons Disponibles",
       url: "/manga/my-hero-academia",
     },
     {
-      id: 8,
-      image: "/assets/TopScreen/bleach.webp",
-      name: "Bleach",
-      url: "/manga/bleach",
+      image: "/assets/TopScreen/jjk.webp",
+      name: "Jujustu Kaisen - Nouveaux Chapitres Disponibles",
+      url: "/manga/jujustu-kaisen",
     },
     {
-      id: 9,
-      image: "/assets/TopScreen/shadow.webp",
-      name: "The Eminence In Shadow",
-      url: "/manga/the-eminence-in-shadow",
+      image: "/assets/TopScreen/slime.webp",
+      name: "Moi, Quand je me Réincarne en Slime - Nouvelles Saisons Disponibles",
+      url: "/manga/moi-quand-je-me-reincarne-en-slime",
     },
     {
-      id: 10,
-      image: "/assets/TopScreen/hunter.webp",
-      name: "Hunter x Hunter",
-      url: "/manga/hunter-x-hunter",
+      image: "/assets/TopScreen/crusade.webp",
+      name: "Our Last Crusade or the Rise of a New World - Nouvelles Saisons Disponibles",
+      url: "/manga/our-last-crusade-or-the-rise-of-a-new-world",
+    },
+    {
+      image: "/assets/TopScreen/magician_demon_army.webp",
+      name: "The Strongest Magician in the Demon's Lord Army was a Human - Nouveaux Episodes Disponibles",
+      url: "/manga/the-strongest-magician-in-the-demon-lord-army-was-a-human",
+    },
+    {
+      image: "/assets/TopScreen/suicide_isekai.webp",
+      name: "Suicide Squad ISEKAI - Nouveaux Episodes Disponibles",
+      url: "/manga/suicide-squad-isekai",
+    },
+    {
+      image: "/assets/TopScreen/oshi_no_ko.webp",
+      name: "Oshi no ko - Nouvelles Saisons Disponibles",
+      url: "/manga/oshi-no-ko",
+    },
+    {
+      image: "/assets/TopScreen/sakamoto_days.webp",
+      name: "Sakamoto Days - Nouveaux Chapitres Disponibles",
+      url: "/manga/sakamoto-days",
+    },
+    {
+      image: "/assets/TopScreen/yozakura.webp",
+      name: "Mission: Yozakura Family - Nouveaux Episodes Disponibles",
+      url: "/manga/mission-yozakura-family",
+    },
+    {
+      image: "/assets/TopScreen/naruto.webp",
+      name: "Naruto - Tous les Episodes Disponibles",
+      url: "/manga/naruto",
     },
   ];
 
@@ -75,15 +75,15 @@ export function CarrouselForm() {
         <Carousel
           autoPlay
           infiniteLoop
-          interval={4000}
+          interval={6000}
           showThumbs={false}
           showStatus={false}
-          centerMode
+          centerMode  
           centerSlidePercentage={70}
         >
-          {dataImage.map((imgScreen) => {
+          {dataImage.map((imgScreen, index) => {
             return (
-              <div key={imgScreen.id}>
+              <div key={index}>
                 <img src={imgScreen.image} alt={imgScreen.name}/>
 
                 <p className="legend">

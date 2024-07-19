@@ -107,19 +107,18 @@ export default function Navbar(props) {
   }
 
   return (
-    <div className={props.className + " navbar"}>
-      <nav className="flex justify-between lg:px-8 items-center lg:py-[4px] py-0">
-        <section className="flex items-center gap-4">
+    <div className={props.className}>
+      <nav className={`${isOpen? "flex justify-between": "flex justify-between lg:px-8 items-center lg:py-[4px] py-0"}`}>
+        <section className={`${isOpen?"flex gap-4": "flex items-center gap-4"}`}>
           <div>
             <Link href={"/accueil"}>
-              <div className="hidden md:block w-20">
-                <img src={getLogo()} alt="logo" className=" block" />
+              <div className="hidden md:flex w-20">
+                <img src={getLogo()} alt="logo" />
               </div>
-              <div className="block w-14 md:hidden">
+              <div className="flex w-14 md:hidden">
                 <img
                   src="/assets/LogoAnimeONE/logoAnimeOne.webp"
                   alt="logoOne"
-                  className="block"
                 />
               </div>
             </Link>
@@ -127,8 +126,8 @@ export default function Navbar(props) {
         </section>
 
         
-        <section className={`lg:flex ${isOpen ? "w-[80%] h-0 flex-col border border-red-500" : "hidden"} md:relative lg:min-h-fit items-center absolute min-h-[60vh] lg:w-auto w-full flex`}>
-          <div className={`${isOpen? "mt-0": "block"} lg:flex-shrink lg:flex-grow-0 lg:justify-start lg:px-2`}>
+        <section className={` ${isOpen ? "w-[50%] h-[300px] min-h-0 flex-col" : "hidden lg:flex"} relative lg:min-h-fit items-center min-h-[60vh] lg:w-auto w-full flex`}>
+          <div className={`${isOpen? "mt-14": "block"} lg:flex-shrink lg:flex-grow-0 lg:justify-start lg:px-2`}>
             <div className="relative block">
               <input
                 type="text"
