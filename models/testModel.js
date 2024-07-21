@@ -13,7 +13,9 @@ if (mongoose.models.mangaName) {
     }, 
     imageTop: String,
     navClass: String,
-    back: String,    
+    back: String,
+    search: String,
+    listeSearch: String,   
     imageShow: [
       {
         img: String,
@@ -31,14 +33,16 @@ if (mongoose.models.mangaName) {
     animation: [
       {
         animeId: String,
+        anime_imageTop: String,
+        classNav: String,
+        backNav: String,
+        searchNav: String,
+        listeSearchNav: String,
+        imageSee: [{ href: String, images: String }],
+        anime_titre: String,
         anime_imageCarousel: [
           { anime_href: String, anime_image: String, anime_name: String },
         ],
-        anime_imageTop: String,
-        anime_titre: String,
-        backNav: String,
-        classNav: String,
-        imageSee: [{ href: String, images: String }],
       },
     ],
   },{ timestamps: true });

@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export function CarrouselForm() {
   const dataImage = [
     {
-      image: "/assets/TopScreen/one_piece.webp",
+      image: "/assets/TopScreen/one_piece2.webp",
       name: "One Piece - Arc Egghead Disponible",
       url: "/manga/one-piece",
     },
@@ -18,7 +18,7 @@ export function CarrouselForm() {
       url: "/manga/fairy-tail-100-years-quest",
     },
     {
-      image: "/assets/TopScreen/mha.webp",
+      image: "/assets/TopScreen/mha2.webp",
       name: "My Hero Academia - Nouvelles Saisons Disponibles",
       url: "/manga/my-hero-academia",
     },

@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { useForm, useFieldArray } from "react-hook-form";
+import { updateManga } from "../../../../_actions/postAction";
 
-export default function UpdateAll({ slug }) {
-  const { register, handleSubmit, control, reset, setValue } = useForm();
+export default function UpdateAll({ manga }) {
+  const { register, control, setValue } = useForm();
   const {
     fields: imageShowFields,
     append: appendImageShow,
@@ -19,29 +20,38 @@ export default function UpdateAll({ slug }) {
     remove: removeAnimation,
   } = useFieldArray({ control, name: "animation" });
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch(`/api/mangas/${slug}`);
-      const data = await response.json();
-      reset(data);
-    };
-    fetchData();
-  }, [slug, reset]);
+  const [formData, setFormData] = useState(manga);
 
-  const onSubmit = async (data) => {
-    const response = await fetch(`/api/mangas/${slug}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    });
-    if (response.ok) {
-      reset();
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const updatedManga = await updateManga(manga.slug, formData);
+      if (updatedManga.message) {
+        alert(updatedManga.message);
+        return;
+      }
+      alert('Manga mis à jour avec succès');
+      // Vous pouvez mettre à jour l'état avec les nouvelles données si nécessaire
+    } catch (error) {
+      console.error('Failed to update manga:', error);
+      alert('Failed to update manga. Please try again later.');
     }
   };
+
+  if (!manga) return <p>Loading...</p>;
+
   return (
     <div>
-      <form onSubmit={handleSubmit(onSubmit)} className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[70%] md:w-[50%] lg:w-[35%] m-auto rounded-xl text-sky-950">
-      <input
+      <form
+        onSubmit={handleSubmit(onSubmit)}
+        className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[70%] md:w-[50%] lg:w-[35%] m-auto rounded-xl text-sky-950"
+      >
+        <input
           {...register("slug")}
           placeholder="Identifiant (slug)"
           className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
@@ -59,6 +69,16 @@ export default function UpdateAll({ slug }) {
         <input
           {...register("back")}
           placeholder="Background CSS (bg)"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+        />
+        <input
+          {...register("search")}
+          placeholder="Barre de recherche CSS"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+        />
+        <input
+          {...register("listeSearch")}
+          placeholder="Liste Barre de recherche CSS"
           className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
         /><br />
 
@@ -88,7 +108,7 @@ export default function UpdateAll({ slug }) {
         ))}
         <button
           type="button"
-          onClick={() => appendImageShow({ img: "", url: "" })}
+          onClick={() => appendImageShow({})}
           className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
         >
           Modifier Info Manga
@@ -134,7 +154,7 @@ export default function UpdateAll({ slug }) {
         ))}
         <button
           type="button"
-          onClick={() => appendImageCarousel({ image: "", name: "", url: "" })}
+          onClick={() => appendImageCarousel({})}
           className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
         >
           Modifier Manga Recommander
@@ -144,7 +164,7 @@ export default function UpdateAll({ slug }) {
         {animationFields.map((animation, animationIndex) => (
           <div key={animation.id}>
             <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-              Contenu Animation :
+              Info Animation-Manga :
             </h5>
             <input
               {...register(`animation.${animationIndex}.animeId`)}
@@ -153,7 +173,7 @@ export default function UpdateAll({ slug }) {
             />
             <input
               {...register(`animation.${animationIndex}.anime_imageTop`)}
-              placeholder="Anime-Image Top"
+              placeholder="Image Top"
               className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
             />
             <input
@@ -166,41 +186,50 @@ export default function UpdateAll({ slug }) {
               placeholder="Background CSS (bg)"
               className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
             />
+            <input
+              {...register(`animation.${animationIndex}.searchNav`)}
+              placeholder="Barre de recherche CSS Anime"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+            />
+            <input
+              {...register(`animation.${animationIndex}.listeSearchNav`)}
+              placeholder="Liste Barre de recherche Anime CSS"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+            />
 
             <div className="m-3">
-              {animation.imageSee?.map((imageSee, imageSeeIndex) => (
-                <div key={imageSeeIndex}>
-                  <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                    Info Animation-Manga (Episodes, Films, Scans) :
-                  </h5>
-                  <input
-                    {...register(
-                      `animation.${animationIndex}.imageSee.${imageSeeIndex}.images`
-                    )}
-                    placeholder="Image See"
-                    className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-                  />
-                  <input
-                    {...register(
-                      `animation.${animationIndex}.imageSee.${imageSeeIndex}.href`
-                    )}
-                    placeholder="Href"
-                    className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-                  />
-                  <button
-                    type="button"
-                    onClick={() =>
-                      removeImageSee(animationIndex, imageSeeIndex)
-                    }
-                    className="bg-red-600 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-red-900"
-                  >
-                    Supprimer Image See
-                  </button>
-                </div>
-              ))}
+              {animation.imageSee &&
+                animation.imageSee.map((imageSee, imageSeeIndex) => (
+                  <div key={imageSeeIndex}>
+                    <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
+                      Info Animation-Manga (Episodes, Films, Scans) :
+                    </h5>
+                    <input
+                      {...register(
+                        `animation.${animationIndex}.imageSee.${imageSeeIndex}.images`
+                      )}
+                      placeholder="Image See"
+                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                    />
+                    <input
+                      {...register(
+                        `animation.${animationIndex}.imageSee.${imageSeeIndex}.href`
+                      )}
+                      placeholder="Href"
+                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => removeAnimation(index)}
+                      className="bg-red-600 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-red-900"
+                    >
+                      Supprimer Image See
+                    </button>
+                  </div>
+                ))}
               <button
                 type="button"
-                onClick={() => appendImageSee(animationIndex)}
+                onClick={() => removeAnimation(index)}
                 className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
               >
                 Modifier Info Animation-Manga
@@ -214,56 +243,45 @@ export default function UpdateAll({ slug }) {
             />
 
             <div>
-              {animation.anime_imageCarousel?.map(
-                (animeImage, animeImageIndex) => (
-                  <div key={animeImageIndex}>
-                    <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                      Info Contenu Manga Recommander (Max 8) :
-                    </h5>
-                    <input
-                      {...register(
-                        `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_image`
-                      )}
-                      placeholder="Anime Image"
-                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-                    />
-                    <input
-                      {...register(
-                        `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_name`
-                      )}
-                      placeholder="Anime Name"
-                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-                    />
-                    <input
-                      {...register(
-                        `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_href`
-                      )}
-                      placeholder="Anime Href"
-                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-                    />
-                    <br />
-                    <button
-                      type="button"
-                      onClick={() =>
-                        removeAnimeImageCarousel(
-                          animationIndex,
-                          animeImageIndex
-                        )
-                      }
-                      className="bg-red-600 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-red-900"
-                    >
-                      Supprimer Animation-Manga Recommander
-                    </button>
-                  </div>
-                )
-              )}
-              <button
-                type="button"
-                onClick={() => appendAnimeImageCarousel(animationIndex)}
-                className="bg-orange-500 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-orange-700"
-              >
-                Modifier Animation-Manga Recommander
-              </button>
+              {animation.imageCarousel &&
+                animation.anime_imageCarousel.map(
+                  (animeImage, animeImageIndex) => (
+                    <div key={animeImageIndex}>
+                      <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
+                        Info Contenu Manga Recommander (Max 8) :
+                      </h5>
+                      <input
+                        {...register(
+                          `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_image`
+                        )}
+                        placeholder="Anime Image"
+                        className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                      />
+                      <input
+                        {...register(
+                          `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_name`
+                        )}
+                        placeholder="Anime Name"
+                        className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                      />
+                      <input
+                        {...register(
+                          `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_href`
+                        )}
+                        placeholder="Anime Href"
+                        className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                      />
+                      <br />
+                      <button
+                        type="button"
+                        onClick={() => removeAnimation(index)}
+                        className="bg-red-600 text-slate-50 p-[5px] m-3 rounded-lg hover:bg-red-900"
+                      >
+                        Supprimer Animation-Manga Recommander
+                      </button>
+                    </div>
+                  )
+                )}
             </div>
 
             <button
@@ -277,20 +295,9 @@ export default function UpdateAll({ slug }) {
         ))}
         <button
           type="button"
-          onClick={() =>
-            appendAnimation({
-              animeId: "",
-              anime_imageTop: "",
-              anime_titre: "",
-              anime_imageCarousel: [],
-              backNav: "",
-              classNav: "",
-              imageSee: [],
-            })
-          }
+          onClick={() => appendAnimation({})}
           className="bg-orange-700 text-slate-50 p-[5px] m-3 rounded-lg "
         >
-          {" "}
           Modifier Categorie Animation
         </button>
         <br />

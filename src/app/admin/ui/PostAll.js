@@ -137,6 +137,16 @@ export default function PostAll() {
           {...register("back")}
           placeholder="Background CSS (bg)"
           className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+        />
+        <input
+          {...register("search")}
+          placeholder="Barre de recherche CSS"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+        />
+        <input
+          {...register("listeSearch")}
+          placeholder="Liste Barre de recherche CSS"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
         /><br />
 
         {imageShowFields.map((imageShow, index) => (
@@ -241,6 +251,16 @@ export default function PostAll() {
             <input
               {...register(`animation.${animationIndex}.backNav`)}
               placeholder="Background CSS (bg)"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+            />
+            <input
+              {...register(`animation.${animationIndex}.searchNav`)}
+              placeholder="Barre de recherche CSS Anime"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+            />
+            <input
+              {...register(`animation.${animationIndex}.listeSearchNav`)}
+              placeholder="Liste Barre de recherche Anime CSS"
               className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
             />
 

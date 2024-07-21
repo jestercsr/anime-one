@@ -16,6 +16,20 @@ export async function getManga(_actions) {
   }
 }
 
+export async function updateManga(slug, updatedData) {
+  try {
+    await connectDB();
+    const updatedManga = await MangaModel.findOneAndUpdate(
+      { slug },
+      updatedData,
+      { new: true }
+    );
+    return JSON.parse(JSON.stringify(updatedManga));
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
 export async function getRecommander() {
   try {
     await connectDB();
@@ -130,22 +144,6 @@ export async function getListeScans() {
     const data = JSON.parse(
       JSON.stringify(
         await ListeModel.find({ anime: { $in: "Scans" } }).sort({
-          name: "asc",
-        })
-      )
-    );
-    return data;
-  } catch (error) {
-    return { message: error.message };
-  }
-}
-
-export async function getAction() {
-  try {
-    await connectDB();
-    const data = JSON.parse(
-      JSON.stringify(
-        await ListeModel.find({ categorie: { $in: "Action " } }).sort({
           name: "asc",
         })
       )

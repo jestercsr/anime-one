@@ -7,6 +7,8 @@
     "imageTop": "/assets/OP_first.webp",
     "navClass": "bg-red-600 text-slate-50",
     "back": "bg-reder-10",
+    "search": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/OP_poster.webp",
@@ -74,6 +76,8 @@
         "anime_imageTop": "/assets/OP_FILMS.webp",
         "classNav": "bg-red-600 text-slate-50 list-none",
         "backNav": "bg-reder-10",
+        "searchNav": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/OnePiece_F1.webp",
@@ -173,6 +177,8 @@
         "anime_imageTop": "/assets/OP_poster.webp",
         "classNav": "bg-red-600 text-slate-50 list-none",
         "backNav": "bg-reder-10",
+        "searchNav": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/OnePieceS1.webp",
@@ -296,6 +302,8 @@
         "anime_imageTop": "/assets/scan/onepiece_scan.webp",
         "classNav": "bg-red-600 text-slate-50 list-none",
         "backNav": "bg-reder-10",
+        "searchNav": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/OnePiece1.webp",
@@ -432,6 +440,8 @@
     "imageTop": "/assets/naruto_Top.webp",
     "navClass": "bg-blue-600 text-orange-500 ",
     "back": "bg-oranger-800",
+    "search": "bg-blue-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Naruto_first.webp",
@@ -503,6 +513,8 @@
         "anime_imageTop": "/assets/Naruto_FILMS.webp",
         "classNav": "bg-blue-600 text-orange-500",
         "backNav": "bg-oranger-800",
+        "searchNav": "bg-blue-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Naruto_F1.webp",
@@ -566,6 +578,8 @@
         "anime_imageTop": "/assets/Naruto_first.webp",
         "classNav": "bg-blue-600 text-orange-500",
         "backNav": "bg-oranger-800",
+        "searchNav": "bg-blue-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/NarutoS1.webp",
@@ -653,6 +667,8 @@
         "anime_imageTop": "/assets/scan/naruto_scan.webp",
         "classNav": "bg-blue-600 text-orange-500",
         "backNav": "bg-oranger-800",
+        "searchNav": "bg-blue-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Naruto1.webp",
@@ -789,6 +805,8 @@
     "imageTop": "/assets/DB_Top.webp",
     "navClass": "bg-blue-800 text-slate-50 ",
     "back": "bg-oranger-700",
+    "search": "bg-blue-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/DB_poster.webp",
@@ -868,6 +886,8 @@
         "anime_imageTop": "/assets/DB_FILMS.webp",
         "classNav": "bg-blue-800 text-slate-50",
         "backNav": "bg-oranger-700",
+        "searchNav": "bg-blue-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/DB_F1.webp",
@@ -935,6 +955,8 @@
         "anime_imageTop": "/assets/DB_poster.webp",
         "classNav": "bg-blue-800 text-slate-50",
         "backNav": "bg-oranger-700",
+        "searchNav": "bg-blue-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/DBS1.webp",
@@ -1006,6 +1028,8 @@
         "anime_imageTop": "/assets/scan/db_scan.webp",
         "classNav": "bg-blue-800 text-slate-50",
         "backNav": "bg-oranger-700",
+        "searchNav": "bg-blue-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/DB1.webp",
@@ -1126,6 +1150,8 @@
     "imageTop": "/assets/Bleach_first.webp",
     "navClass": "bg-neutral-50 text-red-600 ",
     "back": "bg-blacker-8",
+    "search": "bg-neutral-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Bleach_poster.webp",
@@ -1193,6 +1219,8 @@
         "anime_imageTop": "/assets/Bleach_FILMS.webp",
         "classNav": "bg-neutral-50 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Bleach_F1.webp",
@@ -1260,6 +1288,8 @@
         "anime_imageTop": "/assets/Bleach_poster.webp",
         "classNav": "bg-neutral-50 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/BleachS1.webp",
@@ -1379,6 +1409,8 @@
         "anime_imageTop": "/assets/scan/bleach_scan.webp",
         "classNav": "bg-neutral-50 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Bleach1.webp",
@@ -1515,6 +1547,8 @@
     "imageTop": "/assets/HxH_first.webp",
     "navClass": "bg-orange-500 text-slate-50",
     "back": "bg-greener-300",
+    "search": "bg-orange-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Hunter_poster.webp",
@@ -1586,6 +1620,8 @@
         "anime_imageTop": "/assets/Hunter_FILMS.webp",
         "classNav": "bg-orange-500 text-slate-50",
         "backNav": "bg-greener-300",
+        "searchNav": "bg-orange-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Hunter_F1.webp",
@@ -1645,6 +1681,8 @@
         "anime_imageTop": "/assets/Hunter_poster.webp",
         "classNav": "bg-orange-500 text-slate-50",
         "backNav": "bg-greener-300",
+        "searchNav": "bg-orange-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/HunterS1.webp",
@@ -1716,6 +1754,8 @@
         "anime_imageTop": "/assets/scan/hunter_scan.webp",
         "classNav": "bg-orange-500 text-slate-50",
         "backNav": "bg-greener-300",
+        "searchNav": "bg-orange-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Hunter1.webp",
@@ -2181,6 +2221,8 @@
     "imageTop": "/assets/Mha_first.webp",
     "navClass": "bg-green-700 text-slate-50 ",
     "back": "bg-neutraler-900",
+    "search": "bg-green-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/MHA_poster.webp",
@@ -2248,6 +2290,8 @@
         "anime_imageTop": "/assets/MHA_FILMS.webp",
         "classNav": "bg-green-700 text-slate-50",
         "backNav": "bg-neutraler-900",
+        "searchNav": "bg-green-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Mha_F1.webp",
@@ -2311,6 +2355,8 @@
         "anime_imageTop": "/assets/MHA_poster.webp",
         "classNav": "bg-green-700 text-slate-50",
         "backNav": "bg-neutraler-900",
+        "searchNav": "bg-green-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/MhaS1.webp",
@@ -2390,6 +2436,8 @@
         "anime_imageTop": "/assets/scan/mha_scan.webp",
         "classNav": "bg-green-700 text-slate-50",
         "backNav": "bg-neutraler-900",
+        "searchNav": "bg-green-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Mha1.webp",
@@ -2526,6 +2574,8 @@
     "imageTop": "/assets/JJK_first.webp",
     "navClass": "bg-pink-400 text-neutral-950 ",
     "back": "bg-blacker-300",
+    "search": "bg-pink-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/JJK_poster.webp",
@@ -2593,6 +2643,8 @@
         "anime_imageTop": "/assets/JJK_FILMS.webp",
         "classNav": "bg-pink-400 text-neutral-950",
         "backNav": "bg-blacker-300",
+        "searchNav": "bg-pink-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Jjk_F1.webp",
@@ -2648,6 +2700,8 @@
         "anime_imageTop": "/assets/JJK_poster.webp",
         "classNav": "bg-pink-400 text-neutral-950",
         "backNav": "bg-blacker-300",
+        "searchNav": "bg-pink-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/JjkS1.webp",
@@ -2707,6 +2761,8 @@
         "anime_imageTop": "/assets/scan/jjk_scan.webp",
         "classNav": "bg-pink-400 text-neutral-950",
         "backNav": "bg-blacker-300",
+        "searchNav": "bg-pink-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Jjk1.webp",
@@ -2843,6 +2899,8 @@
     "imageTop": "/assets/FMA_first.webp",
     "navClass": "bg-red-800 text-neutral-950 ",
     "back": "bg-neutraler-800",
+    "search": "bg-red-800 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/FMA.webp",
@@ -2910,6 +2968,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-800 text-neutral-950",
         "backNav": "bg-neutraler-800",
+        "searchNav": "bg-red-800 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-800 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -2930,6 +2990,8 @@
         "anime_imageTop": "/assets/FMA.webp",
         "classNav": "bg-red-800 text-neutral-950",
         "backNav": "bg-neutraler-800",
+        "searchNav": "bg-red-800 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/FmaS1.webp",
@@ -2985,6 +3047,8 @@
         "anime_imageTop": "/assets/scan/fma_scan.webp",
         "classNav": "bg-red-800 text-neutral-950",
         "backNav": "bg-neutraler-800",
+        "searchNav": "bg-red-800 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Fma1.webp",
@@ -3121,6 +3185,8 @@
     "imageTop": "/assets/FT_first.webp",
     "navClass": "bg-amber-500 text-red-600 ",
     "back": "bg-yellower-700",
+    "search": "bg-amber-500 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-500 border-t-0",
     "imageShow": [
       {
         "img": "/assets/FT_poster.webp",
@@ -3192,6 +3258,8 @@
         "anime_imageTop": "/assets/FT_FILMS.webp",
         "classNav": "bg-amber-500 text-red-600",
         "backNav": "bg-yellower-700",
+        "searchNav": "bg-amber-500 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Ft_F1.webp",
@@ -3251,6 +3319,8 @@
         "anime_imageTop": "/assets/FT_poster.webp",
         "classNav": "bg-amber-500 text-red-600",
         "backNav": "bg-yellower-700",
+        "searchNav": "bg-amber-500 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/FtS1.webp",
@@ -3334,6 +3404,8 @@
         "anime_imageTop": "/assets/scan/ft_scan.webp",
         "classNav": "bg-amber-500 text-red-600",
         "backNav": "bg-yellower-700",
+        "searchNav": "bg-amber-500 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Ft1.webp",
@@ -3470,6 +3542,8 @@
     "imageTop": "/assets/BlackClover_first.webp",
     "navClass": "bg-neutral-950 text-stone-400 ",
     "back": "bg-blacker-10",
+    "search": "bg-neutral-950 text-stone-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/BlackClover_poster.webp",
@@ -3537,6 +3611,8 @@
         "anime_imageTop": "/assets/BC_FILMS.webp",
         "classNav": "bg-neutral-950 text-stone-400",
         "backNav": "bg-blacker-10",
+        "searchNav": "bg-neutral-950 text-stone-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Bc_F1.webp",
@@ -3592,6 +3668,8 @@
         "anime_imageTop": "/assets/BlackClover_poster.webp",
         "classNav": "bg-neutral-950 text-stone-400",
         "backNav": "bg-blacker-10",
+        "searchNav": "bg-neutral-950 text-stone-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/BcS1.webp",
@@ -3659,6 +3737,8 @@
         "anime_imageTop": "/assets/scan/clover_scan.webp",
         "classNav": "bg-neutral-950 text-stone-400",
         "backNav": "bg-blacker-10",
+        "searchNav": "bg-neutral-950 text-stone-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Bc1.webp",
@@ -3795,6 +3875,8 @@
     "imageTop": "/assets/BlueLock_poster.webp",
     "navClass": "bg-blue-950 text-neutral-950 ",
     "back": "bg-bluer-950",
+    "search": "bg-blue-950 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/BlueLock_poster.webp",
@@ -3862,6 +3944,8 @@
         "anime_imageTop": "/assets/BlueLock_FILMS.webp",
         "classNav": "bg-blue-950 text-neutral-950",
         "backNav": "bg-bluer-950",
+        "searchNav": "bg-blue-950 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/BlueLock_F1.webp",
@@ -3917,6 +4001,8 @@
         "anime_imageTop": "/assets/BlueLock_poster.webp",
         "classNav": "bg-blue-950 text-neutral-950",
         "backNav": "bg-bluer-950",
+        "searchNav": "bg-blue-950 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/BlueLockS1.webp",
@@ -3972,6 +4058,8 @@
         "anime_imageTop": "/assets/scan/bluelock_scan.webp",
         "classNav": "bg-blue-950 text-neutral-950",
         "backNav": "bg-bluer-950",
+        "searchNav": "bg-blue-950 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/BlueLock1.webp",
@@ -4108,6 +4196,8 @@
     "imageTop": "/assets/Boruto_Top.webp",
     "navClass": "bg-blacker-200 text-pinker-400 ",
     "back": "bg-neutraler-100",
+    "search": "bg-blacker-200 text-pinker-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Boruto_poster.webp",
@@ -4179,6 +4269,8 @@
         "anime_imageTop": "/assets/Boruto_FILMS.webp",
         "classNav": "bg-blacker-200 text-pinker-400",
         "backNav": "bg-neutraler-100",
+        "searchNav": "bg-blacker-200 text-pinker-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Boruto_F1.webp",
@@ -4234,6 +4326,8 @@
         "anime_imageTop": "/assets/Boruto_poster.webp",
         "classNav": "bg-blacker-200 text-pinker-400",
         "backNav": "bg-neutraler-100",
+        "searchNav": "bg-blacker-200 text-pinker-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/BorutoS1.webp",
@@ -4329,6 +4423,8 @@
         "anime_imageTop": "/assets/scan/boruto_scan.webp",
         "classNav": "bg-blacker-200 text-pinker-400",
         "backNav": "bg-neutraler-100",
+        "searchNav": "bg-blacker-200 text-pinker-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Boruto1.webp",
@@ -4465,6 +4561,8 @@
     "imageTop": "/assets/BurnWitch_first.webp",
     "navClass": "bg-greener-500 text-red-700 ",
     "back": "bg-limer-600",
+    "search": "bg-greener-500 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-500 border-t-0",
     "imageShow": [
       {
         "img": "/assets/BurnWitch_FILMS.webp",
@@ -4528,6 +4626,8 @@
         "anime_imageTop": "/assets/BurnWitch_FILMS.webp",
         "classNav": "bg-greener-500 text-red-700",
         "backNav": "bg-limer-600",
+        "searchNav": "bg-greener-500 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/BurnWitch_F1.webp",
@@ -4587,6 +4687,8 @@
         "anime_imageTop": "",
         "classNav": "bg-greener-500 text-red-700",
         "backNav": "bg-limer-600",
+        "searchNav": "bg-greener-500 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-500 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -4607,6 +4709,8 @@
         "anime_imageTop": "/assets/scan/burnwitch_scan.webp",
         "classNav": "bg-greener-500 text-red-700",
         "backNav": "bg-limer-600",
+        "searchNav": "bg-greener-500 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/BurnWitch1.webp",
@@ -4667,6 +4771,8 @@
     "imageTop": "/assets/Chainsaw_first.webp",
     "navClass": "bg-orange-600 text-yellow-300 ",
     "back": "bg-oranger-800",
+    "search": "bg-orange-600 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/ChainsawMan_poster.webp",
@@ -4730,6 +4836,8 @@
         "anime_imageTop": "",
         "classNav": "bg-orange-600 text-yellow-300",
         "backNav": "bg-neutraler-800",
+        "searchNav": "bg-orange-600 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-600 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -4750,6 +4858,8 @@
         "anime_imageTop": "/assets/ChainsawMan_poster.webp",
         "classNav": "bg-orange-600 text-yellow-300",
         "backNav": "bg-neutraler-800",
+        "searchNav": "bg-orange-600 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ChainsawS1.webp",
@@ -4805,6 +4915,8 @@
         "anime_imageTop": "/assets/scan/chainsawman_scan.webp",
         "classNav": "bg-orange-600 text-yellow-300",
         "backNav": "bg-neutraler-800",
+        "searchNav": "bg-orange-600 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Chainsaw1.webp",
@@ -4925,6 +5037,8 @@
     "imageTop": "/assets/Dandadan_first.webp",
     "navClass": "bg-purple-800 text-emerald-400 ",
     "back": "bg-fuchsia-400",
+    "search": "bg-purple-800 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-purple-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/scan/dandadan_scan.webp",
@@ -4984,6 +5098,8 @@
         "anime_imageTop": "",
         "classNav": "bg-purple-800 text-emerald-400",
         "backNav": "bg-fuchsia-400",
+        "searchNav": "bg-purple-800 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-purple-800 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -5004,6 +5120,8 @@
         "anime_imageTop": "",
         "classNav": "bg-purple-800 text-emerald-400",
         "backNav": "bg-fuchsia-400",
+        "searchNav": "bg-purple-800 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-purple-800 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -5024,6 +5142,8 @@
         "anime_imageTop": "/assets/scan/dandadan_scan.webp",
         "classNav": "bg-purple-800 text-emerald-400",
         "backNav": "bg-fuchsia-400",
+        "searchNav": "bg-purple-800 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-purple-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Dandadan1.webp",
@@ -5128,6 +5248,8 @@
     "imageTop": "/assets/DeathNote_first.webp",
     "navClass": "bg-neutral-950 text-red-600 ",
     "back": "bg-blacker-8",
+    "search": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/DeathNote_poster.webp",
@@ -5191,6 +5313,8 @@
         "anime_imageTop": "",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -5211,6 +5335,8 @@
         "anime_imageTop": "/assets/DeathNote_poster.webp",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/DeathnoteS1.webp",
@@ -5266,6 +5392,8 @@
         "anime_imageTop": "/assets/DeathNote_poster.webp",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Deathnote1.webp",
@@ -5374,6 +5502,8 @@
     "imageTop": "/assets/DemonKingAcademy_first.webp",
     "navClass": "bg-slate-50 text-blue-700 ",
     "back": "bg-violeter-800",
+    "search": "bg-slate-50 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/DemonKingAcademy_poster.webp",
@@ -5437,6 +5567,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-blue-700",
         "backNav": "bg-violeter-800",
+        "searchNav": "bg-slate-50 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -5457,6 +5589,8 @@
         "anime_imageTop": "/assets/DemonKingAcademy_poster.webp",
         "classNav": "bg-slate-50 text-blue-700",
         "backNav": "bg-violeter-800",
+        "searchNav": "bg-slate-50 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/DemonkingS1.webp",
@@ -5516,6 +5650,8 @@
         "anime_imageTop": "/assets/scan/demonking_scan.webp",
         "classNav": "bg-slate-50 text-blue-700",
         "backNav": "bg-violeter-800",
+        "searchNav": "bg-slate-50 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Demonking1.webp",
@@ -5588,6 +5724,8 @@
     "imageTop": "/assets/Conan_first.webp",
     "navClass": "bg-yellow-700 text-slate-50 ",
     "back": "bg-yellower-900",
+    "search": "bg-yellow-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Conan_poster.webp",
@@ -5655,6 +5793,8 @@
         "anime_imageTop": "/assets/Conan_FILMS.webp",
         "classNav": "bg-yellow-700 text-slate-50",
         "backNav": "bg-yellower-900",
+        "searchNav": "bg-yellow-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Conan_F1.webp",
@@ -5814,6 +5954,8 @@
         "anime_imageTop": "/assets/Conan_poster.webp",
         "classNav": "bg-yellow-700 text-slate-50",
         "backNav": "bg-yellower-900",
+        "searchNav": "bg-yellow-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ConanS1.webp",
@@ -5981,6 +6123,8 @@
         "anime_imageTop": "/assets/scan/conan_scan.webp",
         "classNav": "bg-yellow-700 text-slate-50",
         "backNav": "bg-yellower-900",
+        "searchNav": "bg-yellow-700 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Conan1.webp",
@@ -6117,6 +6261,8 @@
     "imageTop": "/assets/Dororo_first.webp",
     "navClass": "bg-emerald-400 text-green-700 ",
     "back": "bg-lime-300",
+    "search": "bg-emerald-400 text-green-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-emerald-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Dororo_poster.webp",
@@ -6180,6 +6326,8 @@
         "anime_imageTop": "",
         "classNav": "bg-emerald-400 text-green-700",
         "backNav": "bg-lime-300",
+        "searchNav": "bg-emerald-400 text-green-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-emerald-400 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -6200,6 +6348,8 @@
         "anime_imageTop": "/assets/Dororo_poster.webp",
         "classNav": "bg-emerald-400 text-green-700",
         "backNav": "bg-lime-300",
+        "searchNav": "bg-emerald-400 text-green-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-emerald-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/DororoS1.webp",
@@ -6255,6 +6405,8 @@
         "anime_imageTop": "/assets/Dororo_poster.webp",
         "classNav": "bg-emerald-400 text-green-700",
         "backNav": "bg-lime-300",
+        "searchNav": "bg-emerald-400 text-green-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-emerald-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Dororo1.webp",
@@ -6327,6 +6479,8 @@
     "imageTop": "/assets/Shadow.webp",
     "navClass": "bg-violet-700 text-neutral-950 ",
     "back": "bg-violet-shadow",
+    "search": "bg-violet-700 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/EminenceShadow_poster.webp",
@@ -6390,6 +6544,8 @@
         "anime_imageTop": "",
         "classNav": "bg-violet-700 text-neutral-950",
         "backNav": "bg-violet-shadow",
+        "searchNav": "bg-violet-700 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -6410,6 +6566,8 @@
         "anime_imageTop": "/assets/EminenceShadow_poster.webp",
         "classNav": "bg-violet-700 text-neutral-950",
         "backNav": "bg-violet-shadow",
+        "searchNav": "bg-violet-700 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/EminenceShadowS1.webp",
@@ -6469,6 +6627,8 @@
         "anime_imageTop": "/assets/scan/eminence_scan.webp",
         "classNav": "bg-violet-700 text-neutral-950",
         "backNav": "bg-violet-shadow",
+        "searchNav": "bg-violet-700 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/EminenceShadow1.webp",
@@ -6573,6 +6733,8 @@
     "imageTop": "/assets/Ippo_top.webp",
     "navClass": "bg-red-700 text-blue-800 ",
     "back": "bg-zinc-100",
+    "search": "bg-red-700 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Ippo_poster.webp",
@@ -6640,6 +6802,8 @@
         "anime_imageTop": "/assets/Ippo_FILMS.webp",
         "classNav": "bg-red-700 text-blue-800",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-red-700 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Ippo_F1.webp",
@@ -6699,6 +6863,8 @@
         "anime_imageTop": "/assets/Ippo_poster.webp",
         "classNav": "bg-red-700 text-blue-800",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-red-700 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/IppoS1.webp",
@@ -6762,6 +6928,8 @@
         "anime_imageTop": "/assets/scan/ippo_scan.webp",
         "classNav": "bg-red-700 text-blue-800",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-red-700 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Ippo1.webp",
@@ -6898,6 +7066,8 @@
     "imageTop": "/assets/Jojo_top.webp",
     "navClass": "bg-violeter-700 text-yellow-300 ",
     "back": "bg-bluer-600",
+    "search": "bg-violeter-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violeter-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Jojo_poster.webp",
@@ -6961,6 +7131,8 @@
         "anime_imageTop": "",
         "classNav": "bg-violeter-700 text-yellow-300",
         "backNav": "bg-bluer-600",
+        "searchNav": "bg-violeter-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violeter-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -6981,6 +7153,8 @@
         "anime_imageTop": "/assets/Jojo_poster.webp",
         "classNav": "bg-violeter-700 text-yellow-300",
         "backNav": "bg-bluer-600",
+        "searchNav": "bg-violeter-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violeter-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/JojoS1.webp",
@@ -7056,6 +7230,8 @@
         "anime_imageTop": "/assets/scan/jojo_scan.webp",
         "classNav": "bg-violeter-700 text-yellow-300",
         "backNav": "bg-bluer-600",
+        "searchNav": "bg-violeter-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violeter-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Jojo1.webp",
@@ -7148,6 +7324,8 @@
     "imageTop": "/assets/Kaiju8_first.webp",
     "navClass": "bg-red-700 text-emerald-400",
     "back": "bg-teal-300",
+    "search": "bg-red-700 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Kaiju_poster.webp",
@@ -7211,6 +7389,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-700 text-emerald-400",
         "backNav": "bg-teal-300",
+        "searchNav": "bg-red-700 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -7231,6 +7411,8 @@
         "anime_imageTop": "/assets/Kaiju_poster.webp",
         "classNav": "bg-red-700 text-emerald-400",
         "backNav": "bg-teal-300",
+        "searchNav": "bg-red-700 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/KaijuS1.webp",
@@ -7286,6 +7468,8 @@
         "anime_imageTop": "/assets/scan/kaiju_scan.webp",
         "classNav": "bg-red-700 text-emerald-400",
         "backNav": "bg-teal-300",
+        "searchNav": "bg-red-700 text-emerald-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Kaiju1.webp",
@@ -7366,6 +7550,8 @@
     "imageTop": "/assets/DemonSlayer_first.webp",
     "navClass": "bg-green-400 text-neutral-950",
     "back": "bg-violeter-600",
+    "search": "bg-green-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/DS_poster.webp",
@@ -7433,6 +7619,8 @@
         "anime_imageTop": "/assets/DS_FILMS.webp",
         "classNav": "bg-green-400 text-neutral-950",
         "backNav": "bg-violeter-600",
+        "searchNav": "bg-green-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Kimetsu_F1.webp",
@@ -7496,6 +7684,8 @@
         "anime_imageTop": "/assets/DS_poster.webp",
         "classNav": "bg-green-400 text-neutral-950",
         "backNav": "bg-violeter-600",
+        "searchNav": "bg-green-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/KimetsuS1.webp",
@@ -7563,6 +7753,8 @@
         "anime_imageTop": "/assets/scan/kimetsu_scan.webp",
         "classNav": "bg-green-400 text-neutral-950",
         "backNav": "bg-violeter-600",
+        "searchNav": "bg-green-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Kimetsu1.webp",
@@ -7699,6 +7891,8 @@
     "imageTop": "/assets/Kingdom_first.webp",
     "navClass": "bg-red-700 text-yellow-300",
     "back": "bg-amberer-700",
+    "search": "bg-red-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Kingdom_poster.webp",
@@ -7762,6 +7956,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-700 text-yellow-300",
         "backNav": "bg-amberer-700",
+        "searchNav": "bg-red-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -7782,6 +7978,8 @@
         "anime_imageTop": "/assets/Kingdom_poster.webp",
         "classNav": "bg-red-700 text-yellow-300",
         "backNav": "bg-amberer-700",
+        "searchNav": "bg-red-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/KingdomS1.webp",
@@ -7853,6 +8051,8 @@
         "anime_imageTop": "/assets/scan/kingdom_scan.webp",
         "classNav": "bg-red-700 text-yellow-300",
         "backNav": "bg-amberer-700",
+        "searchNav": "bg-red-700 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Kingdom1.webp",
@@ -7989,6 +8189,8 @@
     "imageTop": "/assets/Konosuba_first.webp",
     "navClass": "bg-blue-700 text-emerald-300",
     "back": "bg-cyaner-700",
+    "search": "bg-blue-700 text-emerald-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Konosuba.webp",
@@ -8052,6 +8254,8 @@
         "anime_imageTop": "/assets/Konosuba_FILMS.webp",
         "classNav": "bg-blue-700 text-emerald-300",
         "backNav": "bg-cyaner-700",
+        "searchNav": "bg-blue-700 text-emerald-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Konosuba_F1.webp",
@@ -8107,6 +8311,8 @@
         "anime_imageTop": "/assets/Konosuba.webp",
         "classNav": "bg-blue-700 text-emerald-300",
         "backNav": "bg-cyaner-700",
+        "searchNav": "bg-blue-700 text-emerald-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/KonosubaS1.webp",
@@ -8170,6 +8376,8 @@
         "anime_imageTop": "",
         "classNav": "bg-blue-700 text-emerald-300",
         "backNav": "bg-cyaner-700",
+        "searchNav": "bg-blue-700 text-emerald-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -8195,6 +8403,8 @@
     "imageTop": "/assets/Kuroko_first.webp",
     "navClass": "bg-slate-50 text-neutral-950",
     "back": "bg-zinc-100",
+    "search": "bg-slate-50 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Kuroko_poster.webp",
@@ -8262,6 +8472,8 @@
         "anime_imageTop": "/assets/Kuroko_FILMS.webp",
         "classNav": "bg-slate-50 text-neutral-950",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-slate-50 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Kuroko_F1.webp",
@@ -8317,6 +8529,8 @@
         "anime_imageTop": "/assets/Kuroko_poster.webp",
         "classNav": "bg-slate-50 text-neutral-950",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-slate-50 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/KurokoS1.webp",
@@ -8380,6 +8594,8 @@
         "anime_imageTop": "/assets/scan/kuroko_scan.webp",
         "classNav": "bg-slate-50 text-neutral-950",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-slate-50 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Kuroko1.webp",
@@ -8516,6 +8732,8 @@
     "imageTop": "/assets/Mashle.webp",
     "navClass": "bg-red-900 text-yellow-300",
     "back": "bg-red-800",
+    "search": "bg-red-900 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-900 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Mashle_poster.webp",
@@ -8579,6 +8797,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-900 text-yellow-300",
         "backNav": "bg-red-800",
+        "searchNav": "bg-red-900 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-900 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -8599,6 +8819,8 @@
         "anime_imageTop": "/assets/Mashle_poster.webp",
         "classNav": "bg-red-900 text-yellow-300",
         "backNav": "bg-red-800",
+        "searchNav": "bg-red-900 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-900 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/MashleS1.webp",
@@ -8658,6 +8880,8 @@
         "anime_imageTop": "/assets/scan/mashle_scan.webp",
         "classNav": "bg-red-900 text-yellow-300",
         "backNav": "bg-red-800",
+        "searchNav": "bg-red-900 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-900 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Mashle1.webp",
@@ -8786,6 +9010,8 @@
     "imageTop": "/assets/Slime_Top.webp",
     "navClass": "bg-blue-600 text-slate-50",
     "back": "bg-cyaner-600",
+    "search": "bg-blue-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Slime_poster.webp",
@@ -8853,6 +9079,8 @@
         "anime_imageTop": "/assets/Slime_FILMS.webp",
         "classNav": "bg-blue-600 text-slate-50",
         "backNav": "bg-cyaner-600",
+        "searchNav": "bg-blue-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Slime_F1.webp",
@@ -8908,6 +9136,8 @@
         "anime_imageTop": "/assets/Slime_poster.webp",
         "classNav": "bg-blue-600 text-slate-50",
         "backNav": "bg-cyaner-600",
+        "searchNav": "bg-blue-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/SlimeS1.webp",
@@ -8971,6 +9201,8 @@
         "anime_imageTop": "/assets/scan/slime_scan.webp",
         "classNav": "bg-blue-600 text-slate-50",
         "backNav": "bg-cyaner-600",
+        "searchNav": "bg-blue-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Slime1.webp",
@@ -9107,6 +9339,8 @@
     "imageTop": "/assets/Mushoku.webp",
     "navClass": "bg-yellow-900 text-yellow-500",
     "back": "bg-cyaner-600",
+    "search": "bg-yellow-900 text-yellow-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-900 border-t-0",
     "imageShow": [
       {
         "img": "/assets/MushokuTensei_poster.webp",
@@ -9170,6 +9404,8 @@
         "anime_imageTop": "",
         "classNav": "bg-yellow-900 text-yellow-500",
         "backNav": "bg-cyaner-600",
+        "searchNav": "bg-yellow-900 text-yellow-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-900 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -9190,6 +9426,8 @@
         "anime_imageTop": "/assets/MushokuTensei_poster.webp",
         "classNav": "bg-yellow-900 text-yellow-500",
         "backNav": "bg-cyaner-600",
+        "searchNav": "bg-yellow-900 text-yellow-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-900 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/MushokuTenseiS1.webp",
@@ -9249,6 +9487,8 @@
         "anime_imageTop": "/assets/scan/mushokutensei_scan.webp",
         "classNav": "bg-yellow-900 text-yellow-500",
         "backNav": "bg-cyaner-600",
+        "searchNav": "bg-yellow-900 text-yellow-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-900 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/MushokuTensei1.webp",
@@ -9385,6 +9625,8 @@
     "imageTop": "/assets/OnePunch_first.webp",
     "navClass": "bg-slate-50 text-red-600",
     "back": "bg-yellow-300",
+    "search": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/OnePunch_poster.webp",
@@ -9448,6 +9690,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-red-600",
         "backNav": "bg-yellow-300",
+        "searchNav": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -9468,6 +9712,8 @@
         "anime_imageTop": "/assets/OnePunch_poster.webp",
         "classNav": "bg-slate-50 text-red-600",
         "backNav": "bg-yellow-300",
+        "searchNav": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/OnePunchS1.webp",
@@ -9527,6 +9773,8 @@
         "anime_imageTop": "/assets/scan/onepunch_scan.webp",
         "classNav": "bg-slate-50 text-red-600",
         "backNav": "bg-yellow-300",
+        "searchNav": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/OnePunch1.webp",
@@ -9663,6 +9911,8 @@
     "imageTop": "/assets/ReMonster_first.webp",
     "navClass": "bg-amber-400 text-neutral-950",
     "back": "bg-amberer-600",
+    "search": "bg-amber-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/ReMonster_poster.webp",
@@ -9726,6 +9976,8 @@
         "anime_imageTop": "",
         "classNav": "bg-amber-400 text-neutral-950",
         "backNav": "bg-amberer-600",
+        "searchNav": "bg-amber-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-400 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -9746,6 +9998,8 @@
         "anime_imageTop": "/assets/ReMonster_poster.webp",
         "classNav": "bg-amber-400 text-neutral-950",
         "backNav": "bg-amberer-600",
+        "searchNav": "bg-amber-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ReMonsterS1.webp",
@@ -9801,6 +10055,8 @@
         "anime_imageTop": "/assets/scan/remonster_scan.webp",
         "classNav": "bg-amber-400 text-neutral-950",
         "backNav": "bg-amberer-600",
+        "searchNav": "bg-amber-400 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/ReMonster1.webp",
@@ -9889,6 +10145,8 @@
     "imageTop": "/assets/ShieldHero_first.webp",
     "navClass": "bg-green-700 text-zinc-400",
     "back": "bg-greener-550",
+    "search": "bg-green-700 text-zinc-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/ShieldHero_poster.webp",
@@ -9952,6 +10210,8 @@
         "anime_imageTop": "",
         "classNav": "bg-green-700 text-zinc-400",
         "backNav": "bg-greener-550",
+        "searchNav": "bg-green-700 text-zinc-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -9972,6 +10232,8 @@
         "anime_imageTop": "/assets/ShieldHero_poster.webp",
         "classNav": "bg-green-700 text-zinc-400",
         "backNav": "bg-greener-550",
+        "searchNav": "bg-green-700 text-zinc-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ShieldHeroS1.webp",
@@ -10035,6 +10297,8 @@
         "anime_imageTop": "/assets/scan/shieldhero_scan.webp",
         "classNav": "bg-green-700 text-zinc-400",
         "backNav": "bg-greener-550",
+        "searchNav": "bg-green-700 text-zinc-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/ShieldHero1.webp",
@@ -10171,6 +10435,8 @@
     "imageTop": "/assets/SaintSeiya_first.webp",
     "navClass": "bg-neutral-950 text-blue-800",
     "back": "bg-bluer-800",
+    "search": "bg-neutral-950 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/SaintSeiya.webp",
@@ -10262,6 +10528,8 @@
         "anime_imageTop": "/assets/SaintSeiya_FILMS.webp",
         "classNav": "bg-neutral-950 text-blue-800",
         "backNav": "bg-bluer-800",
+        "searchNav": "bg-neutral-950 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/SaintSeiya_F1.webp",
@@ -10337,6 +10605,8 @@
         "anime_imageTop": "/assets/SaintSeiya.webp",
         "classNav": "bg-neutral-950 text-blue-800",
         "backNav": "bg-bluer-800",
+        "searchNav": "bg-neutral-950 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/SaintSeiyaS1.webp",
@@ -10396,6 +10666,8 @@
         "anime_imageTop": "/assets/scan/saintseiya_scan.webp",
         "classNav": "bg-neutral-950 text-blue-800",
         "backNav": "bg-bluer-800",
+        "searchNav": "bg-neutral-950 text-blue-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/SaintSeiya1.webp",
@@ -10532,6 +10804,8 @@
     "imageTop": "/assets/Sakamoto_Top.webp",
     "navClass": "bg-red-600 text-neutral-950",
     "back": "bg-yellower-600",
+    "search": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/scan/sakamotodays_scan.webp",
@@ -10591,6 +10865,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-600 text-neutral-950",
         "backNav": "bg-yellower-600",
+        "searchNav": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -10611,6 +10887,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-600 text-neutral-950",
         "backNav": "bg-yellower-600",
+        "searchNav": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -10631,6 +10909,8 @@
         "anime_imageTop": "/assets/scan/sakamotodays_scan.webp",
         "classNav": "bg-red-600 text-neutral-950",
         "backNav": "bg-yellower-600",
+        "searchNav": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Sakamoto1.webp",
@@ -10743,6 +11023,8 @@
     "imageTop": "/assets/Shippuden_first.webp",
     "navClass": "bg-neutral-950 text-orange-500",
     "back": "bg-oranger-800",
+    "search": "bg-neutral-950 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/shippuden.webp",
@@ -10806,6 +11088,8 @@
         "anime_imageTop": "/assets/Shippuden_FILMS.webp",
         "classNav": "bg-neutral-950 text-orange-500",
         "backNav": "bg-oranger-800",
+        "searchNav": "bg-neutral-950 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Shippuden_F1.webp",
@@ -10885,6 +11169,8 @@
         "anime_imageTop": "/assets/shippuden.webp",
         "classNav": "bg-neutral-950 text-orange-500",
         "backNav": "bg-oranger-800",
+        "searchNav": "bg-neutral-950 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ShippudenS1.webp",
@@ -11016,6 +11302,8 @@
         "anime_imageTop": "/assets/scan/shippuden_scan.webp",
         "classNav": "bg-neutral-950 text-orange-500",
         "backNav": "bg-oranger-800",
+        "searchNav": "bg-neutral-950 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Shippuden1.webp",
@@ -11152,6 +11440,8 @@
     "imageTop": "/assets/SpyFamily_first.webp",
     "navClass": "bg-greener-450 text-neutral-950",
     "back": "bg-emeralder-300",
+    "search": "bg-greener-450 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-450 border-t-0",
     "imageShow": [
       {
         "img": "/assets/SpyFamily_poster.webp",
@@ -11215,6 +11505,8 @@
         "anime_imageTop": "",
         "classNav": "bg-greener-450 text-neutral-950",
         "backNav": "bg-emeralder-300",
+        "searchNav": "bg-greener-450 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-450 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -11235,6 +11527,8 @@
         "anime_imageTop": "/assets/SpyFamily_poster.webp",
         "classNav": "bg-greener-450 text-neutral-950",
         "backNav": "bg-emeralder-300",
+        "searchNav": "bg-greener-450 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-450 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/SpyFS1.webp",
@@ -11294,6 +11588,8 @@
         "anime_imageTop": "/assets/SpyFamily_poster.webp",
         "classNav": "bg-greener-450 text-neutral-950",
         "backNav": "bg-emeralder-300",
+        "searchNav": "bg-greener-450 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-450 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/SpyF1.webp",
@@ -11398,6 +11694,8 @@
     "imageTop": "/assets/TokyoGhoul_first.webp",
     "navClass": "bg-slate-50 text-red-600",
     "back": "bg-slate-800",
+    "search": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/TokyoGhoul_poster.webp",
@@ -11461,6 +11759,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-red-600",
         "backNav": "bg-slate-800",
+        "searchNav": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -11481,6 +11781,8 @@
         "anime_imageTop": "/assets/TokyoGhoul_poster.webp",
         "classNav": "bg-slate-50 text-red-600",
         "backNav": "bg-slate-800",
+        "searchNav": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/TokyoGhoulS1.webp",
@@ -11544,6 +11846,8 @@
         "anime_imageTop": "/assets/scan/tokyoghoul_scan.webp",
         "classNav": "bg-slate-50 text-red-600",
         "backNav": "bg-slate-800",
+        "searchNav": "bg-slate-50 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/TokyoGhoul1.webp",
@@ -11680,6 +11984,8 @@
     "imageTop": "/assets/Tomodachi_first.webp",
     "navClass": "bg-yellow-400 text-red-600",
     "back": "bg-slate-800",
+    "search": "bg-yellow-400 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/TomodachiGame_poster.webp",
@@ -11743,6 +12049,8 @@
         "anime_imageTop": "",
         "classNav": "bg-yellow-400 text-red-600",
         "backNav": "bg-slate-800",
+        "searchNav": "bg-yellow-400 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-400 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -11763,6 +12071,8 @@
         "anime_imageTop": "/assets/TomodachiGame_poster.webp",
         "classNav": "bg-yellow-400 text-red-600",
         "backNav": "bg-slate-800",
+        "searchNav": "bg-yellow-400 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/FriendsGameS1.webp",
@@ -11818,6 +12128,8 @@
         "anime_imageTop": "/assets/scan/tomodachigame_scan.webp",
         "classNav": "bg-yellow-400 text-red-600",
         "backNav": "bg-slate-800",
+        "searchNav": "bg-yellow-400 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/FriendsGame1.webp",
@@ -11946,6 +12258,8 @@
     "imageTop": "/assets/Tsukimichi_first.webp",
     "navClass": "bg-indigo-900 text-yellow-400",
     "back": "bg-bluer-700",
+    "search": "bg-indigo-900 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-900 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Tsukimichi_poster.webp",
@@ -12005,6 +12319,8 @@
         "anime_imageTop": "",
         "classNav": "bg-indigo-900 text-yellow-400",
         "backNav": "bg-bluer-700",
+        "searchNav": "bg-indigo-900 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-900 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -12025,6 +12341,8 @@
         "anime_imageTop": "/assets/Tsukimichi_poster.webp",
         "classNav": "bg-indigo-900 text-yellow-400",
         "backNav": "bg-bluer-700",
+        "searchNav": "bg-indigo-900 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-900 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/TsukimichiS1.webp",
@@ -12084,6 +12402,8 @@
         "anime_imageTop": "",
         "classNav": "bg-indigo-900 text-yellow-400",
         "backNav": "bg-bluer-700",
+        "searchNav": "bg-indigo-900 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-900 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -12109,6 +12429,8 @@
     "imageTop": "/assets/VinlandSaga_first.webp",
     "navClass": "bg-red-600 text-slate-50",
     "back": "bg-amber-200",
+    "search": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/VinlandSaga_poster.webp",
@@ -12172,6 +12494,8 @@
         "anime_imageTop": "",
         "classNav": "bg-red-600 text-slate-50",
         "backNav": "bg-amber-200",
+        "searchNav": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -12192,6 +12516,8 @@
         "anime_imageTop": "/assets/VinlandSaga_poster.webp",
         "classNav": "bg-red-600 text-slate-50",
         "backNav": "bg-amber-200",
+        "searchNav": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/VinlandSagaS1.webp",
@@ -12251,6 +12577,8 @@
         "anime_imageTop": "/assets/scan/vinlandsaga_scan.webp",
         "classNav": "bg-red-600 text-slate-50",
         "backNav": "bg-amber-200",
+        "searchNav": "bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/VinlandSaga1.webp",
@@ -12387,6 +12715,8 @@
     "imageTop": "/assets/WindBreaker_first.webp",
     "navClass": "bg-greener-700 text-yellow-400",
     "back": "bg-green-400",
+    "search": "bg-greener-700 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/WindBreaker_poster.webp",
@@ -12450,6 +12780,8 @@
         "anime_imageTop": "",
         "classNav": "bg-greener-700 text-yellow-400",
         "backNav": "bg-green-400",
+        "searchNav": "bg-greener-700 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-700 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -12470,6 +12802,8 @@
         "anime_imageTop": "/assets/WindBreaker_poster.webp",
         "classNav": "bg-greener-700 text-yellow-400",
         "backNav": "bg-green-400",
+        "searchNav": "bg-greener-700 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/WindBreakerS1.webp",
@@ -12525,6 +12859,8 @@
         "anime_imageTop": "/assets/scan/windbreaker_scan.webp",
         "classNav": "bg-greener-700 text-yellow-400",
         "backNav": "bg-green-400",
+        "searchNav": "bg-greener-700 text-yellow-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-greener-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/WindBreaker1.webp",
@@ -12625,6 +12961,8 @@
     "imageTop": "/assets/YuYuHakusho_first.webp",
     "navClass": "bg-green-700 text-lime-950",
     "back": "bg-greener-650",
+    "search": "bg-green-700 text-lime-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/YuYuHakusho_poster.webp",
@@ -12692,6 +13030,8 @@
         "anime_imageTop": "/assets/YuYuHakusho_FILMS.webp",
         "classNav": "bg-green-700 text-lime-950",
         "backNav": "bg-greener-650",
+        "searchNav": "bg-green-700 text-lime-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/YuYuHakusho_F1.webp",
@@ -12751,6 +13091,8 @@
         "anime_imageTop": "/assets/YuYuHakusho_poster.webp",
         "classNav": "bg-green-700 text-lime-950",
         "backNav": "bg-greener-650",
+        "searchNav": "bg-green-700 text-lime-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/YuYuHakushoS1.webp",
@@ -12818,6 +13160,8 @@
         "anime_imageTop": "/assets/scan/yuyuhakusho_scan.webp",
         "classNav": "bg-green-700 text-lime-950",
         "backNav": "bg-greener-650",
+        "searchNav": "bg-green-700 text-lime-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-green-700 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/YuYuHakusho1.webp",
@@ -12950,6 +13294,8 @@
     "imageTop": "/assets/Undead_Top.webp",
     "navClass": "bg-pink-400 text-sky-500",
     "back": "bg-skyer-600",
+    "search": "bg-pink-400 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Undead_poster.webp",
@@ -13013,6 +13359,8 @@
         "anime_imageTop": "",
         "classNav": "bg-pink-400 text-sky-500",
         "backNav": "bg-skyer-600",
+        "searchNav": "bg-pink-400 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -13033,6 +13381,8 @@
         "anime_imageTop": "/assets/Undead_poster.webp",
         "classNav": "bg-pink-400 text-sky-500",
         "backNav": "bg-skyer-600",
+        "searchNav": "bg-pink-400 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/UndeadS1.webp",
@@ -13088,6 +13438,8 @@
         "anime_imageTop": "/assets/scan/undead_scan.webp",
         "classNav": "bg-pink-400 text-sky-500",
         "backNav": "bg-skyer-600",
+        "searchNav": "bg-pink-400 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Undead1.webp",
@@ -13216,6 +13568,8 @@
     "imageTop": "/assets/AClassroom_first.webp",
     "navClass": "bg-yellow-300 text-neutral-950",
     "back": "bg-yellower-600",
+    "search": "bg-yellow-300 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-300 border-t-0",
     "imageShow": [
       {
         "img": "/assets/A_Classroom_poster.webp",
@@ -13283,6 +13637,8 @@
         "anime_imageTop": "/assets/A_Classroom_FILMS.webp",
         "classNav": "bg-yellow-300 text-neutral-950",
         "backNav": "bg-yellower-600",
+        "searchNav": "bg-yellow-300 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-300 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/AClassroom_F1.webp",
@@ -13338,6 +13694,8 @@
         "anime_imageTop": "/assets/A_Classroom_poster.webp",
         "classNav": "bg-yellow-300 text-neutral-950",
         "backNav": "bg-yellower-600",
+        "searchNav": "bg-yellow-300 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-300 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/AClassroomS1.webp",
@@ -13397,6 +13755,8 @@
         "anime_imageTop": "/assets/scan/a_classroom_scan.webp",
         "classNav": "bg-yellow-300 text-neutral-950",
         "backNav": "bg-yellower-600",
+        "searchNav": "bg-yellow-300 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-300 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/AClassroom1.webp",
@@ -13537,6 +13897,8 @@
     "imageTop": "/assets/ReZero_top.webp",
     "navClass": "bg-violet-600 text-slate-50",
     "back": "bg-purple-400",
+    "search": "bg-violet-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/ReZero_poster.webp",
@@ -13600,6 +13962,8 @@
         "anime_imageTop": "",
         "classNav": "bg-violet-600 text-slate-50",
         "backNav": "bg-purple-400",
+        "searchNav": "bg-violet-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-600 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -13620,6 +13984,8 @@
         "anime_imageTop": "/assets/ReZero_poster.webp",
         "classNav": "bg-violet-600 text-slate-50",
         "backNav": "bg-purple-400",
+        "searchNav": "bg-violet-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ReZeroS1.webp",
@@ -13679,6 +14045,8 @@
         "anime_imageTop": "/assets/scan/rezero_scan.webp",
         "classNav": "bg-violet-600 text-slate-50",
         "backNav": "bg-purple-400",
+        "searchNav": "bg-violet-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-violet-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/ReZero1.webp",
@@ -13815,6 +14183,8 @@
     "imageTop": "/assets/Sword_first.webp",
     "navClass": "bg-slate-50 text-fuchsia-500",
     "back": "bg-zinc-200",
+    "search": "bg-slate-50 text-fuchsia-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Sword_poster.webp",
@@ -13874,6 +14244,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-fuchsia-500",
         "backNav": "bg-zinc-200",
+        "searchNav": "bg-slate-50 text-fuchsia-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -13894,6 +14266,8 @@
         "anime_imageTop": "/assets/Sword_poster.webp",
         "classNav": "bg-slate-50 text-fuchsia-500",
         "backNav": "bg-zinc-200",
+        "searchNav": "bg-slate-50 text-fuchsia-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/SwordS1.webp",
@@ -13949,6 +14323,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-fuchsia-500",
         "backNav": "bg-zinc-200",
+        "searchNav": "bg-slate-50 text-fuchsia-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -13974,6 +14350,8 @@
     "imageTop": "/assets/Irregular_first.webp",
     "navClass": "bg-slate-50 text-emerald-500",
     "back": "bg-emerald-300",
+    "search": "bg-slate-50 text-emerald-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Irregular_poster.webp",
@@ -14037,6 +14415,8 @@
         "anime_imageTop": "/assets/Irregular_FILMS.webp",
         "classNav": "bg-slate-50 text-emerald-500",
         "backNav": "bg-emerald-300",
+        "searchNav": "bg-slate-50 text-emerald-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Irregular_F1.webp",
@@ -14092,6 +14472,8 @@
         "anime_imageTop": "/assets/Irregular_poster.webp",
         "classNav": "bg-slate-50 text-emerald-500",
         "backNav": "bg-emerald-300",
+        "searchNav": "bg-slate-50 text-emerald-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/IrregularS1.webp",
@@ -14155,6 +14537,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-emerald-500",
         "backNav": "bg-emerald-300",
+        "searchNav": "bg-slate-50 text-emerald-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -14180,6 +14564,8 @@
     "imageTop": "https://c.wallhere.com/photos/c5/36/anime_anime_girls_anime_boys_Isekai_wa_Smartphone_to_Tomo_ni_Mochizuki_Touya_Yumina_Urnea_Belfast_Sushie_Urnea_Ortlinde_Linze_Silhoueska-1397671.jpg!d",
     "navClass": "bg-pink-400 text-slate-50",
     "back": "bg-zinc-100",
+    "search": "bg-pink-400 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Smartphone_poster.webp",
@@ -14239,6 +14625,8 @@
         "anime_imageTop": "",
         "classNav": "bg-pink-400 text-slate-50",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-pink-400 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -14259,6 +14647,8 @@
         "anime_imageTop": "/assets/Smartphone_poster.webp",
         "classNav": "bg-pink-400 text-slate-50",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-pink-400 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/SmartphoneS1.webp",
@@ -14318,6 +14708,8 @@
         "anime_imageTop": "",
         "classNav": "bg-pink-400 text-slate-50",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-pink-400 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-400 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -14343,6 +14735,8 @@
     "imageTop": "/assets/Arifureta_Top.webp",
     "navClass": "bg-neutral-800 text-red-600",
     "back": "bg-blacker-8",
+    "search": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Arifureta_poster.webp",
@@ -14406,6 +14800,8 @@
         "anime_imageTop": "",
         "classNav": "bg-neutral-800 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -14426,6 +14822,8 @@
         "anime_imageTop": "/assets/Arifureta_poster.webp",
         "classNav": "bg-neutral-800 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/ArifuretaS1.webp",
@@ -14485,6 +14883,8 @@
         "anime_imageTop": "/assets/scan/arifureta_scan.webp",
         "classNav": "bg-neutral-800 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Arifureta1.webp",
@@ -14589,6 +14989,8 @@
     "imageTop": "/assets/GoblinSlayer_first.webp",
     "navClass": "bg-neutral-800 text-red-600",
     "back": "bg-blacker-8",
+    "search": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/GoblinSlayer_poster.webp",
@@ -14652,6 +15054,8 @@
         "anime_imageTop": "",
         "classNav": "bg-neutral-800 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -14672,6 +15076,8 @@
         "anime_imageTop": "/assets/GoblinSlayer_poster.webp",
         "classNav": "bg-neutral-800 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/GoblinSlayerS1.webp",
@@ -14731,6 +15137,8 @@
         "anime_imageTop": "/assets/scan/goblinslayer_scan.webp",
         "classNav": "bg-neutral-800 text-red-600",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-neutral-800 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/GoblinSlayer1.webp",
@@ -14843,6 +15251,8 @@
     "imageTop": "/assets/Tsubasa_first.webp",
     "navClass": "bg-slate-50 text-sky-600",
     "back": "bg-zinc-100",
+    "search": "bg-slate-50 text-sky-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Tsubasa_poster.webp",
@@ -14906,6 +15316,8 @@
         "anime_imageTop": "",
         "classNav": "bg-slate-50 text-sky-600",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-slate-50 text-sky-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -14926,6 +15338,8 @@
         "anime_imageTop": "/assets/Tsubasa_poster.webp",
         "classNav": "bg-slate-50 text-sky-600",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-slate-50 text-sky-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/TsubasaS1.webp",
@@ -14993,6 +15407,8 @@
         "anime_imageTop": "/assets/scan/tsubasa_scan.webp",
         "classNav": "bg-slate-50 text-sky-600",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-slate-50 text-sky-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-slate-50 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Tsubasa1.webp",
@@ -15129,6 +15545,8 @@
     "imageTop": "/assets/Danmachi_first.webp",
     "navClass": "bg-skyer-500 text-slate-50",
     "back": "bg-skyer-950",
+    "search": "bg-skyer-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-skyer-500 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Danmachi_poster.webp",
@@ -15196,6 +15614,8 @@
         "anime_imageTop": "/assets/Danmachi_FILMS.webp",
         "classNav": "bg-skyer-500 text-slate-50",
         "backNav": "bg-skyer-950",
+        "searchNav": "bg-skyer-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-skyer-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/Danmachi_F1.webp",
@@ -15251,6 +15671,8 @@
         "anime_imageTop": "/assets/Danmachi_poster.webp",
         "classNav": "bg-skyer-500 text-slate-50",
         "backNav": "bg-skyer-950",
+        "searchNav": "bg-skyer-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-skyer-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/DanmachiS1.webp",
@@ -15318,6 +15740,8 @@
         "anime_imageTop": "/assets/scan/danmachi_scan.webp",
         "classNav": "bg-skyer-500 text-slate-50",
         "backNav": "bg-skyer-950",
+        "searchNav": "bg-skyer-500 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-skyer-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Danmachi1.webp",
@@ -15414,6 +15838,8 @@
     "imageTop": "/assets/Stone_first.webp",
     "navClass": "bg-stone-600 text-orange-600",
     "back": "bg-orange-700",
+    "search": "bg-stone-600 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-stone-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Stone_poster.webp",
@@ -15477,6 +15903,8 @@
         "anime_imageTop": "",
         "classNav": "bg-stone-600 text-orange-600",
         "backNav": "bg-orange-700",
+        "searchNav": "bg-stone-600 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-stone-600 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -15497,6 +15925,8 @@
         "anime_imageTop": "/assets/Stone_poster.webp",
         "classNav": "bg-stone-600 text-orange-600",
         "backNav": "bg-orange-700",
+        "searchNav": "bg-stone-600 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-stone-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/StoneS1.webp",
@@ -15560,6 +15990,8 @@
         "anime_imageTop": "/assets/scan/stone_scan.webp",
         "classNav": "bg-stone-600 text-orange-600",
         "backNav": "bg-orange-700",
+        "searchNav": "bg-stone-600 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-stone-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/Stone1.webp",
@@ -15696,6 +16128,8 @@
     "imageTop": "/assets/TWFA_first.webp",
     "navClass": "bg-neutral-950 text-red-600",
     "back": "bg-zinc-100",
+    "search": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/TWFA_poster.webp",
@@ -15755,6 +16189,8 @@
         "anime_imageTop": "",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -15775,6 +16211,8 @@
         "anime_imageTop": "/assets/TWFA_poster.webp",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/TWFAS1.webp",
@@ -15830,6 +16268,8 @@
         "anime_imageTop": "",
         "classNav": "bg-neutral-950 text-red-600",
         "backNav": "bg-zinc-100",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -15855,6 +16295,8 @@
     "imageTop": "/assets/7deadly_first.webp",
     "navClass": "bg-lime-600 text-orange-500",
     "back": "bg-green-300",
+    "search": "bg-lime-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-lime-600 border-t-0",
     "imageShow": [
       {
         "img": "/assets/7Sins_poster.webp",
@@ -15926,6 +16368,8 @@
         "anime_imageTop": "/assets/7Sins_FILMS.webp",
         "classNav": "bg-lime-600 text-orange-500",
         "backNav": "bg-green-300",
+        "searchNav": "bg-lime-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-lime-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/films/7Sins_F1.webp",
@@ -15989,6 +16433,8 @@
         "anime_imageTop": "/assets/7Sins_poster.webp",
         "classNav": "bg-lime-600 text-orange-500",
         "backNav": "bg-green-300",
+        "searchNav": "bg-lime-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-lime-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/7SinsS1.webp",
@@ -16056,6 +16502,8 @@
         "anime_imageTop": "/assets/scan/7sins_scan.webp",
         "classNav": "bg-lime-600 text-orange-500",
         "backNav": "bg-green-300",
+        "searchNav": "bg-lime-600 text-orange-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-lime-600 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/7Sins1.webp",
@@ -16192,6 +16640,8 @@
     "imageTop": "/assets/SoulEater_first.webp",
     "navClass": "bg-yellow-500 text-neutral-950 ",
     "back": "bg-blacker-8",
+    "search": "bg-yellow-500 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-500 border-t-0",
     "imageShow": [
       {
         "img": "/assets/SoulEater_poster.webp",
@@ -16259,6 +16709,8 @@
         "anime_imageTop": "",
         "classNav": "bg-yellow-500 text-neutral-950",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-yellow-500 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-500 border-t-0",
         "imageSee": [
           {
             "images": "",
@@ -16279,6 +16731,8 @@
         "anime_imageTop": "/assets/SoulEater_poster.webp",
         "classNav": "bg-yellow-500 text-neutral-950",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-yellow-500 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/series/SoulEaterS1.webp",
@@ -16334,6 +16788,8 @@
         "anime_imageTop": "/assets/scan/souleater_scan.webp",
         "classNav": "bg-yellow-500 text-neutral-950",
         "backNav": "bg-blacker-8",
+        "searchNav": "bg-yellow-500 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-yellow-500 border-t-0",
         "imageSee": [
           {
             "images": "/assets/scan/ScanAll/SoulEater1.webp",
@@ -16464,62 +16920,14 @@
   },
   {
     "_id": {
-      "$oid": "6690f01be61a439b4cf4e74e"
-    },
-    "slug": "fytfyiu",
-    "imageTop": "/assets/test.webp",
-    "navClass": "bg-red-50 text-blue-700",
-    "back": "bg-slate-100",
-    "imageShow": [],
-    "titre": "text-blue-700",
-    "imageCarousel": [],
-    "animation": [
-      {
-        "animeId": "episodes",
-        "anime_imageCarousel": [
-          {
-            "anime_href": "kvbykuu",
-            "anime_image": "/assets/hkfyfjyfjy",
-            "anime_name": "cjfvbju",
-            "_id": {
-              "$oid": "6690f01be61a439b4cf4e750"
-            }
-          }
-        ],
-        "anime_imageTop": "/assets/hahaha.webp",
-        "anime_titre": "text-slate-50",
-        "backNav": "bg-blue-700",
-        "classNav": "bg-red-50 text-blue-700",
-        "imageSee": [
-          {
-            "href": "to-the-moon",
-            "images": "/assets/logo",
-            "_id": {
-              "$oid": "6690f01be61a439b4cf4e751"
-            }
-          }
-        ],
-        "_id": {
-          "$oid": "6690f01be61a439b4cf4e74f"
-        }
-      }
-    ],
-    "createdAt": {
-      "$date": "2024-07-12T08:58:03.884Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-12T08:58:03.884Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "669422ebb33ddeee412ab584"
     },
     "slug": "mission-yozakura-family",
     "imageTop": "/assets/Yozakura_Top.webp",
     "navClass": "bg-indigo-800 text-slate-50",
     "back": "bg-blue-800",
+    "search": "bg-indigo-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Yozakura_poster.webp",
@@ -16616,6 +17024,8 @@
         "anime_imageCarousel": [],
         "anime_imageTop": "",
         "anime_titre": "text-fuchsia-600 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-indigo-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-800 border-t-0",
         "backNav": "bg-blue-800",
         "classNav": "bg-indigo-800 text-slate-50",
         "imageSee": [],
@@ -16693,6 +17103,8 @@
         ],
         "anime_imageTop": "/assets/Yozakura_poster.webp",
         "anime_titre": "text-fuchsia-600 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-indigo-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-800 border-t-0",
         "backNav": "bg-blue-800",
         "classNav": "bg-indigo-800 text-slate-50",
         "imageSee": [
@@ -16778,6 +17190,8 @@
         ],
         "anime_imageTop": "/assets/scan/yozakura_scan.webp",
         "anime_titre": "text-fuchsia-600 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-indigo-800 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-800 border-t-0",
         "backNav": "bg-blue-800",
         "classNav": "bg-indigo-800 text-slate-50",
         "imageSee": [
@@ -16943,6 +17357,8 @@
     "imageTop": "/assets/Dbz_Top.webp",
     "navClass": "bg-blue-800 text-yellow-300",
     "back": "bg-orange-500",
+    "search": "bg-blue-800 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/Dbz_poster.webp",
@@ -17104,6 +17520,8 @@
         ],
         "anime_imageTop": "/assets/Dbz_FILMS.webp",
         "anime_titre": "text-blue-700 text-2xl pb-2.5",
+        "searchNav": "bg-blue-800 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
         "backNav": "bg-orange-500",
         "classNav": "bg-blue-800 text-yellow-300",
         "imageSee": [
@@ -17287,6 +17705,8 @@
         ],
         "anime_imageTop": "/assets/Dbz_poster.webp",
         "anime_titre": "text-blue-700 text-2xl pb-2.5",
+        "searchNav": "bg-blue-800 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
         "backNav": "bg-orange-500",
         "classNav": "bg-blue-800 text-yellow-300",
         "imageSee": [
@@ -17428,6 +17848,8 @@
         ],
         "anime_imageTop": "/assets/scan/dbz_scan.webp",
         "anime_titre": "text-blue-700 text-2xl pb-2.5",
+        "searchNav": "bg-blue-800 text-yellow-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-800 border-t-0",
         "backNav": "bg-orange-500",
         "classNav": "bg-blue-800 text-yellow-300",
         "imageSee": [
@@ -17593,6 +18015,8 @@
     "imageTop": "/assets/FT100Years_Top.webp",
     "navClass": "bg-amber-200 text-pink-300",
     "back": "bg-yellower-700",
+    "search": "bg-amber-200 text-pink-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-200 border-t-0",
     "imageShow": [
       {
         "img": "/assets/FT100Years_poster.webp",
@@ -17682,6 +18106,8 @@
         "anime_imageCarousel": [],
         "anime_imageTop": "",
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-amber-200 text-pink-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-200 border-t-0",
         "backNav": "bg-yellower-700",
         "classNav": "bg-amber-200 text-pink-300",
         "imageSee": [],
@@ -17759,6 +18185,8 @@
         ],
         "anime_imageTop": "/assets/FT100Years_poster.webp",
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-amber-200 text-pink-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-200 border-t-0",
         "backNav": "bg-yellower-700",
         "classNav": "bg-amber-200 text-pink-300",
         "imageSee": [
@@ -17844,6 +18272,8 @@
         ],
         "anime_imageTop": "/assets/scan/ft100years_scan.webp",
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-amber-200 text-pink-300 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-amber-200 border-t-0",
         "backNav": "bg-yellower-700",
         "classNav": "bg-amber-200 text-pink-300",
         "imageSee": [
@@ -17988,6 +18418,8 @@
     "imageTop": "/assets/BlueExorcist_Top.webp",
     "navClass": "bg-neutral-800 text-blue-500",
     "back": "bg-neutral-800",
+    "search": "bg-neutral-800 text-blue-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
     "imageShow": [
       {
         "img": "/assets/BlueExorcist_poster.webp",
@@ -18156,6 +18588,8 @@
         ],
         "anime_imageTop": "/assets/BlueExorcist_FILMS.webp",
         "anime_titre": "text-blue-500 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-800 text-blue-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "backNav": "bg-neutral-800",
         "classNav": "bg-neutral-800 text-blue-500",
         "imageSee": [
@@ -18241,6 +18675,8 @@
         ],
         "anime_imageTop": "/assets/BlueExorcist_poster.webp",
         "anime_titre": "text-blue-500 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-800 text-blue-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "backNav": "bg-neutral-800",
         "classNav": "bg-neutral-800 text-blue-500",
         "imageSee": [
@@ -18340,6 +18776,8 @@
         ],
         "anime_imageTop": "/assets/scan/bluexorcist_scan.webp",
         "anime_titre": "text-blue-500 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-800 text-blue-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-800 border-t-0",
         "backNav": "bg-neutral-800",
         "classNav": "bg-neutral-800 text-blue-500",
         "imageSee": [
@@ -18505,6 +18943,8 @@
     "imageTop": "/assets/CodeGeass_Top.webp",
     "navClass": "bg-neutral-950 text-amber-400",
     "back": "bg-purple-900",
+    "search": "bg-neutral-950 text-amber-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/CodeGeass_poster.webp",
@@ -18673,6 +19113,8 @@
         ],
         "anime_imageTop": "/assets/CodeGeass_FILMS.webp",
         "anime_titre": "text-rose-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-950 text-amber-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "backNav": "bg-purple-900",
         "classNav": "bg-neutral-950 text-amber-400",
         "imageSee": [
@@ -18779,6 +19221,8 @@
         ],
         "anime_imageTop": "/assets/CodeGeass_poster.webp",
         "anime_titre": "text-rose-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-950 text-amber-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "backNav": "bg-purple-900",
         "classNav": "bg-neutral-950 text-amber-400",
         "imageSee": [
@@ -18871,6 +19315,8 @@
         ],
         "anime_imageTop": "/assets/scan/codegeass_scan.webp",
         "anime_titre": "text-rose-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-950 text-amber-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "backNav": "bg-purple-900",
         "classNav": "bg-neutral-950 text-amber-400",
         "imageSee": [
@@ -18952,6 +19398,8 @@
     "imageTop": "/assets/5seconds_first.webp",
     "navClass": "bg-neutral-950 text-red-600",
     "back": "bg-slate-700",
+    "search": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
     "imageShow": [
       {
         "img": "/assets/5seconds_poster.webp",
@@ -19048,6 +19496,8 @@
         "anime_imageCarousel": [],
         "anime_imageTop": "",
         "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "backNav": "bg-slate-700",
         "classNav": "bg-neutral-950 text-red-600",
         "imageSee": [],
@@ -19125,6 +19575,8 @@
         ],
         "anime_imageTop": "/assets/5seconds_poster.webp",
         "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "backNav": "bg-slate-700",
         "classNav": "bg-neutral-950 text-red-600",
         "imageSee": [
@@ -19210,6 +19662,8 @@
         ],
         "anime_imageTop": "/assets/scan/5seconds_scan.webp",
         "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-950 text-red-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-950 border-t-0",
         "backNav": "bg-slate-700",
         "classNav": "bg-neutral-950 text-red-600",
         "imageSee": [
@@ -19375,6 +19829,8 @@
     "imageTop": "/assets/BerserkGlouttony_Top.webp",
     "navClass": "bg-neutral-700 text-red-700",
     "back": "bg-neutral-700",
+    "search": "bg-neutral-700 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-700 border-t-0",
     "imageShow": [
       {
         "img": "/assets/BerserkGlouttony_first.webp",
@@ -19471,6 +19927,8 @@
         "anime_imageCarousel": [],
         "anime_imageTop": "",
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-700 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-700 border-t-0",
         "backNav": "bg-neutral-700",
         "classNav": "bg-neutral-700 text-red-700",
         "imageSee": [],
@@ -19548,6 +20006,8 @@
         ],
         "anime_imageTop": "/assets/BerserkGlouttony_first.webp",
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-700 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-700 border-t-0",
         "backNav": "bg-neutral-700",
         "classNav": "bg-neutral-700 text-red-700",
         "imageSee": [
@@ -19633,6 +20093,8 @@
         ],
         "anime_imageTop": "/assets/scan/berserkglouttony_scan.webp",
         "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-neutral-700 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-700 border-t-0",
         "backNav": "bg-neutral-700",
         "classNav": "bg-neutral-700 text-red-700",
         "imageSee": [
@@ -19703,6 +20165,294 @@
     },
     "updatedAt": {
       "$date": "2024-07-18T12:52:48.110Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669a37af4ee5905afbfd4320"
+    },
+    "slug": "boruto-two-blue-vortex",
+    "imageTop": "/assets/BorutoTwoBlueVortex_Top.webp",
+    "navClass": "bg-blacker-200 text-sky-500",
+    "back": "bg-neutral-800",
+    "search": "bg-blacker-200 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/scan/borutovortex_scan.webp",
+        "url": "boruto-two-blue-vortex/scans",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4321"
+        }
+      }
+    ],
+    "titre": "text-pinker-400 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/Boruto_poster.webp",
+        "name": "Boruto",
+        "url": "/manga/boruto",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4322"
+        }
+      },
+      {
+        "image": "/assets/Naruto_first.webp",
+        "name": "Naruto",
+        "url": "/manga/naruto",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4323"
+        }
+      },
+      {
+        "image": "/assets/shippuden.webp",
+        "name": "Naruto Shippuden",
+        "url": "/manga/naruto-shippuden",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4324"
+        }
+      },
+      {
+        "image": "/assets/OP_poster.webp",
+        "name": "One Piece",
+        "url": "/manga/one-piece",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4325"
+        }
+      },
+      {
+        "image": "/assets/JJK_poster.webp",
+        "name": "Jujustu Kaisen",
+        "url": "/manga/jujustu-kaisen",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4326"
+        }
+      },
+      {
+        "image": "/assets/DBS.webp",
+        "name": "Dragon Ball Super",
+        "url": "/manga/dragon-ball-super",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4327"
+        }
+      },
+      {
+        "image": "/assets/FT100Years_poster.webp",
+        "name": "Fairy Tail : 100 Years Quest",
+        "url": "/manga/fairy-tail-100-years-quest",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4328"
+        }
+      },
+      {
+        "image": "/assets/VinlandSaga_poster.webp",
+        "name": "Vinland Saga",
+        "url": "/manga/vinland-saga",
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd4329"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageCarousel": [],
+        "anime_imageTop": "",
+        "anime_titre": "text-pinker-400 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-blacker-200 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
+        "backNav": "bg-neutral-800",
+        "classNav": "bg-blacker-200 text-sky-500",
+        "imageSee": [],
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd432a"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageCarousel": [],
+        "anime_imageTop": "",
+        "anime_titre": "text-pinker-400 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-blacker-200 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
+        "backNav": "bg-neutral-800",
+        "classNav": "bg-blacker-200 text-sky-500",
+        "imageSee": [],
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd432b"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/boruto/scans",
+            "anime_image": "/assets/scan/boruto_scan.webp",
+            "anime_name": "Boruto",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd432d"
+            }
+          },
+          {
+            "anime_href": "/manga/naruto/scans",
+            "anime_image": "/assets/scan/naruto_scan.webp",
+            "anime_name": "Naruto",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd432e"
+            }
+          },
+          {
+            "anime_href": "/manga/naruto-shippuden/scans",
+            "anime_image": "/assets/scan/shippuden_scan.webp",
+            "anime_name": "Naruto Shippuden",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd432f"
+            }
+          },
+          {
+            "anime_href": "/manga/one-piece/scans",
+            "anime_image": "/assets/scan/onepiece_scan.webp",
+            "anime_name": "One Piece",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4330"
+            }
+          },
+          {
+            "anime_href": "/manga/jujustu-kaisen/scans",
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4331"
+            }
+          },
+          {
+            "anime_href": "/manga/dragon-ball-super/scans",
+            "anime_image": "/assets/scan/dbs_scan.webp",
+            "anime_name": "Dragon Ball Super",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4332"
+            }
+          },
+          {
+            "anime_href": "/manga/fairy-tail-100-years-quest/scans",
+            "anime_image": "/assets/scan/ft100years_scan.webp",
+            "anime_name": "Fairy Tail : 100 Years Quest",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4333"
+            }
+          },
+          {
+            "anime_href": "/manga/vinland-saga/scans",
+            "anime_image": "/assets/scan/vinlandsaga_scan.webp",
+            "anime_name": "Vinland Saga",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4334"
+            }
+          }
+        ],
+        "anime_imageTop": "/assets/scan/borutovortex_scan.webp",
+        "anime_titre": "text-pinker-400 text-2xl pb-2.5 ml-2",
+        "searchNav": "bg-blacker-200 text-sky-500 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blacker-200 border-t-0",
+        "backNav": "bg-neutral-800",
+        "classNav": "bg-blacker-200 text-sky-500",
+        "imageSee": [
+          {
+            "href": "chapitre-1",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex1.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4335"
+            }
+          },
+          {
+            "href": "chapitre-2",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex2.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4336"
+            }
+          },
+          {
+            "href": "chapitre-3",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex3.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4337"
+            }
+          },
+          {
+            "href": "chapitre-4",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex4.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4338"
+            }
+          },
+          {
+            "href": "chapitre-5",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex5.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4339"
+            }
+          },
+          {
+            "href": "chapitre-6",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex6.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd433a"
+            }
+          },
+          {
+            "href": "chapitre-7",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex7.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd433b"
+            }
+          },
+          {
+            "href": "chapitre-8",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex8.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd433c"
+            }
+          },
+          {
+            "href": "chapitre-9",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex9.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd433d"
+            }
+          },
+          {
+            "href": "chapitre-10",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex10.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd433e"
+            }
+          },
+          {
+            "href": "chapitre-11",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex11.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd433f"
+            }
+          },
+          {
+            "href": "chapitre-12",
+            "images": "/assets/scan/ScanAll/TwoBlueVortex12.webp",
+            "_id": {
+              "$oid": "669a37af4ee5905afbfd4340"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "669a37af4ee5905afbfd432c"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-19T09:53:51.731Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-19T09:53:51.731Z"
     },
     "__v": 0
   }

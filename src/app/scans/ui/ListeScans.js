@@ -4,6 +4,8 @@ import Link from "next/link";
 import Footer from "@/app/ui/Footer";
 import { getListeScans } from "../../../../_actions/postAction";
 import Navbar from "@/app/accueil/ui/NavBar";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function ListeScans() {
   const [data, setData] = useState(null);
@@ -29,9 +31,82 @@ function ListeScans() {
     return <div>Loading...</div>;
   }
 
+  const dataImage = [
+    {
+      image: "/assets/TopScreen/Scan/one_piece.webp",
+      name: "One Piece",
+      url: "/manga/one-piece",
+    },
+    {
+      image: "/assets/TopScreen/Scan/boruto.webp",
+      name: "Boruto Two Blue Vortex",
+      url: "/manga/boruto-two-blue-vortex",
+    },
+    {
+      image: "/assets/TopScreen/Scan/fairy_tail.webp",
+      name: "Fairy Tail : 100 Years Quest",
+      url: "/manga/fairy-tail-100-years-quest",
+    },
+    {
+      image: "/assets/TopScreen/Episodes/mha.webp",
+      name: "My Hero Academia",
+      url: "/manga/my-hero-academia",
+    },
+    {
+      image: "/assets/TopScreen/Scan/sakamoto_days.webp",
+      name: "Sakamoto Days",
+      url: "/manga/sakamoto-days",
+    },
+    {
+      image: "/assets/TopScreen/Scan/jjk.webp",
+      name: "Jujustu Kaisen",
+      url: "/manga/jujustu-kaisen",
+    },
+    {
+      image: "/assets/TopScreen/Scan/undead_unluck.webp",
+      name: "Undead Unluck",
+      url: "/manga/undead-unluck",
+    },
+    {
+      image: "/assets/TopScreen/Scan/kaiju8.webp",
+      name: "Kaiju n°8",
+      url: "/manga/kaiju-no-8",
+    },
+    {
+      image: "/assets/TopScreen/Scan/jojo.webp",
+      name: "Jojo's Bizarre Adventure: The Jojolands",
+      url: "/manga/jojo-bizarre-adventure",
+    },
+  ];
+
   return (
     <div className="bg-gradient-to-b from-skyer-500 to-skyer-950">
-      <Navbar className="bg-teal-900 text-white" />
+      <Navbar className="bg-teal-900 text-white" liste="bg-teal-900 text-white absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-teal-900 border-t-0" />
+
+      <div>
+        <Carousel
+          autoPlay
+          infiniteLoop
+          interval={5000}
+          showThumbs={false}
+          showStatus={false}
+          centerMode
+          centerSlidePercentage={70}
+        >
+          {dataImage.map((imgScreen, index) => {
+            return (
+              <div key={index}>
+                <img src={imgScreen.image} alt={imgScreen.name} />
+
+                <p className="legend">
+                  <Link href={imgScreen.url}>{imgScreen.name}</Link>
+                </p>
+              </div>
+            );
+          })}
+        </Carousel>
+      </div>
+
       <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid md:grid-cols-3 md:gap-4 md:m-auto md:items-center xl:grid xl:grid-cols-5">
         {data.map((select, i) => {
           return (

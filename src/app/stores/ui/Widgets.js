@@ -5,13 +5,13 @@ export default function Widgets() {
   const widget = [
     {
       image:
-        "/assets/boutiques/figurines/4573102637369_figure-megumi-fushiguro-jujutsu-kaisen-figuarts-primary.jpg",
+        "/assets/boutiques/figurines/jjk/4573102637369_figure-megumi-fushiguro-jujutsu-kaisen-figuarts-primary.jpg",
       name: "Shop Clothes",
       url: "/stores/clothes",
     },
     {
       image:
-        "/assets/boutiques/figurines/4573102652423_figure-frieza-2nd-form-ball-battle-on-planet-namek-ver-dbz-ichiban-primary.jpg",
+        "/assets/boutiques/figurines/dbz/4573102652423_figure-frieza-2nd-form-ball-battle-on-planet-namek-ver-dbz-ichiban-primary.jpg",
       name: "Shop Manga",
       url: "/stores/manga-livres",
     },
@@ -26,13 +26,13 @@ export default function Widgets() {
   const widget2 = [
     {
       image:
-        "/assets/boutiques/figurines/4537807070722_kaiju-no-8-kaiju-no-8-vs-kaiju-no-9-118-scale-figure-set_1.jpg",
+        "/assets/boutiques/figurines/kaijun8/4537807070722_kaiju-no-8-kaiju-no-8-vs-kaiju-no-9-118-scale-figure-set_1.jpg",
       name: "Shop Figurines",
       url: "/stores/collections",
     },
     {
       image:
-        "/assets/boutiques/figurines/4537807070722_kaiju-no-8-kaiju-no-8-vs-kaiju-no-9-118-scale-figure-set_1.jpg",
+        "/assets/boutiques/figurines/kaijun8/4537807070722_kaiju-no-8-kaiju-no-8-vs-kaiju-no-9-118-scale-figure-set_1.jpg",
       name: "Shop Figurines",
       url: "/stores/collections",
     },

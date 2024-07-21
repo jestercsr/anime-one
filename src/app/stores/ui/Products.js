@@ -5,70 +5,70 @@ export default function Products() {
   const produits = [
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,
     },
     {
       image:
-        "/assets/boutiques/figurines/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
+        "/assets/boutiques/figurines/onepiece/4535123716454_one-piece-luffy-ace-portraitofpirates-neo-maximum-figure-set-bond-between-brothers-20th-limited-ver_1.jpg",
       titre: "One Piece - Luffy & Ace 20th Limited Version",
       add: "Ajouter au Panier",
       prix: 200.99,

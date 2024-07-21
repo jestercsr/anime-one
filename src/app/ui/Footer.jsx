@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -11,7 +10,7 @@ export default function Footer() {
         <img
           src="/assets/LogoAnimeONE/logoAnimeOneAlt2.webp"
           alt="logoFooter"
-          className="w-[30%] m-auto lg:w-1/12"
+          className="w-[10%] lg:w-[8%] m-auto md:w-[15%]"
         />
       </Link>
       <div className="grid grid-cols-3  mb-5 mr-2 ml-2 text-xs md:text-md lg:text-lg">
@@ -30,8 +29,10 @@ export default function Footer() {
       </div>
       <div className="flex flex-row justify-center mb-5 mr-2 ml-2 text-xs md:text-md lg:text-lg">
         <img src="/assets/world.svg" alt="iconeWorld" className="w-1/10" />
-        <button>Français</button>
-        <ChevronDown />
+        <select className="bg-blacker-950">
+          <option value="Français" defaultValue="Français">Français</option>
+          <option value="Anglais">English</option>
+        </select>
       </div>
       <div className="grid grid-rows-2 text-center text-xs md:text-md lg:text-lg">
         <p className="mr-2 ml-2">

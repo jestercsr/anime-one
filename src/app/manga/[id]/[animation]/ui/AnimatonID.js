@@ -81,6 +81,8 @@ export default function PageAnimeID({ props, animation }) {
     const {
       backNav,
       classNav,
+      searchNav,
+      listeSearchNav,
       anime_imageTop,
       imageSee,
       anime_titre,
@@ -88,7 +90,7 @@ export default function PageAnimeID({ props, animation }) {
     } = data.animation[1];
     return (
       <div className={backNav}>
-        <Navbar className={classNav} />
+        <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
         <div className="h-4/5 justify-center m-auto flex">
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
         </div>
@@ -149,17 +151,16 @@ export default function PageAnimeID({ props, animation }) {
     const {
       backNav,
       classNav,
+      searchNav,
+      listeSearchNav,
       anime_imageTop,
       imageSee,
       anime_titre,
       anime_imageCarousel,
     } = data.animation[2];
-
-    console.log(imageSee);
-
     return (
       <div className={backNav}>
-        <Navbar className={classNav} />
+        <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
         <div className="h-4/5 justify-center m-auto flex">
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
         </div>
@@ -222,15 +223,16 @@ export default function PageAnimeID({ props, animation }) {
   const {
     backNav,
     classNav,
+    searchNav,
+    listeSearchNav,
     anime_imageTop,
     imageSee,
     anime_titre,
     anime_imageCarousel,
   } = data.animation[0];
-
   return (
     <div className={backNav}>
-      <Navbar className={classNav} />
+      <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
       <div className="h-4/5 justify-center m-auto flex">
         <img src={anime_imageTop} className="w-9/12 h-5/6" />
       </div>

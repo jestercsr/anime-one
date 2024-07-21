@@ -57,7 +57,7 @@ function MangaListe({ props }) {
 
   return (
     <div className={data?.back}>
-      <Navbar className={data?.navClass} />
+      <Navbar className={data?.navClass} liste={data?.search} listing={data?.listeSearch}/>
         <div className="h-4/5 justify-center m-auto flex">
           <img src={data?.imageTop} className="w-9/12 h-5/6" />
         </div>

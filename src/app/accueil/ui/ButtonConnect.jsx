@@ -9,31 +9,31 @@ export function ButtonConnect() {
       id: 1,
       titre: "Séries",
       url: "/series",
-      picture: "/assets/Kuroko_API.webp",
+      picture: "/assets/jump_1.webp",
     },
     {
       id: 2,
       titre: "Films",
       url: "/films",
-      picture: "/assets/Kuroko_FILMS.webp",
+      picture: "/assets/jump_2.webp",
     },
     {
       id: 3,
       titre: "Scans",
       url: "/scans",
-      picture: "/assets/Kuroko_poster.webp",
+      picture: "/assets/jump_3.webp",
     },
     {
       id: 4,
       titre: "Boutique",
       url: "/stores",
-      picture: "/assets/scan/kuroko_scan.webp",
+      picture: "/assets/jump_4.webp",
     },
     {
       id: 5,
       titre: "Feeds",
       url: "/feeds",
-      picture: "/assets/shippuden.webp",
+      picture: "/assets/jump_5.webp",
     },
   ];
 

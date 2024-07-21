@@ -140,9 +140,9 @@ export default function Navbar(props) {
                 <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200" />
               </button>
               {searchTerm && filteredData.length > 0 && (
-                <ul className="absolute left-0 w-full bg-cyan-900 divide-y-2 divide-slate-50 text-slate-50 border-gray-300 mt-1 z-10 list-none">
+                <ul className={props.liste}>
                   {filteredData.map((manga, i) => (
-                    <li key={i} className="cursor-pointer p-2 hover:bg-gray-200 hover:text-cyan-900  border-t-0">
+                    <li key={i} className={props.listing}>
                       <Link href={`/manga/${manga.url}`}>{manga.name}
                       </Link>
                     </li>
