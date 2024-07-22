@@ -20455,5 +20455,341 @@
       "$date": "2024-07-19T09:53:51.731Z"
     },
     "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669e6cfc17353c1acd026602"
+    },
+    "slug": "oshi-no-ko",
+    "imageTop": "/assets/OshiNoKo_Top.webp",
+    "navClass": "bg-pink-500 text-indigo-900",
+    "back": "bg-pink-200",
+    "search": "bg-pink-500 text-indigo-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-500 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/OshiNoKo_poster.webp",
+        "url": "oshi-no-ko/episodes",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026603"
+        }
+      },
+      {
+        "img": "/assets/scan/oshinoko_scan.webp",
+        "url": "oshi-no-ko/scans",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026604"
+        }
+      },
+      {
+        "img": "/assets/OshiNoKo_API.webp",
+        "url": "https://oshinoko.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026605"
+        }
+      }
+    ],
+    "titre": "text-indigo-900 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/JJK_poster.webp",
+        "name": "Jujustu Kaisen",
+        "url": "/manga/jujustu-kaisen",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026606"
+        }
+      },
+      {
+        "image": "/assets/SpyFamily_poster.webp",
+        "name": "Spy x Family",
+        "url": "/manga/spy-x-family",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026607"
+        }
+      },
+      {
+        "image": "/assets/BlueLock_poster.webp",
+        "name": "Blue Lock",
+        "url": "/manga/blue-lock",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026608"
+        }
+      },
+      {
+        "image": "/assets/ChainsawMan_poster.webp",
+        "name": "Chainsaw Man",
+        "url": "/manga/chainsaw-man",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026609"
+        }
+      },
+      {
+        "image": "/assets/Frieren_poster.webp",
+        "name": "Frieren",
+        "url": "/manga/frieren",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd02660a"
+        }
+      },
+      {
+        "image": "/assets/MushokuTensei_poster.webp",
+        "name": "Mushoku Tensei",
+        "url": "/manga/mushoku-tensei",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd02660b"
+        }
+      },
+      {
+        "image": "/assets/DS_poster.webp",
+        "name": "Demon Slayer",
+        "url": "/manga/demon-slayer-kimetsu-no-yaiba",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd02660c"
+        }
+      },
+      {
+        "image": "/assets/Gintama_poster.webp",
+        "name": "Gintama",
+        "url": "/manga/gintama",
+        "_id": {
+          "$oid": "669e6cfc17353c1acd02660d"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-pink-500 text-indigo-900",
+        "backNav": "bg-pink-200",
+        "searchNav": "bg-pink-500 text-indigo-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-500 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-indigo-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "669e6cfc17353c1acd02660e"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/OshiNoKo_poster.webp",
+        "classNav": "bg-pink-500 text-indigo-900",
+        "backNav": "bg-pink-200",
+        "searchNav": "bg-pink-500 text-indigo-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-500 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/OshiNoKoS1.webp"
+          },
+          {
+            "href": "saison-2",
+            "images": "/assets/series/OshiNoKoS2.webp"
+          }
+        ],
+        "anime_titre": "text-indigo-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/jujustu-kaisen/episodes",
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026610"
+            }
+          },
+          {
+            "anime_href": "/manga/spy-x-family/episodes",
+            "anime_image": "/assets/SpyFamily_poster.webp",
+            "anime_name": "Spy x Family",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026611"
+            }
+          },
+          {
+            "anime_href": "/manga/blue-lock/episodes",
+            "anime_image": "/assets/BlueLock_poster.webp",
+            "anime_name": "Blue Lock",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026612"
+            }
+          },
+          {
+            "anime_href": "/manga/chainsaw-man/episodes",
+            "anime_image": "/assets/ChainsawMan_poster.webp",
+            "anime_name": "Chainsaw Man",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026613"
+            }
+          },
+          {
+            "anime_href": "/manga/frieren/episodes",
+            "anime_image": "/assets/Frieren_poster.webp",
+            "anime_name": "Frieren",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026614"
+            }
+          },
+          {
+            "anime_href": "/manga/mushoku-tensei/episodes",
+            "anime_image": "/assets/MushokuTensei_poster.webp",
+            "anime_name": "Mushoku Tensei",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026615"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/episodes",
+            "anime_image": "/assets/DS_poster.webp",
+            "anime_name": "Demon Slayer",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026616"
+            }
+          },
+          {
+            "anime_href": "/manga/gintama/episodes",
+            "anime_image": "/assets/Gintama_poster.webp",
+            "anime_name": "Gintama",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026617"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "669e6cfc17353c1acd02660f"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/oshinoko_scan.webp",
+        "classNav": "bg-pink-500 text-indigo-900",
+        "backNav": "bg-pink-200",
+        "searchNav": "bg-pink-500 text-indigo-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-pink-500 border-t-0",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/OshiNoKo1.webp"
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/OshiNoKo2.webp"
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/OshiNoKo3.webp"
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/OshiNoKo4.webp"
+          },
+          {
+            "href": "tome-5",
+            "images": "/assets/scan/ScanAll/OshiNoKo5.webp"
+          },
+          {
+            "href": "tome-6",
+            "images": "/assets/scan/ScanAll/OshiNoKo6.webp"
+          },
+          {
+            "href": "tome-7",
+            "images": "/assets/scan/ScanAll/OshiNoKo7.webp"
+          },
+          {
+            "href": "tome-8",
+            "images": "/assets/scan/ScanAll/OshiNoKo8.webp"
+          },
+          {
+            "href": "tome-9",
+            "images": "/assets/scan/ScanAll/OshiNoKo9.webp"
+          },
+          {
+            "href": "tome-10",
+            "images": "/assets/scan/ScanAll/OshiNoKo10.webp"
+          },
+          {
+            "href": "tome-11",
+            "images": "/assets/scan/ScanAll/OshiNoKo11.webp"
+          }
+        ],
+        "anime_titre": "text-indigo-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/jujustu-kaisen/scans",
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026619"
+            }
+          },
+          {
+            "anime_href": "/manga/spy-x-family/scans",
+            "anime_image": "/assets/scan/spy_scan.webp",
+            "anime_name": "Spy x Family",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd02661a"
+            }
+          },
+          {
+            "anime_href": "/manga/blue-lock/scans",
+            "anime_image": "/assets/scan/bluelock_scan.webp",
+            "anime_name": "Blue Lock",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd02661b"
+            }
+          },
+          {
+            "anime_href": "/manga/chainsaw-man/scans",
+            "anime_image": "/assets/scan/chainsawman_scan.webp",
+            "anime_name": "Chainsaw Man",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd02661c"
+            }
+          },
+          {
+            "anime_href": "/manga/frieren/scans",
+            "anime_image": "/assets/scan/frieren_scan.webp",
+            "anime_name": "Frieren",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd02661d"
+            }
+          },
+          {
+            "anime_href": "/manga/mushoku-tensei/scans",
+            "anime_image": "/assets/scan/mushokutensei_scan.webp",
+            "anime_name": "Mushoku Tensei",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd02661e"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans",
+            "anime_image": "/assets/scan/kimetsu_scan.webp",
+            "anime_name": "Demon Slayer",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd02661f"
+            }
+          },
+          {
+            "anime_href": "/manga/gintama/scans",
+            "anime_image": "/assets/scan/gintama_scan.webp",
+            "anime_name": "Gintama",
+            "_id": {
+              "$oid": "669e6cfc17353c1acd026620"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "669e6cfc17353c1acd026618"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-22T14:30:20.980Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-22T14:30:20.980Z"
+    },
+    "__v": 0
   }
 ]

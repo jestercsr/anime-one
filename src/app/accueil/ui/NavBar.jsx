@@ -174,7 +174,7 @@ export default function Navbar(props) {
           </ul>
         </section>
         <button onClick={toggleMenu} className="focus:outline-none flex float-right lg:hidden">
-          <Hamburger className="" />
+          <Hamburger />
         </button>
       </nav>
     </div>

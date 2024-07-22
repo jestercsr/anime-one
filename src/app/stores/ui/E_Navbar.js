@@ -1,6 +1,8 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import Link from "next/link";
-import { Search, ShoppingBag } from "lucide-react";
+import { Twirl as Hamburger } from 'hamburger-react'
+import { ShoppingBag } from "lucide-react";
 
 export default function E_Navbar() {
   const menuL = [
@@ -37,25 +39,33 @@ export default function E_Navbar() {
       href: "/stores/collections/promotions",
     },
   ];
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className="duration-200 z-40 bg-teal-900 text-slate-50 sticky">
-      <nav className="flex justify-between px-8 items-center py-2 top-0 left-0">
-        <div className="">
+    <div className="duration-200 z-40 bg-cyan-800 text-slate-50 sticky">
+      <nav className={`${isOpen? "flex justify-between": "flex justify-between lg:px-8 items-center lg:py-[4px] py-0"}`}>
+        <div className={`${isOpen?"flex gap-4": "flex items-center gap-4"}`}>
           <Link href={"/stores"}>
-            <div className="block w-20 tablet:hidden">
+            <div className="block w-20">
               <img src="/assets/LogoAnimeONE/LogoNavbar.webp" className="block w-full" />
             </div>
           </Link>
         </div>
 
-        <div className="hidden lg:block">
-          <ul className="flex items-center gap-4">
+        <section className={` ${isOpen ? "w-[50%] items-center flex-col" : "flex"}`}>
+        <div className={` ${isOpen ? "mt-10 justify-between" : "hidden lg:flex"}`}>
+          <ul className={`${isOpen? "flex-col items-center": "flex"} items-center gap-4`}>
             {menuL.map((data, i) => {
               return (
                 <li key={i}>
                   <Link
                     href={data.href}
-                    className="text-xs md:text-md lg:text-lg hover:text-sky-500 transition ease-in duration-300"
+                    className="text-center text-base md:text-lg lg:text-xl hover:text-sky-500 transition ease-in duration-300"
                   >
                     {data.name}
                   </Link>
@@ -65,21 +75,27 @@ export default function E_Navbar() {
           </ul>
         </div>
 
-        <div className="flex justify-between items-center gap-4">
-          <div className="relative group hidden md:block text-neutral-950">
+        <div className={`${isOpen?"": "flex items-center gap-4"}`}>
+          <div className={`${isOpen?"relative mt-14": "hidden"} lg:block lg:relative`}>
             <input
               type="text"
               placeholder="Rechercher..."
-              className="search-bar"
-            />
-            <Search className="absolute top-1/2 -translate-y-1/2 right-3 duration-200 text-slate-50 group-hover:text-neutral-950" />
-          </div>
-          <div className="relative">
+              className="max-h-60 overflow-y-auto z-10 text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-cyan-800 focus:border-2 outline-none px-[5px] text-neutral-800"
+             />
+          </div>                 
+        </div>
+        </section>
+
+        <div className={`${isOpen?"flex":"flex items-center"}`} >
+        <div className="relative">
             <ShoppingBag />
             <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">
               0
             </div>
-          </div>
+          </div> 
+        <button onClick={toggleMenu} className="focus:outline-none flex float-right lg:hidden">
+          <Hamburger />
+        </button>
         </div>
       </nav>
     </div>
