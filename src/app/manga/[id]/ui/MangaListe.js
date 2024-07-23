@@ -5,6 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
+import ReactLoading from 'react-loading';
 
 function MangaListe({ props }) {
   const [data, setData] = useState(null);
@@ -52,7 +53,7 @@ function MangaListe({ props }) {
   };
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
   }
 
   return (

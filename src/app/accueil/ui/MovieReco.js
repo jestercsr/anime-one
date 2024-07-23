@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { getMovieReco } from "../../../../_actions/postAction";
 import Link from "next/link";
+import ReactLoading from 'react-loading';
 
 export default function MovieReco() {
   const responsive = {
@@ -51,7 +52,7 @@ export default function MovieReco() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
   }
   return (
     <>

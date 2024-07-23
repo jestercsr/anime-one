@@ -6,6 +6,7 @@ import { getListeSeries } from "../../../../_actions/postAction";
 import Navbar from "@/app/accueil/ui/NavBar";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import ReactLoading from 'react-loading';
 
 function ListeSeries() {
   const [data, setData] = useState(null);
@@ -27,7 +28,7 @@ function ListeSeries() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
   }
 
   const dataImage = [

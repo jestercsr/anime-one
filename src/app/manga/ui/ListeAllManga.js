@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/app/ui/Footer";
 import { getListeAll } from "../../../../_actions/postAction";
+import ReactLoading from 'react-loading';
 
 function ListeAllManga() {
   const [data, setData] = useState(null);
@@ -24,7 +25,7 @@ function ListeAllManga() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="items-center"><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
   }
 
   return (

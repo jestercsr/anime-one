@@ -4,7 +4,7 @@ import MangaModel from "../../../../../models/testModel";
 
 export async function PUT(request, { params }) {
   const { slug } = params;
-  console.log('PUT request received with slug:', slug); // Ajoutez ce log
+  console.log('PUT request received with slug:', slug);
   try {
     const data = await request.json();
     await connectDB();
@@ -21,7 +21,7 @@ export async function PUT(request, { params }) {
 
 export async function GET(request, { params }) {
   const { slug } = params;
-  console.log('GET request received with slug:', slug); // Ajoutez ce log
+  console.log('GET request received with slug:', slug);
   try {
     await connectDB();
     const mangaName = await MangaModel.findOne({ slug: slug });

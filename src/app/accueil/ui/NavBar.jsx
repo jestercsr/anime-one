@@ -13,6 +13,7 @@ import {
 import React, { useState, useEffect } from "react";
 import { Twirl as Hamburger } from 'hamburger-react'
 import { getListeAll } from "../../../../_actions/postAction";
+import ReactLoading from 'react-loading';
 
 export default function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -103,7 +104,7 @@ export default function Navbar(props) {
   }, [searchTerm, data]);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div><ReactLoading type="bubbles" color="#ffffff" height={'5%'} width={'5%'} /></div>;
   }
 
   return (
