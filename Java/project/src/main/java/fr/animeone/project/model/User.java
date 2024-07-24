@@ -14,9 +14,12 @@ public class User {
     private Integer id;
 
     private String username;
+    private String prenom;
+    private String nom;
+    private String adresse;
     private String password;
     private String email;
-    private Integer phone;
+    private String phone;
     private String carte;
     private String date_naissance;
     private String role;

@@ -26,14 +26,14 @@ export default function Widgets() {
   const widget2 = [
     {
       image:
-        "/assets/boutiques/figurines/kaijun8/4537807070722_kaiju-no-8-kaiju-no-8-vs-kaiju-no-9-118-scale-figure-set_1.jpg",
+        "/assets/boutiques/figurines.webp",
       name: "Shop Figurines",
       url: "/stores/collections",
     },
     {
       image:
         "/assets/boutiques/figurines/kaijun8/4537807070722_kaiju-no-8-kaiju-no-8-vs-kaiju-no-9-118-scale-figure-set_1.jpg",
-      name: "Shop Figurines",
+      name: "Shop DVD's",
       url: "/stores/collections",
     },
   ];

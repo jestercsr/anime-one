@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main>
       <nav className="flex justify-end p-1 bg-neutraler-50">
-        <Link href="/accueil">
+        <Link href="/authentification">
         <button className="bg-red-600 text-slate-50 p-[5px] md:p-2 rounded-xl">S'identifier</button></Link>
       </nav>
       <EmailHomeComponent />

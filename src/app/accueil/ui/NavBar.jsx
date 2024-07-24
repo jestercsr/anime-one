@@ -104,7 +104,7 @@ export default function Navbar(props) {
   }, [searchTerm, data]);
 
   if (loading) {
-    return <div><ReactLoading type="bubbles" color="#ffffff" height={'5%'} width={'5%'} /></div>;
+    return <div><ReactLoading type="bubbles" color="#ffffff" height={'30px'} width={'30px'} /></div>;
   }
 
   return (
