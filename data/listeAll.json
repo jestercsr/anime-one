@@ -45,7 +45,7 @@
       "$oid": "66965e02f728b7bf2e7a77ed"
     },
     "image": "/assets/MushokuTensei_poster.webp",
-    "name": "Mushoku Tensei",
+    "name": "Mushoku Tensei: Jobless Reincarnation",
     "url": "mushoku-tensei",
     "categorie": [
       "Isekai",
@@ -343,7 +343,7 @@
       "$oid": "66965e02f728b7bf2e7a77ff"
     },
     "image": "/assets/7Sins_poster.webp",
-    "name": "Seven Deadly Sins",
+    "name": "The Seven Deadly Sins",
     "url": "seven-deadly-sins",
     "categorie": [
       "Shonen",
@@ -713,7 +713,7 @@
       "Historique"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["ScanTrending"]
   },
   {
     "_id": {
@@ -2383,7 +2383,7 @@
       "Magie"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending", "ScanTrending"]
+    "typeCategorie": ["ScanTrending"]
   },
   {
     "_id": {
@@ -3092,8 +3092,8 @@
       "$oid": "6698fd8369a2079fdd6d61f9"
     },
     "image": "/assets/FailureFrame_poster.webp",
-    "name": "Failure Frame",
-    "url": "failureframe",
+    "name": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
+    "url": "failure-frame",
     "categorie": [
       "Seinen",
       "Action",
@@ -3351,6 +3351,80 @@
     },
     "updatedAt": {
       "$date": "2024-07-18T13:02:06.043Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a23bb08ee96713521e3fcd"
+    },
+    "image": "/assets/Wistoria_poster.webp",
+    "name": "Wistoria: Wand and Sword",
+    "url": "wistoria-wand-and-sword",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance",
+      "Surnaturel",
+      "Ecole"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-25T11:49:04.062Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-25T11:49:04.062Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a25076a7b22ef20a244683"
+    },
+    "image": "/assets/AmIActuallyStrongest_poster.webp",
+    "name": "Am I Actually the Strongest?",
+    "url": "am-i-actually-the-strongest",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Isekai",
+      "Romance",
+      "Autre Monde",
+      "Harem",
+      "Magie",
+      "Reincarnation"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-25T13:17:42.081Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-25T13:17:42.081Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a250e0a7b22ef20a244685"
+    },
+    "image": "/assets/GreatCleric_poster.webp",
+    "name": "The Great Cleric",
+    "url": "the-great-cleric",
+    "categorie": ["Shonen", "Adventure", "Comédie", "Fantasy", "Autre Monde"],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-25T13:19:28.980Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-25T13:19:28.980Z"
     },
     "__v": 0
   }
