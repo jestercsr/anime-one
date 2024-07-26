@@ -63,6 +63,16 @@
 - [x] Code geass
 - [x] Blue exorcist
 - [x] 5 Seconds to death
+- [x] Classroom of the Elite
+- [x] Zom 100: Bucket List of the Dead
+- [x] Trinity Seven
+- [x] 86 Eighty Six
+- [x] Our Last Crusade or the Rise of a New World
+- [x] Failure Frame
+- [x] Oshi no ko
+- [x] A Nobody's Way Up to an Exploration Hero
+- [x] The Strongest Magician in the Demon's Lord Army was a Human
+- [x] The Fable
 
 
 
@@ -99,7 +109,7 @@
 
 - [ ] Sword art online
 - [ ] Tokyo revengers
-- [ ] Solo levelling
+- [ ] Solo leveling
 
 - [ ] Demon slave
 - [ ] Doubt
@@ -124,7 +134,7 @@
 - [ ] Isekai Cheat Magician
 - [ ] Death March to the Parallel World Rhapsody
 - [ ] The Demon Sword Master of Excalibur Academy
-- [ ] Classroom of the Elite
+
 - [ ] The Familiar of Zero
 - [ ] So I'm a Spider, So What?
 - [ ] Skeleton Knight in Another World
@@ -134,12 +144,12 @@
 - [ ] Akashic Record of Bastard Magic Instructor
 - [ ] Spy Classroom
 - [ ] Saiki Kusuo no Psi Nan
-- [ ] Zom 100: Bucket List of the Dead
+
 - [ ] How a Realist Hero Rebuilt the Kingdom
 - [ ] I'm Quitting Heroing
 - [ ] 20th Century Boys
 - [ ] Bakuman
-- [ ] Trinity Seven
+
 - [ ] The Unwanted Undead Adventurer
 
 - [ ] Sailor Moon
@@ -156,10 +166,31 @@
 - [ ] Neon Genesis Evangelion
 - [ ] Ghost in the Shell
 - [ ] Judge
-- [ ] 86 Eighty Six
+
 - [ ] The New Gate
 - [ ] Seirei Gensouki: Spirit Chronicles
-- [ ] Our Last Crusade or the Rise of a New World
+
 - [ ] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs
 - [ ] The Dungeon of Black Company
 - [ ] I'm Standing on a Million Lives
+
+- [ ] The Elusive Samouraï
+- [ ] Why Does Nobody Remembers My World?
+
+- [ ] Quality Assurance in Another World
+
+- [ ] Suicide Squad ISEKAI
+- [ ] Alya Sometimes Hides Her Feelings in Russian
+- [ ] Bucchigiri?!
+- [ ] Sengoku Youko
+
+
+- [ ] No Longer Allowed in Another World
+- [ ] The Ossan Newbie Adventurer
+- [ ] Tasuketsu: Fate of the Majority
+- [ ] Villainess Level 99
+- [ ] Classroom for Heroes
+- [ ] Wistoria: Wand and Sword
+- [ ] Am I Actually the Strongest?
+- [ ] The Great Cleric
+- [ ] Les Carnets de l'Apothicaire

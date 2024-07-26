@@ -1243,7 +1243,7 @@
       "$oid": "66965e02f728b7bf2e7a7836"
     },
     "image": "/assets/ReZero_first.webp",
-    "name": "Re: Zero",
+    "name": "Re:ZERO -Starting Life in Another World",
     "url": "re-zero",
     "categorie": [
       "Seinen",
@@ -3216,7 +3216,7 @@
     "_id": {
       "$oid": "669900a769a2079fdd6d6205"
     },
-    "image": "/assets/MagicianInDemonArmy_poster.webp",
+    "image": "/assets/MagicianInDemonArmy_first.webp",
     "name": "The Strongest Magician in the Demon's Lord Army was a Human",
     "url": "the-strongest-magician-in-the-demon-lord-army-was-a-human",
     "categorie": [
@@ -3425,6 +3425,101 @@
     },
     "updatedAt": {
       "$date": "2024-07-25T13:19:28.980Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a37c7d3eac2ca84c40a73a"
+    },
+    "image": "/assets/CarnetApothicaire_poster.webp",
+    "name": "Les Carnets de l'Apothicaire",
+    "url": "les-carnets-de-l-apothicaire",
+    "categorie": [
+      "Seinen",
+      "Drame",
+      "Romance",
+      "Mystère",
+      "Historique",
+      "Crime"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-26T10:37:49.608Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-26T10:37:49.608Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a3a5903eac2ca84c40a8c4"
+    },
+    "image": "/assets/KiruruKillMe_poster.webp",
+    "name": "Kiruru Kill Me",
+    "url": "kiruru-kill-me",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Romance",
+      "Assassinat"
+    ],
+    "anime": ["Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-26T13:33:04.179Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-26T13:33:04.179Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a3a60c3eac2ca84c40a8c6"
+    },
+    "image": "/assets/AkameGaKill_poster.webp",
+    "name": "Red Eyes Sword: Akame Ga Kill !",
+    "url": "akame-ga-kill",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Horreur",
+      "Fantasy",
+      "Assassinat",
+      "Romance",
+      "Combats"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-26T13:35:08.855Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-26T13:35:08.855Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a3a66e3eac2ca84c40a8c8"
+    },
+    "image": "/assets/Reborn_poster.webp",
+    "name": "Reborn ! Mon prof le tueur",
+    "url": "reborn",
+    "categorie": ["Shonen", "Action", "Adventure", "Comédie", "Ecole", "Mafia"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-26T13:36:46.086Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-26T13:36:46.086Z"
     },
     "__v": 0
   }
