@@ -1,0 +1,15 @@
+import { NextResponse } from "next/server";
+import { connection } from "../../../../config/database";
+
+export async function GET(req, res) {
+  await connection.connect();
+  try {
+    const [rows] = await connection.execute("SELECT * FROM user");
+    return NextResponse.json(rows, { status: 200 });
+  } catch (error) {
+    return NextResponse.json(
+      { message: "Une Erreur est survenue", error: error.message },
+      { status: 500 }
+    );
+  }
+}

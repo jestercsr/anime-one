@@ -9,11 +9,11 @@ export default function PageAuth() {
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = {
-      username: formData.get("username"),
+      email: formData.get("email"),
       password: formData.get("password"),
     };
 
-    const response = await fetch("http://localhost:8080/api/users");
+    const response = await fetch("/api/users");
 
     if (response.ok) {
       window.location.href = "/accueil";
