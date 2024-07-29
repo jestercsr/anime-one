@@ -9,14 +9,14 @@ export default function PageAuth() {
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = {
-      email: formData.get("email"),
+      username: formData.get("username"),
       password: formData.get("password"),
     };
 
     const response = await fetch("/api/users");
 
     if (response.ok) {
-      window.location.href = "/accueil";
+      window.location.href = "/authentification/profile-selector";
     } else {
       console.log("Echec à la connexion");
     }

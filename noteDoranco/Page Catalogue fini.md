@@ -73,6 +73,9 @@
 - [x] A Nobody's Way Up to an Exploration Hero
 - [x] The Strongest Magician in the Demon's Lord Army was a Human
 - [x] The Fable
+- [x] I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability
+- [x] 20th Century Boys
+- [x] Red Eyes Sword: Akame Ga Kill
 
 
 
@@ -138,7 +141,7 @@
 - [ ] The Familiar of Zero
 - [ ] So I'm a Spider, So What?
 - [ ] Skeleton Knight in Another World
-- [ ] I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability
+
 - [ ] Prison School
 - [ ] Iruma à l'école des Démons
 - [ ] Akashic Record of Bastard Magic Instructor
@@ -147,7 +150,7 @@
 
 - [ ] How a Realist Hero Rebuilt the Kingdom
 - [ ] I'm Quitting Heroing
-- [ ] 20th Century Boys
+
 - [ ] Bakuman
 
 - [ ] The Unwanted Undead Adventurer
@@ -194,3 +197,10 @@
 - [ ] Am I Actually the Strongest?
 - [ ] The Great Cleric
 - [ ] Les Carnets de l'Apothicaire
+- [ ] GTO
+- [ ] Last Hero Inuyashiki
+- [ ] Pluto
+- [ ] Reborn !
+
+- [ ] Kiruru Kill Me
+- [ ] 

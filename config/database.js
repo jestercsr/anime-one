@@ -20,16 +20,21 @@ const connectDB = async () => {
     console.log(error);
   }
 };
-
-export const connection = await mysql.createConnection({
-  host: process.env.DB_HOST,
-  port: process.env.DB_PORT,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,
-  ssl: {
-    ca: fs.readFileSync(path.resolve(process.cwd(), process.env.DB_SSL_CA)),
-  },
-});
+let connect
+export const connection = async () => {
+  if (!connect) {
+  connect = await mysql.createConnection({
+    host: process.env.DB_HOST,
+    port: process.env.DB_PORT,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+    ssl: {
+      ca: fs.readFileSync(path.resolve(process.cwd(), process.env.DB_SSL_CA)),
+    },
+  });
+}
+  return connect
+};
 
 export default connectDB;

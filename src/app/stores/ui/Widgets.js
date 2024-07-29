@@ -44,7 +44,7 @@ export default function Widgets() {
           return (
             <div key={i} className="w-full mb-2 md:mb-0 md:w-[70%]">
               <Link href={item.url}>
-                <img src={item.image} className="w-full "/>
+                <img src={item.image} alt={item.name} className="w-full "/>
                 <p className="text-slate-50 p-5 text-center text-xs md:text-md lg:text-lg bg-neutral-950 hover:text-sky-500">{item.name}</p>
               </Link>
             </div>
@@ -56,7 +56,7 @@ export default function Widgets() {
           return (
             <div key={i} className="w-full mb-2 md:mb-0 md:w-[80%]">
               <Link href={select.url}>
-                <img src={select.image} className="w-full"/>
+                <img src={select.image} alt={select.name} className="w-full"/>
                 <p className="text-slate-50 p-5 text-center text-xs md:text-md lg:text-lg bg-neutral-950 hover:text-sky-500">{select.name}</p>
               </Link>
             </div>
