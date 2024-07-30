@@ -14595,7 +14595,7 @@
       },
       {
         "image": "/assets/Summonded2ndTime_poster.webp",
-        "name": "Isekai Shoukan wa Nidome Desu",
+        "name": "Summoned to Another World Again",
         "url": "/manga/summoned-to-another-world-again"
       },
       {
@@ -14678,7 +14678,7 @@
           },
           {
             "anime_image": "/assets/Summonded2ndTime_poster.webp",
-            "anime_name": "Isekai Shoukan wa Nidome Desu",
+            "anime_name": "Summoned to Another World Again",
             "anime_href": "/manga/summoned-to-another-world-again/episodes"
           },
           {
@@ -24623,6 +24623,1985 @@
     },
     "updatedAt": {
       "$date": "2024-07-29T14:21:12.660Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8a328652ba272281119bf"
+    },
+    "slug": "no-longer-allowed-in-another-world",
+    "imageTop": "/assets/AllowedWorld_Top.webp",
+    "navClass": "bg-neutral-900 text-red-400",
+    "back": "bg-blue-950",
+    "search": "bg-neutral-900 text-red-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/AllowedWorld_poster.webp",
+        "url": "no-longer-allowed-in-another-world/episodes",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c0"
+        }
+      },
+      {
+        "img": "/assets/scan/allowedworld_scan.webp",
+        "url": "no-longer-allowed-in-another-world/scans",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c1"
+        }
+      },
+      {
+        "img": "/assets/AllowedWorld_API.webp",
+        "url": "https://isekai.fandom.com/wiki/Isekai_Shikkaku",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c2"
+        }
+      }
+    ],
+    "titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/Tasuketsu_poster.webp",
+        "name": "Tasuketsu: Fate of the Majority",
+        "url": "/manga/tasuketsu",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c3"
+        }
+      },
+      {
+        "image": "/assets/QualityAssurance_poster.webp",
+        "name": "Quality Assurance in Another World",
+        "url": "/manga/quality-assurance-in-another-world",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c4"
+        }
+      },
+      {
+        "image": "/assets/Wistoria_poster.webp",
+        "name": "Wistoria: Wand and Sword",
+        "url": "/manga/wistoria-wand-and-sword",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c5"
+        }
+      },
+      {
+        "image": "/assets/MagicianInDemonArmy_first.webp",
+        "name": "The Strongest Magician in the Demon's Lord Army was a Human",
+        "url": "/manga/the-strongest-magician-in-the-demon-lord-army-was-a-human",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c6"
+        }
+      },
+      {
+        "image": "/assets/ExplorationHero_poster.webp",
+        "name": "A Nobody's Way Up to an Exploration Hero",
+        "url": "/manga/mob-kara-hajimaru-tansaku-eiyuutan",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c7"
+        }
+      },
+      {
+        "image": "/assets/ElusiveSamourai_poster.webp",
+        "name": "The Elusive Samouraï",
+        "url": "/manga/the-elusive-samourai",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c8"
+        }
+      },
+      {
+        "image": "/assets/OshiNoKo_poster.webp",
+        "name": "Oshi no ko",
+        "url": "/manga/oshi-no-ko",
+        "_id": {
+          "$oid": "66a8a328652ba272281119c9"
+        }
+      },
+      {
+        "image": "/assets/MushokuTensei_poster.webp",
+        "name": "Mushoku Tensei: Jobless Reincarnation",
+        "url": "/manga/mushoku-tensei",
+        "_id": {
+          "$oid": "66a8a328652ba272281119ca"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-neutral-900 text-red-400",
+        "backNav": "bg-blue-950",
+        "searchNav": "bg-neutral-900 text-red-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8a328652ba272281119cb"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/AllowedWorld_poster.webp",
+        "classNav": "bg-neutral-900 text-red-400",
+        "backNav": "bg-blue-950",
+        "searchNav": "bg-neutral-900 text-red-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/AllowedWorldS1.webp",
+            "_id": {
+              "$oid": "66a8a328652ba272281119cd"
+            }
+          }
+        ],
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/tasuketsu/episodes",
+            "anime_image": "/assets/Tasuketsu_poster.webp",
+            "anime_name": "Tasuketsu: Fate of the Majority",
+            "_id": {
+              "$oid": "66a8a328652ba272281119ce"
+            }
+          },
+          {
+            "anime_href": "/manga/quality-assurance-in-another-world/episodes",
+            "anime_image": "/assets/QualityAssurance_poster.webp",
+            "anime_name": "Quality Assurance in Another World",
+            "_id": {
+              "$oid": "66a8a328652ba272281119cf"
+            }
+          },
+          {
+            "anime_href": "/manga/wistoria-wand-and-sword/episodes",
+            "anime_image": "/assets/Wistoria_poster.webp",
+            "anime_name": "Wistoria: Wand and Sword",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d0"
+            }
+          },
+          {
+            "anime_href": "/manga/the-strongest-magician-in-the-demon-lord-army-was-a-human/episodes",
+            "anime_image": "/assets/MagicianInDemonArmy_first.webp",
+            "anime_name": "The Strongest Magician in the Demon's Lord Army was a Human",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d1"
+            }
+          },
+          {
+            "anime_href": "/manga/mob-kara-hajimaru-tansaku-eiyuutan/episodes",
+            "anime_image": "/assets/ExplorationHero_poster.webp",
+            "anime_name": "A Nobody's Way Up to an Exploration Hero",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d2"
+            }
+          },
+          {
+            "anime_href": "/manga/the-elusive-samourai/episodes",
+            "anime_image": "/assets/ElusiveSamourai_poster.webp",
+            "anime_name": "The Elusive Samouraï",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d3"
+            }
+          },
+          {
+            "anime_href": "/manga/oshi-no-ko/episodes",
+            "anime_image": "/assets/OshiNoKo_poster.webp",
+            "anime_name": "Oshi no ko",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d4"
+            }
+          },
+          {
+            "anime_href": "/manga/mushoku-tensei/episodes",
+            "anime_image": "/assets/MushokuTensei_poster.webp",
+            "anime_name": "Mushoku Tensei: Jobless Reincarnation",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d5"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8a328652ba272281119cc"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/allowedworld_scan.webp",
+        "classNav": "bg-neutral-900 text-red-400",
+        "backNav": "bg-blue-950",
+        "searchNav": "bg-neutral-900 text-red-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/AllowedWorld1.webp",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d7"
+            }
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/AllowedWorld2.webp",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d8"
+            }
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/AllowedWorld3.webp",
+            "_id": {
+              "$oid": "66a8a328652ba272281119d9"
+            }
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/AllowedWorld4.webp",
+            "_id": {
+              "$oid": "66a8a328652ba272281119da"
+            }
+          }
+        ],
+        "anime_titre": "text-slate-50 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/quality-assurance-in-another-world/scans",
+            "anime_image": "/assets/scan/qualityassurance_scan.webp",
+            "anime_name": "Quality Assurance in Another World",
+            "_id": {
+              "$oid": "66a8a328652ba272281119db"
+            }
+          },
+          {
+            "anime_href": "/manga/wistoria-wand-and-sword/scans",
+            "anime_image": "/assets/scan/wistoria_scan.webp",
+            "anime_name": "Wistoria: Wand and Sword",
+            "_id": {
+              "$oid": "66a8a328652ba272281119dc"
+            }
+          },
+          {
+            "anime_href": "/manga/the-elusive-samourai/scans",
+            "anime_image": "/assets/scan/elusivesamourai_scan.webp",
+            "anime_name": "The Elusive Samouraï",
+            "_id": {
+              "$oid": "66a8a328652ba272281119dd"
+            }
+          },
+          {
+            "anime_href": "/manga/oshi-no-ko/scans",
+            "anime_image": "/assets/scan/oshinoko_scan.webp",
+            "anime_name": "Oshi no ko",
+            "_id": {
+              "$oid": "66a8a328652ba272281119de"
+            }
+          },
+          {
+            "anime_href": "/manga/mushoku-tensei/scans",
+            "anime_image": "/assets/scan/mushokutensei_scan.webp",
+            "anime_name": "Mushoku Tensei: Jobless Reincarnation",
+            "_id": {
+              "$oid": "66a8a328652ba272281119df"
+            }
+          },
+          {
+            "anime_href": "/manga/tower-of-god/scans",
+            "anime_image": "/assets/scan/towergod_scan.webp",
+            "anime_name": "Tower of God",
+            "_id": {
+              "$oid": "66a8a328652ba272281119e0"
+            }
+          },
+          {
+            "anime_href": "/manga/le-7-eme-prince/scans",
+            "anime_image": "/assets/scan/7thprince_scan.webp",
+            "anime_name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+            "_id": {
+              "$oid": "66a8a328652ba272281119e1"
+            }
+          },
+          {
+            "anime_href": "/manga/fairy-tail-100-years-quest/scans",
+            "anime_image": "/assets/scan/ft100years_scan.webp",
+            "anime_name": "Fairy Tail : 100 Years Quest",
+            "_id": {
+              "$oid": "66a8a328652ba272281119e2"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8a328652ba272281119d6"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-30T08:24:08.104Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T08:24:08.104Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8b5c24c8b3ade58e0d7dd"
+    },
+    "slug": "roshidere",
+    "imageTop": "/assets/AlyaRussian_Top.webp",
+    "navClass": "bg-pink-400 text-orange-800",
+    "back": "bg-pink-200",
+    "search": "bg-pink-400 text-orange-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-800 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/AlyaRussian_poster.webp",
+        "url": "roshidere/episodes",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7de"
+        }
+      },
+      {
+        "img": "/assets/AlyaRussian_API.webp",
+        "url": "https://roshidere.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7df"
+        }
+      }
+    ],
+    "titre": "text-blue-600 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/OshiNoKo_poster.webp",
+        "name": "Oshi no ko",
+        "url": "/manga/oshi-no-ko",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e0"
+        }
+      },
+      {
+        "image": "/assets/FailureFrame_poster.webp",
+        "name": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
+        "url": "/manga/failure-frame",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e1"
+        }
+      },
+      {
+        "image": "/assets/ClassroomElite_poster.webp",
+        "name": "Classroom of the Elite",
+        "url": "/manga/classroom-of-the-elite",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e2"
+        }
+      },
+      {
+        "image": "/assets/OP_poster.webp",
+        "name": "One Piece",
+        "url": "/manga/one-piece",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e3"
+        }
+      },
+      {
+        "image": "/assets/AllowedWorld_poster.webp",
+        "name": "No Longer Allowed in Another World",
+        "url": "/manga/no-longer-allowed-in-another-world",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e4"
+        }
+      },
+      {
+        "image": "/assets/DemonSlave_poster.webp",
+        "name": "Demon Slave",
+        "url": "/manga/demon-slave",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e5"
+        }
+      },
+      {
+        "image": "/assets/Yozakura_poster.webp",
+        "name": "Mission: Yozakura Family",
+        "url": "/manga/mission-yozakura-family",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e6"
+        }
+      },
+      {
+        "image": "/assets/Slime_poster.webp",
+        "name": "Moi, Quand je me Réincarne en Slime",
+        "url": "/manga/moi-quand-je-me-reincarne-en-slime",
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e7"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-pink-400 text-orange-800",
+        "backNav": "bg-pink-200",
+        "searchNav": "bg-pink-400 text-orange-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-800 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-blue-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e8"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/AlyaRussian_poster.webp",
+        "classNav": "bg-pink-400 text-orange-800",
+        "backNav": "bg-pink-200",
+        "searchNav": "bg-pink-400 text-orange-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-800 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/AlyaRussianS1.webp",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7ea"
+            }
+          }
+        ],
+        "anime_titre": "text-blue-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/oshi-no-ko/episodes",
+            "anime_image": "/assets/OshiNoKo_poster.webp",
+            "anime_name": "Oshi no ko",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7eb"
+            }
+          },
+          {
+            "anime_href": "/manga/failure-frame/episodes",
+            "anime_image": "/assets/FailureFrame_poster.webp",
+            "anime_name": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7ec"
+            }
+          },
+          {
+            "anime_href": "/manga/classroom-of-the-elite/episodes",
+            "anime_image": "/assets/ClassroomElite_poster.webp",
+            "anime_name": "Classroom of the Elite",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7ed"
+            }
+          },
+          {
+            "anime_href": "/manga/one-piece/episodes",
+            "anime_image": "/assets/OP_Top.webp",
+            "anime_name": "One Piece",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7ee"
+            }
+          },
+          {
+            "anime_href": "/manga/no-longer-allowed-in-another-world/episodes",
+            "anime_image": "/assets/AllowedWorld_poster.webp",
+            "anime_name": "No Longer Allowed in Another World",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7ef"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slave/episodes",
+            "anime_image": "/assets/DemonSlave_poster.webp",
+            "anime_name": "Demon Slave",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7f0"
+            }
+          },
+          {
+            "anime_href": "/manga/mission-yozakura-family/episodes",
+            "anime_image": "/assets/Yozakura_poster.webp",
+            "anime_name": "Mission: Yozakura Family",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7f1"
+            }
+          },
+          {
+            "anime_href": "/manga/moi-quand-je-me-reincarne-en-slime/episodes",
+            "anime_image": "/assets/Slime_poster.webp",
+            "anime_name": "Moi, Quand je me Réincarne en Slime",
+            "_id": {
+              "$oid": "66a8b5c24c8b3ade58e0d7f2"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7e9"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "",
+        "classNav": "bg-pink-400 text-orange-800",
+        "backNav": "bg-pink-200",
+        "searchNav": "bg-pink-400 text-orange-800 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-800 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-blue-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8b5c24c8b3ade58e0d7f3"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-30T09:43:31.017Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T09:43:31.017Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8c1904c8b3ade58e0d891"
+    },
+    "slug": "am-i-actually-the-strongest",
+    "imageTop": "/assets/AmIActuallyStrongest_Top.webp",
+    "navClass": "bg-neutral-900 text-orange-600",
+    "back": "bg-cyan-300",
+    "search": "bg-neutral-900 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/AmIActuallyStrongest_poster.webp",
+        "url": "am-i-actually-the-strongest/episodes",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d892"
+        }
+      },
+      {
+        "img": "/assets/AmIActuallyStrongest_API.webp",
+        "url": "https://jitsu-wa-ore-saikyou-deshita.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d893"
+        }
+      }
+    ],
+    "titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/UniqueSkill_poster.webp",
+        "name": "My Unique Skill Makes Me OP even at Level 1",
+        "url": "/manga/my-unique-skill-makes-me-op-even-at-level-1",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d894"
+        }
+      },
+      {
+        "image": "/assets/Summonded2ndTime_poster.webp",
+        "name": "Summoned to Another World Again",
+        "url": "/manga/summoned-to-another-world-again",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d895"
+        }
+      },
+      {
+        "image": "/assets/GreatCleric_poster.webp",
+        "name": "The Great Cleric",
+        "url": "/manga/the-great-cleric",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d896"
+        }
+      },
+      {
+        "image": "/assets/ClassHeroes_poster.webp",
+        "name": "Classroom for Heroes",
+        "url": "/manga/classroom-for-heroes",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d897"
+        }
+      },
+      {
+        "image": "/assets/EminenceShadow_poster.webp",
+        "name": "The Eminence in Shadow",
+        "url": "/manga/the-eminence-in-shadow",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d898"
+        }
+      },
+      {
+        "image": "/assets/BlackS_poster.webp",
+        "name": "Black Summoner",
+        "url": "/manga/black-summoner",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d899"
+        }
+      },
+      {
+        "image": "/assets/MillionLives_poster.webp",
+        "name": "I'm Standing on a Million Lives",
+        "url": "/manga/i-m-standing-on-a-million-lives",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d89a"
+        }
+      },
+      {
+        "image": "/assets/MyOneKillSister_poster.webp",
+        "name": "My One-Hit Kill Sister",
+        "url": "/manga/my-one-hit-kill-sister",
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d89b"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-neutral-900 text-orange-600",
+        "backNav": "bg-cyan-300",
+        "searchNav": "bg-neutral-900 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d89c"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/AmIActuallyStrongest_poster.webp",
+        "classNav": "bg-neutral-900 text-orange-600",
+        "backNav": "bg-cyan-300",
+        "searchNav": "bg-neutral-900 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/AmIActuallyStrongestS1.webp",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d89e"
+            }
+          }
+        ],
+        "anime_titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/my-unique-skill-makes-me-op-even-at-level-1/episodes",
+            "anime_image": "/assets/UniqueSkill_poster.webp",
+            "anime_name": "My Unique Skill Makes Me OP even at Level 1",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d89f"
+            }
+          },
+          {
+            "anime_href": "/manga/summoned-to-another-world-again/episodes",
+            "anime_image": "/assets/Summonded2ndTime_poster.webp",
+            "anime_name": "Summoned to Another World Again",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a0"
+            }
+          },
+          {
+            "anime_href": "/manga/the-great-cleric/episodes",
+            "anime_image": "/assets/GreatCleric_poster.webp",
+            "anime_name": "The Great Cleric",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a1"
+            }
+          },
+          {
+            "anime_href": "/manga/classroom-for-heroes/episodes",
+            "anime_image": "/assets/ClassHeroes_poster.webp",
+            "anime_name": "Classroom for Heroes",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a2"
+            }
+          },
+          {
+            "anime_href": "/manga/the-eminence-in-shadow/episodes",
+            "anime_image": "/assets/EminenceShadow_poster.webp",
+            "anime_name": "The Eminence in Shadow",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a3"
+            }
+          },
+          {
+            "anime_href": "/manga/black-summoner/episodes",
+            "anime_image": "/assets/BlackS_poster.webp",
+            "anime_name": "Black Summoner",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a4"
+            }
+          },
+          {
+            "anime_href": "/manga/i-m-standing-on-a-million-lives/episodes",
+            "anime_image": "/assets/MillionLives_poster.webp",
+            "anime_name": "I'm Standing on a Million Lives",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a5"
+            }
+          },
+          {
+            "anime_href": "/manga/my-one-hit-kill-sister/episodes",
+            "anime_image": "/assets/MyOneKillSister_poster.webp",
+            "anime_name": "My One-Hit Kill Sister",
+            "_id": {
+              "$oid": "66a8c1904c8b3ade58e0d8a6"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d89d"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "",
+        "classNav": "bg-neutral-900 text-orange-600",
+        "backNav": "bg-cyan-300",
+        "searchNav": "bg-neutral-900 text-orange-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-neutral-900 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8c1904c8b3ade58e0d8a7"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-30T10:33:52.087Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T10:33:52.087Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8d3c74c8b3ade58e0d97b"
+    },
+    "slug": "antimagic-academy",
+    "imageTop": "/assets/Antimagic_Top.webp",
+    "navClass": "bg-lime-900 text-yellow-600",
+    "back": "bg-lime-800",
+    "search": "bg-lime-900 text-yellow-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/Antimagic_poster.webp",
+        "url": "antimagic-academy/episodes",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d97c"
+        }
+      },
+      {
+        "img": "/assets/Antimagic_API.webp",
+        "url": "https://antimagicacademy.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d97d"
+        }
+      }
+    ],
+    "titre": "text-red-600 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/AsteriskWar_poster.webp",
+        "name": "The Asterisk War: The Academy City on the Water",
+        "url": "/manga/the-asterisk-war",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d97e"
+        }
+      },
+      {
+        "image": "/assets/DeathMarch_poster.webp",
+        "name": "Death March to the Parallel World Rhapsody",
+        "url": "/manga/death-march-to-the-parallel-world-rhapsody",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d97f"
+        }
+      },
+      {
+        "image": "/assets/ClassHeroes_poster.webp",
+        "name": "Classroom for Heroes",
+        "url": "/manga/classroom-for-heroes",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d980"
+        }
+      },
+      {
+        "image": "/assets/DemonSwordMaster_poster.webp",
+        "name": "The Demon Sword Master of Excalibur Academy",
+        "url": "/manga/the-demon-sword-master-of-excalibur-academy",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d981"
+        }
+      },
+      {
+        "image": "/assets/HSProdigies_poster.webp",
+        "name": "High School Prodigies Have It Easy Even In Another World",
+        "url": "/manga/high-school-prodigies-have-it-easy-even-in-another-world",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d982"
+        }
+      },
+      {
+        "image": "/assets/Akashic_poster.webp",
+        "name": "Akashic Record of Bastard Magic Instructor",
+        "url": "/manga/akashic-record",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d983"
+        }
+      },
+      {
+        "image": "/assets/Undefeated_poster.webp",
+        "name": "Undefeated Bahamut Chronicle",
+        "url": "/manga/undefeated-bahamut-chronicle",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d984"
+        }
+      },
+      {
+        "image": "/assets/HiddenDungeon_poster.webp",
+        "name": "The Hidden Dungeon Only I Can Enter",
+        "url": "/manga/the-hidden-dungeon-only-i-can-enter",
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d985"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-lime-900 text-yellow-600",
+        "backNav": "bg-lime-800",
+        "searchNav": "bg-lime-900 text-yellow-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d987"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d988"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d989"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d98a"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d98b"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d98c"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d98d"
+            }
+          },
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d98e"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d986"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Antimagic_poster.webp",
+        "classNav": "bg-lime-900 text-yellow-600",
+        "backNav": "bg-lime-800",
+        "searchNav": "bg-lime-900 text-yellow-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/AntimagicS1.webp",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d990"
+            }
+          }
+        ],
+        "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/the-asterisk-war/episodes",
+            "anime_image": "/assets/AsteriskWar_poster.webp",
+            "anime_name": "The Asterisk War: The Academy City on the Water",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d991"
+            }
+          },
+          {
+            "anime_href": "/manga/death-march-to-the-parallel-world-rhapsody/episodes",
+            "anime_image": "/assets/DeathMarch_poster.webp",
+            "anime_name": "Death March to the Parallel World Rhapsody",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d992"
+            }
+          },
+          {
+            "anime_href": "/manga/classroom-for-heroes/episodes",
+            "anime_image": "/assets/ClassHeroes_poster.webp",
+            "anime_name": "Classroom for Heroes",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d993"
+            }
+          },
+          {
+            "anime_href": "/manga/the-demon-sword-master-of-excalibur-academy/episodes",
+            "anime_image": "/assets/DemonSwordMaster_poster.webp",
+            "anime_name": "The Demon Sword Master of Excalibur Academy",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d994"
+            }
+          },
+          {
+            "anime_href": "/manga/high-school-prodigies-have-it-easy-even-in-another-world/episodes",
+            "anime_image": "/assets/HSProdigies_poster.webp",
+            "anime_name": "High School Prodigies Have It Easy Even In Another World",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d995"
+            }
+          },
+          {
+            "anime_href": "/manga/akashic-record/episodes",
+            "anime_image": "/assets/Akashic_poster.webp",
+            "anime_name": "Akashic Record of Bastard Magic Instructor",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d996"
+            }
+          },
+          {
+            "anime_href": "/manga/undefeated-bahamut-chronicle/episodes",
+            "anime_image": "/assets/Undefeated_poster.webp",
+            "anime_name": "Undefeated Bahamut Chronicle",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d997"
+            }
+          },
+          {
+            "anime_href": "/manga/the-hidden-dungeon-only-i-can-enter/episodes",
+            "anime_image": "/assets/HiddenDungeon_poster.webp",
+            "anime_name": "The Hidden Dungeon Only I Can Enter",
+            "_id": {
+              "$oid": "66a8d3c74c8b3ade58e0d998"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d98f"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "",
+        "classNav": "bg-lime-900 text-yellow-600",
+        "backNav": "bg-lime-800",
+        "searchNav": "bg-lime-900 text-yellow-600 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-700 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-red-600 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8d3c74c8b3ade58e0d999"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-30T11:51:35.868Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T11:51:35.868Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8f4554c8b3ade58e0db57"
+    },
+    "slug": "trinity-seven",
+    "imageTop": "/assets/Trinity_Top.webp",
+    "navClass": "bg-neutral-900 text-red-700",
+    "back": "bg-neutral-800",
+    "search": "bg-neutral-900 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/Trinity_first.webp",
+        "url": "trinity-seven/episodes",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db58"
+        }
+      },
+      {
+        "img": "/assets/Trinity_FILMS.webp",
+        "url": "trinity-seven/films",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db59"
+        }
+      },
+      {
+        "img": "/assets/scan/trinity_scan.webp",
+        "url": "trinity-seven/scans",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db5a"
+        }
+      },
+      {
+        "img": "/assets/Trinity_API.webp",
+        "url": "https://trinity-seven.fandom.com/wiki/Category:Character",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db5b"
+        }
+      }
+    ],
+    "titre": "text-red-700 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/HighSchoolDxD-poster.webp",
+        "name": "High School DxD",
+        "url": "/manga/high-school-dxd",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db5c"
+        }
+      },
+      {
+        "image": "/assets/Undefeated_poster.webp",
+        "name": "Undefeated Bahamut Chronicle",
+        "url": "/manga/undefeated-bahamut-chronicle",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db5d"
+        }
+      },
+      {
+        "image": "/assets/Chivalry_poster.webp",
+        "name": "Chivalry of a Failed Knight",
+        "url": "/manga/chilvalry-of-a-failed-knight",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db5e"
+        }
+      },
+      {
+        "image": "/assets/PrisonSchool_poster.webp",
+        "name": "Prison School",
+        "url": "/manga/prison-school",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db5f"
+        }
+      },
+      {
+        "image": "/assets/FamiliarZero_poster.webp",
+        "name": "The Familiar of Zero",
+        "url": "/manga/zero-no-tsukaima",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db60"
+        }
+      },
+      {
+        "image": "/assets/HOTD_poster.webp",
+        "name": "Highschool of the Dead",
+        "url": "/manga/highschool-of-the-dead",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db61"
+        }
+      },
+      {
+        "image": "/assets/Akashic_poster.webp",
+        "name": "Akashic Record of Bastard Magic Instructor",
+        "url": "/manga/akashic-record",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db62"
+        }
+      },
+      {
+        "image": "/assets/Antimagic_poster.webp",
+        "name": "Antimagic Academy: The 35th test Platoon",
+        "url": "/manga/antimagic-academy",
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db63"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "/assets/Trinity_FILMS.webp",
+        "classNav": "bg-neutral-900 text-red-700",
+        "backNav": "bg-neutral-800",
+        "searchNav": "bg-neutral-900 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
+        "imageSee": [
+          {
+            "href": "the-eternal-library-and-the-alchemist-girl",
+            "images": "/assets/films/Trinity_F1.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db65"
+            }
+          },
+          {
+            "href": "heavens-library-and-crimson-lord",
+            "images": "/assets/films/Trinity_F2.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db66"
+            }
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/seven-deadly-sins/films",
+            "anime_image": "/assets/7Sins_FILMS.webp",
+            "anime_name": "The Seven Deadly Sins",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db67"
+            }
+          },
+          {
+            "anime_href": "/manga/the-quintessential-quintuplets/films",
+            "anime_image": "/assets/Quintessential_FILMS.webp",
+            "anime_name": "The Quintessential Quintuplets",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db68"
+            }
+          },
+          {
+            "anime_href": "/manga/danmachi/films",
+            "anime_image": "/assets/Danmachi_FILMS.webp",
+            "anime_name": "DanMachi : La Légende des Familias",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db69"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/films",
+            "anime_image": "/assets/DS_FILMS.webp",
+            "anime_name": "Demon Slayer",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db6a"
+            }
+          },
+          {
+            "anime_href": "/manga/jujustu-kaisen/films",
+            "anime_image": "/assets/JJK_FILMS.webp",
+            "anime_name": "Jujustu Kaisen",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db6b"
+            }
+          },
+          {
+            "anime_href": "/manga/black-clover/films",
+            "anime_image": "/assets/BC_FILMS.webp",
+            "anime_name": "Black Clover",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db6c"
+            }
+          },
+          {
+            "anime_href": "/manga/fairy-tail/films",
+            "anime_image": "/assets/FT_FILMS.webp",
+            "anime_name": "Fairy Tail",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db6d"
+            }
+          },
+          {
+            "anime_href": "/manga/shingeki-no-kyojin/films",
+            "anime_image": "/assets/Aot_FILMS.webp",
+            "anime_name": "L'Attaque des Titans",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db6e"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db64"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Trinity_first.webp",
+        "classNav": "bg-neutral-900 text-red-700",
+        "backNav": "bg-neutral-800",
+        "searchNav": "bg-neutral-900 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/TrinityS1.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db70"
+            }
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/high-school-dxd/episodes",
+            "anime_image": "/assets/HighSchoolDxD-poster.webp",
+            "anime_name": "High School DxD",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db71"
+            }
+          },
+          {
+            "anime_href": "/manga/undefeated-bahamut-chronicle/episodes",
+            "anime_image": "/assets/Undefeated_poster.webp",
+            "anime_name": "Undefeated Bahamut Chronicle",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db72"
+            }
+          },
+          {
+            "anime_href": "/manga/chilvalry-of-a-failed-knight/episodes",
+            "anime_image": "/assets/Chivalry_poster.webp",
+            "anime_name": "Chivalry of a Failed Knight",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db73"
+            }
+          },
+          {
+            "anime_href": "/manga/prison-school/episodes",
+            "anime_image": "/assets/PrisonSchool_poster.webp",
+            "anime_name": "Prison School",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db74"
+            }
+          },
+          {
+            "anime_href": "/manga/zero-no-tsukaima/episodes",
+            "anime_image": "/assets/FamiliarZero_poster.webp",
+            "anime_name": "The Familiar of Zero",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db75"
+            }
+          },
+          {
+            "anime_href": "/manga/highschool-of-the-dead/episodes",
+            "anime_image": "/assets/HOTD_poster.webp",
+            "anime_name": "Highschool of the Dead",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db76"
+            }
+          },
+          {
+            "anime_href": "/manga/akashic-record/episodes",
+            "anime_image": "/assets/Akashic_poster.webp",
+            "anime_name": "Akashic Record of Bastard Magic Instructor",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db77"
+            }
+          },
+          {
+            "anime_href": "/manga/antimagic-academy/episodes",
+            "anime_image": "/assets/Antimagic_poster.webp",
+            "anime_name": "Antimagic Academy: The 35th test Platoon",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db78"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db6f"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/trinity_scan.webp",
+        "classNav": "bg-neutral-900 text-red-700",
+        "backNav": "bg-neutral-800",
+        "searchNav": "bg-neutral-900 text-red-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/Trinity1.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db7a"
+            }
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/Trinity2.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db7b"
+            }
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/Trinity3.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db7c"
+            }
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/Trinity4.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db7d"
+            }
+          },
+          {
+            "href": "tome-5",
+            "images": "/assets/scan/ScanAll/Trinity5.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db7e"
+            }
+          },
+          {
+            "href": "tome-6",
+            "images": "/assets/scan/ScanAll/Trinity6.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db7f"
+            }
+          },
+          {
+            "href": "tome-7",
+            "images": "/assets/scan/ScanAll/Trinity7.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db80"
+            }
+          },
+          {
+            "href": "tome-8",
+            "images": "/assets/scan/ScanAll/Trinity8.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db81"
+            }
+          },
+          {
+            "href": "tome-9",
+            "images": "/assets/scan/ScanAll/Trinity9.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db82"
+            }
+          },
+          {
+            "href": "tome-10",
+            "images": "/assets/scan/ScanAll/Trinity10.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db83"
+            }
+          },
+          {
+            "href": "tome-11",
+            "images": "/assets/scan/ScanAll/Trinity11.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db84"
+            }
+          },
+          {
+            "href": "tome-12",
+            "images": "/assets/scan/ScanAll/Trinity12.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db85"
+            }
+          },
+          {
+            "href": "tome-13",
+            "images": "/assets/scan/ScanAll/Trinity13.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db86"
+            }
+          },
+          {
+            "href": "tome-14",
+            "images": "/assets/scan/ScanAll/Trinity14.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db87"
+            }
+          },
+          {
+            "href": "tome-15",
+            "images": "/assets/scan/ScanAll/Trinity15.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db88"
+            }
+          },
+          {
+            "href": "tome-15-5",
+            "images": "/assets/scan/ScanAll/Trinity15-5.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db89"
+            }
+          },
+          {
+            "href": "tome-16",
+            "images": "/assets/scan/ScanAll/Trinity16.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db8a"
+            }
+          },
+          {
+            "href": "tome-17",
+            "images": "/assets/scan/ScanAll/Trinity17.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db8b"
+            }
+          },
+          {
+            "href": "tome-18",
+            "images": "/assets/scan/ScanAll/Trinity18.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db8c"
+            }
+          },
+          {
+            "href": "tome-19",
+            "images": "/assets/scan/ScanAll/Trinity19.webp",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db8d"
+            }
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/prison-school/scans",
+            "anime_image": "/assets/scan/prisonschool_scan.webp",
+            "anime_name": "Prison School",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db8e"
+            }
+          },
+          {
+            "anime_href": "/manga/highschool-of-the-dead/scans",
+            "anime_image": "/assets/scan/hotd_scan.webp",
+            "anime_name": "Highschool of the Dead",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db8f"
+            }
+          },
+          {
+            "anime_href": "/manga/high-school-dxd/scans",
+            "anime_image": "/assets/scan/highschooldxd_scan.webp",
+            "anime_name": "High School DxD",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db90"
+            }
+          },
+          {
+            "anime_href": "/manga/uq-holder/scans",
+            "anime_image": "/assets/scan/uq_scan.webp",
+            "anime_name": "UQ Holder!",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db91"
+            }
+          },
+          {
+            "anime_href": "/manga/the-quintessential-quintuplets/scans",
+            "anime_image": "/assets/scan/quintessential_scan.webp",
+            "anime_name": "The Quintessential Quintuplets",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db92"
+            }
+          },
+          {
+            "anime_href": "/manga/triage-x/scans",
+            "anime_image": "/assets/scan/triagex_scan.webp",
+            "anime_name": "Triage X",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db93"
+            }
+          },
+          {
+            "anime_href": "/manga/the-testament-of-sister-new-devil/scans",
+            "anime_image": "/assets/scan/testamentsister_scan.webp",
+            "anime_name": "The Testament of Sister New Devil",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db94"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slave/scans",
+            "anime_image": "/assets/scan/demonslave_scan.webp",
+            "anime_name": "Demon Slave",
+            "_id": {
+              "$oid": "66a8f4554c8b3ade58e0db95"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8f4554c8b3ade58e0db79"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-30T14:10:29.655Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T14:10:29.655Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8fd054c8b3ade58e0df25"
+    },
+    "slug": "ao-ashi",
+    "imageTop": "/assets/AoAshi_Top.webp",
+    "navClass": "bg-sky-400 text-blue-700",
+    "back": "bg-yellow-300",
+    "search": "bg-sky-400 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/AoAshi_poster.webp",
+        "url": "ao-ashi/episodes",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df26"
+        }
+      },
+      {
+        "img": "/assets/scan/aoashi_scan.webp",
+        "url": "ao-ashi/scans",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df27"
+        }
+      },
+      {
+        "img": "/assets/AoAshi_API.webp",
+        "url": "https://ao-ashi.fandom.com/fr/wiki/Cat%C3%A9gorie:Personnage",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df28"
+        }
+      }
+    ],
+    "titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/BlueLock_poster.webp",
+        "name": "Blue Lock",
+        "url": "/manga/blue-lock",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df29"
+        }
+      },
+      {
+        "image": "/assets/Days_poster.webp",
+        "name": "Days",
+        "url": "/manga/days",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df2a"
+        }
+      },
+      {
+        "image": "/assets/Tsubasa_poster.webp",
+        "name": "Captain Tsubasa",
+        "url": "/manga/captain-tsubasa",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df2b"
+        }
+      },
+      {
+        "image": "/assets/Kuroko_poster.webp",
+        "name": "Kuroko's Basket",
+        "url": "/manga/kuroko-basket",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df2c"
+        }
+      },
+      {
+        "image": "/assets/Haikyu_poster.webp",
+        "name": "Haikyuu",
+        "url": "/manga/haikyuu",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df2d"
+        }
+      },
+      {
+        "image": "/assets/Ippo_poster.webp",
+        "name": "Hajime no Ippo",
+        "url": "/manga/hajime-no-ippo",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df2e"
+        }
+      },
+      {
+        "image": "/assets/AllOut_poster.webp",
+        "name": "All Out",
+        "url": "/manga/all-out",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df2f"
+        }
+      },
+      {
+        "image": "/assets/SlamDunk_poster.webp",
+        "name": "Slam Dunk",
+        "url": "/manga/slam-dunk",
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df30"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-sky-400 text-blue-700",
+        "backNav": "bg-yellow-300",
+        "searchNav": "bg-sky-400 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df31"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/AoAshi_poster.webp",
+        "classNav": "bg-sky-400 text-blue-700",
+        "backNav": "bg-yellow-300",
+        "searchNav": "bg-sky-400 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/blue-lock/episodes",
+            "anime_image": "/assets/BlueLock_poster.webp",
+            "anime_name": "Blue Lock",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df33"
+            }
+          },
+          {
+            "anime_href": "/manga/days/episodes",
+            "anime_image": "/assets/Days_poster.webp",
+            "anime_name": "Days",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df34"
+            }
+          },
+          {
+            "anime_href": "/manga/captain-tsubasa/episodes",
+            "anime_image": "/assets/Tsubasa_poster.webp",
+            "anime_name": "Captain Tsubasa",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df35"
+            }
+          },
+          {
+            "anime_href": "/manga/kuroko-basket/episodes",
+            "anime_image": "/assets/Kuroko_poster.webp",
+            "anime_name": "Kuroko's Basket",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df36"
+            }
+          },
+          {
+            "anime_href": "/manga/haikyuu/episodes",
+            "anime_image": "/assets/Haikyu_poster.webp",
+            "anime_name": "Haikyuu",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df37"
+            }
+          },
+          {
+            "anime_href": "/manga/hajime-no-ippo/episodes",
+            "anime_image": "/assets/Ippo_poster.webp",
+            "anime_name": "Hajime no Ippo",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df38"
+            }
+          },
+          {
+            "anime_href": "/manga/all-out/episodes",
+            "anime_image": "/assets/AllOut_poster.webp",
+            "anime_name": "All Out",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df39"
+            }
+          },
+          {
+            "anime_href": "/manga/slam-dunk/episodes",
+            "anime_image": "/assets/SlamDunk_poster.webp",
+            "anime_name": "Slam Dunk",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df3a"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df32"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/aoashi_scan.webp",
+        "classNav": "bg-sky-400 text-blue-700",
+        "backNav": "bg-yellow-300",
+        "searchNav": "bg-sky-400 text-blue-700 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/AoAshi1.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df3c"
+            }
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/AoAshi2.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df3d"
+            }
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/AoAshi3.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df3e"
+            }
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/AoAshi4.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df3f"
+            }
+          },
+          {
+            "href": "tome-5",
+            "images": "/assets/scan/ScanAll/AoAshi5.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df40"
+            }
+          },
+          {
+            "href": "tome-6",
+            "images": "/assets/scan/ScanAll/AoAshi6.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df41"
+            }
+          },
+          {
+            "href": "tome-7",
+            "images": "/assets/scan/ScanAll/AoAshi7.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df42"
+            }
+          },
+          {
+            "href": "tome-8",
+            "images": "/assets/scan/ScanAll/AoAshi8.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df43"
+            }
+          },
+          {
+            "href": "tome-9",
+            "images": "/assets/scan/ScanAll/AoAshi9.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df44"
+            }
+          },
+          {
+            "href": "tome-10",
+            "images": "/assets/scan/ScanAll/AoAshi10.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df45"
+            }
+          },
+          {
+            "href": "tome-11",
+            "images": "/assets/scan/ScanAll/AoAshi11.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df46"
+            }
+          },
+          {
+            "href": "tome-12",
+            "images": "/assets/scan/ScanAll/AoAshi12.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df47"
+            }
+          },
+          {
+            "href": "tome-13",
+            "images": "/assets/scan/ScanAll/AoAshi13.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df48"
+            }
+          },
+          {
+            "href": "tome-14",
+            "images": "/assets/scan/ScanAll/AoAshi14.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df49"
+            }
+          },
+          {
+            "href": "tome-15",
+            "images": "/assets/scan/ScanAll/AoAshi15.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df4a"
+            }
+          },
+          {
+            "href": "tome-16",
+            "images": "/assets/scan/ScanAll/AoAshi16.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df4b"
+            }
+          },
+          {
+            "href": "tome-17",
+            "images": "/assets/scan/ScanAll/AoAshi17.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df4c"
+            }
+          },
+          {
+            "href": "tome-18",
+            "images": "/assets/scan/ScanAll/AoAshi18.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df4d"
+            }
+          },
+          {
+            "href": "tome-19",
+            "images": "/assets/scan/ScanAll/AoAshi19.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df4e"
+            }
+          },
+          {
+            "href": "tome-20",
+            "images": "/assets/scan/ScanAll/AoAshi20.webp",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df4f"
+            }
+          }
+        ],
+        "anime_titre": "text-neutral-900 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/blue-lock/scans",
+            "anime_image": "/assets/scan/bluelock_scan.webp",
+            "anime_name": "Blue Lock",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df50"
+            }
+          },
+          {
+            "anime_href": "/manga/days/scans",
+            "anime_image": "/assets/scan/days_scan.webp",
+            "anime_name": "Days",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df51"
+            }
+          },
+          {
+            "anime_href": "/manga/captain-tsubasa/scans",
+            "anime_image": "/assets/scan/tsubasa_scan.webp",
+            "anime_name": "Captain Tsubasa",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df52"
+            }
+          },
+          {
+            "anime_href": "/manga/kuroko-basket/scans",
+            "anime_image": "/assets/scan/kuroko_scan.webp",
+            "anime_name": "Kuroko's Basket",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df53"
+            }
+          },
+          {
+            "anime_href": "/manga/haikyuu/scans",
+            "anime_image": "/assets/scan/haikyu_scan.webp",
+            "anime_name": "Haikyuu",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df54"
+            }
+          },
+          {
+            "anime_href": "/manga/hajime-no-ippo/scans",
+            "anime_image": "/assets/scan/ippo_scan.webp",
+            "anime_name": "Hajime no Ippo",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df55"
+            }
+          },
+          {
+            "anime_href": "/manga/all-out/scans",
+            "anime_image": "/assets/scan/allout_scan.webp",
+            "anime_name": "All Out",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df56"
+            }
+          },
+          {
+            "anime_href": "/manga/slam-dunk/scans",
+            "anime_image": "/assets/scan/slamdunk_scan.webp",
+            "anime_name": "Slam Dunk",
+            "_id": {
+              "$oid": "66a8fd054c8b3ade58e0df57"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a8fd054c8b3ade58e0df3b"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-30T14:47:33.239Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T14:47:33.239Z"
     },
     "__v": 0
   }

@@ -2030,7 +2030,7 @@
       "Harem",
       "Reincarnation"
     ],
-    "anime": ["Series"],
+    "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -2172,7 +2172,7 @@
       "$oid": "66965e02f728b7bf2e7a786f"
     },
     "image": "/assets/Summonded2ndTime_poster.webp",
-    "name": "Isekai Shoukan wa Nidome Desu",
+    "name": "Summoned to Another World Again",
     "url": "summoned-to-another-world-again",
     "categorie": [
       "Seinen",
@@ -3637,6 +3637,219 @@
     },
     "updatedAt": {
       "$date": "2024-07-29T14:29:17.155Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8a3f9652ba272281119e4"
+    },
+    "image": "/assets/TowerGod_poster.webp",
+    "name": "Tower of God",
+    "url": "tower-of-god",
+    "categorie": [
+      "Action",
+      "Drame",
+      "Adventure",
+      "Dark Fantasy",
+      "Mystère",
+      "Science-Fiction"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending", "ScanTrending"],
+    "createdAt": {
+      "$date": "2024-07-30T08:27:37.889Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T08:27:37.889Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8c2434c8b3ade58e0d8a9"
+    },
+    "image": "/assets/UniqueSkill_poster.webp",
+    "name": "My Unique Skill Makes Me OP even at Level 1",
+    "url": "my-unique-skill-makes-me-op-even-at-level-1",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Mystère",
+      "Fantasy",
+      "Romance",
+      "Autre Monde",
+      "Harem",
+      "Magie",
+      "Reincarnation"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-30T10:36:51.817Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T10:36:51.817Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8d2fa4c8b3ade58e0d977"
+    },
+    "image": "/assets/HiddenDungeon_poster.webp",
+    "name": "The Hidden Dungeon Only I Can Enter",
+    "url": "the-hidden-dungeon-only-i-can-enter",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Ecchi",
+      "Fantasy",
+      "Harem",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T11:48:10.815Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T11:48:10.815Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8d3b14c8b3ade58e0d979"
+    },
+    "image": "/assets/AsteriskWar_poster.webp",
+    "name": "The Asterisk War: The Academy City on the Water",
+    "url": "the-asterisk-war",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Fantasy",
+      "Science-Fiction",
+      "Romance",
+      "Surnaturel"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T11:51:13.250Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T11:51:13.250Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8ed684c8b3ade58e0db4f"
+    },
+    "image": "/assets/UQ_poster.webp",
+    "name": "UQ Holder!",
+    "url": "uq-holder",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Magie",
+      "Arts-Martiaux"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T13:40:56.793Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T13:40:56.793Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8ee074c8b3ade58e0db51"
+    },
+    "image": "/assets/Quintessential_poster.webp",
+    "name": "The Quintessential Quintuplets",
+    "url": "the-quintessential-quintuplets",
+    "categorie": ["Shonen", "Romance", "Comédie", "Harem", "Ecole"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T13:43:35.990Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T13:43:35.990Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8f05f4c8b3ade58e0db53"
+    },
+    "image": "/assets/TriageX_first.webp",
+    "name": "Triage X",
+    "url": "triage-x",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Thriller",
+      "Ecchi",
+      "Assassinat",
+      "Policier",
+      "Mafia"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T13:53:35.966Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T13:53:35.966Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8f1f24c8b3ade58e0db55"
+    },
+    "image": "/assets/TestamentSister_poster.webp",
+    "name": "The Testament of Sister New Devil",
+    "url": "the-testament-of-sister-new-devil",
+    "categorie": ["Shonen", "Action", "Romance", "Ecchi", "Fantasy"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T14:00:18.871Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T14:00:18.871Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a8fbb34c8b3ade58e0df23"
+    },
+    "image": "/assets/AllOut_poster.webp",
+    "name": "All Out",
+    "url": "all-out",
+    "categorie": ["Seinen", "Sports", "Rugby", "Comédie", "Ecole"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-30T14:41:55.207Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-30T14:41:55.207Z"
     },
     "__v": 0
   }

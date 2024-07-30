@@ -76,6 +76,11 @@
 - [x] I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability
 - [x] 20th Century Boys
 - [x] Red Eyes Sword: Akame Ga Kill
+- [x] Akashic Record of Bastard Magic Instructor
+- [x] Alya Sometimes Hides Her Feelings in Russian
+- [x] Am I Actually the Strongest?
+- [x] Antimagic Academy
+- [x] Ao ashi
 
 
 
@@ -90,7 +95,7 @@
 - [ ] Hell's paradise
 
 - [ ] Kenshin le vagabon
-- [ ] Ao ashi
+
 - [ ] Black summoner
 
 
@@ -144,7 +149,7 @@
 
 - [ ] Prison School
 - [ ] Iruma à l'école des Démons
-- [ ] Akashic Record of Bastard Magic Instructor
+
 - [ ] Spy Classroom
 - [ ] Saiki Kusuo no Psi Nan
 
@@ -183,7 +188,7 @@
 - [ ] Quality Assurance in Another World
 
 - [ ] Suicide Squad ISEKAI
-- [ ] Alya Sometimes Hides Her Feelings in Russian
+
 - [ ] Bucchigiri?!
 - [ ] Sengoku Youko
 
@@ -194,7 +199,7 @@
 - [ ] Villainess Level 99
 - [ ] Classroom for Heroes
 - [ ] Wistoria: Wand and Sword
-- [ ] Am I Actually the Strongest?
+
 - [ ] The Great Cleric
 - [ ] Les Carnets de l'Apothicaire
 - [ ] GTO
@@ -203,4 +208,16 @@
 - [ ] Reborn !
 
 - [ ] Kiruru Kill Me
+- [ ] Undefeated Bahamut Chronicle
+- [ ] High School Prodigies Have It Easy Even In Another World
+- [ ] Tower of God
+- [ ] My Unique Skill Makes Me OP even at Level 1
+- [ ] The Hidden Dungeon Only I Can Enter
+- [ ] The Asterisk War
+- [ ] All Out
+- [ ] The Testament of Sister New Devil
+- [ ] Triage X
+- [ ] The Quintessential Quintuplets
+- [ ] UQ Holder!
 - [ ] 
+
