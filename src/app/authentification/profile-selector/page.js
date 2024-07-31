@@ -23,7 +23,7 @@ export default function PageChoixProfil() {
       lien: "/accueil",
     },
     {
-      name: "Rischi Al Ghoul",
+      name: "2",
       image: "/assets/avatar/sasukeShippudenAvatar.png",
       lien: "/accueil",
     },

@@ -30,7 +30,7 @@ export const connection = async () => {
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     ssl: {
-      ca: fs.readFileSync(path.resolve(process.cwd(), process.env.DB_SSL_CA)),
+      ca: fs.readFileSync( process.env.DB_SSL_CA),
     },
   });
 }

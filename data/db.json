@@ -26604,5 +26604,1137 @@
       "$date": "2024-07-30T14:47:33.239Z"
     },
     "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a9f3b23f4d9b4b7f86a653"
+    },
+    "slug": "the-asterisk-war",
+    "imageTop": "/assets/AsteriskWar_Top.webp",
+    "navClass": "bg-cyan-300 text-pink-400",
+    "back": "bg-slate-100",
+    "search": "bg-cyan-300 text-pink-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-cyan-600 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/AsteriskWar_poster.webp",
+        "url": "the-asterisk-war/episodes",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a654"
+        }
+      },
+      {
+        "img": "/assets/AsteriskWar_API.webp",
+        "url": "https://asterisk.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a655"
+        }
+      }
+    ],
+    "titre": "text-cyan-400 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/Antimagic_poster.webp",
+        "name": "Antimagic Academy: The 35th test Platoon",
+        "url": "/manga/antimagic-academy",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a656"
+        }
+      },
+      {
+        "image": "/assets/Undefeated_poster.webp",
+        "name": "Undefeated Bahamut Chronicle",
+        "url": "/manga/undefeated-bahamut-chronicle",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a657"
+        }
+      },
+      {
+        "image": "/assets/Chivalry_poster.webp",
+        "name": "Chivalry of a Failed Knight",
+        "url": "/manga/chilvalry-of-a-failed-knight",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a658"
+        }
+      },
+      {
+        "image": "/assets/HiddenDungeon_poster.webp",
+        "name": "The Hidden Dungeon Only I Can Enter",
+        "url": "/manga/the-hidden-dungeon-only-i-can-enter",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a659"
+        }
+      },
+      {
+        "image": "/assets/HxHMagias_poster.webp",
+        "name": "Hybrid x Heart Magias Academy Ataraxia",
+        "url": "/manga/hybrid-x-heart-magias-academy",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a65a"
+        }
+      },
+      {
+        "image": "/assets/Irregular_poster.webp",
+        "name": "The Irregular at Magic High School",
+        "url": "/manga/the-irregular-at-magic-high-school",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a65b"
+        }
+      },
+      {
+        "image": "/assets/ClassHeroes_poster.webp",
+        "name": "Classroom for Heroes",
+        "url": "/manga/classroom-for-heroes",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a65c"
+        }
+      },
+      {
+        "image": "/assets/Akashic_poster.webp",
+        "name": "Akashic Record of Bastard Magic Instructor",
+        "url": "/manga/akashic-record",
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a65d"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-cyan-300 text-pink-400",
+        "backNav": "bg-slate-100",
+        "searchNav": "bg-cyan-300 text-pink-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-cyan-600 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-cyan-400 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a65e"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/AsteriskWar_poster.webp",
+        "classNav": "bg-cyan-300 text-pink-400",
+        "backNav": "bg-slate-100",
+        "searchNav": "bg-cyan-300 text-pink-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-cyan-600 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/AsteriskWarS1.webp",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a660"
+            }
+          },
+          {
+            "href": "saison-2",
+            "images": "/assets/series/AsteriskWarS2.webp",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a661"
+            }
+          }
+        ],
+        "anime_titre": "text-cyan-400 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/antimagic-academy/episodes",
+            "anime_image": "/assets/Antimagic_poster.webp",
+            "anime_name": "Antimagic Academy: The 35th test Platoon",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a662"
+            }
+          },
+          {
+            "anime_href": "/manga/undefeated-bahamut-chronicle/episodes",
+            "anime_image": "/assets/Undefeated_poster.webp",
+            "anime_name": "Undefeated Bahamut Chronicle",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a663"
+            }
+          },
+          {
+            "anime_href": "/manga/chilvalry-of-a-failed-knight/episodes",
+            "anime_image": "/assets/Chivalry_poster.webp",
+            "anime_name": "Chivalry of a Failed Knight",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a664"
+            }
+          },
+          {
+            "anime_href": "/manga/the-hidden-dungeon-only-i-can-enter/episodes",
+            "anime_image": "/assets/HiddenDungeon_poster.webp",
+            "anime_name": "The Hidden Dungeon Only I Can Enter",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a665"
+            }
+          },
+          {
+            "anime_href": "/manga/hybrid-x-heart-magias-academy/episodes",
+            "anime_image": "/assets/HxHMagias_poster.webp",
+            "anime_name": "Hybrid x Heart Magias Academy Ataraxia",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a666"
+            }
+          },
+          {
+            "anime_href": "/manga/the-irregular-at-magic-high-school/episodes",
+            "anime_image": "/assets/Irregular_poster.webp",
+            "anime_name": "The Irregular at Magic High School",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a667"
+            }
+          },
+          {
+            "anime_href": "/manga/classroom-for-heroes/episodes",
+            "anime_image": "/assets/ClassHeroes_poster.webp",
+            "anime_name": "Classroom for Heroes",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a668"
+            }
+          },
+          {
+            "anime_href": "/manga/akashic-record/episodes",
+            "anime_image": "/assets/Akashic_poster.webp",
+            "anime_name": "Akashic Record of Bastard Magic Instructor",
+            "_id": {
+              "$oid": "66a9f3b23f4d9b4b7f86a669"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a65f"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "",
+        "classNav": "bg-cyan-300 text-pink-400",
+        "backNav": "bg-slate-100",
+        "searchNav": "bg-cyan-300 text-pink-400 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-cyan-600 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-cyan-400 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66a9f3b23f4d9b4b7f86a66a"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-31T08:20:02.533Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T08:20:02.533Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66aa09113f4d9b4b7f86a754"
+    },
+    "slug": "baki",
+    "imageTop": "/assets/Baki_Top.webp",
+    "navClass": "bg-red-600 text-neutral-950",
+    "back": "bg-neutral-800",
+    "search": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/Baki_poster.webp",
+        "url": "baki/episodes",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a755"
+        }
+      },
+      {
+        "img": "/assets/scan/baki_scan.webp",
+        "url": "baki/scans",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a756"
+        }
+      },
+      {
+        "img": "/assets/Baki_API.webp",
+        "url": "https://baki.fandom.com/wiki/Category:Characters",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a757"
+        }
+      }
+    ],
+    "titre": "text-red-700 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/KenganAshura_poster.webp",
+        "name": "Kengan Ashura",
+        "url": "/manga/kengan-ashura",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a758"
+        }
+      },
+      {
+        "image": "/assets/Ippo_first.webp",
+        "name": "Hajime no Ippo",
+        "url": "/manga/hajime-no-ippo",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a759"
+        }
+      },
+      {
+        "image": "/assets/Tekken_poster.webp",
+        "name": "Tekken: Bloodline",
+        "url": "/manga/tekken-bloodline",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a75a"
+        }
+      },
+      {
+        "image": "/assets/TokyoRevengers_poster.webp",
+        "name": "Tokyo Revengers",
+        "url": "/manga/tokyo-revengers",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a75b"
+        }
+      },
+      {
+        "image": "/assets/JJK_poster.webp",
+        "name": "Jujustu Kaisen",
+        "url": "/manga/jujustu-kaisen",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a75c"
+        }
+      },
+      {
+        "image": "/assets/Berserk_poster.webp",
+        "name": "Berserk",
+        "url": "/manga/berserk",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a75d"
+        }
+      },
+      {
+        "image": "/assets/DS_poster.webp",
+        "name": "Demon Slayer",
+        "url": "/manga/demon-slayer-kimetsu-no-yaiba",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a75e"
+        }
+      },
+      {
+        "image": "/assets/OnePunch_poster.webp",
+        "name": "One Punch Man",
+        "url": "/manga/one-punch-man",
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a75f"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-red-600",
+        "backNav": "bg-neutral-800",
+        "searchNav": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
+        "imageSee": [],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [],
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a760"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Baki_poster.webp",
+        "classNav": "bg-red-600 text-neutral-950",
+        "backNav": "bg-neutral-800",
+        "searchNav": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/BakiS1.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a762"
+            }
+          },
+          {
+            "href": "saison-2",
+            "images": "/assets/series/BakiS2.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a763"
+            }
+          },
+          {
+            "href": "saison-3",
+            "images": "/assets/series/BakiS3.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a764"
+            }
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/kengan-ashura/episodes",
+            "anime_image": "/assets/KenganAshura_poster.webp",
+            "anime_name": "Kengan Ashura",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a765"
+            }
+          },
+          {
+            "anime_href": "/manga/hajime-no-ippo/episodes",
+            "anime_image": "/assets/Ippo_first.webp",
+            "anime_name": "Hajime no Ippo",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a766"
+            }
+          },
+          {
+            "anime_href": "/manga/tekken-bloodline/episodes",
+            "anime_image": "/assets/Tekken_poster.webp",
+            "anime_name": "Tekken: Bloodline",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a767"
+            }
+          },
+          {
+            "anime_href": "/manga/tokyo-revengers/episodes",
+            "anime_image": "/assets/TokyoRevengers_poster.webp",
+            "anime_name": "Tokyo Revengers",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a768"
+            }
+          },
+          {
+            "anime_href": "/manga/jujustu-kaisen/episodes",
+            "anime_image": "/assets/JJK_poster.webp",
+            "anime_name": "Jujustu Kaisen",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a769"
+            }
+          },
+          {
+            "anime_href": "/manga/berserk/episodes",
+            "anime_image": "/assets/Berserk_poster.webp",
+            "anime_name": "Berserk",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a76a"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/episodes",
+            "anime_image": "/assets/DS_poster.webp",
+            "anime_name": "Demon Slayer",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a76b"
+            }
+          },
+          {
+            "anime_href": "/manga/one-punch-man/episodes",
+            "anime_image": "/assets/OnePunch_poster.webp",
+            "anime_name": "One Punch Man",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a76c"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a761"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/baki_scan.webp",
+        "classNav": "bg-red-600 text-neutral-950",
+        "backNav": "bg-neutral-800",
+        "searchNav": "bg-red-600 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/Baki1.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a76e"
+            }
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/Baki2.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a76f"
+            }
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/Baki3.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a770"
+            }
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/Baki4.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a771"
+            }
+          },
+          {
+            "href": "tome-5",
+            "images": "/assets/scan/ScanAll/Baki5.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a772"
+            }
+          },
+          {
+            "href": "tome-6",
+            "images": "/assets/scan/ScanAll/Baki6.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a773"
+            }
+          },
+          {
+            "href": "tome-7",
+            "images": "/assets/scan/ScanAll/Baki7.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a774"
+            }
+          },
+          {
+            "href": "tome-8",
+            "images": "/assets/scan/ScanAll/Baki8.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a775"
+            }
+          },
+          {
+            "href": "tome-9",
+            "images": "/assets/scan/ScanAll/Baki9.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a776"
+            }
+          },
+          {
+            "href": "tome-10",
+            "images": "/assets/scan/ScanAll/Baki10.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a777"
+            }
+          },
+          {
+            "href": "tome-11",
+            "images": "/assets/scan/ScanAll/Baki11.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a778"
+            }
+          },
+          {
+            "href": "tome-12",
+            "images": "/assets/scan/ScanAll/Baki12.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a779"
+            }
+          },
+          {
+            "href": "tome-13",
+            "images": "/assets/scan/ScanAll/Baki13.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a77a"
+            }
+          },
+          {
+            "href": "tome-14",
+            "images": "/assets/scan/ScanAll/Baki14.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a77b"
+            }
+          },
+          {
+            "href": "tome-15",
+            "images": "/assets/scan/ScanAll/Baki15.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a77c"
+            }
+          },
+          {
+            "href": "tome-16",
+            "images": "/assets/scan/ScanAll/Baki16.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a77d"
+            }
+          },
+          {
+            "href": "tome-17",
+            "images": "/assets/scan/ScanAll/Baki17.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a77e"
+            }
+          },
+          {
+            "href": "tome-18",
+            "images": "/assets/scan/ScanAll/Baki18.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a77f"
+            }
+          },
+          {
+            "href": "tome-19",
+            "images": "/assets/scan/ScanAll/Baki19.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a780"
+            }
+          },
+          {
+            "href": "tome-20",
+            "images": "/assets/scan/ScanAll/Baki20.webp",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a781"
+            }
+          }
+        ],
+        "anime_titre": "text-red-700 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/kengan-ashura/scans",
+            "anime_image": "/assets/scan/kenganashura_scan.webp",
+            "anime_name": "Kengan Ashura",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a782"
+            }
+          },
+          {
+            "anime_href": "/manga/hajime-no-ippo/scans",
+            "anime_image": "/assets/scan/ippo_scan.webp",
+            "anime_name": "Hajime no Ippo",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a783"
+            }
+          },
+          {
+            "anime_href": "/manga/tokyo-revengers/scans",
+            "anime_image": "/assets/scan/tokyorevengers_scan.webp",
+            "anime_name": "Tokyo Revengers",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a784"
+            }
+          },
+          {
+            "anime_href": "/manga/jujustu-kaisen/scans",
+            "anime_image": "/assets/scan/jjk_scan.webp",
+            "anime_name": "Jujustu Kaisen",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a785"
+            }
+          },
+          {
+            "anime_href": "/manga/berserk/scans",
+            "anime_image": "/assets/scan/berserk_scan.webp",
+            "anime_name": "Berserk",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a786"
+            }
+          },
+          {
+            "anime_href": "/manga/demon-slayer-kimetsu-no-yaiba/scans",
+            "anime_image": "/assets/scan/kimetsu_scan.webp",
+            "anime_name": "Demon Slayer",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a787"
+            }
+          },
+          {
+            "anime_href": "/manga/one-punch-man/scans",
+            "anime_image": "/assets/scan/onepunch_scan.webp",
+            "anime_name": "One Punch Man",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a788"
+            }
+          },
+          {
+            "anime_href": "/manga/vinland-saga/scans",
+            "anime_image": "/assets/scan/vinlandsaga_scan.webp",
+            "anime_name": "Vinland Saga",
+            "_id": {
+              "$oid": "66aa09113f4d9b4b7f86a789"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66aa09113f4d9b4b7f86a76d"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-31T09:51:13.466Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T09:51:13.466Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66aa299c3f4d9b4b7f86a9c2"
+    },
+    "slug": "bakuman",
+    "imageTop": "/assets/Bakuman_first.webp",
+    "navClass": "bg-neutral-100 text-neutral-950",
+    "back": "bg-neutral-100",
+    "search": "bg-neutral-100 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+    "listeSearch": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+    "imageShow": [
+      {
+        "img": "/assets/Bakuman_poster.webp",
+        "url": "bakuman/episodes",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c3"
+        }
+      },
+      {
+        "img": "/assets/scan/bakuman_scan.webp",
+        "url": "bakuman/scans",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c4"
+        }
+      },
+      {
+        "img": "/assets/Bakuman_API.webp",
+        "url": "https://bakuman.fandom.com/wiki/Category:Bakuman_Characters",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c5"
+        }
+      }
+    ],
+    "titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+    "imageCarousel": [
+      {
+        "image": "/assets/DeathNote_poster.webp",
+        "name": "Death Note",
+        "url": "/manga/death-note",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c6"
+        }
+      },
+      {
+        "image": "/assets/PlatinumEnd_poster.webp",
+        "name": "Platinum End",
+        "url": "/manga/platinum-end",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c7"
+        }
+      },
+      {
+        "image": "/assets/HikaruGo_poster.webp",
+        "name": "Hikaru no go",
+        "url": "/manga/hikaru-no-go",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c8"
+        }
+      },
+      {
+        "image": "/assets/MobPsycho_poster.webp",
+        "name": "Mob Psycho 100",
+        "url": "/manga/mob-psycho",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9c9"
+        }
+      },
+      {
+        "image": "/assets/Reborn_poster.webp",
+        "name": "Reborn ! Mon prof le tueur",
+        "url": "/manga/reborn",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9ca"
+        }
+      },
+      {
+        "image": "/assets/Eyeshield21_poster.webp",
+        "name": "Eyeshield 21",
+        "url": "/manga/eyeshield-21",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9cb"
+        }
+      },
+      {
+        "image": "/assets/Beelzebub_poster.webp",
+        "name": "Beelzebub",
+        "url": "/manga/beelzebub",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9cc"
+        }
+      },
+      {
+        "image": "/assets/Slump&Arale_poster.webp",
+        "name": "Dr Slump",
+        "url": "/manga/dr-slump",
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9cd"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "animeId": "films",
+        "anime_imageTop": "",
+        "classNav": "bg-neutral-100 text-neutral-950",
+        "backNav": "bg-neutral-100",
+        "searchNav": "bg-neutral-100 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+        "imageSee": [
+          {
+            "href": "",
+            "images": "",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9cf"
+            }
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "",
+            "anime_image": "",
+            "anime_name": "",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d0"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9ce"
+        }
+      },
+      {
+        "animeId": "episodes",
+        "anime_imageTop": "/assets/Bakuman_poster.webp",
+        "classNav": "bg-neutral-100 text-neutral-950",
+        "backNav": "bg-neutral-100",
+        "searchNav": "bg-neutral-100 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+        "imageSee": [
+          {
+            "href": "saison-1",
+            "images": "/assets/series/BakumanS1.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d2"
+            }
+          },
+          {
+            "href": "saison-2",
+            "images": "/assets/series/BakumanS2.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d3"
+            }
+          },
+          {
+            "href": "saison-3",
+            "images": "/assets/series/BakumanS3.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d4"
+            }
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/death-note/episodes",
+            "anime_image": "/assets/DeathNote_poster.webp",
+            "anime_name": "Death Note",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d5"
+            }
+          },
+          {
+            "anime_href": "/manga/platinum-end/episodes",
+            "anime_image": "/assets/PlatinumEnd_poster.webp",
+            "anime_name": "Platinum End",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d6"
+            }
+          },
+          {
+            "anime_href": "/manga/hikaru-no-go/episodes",
+            "anime_image": "/assets/HikaruGo_poster.webp",
+            "anime_name": "Hikaru no go",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d7"
+            }
+          },
+          {
+            "anime_href": "/manga/mob-psycho/episodes",
+            "anime_image": "/assets/MobPsycho_poster.webp",
+            "anime_name": "Mob Psycho 100",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d8"
+            }
+          },
+          {
+            "anime_href": "/manga/reborn/episodes",
+            "anime_image": "/assets/Reborn_poster.webp",
+            "anime_name": "Reborn ! Mon prof le tueur",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9d9"
+            }
+          },
+          {
+            "anime_href": "/manga/eyeshield-21/episodes",
+            "anime_image": "/assets/Eyeshield21_poster.webp",
+            "anime_name": "Eyeshield 21",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9da"
+            }
+          },
+          {
+            "anime_href": "/manga/beelzebub/episodes",
+            "anime_image": "/assets/Beelzebub_poster.webp",
+            "anime_name": "Beelzebub",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9db"
+            }
+          },
+          {
+            "anime_href": "/manga/dr-slump/episodes",
+            "anime_image": "/assets/Slump&Arale_poster.webp",
+            "anime_name": "Dr Slump",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9dc"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9d1"
+        }
+      },
+      {
+        "animeId": "scans",
+        "anime_imageTop": "/assets/scan/bakuman_scan.webp",
+        "classNav": "bg-neutral-100 text-neutral-950",
+        "backNav": "bg-neutral-100",
+        "searchNav": "bg-neutral-100 text-neutral-950 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none",
+        "listeSearchNav": "cursor-pointer p-2 hover:bg-gray-200 hover:text-blue-700 border-t-0",
+        "imageSee": [
+          {
+            "href": "tome-1",
+            "images": "/assets/scan/ScanAll/Bakuman1.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9de"
+            }
+          },
+          {
+            "href": "tome-2",
+            "images": "/assets/scan/ScanAll/Bakuman2.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9df"
+            }
+          },
+          {
+            "href": "tome-3",
+            "images": "/assets/scan/ScanAll/Bakuman3.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e0"
+            }
+          },
+          {
+            "href": "tome-4",
+            "images": "/assets/scan/ScanAll/Bakuman4.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e1"
+            }
+          },
+          {
+            "href": "tome-5",
+            "images": "/assets/scan/ScanAll/Bakuman5.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e2"
+            }
+          },
+          {
+            "href": "tome-6",
+            "images": "/assets/scan/ScanAll/Bakuman6.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e3"
+            }
+          },
+          {
+            "href": "tome-7",
+            "images": "/assets/scan/ScanAll/Bakuman7.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e4"
+            }
+          },
+          {
+            "href": "tome-8",
+            "images": "/assets/scan/ScanAll/Bakuman8.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e5"
+            }
+          },
+          {
+            "href": "tome-9",
+            "images": "/assets/scan/ScanAll/Bakuman9.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e6"
+            }
+          },
+          {
+            "href": "tome-10",
+            "images": "/assets/scan/ScanAll/Bakuman10.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e7"
+            }
+          },
+          {
+            "href": "tome-11",
+            "images": "/assets/scan/ScanAll/Bakuman11.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e8"
+            }
+          },
+          {
+            "href": "tome-12",
+            "images": "/assets/scan/ScanAll/Bakuman12.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9e9"
+            }
+          },
+          {
+            "href": "tome-13",
+            "images": "/assets/scan/ScanAll/Bakuman13.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9ea"
+            }
+          },
+          {
+            "href": "tome-14",
+            "images": "/assets/scan/ScanAll/Bakuman14.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9eb"
+            }
+          },
+          {
+            "href": "tome-15",
+            "images": "/assets/scan/ScanAll/Bakuman15.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9ec"
+            }
+          },
+          {
+            "href": "tome-16",
+            "images": "/assets/scan/ScanAll/Bakuman16.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9ed"
+            }
+          },
+          {
+            "href": "tome-17",
+            "images": "/assets/scan/ScanAll/Bakuman17.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9ee"
+            }
+          },
+          {
+            "href": "tome-18",
+            "images": "/assets/scan/ScanAll/Bakuman18.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9ef"
+            }
+          },
+          {
+            "href": "tome-19",
+            "images": "/assets/scan/ScanAll/Bakuman19.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f0"
+            }
+          },
+          {
+            "href": "tome-20",
+            "images": "/assets/scan/ScanAll/Bakuman20.webp",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f1"
+            }
+          }
+        ],
+        "anime_titre": "text-neutral-950 text-2xl pb-2.5 ml-2",
+        "anime_imageCarousel": [
+          {
+            "anime_href": "/manga/death-note/scans",
+            "anime_image": "/assets/scan/deathnote_scan.webp",
+            "anime_name": "Death Note",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f2"
+            }
+          },
+          {
+            "anime_href": "/manga/platinum-end/scans",
+            "anime_image": "/assets/scan/platinumend_scan.webp",
+            "anime_name": "Platinum End",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f3"
+            }
+          },
+          {
+            "anime_href": "/manga/hikaru-no-go/scans",
+            "anime_image": "/assets/scan/hikarugo_scan.webp",
+            "anime_name": "Hikaru no go",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f4"
+            }
+          },
+          {
+            "anime_href": "/manga/mob-psycho/scans",
+            "anime_image": "/assets/scan/mob_scan.webp",
+            "anime_name": "Mob Psycho 100",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f5"
+            }
+          },
+          {
+            "anime_href": "/manga/reborn/scans",
+            "anime_image": "/assets/scan/reborn_scan.webp",
+            "anime_name": "Reborn ! Mon prof le tueur",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f6"
+            }
+          },
+          {
+            "anime_href": "/manga/eyeshield-21/scans",
+            "anime_image": "/assets/scan/eyeshield21_scan.webp",
+            "anime_name": "Eyeshield 21",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f7"
+            }
+          },
+          {
+            "anime_href": "/manga/beelzebub/scans",
+            "anime_image": "/assets/scan/beelzebub_scan.webp",
+            "anime_name": "Beelzebub",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f8"
+            }
+          },
+          {
+            "anime_href": "/manga/kenshin-le-vagabond/scans",
+            "anime_image": "/assets/scan/kenshin_scan.webp",
+            "anime_name": "Kenshin le vagabond",
+            "_id": {
+              "$oid": "66aa299c3f4d9b4b7f86a9f9"
+            }
+          }
+        ],
+        "_id": {
+          "$oid": "66aa299c3f4d9b4b7f86a9dd"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-31T12:10:04.732Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T12:10:04.732Z"
+    },
+    "__v": 0
   }
 ]

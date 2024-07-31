@@ -5,7 +5,7 @@ export default function Widgets() {
   const widget = [
     {
       image:
-        "/assets/boutiques/figurines/jjk/4573102637369_figure-megumi-fushiguro-jujutsu-kaisen-figuarts-primary.jpg",
+        "/assets/boutiques/clothes.webp",
       name: "Shop Clothes",
       url: "/stores/clothes",
     },
@@ -17,7 +17,7 @@ export default function Widgets() {
     },
     {
       image:
-        "/assets/boutiques/accessoires/4573102658586_figure-the-stone-mask-phantom-blood-and-battle-tendency-arc-ver-jojos-bizarre-adventure-ichiban-primary.jpg",
+        "/assets/boutiques/accessoire.webp",
       name: "Shop Accessories",
       url: "/stores/accessoires",
     },

@@ -1,9 +1,37 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
+  const [randomText, setRandomText] = useState("");
+
+  useEffect(() => {
+    const texte = [
+      "Shinobi",
+      "le futur roi des Pirates",
+      "Shinigami remplaçant",
+      "Guerrier de la Team Z",
+      "le Titan Originel",
+      "Detective",
+      "celui qui veut sauver juste des filles dans les Dungeons",
+      "membre de Shadow Garden",
+      "Porfendeur de Démons",
+      "Exorciste",
+      "Tueur à gage",
+      "Assassin",
+      "l'Alchimiste",
+      "Le go c'est un sports",
+      "Chasseur",
+      "Hero",
+      "celui qui gagne en un Coup",
+      "mon prof qui sert la Mafia",
+      "J'ai pas de Chance",
+    ];
+    const randomIndex = Math.floor(Math.random() * texte.length);
+    const selectedText = texte[randomIndex];
+    setRandomText(selectedText);
+  });
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -65,16 +93,16 @@ export default function PageAuth() {
             onSubmit={handleLogin}
             className="bg-slate-50 flex flex-col items-center justify-center p-12 h-full text-center"
           >
-            <h2 className="text-2xl font-bold mb-6">Connexion</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">Connexion</h2>
             <input
               type="email"
               placeholder="Email"
-              className="bg-gray-200 border-none p-3 my-2 w-full"
+              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
             />
             <input
               type="password"
               placeholder="Mot de passe"
-              className="bg-gray-200 border-none p-3 my-2 w-full"
+              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
             />
             <Link href="#" className="text-gray-600 text-sm mt-2">
               Mot de passe oublié ?
@@ -88,23 +116,25 @@ export default function PageAuth() {
         <div className="absolute top-0 w-1/2 h-full transition-all duration-600 ease-in-out transform z-2">
           <form
             onSubmit={handleSignIn}
-            className="bg-slate-50 flex flex-col items-center justify-center p-12 h-full text-center"
+            className="bg-slate-50 flex flex-col items-center justify-center p-8 md:p-12 h-full text-center"
           >
-            <h2 className="text-2xl font-bold mb-6">Créer un compte</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Créer un compte
+            </h2>
             <input
               type="text"
               placeholder="Username"
-              className="bg-gray-200 border-none p-3 my-2 w-full"
+              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
             />
             <input
               type="email"
               placeholder="Email"
-              className="bg-gray-200 border-none p-3 my-2 w-full"
+              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
             />
             <input
               type="password"
               placeholder="Mot de passe"
-              className="bg-gray-200 border-none p-3 my-2 w-full"
+              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
             />
             <button className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               S'inscrire
@@ -125,7 +155,7 @@ export default function PageAuth() {
               }`}
             >
               <h2 className="ml-1 text-xl lg:text-2xl">
-                Bon retour parmi nous Shinobi !
+                Bon retour parmi nous {randomText} !
               </h2>
               <p className="my-2 text-sm md:text-md">
                 Pour reprendre tes lectures ou visionnages connecte-toi vite
@@ -138,12 +168,12 @@ export default function PageAuth() {
               </button>
             </div>
             <div
-              className={`absolute flex flex-col items-center justify-center px-10 text-center top-0 h-full w-1/2 right-0 transform transition-transform duration-600 ease-in-out ${
+              className={`hidden md:flex absolute flex-col items-center justify-center px-10 text-center top-0 h-full w-1/2 right-0 transform transition-transform duration-600 ease-in-out ${
                 isConnect ? "translate-x-[20%]" : "translate-x-0"
               }`}
             >
               <h2 className="ml-1 text-xl lg:text-2xl">
-                Bienvenue le futur roi des Pirates!
+                Bienvenue {randomText} !
               </h2>
               <p className="my-2 text-sm md:text-md">
                 Enregistre toutes tes infos et rejoinds l'équipage vite

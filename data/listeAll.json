@@ -3852,5 +3852,112 @@
       "$date": "2024-07-30T14:41:55.207Z"
     },
     "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a9f2a33f4d9b4b7f86a651"
+    },
+    "image": "/assets/HxHMagias_poster.webp",
+    "name": "Hybrid x Heart Magias Academy Ataraxia",
+    "url": "hybrid-x-heart-magias-academy",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Fantasy",
+      "Romance",
+      "Harem",
+      "Science-Fiction",
+      "Ecole"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-31T08:15:31.588Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T08:15:31.588Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66aa08e73f4d9b4b7f86a752"
+    },
+    "image": "/assets/Tekken_poster.webp",
+    "name": "Tekken: Bloodline",
+    "url": "tekken-bloodline",
+    "categorie": [
+      "Action",
+      "Drame",
+      "Arts-Martiaux",
+      "Combats",
+      "Vengeance",
+      "Tournois"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-31T09:50:31.290Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T09:50:31.290Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66aa24583f4d9b4b7f86a9bc"
+    },
+    "image": "/assets/HikaruGo_poster.webp",
+    "name": "Hikaru no go",
+    "url": "hikaru-no-go",
+    "categorie": ["Shonen", "Action", "Ecole", "Jeux", "Sports", "Tournois"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-31T11:47:36.703Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T11:47:36.703Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66aa256e3f4d9b4b7f86a9be"
+    },
+    "image": "/assets/PlatinumEnd_poster.webp",
+    "name": "Platinum End",
+    "url": "platinum-end",
+    "categorie": ["Shonen", "Drame", "Mystère", "Psychologique", "Surnaturel"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-07-31T11:52:14.314Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T11:52:14.314Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66aa284a3f4d9b4b7f86a9c0"
+    },
+    "image": "/assets/Beelzebub_poster.webp",
+    "name": "Beelzebub",
+    "url": "beelzebub",
+    "categorie": ["Shonen", "Action", "Comédie", "Combats", "Démons", "Ecole"],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["Recommander"],
+    "createdAt": {
+      "$date": "2024-07-31T12:04:26.760Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-31T12:04:26.760Z"
+    },
+    "__v": 0
   }
 ]
