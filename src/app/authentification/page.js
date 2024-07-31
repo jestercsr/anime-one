@@ -10,13 +10,13 @@ export default function PageAuth() {
     const texte = [
       "Shinobi",
       "le futur roi des Pirates",
-      "Shinigami remplaçant",
+      "le Shinigami remplaçant",
       "Guerrier de la Team Z",
       "le Titan Originel",
-      "Detective",
+      "le plus petit des Détectives",
       "celui qui veut sauver juste des filles dans les Dungeons",
       "membre de Shadow Garden",
-      "Porfendeur de Démons",
+      "Pourfendeur de Démons",
       "Exorciste",
       "Tueur à gage",
       "Assassin",
@@ -25,8 +25,8 @@ export default function PageAuth() {
       "Chasseur",
       "Hero",
       "celui qui gagne en un Coup",
-      "mon prof qui sert la Mafia",
-      "J'ai pas de Chance",
+      "à mon prof qui sert la Mafia",
+      "j'ai pas de Chance",
     ];
     const randomIndex = Math.floor(Math.random() * texte.length);
     const selectedText = texte[randomIndex];
