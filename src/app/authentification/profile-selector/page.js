@@ -1,9 +1,12 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { useProfile } from "../../../../providers/ProfileContext";
 
 export default function PageChoixProfil() {
   const [data, setData] = useState("");
+  const { selectProfile } = useProfile();
+
   useEffect(() => {
     const getNom = async () => {
       try {
@@ -44,6 +47,7 @@ export default function PageChoixProfil() {
                     src={profil.image}
                     alt={profil.name}
                     className="rounded-full"
+                    onClick={() => selectProfile(profil)}
                   />
                 </Link>
               </div>

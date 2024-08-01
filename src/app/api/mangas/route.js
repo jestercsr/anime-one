@@ -1,11 +1,11 @@
 "use server";
 import { NextResponse } from "next/server";
 import connectDB from "../../../../config/database";
-import MangaModel from "../../../../models/testModel";
+import MangaModel from "../../../../models/mangaModel";
 
 export async function POST(request) {
   await connectDB();
-  
+
   const data = await request.json();
   console.log("Données reçu:", data);
 
@@ -14,10 +14,16 @@ export async function POST(request) {
   try {
     const savedManga = await nouveauManga.save();
     console.log("Nouveau Manga Créé:", savedManga);
-    return NextResponse.json({ message: "Nouveau Manga Créé" }, { status: 201 });
+    return NextResponse.json(
+      { message: "Nouveau Manga Créé" },
+      { status: 201 }
+    );
   } catch (error) {
     console.error("Erreur lors de l'ajout du document:", error);
-    return NextResponse.json({ message: "Erreur lors de l'ajout du document" }, { status: 500 });
+    return NextResponse.json(
+      { message: "Erreur lors de l'ajout du document" },
+      { status: 500 }
+    );
   }
 }
 

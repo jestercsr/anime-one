@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import connectDB from "../../../../../../config/database";
-import MangaModel from "../../../../../../models/testModel";
+import MangaModel from "../../../../../../models/mangaModel";
 
 export async function GET(request, { params }) {
   const { slug, animation } = params;

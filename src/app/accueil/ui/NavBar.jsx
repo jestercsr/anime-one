@@ -11,15 +11,22 @@ import {
   CircleUserRound,
 } from "lucide-react";
 import React, { useState, useEffect } from "react";
-import { Twirl as Hamburger } from 'hamburger-react'
+import { Twirl as Hamburger } from "hamburger-react";
 import { getListeAll } from "../../../../_actions/postAction";
-import ReactLoading from 'react-loading';
+import ReactLoading from "react-loading";
+import { useProfile } from "../../../../providers/ProfileContext";
 
 export default function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
+  const { selectedProfile, logout } = useProfile();
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   const [bgColor] = useState("bg-teal-900");
@@ -71,6 +78,9 @@ export default function Navbar(props) {
       icon: <Newspaper />,
     },
   ];
+  if (selectedProfile && selectedProfile.role === 'admin') {
+    navlinks.push({ label: "Admin", lien: "/admin" });
+  }
 
   const [searchTerm, setSearchTerm] = useState("");
   const [data, setData] = useState([]);
@@ -104,13 +114,30 @@ export default function Navbar(props) {
   }, [searchTerm, data]);
 
   if (loading) {
-    return <div><ReactLoading type="bubbles" color="#ffffff" height={'30px'} width={'30px'} /></div>;
+    return (
+      <div>
+        <ReactLoading
+          type="bubbles"
+          color="#ffffff"
+          height={"30px"}
+          width={"30px"}
+        />
+      </div>
+    );
   }
 
   return (
     <div className={props.className}>
-      <nav className={`${isOpen? "flex justify-between": "flex justify-between lg:px-8 items-center lg:py-[4px] py-0"}`}>
-        <section className={`${isOpen?"flex gap-4": "flex items-center gap-4"}`}>
+      <nav
+        className={`${
+          isOpen
+            ? "flex justify-between"
+            : "flex justify-between lg:px-8 items-center lg:py-[4px] py-0"
+        }`}
+      >
+        <section
+          className={`${isOpen ? "flex gap-4" : "flex items-center gap-4"}`}
+        >
           <div>
             <Link href={"/accueil"}>
               <div className="hidden md:flex w-20">
@@ -126,9 +153,16 @@ export default function Navbar(props) {
           </div>
         </section>
 
-        
-        <section className={` ${isOpen ? "w-[50%] h-[300px] min-h-0 flex-col" : "hidden lg:flex"} relative lg:min-h-fit items-center min-h-[60vh] lg:w-auto w-full flex`}>
-          <div className={`${isOpen? "mt-14": "block"} lg:flex-shrink lg:flex-grow-0 lg:justify-start lg:px-2`}>
+        <section
+          className={` ${
+            isOpen ? "w-[50%] h-[300px] min-h-0 flex-col" : "hidden lg:flex"
+          } relative lg:min-h-fit items-center min-h-[60vh] lg:w-auto w-full flex`}
+        >
+          <div
+            className={`${
+              isOpen ? "mt-14" : "block"
+            } lg:flex-shrink lg:flex-grow-0 lg:justify-start lg:px-2`}
+          >
             <div className="relative block">
               <input
                 type="text"
@@ -144,15 +178,14 @@ export default function Navbar(props) {
                 <ul className={props.liste}>
                   {filteredData.map((manga, i) => (
                     <li key={i} className={props.listing}>
-                      <Link href={`/manga/${manga.url}`}>{manga.name}
-                      </Link>
+                      <Link href={`/manga/${manga.url}`}>{manga.name}</Link>
                     </li>
                   ))}
-                </ul> 
+                </ul>
               )}
             </div>
           </div>
-          <ul className={`${isOpen? "inline-block": "flex"} gap-5 list-none`}>
+          <ul className={`${isOpen ? "inline-block" : "flex"} gap-5 list-none`}>
             {navlinks.map((link) => {
               return (
                 <li
@@ -169,12 +202,44 @@ export default function Navbar(props) {
                 </li>
               );
             })}
-          <section className="items-center gap-6">
-            <CircleUserRound />
-          </section>
+            <section className="items-center gap-6">
+              {selectedProfile ? (
+                <div
+                  className="relative"
+                  onMouseEnter={toggleDropdown}
+                  onMouseLeave={toggleDropdown}
+                >
+                  <img
+                    src={selectedProfile.image}
+                    alt={selectedProfile.name}
+                    className="w-8 h-8 rounded-full cursor-pointer"
+                  />
+                  {isDropdownOpen && (
+                    <div className="absolute right-0 mt-2 w-48 bg-current border rounded shadow-lg">
+                      <Link href="/profile">
+                        <div className="px-4 py-2 text-current hover:bg-current">
+                          Profil
+                        </div>
+                      </Link>
+                      <div
+                        className="px-4 py-2 text-current hover:bg-current cursor-pointer"
+                        onClick={logout}
+                      >
+                        Déconnexion
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <CircleUserRound />
+              )}
+            </section>
           </ul>
         </section>
-        <button onClick={toggleMenu} className="focus:outline-none flex float-right lg:hidden">
+        <button
+          onClick={toggleMenu}
+          className="focus:outline-none flex float-right lg:hidden"
+        >
           <Hamburger />
         </button>
       </nav>

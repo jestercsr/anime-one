@@ -1,6 +1,6 @@
 "use server";
 
-import MangaModel from "../models/testModel";
+import MangaModel from "../models/mangaModel";
 import connectDB from "../config/database";
 import ListeModel from "../models/listeModel";
 

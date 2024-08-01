@@ -1,5 +1,6 @@
 import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
+import { ProfileProvider } from "../../providers/ProfileContext";
 
 const inter = Inter({ subsets: ["latin"] });
  
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}><ProfileProvider>{children}</ProfileProvider></body>
     </html>
   );
 }
