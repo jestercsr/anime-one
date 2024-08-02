@@ -59,19 +59,6 @@ export default function Faq() {
               la fin de la période pour laquelle vous avez payé.
             </p>
           </Accordion>
-          <Accordion title="Est-ce que Anime ONE est adapté aux enfants ? ">
-            <p className="text-sm md:text-base lg:text-lg ml-2">
-              AnimeYoung est inclus dans votre abonnement Family et offre un
-              meilleur contrôle aux parents, ainsi qu'un espace dédié aux
-              enfants, avec des films et des séries destinés à toute la famille.
-              <p>
-                Les profils Young comportent des fonctionnalités de contrôle
-                parental avec code PIN permettant de modifier la catégorie d'âge
-                des contenus que vos enfants peuvent regarder et de bloquer des
-                titres spécifiques.
-              </p>
-            </p>
-          </Accordion>
         </div>
       </div>
     </div>

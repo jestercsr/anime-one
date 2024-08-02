@@ -13,6 +13,7 @@ public class Produit {
     private String titre;
     @Column(columnDefinition = "TEXT")
     private String description;
+    @Transient
     private String photo;
     private double prix;
     private int quantite;

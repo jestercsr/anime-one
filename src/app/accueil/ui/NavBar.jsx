@@ -206,8 +206,7 @@ export default function Navbar(props) {
               {selectedProfile ? (
                 <div
                   className="relative"
-                  onMouseEnter={toggleDropdown}
-                  onMouseLeave={toggleDropdown}
+                  onClick={toggleDropdown}
                 >
                   <img
                     src={selectedProfile.image}
@@ -215,14 +214,14 @@ export default function Navbar(props) {
                     className="w-8 h-8 rounded-full cursor-pointer"
                   />
                   {isDropdownOpen && (
-                    <div className="absolute right-0 mt-2 w-48 bg-current border rounded shadow-lg">
+                    <div className={"bg-cyan-900 text-white absolute z-10 right-0 mt-2 w-48  border rounded shadow-lg"}>
                       <Link href="/profile">
-                        <div className="px-4 py-2 text-current hover:bg-current">
+                        <div className="px-4 py-2 hover:text-sky-500">
                           Profil
                         </div>
                       </Link>
                       <div
-                        className="px-4 py-2 text-current hover:bg-current cursor-pointer"
+                        className="px-4 py-2 hover:text-red-500 cursor-pointer"
                         onClick={logout}
                       >
                         Déconnexion

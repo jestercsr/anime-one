@@ -97,11 +97,13 @@ function ListeFilms() {
           {dataImage.map((imgScreen, index) => {
             return (
               <div key={index}>
+                <Link href={imgScreen.url}>
                 <img src={imgScreen.image} alt={imgScreen.name} />
 
                 <p className="legend">
-                  <Link href={imgScreen.url}>{imgScreen.name}</Link>
+                  {imgScreen.name}
                 </p>
+                </Link>
               </div>
             );
           })}

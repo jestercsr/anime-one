@@ -38,10 +38,10 @@ if (mongoose.models.mangaName) {
         backNav: String,
         searchNav: String,
         listeSearchNav: String,
-        imageSee: [{ href: String, images: String }],
+        imageSee: [{ images: String, href: String }],
         anime_titre: String,
         anime_imageCarousel: [
-          { anime_href: String, anime_image: String, anime_name: String },
+          { anime_image: String, anime_name: String, anime_href: String },
         ],
       },
     ],

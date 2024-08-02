@@ -1,10 +1,12 @@
 'use client'
+import { useRouter } from "next/navigation";
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 const ProfileContext = createContext();
 
 export const ProfileProvider = ({ children }) => {
   const [selectedProfile, setSelectedProfile] = useState(null);
+  const router = useRouter()
 
   useEffect(() => {
     const storedProfile = localStorage.getItem("selectedProfile");
@@ -21,7 +23,9 @@ export const ProfileProvider = ({ children }) => {
   const logout = () => {
     setSelectedProfile(null);
     localStorage.removeItem("selectedProfile");
-    window.location.href = "/";
+    if (router && router.push) {
+      router.push('/');
+    }
   };
 
   return (

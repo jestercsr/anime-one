@@ -1,10 +1,12 @@
 "use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
+  const router = useRouter()
 
   useEffect(() => {
     const texte = [
@@ -21,7 +23,6 @@ export default function PageAuth() {
       "Tueur à gage",
       "Assassin",
       "l'Alchimiste",
-      "Le go c'est un sports",
       "Chasseur",
       "Hero",
       "celui qui gagne en un Coup",
@@ -44,7 +45,7 @@ export default function PageAuth() {
     const response = await fetch("/api/users");
 
     if (response.ok) {
-      window.location.href = "/authentification/profile-selector";
+      router.push("/authentification/profile-selector");
     } else {
       console.log("Echec à la connexion");
     }
@@ -68,7 +69,7 @@ export default function PageAuth() {
     });
 
     if (response.ok) {
-      window.location.href = "/authentification/info-utilisateur";
+      router.push("/authentification/info-utilisateur");
     } else {
       alert("L'inscription n'a pas reussie");
     }
