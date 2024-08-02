@@ -20,17 +20,31 @@ const connectDB = async () => {
     console.log(error);
   }
 };
+
 let connect
 export const connection = async () => {
   if (!connect) {
+    const caPath1 = process.env.TIDB_SSL_CA_PATH1;
+    const caPath2 = process.env.TIDB_SSL_CA_PATH2;
+    const caPath3 = process.env.TIDB_SSL_CA_PATH3;
+    let caPath;
+    if (fs.existsSync(caPath1)) {
+      caPath = caPath1;
+    } else if (fs.existsSync(caPath2)) {
+      caPath = caPath2;
+    } else if (fs.existsSync(caPath3)){
+      caPath = caPath3
+    }else {
+      throw new Error('Aucun chemin de certificat SSL valide trouvé.');
+    }
   connect = await mysql.createConnection({
-    host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME,
+    host: process.env.TIDB_HOST,
+    port: process.env.TIDB_PORT,
+    user: process.env.TIDB_USER,
+    password: process.env.TIDB_PASSWORD,
+    database: process.env.TIDB_NAME,
     ssl: {
-      ca: fs.readFileSync( process.env.DB_SSL_CA),
+      ca: fs.readFileSync(caPath),
     },
   });
 }
