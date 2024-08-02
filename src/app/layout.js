@@ -1,13 +1,14 @@
 import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
 import { ProfileProvider } from "../../providers/ProfileContext";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
- 
+
 const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Anime ONE | Bienvenue",
@@ -17,7 +18,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={roboto.className}><ProfileProvider>{children}</ProfileProvider></body>
+      <body className={roboto.className}>
+        <ProfileProvider>
+          {children}
+          <Analytics />
+        </ProfileProvider>
+      </body>
     </html>
   );
 }
