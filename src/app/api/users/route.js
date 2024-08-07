@@ -8,7 +8,7 @@ export async function GET(req, res) {
     return NextResponse.json([rows], { status: 200 });
   } catch (error) {
     return NextResponse.json(
-      { message: "Une Erreur est survenue", error: error.message },
+      { message: "Une erreur est survenue", error: error.message },
       { status: 500 }
     );
   }

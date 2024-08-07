@@ -81,6 +81,15 @@
 - [x] Am I Actually the Strongest?
 - [x] Antimagic Academy
 - [x] Ao ashi
+- [x] Berserk of Gloutony
+- [x] Bakuman
+- [x] The Asterisk War
+- [x] Baki
+- [x] Bersek
+- [x] Beelzebub
+- [x] Black Butler
+
+
 
 
 
@@ -90,7 +99,7 @@
 - [ ] Dr Slump
 - [ ] Yu gi oh
 - [ ] God of high school
-- [ ] Bersek
+
 
 - [ ] Hell's paradise
 
@@ -156,7 +165,7 @@
 - [ ] How a Realist Hero Rebuilt the Kingdom
 - [ ] I'm Quitting Heroing
 
-- [ ] Bakuman
+
 
 - [ ] The Unwanted Undead Adventurer
 
@@ -164,7 +173,7 @@
 - [ ] Beyblade
 - [ ] Beyblade Metal
 - [ ] Beyblade Burst
-- [ ] Berserk of Gloutony
+
 - [ ] Monster
 - [ ] Seraph of the End
 - [ ] Psycho Pass
@@ -213,11 +222,16 @@
 - [ ] Tower of God
 - [ ] My Unique Skill Makes Me OP even at Level 1
 - [ ] The Hidden Dungeon Only I Can Enter
-- [ ] The Asterisk War
+
 - [ ] All Out
 - [ ] The Testament of Sister New Devil
 - [ ] Triage X
 - [ ] The Quintessential Quintuplets
 - [ ] UQ Holder!
+
+- [ ] Platinum End
+- [ ] Hikaru no go
+- [ ] Tekken: Bloodline
+- [ ] Hybrid x Heart Magias Academy Ataraxia
 - [ ] 
 

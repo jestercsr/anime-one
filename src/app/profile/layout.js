@@ -1,5 +1,7 @@
 import { Inter, Roboto } from "next/font/google";
 import "../globals.css";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import Error from "./error";
 
 const inter = Inter({ subsets: ["latin"] });
  
@@ -16,7 +18,9 @@ export const metadata = {
 export default function MoviesLayout({ children }) {
   return (
     <div className={roboto.className}>
+      <ErrorBoundary fallback={<Error/>}>
       {children}
+      </ErrorBoundary>
     </div>
   );
 }

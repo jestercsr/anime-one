@@ -169,7 +169,7 @@ export default function PageAuth() {
               </button>
             </div>
             <div
-              className={`hidden md:flex absolute flex-col items-center justify-center px-10 text-center top-0 h-full w-1/2 right-0 transform transition-transform duration-600 ease-in-out ${
+              className={` md:flex absolute flex-col items-center justify-center px-10 text-center top-0 h-full w-1/2 right-0 transform transition-transform duration-600 ease-in-out ${
                 isConnect ? "translate-x-[20%]" : "translate-x-0"
               }`}
             >

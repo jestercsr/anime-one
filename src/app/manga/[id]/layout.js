@@ -1,6 +1,8 @@
 import React from "react";
 import { Inter, Roboto } from "next/font/google";
 import "../../globals.css";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import Error from "./error";
 
 const inter = Inter({ subsets: ["latin"] });
  
@@ -24,7 +26,9 @@ export async function generateMetadata({ params }) {
 export default function MangaLayout({ children }) {
   return (
     <div className={roboto.className}>
-        {children}
+      <ErrorBoundary fallback={<Error/>}>
+      {children}
+      </ErrorBoundary>
     </div>
   );
 }

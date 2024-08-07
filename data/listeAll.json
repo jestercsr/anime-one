@@ -24,6 +24,29 @@
   },
   {
     "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f4"
+    },
+    "image": "/assets/Mha_first.webp",
+    "name": "My Hero Academia",
+    "url": "my-hero-academia",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Ecole",
+      "Fantasy",
+      "Super-Héros",
+      "Science-Fiction"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [
+      "Recommander",
+      "AnimeTrending",
+      "ScanTrending",
+      "MovieRecommander"
+    ]
+  },
+  {
+    "_id": {
       "$oid": "66965e02f728b7bf2e7a77ec"
     },
     "image": "/assets/Konosuba.webp",
@@ -84,182 +107,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a77ef"
-    },
-    "image": "/assets/Kaiju_poster.webp",
-    "name": "Kaiju n°8",
-    "url": "kaiju-no-8",
-    "categorie": ["Shonen", "Adventure", "Science-Fiction"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f0"
-    },
-    "image": "/assets/Conan_poster.webp",
-    "name": "Detective Conan",
-    "url": "detective-conan",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Mystère",
-      "Comédie",
-      "Drame",
-      "Thriller",
-      "Policier",
-      "Enigme",
-      "Detective"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["AnimeTrending", "MovieRecommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f1"
-    },
-    "image": "/assets/Tsukimichi_poster.webp",
-    "name": "Tsukimichi Moonlit Fantasy",
-    "url": "tsukimichi-moonlit-fantasy",
-    "categorie": [
-      "Isekai",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Fantasy",
-      "Drame",
-      "Autre Monde",
-      "Dieux/ Déesses",
-      "Shonen"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f2"
-    },
-    "image": "/assets/WindBreaker_poster.webp",
-    "name": "Wind Breaker",
-    "url": "wind-breaker",
-    "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f3"
-    },
-    "image": "/assets/NinjaKamui_poster.webp",
-    "name": "Ninja Kamui",
-    "url": "ninja-kamui",
-    "categorie": ["Action", "Cyborgs", "Ninja", "Vengeance", "Seinen"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f4"
-    },
-    "image": "/assets/Mha_first.webp",
-    "name": "My Hero Academia",
-    "url": "my-hero-academia",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Ecole",
-      "Fantasy",
-      "Super-Héros",
-      "Science-Fiction"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [
-      "Recommander",
-      "AnimeTrending",
-      "ScanTrending",
-      "MovieRecommander"
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f5"
-    },
-    "image": "/assets/SpiceWolf_poster.webp",
-    "name": "Spice & Wolf",
-    "url": "spice-and-wolf",
-    "categorie": ["Seinen", "Fantasy", "Adventure", "Romance"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f6"
-    },
-    "image": "/assets/ChainsawMan_poster.webp",
-    "name": "Chainsaw Man",
-    "url": "chainsaw-man",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Surnaturel",
-      "Dark Fantasy",
-      "Drame",
-      "Romance",
-      "Démons",
-      "Monstres"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f7"
-    },
-    "image": "/assets/SpyFamily_poster.webp",
-    "name": "Spy x Family",
-    "url": "spy-x-family",
-    "categorie": ["Shonen", "Action", "Comédie", "Ecole", "Espion", "Famille"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f8"
-    },
-    "image": "/assets/DBS.webp",
-    "name": "Dragon Ball Super",
-    "url": "dragon-ball-super",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Arts-Martiaux",
-      "Science-Fiction"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77f9"
-    },
-    "image": "/assets/Naruto_first.webp",
-    "name": "Naruto",
-    "url": "naruto",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Ninja",
-      "Arts-Martiaux",
-      "Drame",
-      "Combats"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["Recommander"]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a77fa"
     },
     "image": "/assets/Aot_poster.webp",
@@ -289,17 +136,6 @@
     "categorie": ["Seinen", "Tournoi", "Sports", "Football"],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a77fc"
-    },
-    "image": "/assets/Ippo_first.webp",
-    "name": "Hajime no Ippo",
-    "url": "hajime-no-ippo",
-    "categorie": ["Shonen", "Sports", "Boxe", "Romance"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["ScanTrending", "MovieRecommander"]
   },
   {
     "_id": {
@@ -381,25 +217,374 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7801"
+      "$oid": "66965e02f728b7bf2e7a7808"
     },
-    "image": "/assets/YuYuHakusho.webp",
-    "name": "Yu Yu Hakusho",
-    "url": "yu-yu-hakusho",
+    "image": "/assets/OnePunch_poster.webp",
+    "name": "One Punch Man",
+    "url": "one-punch-man",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Science-Fiction",
+      "Surnaturel",
+      "Fantasy"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7813"
+    },
+    "image": "/assets/DB_poster.webp",
+    "name": "Dragon Ball",
+    "url": "dragon-ball",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Arts-Martiaux",
+      "Comédie",
+      "Combats",
+      "Science-Fiction"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7819"
+    },
+    "image": "/assets/DemonKingAcademy_poster.webp",
+    "name": "The Misfit of Demon King Academy",
+    "url": "the-misfit-of-demon-king-academy",
+    "categorie": [
+      "Isekai",
+      "Action",
+      "Fantasy",
+      "Démons",
+      "Ecole",
+      "Magie",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a781b"
+    },
+    "image": "/assets/Arifureta_poster.webp",
+    "name": "Arifureta: From Commonplace to World's Strongest",
+    "url": "arifureta",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Drame",
+      "Fantasy",
+      "Surnaturel",
+      "Isekai",
+      "Combats",
+      "Vengeance"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a781f"
+    },
+    "image": "/assets/SAO_poster.webp",
+    "name": "Sword Art Online",
+    "url": "sword-art-online",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Science-Fiction",
+      "Romance"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7821"
+    },
+    "image": "/assets/SoloLeveling_poster.webp",
+    "name": "Solo Leveling",
+    "url": "solo-leveling",
+    "categorie": ["Seinen", "Action", "Dark Fantasy", "Combats", "Magie"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7826"
+    },
+    "image": "/assets/Tsubasa_poster.webp",
+    "name": "Captain Tsubasa",
+    "url": "captain-tsubasa",
+    "categorie": ["Shonen", "Sports", "Football"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7829"
+    },
+    "image": "/assets/Doubt_poster.webp",
+    "name": "Doubt",
+    "url": "rabbit-doubt",
+    "categorie": ["Seinen", "Mystère", "Horreur", "Thriller", "Psychologique"],
+    "anime": ["Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f5"
+    },
+    "image": "/assets/SpiceWolf_poster.webp",
+    "name": "Spice & Wolf",
+    "url": "spice-and-wolf",
+    "categorie": ["Seinen", "Fantasy", "Adventure", "Romance"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f9"
+    },
+    "image": "/assets/Naruto_first.webp",
+    "name": "Naruto",
+    "url": "naruto",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Ninja",
+      "Arts-Martiaux",
+      "Drame",
+      "Combats"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["Recommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7806"
+    },
+    "image": "/assets/Dbz_poster.webp",
+    "name": "Dragon Ball Z",
+    "url": "dragon-ball-z",
     "categorie": [
       "Shonen",
       "Action",
       "Adventure",
       "Comédie",
+      "Arts-Martiaux",
+      "Science-Fiction"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["Recommander", "MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7809"
+    },
+    "image": "/assets/JJK_poster.webp",
+    "name": "Jujustu Kaisen",
+    "url": "jujustu-kaisen",
+    "categorie": ["Shonen", "Action", "Dark Fantasy"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["Recommander", "ScanTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a780b"
+    },
+    "image": "/assets/shippuden.webp",
+    "name": "Naruto Shippuden",
+    "url": "naruto-shippuden",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Ninja",
+      "Arts-Martiaux",
+      "Drame",
+      "Combats"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7810"
+    },
+    "image": "/assets/TokyoGhoul_poster.webp",
+    "name": "Tokyo Ghoul",
+    "url": "tokyo-ghoul",
+    "categorie": [
+      "Seinen",
+      "Action",
       "Fantasy",
+      "Psychologique",
       "Drame",
       "Horreur",
-      "Surnaturel",
-      "Arts-Martiaux",
-      "Combats",
-      "Detective"
+      "Monstres"
     ],
     "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7815"
+    },
+    "image": "/assets/Tomodachi_poster.webp",
+    "name": "Tomodochi Game",
+    "url": "tomodochi-game",
+    "categorie": [
+      "Shonen",
+      "Thriller",
+      "Psychologique",
+      "Jeux",
+      "Drame",
+      "Trahison"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a781a"
+    },
+    "image": "/assets/Smartphone_poster.webp",
+    "name": "In Another World With My Smartphone",
+    "url": "in-another-world-with-my-smartphone",
+    "categorie": ["Isekai", "Fantasy", "Harem", "Autre Monde"],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a781d"
+    },
+    "image": "/assets/Danmachi_poster.webp",
+    "name": "DanMachi : La Légende des Familias",
+    "url": "danmachi",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Combats",
+      "Magie",
+      "Romance"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7820"
+    },
+    "image": "/assets/TokyoRevengers_poster.webp",
+    "name": "Tokyo Revengers",
+    "url": "tokyo-revengers",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Drame",
+      "Science-Fiction",
+      "Romance",
+      "Vengeance"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7822"
+    },
+    "image": "/assets/Stone_poster.webp",
+    "name": "Dr Stone",
+    "url": "dr-stone",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Drame",
+      "Fantasy",
+      "Post-Apocalyptique",
+      "Science-Fiction"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77ef"
+    },
+    "image": "/assets/Kaiju_poster.webp",
+    "name": "Kaiju n°8",
+    "url": "kaiju-no-8",
+    "categorie": ["Shonen", "Adventure", "Science-Fiction"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["ScanTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f0"
+    },
+    "image": "/assets/Conan_poster.webp",
+    "name": "Detective Conan",
+    "url": "detective-conan",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["AnimeTrending", "MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f2"
+    },
+    "image": "/assets/WindBreaker_poster.webp",
+    "name": "Wind Breaker",
+    "url": "wind-breaker",
+    "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f8"
+    },
+    "image": "/assets/DBS.webp",
+    "name": "Dragon Ball Super",
+    "url": "dragon-ball-super",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Arts-Martiaux",
+      "Science-Fiction"
+    ],
+    "anime": ["Films", "Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -444,44 +629,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7805"
-    },
-    "image": "/assets/Fmab_poster.webp",
-    "name": "Fullmetal Alchemist Brotherhood",
-    "url": "fullmetal-alchemist-brotherhood",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Action",
-      "Fantasy",
-      "Drame",
-      "Surnaturel",
-      "Alchimie",
-      "Militaire"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["Recommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7806"
-    },
-    "image": "/assets/Dbz_poster.webp",
-    "name": "Dragon Ball Z",
-    "url": "dragon-ball-z",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Arts-Martiaux",
-      "Science-Fiction"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["Recommander", "MovieRecommander"]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7807"
     },
     "image": "/assets/Boruto_first.webp",
@@ -493,37 +640,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7808"
-    },
-    "image": "/assets/OnePunch_poster.webp",
-    "name": "One Punch Man",
-    "url": "one-punch-man",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Drame",
-      "Science-Fiction",
-      "Surnaturel",
-      "Fantasy"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7809"
-    },
-    "image": "/assets/JJK_poster.webp",
-    "name": "Jujustu Kaisen",
-    "url": "jujustu-kaisen",
-    "categorie": ["Shonen", "Action", "Dark Fantasy"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["Recommander", "ScanTrending"]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a780a"
     },
     "image": "/assets/EminenceShadow_poster.webp",
@@ -531,24 +647,6 @@
     "url": "the-eminence-in-shadow",
     "categorie": ["Seinen", "Dark Fantasy", "Comédie", "Isekai"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a780b"
-    },
-    "image": "/assets/shippuden.webp",
-    "name": "Naruto Shippuden",
-    "url": "naruto-shippuden",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Ninja",
-      "Arts-Martiaux",
-      "Drame",
-      "Combats"
-    ],
-    "anime": ["Films", "Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -570,6 +668,229 @@
     ],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7812"
+    },
+    "image": "/assets/EdensZero_poster.webp",
+    "name": "Edens Zero",
+    "url": "edens-zero",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Science-Fiction",
+      "Fantasy"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["ScanTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7816"
+    },
+    "image": "/assets/LoserRanger_poster.webp",
+    "name": "No Longer Rangers",
+    "url": "no-longer-rangers",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Science-Fiction",
+      "Super-Héros",
+      "Drame",
+      "Combats"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7818"
+    },
+    "image": "/assets/FT_poster.webp",
+    "name": "Fairy Tail",
+    "url": "fairy-tail",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Combats",
+      "Magie"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["Recommander", "MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a781e"
+    },
+    "image": "/assets/DBGT.webp",
+    "name": "Dragon Ball GT",
+    "url": "dragon-ball-gt",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Arts-Martiaux",
+      "Combats",
+      "Science-Fiction"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7823"
+    },
+    "image": "/assets/ReMonster_poster.webp",
+    "name": "Re: Monster",
+    "url": "re-monster",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Autre Monde",
+      "Fantasy",
+      "Harem",
+      "Magie",
+      "Monstres",
+      "Civilisation",
+      "Adventure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7824"
+    },
+    "image": "/assets/KurokoBasket.webp",
+    "name": "Kuroko's Basket",
+    "url": "kuroko-basket",
+    "categorie": ["Shonen", "Sports", "Basket-ball"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f1"
+    },
+    "image": "/assets/Tsukimichi_poster.webp",
+    "name": "Tsukimichi Moonlit Fantasy",
+    "url": "tsukimichi-moonlit-fantasy",
+    "categorie": [
+      "Isekai",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Drame",
+      "Autre Monde",
+      "Dieux/ Déesses",
+      "Shonen"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f3"
+    },
+    "image": "/assets/NinjaKamui_poster.webp",
+    "name": "Ninja Kamui",
+    "url": "ninja-kamui",
+    "categorie": ["Action", "Cyborgs", "Ninja", "Vengeance", "Seinen"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f6"
+    },
+    "image": "/assets/ChainsawMan_poster.webp",
+    "name": "Chainsaw Man",
+    "url": "chainsaw-man",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Surnaturel",
+      "Dark Fantasy",
+      "Drame",
+      "Romance",
+      "Démons",
+      "Monstres"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["ScanTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77f7"
+    },
+    "image": "/assets/SpyFamily_poster.webp",
+    "name": "Spy x Family",
+    "url": "spy-x-family",
+    "categorie": ["Shonen", "Action", "Comédie", "Ecole", "Espion", "Famille"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["ScanTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a77fc"
+    },
+    "image": "/assets/Ippo_first.webp",
+    "name": "Hajime no Ippo",
+    "url": "hajime-no-ippo",
+    "categorie": ["Shonen", "Sports", "Boxe", "Romance"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["ScanTrending", "MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7801"
+    },
+    "image": "/assets/YuYuHakusho.webp",
+    "name": "Yu Yu Hakusho",
+    "url": "yu-yu-hakusho",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Drame",
+      "Horreur",
+      "Surnaturel",
+      "Arts-Martiaux",
+      "Combats",
+      "Detective"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7805"
+    },
+    "image": "/assets/Fmab_poster.webp",
+    "name": "Fullmetal Alchemist Brotherhood",
+    "url": "fullmetal-alchemist-brotherhood",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Action",
+      "Fantasy",
+      "Drame",
+      "Surnaturel",
+      "Alchimie",
+      "Militaire"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["Recommander"]
   },
   {
     "_id": {
@@ -622,25 +943,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7810"
-    },
-    "image": "/assets/TokyoGhoul_poster.webp",
-    "name": "Tokyo Ghoul",
-    "url": "tokyo-ghoul",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Fantasy",
-      "Psychologique",
-      "Drame",
-      "Horreur",
-      "Monstres"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7811"
     },
     "image": "/assets/Hunter_poster.webp",
@@ -658,44 +960,6 @@
     ],
     "anime": ["Series", "Scans"],
     "typeCategorie": ["Recommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7812"
-    },
-    "image": "/assets/EdensZero_poster.webp",
-    "name": "Edens Zero",
-    "url": "edens-zero",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Drame",
-      "Science-Fiction",
-      "Fantasy"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7813"
-    },
-    "image": "/assets/DB_poster.webp",
-    "name": "Dragon Ball",
-    "url": "dragon-ball",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Arts-Martiaux",
-      "Comédie",
-      "Combats",
-      "Science-Fiction"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -717,42 +981,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7815"
-    },
-    "image": "/assets/Tomodachi_poster.webp",
-    "name": "Tomodochi Game",
-    "url": "tomodochi-game",
-    "categorie": [
-      "Shonen",
-      "Thriller",
-      "Psychologique",
-      "Jeux",
-      "Drame",
-      "Trahison"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7816"
-    },
-    "image": "/assets/LoserRanger_poster.webp",
-    "name": "No Longer Rangers",
-    "url": "no-longer-rangers",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Science-Fiction",
-      "Super-Héros",
-      "Drame",
-      "Combats"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7817"
     },
     "image": "/assets/Sword_poster.webp",
@@ -760,76 +988,6 @@
     "url": "reincarnated-as-a-sword",
     "categorie": ["Seinen", "Fantasy", "Isekai"],
     "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7818"
-    },
-    "image": "/assets/FT_poster.webp",
-    "name": "Fairy Tail",
-    "url": "fairy-tail",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Fantasy",
-      "Combats",
-      "Magie"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["Recommander", "MovieRecommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7819"
-    },
-    "image": "/assets/DemonKingAcademy_poster.webp",
-    "name": "The Misfit of Demon King Academy",
-    "url": "the-misfit-of-demon-king-academy",
-    "categorie": [
-      "Isekai",
-      "Action",
-      "Fantasy",
-      "Démons",
-      "Ecole",
-      "Magie",
-      "Reincarnation"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a781a"
-    },
-    "image": "/assets/Smartphone_poster.webp",
-    "name": "In Another World With My Smartphone",
-    "url": "in-another-world-with-my-smartphone",
-    "categorie": ["Isekai", "Fantasy", "Harem", "Autre Monde"],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a781b"
-    },
-    "image": "/assets/Arifureta_poster.webp",
-    "name": "Arifureta: From Commonplace to World's Strongest",
-    "url": "arifureta",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Drame",
-      "Fantasy",
-      "Surnaturel",
-      "Isekai",
-      "Combats",
-      "Vengeance"
-    ],
-    "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -853,159 +1011,12 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a781d"
-    },
-    "image": "/assets/Danmachi_poster.webp",
-    "name": "DanMachi : La Légende des Familias",
-    "url": "danmachi",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Fantasy",
-      "Combats",
-      "Magie",
-      "Romance"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["MovieRecommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a781e"
-    },
-    "image": "/assets/DBGT.webp",
-    "name": "Dragon Ball GT",
-    "url": "dragon-ball-gt",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Arts-Martiaux",
-      "Combats",
-      "Science-Fiction"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a781f"
-    },
-    "image": "/assets/SAO_poster.webp",
-    "name": "Sword Art Online",
-    "url": "sword-art-online",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Science-Fiction",
-      "Romance"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7820"
-    },
-    "image": "/assets/TokyoRevengers_poster.webp",
-    "name": "Tokyo Revengers",
-    "url": "tokyo-revengers",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Drame",
-      "Science-Fiction",
-      "Romance",
-      "Vengeance"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7821"
-    },
-    "image": "/assets/SoloLeveling_poster.webp",
-    "name": "Solo Leveling",
-    "url": "solo-leveling",
-    "categorie": ["Seinen", "Action", "Dark Fantasy", "Combats", "Magie"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7822"
-    },
-    "image": "/assets/Stone_poster.webp",
-    "name": "Dr Stone",
-    "url": "dr-stone",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Drame",
-      "Fantasy",
-      "Post-Apocalyptique",
-      "Science-Fiction"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7823"
-    },
-    "image": "/assets/ReMonster_poster.webp",
-    "name": "Re: Monster",
-    "url": "re-monster",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Autre Monde",
-      "Fantasy",
-      "Harem",
-      "Magie",
-      "Monstres",
-      "Civilisation",
-      "Adventure"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7824"
-    },
-    "image": "/assets/KurokoBasket.webp",
-    "name": "Kuroko's Basket",
-    "url": "kuroko-basket",
-    "categorie": ["Shonen", "Sports", "Basket-ball"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["MovieRecommander"]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7825"
     },
     "image": "/assets/Frieren_poster.webp",
     "name": "Frieren",
     "url": "frieren",
     "categorie": ["Shonen", "Adventure", "Drame", "Fantasy", "Magie"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7826"
-    },
-    "image": "/assets/Tsubasa_poster.webp",
-    "name": "Captain Tsubasa",
-    "url": "captain-tsubasa",
-    "categorie": ["Shonen", "Sports", "Football"],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -1046,42 +1057,12 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7829"
-    },
-    "image": "/assets/Doubt_poster.webp",
-    "name": "Doubt",
-    "url": "rabbit-doubt",
-    "categorie": ["Seinen", "Mystère", "Horreur", "Thriller", "Psychologique"],
-    "anime": ["Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a782a"
     },
     "image": "/assets/Days_poster.webp",
     "name": "Days",
     "url": "days",
     "categorie": ["Shonen", "Sports", "Football", "Comédie"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a782b"
-    },
-    "image": "/assets/5seconds_poster.webp",
-    "name": "Battle Game in 5 Seconds",
-    "url": "battle-game-in-5-seconds",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Drame",
-      "Fantasy",
-      "Surnaturel",
-      "Jeux",
-      "Combats"
-    ],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -1104,46 +1085,6 @@
     "name": "Dr Slump",
     "url": "dr-slump",
     "categorie": ["Shonen", "Comédie", "Drame", "Science-Fiction"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a782e"
-    },
-    "image": "/assets/SaintSeiya.webp",
-    "name": "Saint Seiya",
-    "url": "saint-seiya",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Mythologie",
-      "Armure"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["MovieRecommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a782f"
-    },
-    "image": "/assets/YuGiOh_poster.webp",
-    "name": "Yu Gi Oh",
-    "url": "yu-gi-oh",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Surnaturel",
-      "Jeux",
-      "Monstres",
-      "Duels",
-      "Cartes"
-    ],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -1204,67 +1145,6 @@
     "url": "fullmetal-alchemist",
     "categorie": ["Shonen", "Adventure", "Fantasy", "Alchimie"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["Recommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7834"
-    },
-    "image": "/assets/Dororo_poster.webp",
-    "name": "Dororo",
-    "url": "dororo",
-    "categorie": ["Shonen", "Dark Fantasy", "Surnaturel"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7835"
-    },
-    "image": "/assets/ShieldHero_poster.webp",
-    "name": "The Rising Of The Shield Hero",
-    "url": "the-rising-of-the-shield-hero",
-    "categorie": [
-      "Seinen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Drame",
-      "Isekai",
-      "Magie",
-      "Monstres",
-      "Vengeance"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7836"
-    },
-    "image": "/assets/ReZero_first.webp",
-    "name": "Re:ZERO -Starting Life in Another World",
-    "url": "re-zero",
-    "categorie": [
-      "Seinen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Drame",
-      "Autre Monde"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7837"
-    },
-    "image": "/assets/BlueLock_poster.webp",
-    "name": "Blue Lock",
-    "url": "blue-lock",
-    "categorie": ["Shonen", "Sports", "Thriller", "Football"],
-    "anime": ["Films", "Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -1280,40 +1160,137 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7839"
+      "$oid": "66965e02f728b7bf2e7a784f"
     },
-    "image": "/assets/SteinsGate_poster.webp",
-    "name": "Steins;Gate",
-    "url": "steins-gate",
+    "image": "/assets/Baki_poster.webp",
+    "name": "Baki",
+    "url": "baki",
+    "categorie": ["Shonen", "Action", "Combats", "Arts-Martiaux", "Sports"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7850"
+    },
+    "image": "/assets/KenganAshura_poster.webp",
+    "name": "Kengan Ashura",
+    "url": "kengan-ashura",
+    "categorie": ["Shonen", "Combats", "Action"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a785a"
+    },
+    "image": "/assets/LostCanvas_poster.webp",
+    "name": "Saint Seiya : The Lost Canvas",
+    "url": "saint-seiya-the-lost-canvas",
     "categorie": [
-      "Seinen",
-      "Science-Fiction",
-      "Romance",
-      "Mystère",
-      "Thriller"
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Mythologie",
+      "Armure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a785c"
+    },
+    "image": "/assets/MyOneKillSister_poster.webp",
+    "name": "My One-Hit Kill Sister",
+    "url": "my-one-hit-kill-sister",
+    "categorie": [
+      "Shonen",
+      "Comédie",
+      "Fantasy",
+      "Isekai",
+      "Combats",
+      "Autre Monde"
     ],
     "anime": ["Series"],
     "typeCategorie": [""]
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a783a"
+      "$oid": "66965e02f728b7bf2e7a785e"
     },
-    "image": "/assets/BlackS_poster.webp",
-    "name": "Black Summoner",
-    "url": "black-summoner",
+    "image": "/assets/Parasyte_poster.webp",
+    "name": "Parasyte the Maxim",
+    "url": "parasyte",
+    "categorie": ["Seinen", "Horreur", "Thriller", "Science-Fiction"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7861"
+    },
+    "image": "/assets/BlueExorcist_poster.webp",
+    "name": "Blue Exorcist",
+    "url": "blue-exorcist",
+    "categorie": ["Shonen", "Action", "Démons", "Surnaturel"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7867"
+    },
+    "image": "/assets/7thPrince_poster.webp",
+    "name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+    "url": "le-7-eme-prince",
     "categorie": [
       "Shonen",
       "Adventure",
       "Fantasy",
       "Action",
+      "Comédie",
+      "Ecchi",
       "Isekai",
-      "Autre Monde",
-      "Dieux/ Déesses",
       "Harem",
       "Reincarnation"
     ],
     "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a786a"
+    },
+    "image": "/assets/Spider_poster.webp",
+    "name": "So I'm a Spider, So What?",
+    "url": "kumo-desu-ga-nani-ka",
+    "categorie": [
+      "Seinen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Drame",
+      "Comédie",
+      "Isekai",
+      "Magie",
+      "Reincarnation",
+      "Monstres"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7837"
+    },
+    "image": "/assets/BlueLock_poster.webp",
+    "name": "Blue Lock",
+    "url": "blue-lock",
+    "categorie": ["Shonen", "Sports", "Thriller", "Football"],
+    "anime": ["Films", "Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -1339,17 +1316,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a783c"
-    },
-    "image": "/assets/Haikyu_poster.webp",
-    "name": "Haikyuu",
-    "url": "haikyuu",
-    "categorie": ["Shonen", "Sports", "Volley-ball"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a783d"
     },
     "image": "/assets/BorutoTwoBlueVortex.webp",
@@ -1365,64 +1331,6 @@
     ],
     "anime": ["Scans"],
     "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a783e"
-    },
-    "image": "/assets/Antimagic_poster.webp",
-    "name": "Antimagic Academy: The 35th test Platoon",
-    "url": "antimagic-academy",
-    "categorie": [
-      "Shonen",
-      "Militaire",
-      "Surnaturel",
-      "Action",
-      "Comédie",
-      "Ecchi",
-      "Magie"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a783f"
-    },
-    "image": "/assets/GreatestDemonLordNobody_poster.webp",
-    "name": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
-    "url": "the-greatest-demon-lord-is-reborn-as-a-typical-nobody",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Comédie",
-      "Ecchi",
-      "Romance",
-      "Harem",
-      "Reincarnation",
-      "Isekai"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7840"
-    },
-    "image": "/assets/RebornMasterBlade_poster.webp",
-    "name": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
-    "url": "reborn-to-master-the-blade",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Comédie",
-      "Isekai",
-      "Reincarnation"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -1486,17 +1394,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7845"
-    },
-    "image": "/assets/Erased_poster.webp",
-    "name": "Erased",
-    "url": "erased",
-    "categorie": ["Seinen", "Suspense", "Fantasy", "Psychologique"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7846"
     },
     "image": "/assets/Irregular_poster.webp",
@@ -1512,17 +1409,6 @@
       "Ecole",
       "Magie"
     ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7847"
-    },
-    "image": "/assets/MagicKaito_poster.webp",
-    "name": "Magic Kaito",
-    "url": "magic-kaito",
-    "categorie": ["Shonen", "Comédie", "Adventure", "Mystère", "Magie"],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -1550,17 +1436,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a784a"
-    },
-    "image": "/assets/Charlotte_poster.webp",
-    "name": "Charlotte",
-    "url": "charlotte",
-    "categorie": ["Seinen", "Drame", "Surnaturel", "Romance"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a784b"
     },
     "image": "/assets/KenshinVagabon_poster.webp",
@@ -1580,22 +1455,224 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a784c"
+      "$oid": "66965e02f728b7bf2e7a7857"
     },
-    "image": "/assets/DemonSwordMaster_poster.webp",
-    "name": "The Demon Sword Master of Excalibur Academy",
-    "url": "the-demon-sword-master-of-excalibur-academy",
+    "image": "/assets/NextDimension_poster.webp",
+    "name": "Saint Seiya : Next Dimension",
+    "url": "saint-seiya-next-dimension",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Mythologie",
+      "Armure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a785d"
+    },
+    "image": "/assets/Omega_poster.webp",
+    "name": "Saint Seiya : Omega",
+    "url": "saint-seiya-omega",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Mythologie",
+      "Armure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7860"
+    },
+    "image": "/assets/SoulofGod_poster.webp",
+    "name": "Saint Seiya : Soul of God",
+    "url": "saint-seiya-soul-of-god",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Mythologie",
+      "Armure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7862"
+    },
+    "image": "/assets/Zom100_poster.webp",
+    "name": "Zom 100: Bucket List of the Dead",
+    "url": "bucket-list-of-the-dead",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Comédie",
+      "Horreur",
+      "Science-Fiction",
+      "Post-Apocalyptique",
+      "Zombie"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7865"
+    },
+    "image": "/assets/Akashic_poster.webp",
+    "name": "Akashic Record of Bastard Magic Instructor",
+    "url": "akashic-record",
+    "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Ecole", "Magie"],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7866"
+    },
+    "image": "/assets/Iruma_poster.webp",
+    "name": "Iruma à l'école des Démons",
+    "url": "iruma-a-l-ecole-des-demons",
+    "categorie": [
+      "Shonen",
+      "Ecole",
+      "Comédie",
+      "Fantasy",
+      "Autre Monde",
+      "Surnaturel",
+      "Démons"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a782b"
+    },
+    "image": "/assets/5seconds_poster.webp",
+    "name": "Battle Game in 5 Seconds",
+    "url": "battle-game-in-5-seconds",
     "categorie": [
       "Shonen",
       "Action",
+      "Drame",
+      "Fantasy",
+      "Surnaturel",
+      "Jeux",
+      "Combats"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7836"
+    },
+    "image": "/assets/ReZero_first.webp",
+    "name": "Re:ZERO -Starting Life in Another World",
+    "url": "re-zero",
+    "categorie": [
+      "Seinen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Drame",
+      "Autre Monde"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7839"
+    },
+    "image": "/assets/SteinsGate_poster.webp",
+    "name": "Steins;Gate",
+    "url": "steins-gate",
+    "categorie": [
+      "Seinen",
+      "Science-Fiction",
+      "Romance",
+      "Mystère",
+      "Thriller"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a783a"
+    },
+    "image": "/assets/BlackS_first.webp",
+    "name": "Black Summoner",
+    "url": "black-summoner",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Isekai",
+      "Autre Monde",
+      "Dieux/ Déesses",
+      "Harem",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a783e"
+    },
+    "image": "/assets/Antimagic_poster.webp",
+    "name": "Antimagic Academy: The 35th test Platoon",
+    "url": "antimagic-academy",
+    "categorie": [
+      "Shonen",
+      "Militaire",
+      "Surnaturel",
+      "Action",
       "Comédie",
       "Ecchi",
-      "Fantasy",
-      "Romance",
-      "Ecole",
       "Magie"
     ],
     "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7845"
+    },
+    "image": "/assets/Erased_poster.webp",
+    "name": "Erased",
+    "url": "erased",
+    "categorie": ["Seinen", "Suspense", "Fantasy", "Psychologique"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a784a"
+    },
+    "image": "/assets/Charlotte_poster.webp",
+    "name": "Charlotte",
+    "url": "charlotte",
+    "categorie": ["Seinen", "Drame", "Surnaturel", "Romance"],
+    "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -1632,28 +1709,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a784f"
-    },
-    "image": "/assets/Baki_poster.webp",
-    "name": "Baki",
-    "url": "baki",
-    "categorie": ["Shonen", "Action", "Combats", "Arts-Martiaux", "Sports"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7850"
-    },
-    "image": "/assets/KenganAshura_poster.webp",
-    "name": "Kengan Ashura",
-    "url": "kengan-ashura",
-    "categorie": ["Shonen", "Combats", "Action"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7851"
     },
     "image": "/assets/Dandadan_poster.webp",
@@ -1671,35 +1726,6 @@
     ],
     "anime": ["Scans"],
     "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7852"
-    },
-    "image": "/assets/SlamDunk_poster.webp",
-    "name": "Slam Dunk",
-    "url": "slam-dunk",
-    "categorie": ["Shonen", "Sports", "Basket-ball"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["MovieRecommander"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7853"
-    },
-    "image": "/assets/RealistHero_poster.webp",
-    "name": "How a Realist Hero Rebuilt the Kingdom",
-    "url": "how-a-realist-hero-rebuilt-the-kingdom",
-    "categorie": [
-      "Shonen",
-      "Isekai",
-      "Harem",
-      "Action",
-      "Romance",
-      "Autre Monde"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -1740,36 +1766,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7856"
-    },
-    "image": "/assets/Inuyasha_poster.webp",
-    "name": "Inuyasha",
-    "url": "inuyasha",
-    "categorie": ["Shonen", "Romance", "Historique", "Action", "Horreur"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7857"
-    },
-    "image": "/assets/NextDimension_poster.webp",
-    "name": "Saint Seiya : Next Dimension",
-    "url": "saint-seiya-next-dimension",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Mythologie",
-      "Armure"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7858"
     },
     "image": "/assets/SpyClassroom_poster.webp",
@@ -1789,97 +1785,12 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7859"
-    },
-    "image": "/assets/ClassroomElite_poster.webp",
-    "name": "Classroom of the Elite",
-    "url": "classroom-of-the-elite",
-    "categorie": [
-      "Shonen",
-      "Drame",
-      "Ecole",
-      "Psychologique",
-      "Romance",
-      "Examen"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a785a"
-    },
-    "image": "/assets/LostCanvas_poster.webp",
-    "name": "Saint Seiya : The Lost Canvas",
-    "url": "saint-seiya-the-lost-canvas",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Mythologie",
-      "Armure"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a785b"
     },
     "image": "/assets/UruseiYatsura_poster.webp",
     "name": "Urusei Yatsura",
     "url": "urusei-yatsura",
     "categorie": ["Shonen", "Comédie", "Démons", "Aliens"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a785c"
-    },
-    "image": "/assets/MyOneKillSister_poster.webp",
-    "name": "My One-Hit Kill Sister",
-    "url": "my-one-hit-kill-sister",
-    "categorie": [
-      "Shonen",
-      "Comédie",
-      "Fantasy",
-      "Isekai",
-      "Combats",
-      "Autre Monde"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a785d"
-    },
-    "image": "/assets/Omega_poster.webp",
-    "name": "Saint Seiya : Omega",
-    "url": "saint-seiya-omega",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Mythologie",
-      "Armure"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a785e"
-    },
-    "image": "/assets/Parasyte_poster.webp",
-    "name": "Parasyte the Maxim",
-    "url": "parasyte",
-    "categorie": ["Seinen", "Horreur", "Thriller", "Science-Fiction"],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -1905,131 +1816,12 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7860"
-    },
-    "image": "/assets/SoulofGod_poster.webp",
-    "name": "Saint Seiya : Soul of God",
-    "url": "saint-seiya-soul-of-god",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Mythologie",
-      "Armure"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7861"
-    },
-    "image": "/assets/BlueExorcist_poster.webp",
-    "name": "Blue Exorcist",
-    "url": "blue-exorcist",
-    "categorie": ["Shonen", "Action", "Démons", "Surnaturel"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7862"
-    },
-    "image": "/assets/Zom100_poster.webp",
-    "name": "Zom 100: Bucket List of the Dead",
-    "url": "bucket-list-of-the-dead",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Comédie",
-      "Horreur",
-      "Science-Fiction",
-      "Post-Apocalyptique",
-      "Zombie"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7863"
     },
     "image": "/assets/Saiki_poster.webp",
     "name": "Saiki Kusuo no Psi Nan",
     "url": "saiki-kusuo",
     "categorie": ["Shonen", "Science-Fiction", "Comédie", "Psychique"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7864"
-    },
-    "image": "/assets/SaintiaSho_poster.webp",
-    "name": "Saint Seiya : Saintia Sho",
-    "url": "saint-seiya-saintia-sho",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Mythologie",
-      "Armure"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7865"
-    },
-    "image": "/assets/Akashic_poster.webp",
-    "name": "Akashic Record of Bastard Magic Instructor",
-    "url": "akashic-record",
-    "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Ecole", "Magie"],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7866"
-    },
-    "image": "assets/Iruma_poster.webp",
-    "name": "Iruma à l'école des Démons",
-    "url": "iruma-a-l-ecole-des-demons",
-    "categorie": [
-      "Shonen",
-      "Ecole",
-      "Comédie",
-      "Fantasy",
-      "Autre Monde",
-      "Surnaturel",
-      "Démons"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7867"
-    },
-    "image": "/assets/7thPrince_poster.webp",
-    "name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
-    "url": "le-7-eme-prince",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Comédie",
-      "Ecchi",
-      "Isekai",
-      "Harem",
-      "Reincarnation"
-    ],
     "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
@@ -2055,6 +1847,236 @@
   },
   {
     "_id": {
+      "$oid": "66965e02f728b7bf2e7a782e"
+    },
+    "image": "/assets/SaintSeiya.webp",
+    "name": "Saint Seiya",
+    "url": "saint-seiya",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Mythologie",
+      "Armure"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": ["MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a782f"
+    },
+    "image": "/assets/YuGiOh_poster.webp",
+    "name": "Yu Gi Oh",
+    "url": "yu-gi-oh",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Surnaturel",
+      "Jeux",
+      "Monstres",
+      "Duels",
+      "Cartes"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7834"
+    },
+    "image": "/assets/Dororo_poster.webp",
+    "name": "Dororo",
+    "url": "dororo",
+    "categorie": ["Shonen", "Dark Fantasy", "Surnaturel"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7835"
+    },
+    "image": "/assets/ShieldHero_poster.webp",
+    "name": "The Rising Of The Shield Hero",
+    "url": "the-rising-of-the-shield-hero",
+    "categorie": [
+      "Seinen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Drame",
+      "Isekai",
+      "Magie",
+      "Monstres",
+      "Vengeance"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a783c"
+    },
+    "image": "/assets/Haikyu_poster.webp",
+    "name": "Haikyuu",
+    "url": "haikyuu",
+    "categorie": ["Shonen", "Sports", "Volley-ball"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a783f"
+    },
+    "image": "/assets/GreatestDemonLordNobody_poster.webp",
+    "name": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+    "url": "the-greatest-demon-lord-is-reborn-as-a-typical-nobody",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Romance",
+      "Harem",
+      "Reincarnation",
+      "Isekai"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7840"
+    },
+    "image": "/assets/RebornMasterBlade_poster.webp",
+    "name": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
+    "url": "reborn-to-master-the-blade",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Comédie",
+      "Isekai",
+      "Reincarnation"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7847"
+    },
+    "image": "/assets/MagicKaito_poster.webp",
+    "name": "Magic Kaito",
+    "url": "magic-kaito",
+    "categorie": ["Shonen", "Comédie", "Adventure", "Mystère", "Magie"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a784c"
+    },
+    "image": "/assets/DemonSwordMaster_poster.webp",
+    "name": "The Demon Sword Master of Excalibur Academy",
+    "url": "the-demon-sword-master-of-excalibur-academy",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Fantasy",
+      "Romance",
+      "Ecole",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7852"
+    },
+    "image": "/assets/SlamDunk_poster.webp",
+    "name": "Slam Dunk",
+    "url": "slam-dunk",
+    "categorie": ["Shonen", "Sports", "Basket-ball"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["MovieRecommander"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7853"
+    },
+    "image": "/assets/RealistHero_poster.webp",
+    "name": "How a Realist Hero Rebuilt the Kingdom",
+    "url": "how-a-realist-hero-rebuilt-the-kingdom",
+    "categorie": [
+      "Shonen",
+      "Isekai",
+      "Harem",
+      "Action",
+      "Romance",
+      "Autre Monde"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7856"
+    },
+    "image": "/assets/Inuyasha_poster.webp",
+    "name": "Inuyasha",
+    "url": "inuyasha",
+    "categorie": ["Shonen", "Romance", "Historique", "Action", "Horreur"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7859"
+    },
+    "image": "/assets/ClassroomElite_poster.webp",
+    "name": "Classroom of the Elite",
+    "url": "classroom-of-the-elite",
+    "categorie": [
+      "Shonen",
+      "Drame",
+      "Ecole",
+      "Psychologique",
+      "Romance",
+      "Examen"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7864"
+    },
+    "image": "/assets/SaintiaSho_poster.webp",
+    "name": "Saint Seiya : Saintia Sho",
+    "url": "saint-seiya-saintia-sho",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Mythologie",
+      "Armure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
       "$oid": "66965e02f728b7bf2e7a7869"
     },
     "image": "/assets/PrisonSchool_poster.webp",
@@ -2062,109 +2084,6 @@
     "url": "prison-school",
     "categorie": ["Seinen", "Action", "Comédie", "Ecchi"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a786a"
-    },
-    "image": "/assets/Spider_poster.webp",
-    "name": "So I'm a Spider, So What?",
-    "url": "kumo-desu-ga-nani-ka",
-    "categorie": [
-      "Seinen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Drame",
-      "Comédie",
-      "Isekai",
-      "Magie",
-      "Reincarnation",
-      "Monstres"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a786b"
-    },
-    "image": "/assets/FamiliarZero_poster.webp",
-    "name": "The Familiar of Zero",
-    "url": "zero-no-tsukaima",
-    "categorie": [
-      "Seinen",
-      "Adventure",
-      "Comédie",
-      "Romance",
-      "Fantasy",
-      "Isekai",
-      "Autre Monde",
-      "Magie"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a786c"
-    },
-    "image": "/assets/DeathMarch_poster.webp",
-    "name": "Death March to the Parallel World Rhapsody",
-    "url": "death-march-to-the-parallel-world-rhapsody",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Romance",
-      "Harem",
-      "Isekai",
-      "Autre Monde",
-      "Magie"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a786d"
-    },
-    "image": "/assets/IsekaiCheatMagician_poster.webp",
-    "name": "Isekai Cheat Magician",
-    "url": "isekai-cheat-magician",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Comédie",
-      "Isekai",
-      "Autre Monde",
-      "Magie"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a786e"
-    },
-    "image": "/assets/HowSummonDemonLord_poster.webp",
-    "name": "How Not to Summon a Demon Lord",
-    "url": "how-not-to-summon-a-demon-lord",
-    "categorie": [
-      "Shonen",
-      "Isekai",
-      "Harem",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Romance",
-      "Magie"
-    ],
-    "anime": ["Series"],
     "typeCategorie": [""]
   },
   {
@@ -2189,22 +2108,22 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7870"
+      "$oid": "66965e02f728b7bf2e7a786b"
     },
-    "image": "/assets/StrongestExorcist_poster.webp",
-    "name": "The Reincarnation of the Strongest Exorcist in Another World",
-    "url": "the-reincarnation-of-the-strongest-exorcist-in-another-world",
+    "image": "/assets/FamiliarZero_poster.webp",
+    "name": "The Familiar of Zero",
+    "url": "zero-no-tsukaima",
     "categorie": [
-      "Shonen",
+      "Seinen",
       "Adventure",
-      "Fantasy",
-      "Action",
+      "Comédie",
       "Romance",
+      "Fantasy",
       "Isekai",
-      "Reincarnation",
+      "Autre Monde",
       "Magie"
     ],
-    "anime": ["Series"],
+    "anime": ["Series", "Scans"],
     "typeCategorie": [""]
   },
   {
@@ -2229,68 +2148,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7872"
-    },
-    "image": "/assets/RedoHealer_poster.webp",
-    "name": "Redo of Healer",
-    "url": "redo-of-healer",
-    "categorie": ["Seinen", "Dark Fantasy", "Vengeance", "Ecchi", "Harem"],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7873"
-    },
-    "image": "/assets/HOTD_poster.webp",
-    "name": "Highschool of the Dead",
-    "url": "highschool-of-the-dead",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Drame",
-      "Action",
-      "Combats",
-      "Mystère",
-      "Zombie",
-      "Ecchi",
-      "Post-Apocalyptique"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7874"
-    },
-    "image": "/assets/InazumaEleven_poster.webp",
-    "name": "Inazuma Eleven",
-    "url": "inazuma-eleven",
-    "categorie": ["Shonen", "Sports", "Football"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7875"
-    },
-    "image": "/assets/Executioner_poster.webp",
-    "name": "The Executioner and Her Way of Life",
-    "url": "the-executioner-and-her-way-of-life",
-    "categorie": [
-      "Seinen",
-      "Shojo",
-      "Fantasy",
-      "Action",
-      "Adventure",
-      "Romance",
-      "Autre Monde"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7876"
     },
     "image": "/assets/FireForce_poster.webp",
@@ -2306,25 +2163,6 @@
       "Pompiers"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7877"
-    },
-    "image": "/assets/MyIsekaiLife_poster.webp",
-    "name": "My Isekai Life",
-    "url": "my-isekai-life",
-    "categorie": [
-      "Shonen",
-      "Isekai",
-      "Fantasy",
-      "Action",
-      "Adventure",
-      "Autre Monde",
-      "Magie"
-    ],
-    "anime": ["Series"],
     "typeCategorie": [""]
   },
   {
@@ -2363,36 +2201,6 @@
       "Ecole",
       "Harem"
     ],
-    "anime": ["Series"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a787a"
-    },
-    "image": "/assets/4Knights_poster.webp",
-    "name": "Four Knights of the Apocalypse",
-    "url": "four-knights-of-the-apocalypse",
-    "categorie": [
-      "Shonen",
-      "Adventure",
-      "Fantasy",
-      "Action",
-      "Combats",
-      "Démons",
-      "Magie"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a787b"
-    },
-    "image": "/assets/Chivalry_poster.webp",
-    "name": "Chivalry of a Failed Knight",
-    "url": "chilvalry-of-a-failed-knight",
-    "categorie": ["Shonen", "Isekai", "Fantasy", "Action", "Romance", "Ecchi"],
     "anime": ["Series"],
     "typeCategorie": [""]
   },
@@ -2440,17 +2248,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a787f"
-    },
-    "image": "/assets/Bakuman_poster.webp",
-    "name": "Bakuman",
-    "url": "bakuman",
-    "categorie": ["Shonen", "Comédie", "Romance", "Drame", "Mangaka"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7880"
     },
     "image": "/assets/Trinity_poster.webp",
@@ -2471,67 +2268,6 @@
   },
   {
     "_id": {
-      "$oid": "66965e02f728b7bf2e7a7881"
-    },
-    "image": "/assets/Unwanted_poster.webp",
-    "name": "The Unwanted Undead Adventurer",
-    "url": "the-unwanted-undead-adventurer",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Dark Fantasy",
-      "Mystère",
-      "Harem",
-      "Monstres",
-      "Reincarnation"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7882"
-    },
-    "image": "/assets/Yozakura_poster.webp",
-    "name": "Mission: Yozakura Family",
-    "url": "mission-yozakura-family",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Comédie",
-      "Romance",
-      "Espion",
-      "Famille",
-      "Mariage"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7883"
-    },
-    "image": "/assets/SailorMoon_poster.webp",
-    "name": "Sailor Moon",
-    "url": "sailor-moon",
-    "categorie": ["Shojo", "Magical Girl", "Amour", "Combats", "Magie"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7884"
-    },
-    "image": "/assets/Beyblade_poster.webp",
-    "name": "Beyblade",
-    "url": "beyblade",
-    "categorie": ["Kodomo", "Adventure", "Comédie"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
       "$oid": "66965e02f728b7bf2e7a7885"
     },
     "image": "/assets/BerserkGlouttony_poster.webp",
@@ -2540,133 +2276,6 @@
     "categorie": ["Seinen", "Action", "Adventure", "Drame", "Dark Fantasy"],
     "anime": ["Series", "Scans"],
     "typeCategorie": ["ScanTrending"]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7886"
-    },
-    "image": "/assets/Monster_poster.webp",
-    "name": "Monster",
-    "url": "monster",
-    "categorie": [
-      "Seinen",
-      "Policier",
-      "Thriller",
-      "Drame",
-      "Psychologique",
-      "Fugitif",
-      "Serial-killer"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7887"
-    },
-    "image": "/assets/BeybladeFusion_poster.webp",
-    "name": "Beyblade Metal",
-    "url": "beyblade-metal",
-    "categorie": ["Kodomo", "Adventure", "Comédie"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "66965e02f728b7bf2e7a7888"
-    },
-    "image": "/assets/BurstTurbo_poster.webp",
-    "name": "Beyblade Burst",
-    "url": "beyblade-burst",
-    "categorie": ["Shonen", "Adventure", "Action", "Sports"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
-  },
-  {
-    "_id": {
-      "$oid": "6696737f889f59a2a56b01c0"
-    },
-    "image": "/assets/FT100Years_poster.webp",
-    "name": "Fairy Tail : 100 Years Quest",
-    "url": "fairy-tail-100-years-quest",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Fantasy",
-      "Magie"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending", "ScanTrending"],
-    "createdAt": {
-      "$date": "2024-07-16T13:19:59.791Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-16T13:19:59.791Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "669679a8889f59a2a56b0676"
-    },
-    "image": "/assets/Rave_poster.webp",
-    "name": "Rave Master",
-    "url": "rave-master",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Fantasy",
-      "Magie"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-16T13:46:16.427Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-16T13:46:16.427Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66967eea889f59a2a56b0686"
-    },
-    "image": "/assets/Seraph_poster.webp",
-    "name": "Seraph of the End",
-    "url": "seraph-of-the-end",
-    "categorie": ["Shonen", "Action", "Drame", "Dark Fantasy"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-16T14:08:42.519Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-16T14:08:42.519Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "669786e661ef730bcc4b4bd0"
-    },
-    "image": "/assets/CodeGeassRoze_poster.webp",
-    "name": "Code Geass: Rozé of the Recapture",
-    "url": "code-geass-roze-of-the-recapture",
-    "categorie": ["Drame", "Guerre", "Mecha", "Militaire"],
-    "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
-    "createdAt": {
-      "$date": "2024-07-17T08:55:02.176Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-17T08:55:02.176Z"
-    },
-    "__v": 0
   },
   {
     "_id": {
@@ -2689,75 +2298,6 @@
     },
     "updatedAt": {
       "$date": "2024-07-17T10:42:36.894Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6697a08e61ef730bcc4b5185"
-    },
-    "image": "/assets/Gintama_poster.webp",
-    "name": "Gintama",
-    "url": "gintama",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Science-Fiction",
-      "Historique"
-    ],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-17T10:44:30.070Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-17T10:44:30.070Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6697a11361ef730bcc4b5187"
-    },
-    "image": "/assets/ReCreator_poster.webp",
-    "name": "Re: Creator",
-    "url": "re-creator",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Drame",
-      "Fantasy",
-      "Science-Fiction",
-      "Thriller",
-      "Combats"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-17T10:46:43.433Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-17T10:46:43.433Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6697a1a261ef730bcc4b5189"
-    },
-    "image": "/assets/PsychoPass_poster.webp",
-    "name": "Psycho Pass",
-    "url": "psycho-pass",
-    "categorie": ["Shonen", "Science-Fiction", "Thriller"],
-    "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-17T10:49:06.472Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-17T10:49:06.472Z"
     },
     "__v": 0
   },
@@ -2870,64 +2410,6 @@
   },
   {
     "_id": {
-      "$oid": "6697cc8161ef730bcc4b574e"
-    },
-    "image": "/assets/SpiritChronicles_poster.webp",
-    "name": "Seirei Gensouki: Spirit Chronicles",
-    "url": "spirit-chronicles",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Drame",
-      "Fantasy",
-      "Romance",
-      "Autre Monde",
-      "Harem",
-      "Reincarnation",
-      "Combats"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-17T13:52:01.918Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-17T13:52:01.918Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6697ce4a61ef730bcc4b5750"
-    },
-    "image": "/assets/NewGate_poster.webp",
-    "name": "The New Gate",
-    "url": "the-new-gate",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Fantasy",
-      "Isekai",
-      "Autre Monde",
-      "Drame",
-      "Romance",
-      "Combats"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-17T13:59:38.460Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-17T13:59:38.460Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "6697ceec61ef730bcc4b5752"
     },
     "image": "/assets/86_poster.webp",
@@ -2949,6 +2431,419 @@
     },
     "updatedAt": {
       "$date": "2024-07-17T14:02:20.214Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fa9869a2079fdd6d61f1"
+    },
+    "image": "/assets/ElusiveSamourai_poster.webp",
+    "name": "The Elusive Samouraï",
+    "url": "the-elusive-samourai",
+    "categorie": ["Shonen", "Action", "Combats"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:20:56.391Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:20:56.391Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6698fce969a2079fdd6d61f7"
+    },
+    "image": "/assets/QualityAssurance_poster.webp",
+    "name": "Quality Assurance in Another World",
+    "url": "quality-assurance-in-another-world",
+    "categorie": [
+      "Seinen",
+      "Fantasy",
+      "Autre Monde",
+      "Jeux",
+      "Jeux",
+      "Autre Monde"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:30:49.817Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:30:49.817Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6699000869a2079fdd6d6203"
+    },
+    "image": "/assets/OshiNoKo_poster.webp",
+    "name": "Oshi no ko",
+    "url": "oshi-no-ko",
+    "categorie": [
+      "Seinen",
+      "Musique",
+      "Idols",
+      "Drame",
+      "Psychologique",
+      "Mystère",
+      "Surnaturel"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:44:08.546Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:44:08.546Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669911ed69a2079fdd6d639a"
+    },
+    "image": "/assets/Villainess99_poster.webp",
+    "name": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+    "url": "villainess-level-99",
+    "categorie": [
+      "Shojo",
+      "Fantasy",
+      "Romance",
+      "Ecole",
+      "Jeux",
+      "Magie",
+      "Reincarnation"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-18T13:00:29.207Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T13:00:29.207Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a23bb08ee96713521e3fcd"
+    },
+    "image": "/assets/Wistoria_poster.webp",
+    "name": "Wistoria: Wand and Sword",
+    "url": "wistoria-wand-and-sword",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance",
+      "Surnaturel",
+      "Ecole"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-25T11:49:04.062Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-25T11:49:04.062Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a78bbeea62ae514b1108f1"
+    },
+    "image": "/assets/Inuyashiki_poster.webp",
+    "name": "Last Hero Inuyashiki",
+    "url": "last-hero-inuyashiki",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Thriller",
+      "Fantasy",
+      "Science-Fiction",
+      "Psychologique"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-29T12:31:58.042Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-29T12:31:58.042Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a78c38ea62ae514b1108f3"
+    },
+    "image": "/assets/GTO_poster.webp",
+    "name": "Great Teacher Onizuka",
+    "url": "gto",
+    "categorie": ["Shonen", "Drame", "Comédie", "Ecole", "Ecchi"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-29T12:34:00.212Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-29T12:34:00.212Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a7a73dea62ae514b110c59"
+    },
+    "image": "/assets/HSProdigies_poster.webp",
+    "name": "High School Prodigies Have It Easy Even In Another World",
+    "url": "high-school-prodigies-have-it-easy-even-in-another-world",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Romance",
+      "Isekai",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-29T14:29:17.155Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-29T14:29:17.155Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a786e"
+    },
+    "image": "/assets/HowSummonDemonLord_poster.webp",
+    "name": "How Not to Summon a Demon Lord",
+    "url": "how-not-to-summon-a-demon-lord",
+    "categorie": [
+      "Shonen",
+      "Isekai",
+      "Harem",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Romance",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7870"
+    },
+    "image": "/assets/StrongestExorcist_poster.webp",
+    "name": "The Reincarnation of the Strongest Exorcist in Another World",
+    "url": "the-reincarnation-of-the-strongest-exorcist-in-another-world",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Romance",
+      "Isekai",
+      "Reincarnation",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7872"
+    },
+    "image": "/assets/RedoHealer_poster.webp",
+    "name": "Redo of Healer",
+    "url": "redo-of-healer",
+    "categorie": ["Seinen", "Dark Fantasy", "Vengeance", "Ecchi", "Harem"],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7874"
+    },
+    "image": "/assets/InazumaEleven_poster.webp",
+    "name": "Inazuma Eleven",
+    "url": "inazuma-eleven",
+    "categorie": ["Shonen", "Sports", "Football"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7875"
+    },
+    "image": "/assets/Executioner_poster.webp",
+    "name": "The Executioner and Her Way of Life",
+    "url": "the-executioner-and-her-way-of-life",
+    "categorie": [
+      "Seinen",
+      "Shojo",
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Romance",
+      "Autre Monde"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7881"
+    },
+    "image": "/assets/Unwanted_poster.webp",
+    "name": "The Unwanted Undead Adventurer",
+    "url": "the-unwanted-undead-adventurer",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Dark Fantasy",
+      "Mystère",
+      "Harem",
+      "Monstres",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7883"
+    },
+    "image": "/assets/SailorMoon_poster.webp",
+    "name": "Sailor Moon",
+    "url": "sailor-moon",
+    "categorie": ["Shojo", "Magical Girl", "Amour", "Combats", "Magie"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7886"
+    },
+    "image": "/assets/Monster_poster.webp",
+    "name": "Monster",
+    "url": "monster",
+    "categorie": [
+      "Seinen",
+      "Policier",
+      "Thriller",
+      "Drame",
+      "Psychologique",
+      "Fugitif",
+      "Serial-killer"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7887"
+    },
+    "image": "/assets/BeybladeFusion_poster.webp",
+    "name": "Beyblade Metal",
+    "url": "beyblade-metal",
+    "categorie": ["Kodomo", "Adventure", "Comédie"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7888"
+    },
+    "image": "/assets/BurstTurbo_poster.webp",
+    "name": "Beyblade Burst",
+    "url": "beyblade-burst",
+    "categorie": ["Shonen", "Adventure", "Action", "Sports"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "6696737f889f59a2a56b01c0"
+    },
+    "image": "/assets/FT100Years_poster.webp",
+    "name": "Fairy Tail : 100 Years Quest",
+    "url": "fairy-tail-100-years-quest",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Magie"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending", "ScanTrending"],
+    "createdAt": {
+      "$date": "2024-07-16T13:19:59.791Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-16T13:19:59.791Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669679a8889f59a2a56b0676"
+    },
+    "image": "/assets/Rave_poster.webp",
+    "name": "Rave Master",
+    "url": "rave-master",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Magie"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-16T13:46:16.427Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-16T13:46:16.427Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "669786e661ef730bcc4b4bd0"
+    },
+    "image": "/assets/CodeGeassRoze_poster.webp",
+    "name": "Code Geass: Rozé of the Recapture",
+    "url": "code-geass-roze-of-the-recapture",
+    "categorie": ["Drame", "Guerre", "Mecha", "Militaire"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-17T08:55:02.176Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T08:55:02.176Z"
     },
     "__v": 0
   },
@@ -2985,24 +2880,6 @@
     },
     "updatedAt": {
       "$date": "2024-07-18T11:18:43.726Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6698fa9869a2079fdd6d61f1"
-    },
-    "image": "/assets/ElusiveSamourai_poster.webp",
-    "name": "The Elusive Samouraï",
-    "url": "the-elusive-samourai",
-    "categorie": ["Shonen", "Action", "Combats"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
-    "createdAt": {
-      "$date": "2024-07-18T11:20:56.391Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-18T11:20:56.391Z"
     },
     "__v": 0
   },
@@ -3059,31 +2936,6 @@
     },
     "updatedAt": {
       "$date": "2024-07-18T11:27:30.334Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6698fce969a2079fdd6d61f7"
-    },
-    "image": "/assets/QualityAssurance_poster.webp",
-    "name": "Quality Assurance in Another World",
-    "url": "quality-assurance-in-another-world",
-    "categorie": [
-      "Seinen",
-      "Fantasy",
-      "Autre Monde",
-      "Jeux",
-      "Jeux",
-      "Autre Monde"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
-    "createdAt": {
-      "$date": "2024-07-18T11:30:49.817Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-18T11:30:49.817Z"
     },
     "__v": 0
   },
@@ -3152,6 +3004,220 @@
   },
   {
     "_id": {
+      "$oid": "6699012769a2079fdd6d6207"
+    },
+    "image": "/assets/AllowedWorld_poster.webp",
+    "name": "No Longer Allowed in Another World",
+    "url": "no-longer-allowed-in-another-world",
+    "categorie": [
+      "Seinen",
+      "Historique",
+      "Drame",
+      "Comédie",
+      "Fantasy",
+      "Romance",
+      "Autre Monde",
+      "Surnaturel",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2024-07-18T11:48:55.205Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T11:48:55.205Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a3a5903eac2ca84c40a8c4"
+    },
+    "image": "/assets/KiruruKillMe_poster.webp",
+    "name": "Kiruru Kill Me",
+    "url": "kiruru-kill-me",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Ecchi",
+      "Romance",
+      "Assassinat"
+    ],
+    "anime": ["Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-26T13:33:04.179Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-26T13:33:04.179Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a78b27ea62ae514b1108ef"
+    },
+    "image": "/assets/Pluto_poster.webp",
+    "name": "Pluto",
+    "url": "pluto",
+    "categorie": ["Seinen", "Policier", "Science-Fiction"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-29T12:29:27.189Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-29T12:29:27.189Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a7a6b3ea62ae514b110c57"
+    },
+    "image": "/assets/Undefeated_poster.webp",
+    "name": "Undefeated Bahamut Chronicle",
+    "url": "undefeated-bahamut-chronicle",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Ecchi",
+      "Romance",
+      "Ecole",
+      "Combats",
+      "Harem",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-29T14:26:59.150Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-29T14:26:59.150Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a787b"
+    },
+    "image": "/assets/Chivalry_poster.webp",
+    "name": "Chivalry of a Failed Knight",
+    "url": "chilvalry-of-a-failed-knight",
+    "categorie": ["Shonen", "Isekai", "Fantasy", "Action", "Romance", "Ecchi"],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a786c"
+    },
+    "image": "/assets/DeathMarch_poster.webp",
+    "name": "Death March to the Parallel World Rhapsody",
+    "url": "death-march-to-the-parallel-world-rhapsody",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Romance",
+      "Harem",
+      "Isekai",
+      "Autre Monde",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7884"
+    },
+    "image": "/assets/Beyblade_poster.webp",
+    "name": "Beyblade",
+    "url": "beyblade",
+    "categorie": ["Kodomo", "Adventure", "Comédie"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66967eea889f59a2a56b0686"
+    },
+    "image": "/assets/Seraph_poster.webp",
+    "name": "Seraph of the End",
+    "url": "seraph-of-the-end",
+    "categorie": ["Shonen", "Action", "Drame", "Dark Fantasy"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-16T14:08:42.519Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-16T14:08:42.519Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a08e61ef730bcc4b5185"
+    },
+    "image": "/assets/Gintama_poster.webp",
+    "name": "Gintama",
+    "url": "gintama",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Science-Fiction",
+      "Historique"
+    ],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T10:44:30.070Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:44:30.070Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697ce4a61ef730bcc4b5750"
+    },
+    "image": "/assets/NewGate_poster.webp",
+    "name": "The New Gate",
+    "url": "the-new-gate",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Isekai",
+      "Autre Monde",
+      "Drame",
+      "Romance",
+      "Combats"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:59:38.460Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:59:38.460Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
       "$oid": "6698feef69a2079fdd6d61ff"
     },
     "image": "/assets/Bucchigiri_poster.webp",
@@ -3188,32 +3254,6 @@
   },
   {
     "_id": {
-      "$oid": "6699000869a2079fdd6d6203"
-    },
-    "image": "/assets/OshiNoKo_poster.webp",
-    "name": "Oshi no ko",
-    "url": "oshi-no-ko",
-    "categorie": [
-      "Seinen",
-      "Musique",
-      "Idols",
-      "Drame",
-      "Psychologique",
-      "Mystère",
-      "Surnaturel"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
-    "createdAt": {
-      "$date": "2024-07-18T11:44:08.546Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-18T11:44:08.546Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "669900a769a2079fdd6d6205"
     },
     "image": "/assets/MagicianInDemonArmy_first.webp",
@@ -3235,34 +3275,6 @@
     },
     "updatedAt": {
       "$date": "2024-07-18T11:46:47.832Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "6699012769a2079fdd6d6207"
-    },
-    "image": "/assets/AllowedWorld_poster.webp",
-    "name": "No Longer Allowed in Another World",
-    "url": "no-longer-allowed-in-another-world",
-    "categorie": [
-      "Seinen",
-      "Historique",
-      "Drame",
-      "Comédie",
-      "Fantasy",
-      "Romance",
-      "Autre Monde",
-      "Surnaturel",
-      "Reincarnation"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
-    "createdAt": {
-      "$date": "2024-07-18T11:48:55.205Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-18T11:48:55.205Z"
     },
     "__v": 0
   },
@@ -3312,32 +3324,6 @@
   },
   {
     "_id": {
-      "$oid": "669911ed69a2079fdd6d639a"
-    },
-    "image": "/assets/Villainess99_poster.webp",
-    "name": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
-    "url": "villainess-level-99",
-    "categorie": [
-      "Shojo",
-      "Fantasy",
-      "Romance",
-      "Ecole",
-      "Jeux",
-      "Magie",
-      "Reincarnation"
-    ],
-    "anime": ["Scans", "Series"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-18T13:00:29.207Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-18T13:00:29.207Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "6699124e69a2079fdd6d639c"
     },
     "image": "/assets/ClassHeroes_poster.webp",
@@ -3351,32 +3337,6 @@
     },
     "updatedAt": {
       "$date": "2024-07-18T13:02:06.043Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66a23bb08ee96713521e3fcd"
-    },
-    "image": "/assets/Wistoria_poster.webp",
-    "name": "Wistoria: Wand and Sword",
-    "url": "wistoria-wand-and-sword",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Romance",
-      "Surnaturel",
-      "Ecole"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
-    "createdAt": {
-      "$date": "2024-07-25T11:49:04.062Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-25T11:49:04.062Z"
     },
     "__v": 0
   },
@@ -3412,24 +3372,6 @@
   },
   {
     "_id": {
-      "$oid": "66a250e0a7b22ef20a244685"
-    },
-    "image": "/assets/GreatCleric_poster.webp",
-    "name": "The Great Cleric",
-    "url": "the-great-cleric",
-    "categorie": ["Shonen", "Adventure", "Comédie", "Fantasy", "Autre Monde"],
-    "anime": ["Series"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-25T13:19:28.980Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-25T13:19:28.980Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
       "$oid": "66a37c7d3eac2ca84c40a73a"
     },
     "image": "/assets/CarnetApothicaire_poster.webp",
@@ -3455,26 +3397,201 @@
   },
   {
     "_id": {
-      "$oid": "66a3a5903eac2ca84c40a8c4"
+      "$oid": "66965e02f728b7bf2e7a786d"
     },
-    "image": "/assets/KiruruKillMe_poster.webp",
-    "name": "Kiruru Kill Me",
-    "url": "kiruru-kill-me",
+    "image": "/assets/IsekaiCheatMagician_poster.webp",
+    "name": "Isekai Cheat Magician",
+    "url": "isekai-cheat-magician",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Comédie",
+      "Isekai",
+      "Autre Monde",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7873"
+    },
+    "image": "/assets/HOTD_poster.webp",
+    "name": "Highschool of the Dead",
+    "url": "highschool-of-the-dead",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Drame",
+      "Action",
+      "Combats",
+      "Mystère",
+      "Zombie",
+      "Ecchi",
+      "Post-Apocalyptique"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7877"
+    },
+    "image": "/assets/MyIsekaiLife_poster.webp",
+    "name": "My Isekai Life",
+    "url": "my-isekai-life",
+    "categorie": [
+      "Shonen",
+      "Isekai",
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Autre Monde",
+      "Magie"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a787a"
+    },
+    "image": "/assets/4Knights_poster.webp",
+    "name": "Four Knights of the Apocalypse",
+    "url": "four-knights-of-the-apocalypse",
+    "categorie": [
+      "Shonen",
+      "Adventure",
+      "Fantasy",
+      "Action",
+      "Combats",
+      "Démons",
+      "Magie"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["ScanTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a787f"
+    },
+    "image": "/assets/Bakuman_poster.webp",
+    "name": "Bakuman",
+    "url": "bakuman",
+    "categorie": ["Shonen", "Comédie", "Romance", "Drame", "Mangaka"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [""]
+  },
+  {
+    "_id": {
+      "$oid": "66965e02f728b7bf2e7a7882"
+    },
+    "image": "/assets/Yozakura_poster.webp",
+    "name": "Mission: Yozakura Family",
+    "url": "mission-yozakura-family",
     "categorie": [
       "Shonen",
       "Action",
       "Comédie",
-      "Ecchi",
       "Romance",
-      "Assassinat"
+      "Espion",
+      "Famille",
+      "Mariage"
     ],
-    "anime": ["Scans"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"]
+  },
+  {
+    "_id": {
+      "$oid": "6697a11361ef730bcc4b5187"
+    },
+    "image": "/assets/ReCreator_poster.webp",
+    "name": "Re: Creator",
+    "url": "re-creator",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Drame",
+      "Fantasy",
+      "Science-Fiction",
+      "Thriller",
+      "Combats"
+    ],
+    "anime": ["Series"],
     "typeCategorie": [""],
     "createdAt": {
-      "$date": "2024-07-26T13:33:04.179Z"
+      "$date": "2024-07-17T10:46:43.433Z"
     },
     "updatedAt": {
-      "$date": "2024-07-26T13:33:04.179Z"
+      "$date": "2024-07-17T10:46:43.433Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697a1a261ef730bcc4b5189"
+    },
+    "image": "/assets/PsychoPass_poster.webp",
+    "name": "Psycho Pass",
+    "url": "psycho-pass",
+    "categorie": ["Shonen", "Science-Fiction", "Thriller"],
+    "anime": ["Films", "Series", "Scans"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T10:49:06.472Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T10:49:06.472Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6697cc8161ef730bcc4b574e"
+    },
+    "image": "/assets/SpiritChronicles_poster.webp",
+    "name": "Seirei Gensouki: Spirit Chronicles",
+    "url": "spirit-chronicles",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Drame",
+      "Fantasy",
+      "Romance",
+      "Autre Monde",
+      "Harem",
+      "Reincarnation",
+      "Combats"
+    ],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-17T13:52:01.918Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-17T13:52:01.918Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a250e0a7b22ef20a244685"
+    },
+    "image": "/assets/GreatCleric_poster.webp",
+    "name": "The Great Cleric",
+    "url": "the-great-cleric",
+    "categorie": ["Shonen", "Adventure", "Comédie", "Fantasy", "Autre Monde"],
+    "anime": ["Series"],
+    "typeCategorie": [""],
+    "createdAt": {
+      "$date": "2024-07-25T13:19:28.980Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-25T13:19:28.980Z"
     },
     "__v": 0
   },
@@ -3520,123 +3637,6 @@
     },
     "updatedAt": {
       "$date": "2024-07-26T13:36:46.086Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66a78b27ea62ae514b1108ef"
-    },
-    "image": "/assets/Pluto_poster.webp",
-    "name": "Pluto",
-    "url": "pluto",
-    "categorie": ["Seinen", "Policier", "Science-Fiction"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-29T12:29:27.189Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-29T12:29:27.189Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66a78bbeea62ae514b1108f1"
-    },
-    "image": "/assets/Inuyashiki_poster.webp",
-    "name": "Last Hero Inuyashiki",
-    "url": "last-hero-inuyashiki",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Thriller",
-      "Fantasy",
-      "Science-Fiction",
-      "Psychologique"
-    ],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-29T12:31:58.042Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-29T12:31:58.042Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66a78c38ea62ae514b1108f3"
-    },
-    "image": "/assets/GTO_poster.webp",
-    "name": "Great Teacher Onizuka",
-    "url": "gto",
-    "categorie": ["Shonen", "Drame", "Comédie", "Ecole", "Ecchi"],
-    "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-29T12:34:00.212Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-29T12:34:00.212Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66a7a6b3ea62ae514b110c57"
-    },
-    "image": "/assets/Undefeated_poster.webp",
-    "name": "Undefeated Bahamut Chronicle",
-    "url": "undefeated-bahamut-chronicle",
-    "categorie": [
-      "Shonen",
-      "Action",
-      "Adventure",
-      "Ecchi",
-      "Romance",
-      "Ecole",
-      "Combats",
-      "Harem",
-      "Magie"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-29T14:26:59.150Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-29T14:26:59.150Z"
-    },
-    "__v": 0
-  },
-  {
-    "_id": {
-      "$oid": "66a7a73dea62ae514b110c59"
-    },
-    "image": "/assets/HSProdigies_poster.webp",
-    "name": "High School Prodigies Have It Easy Even In Another World",
-    "url": "high-school-prodigies-have-it-easy-even-in-another-world",
-    "categorie": [
-      "Seinen",
-      "Action",
-      "Adventure",
-      "Comédie",
-      "Drame",
-      "Fantasy",
-      "Romance",
-      "Isekai",
-      "Magie"
-    ],
-    "anime": ["Series"],
-    "typeCategorie": [""],
-    "createdAt": {
-      "$date": "2024-07-29T14:29:17.155Z"
-    },
-    "updatedAt": {
-      "$date": "2024-07-29T14:29:17.155Z"
     },
     "__v": 0
   },
@@ -3957,6 +3957,24 @@
     },
     "updatedAt": {
       "$date": "2024-07-31T12:04:26.760Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66b1efe4b9374cad7f25838e"
+    },
+    "image": "/assets/CodeBreaker_poster.webp",
+    "name": "Code Breaker",
+    "url": "code-breaker",
+    "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Romance", "Ecole"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": [],
+    "createdAt": {
+      "$date": "2024-08-06T09:41:56.991Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-06T09:41:56.991Z"
     },
     "__v": 0
   }

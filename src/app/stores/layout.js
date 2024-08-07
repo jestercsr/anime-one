@@ -1,5 +1,7 @@
 import { Inter, Roboto } from "next/font/google";
 import "../globals.css";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import Error from "./error";
  
 const roboto = Roboto({
   weight: '400',
@@ -12,10 +14,12 @@ export const metadata = {
   description: "Explorer la boutique en ligne avec toujours plus de manga",
 };
 
-export default function RootLayout({ children }) {
+export default function StoresLayout({ children }) {
   return (
     <div className={roboto.className}>
+      <ErrorBoundary fallback={<Error/>}>
       {children}
+      </ErrorBoundary>
     </div>
   );
 }
