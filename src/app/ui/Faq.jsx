@@ -8,9 +8,10 @@ const Accordion = ({ title, children }) => {
     <div>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="text-md ml-1 md:text-lg lg:text-2xl font-semibold m-3"
+        className="bg-gray-100/25 p-4 flex justify-between items-center w-full text-md ml-1 md:text-lg lg:text-2xl font-semibold m-3"
       >
-        {title}
+        <span>{title}</span>
+        <span>{isOpen ? "-" : "+"}</span>
       </button>
       {isOpen && <div>{children}</div>}
     </div>

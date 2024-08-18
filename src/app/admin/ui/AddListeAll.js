@@ -47,7 +47,7 @@ export default function AddListeAll() {
   };
   return (
     <>
-      <form onSubmit={handleSubmit(onSubmit)} className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[70%] md:w-[50%] lg:w-[35%] m-auto rounded-xl text-sky-950">
+      <form onSubmit={handleSubmit(onSubmit)} className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[90%] md:w-[60%] lg:w-[80%] m-auto rounded-xl text-sky-950">
         <div className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]">
           <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
             id="image"

@@ -60,7 +60,7 @@ export default function PageAuth() {
       email: formData.get("email"),
     };
 
-    const response = await fetch("http://localhost:8080/api/users", {
+    const response = await fetch("/api/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -169,7 +169,7 @@ export default function PageAuth() {
               </button>
             </div>
             <div
-              className={` md:flex absolute flex-col items-center justify-center px-10 text-center top-0 h-full w-1/2 right-0 transform transition-transform duration-600 ease-in-out ${
+              className={`flex absolute flex-col items-center justify-center px-10 text-center top-0 h-full w-1/2 right-0 transform transition-transform duration-600 ease-in-out ${
                 isConnect ? "translate-x-[20%]" : "translate-x-0"
               }`}
             >

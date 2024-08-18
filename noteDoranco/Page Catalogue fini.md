@@ -88,6 +88,8 @@
 - [x] Bersek
 - [x] Beelzebub
 - [x] Black Butler
+- [x] Black summoner
+- [x] Les Carnets de l'Apothicaire
 
 
 
@@ -95,9 +97,9 @@
 
 
 ### <font color="#6425d0">Front à faire</font>
-- [ ] Digimon
+
 - [ ] Dr Slump
-- [ ] Yu gi oh
+
 - [ ] God of high school
 
 
@@ -105,7 +107,7 @@
 
 - [ ] Kenshin le vagabon
 
-- [ ] Black summoner
+
 
 
 - [ ] Mob psycho
@@ -170,11 +172,8 @@
 - [ ] The Unwanted Undead Adventurer
 
 - [ ] Sailor Moon
-- [ ] Beyblade
-- [ ] Beyblade Metal
-- [ ] Beyblade Burst
 
-- [ ] Monster
+
 - [ ] Seraph of the End
 - [ ] Psycho Pass
 - [ ] Re Creator
@@ -210,7 +209,7 @@
 - [ ] Wistoria: Wand and Sword
 
 - [ ] The Great Cleric
-- [ ] Les Carnets de l'Apothicaire
+
 - [ ] GTO
 - [ ] Last Hero Inuyashiki
 - [ ] Pluto

@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 import mysql from "mysql2/promise";
 import fs from "fs";
-import path from "path";
 
 const connectDB = async () => {
   if (mongoose.connections[0].readyState) {

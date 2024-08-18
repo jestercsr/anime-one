@@ -1,14 +1,16 @@
 import { Inter, Roboto } from "next/font/google";
 import "../globals.css";
-import Navbar from "../accueil/ui/NavBar";
-import Footer from "../ui/Footer";
+import Topbar from "./ui/Topbar";
+import Sidebar from "./ui/Sidebar";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import Error from "./error";
 
 const inter = Inter({ subsets: ["latin"] });
- 
+
 const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Admin | Anime ONE",
@@ -18,10 +20,14 @@ export const metadata = {
 
 export default function AdminLayout({ children }) {
   return (
-    <div className={roboto.className}>
-      <Navbar className="bg-red-600 text-slate-50" liste="bg-red-600 text-slate-50 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-red-600 border-t-0"/>
-      {children}
-      <footer><Footer /></footer>
+    <div className={`flex ${roboto.className}`}>
+      <ErrorBoundary fallback={<Error/>}>
+      <Sidebar />
+      <div className="flex-1 flex flex-col">
+        <Topbar />
+        <main className="flex-1 p-6 bg-gray-100">{children}</main>
+      </div>
+      </ErrorBoundary>
     </div>
   );
 }

@@ -36,47 +36,47 @@ function ListeFilms() {
     {
       image: "/assets/TopScreen/Films/one_piece.webp",
       name: "One Piece",
-      url: "/manga/one-piece",
+      url: "/manga/one-piece/films",
     },
     {
       image: "/assets/TopScreen/Films/dbsuper.webp",
       name: "Dragon Ball : Super",
-      url: "/manga/dragon-ball-super",
+      url: "/manga/dragon-ball-super/films",
     },
     {
       image: "/assets/TopScreen/Films/shippuden.webp",
       name: "Naruto Shippuden",
-      url: "/manga/naruto-shippuden",
+      url: "/manga/naruto-shippuden/films",
     },
     {
       image: "/assets/TopScreen/Films/mha.webp",
       name: "My Hero Academia",
-      url: "/manga/my-hero-academia",
+      url: "/manga/my-hero-academia/films",
     },
     {
       image: "/assets/TopScreen/Films/konosuba.webp",
       name: "Konosuba : Sois béni monde merveilleux !",
-      url: "/manga/konosuba",
+      url: "/manga/konosuba/films",
     },
     {
       image: "/assets/TopScreen/Films/jjk.webp",
       name: "Jujustu Kaisen",
-      url: "/manga/jujustu-kaisen",
+      url: "/manga/jujustu-kaisen/films",
     },
     {
       image: "/assets/TopScreen/Films/conan.webp",
       name: "Detective Conan",
-      url: "/manga/detective-conan",
+      url: "/manga/detective-conan/films",
     },
     {
       image: "/assets/TopScreen/Films/kuroko.webp",
       name: "Kuroko's Basket",
-      url: "/manga/kuroko-basket",
+      url: "/manga/kuroko-basket/films",
     },
     {
       image: "/assets/TopScreen/Films/sao.webp",
       name: "Sword Art Online",
-      url: "/manga/sword-art-online",
+      url: "/manga/sword-art-online/films",
     },
   ];
 
@@ -117,7 +117,7 @@ function ListeFilms() {
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
-              <Link href={`/manga/${select.url}`}>
+              <Link href={`/manga/${select.url}/films`}>
                 <img
                   src={select.image}
                   className="w-full rounded-2xl hover:opacity-100"

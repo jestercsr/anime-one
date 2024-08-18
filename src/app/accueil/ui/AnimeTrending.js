@@ -52,7 +52,7 @@ export default function AnimeTrending() {
   }, []);
 
   if (loading) {
-    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
+    return <div><ReactLoading type="bubbles" color="#4f46e5" height={'3%'} width={'3%'} /></div>;
   }
   return (
     <>
@@ -65,10 +65,10 @@ export default function AnimeTrending() {
         >
           {dataAnime.map((trends, index) => {
             return (
-              <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={index}>
+              <div className="text-[8px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={index}>
                 <Link href={`/manga/${trends.url}`}>
                   <img src={trends.image} alt={trends.name} className="rounded-2xl w-full"/>
-                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{trends.name}</p>
+                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black/50 transition ease-in duration-500 opacity-0 w-full p-0 md:p-1 lg:p-5 text-center hover:opacity-100 rounded-2xl">{trends.name}</p>
                 </Link>
               </div>
             );

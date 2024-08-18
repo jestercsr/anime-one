@@ -56,7 +56,7 @@ export default function ScanTrending() {
   }
   return (
     <>
-      <div className="mt-5 text-white pb-5 text-xl">
+      <div className="mt-5 text-slate-50 pb-5 text-xl">
         <h2 className="ml-1 ">En ce Moment Scans</h2>
         <Carousel swipeable={true}
           responsive={responsive}
@@ -65,10 +65,10 @@ export default function ScanTrending() {
         >
           {dataScan.map((scan, i) => {
             return (
-              <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={i}>
+              <div className="text-[8px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={i}>
                 <Link href={`/manga/${scan.url}`}>
                   <img src={scan.image} alt={scan.name} className="rounded-2xl w-full"/>
-                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{scan.name}</p>
+                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black/50 transition ease-in duration-500 opacity-0 w-full p-0 md:p-1 lg:p-5 text-center hover:opacity-100 rounded-2xl">{scan.name}</p>
                 </Link>
               </div>
             );

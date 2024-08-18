@@ -61,10 +61,10 @@ export default function MovieReco() {
         <Carousel responsive={responsive} swipeable={true} infinite removeArrowOnDeviceType={["tablet", "mobile"]}>
           {dataMovie.map((movReco, index) => {
             return (
-              <div className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={index}>
+              <div className="text-[8px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative" key={index}>
                 <Link href={`/manga/${movReco.url}`}>
                   <img src={movReco.image} alt={movReco.name} className="rounded-2xl w-full"/>
-                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black bg-opacity-50 transition ease-in duration-500 opacity-0 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{movReco.name}</p>
+                  <p className="text-slate-50 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-black/50 transition ease-in duration-500 opacity-0 w-full p-[2px] md:p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">{movReco.name}</p>
                 </Link>
               </div>
             );

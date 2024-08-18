@@ -49,7 +49,7 @@ export default function UpdateAll({ manga }) {
     <div>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[70%] md:w-[50%] lg:w-[35%] m-auto rounded-xl text-sky-950"
+        className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[90%] md:w-[50%] lg:w-[80%] m-auto rounded-xl text-sky-950"
       >
         <input
           {...register("slug")}

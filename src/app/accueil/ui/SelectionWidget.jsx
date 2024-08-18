@@ -7,7 +7,7 @@ export default function SelectionWidget() {
     {
       nom: "Voir toutes les Catégories",
       lien: "/categories",
-      images: "/assets/OP_Top.webp",
+      images: "/assets/jumpForce.webp",
     },
     {
       nom: "Visiter la Boutique",

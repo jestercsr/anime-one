@@ -114,7 +114,7 @@ function ListeSeries() {
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
-              <Link href={`/manga/${select.url}`}>
+              <Link href={`/manga/${select.url}/episodes`}>
                 <img
                   src={select.image}
                   className="w-full rounded-2xl hover:opacity-100"
