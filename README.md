@@ -1,8 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Voici mon Projet Final pour l'obtention du titre professionnel Concepteur Développeur d'Application
+
+## Anime ONE 
+
+Voir le site :[https://anime-one-project.vercel.app/](https://anime-one-project.vercel.app/)
+
+Ce projet utilise [Next.js](https://nextjs.org/) crée avec la commande [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Outil
+
+J'utilise MongoDB, MySQL Workbench (local), TiDB Cloud (déploiement)
 
 ## Getting Started
 
-First, run the development server:
+Premièrement, mettre à jour les dépendences:
+
+```bash
+npm install
+```
+
+Deuxièment, sur le terminal lancer la commande:
 
 ```bash
 npm run dev
@@ -14,23 +30,23 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aller sur [http://localhost:3000](http://localhost:3000) à l'aide d'un navigateur web pour voir le résultat.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Vous pouvez maintenant modifier les pages à partir de `app/page.js`. Cette page ce met à jour automatiquement.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Ce projet utilise [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) pour l'optimisation et le style du texte Roboto se fait automatiquement, un style de texte crée par Google Font.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Pour apprendre plus à propos de Next.js, aller sur les liens ci-dessous:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - apprendre la documentation de Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - un tutoriel interactive de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Pour voir le repository sur GitHub de Next.js [the Next.js GitHub repository](https://github.com/vercel/next.js/) !
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ce projet est déployer sur [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) le créateur de Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Pour voir la documentation pour le déploiement [Next.js deployment documentation](https://nextjs.org/docs/deployment).
