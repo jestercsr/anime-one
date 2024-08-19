@@ -32,7 +32,7 @@ bun dev
 
 Aller sur [http://localhost:3000](http://localhost:3000) à l'aide d'un navigateur web pour voir le résultat.
 
-Vous pouvez maintenant modifier les pages à partir de `app/page.js`. Cette page ce met à jour automatiquement.
+Vous pouvez maintenant modifier les pages à partir de `/app`. Toutes les pages ce met à jour automatiquement.
 
 Ce projet utilise [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) pour l'optimisation et le style du texte Roboto se fait automatiquement, un style de texte crée par Google Font.
 

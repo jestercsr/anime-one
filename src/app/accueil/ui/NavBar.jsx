@@ -214,14 +214,17 @@ export default function Navbar(props) {
                     className="w-8 h-8 rounded-full cursor-pointer"
                   />
                   {isDropdownOpen && (
-                    <div className={"bg-cyan-900 text-white absolute z-10 right-0 mt-2 w-48  border rounded shadow-lg"}>
+                    <div className={"bg-cyan-900 text-slate-50 absolute z-10 right-0 mt-2 w-48  border rounded shadow-lg"}>
                       <Link href="/profile">
-                        <div className="px-4 py-2 hover:text-sky-500">
+                        <div className="px-4 py-2 hover:text-cyan-900 hover:bg-slate-50">
                           Profil
                         </div>
                       </Link>
+                      <div className="px-4 py-2 hover:text-cyan-900 hover:bg-slate-50">
+                        Liste de visionnage
+                      </div>
                       <div
-                        className="px-4 py-2 hover:text-red-500 cursor-pointer"
+                        className="px-4 py-2 hover:text-slate-50 hover:bg-red-500 cursor-pointer"
                         onClick={logout}
                       >
                         Déconnexion
@@ -230,7 +233,8 @@ export default function Navbar(props) {
                   )}
                 </div>
               ) : (
-                <CircleUserRound />
+                <Link href='/authentification'>
+                <CircleUserRound /></Link>
               )}
             </section>
           </ul>
