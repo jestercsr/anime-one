@@ -15,6 +15,7 @@ import { Twirl as Hamburger } from "hamburger-react";
 import { getListeAll } from "../../../../_actions/postAction";
 import ReactLoading from "react-loading";
 import { useProfile } from "../../../../providers/ProfileContext";
+import { usePathname } from "next/navigation";
 
 export default function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,6 +51,11 @@ export default function Navbar(props) {
         return "/assets/LogoAnimeONE/logoAnimeOneDefault.webp";
     }
   };
+
+  const currentPath = usePathname()
+  const isActive = (path) => {
+    return currentPath === path
+  }
 
   const navlinks = [
     {
@@ -194,7 +200,7 @@ export default function Navbar(props) {
                 >
                   <Link
                     href={link.lien}
-                    className="inline-flex items-center mr-5"
+                    className={`${isActive(link.lien)?'underline underline-offset-8 inline-flex items-center mr-5':'inline-flex items-center mr-5'}`}
                   >
                     {link.icon}
                     <span>{link.label}</span>
