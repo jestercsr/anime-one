@@ -1,14 +1,11 @@
 "use server";
-import { query } from "@lib/db";
+import { sql } from "@vercel/postgres";
 
 export async function POST(req) {
   const { userId, offreId } = req.body;
 
   try {
-    await query("UPDATE users SET offer_id = $1 WHERE id = $2", [
-      offreId,
-      userId,
-    ]);
+    await sql`UPDATE "User" SET offreId = ${offreId} WHERE id = ${userId}`;
 
     res.status(200).json({ message: "Offre sélectionnée avec succès" });
   } catch (error) {

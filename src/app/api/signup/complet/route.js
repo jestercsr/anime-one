@@ -1,5 +1,5 @@
 "use server";
-import { query } from "@lib/db";
+import { sql } from "@vercel/postgres";
 import { NextResponse } from "next/server";
 
 export async function POST(req) {
@@ -7,17 +7,18 @@ export async function POST(req) {
     await req.json();
 
   try {
-    await query(
-      "UPDATE users SET prenom = $1, nom = $2, phone = $3, carte_bancaire = $4, date_naissance = $5 WHERE id = $6",
-      [prenom, nom, phone, carte_bancaire, date_naissance, userId]
-    );
+    await sql`
+      UPDATE "User"
+      SET prenom = ${prenom}, nom = ${nom}, phone = ${phone}, carte_bancaire = ${carte_bancaire}, date_naissance = ${date_naissance}
+      WHERE id = ${userId}
+    `;
 
-    return new NextResponse(
+    return new Response(
       JSON.stringify({ message: "Inscription terminée avec succès" }),
       { status: 200 }
     );
   } catch (error) {
-    return new NextResponse(
+    return new Response(
       JSON.stringify({
         error: `Erreur lors de la finalisation de l'inscription`,
       }),

@@ -34,18 +34,16 @@ export default function PageAuth() {
     setRandomText(selectedText);
   });
 
-  const [loginEmail, setLoginEmail] = useState('');
-  const [loginPassword, setLoginPassword] = useState('');
-  const [signupUsername, setSignupUsername] = useState('');
-  const [signupEmail, setSignupEmail] = useState('');
-  const [signupPassword, setSignupPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleLogin = async (e) => {
     e.preventDefault();
     const res = await fetch('/api/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: loginEmail, password: loginPassword }),
+      body: JSON.stringify({ email, password }),
     });
 
     if (res.ok) {
@@ -61,9 +59,9 @@ export default function PageAuth() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        username: signupUsername,
-        email: signupEmail,
-        password: signupPassword,
+        username,
+        email,
+        password,
       }),
     });
 
@@ -100,13 +98,17 @@ export default function PageAuth() {
               type="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              onChange={(e) => setLoginEmail(e.target.value)}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <input
               type="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              onChange={(e) => setLoginPassword(e.target.value)}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
             />
             <Link href="#" className="text-gray-600 text-sm mt-2">
               Mot de passe oublié ?
@@ -116,6 +118,7 @@ export default function PageAuth() {
             </button>
           </form>
         </div>
+
 
         <div className="absolute top-0 w-1/2 h-full transition-all duration-600 ease-in-out transform z-2">
           <form
@@ -129,20 +132,25 @@ export default function PageAuth() {
               type="text"
               placeholder="Username"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              onChange={(e) => setSignupUsername(e.target.value)}
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              required
             />
             <input
               type="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              onChange={(e) => setSignupEmail(e.target.value)}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <input
               type="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              onChange={(e) => setSignupPassword(e.target.value)}
-            />
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required/>
             <button className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               S'inscrire
             </button>
@@ -152,8 +160,7 @@ export default function PageAuth() {
         <div className="absolute top-0 left-1/2 w-1/2 h-full overflow-hidden transition-transform duration-600 ease-in-out z-100">
           <div
             className="bg-gradient-to-r from-rose-800 to-blue-900 bg-cover bg-center text-slate-50 absolute left-[-100%] h-full w-[200%] transform transition-transform duration-600 ease-in-out"
-            style={{
-              transform: isConnect ? "translateX(50%)" : "translateX(0)",
+            style={{transform: isConnect ? "translateX(50%)" : "translateX(0)",
             }}
           >
             <div

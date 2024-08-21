@@ -1,5 +1,5 @@
 "use server";
-import { query } from "@lib/db";
+import { sql } from "@vercel/postgres";
 import bcrypt from "bcryptjs";
 import { NextResponse } from "next/server";
 
@@ -8,15 +8,15 @@ export async function POST(req) {
 
   try {
     const hashedPassword = await bcrypt.hash(password, 12);
-    const result = await query(
-      "INSERT INTO users (username, password, email) VALUES ($1, $2, $3) RETURNING id",
-      [username, hashedPassword, email]
-    );
+    const result = await sql`
+      INSERT INTO "User" (username, password, email)
+      VALUES (${username}, ${hashedPassword}, ${email})
+    `;
 
     const userId = result.rows[0].id;
-    return new NextResponse(JSON.stringify({ userId }), { status: 200 });
+    return new Response(JSON.stringify({ userId }), { status: 200 });
   } catch (error) {
-    return new NextResponse(
+    return new Response(
       JSON.stringify({ error: `Erreur lors de l'inscription` }),
       { status: 500 }
     );
