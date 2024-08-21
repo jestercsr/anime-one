@@ -34,42 +34,43 @@ export default function PageAuth() {
     setRandomText(selectedText);
   });
 
+  const [loginEmail, setLoginEmail] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
+  const [signupUsername, setSignupUsername] = useState('');
+  const [signupEmail, setSignupEmail] = useState('');
+  const [signupPassword, setSignupPassword] = useState('');
+
   const handleLogin = async (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = {
-      username: formData.get("username"),
-      password: formData.get("password"),
-    };
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: loginEmail, password: loginPassword }),
+    });
 
-    const response = await fetch("/api/users");
-
-    if (response.ok) {
-      router.push("/authentification/profile-selector");
+    if (res.ok) {
+      router.push('/authentification/profile-selector');
     } else {
-      console.log("Echec à la connexion");
+      alert('Connexion échouée.');
     }
   };
 
   const handleSignIn = async (e) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = {
-      username: formData.get("username"),
-      password: formData.get("password"),
-      email: formData.get("email"),
-    };
-
-    const response = await fetch("/api/users", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
+    const res = await fetch('/api/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: signupUsername,
+        email: signupEmail,
+        password: signupPassword,
+      }),
     });
 
-    if (response.ok) {
-      router.push("/authentification/info-utilisateur");
+    const data = await res.json();
+    if (res.ok) {
+      localStorage.setItem('userId', data.userId);
+      router.push('/authentification/offres');
     } else {
       alert("L'inscription n'a pas reussie");
     }
@@ -99,11 +100,13 @@ export default function PageAuth() {
               type="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              onChange={(e) => setLoginEmail(e.target.value)}
             />
             <input
               type="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              onChange={(e) => setLoginPassword(e.target.value)}
             />
             <Link href="#" className="text-gray-600 text-sm mt-2">
               Mot de passe oublié ?
@@ -126,16 +129,19 @@ export default function PageAuth() {
               type="text"
               placeholder="Username"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              onChange={(e) => setSignupUsername(e.target.value)}
             />
             <input
               type="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              onChange={(e) => setSignupEmail(e.target.value)}
             />
             <input
               type="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              onChange={(e) => setSignupPassword(e.target.value)}
             />
             <button className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               S'inscrire

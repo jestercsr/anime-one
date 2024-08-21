@@ -20,9 +20,53 @@ model User {
   nom   String  @db.VarChar(255)
   email   String  @db.VarChar(255)  @unique
   password  String  @db.VarChar(32)
+  adresse   String  @db.VarChar(255)
   phone          String @db.VarChar(12)
   carte_bancaire  String  @db.VarChar(20)
   date_naissance  DateTime
   role           String    @default("client")
   active         Boolean   @default(true)
+  profiles       Profile[]
+  offreId        Int?      
+  offre          Offre?    @relation(fields: [offreId], references: [id])
+}
+
+model Profile{
+  id  Int @id @default(autoincrement())
+  userId Int 
+  nom     String @db.VarChar(255)
+  avatar  String @db.VarChar(255)
+  user  User  @relation(fields: [userId], references: [id])
+}
+
+model Produit{
+  id          Int       @id @default(autoincrement())
+  titre       String    @db.VarChar(255)
+  description String    @db.Text 
+  photo       String?   @ignore  
+  prix        Float     
+  quantite    Int       
+  categorieId Int?      
+  categorie   Categorie? @relation(fields: [categorieId], references: [id])
+}
+
+model Categorie{
+  id       Int       @id @default(autoincrement())
+  nom      String    @db.VarChar(255)
+  produits Produit[]
+}
+
+model Offre{
+  id       Int       @id @default(autoincrement())
+  nom   String
+  type  String
+  prix  Float
+  video   String
+  lectureSimul  Int
+  appareil  String
+  telechargement  String  @default("Non")
+  pub  String  @default("Avec Pub")
+  audio   String  
+  livraison   String  
+  users User[]
 }
