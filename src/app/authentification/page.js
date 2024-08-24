@@ -2,11 +2,14 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
+import { useProfile } from "../../../providers/ProfileContext";
 
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
-  const router = useRouter()
+  const { saveSignupData, saveLoginData, saveUserId, selectProfile } = useProfile();
+  const router = useRouter();
 
   useEffect(() => {
     const texte = [
@@ -33,44 +36,71 @@ export default function PageAuth() {
     const selectedText = texte[randomIndex];
     setRandomText(selectedText);
   });
+  const [formSign, setFormSign] = useState({ username: '', email: '', password: '' });
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+  const [recaptchaToken, setRecaptchaToken] = useState(null);
 
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [email, setEmail] = useState("");
+  const handleRecaptchaChange = (token) => {
+    setRecaptchaToken(token);
+  };
+
+  const handleInputChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+  const handleInputSign = (e) => {
+    setFormSign({ ...formSign, [e.target.name]: e.target.value });
+  };
 
   const handleLogin = async (e) => {
     e.preventDefault();
+
+    if (!recaptchaToken) {
+      alert('Veuillez vérifier le captcha.');
+      return;
+    }
+
     const res = await fetch('/api/login', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, password }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ...formData, recaptchaToken }),
     });
 
     if (res.ok) {
+    const profile = await res.json();
+    saveLoginData(formData);
+    saveUserId(profile.id);
+    selectProfile(profile);
       router.push('/authentification/profile-selector');
     } else {
-      alert('Connexion échouée.');
+      alert("Nom d'utilisateur ou mot de passe incorrect.");
     }
   };
 
   const handleSignIn = async (e) => {
     e.preventDefault();
+    if (!recaptchaToken) {
+      alert('Veuillez vérifier le captcha.');
+      return;
+    }
+
     const res = await fetch('/api/signup', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        username,
-        email,
-        password,
-      }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ ...formSign, recaptchaToken }),
     });
 
-    const data = await res.json();
     if (res.ok) {
-      localStorage.setItem('userId', data.userId);
-      router.push('/authentification/offres');
-    } else {
-      alert("L'inscription n'a pas reussie");
+    saveSignupData(formSign);
+    router.push("/authentification/offres");
+    }else {
+      alert("Inscription impossible");
     }
   };
 
@@ -95,30 +125,31 @@ export default function PageAuth() {
           >
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Connexion</h2>
             <input
-              type="email"
+              type="email" name="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={formData.email} onChange={handleInputChange}
               required
             />
             <input
-              type="password"
+              type="password" name="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              value={formData.password} onChange={handleInputChange}
               required
             />
             <Link href="#" className="text-gray-600 text-sm mt-2">
               Mot de passe oublié ?
             </Link>
-            <button className="mt-4 rounded-2xl border border-blue-900 bg-blue-900 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
+            <ReCAPTCHA
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+              onChange={handleRecaptchaChange}
+            />
+            <button type="submit" className="mt-4 rounded-2xl border border-blue-900 bg-blue-900 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               Connexion
             </button>
           </form>
         </div>
-
 
         <div className="absolute top-0 w-1/2 h-full transition-all duration-600 ease-in-out transform z-2">
           <form
@@ -129,29 +160,31 @@ export default function PageAuth() {
               Créer un compte
             </h2>
             <input
-              type="text"
+              type="text" name="username"
               placeholder="Username"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
+              value={formSign.username} onChange={handleInputSign}
               required
             />
             <input
-              type="email"
+              type="email" name="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={formSign.email} onChange={handleInputSign}
               required
             />
             <input
-              type="password"
+              type="password" name="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required/>
-            <button className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
+              value={formSign.password} onChange={handleInputSign}
+              required
+            />
+            <ReCAPTCHA
+              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+              onChange={handleRecaptchaChange}
+            />
+            <button type="submit" className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               S'inscrire
             </button>
           </form>
@@ -160,7 +193,8 @@ export default function PageAuth() {
         <div className="absolute top-0 left-1/2 w-1/2 h-full overflow-hidden transition-transform duration-600 ease-in-out z-100">
           <div
             className="bg-gradient-to-r from-rose-800 to-blue-900 bg-cover bg-center text-slate-50 absolute left-[-100%] h-full w-[200%] transform transition-transform duration-600 ease-in-out"
-            style={{transform: isConnect ? "translateX(50%)" : "translateX(0)",
+            style={{
+              transform: isConnect ? "translateX(50%)" : "translateX(0)",
             }}
           >
             <div
