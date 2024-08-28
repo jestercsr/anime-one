@@ -2,7 +2,6 @@
 import React,{ useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useProfile } from "../../../../providers/ProfileContext";
-import { sql } from "@vercel/postgres";
 
 export default function OffreSelection() {
   const [offres, setOffres] = useState([]);
@@ -11,8 +10,14 @@ export default function OffreSelection() {
 
   useEffect(() => {
     async function fetchOffers() {
-      const { rows } = await sql`SELECT * FROM "Offre"`;
-      setOffres(rows);
+      const res = await fetch('/api/offres');
+      if (res.ok) {
+        const offreAll = await res.json();  
+        setOffres(offreAll);
+      }else{
+        console.error(`Erreur de recuperation des données des offres`)
+        return;
+      }
     }
 
     fetchOffers();
@@ -33,7 +38,7 @@ export default function OffreSelection() {
           <h1 className="text-slate-50 text-xl md:text-2xl font-bold mb-8">
             Sélectionnez l'offre qui vous convient
           </h1>
-          <div className="grid grid-cols-3">
+          <div className="grid md:grid-cols-3">
           {offres.map((offre) => {
             return (
               <div
@@ -44,7 +49,7 @@ export default function OffreSelection() {
                   <div className="bg-gray-100 p-6 rounded-lg flex-1">
                     <button
                       onClick={() => handleSubmit(offre.id)}
-                      className="bg-gradient-to-b from-greener-950 to-emeralder-900 text-left w-full text-slate-50 pl-2"
+                      className="bg-gradient-to-b from-greener-950 to-emeralder-900 text-left w-full text-slate-50 pl-2 rounded-md"
                     >
                       <h2 className="text-lg md:text-xl font-semibold">
                         {offre.nom}

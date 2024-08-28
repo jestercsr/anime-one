@@ -1,36 +1,46 @@
 "use server";
-import { sql } from "@vercel/postgres";
 import bcrypt from "bcryptjs";
 import { NextResponse } from "next/server";
-import prisma from "@prisma/client";
+import { prisma } from "../../../../config/database";
 
 export async function POST(req) {
+  const body = await req.json();
+  console.log('Request body:', body);
+  const { username, email, password, recaptchaToken } = body;
   try {
-    const { username, email, password, recaptchaToken } = req.body;
+    const hashedPassword = await bcrypt.hash(password, 10);
 
     const recaptchaResponse = await fetch(
-      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}&response=${recaptchaToken}`,
+      `https://www.google.com/recaptcha/api/siteverify?secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${recaptchaToken}`,
       {
         method: "POST",
       }
     );
 
     const recaptchaData = await recaptchaResponse.json();
-    if (!recaptchaData.success) {
-      return new NextResponse.json(
-        { error: "Validation du reCAPTCHA à échouée" },
-        { status: 400 }
-      );
-    }
+    console.log('reCAPTCHA result:', recaptchaData);
 
-    await prisma.$queryRaw`
-      INSERT INTO User (username, password, email)
-      VALUES (${username}, ${password}, ${email})
-    `;
-
-    return new NextResponse.json({ success: true });
+    const data = await prisma.$queryRawUnsafe(`
+      INSERT INTO "User" (username, password, email)
+      VALUES ($1, $2, $3)`,username, hashedPassword, email)
+    ;
+    return NextResponse.json(data,{ success: true });
   } catch (error) {
     console.error(error);
-    return new NextResponse.json({ error: "Database error" }, { status: 500 });
+    return NextResponse.json({ error: "Database error" }, { status: 500 });
+  }
+}
+
+export async function GET(req) {
+  const { searchParams } = new URL(req.url);
+  const username = searchParams.get("username");
+
+  try {
+    const data = await prisma.$queryRawUnsafe(`SELECT * FROM "User" WHERE username=$1`, username);
+    
+    return NextResponse.json(data,{ success: true })
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json({ error: "Erreur lors de la récupération des utilisateurs" }, { status: 500 });
   }
 }

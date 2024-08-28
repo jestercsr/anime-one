@@ -1,34 +1,33 @@
 "use server";
 import { NextResponse } from "next/server";
-import prisma from "@prisma/client";
+import { prisma } from "../../../../config/database";
 
 export async function POST(req) {
-  const { userId, nom, avatar } = req.body;
+  const { userId, nom, avatarId } = await req.json();
+  const numericUserId = parseInt(userId, 10);
+  const numericAvatar = parseInt(avatarId, 10);
 
-  if (!userId || !nom || !avatar) {
+  if (!numericUserId || !nom || !avatarId) {
     return NextResponse.json(
       { error: "Toutes les données sont demandés" },
       { status: 400 }
     );
   }
 
-  await prisma.$queryRaw`
-    INSERT INTO Profile (user_id, nom, avatar)
-    VALUES (${userId}, ${nom}, ${avatar})
-  `;
+  await prisma.$queryRawUnsafe(`
+    INSERT INTO "Profile" ("userId", "nom", "avatarId")
+    VALUES ($1, $2, $3)`,numericUserId, nom, numericAvatar)
+  ;
 
   return NextResponse.json({ success: true });
 }
 
-export async function GET(req) {
-  const { searchParams } = new URL(req.url);
-  const userId = searchParams.get("userId");
-  if (!userId) {
-    return NextResponse.json({ error: "User ID is required" }, { status: 400 });
+export async function GET() {
+  try {
+    const data = await prisma.$queryRawUnsafe(`SELECT * FROM "Avatar"`)
+    return NextResponse.json(data, {success: true})
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json({ error: "Erreur lors de la récupération des offres" }, { status: 500 });
   }
-  const profiles = await prisma.$queryRaw`
-  SELECT * FROM Profile WHERE userId = ${userId}
-`;
-
-  return NextResponse.json(profiles);
 }

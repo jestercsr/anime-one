@@ -1,17 +1,27 @@
-"use server"
-import { sql } from '@vercel/postgres';
+"use server";
+import { NextResponse } from "next/server";
+import { prisma } from "../../../../../config/database";
 
 export async function POST(req) {
-    try {
-        const { username, prenom, nom, phone, carte_bancaire, date_naissance } = await req.json();
-        await sql`
+  try {
+    const { id, prenom, nom, adresse, phone, date_naissance, nom_carte, numero_carte, expiration, cvc } = await req.json();
+    console.log(id);
+    const UserId = parseInt(id, 10);
+    
+    await prisma.$queryRawUnsafe(`
         UPDATE "User"
-        SET prenom = ${prenom}, nom = ${nom}, phone = ${phone}, carte_bancaire = ${carte_bancaire}, date_naissance = ${date_naissance}
-        WHERE username = ${username}
-      `;
-      return new Response(JSON.stringify({ message: `L'inscription complète est terminer` }), { status: 200 });
+        SET prenom = $1, nom = $2, phone = $3, adresse = $4, date_naissance = $5::DATE
+        WHERE id = $6
+      `, prenom, nom, phone, adresse, date_naissance, UserId);
+    await prisma.$queryRawUnsafe(`INSERT INTO "CarteBancaire" ("nom_carte", "numero_carte", "expiration", "cvc", "userId")
+      VALUES ($1, $2, $3::DATE, $4::smallint, $5)`,nom_carte, numero_carte, expiration, cvc, UserId)
+    return NextResponse.json({ message: `L'inscription complète est terminer` },
+      { status: 200 }
+    );
   } catch (error) {
     console.error(error);
-    return new Response(JSON.stringify({ error: 'Erreur dans la base de données' }), { status: 500 });
+    return NextResponse.json({ error: "Erreur dans la base de données" },
+      { status: 500 }
+    );
   }
 }

@@ -8,7 +8,7 @@ import { useProfile } from "../../../providers/ProfileContext";
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
-  const { saveSignupData, saveLoginData, saveUserId, selectProfile } = useProfile();
+  const { saveSignupData, saveLoginData, saveRoleId, saveUserId, selectProfile } = useProfile();
   const router = useRouter();
 
   useEffect(() => {
@@ -41,7 +41,7 @@ export default function PageAuth() {
     email: "",
     password: "",
   });
-  const [recaptchaToken, setRecaptchaToken] = useState(null);
+  let [recaptchaToken, setRecaptchaToken] = useState(null);
 
   const handleRecaptchaChange = (token) => {
     setRecaptchaToken(token);
@@ -73,11 +73,14 @@ export default function PageAuth() {
     if (res.ok) {
     const profile = await res.json();
     saveLoginData(formData);
-    saveUserId(profile.id);
+    saveRoleId(profile.role);
     selectProfile(profile);
       router.push('/authentification/profile-selector');
     } else {
+      const errorData = await res.json();
+      console.error('Erreur pendant le login:', errorData);
       alert("Nom d'utilisateur ou mot de passe incorrect.");
+      return;
     }
   };
 
@@ -97,10 +100,21 @@ export default function PageAuth() {
     });
 
     if (res.ok) {
-    saveSignupData(formSign);
-    router.push("/authentification/offres");
+    saveSignupData(formSign);    
+    
     }else {
       alert("Inscription impossible");
+    }
+    const response = await fetch(`/api/signup?username=${formSign.username}`)
+    if(response.ok){
+      const userAll = await response.json();
+      saveUserId(userAll[0].id)
+      router.push("/authentification/offres");
+    }else {
+      const errorData = await res.json();
+      console.error(`Erreur pendant l'inscription:`, errorData);
+      alert("Nom d'utilisateur ou mot de passe incorrect.");
+      return;
     }
   };
 

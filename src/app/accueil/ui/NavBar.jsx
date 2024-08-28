@@ -10,16 +10,19 @@ import {
   ShoppingCart,
   CircleUserRound,
 } from "lucide-react";
+import { GrUserAdmin } from "react-icons/gr";
 import React, { useState, useEffect } from "react";
 import { Twirl as Hamburger } from "hamburger-react";
 import { getListeAll } from "../../../../_actions/postAction";
 import ReactLoading from "react-loading";
 import { useProfile } from "../../../../providers/ProfileContext";
 import { usePathname } from "next/navigation";
+import { useAvatar } from "../../../../providers/AvatarContext";
 
 export default function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
-  const { selectedProfile, logout } = useProfile();
+  const { roleProfile, logout } = useProfile();
+  const { avatarUrl, profileName } = useAvatar();
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -84,8 +87,8 @@ export default function Navbar(props) {
       icon: <Newspaper />,
     },
   ];
-  if (selectedProfile && selectedProfile.role === 'admin') {
-    navlinks.push({ label: "Admin", lien: "/admin" });
+  if (roleProfile && roleProfile === 'admin') {
+    navlinks.push({ label: "Admin", lien: "/admin", icon: <GrUserAdmin /> });
   }
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -146,7 +149,7 @@ export default function Navbar(props) {
         >
           <div>
             <Link href={"/accueil"}>
-              <div className="hidden md:flex w-20">
+              <div className="hidden md:flex w-28">
                 <img src={getLogo()} alt="logo" />
               </div>
               <div className="flex w-14 md:hidden">
@@ -209,14 +212,14 @@ export default function Navbar(props) {
               );
             })}
             <section className="items-center gap-6">
-              {selectedProfile ? (
+              {avatarUrl && profileName ? (
                 <div
                   className="relative"
                   onClick={toggleDropdown}
                 >
                   <img
-                    src={selectedProfile.image}
-                    alt={selectedProfile.name}
+                    src={avatarUrl || "/assets/avatar/narutoShippudenAvatar.png"}
+                    alt={profileName}
                     className="w-8 h-8 rounded-full cursor-pointer"
                   />
                   {isDropdownOpen && (

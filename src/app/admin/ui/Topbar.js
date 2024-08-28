@@ -100,8 +100,8 @@ export default function Topbar() {
           {selectedProfile ? (
             <div className="relative" onClick={toggleDropdown}>
               <img
-                src={selectedProfile.image}
-                alt={selectedProfile.name}
+                src={selectedProfile.avatar}
+                alt={selectedProfile.nom}
                 className="w-8 h-8 rounded-full cursor-pointer"
               />
               {isDropdownOpen && (
@@ -185,8 +185,8 @@ export default function Topbar() {
               {selectedProfile ? (
                 <div className="relative" onClick={toggleDropdown}>
                   <img
-                    src={selectedProfile.image}
-                    alt={selectedProfile.name}
+                    src={selectedProfile.avatar}
+                    alt={selectedProfile.nom}
                     className="w-8 h-8 rounded-full cursor-pointer"
                   />
                   {isDropdownOpen && (

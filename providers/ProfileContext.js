@@ -8,13 +8,15 @@ export const ProfileProvider = ({ children }) => {
   const [selectedProfile, setSelectedProfile] = useState(null);
   const [signupData, setSignupData] = useState({});
   const [loginData, setLoginData] = useState({});
-  const [userId, setUserId] = useState(null);
+  const [roleProfile, setRole] = useState(null);
+  const [userProfile, setUserProfile] = useState(null)
   const router = useRouter();
 
   useEffect(() => {
     const storedProfile = localStorage.getItem("selectedProfile");
     const storedSignupData = localStorage.getItem("signupData");
     const storedLoginData = localStorage.getItem("loginData");
+    const storedRoleId = localStorage.getItem("role");
     const storedUserId = localStorage.getItem("userId");
 
     if (storedProfile) {
@@ -29,8 +31,12 @@ export const ProfileProvider = ({ children }) => {
       setLoginData(JSON.parse(storedLoginData));
     }
 
+    if (storedRoleId) {
+      setRole(storedRoleId);
+    }
+
     if (storedUserId) {
-      setUserId(storedUserId);
+      setUserProfile(storedUserId);
     }
   }, []);
 
@@ -50,9 +56,14 @@ export const ProfileProvider = ({ children }) => {
     setLoginData(updatedLoginData);
     localStorage.setItem("loginData", JSON.stringify(updatedLoginData));
   };
-  const saveUserId = (id) => {
-    setUserId(id);
-    localStorage.setItem("userId", id);
+  const saveRoleId = (role) => {
+    setRole(role);
+    localStorage.setItem("role", role);
+  };
+
+  const saveUserId = (userId) => {
+    setUserProfile(userId);
+    localStorage.setItem("userId", userId);
   };
 
   const clearSignupData = () => {
@@ -80,10 +91,13 @@ export const ProfileProvider = ({ children }) => {
       selectedProfile,
       signupData,
       loginData,
+      roleProfile,
+      userProfile,
       selectProfile,
       saveSignupData,
-      saveLoginData,
       saveUserId,
+      saveLoginData,
+      saveRoleId,
       clearSignupData,
       clearLoginData,
       logout,

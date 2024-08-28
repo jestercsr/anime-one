@@ -4,21 +4,34 @@ import React, { useEffect, useState } from "react";
 import { useProfile } from "../../../../providers/ProfileContext";
 import { useRouter } from "next/navigation";
 import ReactLoading from "react-loading";
+import { useAvatar } from "../../../../providers/AvatarContext";
 
 export default function PageChoixProfil() {
-  const { userId, selectProfile } = useProfile();
+  const { selectedProfile, selectProfile, userProfile } = useProfile();
   const [profiles, setProfiles] = useState([]);
+  const { saveAvatarData } = useAvatar();
+  const [avatars, setAvatars] = useState({});
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
   useEffect(() => {
     const fetchProfiles = async () => {
-      if (!userId) return;
+      if (!userProfile) return;
 
       try {
-        const response = await fetch(`/api/profiles?userId=${userId}`);
+        const response = await fetch(`/api/profiles/${userProfile}`);
         const data = await response.json();
         setProfiles(data);
+
+        const avatarsResponse = await fetch(`/api/profiles`);
+        const avatarsData = await avatarsResponse.json();
+
+        const avatarMap = avatarsData.reduce((acc, avatar) => {
+          acc[avatar.id] = avatar;
+          return acc;
+        }, {});
+
+        setAvatars(avatarMap);
       } catch (error) {
         console.error("Erreur lors de la récupération des profils:", error);
       } finally {
@@ -27,10 +40,16 @@ export default function PageChoixProfil() {
     };
 
     fetchProfiles();
-  }, [userId]);
+  }, [userProfile]);
+
+  const handleSelectProfile = (profile) => {
+    selectProfile(profile);
+    const avatarUrl = avatars[profile.avatarId]?.images;
+    saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
+  };
   
   const handleAddProfile = () => {
-    router.push("/profile-selector/create");
+    router.push("/authentification/profile-selector/create");
   };
 
   if (loading) {
@@ -53,20 +72,21 @@ export default function PageChoixProfil() {
       <h3 className="text-2xl mb-8">Choisit un profil : </h3>
       <div className="flex space-x-4">
       {profiles.length > 0 ? (
-        profiles.map((profil, index) => {
+        profiles.map((profile) => {
+          const avatar = avatars[profile.avatarId];
           return (
-            <div key={index} className="text-center">
+            <div key={profile.id} className="text-center">
               <div className="relative w-24 h-24">
-                <Link href={profil.lien}>
+                <Link href={"/accueil"}>
                   <img
-                    src={profil.avatar}
-                    alt={profil.nom}
+                    src={avatar?.images}
+                    alt={profile.nom}
                     className="rounded-full"
-                    onClick={() => selectProfile(profil)}
+                    onClick={handleSelectProfile(profile)}
                   />
-                </Link>
+                  </Link>
               </div>
-              <p className="mt-2">{profil.nom}</p>
+              <p className="mt-2">{profile.nom}</p>
             </div>
           );
         })): (<p>Aucun profil trouvé</p>)}

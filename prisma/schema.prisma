@@ -1,73 +1,84 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "postgresql"
-  url = env("POSTGRES_PRISMA_URL")
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL")
   directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
 model User {
-  id  Int   @id @default(autoincrement())
-  username  String  @db.VarChar(255)
-  prenom    String  @db.VarChar(255)
-  nom   String  @db.VarChar(255)
-  email   String  @db.VarChar(255)  @unique
-  password  String  @db.VarChar(32)
-  adresse   String  @db.VarChar(255)
-  phone          String @db.VarChar(12)
-  carte_bancaire  String  @db.VarChar(20)
-  date_naissance  DateTime
+  id             Int       @id @default(autoincrement())
+  username       String    @db.VarChar(255)
+  prenom         String    @db.VarChar(255) @default("Bonjour")
+  nom            String    @db.VarChar(255) @default("Aurevoir")
+  email          String    @unique @db.VarChar(255)
+  password       String    @db.VarChar(60)
+  adresse        String    @db.VarChar(255) @default("1 Rue du Pirate")
+  phone          String    @db.VarChar(12)  @default("0612345678")
+  date_naissance DateTime  @db.Date @default(now())
   role           String    @default("client")
   active         Boolean   @default(true)
+  offreId        Int?
   profiles       Profile[]
-  offreId        Int?      
+  carte_bancaire CarteBancaire[]    
   offre          Offre?    @relation(fields: [offreId], references: [id])
 }
 
-model Profile{
-  id  Int @id @default(autoincrement())
-  userId Int 
-  nom     String @db.VarChar(255)
-  avatar  String @db.VarChar(255)
-  user  User  @relation(fields: [userId], references: [id])
+model CarteBancaire {
+  id     Int    @id @default(autoincrement())
+  userId Int
+  nom_carte     String @db.VarChar(255)
+  numero_carte  String @db.VarChar(20)
+  expiration    DateTime  @db.Date
+  cvc   Int   @db.SmallInt
+  user   User   @relation(fields: [userId], references: [id])
 }
 
-model Produit{
-  id          Int       @id @default(autoincrement())
-  titre       String    @db.VarChar(255)
-  description String    @db.Text 
-  photo       String?   @ignore  
-  prix        Float     
-  quantite    Int       
-  categorieId Int?      
+model Profile {
+  id     Int    @id @default(autoincrement())
+  userId Int
+  nom    String @db.VarChar(255)
+  avatarId  Int
+  avatar Avatar? @relation(fields: [avatarId], references: [id])
+  user   User   @relation(fields: [userId], references: [id])
+}
+
+model Avatar {
+  id     Int    @id @default(autoincrement())
+  images    String   @db.VarChar(255)  @default("/assets/avatar/narutoShippudenAvatar.png")
+  profile   Profile[]
+}
+
+model Produit {
+  id          Int        @id @default(autoincrement())
+  titre       String     @db.VarChar(255)
+  description String
+  photo       String?    @ignore
+  prix        Float
+  quantite    Int
+  categorieId Int?
   categorie   Categorie? @relation(fields: [categorieId], references: [id])
 }
 
-model Categorie{
+model Categorie {
   id       Int       @id @default(autoincrement())
   nom      String    @db.VarChar(255)
   produits Produit[]
 }
 
-model Offre{
-  id       Int       @id @default(autoincrement())
-  nom   String
-  type  String
-  prix  Float
-  video   String
-  lectureSimul  Int
-  appareil  String
-  telechargement  String  @default("Non")
-  pub  String  @default("Avec Pub")
-  audio   String  
-  livraison   String  
-  users User[]
+model Offre {
+  id             Int    @id @default(autoincrement())
+  nom            String
+  type           String
+  prix           Float
+  video          String
+  lectureSimul   Int
+  appareil       String
+  telechargement String @default("Non")
+  pub            String @default("Avec Pub")
+  audio          String
+  livraison      String
+  user          User[]
 }

@@ -4,6 +4,7 @@ import { ProfileProvider } from "../../providers/ProfileContext";
 import { Analytics } from "@vercel/analytics/react";
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 import Error from "./error";
+import { AvatarProvider } from "../../providers/AvatarContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +24,10 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         <ErrorBoundary fallback={<Error/>}>
         <ProfileProvider>
+          <AvatarProvider>
           {children}
           <Analytics />
+          </AvatarProvider>
         </ProfileProvider>
         </ErrorBoundary>
       </body>
