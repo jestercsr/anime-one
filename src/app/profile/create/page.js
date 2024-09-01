@@ -1,18 +1,17 @@
 "use client";
-
+import React, { useEffect, useState } from "react";
+import { useProfile } from "../../../../providers/ProfileContext";
 import { useRouter } from "next/navigation";
-import { useProfile } from "../../../../../providers/ProfileContext";
-import { useEffect, useState } from "react";
 
-export default function CreateProfile() {
+export default function PageCreateProfil() {
   const { userProfile } = useProfile();
   const router = useRouter();
   const [avatars, setAvatars] = useState([]);
   const [selectedAvatar, setSelectedAvatar] = useState(null);
-  const [nom, setNom] = useState('');
+  const [nom, setNom] = useState("");
   const [showModal, setShowModal] = useState(false);
 
-  const defaultAvatar = '/assets/avatar/narutoShippudenAvatar.png'
+  const defaultAvatar = "/assets/avatar/narutoShippudenAvatar.png";
 
   useEffect(() => {
     async function fetchAvatars() {
@@ -37,12 +36,15 @@ export default function CreateProfile() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ userId: userProfile,nom,
-          avatarId: selectedAvatar}),
+        body: JSON.stringify({
+          userId: userProfile,
+          nom,
+          avatarId: selectedAvatar,
+        }),
       });
 
       if (response.ok) {
-        router.push("/authentification/profile-selector");
+        router.push("/profile");
       } else {
         alert("Erreur lors de la création du profil.");
       }
@@ -56,21 +58,30 @@ export default function CreateProfile() {
     setShowModal(false);
   };
 
-  const selectedAvatarImage = avatars.find(avatar => avatar.id === selectedAvatar)?.images || defaultAvatar;
+  const handleClose = () => {
+    router.push("/profile/edit-profiles");
+  };
+
+  const selectedAvatarImage =
+    avatars.find((avatar) => avatar.id === selectedAvatar)?.images ||
+    defaultAvatar;
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-slate-50">
       <h1 className="text-4xl mb-8">Créer un nouveau profil</h1>
-      <form onSubmit={handleSubmit} className="grid grid-cols-2 space-y-4 max-w-md w-full">
+      <form
+        onSubmit={handleSubmit}
+        className="grid grid-cols-2 space-y-4 max-w-md w-full"
+      >
         <div className="flex flex-col items-center">
-        <input
-          type="text"
-          placeholder="Nom du profil"
-          value={nom}
-          onChange={(e) => setNom(e.target.value)}
-          required
-          className="p-2 bg-gray-700 rounded w-full"
-        />
+          <input
+            type="text"
+            placeholder="Nom du profil"
+            value={nom}
+            onChange={(e) => setNom(e.target.value)}
+            required
+            className="p-2 bg-gray-700 rounded w-full"
+          />
         </div>
         <div className="relative flex flex-col items-center">
           <img
@@ -83,7 +94,11 @@ export default function CreateProfile() {
             onClick={() => setShowModal(true)}
             className="absolute bottom-0 left-14 ml-20 px-4 py-2"
           >
-            <img src="/assets/avatar/FaPen.png" alt="faPen" className="rounded-full w-12"/>
+            <img
+              src="/assets/avatar/FaPen.png"
+              alt="faPen"
+              className="rounded-full w-12"
+            />
           </button>
         </div>
 

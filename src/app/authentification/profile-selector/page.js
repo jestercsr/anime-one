@@ -7,7 +7,7 @@ import ReactLoading from "react-loading";
 import { useAvatar } from "../../../../providers/AvatarContext";
 
 export default function PageChoixProfil() {
-  const { selectedProfile, selectProfile, userProfile } = useProfile();
+  const { saveProfile, selectedAccount, userProfile } = useProfile();
   const [profiles, setProfiles] = useState([]);
   const { saveAvatarData } = useAvatar();
   const [avatars, setAvatars] = useState({});
@@ -43,11 +43,12 @@ export default function PageChoixProfil() {
   }, [userProfile]);
 
   const handleSelectProfile = (profile) => {
-    selectProfile(profile);
     const avatarUrl = avatars[profile.avatarId]?.images;
+    console.log(profile);
+    saveProfile(profile.id);
     saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
   };
-  
+
   const handleAddProfile = () => {
     router.push("/authentification/profile-selector/create");
   };
@@ -67,33 +68,41 @@ export default function PageChoixProfil() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-slate-50">
-      <h1 className="text-4xl mb-8">Bon retour parmis nous {selectedProfile.username}</h1>
+      <h1 className="text-4xl mb-8">
+        Bon retour parmis nous {selectedAccount.username}
+      </h1>
 
       <h3 className="text-2xl mb-8">Choisit un profil : </h3>
       <div className="flex space-x-4">
-      {profiles.length > 0 ? (
-        profiles.map((profile) => {
-          const avatar = avatars[profile.avatarId];
-          return (
-            <div key={profile.id} className="text-center">
-              <div className="relative w-24 h-24">
-                <Link href={"/accueil"}>
-                  <img
-                    src={avatar?.images}
-                    alt={profile.nom}
-                    className="rounded-full"
-                    onClick={handleSelectProfile(profile)}
-                  />
+        {profiles.length > 0 ? (
+          profiles.map((profile) => {
+            const avatar = avatars[profile.avatarId];
+            return (
+              <div key={profile.id} className="text-center">
+                <div className="relative w-24 h-24">
+                  <Link href={"/accueil"}>
+                    <img
+                      src={avatar?.images}
+                      alt={profile.nom}
+                      className="rounded-full"
+                      onClick={handleSelectProfile(profile)}
+                    />
                   </Link>
+                </div>
+                <p className="mt-2">{profile.nom}</p>
               </div>
-              <p className="mt-2">{profile.nom}</p>
-            </div>
-          );
-        })): (<p>Aucun profil trouvé</p>)}
+            );
+          })
+        ) : (
+          <p>Aucun profil trouvé</p>
+        )}
       </div>
-      <button className="mt-8 px-4 py-2 bg-blue-600 rounded" onClick={handleAddProfile}>
-        Ajoutez un profil
-      </button>
+      <div onClick={handleAddProfile} className="text-center">
+        <button className="mt-8 px-4 py-2 bg-gray-800/50 rounded-full text-2xl">
+          +
+        </button>
+        <p>Ajouter Profile</p>
+      </div>
     </div>
   );
 }

@@ -37,7 +37,6 @@ export default function ScanTrending() {
       try {
         const scanData = await getScanTrending();
         setDataScan(scanData);
-        console.log(scanData);
         setLoading(false);
       } catch (error) {
         console.error(

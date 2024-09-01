@@ -37,7 +37,6 @@ export default function MovieReco() {
       try {
         const movieData = await getMovieReco();
         setDataMovie(movieData);
-        console.log(movieData);
         setLoading(false);
       } catch (error) {
         console.error(

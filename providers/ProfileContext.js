@@ -6,6 +6,7 @@ const ProfileContext = createContext();
 
 export const ProfileProvider = ({ children }) => {
   const [selectedProfile, setSelectedProfile] = useState(null);
+  const [selectedAccount, setSelectedAccount] = useState(null);
   const [signupData, setSignupData] = useState({});
   const [loginData, setLoginData] = useState({});
   const [roleProfile, setRole] = useState(null);
@@ -14,6 +15,7 @@ export const ProfileProvider = ({ children }) => {
 
   useEffect(() => {
     const storedProfile = localStorage.getItem("selectedProfile");
+    const storedAccount = localStorage.getItem("selectedAccount");
     const storedSignupData = localStorage.getItem("signupData");
     const storedLoginData = localStorage.getItem("loginData");
     const storedRoleId = localStorage.getItem("role");
@@ -21,6 +23,10 @@ export const ProfileProvider = ({ children }) => {
 
     if (storedProfile) {
       setSelectedProfile(JSON.parse(storedProfile));
+    }
+
+    if (storedAccount) {
+      setSelectedProfile(JSON.parse(storedAccount));
     }
 
     if (storedSignupData) {
@@ -45,6 +51,11 @@ export const ProfileProvider = ({ children }) => {
     localStorage.setItem("selectedProfile", JSON.stringify(profile));
   };
 
+  const selectAccount = (account) => {
+    setSelectedAccount(account);
+    localStorage.setItem("selectedAccount", JSON.stringify(account));
+  };
+
   const saveSignupData = (data) => {
     const updatedSignupData = { ...signupData, ...data };
     setSignupData(updatedSignupData);
@@ -60,6 +71,11 @@ export const ProfileProvider = ({ children }) => {
     setRole(role);
     localStorage.setItem("role", role);
   };
+
+  const saveProfile = (profile) => {
+    setSelectedProfile(profile)
+    localStorage.setItem("selectedProfile", profile);
+  }
 
   const saveUserId = (userId) => {
     setUserProfile(userId);
@@ -78,9 +94,16 @@ export const ProfileProvider = ({ children }) => {
 
   const logout = () => {
     setSelectedProfile(null);
+    setSelectedAccount(null)
     clearSignupData();
     clearLoginData();
     localStorage.removeItem("selectedProfile");
+    localStorage.removeItem("selectedAccount");
+    localStorage.removeItem("userId");
+    localStorage.removeItem("role");
+    localStorage.removeItem("avatarId");
+    localStorage.removeItem("avatarUrl");
+    localStorage.removeItem("profileName");
     if (router && router.push) {
       router.push('/');
     }
@@ -89,11 +112,14 @@ export const ProfileProvider = ({ children }) => {
   return (
     <ProfileContext.Provider value={{
       selectedProfile,
+      selectedAccount,
       signupData,
       loginData,
       roleProfile,
       userProfile,
       selectProfile,
+      selectAccount,
+      saveProfile,
       saveSignupData,
       saveUserId,
       saveLoginData,

@@ -37,7 +37,6 @@ export default function Reco() {
       try {
         const recoData = await getRecommander();
         setDataReco(recoData);
-        console.log(recoData);
         setLoading(false);
       } catch (error) {
         console.error(

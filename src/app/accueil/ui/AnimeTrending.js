@@ -37,7 +37,6 @@ export default function AnimeTrending() {
       try {
         const trendsData = await getAnimeTrending();
         setDataAnime(trendsData);
-        console.log(trendsData);
         setLoading(false);
       } catch (error) {
         console.error(

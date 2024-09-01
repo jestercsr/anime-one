@@ -5,8 +5,6 @@ import { prisma } from "../../../../config/database";
 
 export async function POST(req) {
   const body = await req.json();
-  console.log('Request body:', body);
-
   const { email, password, recaptchaToken } = body;
 
   try {
@@ -17,9 +15,6 @@ export async function POST(req) {
       method: 'POST',
     });
     const recaptchaData = await recaptchaRes.json();
-    if (!recaptchaData.success) {
-      return NextResponse.json({ error: 'Échec du reCAPTCHA' }, { status: 400 });
-    }
     console.log('reCAPTCHA result:', recaptchaData);
 
     const user = await prisma.$queryRawUnsafe(`SELECT * FROM "User" WHERE email = $1`, email);

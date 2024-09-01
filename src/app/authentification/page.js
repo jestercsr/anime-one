@@ -8,7 +8,7 @@ import { useProfile } from "../../../providers/ProfileContext";
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
-  const { saveSignupData, saveLoginData, saveRoleId, saveUserId, selectProfile } = useProfile();
+  const { saveSignupData, saveLoginData, saveRoleId, saveUserId, selectAccount } = useProfile();
   const router = useRouter();
 
   useEffect(() => {
@@ -35,7 +35,8 @@ export default function PageAuth() {
     const randomIndex = Math.floor(Math.random() * texte.length);
     const selectedText = texte[randomIndex];
     setRandomText(selectedText);
-  });
+  }, []);
+
   const [formSign, setFormSign] = useState({ username: '', email: '', password: '' });
   const [formData, setFormData] = useState({
     email: "",
@@ -74,7 +75,7 @@ export default function PageAuth() {
     const profile = await res.json();
     saveLoginData(formData);
     saveRoleId(profile.role);
-    selectProfile(profile);
+    selectAccount(profile);
       router.push('/authentification/profile-selector');
     } else {
       const errorData = await res.json();
@@ -135,31 +136,33 @@ export default function PageAuth() {
         >
           <form
             onSubmit={handleLogin}
-            className="bg-slate-50 flex flex-col items-center justify-center p-12 h-full text-center"
+            className="bg-slate-50 flex flex-col items-center justify-center p-8 md:p-12 h-full text-center text-xs md:text-md"
           >
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Connexion</h2>
             <input
               type="email" name="email"
               placeholder="Email"
-              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full "
               value={formData.email} onChange={handleInputChange}
               required
             />
             <input
               type="password" name="password"
               placeholder="Mot de passe"
-              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full "
               value={formData.password} onChange={handleInputChange}
               required
             />
-            <Link href="#" className="text-gray-600 text-sm mt-2">
+            <Link href="#" className="text-gray-600 text-xs md:text-sm mt-2">
               Mot de passe oublié ?
             </Link>
+            <div className="w-full max-w-xs mr-24 md:mx-auto transform scale-50 md:scale-100 lg:scale-105">
             <ReCAPTCHA
               sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
               onChange={handleRecaptchaChange}
             />
-            <button type="submit" className="mt-4 rounded-2xl border border-blue-900 bg-blue-900 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
+            </div>
+            <button type="submit" className="mt-4 rounded-2xl border border-blue-900 bg-blue-900 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               Connexion
             </button>
           </form>
@@ -168,7 +171,7 @@ export default function PageAuth() {
         <div className="absolute top-0 w-1/2 h-full transition-all duration-600 ease-in-out transform z-2">
           <form
             onSubmit={handleSignIn}
-            className="bg-slate-50 flex flex-col items-center justify-center p-8 md:p-12 h-full text-center"
+            className="bg-slate-50 flex flex-col items-center justify-center p-8 md:p-12 h-full text-center text-xs md:text-md"
           >
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
               Créer un compte
@@ -176,29 +179,31 @@ export default function PageAuth() {
             <input
               type="text" name="username"
               placeholder="Username"
-              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full max-w-md"
               value={formSign.username} onChange={handleInputSign}
               required
             />
             <input
               type="email" name="email"
               placeholder="Email"
-              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full max-w-md"
               value={formSign.email} onChange={handleInputSign}
               required
             />
             <input
               type="password" name="password"
               placeholder="Mot de passe"
-              className="bg-gray-200 border-none p-3 my-2 w-full max-w-md"
+              className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full max-w-md"
               value={formSign.password} onChange={handleInputSign}
               required
             />
+            <div className="w-full max-w-xs mr-24 md:mx-auto transform scale-50 md:scale-100 lg:scale-105">
             <ReCAPTCHA
               sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
               onChange={handleRecaptchaChange}
             />
-            <button type="submit" className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
+            </div>
+            <button type="submit" className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
               S'inscrire
             </button>
           </form>
@@ -216,14 +221,14 @@ export default function PageAuth() {
                 isConnect ? "translate-x-0" : "translate-x-[-20%]"
               }`}
             >
-              <h2 className="ml-1 text-xl lg:text-2xl">
+              <h2 className="md:ml-1 text-lg lg:text-2xl">
                 Bon retour parmi nous {randomText} !
               </h2>
-              <p className="my-2 text-sm md:text-md">
+              <p className="my-2 text-xs lg:text-md">
                 Pour reprendre tes lectures ou visionnages connecte-toi vite
               </p>
               <button
-                className="bg-transparent border border-slate-50 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in focus:outline-none"
+                className="bg-transparent border border-slate-50 text-slate-50 font-bold md:py-3 px-2 md:px-10 uppercase transition-transform duration-80 ease-in focus:outline-none"
                 onClick={() => setIsConnect(false)}
               >
                 Se connecter
@@ -234,14 +239,14 @@ export default function PageAuth() {
                 isConnect ? "translate-x-[20%]" : "translate-x-0"
               }`}
             >
-              <h2 className="ml-1 text-xl lg:text-2xl">
+              <h2 className="md:ml-1 text-lg lg:text-2xl">
                 Bienvenue {randomText} !
               </h2>
-              <p className="my-2 text-sm md:text-md">
+              <p className="my-2 text-xs lg:text-md">
                 Enregistre toutes tes infos et rejoinds l'équipage vite
               </p>
               <button
-                className="bg-transparent border border-slate-50 text-slate-50 font-bold py-3 px-10 uppercase transition-transform duration-80 ease-in focus:outline-none"
+                className="bg-transparent border border-slate-50 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in focus:outline-none"
                 onClick={() => setIsConnect(true)}
               >
                 S'inscrire
