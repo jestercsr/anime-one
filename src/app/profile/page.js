@@ -26,6 +26,7 @@ export default function PageProfile() {
   const { saveAvatarData } = useAvatar();
   const [avatars, setAvatars] = useState({});
   const [loading, setLoading] = useState(true);
+  const [previousPage, setPreviousPage] = useState("/accueil");
   const router = useRouter();
 
   useEffect(() => {
@@ -61,6 +62,15 @@ export default function PageProfile() {
     saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
   };
 
+  useEffect(() => {
+    const referrer = document.referrer;
+    if (referrer && referrer !== window.location.href) {
+      setPreviousPage(referrer);
+    } else if (router.query.from) {
+      setPreviousPage(router.query.from);
+    }
+  }, [router]);
+
   if (loading) {
     return (
       <div>
@@ -78,11 +88,17 @@ export default function PageProfile() {
     router.push("/profile/edit-profiles");
   };
 
+  const handleGoBack = () => {
+    if (previousPage) {
+      router.push(previousPage);
+    } else {
+      router.back();
+    }
+  };
+
   return (
     <div className="bg-gradient-to-b from-emeralder-900 to-sky-500 text-slate-50">
-      <button>
-        <Link href={"/accueil"}>Retour à l'accueil</Link>
-      </button>
+      <button onClick={handleGoBack} className="text-left text-xl mr-5">Retour</button>
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="w-full max-w-md p-4">
           <div className="flex justify-center">

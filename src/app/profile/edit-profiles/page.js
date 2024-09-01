@@ -7,13 +7,14 @@ import ReactLoading from "react-loading";
 
 export default function PageEditProfil() {
   const { userProfile, selectProfile } = useProfile();
-  const [profiles, setProfiles] = useState([]);
   const { profileName, avatarUrl, saveAvatarData } = useAvatar();
-  const [avatars, setAvatars] = useState({});
+  const [profiles, setProfiles] = useState([]);
+  const [avatars, setAvatars] = useState([]);
   const [selectedAvatar, setSelectedAvatar] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
   const [showWindows, setShowWindows] = useState(false);
+  const [currentProfileName, setCurrentProfileName] = useState(profileName || "");
   const router = useRouter();
 
   useEffect(() => {
@@ -64,14 +65,18 @@ export default function PageEditProfil() {
     }
   };
 
-  const handleEditProfile = async (updatedData) => {
+  const handleEditProfile = async (e) => {
+    e.preventDefault();
     try {
       const response = await fetch(`/api/profiles/${userProfile}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(updatedData, selectProfile),
+        body: JSON.stringify({
+          name: currentProfileName,
+          avatarId: selectedAvatar,
+        }),
       });
 
       if (response.ok) {
@@ -101,8 +106,8 @@ export default function PageEditProfil() {
     setShowWindows(false);
   };
 
-  const selectedAvatarImage = avatarUrl
-  || avatars.find((avatar) => avatar.id === selectedAvatar)?.images;
+  const selectedAvatarImage =
+    avatarUrl || avatars.find((avatar) => avatar.id === selectedAvatar)?.images;
 
   if (loading) {
     return (
@@ -138,8 +143,12 @@ export default function PageEditProfil() {
                     />
                     <p>{profile.nom}</p>
                     <button
-                      onClick={() => setShowModal(true)}
-                      className="absolute bottom-0 right-0  p-1 rounded-full"
+                      onClick={() => {
+                        setSelectedAvatar(profile.avatarId);
+                        setCurrentProfileName(profile.name);
+                        setShowModal(true);
+                      }}
+                      className="absolute bottom-0 right-0 p-1 rounded-full"
                     >
                       <img
                         src="/assets/avatar/FaPen.png"
@@ -179,8 +188,8 @@ export default function PageEditProfil() {
                 <input
                   type="text"
                   placeholder="Nom du profil"
-                  value={profileName}
-                  onChange={(e) => setNom(e.target.value)}
+                  value={currentProfileName}
+                  onChange={(e) => setCurrentProfileName(e.target.value)}
                   required
                   className="p-2 bg-gray-700 rounded w-full"
                 />

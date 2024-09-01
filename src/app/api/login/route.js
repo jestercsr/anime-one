@@ -5,6 +5,8 @@ import { prisma } from "../../../../config/database";
 
 export async function POST(req) {
   const body = await req.json();
+  console.log('Request body:', body);
+
   const { email, password, recaptchaToken } = body;
 
   try {

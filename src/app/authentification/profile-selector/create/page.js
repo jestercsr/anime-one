@@ -56,6 +56,10 @@ export default function CreateProfile() {
     setShowModal(false);
   };
 
+  const handleClose = () => {
+    router.push("/authentification/profile-selector");
+  };
+
   const selectedAvatarImage = avatars.find(avatar => avatar.id === selectedAvatar)?.images || defaultAvatar;
 
   return (
