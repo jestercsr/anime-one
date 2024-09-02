@@ -14,10 +14,12 @@ import Link from "next/link";
 import { Twirl as Hamburger } from "hamburger-react";
 import ReactLoading from "react-loading";
 import { getListeAll } from "../../../../_actions/postAction";
+import { useAvatar } from "../../../../providers/AvatarContext";
 
 export default function Topbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { selectedProfile, logout } = useProfile();
+  const { avatarId, avatarUrl } = useAvatar()
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [data, setData] = useState([]);
@@ -97,11 +99,11 @@ export default function Topbar() {
       </div>
       <div className="flex items-center space-x-6">
         <section className="items-center gap-6 hidden lg:block">
-          {selectedProfile ? (
+          {avatarId ? (
             <div className="relative" onClick={toggleDropdown}>
               <img
-                src={selectedProfile.avatar}
-                alt={selectedProfile.nom}
+                src={avatarUrl}
+                alt={avatarId}
                 className="w-8 h-8 rounded-full cursor-pointer"
               />
               {isDropdownOpen && (
@@ -182,11 +184,11 @@ export default function Topbar() {
                 <FaTable className="mr-3" />
                 Tables
               </Link>
-              {selectedProfile ? (
+              {avatarId ? (
                 <div className="relative" onClick={toggleDropdown}>
                   <img
-                    src={selectedProfile.avatar}
-                    alt={selectedProfile.nom}
+                    src={avatarUrl}
+                    alt={avatarId}
                     className="w-8 h-8 rounded-full cursor-pointer"
                   />
                   {isDropdownOpen && (

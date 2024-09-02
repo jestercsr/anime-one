@@ -5,12 +5,12 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 const ProfileContext = createContext();
 
 export const ProfileProvider = ({ children }) => {
+  const [profiles, setProfiles] = useState([]);
   const [selectedProfile, setSelectedProfile] = useState(null);
   const [selectedAccount, setSelectedAccount] = useState(null);
   const [signupData, setSignupData] = useState({});
   const [loginData, setLoginData] = useState({});
-  const [roleProfile, setRole] = useState(null);
-  const [userProfile, setUserProfile] = useState(null)
+  const [userProfile, setUserProfile] = useState([])
   const router = useRouter();
 
   useEffect(() => {
@@ -18,7 +18,6 @@ export const ProfileProvider = ({ children }) => {
     const storedAccount = localStorage.getItem("selectedAccount");
     const storedSignupData = localStorage.getItem("signupData");
     const storedLoginData = localStorage.getItem("loginData");
-    const storedRoleId = localStorage.getItem("role");
     const storedUserId = localStorage.getItem("userId");
 
     if (storedProfile) {
@@ -37,18 +36,35 @@ export const ProfileProvider = ({ children }) => {
       setLoginData(JSON.parse(storedLoginData));
     }
 
-    if (storedRoleId) {
-      setRole(storedRoleId);
-    }
-
     if (storedUserId) {
       setUserProfile(storedUserId);
     }
   }, []);
 
-  const selectProfile = (profile) => {
+  const addProfile = (profile) => {
+    const updatedProfiles = [...profiles, profile];
+    setProfiles(updatedProfiles);
+    localStorage.setItem('profiles', JSON.stringify(updatedProfiles));
+  };
+
+  const updateProfile = (updatedProfile) => {
+    const updatedProfiles = profiles.map(profile =>
+      profile.id === updatedProfile.id ? updatedProfile : profile
+    );
+    setProfiles(updatedProfiles);
+    localStorage.setItem('profiles', JSON.stringify(updatedProfiles));
+  };
+
+  const deleteProfile = (profileId) => {
+    const updatedProfiles = profiles.filter(profile => profile.id !== profileId);
+    setProfiles(updatedProfiles);
+    localStorage.setItem('profiles', JSON.stringify(updatedProfiles));
+  };
+
+  const selectProfile = (profileId) => {
+    const profile = profiles.find(p => p.id === profileId);
     setSelectedProfile(profile);
-    localStorage.setItem("selectedProfile", JSON.stringify(profile));
+    localStorage.setItem('selectedProfile', JSON.stringify(profile));
   };
 
   const selectAccount = (account) => {
@@ -66,10 +82,6 @@ export const ProfileProvider = ({ children }) => {
     const updatedLoginData = { ...loginData, ...data };
     setLoginData(updatedLoginData);
     localStorage.setItem("loginData", JSON.stringify(updatedLoginData));
-  };
-  const saveRoleId = (role) => {
-    setRole(role);
-    localStorage.setItem("role", role);
   };
 
   const saveProfile = (profile) => {
@@ -115,15 +127,16 @@ export const ProfileProvider = ({ children }) => {
       selectedAccount,
       signupData,
       loginData,
-      roleProfile,
       userProfile,
+      addProfile,
+      updateProfile,
+      deleteProfile,
       selectProfile,
       selectAccount,
       saveProfile,
       saveSignupData,
       saveUserId,
       saveLoginData,
-      saveRoleId,
       clearSignupData,
       clearLoginData,
       logout,

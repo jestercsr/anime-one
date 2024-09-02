@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Twirl as Hamburger } from 'hamburger-react'
-import { ShoppingBag } from "lucide-react";
+import { RiShoppingBag4Line } from "react-icons/ri";
 
 export default function E_Navbar() {
   const menuL = [
@@ -51,7 +51,7 @@ export default function E_Navbar() {
       <nav className={`${isOpen? "flex justify-between": "flex justify-between lg:px-8 items-center lg:py-[4px] py-0"}`}>
         <div className={`${isOpen?"flex gap-4": "flex items-center gap-4"}`}>
           <Link href={"/stores"}>
-            <div className="block w-20">
+            <div className="block w-32">
               <img src="/assets/LogoAnimeONE/LogoNavbar.webp" className="block w-full" />
             </div>
           </Link>
@@ -88,7 +88,7 @@ export default function E_Navbar() {
 
         <div className={`${isOpen?"flex":"flex items-center"}`} >
         <div className="relative">
-            <ShoppingBag />
+            <RiShoppingBag4Line className="text-3xl" />
             <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">
               0
             </div>

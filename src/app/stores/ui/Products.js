@@ -1,4 +1,5 @@
-import { ShoppingCart } from "lucide-react";
+'use client'
+import { MdAddShoppingCart } from "react-icons/md";
 import React from "react";
 
 export default function Products() {
@@ -99,7 +100,7 @@ export default function Products() {
                     className="p-2 lg:p-4 lg:text-[20%] rounded-[100%] bg-slate-50 text-skyer-600 hover:bg-skyer-600 hover:text-slate-50 bottom-5"
                     title={item.add}
                   >
-                    <ShoppingCart />
+                    <MdAddShoppingCart className="text-2xl"/>
                   </button>
                 </div>
               </div>

@@ -41,7 +41,7 @@ export default function Slider() {
               <div className="bg-sky-500 py-6 h-[390px] md:mr-2 md:flex md:h-[450px] lg:h-[600px] grid grid-rows-2 md:grid-rows-0">
                 <img
                   src={item.image}
-                  className="w-[30%] h-[300px] md:w-[50%] md:h-[400px] lg:w-20 lg:h-[550px] lg:py-5"
+                  className="object-cover w-[30%] h-[300px] md:w-[50%] md:h-[400px] lg:w-20 lg:h-auto lg:py-5"
                 />
                 <div className="flex flex-col items-center mt-32 md:mt-5 md:justify-around ">
                   <h2 className="text-center relative text-sm md: lg:text-3xl font-semibold text-slate-50">

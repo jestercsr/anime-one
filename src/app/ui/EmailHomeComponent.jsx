@@ -6,18 +6,18 @@ export function EmailHomeComponent() {
   return (
     <div className="bg-white">
       <div className="relative">
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition animate-fade">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition animate-fade z-10">
           <img
             src="/assets/LogoAnimeONE/logoAnimeOne.webp"
             alt="logoAnimeOne"
             className="w-[100%]"
           />
         </div>
-        <div className="w-full">
+        <div className="w-full ">
           <img
             src="/assets/homeBackground.webp"
             alt="imgHome"
-            className="w-[100%] h-[300px] md:h-[500px] lg:h-[600px] xl:h-[800px]"
+            className="object-cover blur-sm w-[100%] h-[300px] md:h-[500px] lg:h-[600px] xl:h-[900px]"
           />
         </div>
       </div>

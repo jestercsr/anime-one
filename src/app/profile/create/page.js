@@ -67,7 +67,7 @@ export default function PageCreateProfil() {
     defaultAvatar;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-slate-50">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-emeralder-900 to-sky-500 text-slate-50">
       <h1 className="text-4xl mb-8">Créer un nouveau profil</h1>
       <form
         onSubmit={handleSubmit}

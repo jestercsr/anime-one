@@ -1,4 +1,7 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaXTwitter, FaFigma } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
+import { RiInstagramFill } from "react-icons/ri";
 
 export default function Newslater() {
   return (
@@ -6,7 +9,7 @@ export default function Newslater() {
       style={{
         backgroundImage: "url(/assets/TopScreen/Boutiques/Newsletter.webp)",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "20% 30%",
+        backgroundPosition: "20% 70%",
         backgroundSize: "cover",
       }}
     >
@@ -22,9 +25,17 @@ export default function Newslater() {
         </button>
       </div>
       <div className="text-center">
-        <h2 className="text-[20px] text-center">
+        <h2 className="text-[20px] text-center mb-5">
           On est aussi sur les réseaux
         </h2>
+        <div className="text-3xl flex text-center justify-around m-auto">
+          <FaGithub className="hover:text-sky-800"/>
+          <FaLinkedin className="hover:text-sky-800"/>
+          <FaXTwitter className="hover:text-sky-800"/>
+          <FaFigma className="hover:text-sky-800"/>
+          <SiGmail className="hover:text-sky-800"/>
+          <RiInstagramFill className="hover:text-sky-800"/>
+        </div>
       </div>
     </div>
   );

@@ -21,12 +21,14 @@ export async function GET(req, { params }) {
 }
 
 export async function PUT(req, { params }) {
-  const { profileId } = params;
+  const { userId } = params;
   const body = await req.json();
-  const { nom, avatarId, selectProfile } = body;
-  const numProfile = parseInt(profileId, 10)
+  const { nom, avatarId, profileId } = body;
+  const numProfile = parseInt(userId, 10)
+  const idProfile = parseInt(profileId, 10)
+  const idAvatar = parseInt(avatarId, 10)
 
-  if (!profileId) {
+  if (!userId) {
     return NextResponse.json({ error: "Profile ID is required" }, { status: 400 });
   }
 
@@ -35,7 +37,7 @@ export async function PUT(req, { params }) {
       UPDATE "Profile"
       SET "nom" = $1, "avatarId" = $2
       WHERE "userId" = $3 AND "id" = $4;
-    `, nom, avatarId, numProfile, selectProfile);
+    `, nom, idAvatar, numProfile, idProfile);
 
     return NextResponse.json({ message: "Profile updated successfully" });
   } catch (error) {

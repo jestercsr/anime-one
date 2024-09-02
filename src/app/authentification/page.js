@@ -4,11 +4,13 @@ import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { useProfile } from "../../../providers/ProfileContext";
+import { useAvatar } from "../../../providers/AvatarContext";
 
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
-  const { saveSignupData, saveLoginData, saveRoleId, saveUserId, selectAccount } = useProfile();
+  const { saveSignupData, saveLoginData, saveUserId, selectAccount } = useProfile();
+  const { saveRoleId } = useAvatar()
   const router = useRouter();
 
   useEffect(() => {
@@ -75,6 +77,7 @@ export default function PageAuth() {
     const profile = await res.json();
     saveLoginData(formData);
     saveRoleId(profile.role);
+    saveUserId(profile.id)
     selectAccount(profile);
       router.push('/authentification/profile-selector');
     } else {

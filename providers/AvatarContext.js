@@ -5,17 +5,23 @@ import React, { createContext, useContext, useState, useEffect } from "react";
 const AvatarContext = createContext();
 
 export const AvatarProvider = ({ children }) => {
-  const [avatarId, setAvatarId] = useState(null);
-  const [avatarUrl, setAvatarUrl] = useState(null);
-  const [profileName, setProfileName] = useState(null);
+  const [avatarId, setAvatarId] = useState([]);
+  const [avatarUrl, setAvatarUrl] = useState([]);
+  const [profileName, setProfileName] = useState([]);
+  const [roleProfile, setRole] = useState([]);
 
   useEffect(() => {
     const storedAvatarId = localStorage.getItem("avatarId");
     const storedAvatarUrl = localStorage.getItem("avatarUrl");
+    const storedRoleId = localStorage.getItem("role");
     const storedProfileName = localStorage.getItem("profileName");
 
     if (storedAvatarId) {
       setAvatarId(storedAvatarId);
+    }
+
+    if (storedRoleId) {
+      setRole(storedRoleId);
     }
 
     if (storedAvatarUrl) {
@@ -33,6 +39,11 @@ export const AvatarProvider = ({ children }) => {
     localStorage.setItem("profileName", name);
   };
 
+  const saveRoleId = (role) => {
+    setRole(role);
+    localStorage.setItem("role", role);
+  };
+
   const clearAvatarData = () => {
     setAvatarId(null);
     setAvatarUrl(null);
@@ -43,7 +54,7 @@ export const AvatarProvider = ({ children }) => {
   };
 
   return (
-    <AvatarContext.Provider value={{ avatarId, avatarUrl, profileName, saveAvatarData, clearAvatarData }}>
+    <AvatarContext.Provider value={{ avatarId, avatarUrl, profileName, roleProfile, saveRoleId, saveAvatarData, clearAvatarData }}>
       {children}
     </AvatarContext.Provider>
   );

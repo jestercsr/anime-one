@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
-import { ArrowLeftCircle } from "lucide-react";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 import ReactLoading from 'react-loading';
 
 const formatTitle = (string) => {
@@ -114,7 +114,7 @@ export default function PageAnimeID({ props, animation }) {
         </section>
         <div>
           <Link href={`/manga/${props}`}>
-            <ArrowLeftCircle
+            <FaArrowAltCircleLeft
               className={anime_titre}
               width={"100px"}
               height={"50px"}
@@ -185,7 +185,7 @@ export default function PageAnimeID({ props, animation }) {
 
         <div>
           <Link href={`/manga/${props}`}>
-            <ArrowLeftCircle
+            <FaArrowAltCircleLeft
               className={anime_titre}
               width={"100px"}
               height={"50px"}
@@ -254,7 +254,7 @@ export default function PageAnimeID({ props, animation }) {
 
       <div>
         <Link href={`/manga/${props}`}>
-          <ArrowLeftCircle
+          <FaArrowAltCircleLeft
             className={anime_titre}
             width={"100px"}
             height={"50px"}

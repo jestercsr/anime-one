@@ -58,15 +58,18 @@ export default function PageProfile() {
   }, [userProfile]);
 
   const handleSelectProfile = (profile) => {
+    return () => {
     const avatarUrl = avatars[profile.avatarId]?.images;
     saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
+    selectProfile(profile.id);
+    }
   };
 
   useEffect(() => {
     const referrer = document.referrer;
     if (referrer && referrer !== window.location.href) {
       setPreviousPage(referrer);
-    } else if (router.query.from) {
+    } else if (router.query && router.query.from) {
       setPreviousPage(router.query.from);
     }
   }, [router]);
@@ -107,15 +110,15 @@ export default function PageProfile() {
                 const avatar = avatars[profile.avatarId];
                 return (
                   <div key={profile.id} className="text-center">
-                    <div className="relative w-24 h-24">
+                    <div className="relative w-24 h-24 ml-3">
                       <img
                         src={avatar?.images}
                         alt={profile.nom}
                         className="rounded-full"
-                        onClick={handleSelectProfile(profile)}
+                        onClick={() => handleSelectProfile(profile)}
                       />
                     </div>
-                    <p className="mt-2">{profile.nom}</p>
+                    <p className="mt-2 text-center">{profile.nom}</p>
                   </div>
                 );
               })

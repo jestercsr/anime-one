@@ -63,7 +63,7 @@ export default function CreateProfile() {
   const selectedAvatarImage = avatars.find(avatar => avatar.id === selectedAvatar)?.images || defaultAvatar;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-slate-50">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-emeralder-900 to-sky-500 text-slate-50">
       <h1 className="text-4xl mb-8">Créer un nouveau profil</h1>
       <form onSubmit={handleSubmit} className="grid grid-cols-2 space-y-4 max-w-md w-full">
         <div className="flex flex-col items-center">

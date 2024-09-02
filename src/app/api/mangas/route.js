@@ -7,7 +7,6 @@ export async function POST(request) {
   await connectDB();
 
   const data = await request.json();
-  console.log("Données reçu:", data);
 
   const nouveauManga = new MangaModel(data);
 

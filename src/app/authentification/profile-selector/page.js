@@ -43,10 +43,12 @@ export default function PageChoixProfil() {
   }, [userProfile]);
 
   const handleSelectProfile = (profile) => {
-    const avatarUrl = avatars[profile.avatarId]?.images;
-    console.log(profile);
-    saveProfile(profile.id);
-    saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
+    return () => {
+      const avatarUrl = avatars[profile.avatarId]?.images;
+      console.log(profile);
+      saveProfile(profile.id);
+      saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
+    };
   };
 
   const handleAddProfile = () => {
@@ -67,7 +69,7 @@ export default function PageChoixProfil() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-slate-50">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-emeralder-900 to-sky-500 text-slate-50">
       <h1 className="text-4xl mb-8">
         Bon retour parmis nous {selectedAccount.username}
       </h1>

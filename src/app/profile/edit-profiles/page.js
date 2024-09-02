@@ -76,15 +76,17 @@ export default function PageEditProfil() {
         body: JSON.stringify({
           name: currentProfileName,
           avatarId: selectedAvatar,
+          profileId: selectProfile,
         }),
       });
 
       if (response.ok) {
         const data = await response.json();
         setProfiles(data);
-        const avatarUrl = avatars[data.avatarId]?.images;
+        const avatarUrl = avatars.find((avatar) => avatar.id === data.avatarId)?.images;
         saveAvatarData(data.avatarId, avatarUrl, data.nom);
         alert("Profil modifié avec succès");
+        setShowModal(false);
       } else {
         console.error("Erreur lors de la modification du profil");
       }
@@ -106,8 +108,7 @@ export default function PageEditProfil() {
     setShowWindows(false);
   };
 
-  const selectedAvatarImage =
-    avatarUrl || avatars.find((avatar) => avatar.id === selectedAvatar)?.images;
+  const selectedAvatarImage = avatars.find((avatar) => avatar.id === selectedAvatar)?.images || avatarUrl;
 
   if (loading) {
     return (
@@ -187,7 +188,7 @@ export default function PageEditProfil() {
               <div className="flex flex-col items-center">
                 <input
                   type="text"
-                  placeholder="Nom du profil"
+                  placeholder={profileName}
                   value={currentProfileName}
                   onChange={(e) => setCurrentProfileName(e.target.value)}
                   required
