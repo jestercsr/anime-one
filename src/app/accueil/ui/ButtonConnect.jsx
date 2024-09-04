@@ -31,15 +31,15 @@ export function ButtonConnect() {
     },
     {
       id: 5,
-      titre: "Feeds",
-      url: "/feeds",
+      titre: "Socials",
+      url: "/socials",
       picture: "/assets/jump_5.webp",
     },
   ];
 
   return (
     <div>
-      <div className="flex flex-row justify-center py-3 px-2.5 list-none">
+      <div className="grid grid-cols-5 justify-center py-3 px-2.5 list-none">
         {boutton.map((cliquer) => {
           return (
             <ul key={cliquer.id}>

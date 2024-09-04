@@ -3,6 +3,7 @@
 import MangaModel from "../models/mangaModel";
 import connectDB from "../config/database";
 import ListeModel from "../models/listeModel";
+import MovieModel from "../models/moviesModel";
 
 export async function getManga(_actions) {
   try {
@@ -149,6 +150,16 @@ export async function getListeScans() {
       )
     );
     return data;
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
+export async function getFilmsAll() {
+  try {
+    await connectDB()
+    const data = JSON.parse(JSON.stringify(await MovieModel.find().sort({name: "asc"})))
+    return data
   } catch (error) {
     return { message: error.message };
   }

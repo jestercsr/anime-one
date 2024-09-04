@@ -11,9 +11,11 @@ if (mongoose.models.moviesAll) {
       image: String,
       name: { type: String, unique: true },
       url: String,
+      auteur: [String],
       genre: [String],
       description: [String],
-      auteur: [String],
+      realisateur: [String],
+      production: [String],
     },
     { timestamps: true }
   );

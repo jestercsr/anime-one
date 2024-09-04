@@ -45,7 +45,6 @@ export default function PageChoixProfil() {
   const handleSelectProfile = (profile) => {
     return () => {
       const avatarUrl = avatars[profile.avatarId]?.images;
-      console.log(profile);
       saveProfile(profile.id);
       saveAvatarData(profile.avatarId, avatarUrl, profile.nom);
     };

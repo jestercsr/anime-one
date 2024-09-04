@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useProfile } from "../../../../../providers/ProfileContext";
+import { useAvatar } from "../../../../../providers/AvatarContext";
 
 export default function PageInscritComplet() {
   const [formData, setFormData] = useState({
@@ -15,8 +16,10 @@ export default function PageInscritComplet() {
     numero_carte: "",
     expiration: "",
     cvc: "",
+    offreUtilisateur: "",
   });
-  const { signupData, userProfile, saveSignupData } = useProfile();
+  const { userProfile, saveSignupData } = useProfile();
+  const { offreUser } = useAvatar()
   const router = useRouter();
 
   const handleInputChange = (e) => {
@@ -31,7 +34,7 @@ export default function PageInscritComplet() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ ...formData, id: userProfile }),
+      body: JSON.stringify({ ...formData, id: userProfile, offreUtilisateur: offreUser }),
       
     });
 
@@ -51,6 +54,7 @@ export default function PageInscritComplet() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-b from-sky-600 to-cyan-900">
       <div className="bg-gray-200 p-8 rounded-lg shadow-lg max-w-4xl w-full">
+        <p className="text-red-600 text-2xl text-center">! Veuillez ne pas indiquez vos réelles informations personnelles, se site est un projet scolaire !</p>
         <div>
           <form onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -9,11 +9,12 @@ import { useAvatar } from "../../../providers/AvatarContext";
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
-  const { saveSignupData, saveLoginData, saveUserId, selectAccount } = useProfile();
-  const { saveRoleId } = useAvatar()
+  const { saveSignupData, saveLoginData, saveUserId, selectAccount } =
+    useProfile();
+  const { saveRoleId, saveActiveCompte } = useAvatar();
   const router = useRouter();
 
-  useEffect(() => {
+  const generateRandomText = () => {
     const texte = [
       "Shinobi",
       "le futur roi des Pirates",
@@ -32,14 +33,21 @@ export default function PageAuth() {
       "Hero",
       "celui qui gagne en un Coup",
       "à mon prof qui sert la Mafia",
-      "j'ai pas de Chance",
+      "la fille qui à pas de Chance",
     ];
     const randomIndex = Math.floor(Math.random() * texte.length);
-    const selectedText = texte[randomIndex];
-    setRandomText(selectedText);
+    return texte[randomIndex];
+  };
+
+  useEffect(() => {
+    setRandomText(generateRandomText());
   }, []);
 
-  const [formSign, setFormSign] = useState({ username: '', email: '', password: '' });
+  const [formSign, setFormSign] = useState({
+    username: "",
+    email: "",
+    password: "",
+  });
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -61,28 +69,33 @@ export default function PageAuth() {
     e.preventDefault();
 
     if (!recaptchaToken) {
-      alert('Veuillez vérifier le captcha.');
+      alert("Veuillez vérifier le captcha.");
       return;
     }
 
-    const res = await fetch('/api/login', {
-      method: 'POST',
+    const res = await fetch("/api/login", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({ ...formData, recaptchaToken }),
     });
 
     if (res.ok) {
-    const profile = await res.json();
-    saveLoginData(formData);
-    saveRoleId(profile.role);
-    saveUserId(profile.id)
-    selectAccount(profile);
-      router.push('/authentification/profile-selector');
+      const profile = await res.json();
+      saveLoginData(formData);
+      saveRoleId(profile.role);
+      saveActiveCompte(profile.active);
+      saveUserId(profile.id);
+      selectAccount(profile);
+      if (profile.active === true) {
+        router.push("/authentification/profile-selector");
+      } else {
+        alert("Votre compte n'existe plus créé un nouveau");
+      }
     } else {
       const errorData = await res.json();
-      console.error('Erreur pendant le login:', errorData);
+      console.error("Erreur pendant le login:", errorData);
       alert("Nom d'utilisateur ou mot de passe incorrect.");
       return;
     }
@@ -91,35 +104,44 @@ export default function PageAuth() {
   const handleSignIn = async (e) => {
     e.preventDefault();
     if (!recaptchaToken) {
-      alert('Veuillez vérifier le captcha.');
+      alert("Veuillez vérifier le captcha.");
       return;
     }
 
-    const res = await fetch('/api/signup', {
-      method: 'POST',
+    const res = await fetch("/api/signup", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({ ...formSign, recaptchaToken }),
     });
 
     if (res.ok) {
-    saveSignupData(formSign);    
-    
-    }else {
+      saveSignupData(formSign);
+    } else {
       alert("Inscription impossible");
     }
-    const response = await fetch(`/api/signup?username=${formSign.username}`)
-    if(response.ok){
+    const response = await fetch(`/api/signup?username=${formSign.username}`);
+    if (response.ok) {
       const userAll = await response.json();
-      saveUserId(userAll[0].id)
+      saveUserId(userAll[0].id);
       router.push("/authentification/offres");
-    }else {
+    } else {
       const errorData = await res.json();
       console.error(`Erreur pendant l'inscription:`, errorData);
       alert("Nom d'utilisateur ou mot de passe incorrect.");
       return;
     }
+  };
+
+  const handleClickConnect = () => {
+    setRandomText(generateRandomText());
+    setIsConnect(false);
+  };
+
+  const handleClickSignUp = () => {
+    setRandomText(generateRandomText());
+    setIsConnect(true);
   };
 
   return (
@@ -143,29 +165,36 @@ export default function PageAuth() {
           >
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Connexion</h2>
             <input
-              type="email" name="email"
+              type="email"
+              name="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full "
-              value={formData.email} onChange={handleInputChange}
+              value={formData.email}
+              onChange={handleInputChange}
               required
             />
             <input
-              type="password" name="password"
+              type="password"
+              name="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full "
-              value={formData.password} onChange={handleInputChange}
+              value={formData.password}
+              onChange={handleInputChange}
               required
             />
             <Link href="#" className="text-gray-600 text-xs md:text-sm mt-2">
               Mot de passe oublié ?
             </Link>
             <div className="w-full max-w-xs mr-24 md:mx-auto transform scale-50 md:scale-100 lg:scale-105">
-            <ReCAPTCHA
-              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-              onChange={handleRecaptchaChange}
-            />
+              <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                onChange={handleRecaptchaChange}
+              />
             </div>
-            <button type="submit" className="mt-4 rounded-2xl border border-blue-900 bg-blue-900 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
+            <button
+              type="submit"
+              className="mt-4 rounded-2xl border border-blue-900 bg-blue-900 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none"
+            >
               Connexion
             </button>
           </form>
@@ -180,33 +209,42 @@ export default function PageAuth() {
               Créer un compte
             </h2>
             <input
-              type="text" name="username"
+              type="text"
+              name="username"
               placeholder="Username"
               className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full max-w-md"
-              value={formSign.username} onChange={handleInputSign}
+              value={formSign.username}
+              onChange={handleInputSign}
               required
             />
             <input
-              type="email" name="email"
+              type="email"
+              name="email"
               placeholder="Email"
               className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full max-w-md"
-              value={formSign.email} onChange={handleInputSign}
+              value={formSign.email}
+              onChange={handleInputSign}
               required
             />
             <input
-              type="password" name="password"
+              type="password"
+              name="password"
               placeholder="Mot de passe"
               className="bg-gray-200 border-none p-1 md:p-3 my-2 w-full max-w-md"
-              value={formSign.password} onChange={handleInputSign}
+              value={formSign.password}
+              onChange={handleInputSign}
               required
             />
             <div className="w-full max-w-xs mr-24 md:mx-auto transform scale-50 md:scale-100 lg:scale-105">
-            <ReCAPTCHA
-              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-              onChange={handleRecaptchaChange}
-            />
+              <ReCAPTCHA
+                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                onChange={handleRecaptchaChange}
+              />
             </div>
-            <button type="submit" className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none">
+            <button
+              type="submit"
+              className="mt-4 rounded-2xl border border-rose-800 bg-rose-800 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in hover:scale-95 focus:outline-none"
+            >
               S'inscrire
             </button>
           </form>
@@ -232,7 +270,7 @@ export default function PageAuth() {
               </p>
               <button
                 className="bg-transparent border border-slate-50 text-slate-50 font-bold md:py-3 px-2 md:px-10 uppercase transition-transform duration-80 ease-in focus:outline-none"
-                onClick={() => setIsConnect(false)}
+                onClick={handleClickConnect}
               >
                 Se connecter
               </button>
@@ -250,7 +288,7 @@ export default function PageAuth() {
               </p>
               <button
                 className="bg-transparent border border-slate-50 text-slate-50 font-bold py-3 px-2 lg:px-10 uppercase transition-transform duration-80 ease-in focus:outline-none"
-                onClick={() => setIsConnect(true)}
+                onClick={handleClickSignUp}
               >
                 S'inscrire
               </button>

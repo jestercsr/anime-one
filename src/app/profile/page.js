@@ -21,7 +21,7 @@ export default function PageProfile() {
       url: "/mentions-legales",
     },
   ];
-  const { selectProfile, userProfile, logout } = useProfile();
+  const { selectProfile, userProfile, logout, selectedAccount } = useProfile();
   const [profiles, setProfiles] = useState([]);
   const { saveAvatarData } = useAvatar();
   const [avatars, setAvatars] = useState({});
@@ -65,6 +65,37 @@ export default function PageProfile() {
     }
   };
 
+  const handleDeleteUser = async () => {
+    const confirmed = window.confirm(
+      "Êtes-vous sûr de vouloir supprimer définitivement votre compte ? Cette action est irréversible."
+    );
+  
+    if (!confirmed) {
+      return;
+    }
+
+    try {
+      const response = await fetch(`/api/login`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          userId: userProfile,
+        }),
+      });
+
+      if (response.ok) {
+        alert(`L'utilisateur ${selectedAccount.username} à été supprimer avec succès`);
+        setShowModal(false);
+      } else {
+        console.error("Erreur lors de la suppression de l'utilisateur");
+      }
+    } catch (error) {
+      console.error("Erreur lors de la suppression de l'utilisateur:", error);
+    }
+  };
+
   useEffect(() => {
     const referrer = document.referrer;
     if (referrer && referrer !== window.location.href) {
@@ -92,16 +123,12 @@ export default function PageProfile() {
   };
 
   const handleGoBack = () => {
-    if (previousPage) {
-      router.push(previousPage);
-    } else {
-      router.back();
-    }
+    router.back();
   };
 
   return (
     <div className="bg-gradient-to-b from-emeralder-900 to-sky-500 text-slate-50">
-      <button onClick={handleGoBack} className="text-left text-xl mr-5">Retour</button>
+      <button onClick={handleGoBack} className="text-left text-xl ml-5">Retour</button>
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="w-full max-w-md p-4">
           <div className="flex justify-center">
@@ -140,6 +167,9 @@ export default function PageProfile() {
                 </li>
               );
             })}
+            <li className="p-3 border-b border-gray-700">
+              <button onClick={handleDeleteUser}>Supprimer le compte</button>
+            </li>
             <li className="p-3 border-b border-gray-700 hover:text-red-500">
               <button onClick={logout}>Déconnexion</button>
             </li>

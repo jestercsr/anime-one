@@ -35,7 +35,7 @@ export default function Navbar(props) {
     "bg-blacker-8", "bg-neutraler-900", "bg-neutraler-800", "bg-neutraler-100",
     "bg-slate-950", "bg-slate-900", "bg-slate-800", "bg-gray-950",
     "bg-gray-900", "bg-gray-800", "bg-zinc-950", "bg-zinc-900","bg-indigo-800", "bg-indigo-900",
-    "bg-zinc-800", "bg-neutral-950", "bg-neutral-900", "bg-neutral-800","bg-red-900"
+    "bg-zinc-800", "bg-neutral-950", "bg-neutral-900", "bg-neutral-800","bg-red-900", "bg-stone-950", "bg-stone-900"
   ];
 
   const lightColors = [
@@ -100,8 +100,8 @@ export default function Navbar(props) {
       icon: <RiShoppingBasketLine className="text-3xl"/>,
     },
     {
-      label: "Feeds",
-      lien: "/feeds",
+      label: "Socials",
+      lien: "/socials",
       icon: <IoShareSocial className="text-3xl"/>,
     },
   ];

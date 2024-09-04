@@ -44,7 +44,7 @@ export function CarrouselForm() {
     },
     {
       image: "/assets/TopScreen/suicide_isekai.webp",
-      name: "Suicide Squad ISEKAI - Nouveaux Episodes Disponibles",
+      name: "Suicide Squad ISEKAI - Tous les Episodes Disponibles",
       url: "/manga/suicide-squad-isekai",
     },
     {

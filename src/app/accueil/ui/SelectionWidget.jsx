@@ -15,8 +15,8 @@ export default function SelectionWidget() {
       images: "/assets/DB_Top.webp",
     },
     {
-      nom: "Visiter Anime ONE Feeds",
-      lien: "/feeds",
+      nom: "Visiter Anime ONE Socials",
+      lien: "/socials",
       images: "/assets/20thCenturyBoys_Top.webp",
     },
   ];

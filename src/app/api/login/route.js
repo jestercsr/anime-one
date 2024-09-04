@@ -33,3 +33,25 @@ export async function POST(req) {
     return NextResponse.json({ error: 'Erreur de connexion' }, { status: 500 });
   }
 }
+
+export async function PUT(req, { params }) {
+  const { userId } = params
+  const numUser = parseInt(userId, 10)
+  const active = 'false'
+
+  if (!userId) {
+    return NextResponse.json({ error: "Profile ID is required" }, { status: 400 });
+  }
+
+  try {
+    await prisma.$queryRawUnsafe(`
+      UPDATE "User"
+      SET "active" = $1
+      WHERE "userId" = $2;
+    `, active, numUser);
+
+    return NextResponse.json({ message: "L'utilisateur à été supprimer avec succès" });
+  } catch (error) {
+    return NextResponse.json({ error: "Erreur lors de la suppression du compte" }, { status: 500 });
+  }
+}

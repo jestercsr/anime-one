@@ -1,11 +1,11 @@
 "use client";
 import React,{ useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useProfile } from "../../../../providers/ProfileContext";
+import { useAvatar } from "../../../../providers/AvatarContext";
 
 export default function OffreSelection() {
   const [offres, setOffres] = useState([]);
-  const { saveSignupData } = useProfile();
+  const { saveOffreId } = useAvatar();
   const router = useRouter();
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function OffreSelection() {
   }, []);
 
   const handleSubmit = (offreId) => {
-    saveSignupData({ offreId });
+    saveOffreId({ offreId });
     router.push("/authentification/offres/inscription");
   };
 

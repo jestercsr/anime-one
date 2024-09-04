@@ -9,12 +9,16 @@ export const AvatarProvider = ({ children }) => {
   const [avatarUrl, setAvatarUrl] = useState([]);
   const [profileName, setProfileName] = useState([]);
   const [roleProfile, setRole] = useState([]);
+  const [offreUser, setOffreUser] = useState([])
+  const [activated, setActivated] = useState([])
 
   useEffect(() => {
     const storedAvatarId = localStorage.getItem("avatarId");
     const storedAvatarUrl = localStorage.getItem("avatarUrl");
     const storedRoleId = localStorage.getItem("role");
     const storedProfileName = localStorage.getItem("profileName");
+    const storedOffreUser = localStorage.getItem("offreUser");
+    const storedActive = localStorage.getItem("active");
 
     if (storedAvatarId) {
       setAvatarId(storedAvatarId);
@@ -22,6 +26,14 @@ export const AvatarProvider = ({ children }) => {
 
     if (storedRoleId) {
       setRole(storedRoleId);
+    }
+
+    if (storedOffreUser) {
+      setOffreUser(storedOffreUser);
+    }
+
+    if (storedActive) {
+      setActivated(storedActive);
     }
 
     if (storedAvatarUrl) {
@@ -44,6 +56,16 @@ export const AvatarProvider = ({ children }) => {
     localStorage.setItem("role", role);
   };
 
+  const saveOffreId = (offre) => {
+    setOffreUser(offre);
+    localStorage.setItem("offreUser", offre);
+  };
+
+  const saveActiveCompte = (activer) => {
+    setActivated(activer);
+    localStorage.setItem("active", activer);
+  };
+
   const clearAvatarData = () => {
     setAvatarId(null);
     setAvatarUrl(null);
@@ -54,7 +76,7 @@ export const AvatarProvider = ({ children }) => {
   };
 
   return (
-    <AvatarContext.Provider value={{ avatarId, avatarUrl, profileName, roleProfile, saveRoleId, saveAvatarData, clearAvatarData }}>
+    <AvatarContext.Provider value={{ avatarId, avatarUrl, profileName, roleProfile, offreUser, activated, saveActiveCompte, saveOffreId, saveRoleId, saveAvatarData, clearAvatarData }}>
       {children}
     </AvatarContext.Provider>
   );

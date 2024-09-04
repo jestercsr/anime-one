@@ -116,6 +116,7 @@ export const ProfileProvider = ({ children }) => {
     localStorage.removeItem("avatarId");
     localStorage.removeItem("avatarUrl");
     localStorage.removeItem("profileName");
+    localStorage.removeItem("offreUser")
     if (router && router.push) {
       router.push('/');
     }
