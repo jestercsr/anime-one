@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export default function Slider() {
   const top = [
@@ -25,23 +25,35 @@ export default function Slider() {
       href: "/stores/collections/dragon-ball",
     },
   ];
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 1024 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 1024, min: 800 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 800, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <div>
-      <Carousel
-        autoPlay
-        infiniteLoop
-        interval={6000}
-        showThumbs={false}
-        showStatus={false}
-        showIndicators={false}
+      <Carousel swipeable={true} responsive={responsive} removeArrowOnDeviceType={["superLargeDesktop","desktop","tablet", "mobile"]} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={6000}
       >
         {top.map((item, i) => {
           return (
-            <div key={i} className="h-[400px] mb-5 md:mb-auto md:h-auto py-4">
-              <div className="bg-sky-500 py-6 h-[390px] md:mr-2 md:flex md:h-[450px] lg:h-[600px] grid grid-rows-2 md:grid-rows-0">
+            <div key={i} className="h-[400px] mb-5 md:mb-auto md:h-auto pb-4">
+              <div className="bg-sky-700 py-6 h-[390px] md:flex md:h-[450px] lg:h-[600px] grid grid-rows-2 md:grid-rows-0 md:grid-cols-2">
                 <img
                   src={item.image}
-                  className="object-cover w-[30%] h-[300px] md:w-[50%] md:h-[400px] lg:w-20 lg:h-auto lg:py-5"
+                  className="object-cover w-[100%] h-[300px] md:w-[70%] md:h-[400px] lg:w-[80%] lg:h-auto"
                 />
                 <div className="flex flex-col items-center mt-32 md:mt-5 md:justify-around ">
                   <h2 className="text-center relative text-sm md: lg:text-3xl font-semibold text-slate-50">

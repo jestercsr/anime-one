@@ -14,6 +14,8 @@ if (mongoose.models.seriesAll) {
       genre: [String],
       description: [String],
       auteur: [String],
+      production: [String],
+      studio: [String],
     },
     { timestamps: true }
   );

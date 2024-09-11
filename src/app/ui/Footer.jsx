@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import { TfiWorld } from "react-icons/tfi";
 
 export default function Footer() {
   return (
@@ -28,7 +29,7 @@ export default function Footer() {
         </Link>
       </div>
       <div className="flex flex-row justify-center mb-5 mr-2 ml-2 text-xs md:text-md lg:text-lg">
-        <img src="/assets/world.svg" alt="iconeWorld" className="w-1/10" />
+        <TfiWorld className="w-1/10" />
         <select className="bg-blacker-950">
           <option value="Français" defaultValue="Français">Français</option>
           <option value="Anglais">English</option>

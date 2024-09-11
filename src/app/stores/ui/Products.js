@@ -77,7 +77,7 @@ export default function Products() {
   ];
   return (
     <div className="text-center p-5">
-      <h2 className="text-[30px] lg:text-[50px] my-10 text-slate-50 font-extrabold">
+      <h2 className="text-[30px] lg:text-[50px] my-10 text-sky-700 font-extrabold">
         Nouveaux Arrivages
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 laptop:grid-cols-5">
@@ -85,7 +85,7 @@ export default function Products() {
           return (
             <div
               key={i}
-              className="w-[140px] md:w-[160px] justify-items-center m-auto bg-white px-[5px] py-[6px] border-2 cursor-pointer shadow-xl hover:shadow-2xl rounded-2xl mb-5 lg:w-[23%] lg:min-w-[250px] lg:px-[10px] lg:py-[12px]"
+              className="w-[140px] md:w-[160px] justify-items-center m-auto bg-slate-50 border-sky-700 px-[5px] py-[6px] border-2 cursor-pointer shadow-xl hover:shadow-2xl rounded-2xl mb-5 lg:w-[23%] lg:min-w-[250px] lg:px-[10px] lg:py-[12px]"
             >
               <img src={item.image} className="w-full rounded-2xl" />
               <div className="text-start">

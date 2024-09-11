@@ -30,7 +30,7 @@ export default function PageAdmin() {
   };
 
   return (
-    <div className="text-center bg-slate-50">
+    <div className="text-center bg-slate-50 min-h-screen">
       <h1 className="text-4xl text-indigo-600 mb-10">myAdmin</h1>
       <h2 className="text-[26px] text-indigo-600">Gestion des Contenus Manga</h2>
       <div className="grid lg:grid-cols-2">

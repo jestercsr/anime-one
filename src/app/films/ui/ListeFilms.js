@@ -4,8 +4,8 @@ import Link from "next/link";
 import Footer from "@/app/ui/Footer";
 import { getListeFilms } from "../../../../_actions/postAction";
 import Navbar from "@/app/accueil/ui/NavBar";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import ReactLoading from 'react-loading';
 
 function ListeFilms() {
@@ -79,28 +79,37 @@ function ListeFilms() {
       url: "/manga/sword-art-online/films",
     },
   ];
-
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 1024 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 1024, min: 800 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 800, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <div className="bg-gradient-to-b from-skyer-500 to-skyer-950">
       <Navbar className="bg-teal-900 text-white" liste="bg-teal-900 text-white absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-teal-900 border-t-0" />
 
       <div>
-        <Carousel
-          autoPlay
-          infiniteLoop
-          interval={5000}
-          showThumbs={false}
-          showStatus={false}
-          centerMode
-          centerSlidePercentage={70}
-        >
+        <Carousel swipeable={true} responsive={responsive} removeArrowOnDeviceType={["superLargeDesktop", "desktop", "tablet", "mobile"]} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={6000}>
           {dataImage.map((imgScreen, index) => {
             return (
               <div key={index}>
                 <Link href={imgScreen.url}>
-                <img src={imgScreen.image} alt={imgScreen.name} />
+                <img src={imgScreen.image} alt={imgScreen.name} className="w-full object-cover lg:h-[750px] relative"/>
 
-                <p className="legend">
+                <p className="text-slate-50 z-10 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-neutral-950/50 transition ease-in duration-500 opacity-50 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
                   {imgScreen.name}
                 </p>
                 </Link>

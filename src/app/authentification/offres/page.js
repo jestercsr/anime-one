@@ -24,7 +24,7 @@ export default function OffreSelection() {
   }, []);
 
   const handleSubmit = (offreId) => {
-    saveOffreId({ offreId });
+    saveOffreId(offreId);
     router.push("/authentification/offres/inscription");
   };
 
@@ -48,7 +48,7 @@ export default function OffreSelection() {
                 <div className="flex justify-around items-stretch space-x-4">
                   <div className="bg-gray-100 p-6 rounded-lg flex-1">
                     <button
-                      onClick={() => handleSubmit(offre.id)}
+                      onClick={() => handleSubmit(offre)}
                       className="bg-gradient-to-b from-greener-950 to-emeralder-900 text-left w-full text-slate-50 pl-2 rounded-md"
                     >
                       <h2 className="text-lg md:text-xl font-semibold">

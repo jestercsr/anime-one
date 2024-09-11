@@ -26,7 +26,6 @@ export default function PageProfile() {
   const { saveAvatarData } = useAvatar();
   const [avatars, setAvatars] = useState({});
   const [loading, setLoading] = useState(true);
-  const [previousPage, setPreviousPage] = useState("/accueil");
   const router = useRouter();
 
   useEffect(() => {
@@ -95,15 +94,6 @@ export default function PageProfile() {
       console.error("Erreur lors de la suppression de l'utilisateur:", error);
     }
   };
-
-  useEffect(() => {
-    const referrer = document.referrer;
-    if (referrer && referrer !== window.location.href) {
-      setPreviousPage(referrer);
-    } else if (router.query && router.query.from) {
-      setPreviousPage(router.query.from);
-    }
-  }, [router]);
 
   if (loading) {
     return (

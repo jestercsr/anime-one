@@ -90,7 +90,7 @@ export default function PageAnimeID({ props, animation }) {
       anime_imageCarousel,
     } = data.animation[1];
     return (
-      <div className={backNav}>
+      <div className={backNav + ` min-h-screen`}>
         <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
         <div className="h-4/5 justify-center m-auto flex">
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
@@ -160,7 +160,7 @@ export default function PageAnimeID({ props, animation }) {
       anime_imageCarousel,
     } = data.animation[2];
     return (
-      <div className={backNav}>
+      <div className={backNav + ` min-h-screen`}>
         <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
         <div className="h-4/5 justify-center m-auto flex">
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
@@ -232,7 +232,7 @@ export default function PageAnimeID({ props, animation }) {
     anime_imageCarousel,
   } = data.animation[0];
   return (
-    <div className={backNav}>
+    <div className={backNav + ` min-h-screen`}>
       <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
       <div className="h-4/5 justify-center m-auto flex">
         <img src={anime_imageTop} className="w-9/12 h-5/6" />

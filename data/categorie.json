@@ -232,24 +232,12 @@
     "label": "Basket-Ball"
   },
   {
-    "nom": "cartes",
-    "label": "Cartes"
-  },
-  {
-    "nom": "gadget",
-    "label": "Gadget"
-  },
-  {
     "nom": "mythologie",
     "label": "Mythologie"
   },
   {
     "nom": "armure",
     "label": "Armure"
-  },
-  {
-    "nom": "duels",
-    "label": "Duels"
   },
   {
     "nom": "guerre",
@@ -292,10 +280,6 @@
     "label": "Mangaka"
   },
   {
-    "nom": "mariage",
-    "label": "Mariage"
-  },
-  {
     "nom": "magical girl",
     "label": "Magical Girl"
   },
@@ -318,9 +302,5 @@
   {
     "nom": "shojo",
     "label": "Shôjo"
-  },
-  {
-    "nom": "kodomo",
-    "label": "Kodomo"
   }
 ]

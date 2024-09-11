@@ -51,6 +51,10 @@ export default function PageInscritComplet() {
     }
   };
 
+  const handleChangeOffre = () => {
+    router.push("/authentification/offres");
+  };
+
   return (
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-b from-sky-600 to-cyan-900">
       <div className="bg-gray-200 p-8 rounded-lg shadow-lg max-w-4xl w-full">
@@ -110,10 +114,10 @@ export default function PageInscritComplet() {
                 <div className="bg-white p-4 rounded-lg shadow-md mb-4">
                   <div className="flex justify-between items-center mb-4">
                     <div>
-                      <h3 className="text-lg font-bold">Family</h3>
-                      <p>4,99€</p>
+                    <h3 className="text-lg font-bold">{offreUser.nom}</h3>
+                    <p>{offreUser.prix}€</p>
                     </div>
-                    <button className="text-blue-600 font-semibold">
+                    <button className="text-blue-600 font-semibold" onClick={handleChangeOffre}>
                       Changer
                     </button>
                   </div>

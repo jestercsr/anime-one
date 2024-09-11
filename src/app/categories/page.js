@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import categorie from "../../../data/categorie.json";
 import { getListeAll } from "../../../_actions/postAction";
 import Link from "next/link";
+import ReactLoading from 'react-loading';
 
 export default function PageCategories() {
   const [genre, setGenre] = useState("");
@@ -31,7 +32,7 @@ export default function PageCategories() {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
   }
 
   const filteredData = data.filter((manga) => {
@@ -45,7 +46,7 @@ export default function PageCategories() {
   });
 
   return (
-    <div className="bg-gradient-to-b from-cyan-900 to-emeralder-900">
+    <div className="bg-gradient-to-b from-cyan-900 to-emeralder-900 min-h-screen">
       <input
         type="text"
         value={searchTerm}

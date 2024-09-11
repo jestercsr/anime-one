@@ -11,7 +11,7 @@ import Footer from "./ui/E_Footer";
 
 export default function PageStores() {
   return (
-    <div className="bg-gradient-to-b from-skyer-500 to-skyer-950">
+    <div className="bg-gray-100">
       <E_Header />
       <E_Navbar />
       <Slider />

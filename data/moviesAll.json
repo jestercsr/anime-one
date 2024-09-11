@@ -1,0 +1,586 @@
+[
+  {
+    "_id": {
+      "$oid": "66d639b575fb8c15d15513b2"
+    },
+    "image": "/assets/films/OnePiece_F1.webp",
+    "name": "One Piece: Le Film",
+    "url": "one-piece/films/one-piece-le-film",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "La légende veut que Woonan, surnommé le Grand Pirate d'Or, ait laissé à sa mort un trésor colossal sur une petite île isolée. Nombreux sont les pirates qui convoitent cette montagne d'or. Le capitaine Eldorago et son équipage sont sans doute les plus acharnés : après avoir traqué et tué tous les anciens membres de l'équipage de Woonan, ils mettent la main sur la fameuse carte permettant de localiser l'île et le trésor du pirate disparu. Diverses circonstances conduiront l'équipage du chapeau de paille, dont les membres ont été séparés, à se mettre eux aussi à la recherche du trésor. Dans cette quête, ils seront aidés d'un jeune garçon, Tobio, désireux de retrouver Woonan pour faire partie de son équipage, ainsi que de son grand-père, Ganzo, qui semble connaître Woonan bien plus qu'il n'y paraît...",
+    "production": ["Junji Shimizu", "Michiru Shimada"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336540"
+    },
+    "image": "/assets/films/OnePiece_F2.webp",
+    "name": "One Piece: L'aventure de l'île de l'horloge",
+    "url": "one-piece/films/one-piece-l-adventure-de-l-ile-de-l-horloge",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "Tandis que l'équipage au Chapeau de Paille profite d'une journée à la plage pour se reposer, leur bateau, le Vogue Merry, ainsi que tout leur équipement, sont subtilisés. En se lançant à la poursuite des voleurs, ils rencontrent un certain Borodo, qui se qualifie comme le 'plus grand voleur au monde' ainsi que son petit frère Akisu. Leur objectif est de dérober une horloge, cette dernière sous le contrôle d'un certains pirate nommé Bear King, qui en plus de contrôler l'horloge, contrôle l’île qui l'abrite. Dans la poursuite de ses péripéties, l'équipage se fait surprendre et Nami se fait enlever. L'équipage poursuit ses ravisseurs, deux lieutenants de ce mystérieux Bear King, sur une île étrange, l'Île de l'Horloge.",
+    "production": ["Atsuji Shimizu", "Yuji Hashimoto"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336541"
+    },
+    "image": "/assets/films/OnePiece_F3.webp",
+    "name": "One Piece: Le Royaume de Chopper, l'île des bêtes étranges",
+    "url": "one-piece/films/one-piece-le-royaume-de-chopper-l-ile-des-betes-etranges",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "Chopper vient tout juste de rejoindre l'équipage au chapeau de paille. En s'approchant de l'île du Croissant, le Vogue Merry est projeté dans les airs par un geyser et Chopper se retrouve séparé du reste de l'équipage. Les animaux de l'île le prennent alors pour leur nouveau roi...",
+    "production": ["Atsuji Shimizu", "Yuji Hashimoto"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336542"
+    },
+    "image": "/assets/films/OnePiece_F4.webp",
+    "name": "One Piece: L'Aventure sans issue",
+    "url": "one-piece/films/one-piece-l-adventure-sans-issue",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "L'équipage au chapeau de paille participe à une course entre pirates où tous les coups sont permis. Ils font la connaissance de Gasparde, un ancien officier de la Marine devenu pirate.",
+    "production": ["Kōnosuke Uda", "Yoshiyuki Suga"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336543"
+    },
+    "image": "/assets/films/OnePiece_F5.webp",
+    "name": "One Piece: La Malédiction de l'épée sacrée",
+    "url": "one-piece/films/one-piece-la-malediction-de-l-epee-sacree",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "L'équipage au chapeau de paille fait une halte dans une ville portuaire de l'île d'Asuka. Peu après leur arrivée, Zoro disparaît. Pendant que l'équipage part à sa recherche, Sanji suit Maya, une fille originaire de l'île, vers un village. Ici, Zoro y est aperçu accompagné de soldats de la Marine. Zoro est désormais enrôlé dans la Marine et volera à la prêtresse du village des perles magiques. Derrière toute cette magouille se trouverait Saga, un ancien ami de Zoro, qui tenterait de faire revivre la terrible épée aux sept étoiles. Luffy décide donc d'aider Maya, la prêtresse du village, à contrecarrer les plans de Saga pour avoir une explication avec Zoro.",
+    "production": ["Kazuhisa Takenouchi", "Yoshiyuki Suga"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336544"
+    },
+    "image": "/assets/films/OnePiece_F6.webp",
+    "name": "One Piece: Le Baron Omatsuri et l'Île secrète",
+    "url": "one-piece/films/one-piece-le-baron-omatsuri-et-l-ile-secrete",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "L'équipage du chapeau de paille reçoit une étrange invitation, les conviant sur l'île de la fête. Ils y font la connaissance du baron Omatsuri qui défie Luffy et ses amis à trois épreuves. Au cours des différents événements de plus en plus bizarres, l'équipage va se déchirer. Nami s’énerve contre Usopp et Sanji s'énerve contre Zoro. Ce sera au capitaine, aidé de personnages qu'il aura rencontrés sur l'île, d'éviter à ses compagnons une mort certaine...",
+    "production": ["Mamoru Hosoda", "Masahiro Itō"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336545"
+    },
+    "image": "/assets/films/OnePiece_F7.webp",
+    "name": "One Piece: Le Mecha géant du château Karakuri",
+    "url": "one-piece/films/one-piece-le-mecha-geant-du-chateau-karakuri",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "L'équipage au chapeau de paille part à la recherche de trésors à bord d'un navire détruit et tombe sur une vieille femme enfermée dans un coffre. Cette dernière, pour motiver Luffy et ses amis à la ramener chez elle, leur raconte que son île recèlerait un trésor légendaire : une couronne en or exceptionnelle. Ils partent alors pour Mecha Island et sont attaqués par Ratchet, le chef de l'île, et ses sbires qui utilisent diverses machines avec plus ou moins de bonheur. Les chapeaux de paille les repoussent sans problème et lorsque Ratchet découvre que ces derniers sont eux aussi à la recherche de la couronne d'or et sont déjà sur une piste, il décide de collaborer avec eux.",
+    "production": ["Kōnosuke Uda", "Atsutoshi Umezawa"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336546"
+    },
+    "image": "/assets/films/OnePiece_F8.webp",
+    "name": "One Piece: Strong World",
+    "url": "one-piece/films/one-piece-strong-world",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "Luffy et son équipage naviguent sur les mers à la recherche du légendaire trésor appelé One Piece et doivent faire face à de nombreux pirates. Le plus dangereux d’entre eux, Shiki le Lion d’or, passé pour mort, réapparaît vingt ans après avoir disparu, déterminé à prendre sa revanche sur le monde entier. Pour mettre en œuvre son plan machiavélique, il kidnappe Nami, la navigatrice de Luffy et la retient prisonnière sur Strong World, l’île sauvage qu’il a créée dans le ciel. Luffy et ses compagnons vont devoir se battre contre une nature toute puissante et des animaux gigantesques pour délivrer Nami…",
+    "production": ["Munehisa Sakai", "Eiichirō Oda", "Hirohiko Uesaka"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336547"
+    },
+    "image": "/assets/films/OnePiece_F9.webp",
+    "name": "One Piece: Z",
+    "url": "one-piece/films/one-piece-z",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "Dans ce film, Luffy et son équipage vont devoir affronter un ancien amiral de la Marine baptisé Z qui veut éliminer tous les pirates du Nouveau Monde grâce à des pierres, les Dyna Rocks, dont la puissance destructrice égale celles des Armes Antiques…",
+    "production": ["Tatsuya Nagamine", "Eiichirō Oda", "Osamu Suzuki"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336548"
+    },
+    "image": "/assets/films/OnePiece_F10.webp",
+    "name": "One Piece: Gold",
+    "url": "one-piece/films/one-piece-gold",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "L’équipage au Chapeau de Paille arrive sur Gran Tesoro, grande ville du divertissement, où les hommes les plus fortunés viennent jouer au casino et assister aux spectacles les plus grandioses. Gran Tesoro est contrôlé par l'empereur de l'or dont la fortune est égale à 20 % des berrys circulant dans le monde, Gild Tesoro.",
+    "production": ["Hiroaki Miyamoto", "Eiichirō Oda", "Tsutomu Kuroiwa"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde8596336549"
+    },
+    "image": "/assets/films/OnePiece_F11.webp",
+    "name": "One Piece: Stampede",
+    "url": "one-piece/films/one-piece-stampede",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie"
+    ],
+    "description": "Luffy et son équipage s’apprêtent à participer au plus grand rassemblement des pirates du monde entier : le PIRATE FEST, organisé par le machiavélique Buena Festa. Les Pirates, les grands corsaires, la Marine et même l’Armée Révolutionnaire s’y retrouvent pour tenter de découvrir le trésor si convoité de Gol D.Roger. Mais pour cela, ils vont devoir combattre un ancien membre de l’équipage de Roger, Douglas Bullet, aussi appelé « l’héritier du démon ». Au cours de cet affrontement, les pires dangers attendent les Chapeaux de paille et d’étonnantes alliances voient le jour… Cette intrigue n'est guère qu'un prétexte pour lancer un combat général avec des explosions, des combats au poing, des tremblements de terre et des bombardements navals.",
+    "production": ["Takashi Otsuka", "Hiroki Koyama", "Atsuhiro Tomioka"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db2290777dde859633654a"
+    },
+    "image": "/assets/films/OnePiece_F12.webp",
+    "name": "One Piece: Red",
+    "url": "one-piece/films/one-piece-red",
+    "auteur": "Eiichirō Oda",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Drame",
+      "Fantasy",
+      "Piraterie",
+      "Comédie Musicale"
+    ],
+    "description": "L’histoire se déroule sur l'île d'Élégia où l'équipage au Chapeau de paille va voir un concert. Ils sont impatients d’écouter la chanteuse la plus connue du monde, Uta, qui se trouve être la fille du légendaire pirate Shanks Le Roux et une amie d'enfance de Luffy.",
+    "production": ["Gorō Taniguchi", "Eiichirō Oda", "Kuroiwa Tsutomu"],
+    "studio": ["Tōei animation"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde859633654b"
+    },
+    "image": "/assets/films/Aot_F1.webp",
+    "name": "L'Attaque des Titans: L'Arc et la flèche écarlates",
+    "url": "shingeki-no-kyojin/films/l-arc-et-la-fleche-ecarlates",
+    "auteur": "Hajime Isayama",
+    "genre": [
+      "Action",
+      "Horreur",
+      "Dark Fantasy",
+      "Mystère",
+      "Tragédie",
+      "Thriller",
+      "Apocalyptique",
+      "Militaire"
+    ],
+    "description": "Dans un monde ravagé par des titans mangeurs d’homme depuis plus d’un siècle, les rares survivants de l’Humanité n’ont d’autre choix pour survivre que de se barricader dans une cité-forteresse. Le jeune Eren, témoin de la mort de sa mère dévorée par un titan, n’a qu'un rêve : entrer dans le corps d’élite chargé de découvrir l’origine des titans et les tuer jusqu'au dernier…",
+    "production": ["Tetsurō Araki", "Yasuko Kobayashi"],
+    "studio": ["WIT STUDIO"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde859633654c"
+    },
+    "image": "/assets/films/Aot_F2.webp",
+    "name": "L'Attaque des Titans: Les Ailes de la liberté",
+    "url": "shingeki-no-kyojin/films/les-ailes-de-la-liberte",
+    "auteur": "Hajime Isayama",
+    "genre": [
+      "Action",
+      "Horreur",
+      "Dark Fantasy",
+      "Mystère",
+      "Tragédie",
+      "Thriller",
+      "Apocalyptique",
+      "Militaire"
+    ],
+    "description": "L’humanité tente de repasser à l’offensive quand le Bataillon d’Exploration monte une grande opération de sortie des murs en compagnie d’Eren, Mikasa et Armin. Grâce à cette opération très difficile, ils comptent faire des découvertes importantes sur la réelle nature des Titans...",
+    "production": ["Tetsurō Araki", "Yasuko Kobayashi"],
+    "studio": ["WIT STUDIO"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde859633654d"
+    },
+    "image": "/assets/films/Bc_F1.webp",
+    "name": "Black Clover: L'épée de l'empereur-mage",
+    "url": "black-clover/films/l-epee-de-l-empereur-mage",
+    "auteur": "Yūki Tabata",
+    "genre": ["Action", "Adventure", "Romance", "Fantasy"],
+    "description": "Alors qu'un garçon courageux, mais dépourvu de pouvoirs magiques, rêve de devenir empereur-mage, quatre anciens empereurs-mages reviennent pour anéantir le royaume de Clover.",
+    "production": ["Ayataka Tanemura", "Yūki Tabata"],
+    "studio": ["Pierrot"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde859633654e"
+    },
+    "image": "/assets/films/Conan_F1.webp",
+    "name": "Détective Conan: Le Gratte-Ciel infernal",
+    "url": "detective-conan/films/le-gratte-ciel-infernal",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Alors que Conan était en train de trier les lettres d'admiratrices de son père, il s'aperçoit que l'une de ces lettres lui est destinée. Cette lettre est en réalité une invitation pour la fête d'un célèbre architecte. Ne pouvant s'y rendre, Conan utilise la voix de Shinichi pour demander à Ran d'y aller. Quelques jours après cette fête, Conan reçoit un appel d'un homme étrange masquant sa voix et menaçant de faire exploser plusieurs bombes. Avec le peu d'indices donnés, Conan doit retrouver toutes les bombes et démasquer le dangereux pyromane.",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde859633654f"
+    },
+    "image": "/assets/films/Conan_F2.webp",
+    "name": "Détective Conan: La Quatorzième Cible",
+    "url": "detective-conan/films/la-quatorzieme-cible",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Dans la même semaine, l'inspecteur Megure, Eri Kisaki et le professeur Agasa se font agresser. Une conclusion s'impose : on cherche à nuire à Kogoro Mouri. Le suspect semble vouloir jouer avec lui, car chacune des personnes agressées a un lien avec une des 13 cartes de pique. Et l'as de pique ne désigne qu'une personne : Shinichi Kudo.",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336550"
+    },
+    "image": "/assets/films/Conan_F3.webp",
+    "name": "Détective Conan: Le Magicien de la fin du siècle",
+    "url": "detective-conan/films/le-magicien-de-la-fin-du-siecle",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "L'Insaisissable Kid, le Prince des voleurs, tente de s'emparer de l’Œuf Impérial de Russie, un trésor inestimable de la dynastie des Romanov. Mais il semble ne pas être le seul à vouloir s'en emparer car alors que Shinichi se demande s'il parviendra à capturer le Kid, qui lui a déjà échappé par le passé, le voleur se fait tirer dessus par un assassin connu sous le seul nom de Scorpion ! Celui-ci se trouve parmi les voyageurs qui sont à bord du même yacht que Conan… L'Œuf de Fabergé maudit se trouve en effet au cœur d’une vengeance implacable… Shinichi pourra-t-il protéger le joyau et mettre en échec le plan machiavélique du Scorpion ?",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336551"
+    },
+    "image": "/assets/films/Conan_F4.webp",
+    "name": "Détective Conan: Mémoire assassine",
+    "url": "detective-conan/films/memoire-assassine",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "C'est la panique au sein de la police ! Un individu semble s'en prendre à des agents de police. Conan et ses amis, les Détective Boys, sont les témoins du meurtre d'un policier, meurtre qui est suivi d'un autre. Tout porte à croire que le meurtrier est lui-même un membre de la police. Lors d'une réception donnée en l'honneur du mariage de la sœur de l'inspecteur Shiratori, l'inspecteur Megure semble préoccupé par quelque chose, mais refuse d’en parler à Mōri. Un peu plus tard dans la soirée, Ran se rend aux toilettes où elle retrouve l'inspecteur Satō. Au moment d’une coupure de courant, Ran et Satō sont attaquées par un individu, Satō - qui est elle-même la cible de ce tueur - tente de la protéger mais est grièvement touchée tandis que Ran, horrifiée - qui a vu le visage de l'assassin - perd connaissance. À son réveil, la jeune fille est frappée d’amnésie. Ce qui n'empêche pas l'assassin d'essayer de la tuer elle-aussi…",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336552"
+    },
+    "image": "/assets/films/Conan_F5.webp",
+    "name": "Détective Conan: Décompte aux cieux",
+    "url": "detective-conan/films/decompte-aux-cieux",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Conan, Agasa, Ran, Sonoko, Kogoro et les détectives boys sont invités dans les tours Tokiwa, des tours faisant partie des plus grandes du Japon, grâce à Mlle Tokiwa, une amie d'université de Kogoro. Mais dans la nuit, l'une des personnes qu'ils ont rencontrées est assassiné, et un mystérieux objet est retrouvé près de son cadavre. Les DB veulent mener l'enquête, mais ils découvrent un 2e cadavre ! Qui est l'assassin ? Pourquoi Ai se conduit-elle si bizarrement ? Que faisaient les hommes en noir près des tours ? Conan résoudra-t-il ces mystères lors d'une réception organisé aux tours ?",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336553"
+    },
+    "image": "/assets/films/Conan_F6.webp",
+    "name": "Détective Conan: Le Fantôme de Baker Street",
+    "url": "detective-conan/films/le-fantome-de-baker-street",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Tout commence alors que Kogoro, Ran, Conan, les Détectives Boys et Haibara sont invités à une soirée d'inauguration d'un jeu vidéo virtuel appelé “Cocoon“. Sonoko, dont le père a participé à l'élaboration du jeu, est aussi présente. Lors de cette soirée, les enfants de ceux qui auront participé à la création du jeu pourront le tester. Mais voilà qu'un fantôme apparait pendant la réception et la réponse du fantôme se trouve dans le jeu. Alors Conan reçoit le badge d'entrée à la démo par le professeur Agasa qui avait aussi participé à la création de Cocoon avec Yusaku Kudo, le père de Shinichi. À la grande surprise de Conan, les Détectives Boys et Haibara ont réussi à obtenir des badges. Alors que tous les enfants sont sur le point d'entrer dans les capsules qui permettent d'entrer dans le jeu, Sonoko donne son badge à Ran pour que celle-ci accompagne Conan. Tous les enfants sont désormais dans le jeu virtuel et tout se passe bien quand soudain, une intelligence artificielle prend le contrôle de tout, Cocoon menaçant de tuer tous les enfants, sauf si au moins une personne finit le jeu. Conan accompagné de Ran, de tous ses amis et aussi de quatre autres garçons devront attraper le célèbre fantôme “Jack l'Éventreur“ afin de terminer ce jeu.",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336554"
+    },
+    "image": "/assets/films/Conan_F7.webp",
+    "name": "Détective Conan: Croisement dans l'ancienne capitale",
+    "url": "detective-conan/films/croisement-dans-l-ancienne-capitale",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Dans un temple de Tokyo, trois hommes se réunissent secrètement lorsque surgit subitement une ombre noire portant un masque d'Okina qui les élimine un à un, à l'aide d'un arc et d'une épée. Au même moment, à Osaka et Kyôto, deux meurtres sont également commis. L'enquête des forces de police démontre que ces cinq individus appartenaient à un même groupe de voleurs appelé “Genjibotaru“, qui avait déjà sévi dans les villes de Tôkyô, Osaka et Kyôto, dérobant divers objets et œuvres d'art. La police, elle, traine sur cette affaire et ne parvient pas à trouver le mobile de ces différents meurtres : vengeance ? conflits internes. Dans ce climat de confusion, Conan débarque à Kyôto dans la région d'Osaka - accompagné de Kogoro, Ran et Sonoko - voir Heiji et Kazuha. Heiji et Conan s'allient une fois de plus pour prendre l'affaire en main et vont faire de telles découvertes... qu'ils seront la cible du tueur...",
+    "production": ["Kenji Kodama", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336555"
+    },
+    "image": "/assets/films/Conan_F8.webp",
+    "name": "Détective Conan: Le Magicien du ciel argenté",
+    "url": "detective-conan/films/le-magicien-du-ciel-argente",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Julie, une actrice de théâtre, reçoit une lettre de Kaito Kid qui menace de voler un joyau lui appartenant. Cette dernière décide de se faire aider par Kogoro Mouri. Selon lui, le vol aura lieu lors de la représentation de la pièce « Joséphine », dont Julie est la vedette. Conan, Ran, les détective Boys, Haibara et même Sonoko sont de la partie. Le Kid sera cette fois particulièrement facile à reconnaître - pour Conan, Agasa et Haibara en tout cas - car il se déguisera en Shinichi. Alors que la pièce est bien entamée, le Kid essaye de s'échapper mais Conan le poursuit et livre un combat contre lui en haut du théâtre. Le combat se terminera sur le toit d'un métro après que le Kid se soit encore évadé…",
+    "production": ["Yasuichiro Yamamoto", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336556"
+    },
+    "image": "/assets/films/Conan_F9.webp",
+    "name": "Détective Conan: Stratégie en profondeur",
+    "url": "detective-conan/films/strategie-en-profondeur",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Un bateau se cogne contre un iceberg et commence à couler en pleine mer. Son capitaine ainsi qu'un autre membre de l'équipage périssent dans le naufrage. Mais le vice-capitaine agit bizarrement… Des années plus tard, à bord d'un luxueux yacht, dont le commandant n'est autre que le vice-capitaine évoqué précédemment, Conan et toute sa petite troupe au grand complet voguent au gré de cette paisible croisière. Bien évidemment, un événement viendra rapidement briser cette utopique félicité : Sonoko se fait attaquer, une passagère est assassinée et un autre disparaît. Conan a rapidement des soupçons sur un passager, mais celui-ci a un alibi imparable ! Conan saura-t-il le démonter ? Et arrivera-t-il à éviter que le bateau connaisse le même sort que le précédent ?",
+    "production": ["Yasuichiro Yamamoto", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336557"
+    },
+    "image": "/assets/films/Conan_F10.webp",
+    "name": "Détective Conan: Le Requiem des détectives",
+    "url": "detective-conan/films/le-requiem-des-detectives",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Ran, Conan, Kogoro et les Détectives boys sont invités à se rendre dans un tout nouveau parc d'attractions. Sonoko, grâce à sa situation familiale, est aussi de la partie. Mais si Kogoro est présent c'est avant tout pour résoudre une affaire. On remet tout d'abord à chaque invité un bracelet électronique qui est un pass pour toutes les activités Il est actif jusqu'à 22h, heure de fermeture du parc. Tandis que les autres partent profiter du parc, Conan et Kogoro sont mis au courant de l'enquête à résoudre par le propriétaire du parc, aussi propriétaire d'un grand hôtel. Néanmoins, ce mystérieux client ne leur facilite pas la tâche et le nombre d'indices est restreint car celui-ci menace de faire exploser leurs amis et eux-mêmes via le bracelet VIP qu'ils ont endossé, s'ils ne résolvent pas dans un temps limité une enquête qui leur est confié. D'autres personnes ont reçu la même menace, comme Heiji.",
+    "production": ["Yasuichiro Yamamoto", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336558"
+    },
+    "image": "/assets/films/Conan_F11.webp",
+    "name": "Détective Conan: Jolly Roger et le Cercueil Bleu Azur",
+    "url": "detective-conan/films/jolly-roger-et-le-cercueil-bleu-azur",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Nous retrouvons tous nos héros en vacances à Okinawa, sur une île du Pacifique. Le guide qui s'occupe d'eux propose aux enfants une chasse au trésor. Cependant des événements étranges ont lieu : une attaque de requins, un vol au musée… Tout semble lié à une vieille légende sur Mary Read et Anne Bonnie… car l'île est un lieu qui a donné naissance à une légende : on raconte en effet que deux femmes pirates auraient caché quelque part leur butin il y a plus de 300 ans. Évidemment, cette histoire attire les chasseurs de trésor et l'île sera le théâtre d’une nouvelle énigme à résoudre pour Conan, Ran et les autres.",
+    "production": ["Yasuichiro Yamamoto", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde8596336559"
+    },
+    "image": "/assets/films/Conan_F12.webp",
+    "name": "Détective Conan: La Mélodie de la peur",
+    "url": "detective-conan/films/la-melodie-de-la-peur",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "Une série de meurtres semblent viser seulement des musiciens. Toutes les victimes étaient des étudiants d’un conservatoire de musique sous la direction d’un célèbre pianiste. Entretemps, Conan et les autres sont invités à l’ouverture de la salle de concert de ce pianiste. La tête d’affiche des artistes internationaux qui sont rassemblés pour le concert, est une chanteuse à la voix prodigieuse ainsi que la présence d'un violon Stradivarius. Quelqu’un essaie de la tuer mais par chance Conan lui sauve la vie à la dernière minute. Lui et ses amis deviennent les cibles et sont attaqués un à un…",
+    "production": ["Yasuichiro Yamamoto", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  },
+  {
+    "_id": {
+      "$oid": "66db6076777dde859633655a"
+    },
+    "image": "/assets/films/Conan_F13.webp",
+    "name": "Détective Conan: Le Chasseur noir de jais",
+    "url": "detective-conan/films/le-chasseur-noir-de-jais",
+    "auteur": "Gōshō Aoyama",
+    "genre": [
+      "Action",
+      "Mystère",
+      "Comédie",
+      "Drame",
+      "Thriller",
+      "Policier",
+      "Enigme",
+      "Detective"
+    ],
+    "description": "La fête du Tanabata arrive bientôt. Kogoro Mouri est appelé pour assister à une conférence de police traitant de meurtres en série, où plusieurs points communs ont été constatés entre les décès, dont une tuile de mah-jong retrouvée sur les lieux du crime. Mais ce qui se relève à première vue être une affaire anodine prend une tout autre tournure lorsque Conan se rend compte qu'un membre de l'Organisation était présent à cette réunion. La question se pose : l'Organisation a-t-elle quelque chose à voir avec ces meurtres ? Il découvre la réponse plus tard lors d'un face à face avec Vermouth…",
+    "production": ["Yasuichiro Yamamoto", "Kazunari Kōchi"],
+    "studio": ["TMS Entertainment"]
+  }
+]

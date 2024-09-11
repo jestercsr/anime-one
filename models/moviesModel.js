@@ -13,9 +13,9 @@ if (mongoose.models.moviesAll) {
       url: String,
       auteur: [String],
       genre: [String],
-      description: [String],
-      realisateur: [String],
+      description: String,
       production: [String],
+      studio: [String],
     },
     { timestamps: true }
   );

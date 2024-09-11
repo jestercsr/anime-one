@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 export function CarrouselForm() {
   const dataImage = [
@@ -68,27 +68,38 @@ export function CarrouselForm() {
       url: "/manga/naruto",
     },
   ];
-
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 1024 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 1024, min: 800 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 800, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <>
       <div>
-        <Carousel
-          autoPlay
-          infiniteLoop
-          interval={6000}
-          showThumbs={false}
-          showStatus={false}
-          centerMode  
-          centerSlidePercentage={70}
-        >
+        <Carousel swipeable={true} responsive={responsive} removeArrowOnDeviceType={["superLargeDesktop", "desktop", "tablet", "mobile"]} ssr={true} infinite={true} autoPlay={true} autoPlaySpeed={7000}>
           {dataImage.map((imgScreen, index) => {
             return (
               <div key={index}>
-                <img src={imgScreen.image} alt={imgScreen.name}/>
+                <Link href={imgScreen.url}>
+                <img src={imgScreen.image} alt={imgScreen.name} className="w-full object-cover lg:h-[750px] relative"/>
 
-                <p className="legend">
-                  <Link href={imgScreen.url}>{imgScreen.name}</Link>
+                <p className="text-slate-50 z-10 absolute bottom-2 md:bottom-5 lg:bottom-8 bg-neutral-950/50 transition ease-in duration-500 opacity-50 w-full p-2 lg:p-5 text-center hover:opacity-100 rounded-2xl">
+                  {imgScreen.name}
                 </p>
+                </Link>
               </div>
             );
           })}

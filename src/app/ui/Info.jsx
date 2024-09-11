@@ -15,7 +15,7 @@ export default function Info() {
             </p>
           </div>
           <img
-            src="assets/big3.webp"
+            src="/assets/big3.webp"
             alt="Big3"
             className="w-[100%] h-[90%] lg:w-[100%]"
           />
@@ -24,7 +24,7 @@ export default function Info() {
       <div className="bg-gradient-to-b from-emeralder-950 to-greener-400 pt-14">
         <div className="bg-skyer-500 grid grid-cols-2 items-center justify-between">
           <img
-            src="assets/gokussjscan.webp"
+            src="/assets/gokussjscan.webp"
             alt="GokuScan"
             className="w-[70%] h-[90%] lg:w-[50%] lg:items-center"
           />
