@@ -7,13 +7,13 @@ export async function PUT(request, { params }) {
   try {
     const data = await request.json();
     await connectDB();
-    const update = await MangaModel.findOneAndUpdate({ slug: slug }, data, {
-      new: true,
+    const update = await MangaModel.findOneAndUpdate({ slug }, data, {
+      new: true, runValidators: true
     });
     if (!update) {
       return NextResponse.json({ message: "Aucun manga trouvé" }, { status: 404 });
     }
-    return NextResponse.json({ message: "Manga mis à jour" }, { status: 200 });
+    return NextResponse.json({ update}, { status: 200 });
   } catch (error) {
     console.error("Impossible de mettre à jour le manga:", error);
     return NextResponse.json(

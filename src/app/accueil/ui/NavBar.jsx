@@ -25,10 +25,6 @@ export default function Navbar(props) {
     setIsOpen(!isOpen);
   };
 
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   const darkColors = [
     "bg-bluer-950", "bg-bluer-800", "bg-bluer-700", "bg-bluer-600",
     "bg-blacker-950", "bg-blacker-300", "bg-blacker-200", "bg-blacker-10",
@@ -158,7 +154,7 @@ export default function Navbar(props) {
       <nav
         className={`${
           isOpen
-            ? "flex justify-between"
+            ? "flex justify-between items-start"
             : "flex justify-between lg:px-8 items-center lg:py-[4px] py-0"
         }`}
       >
@@ -170,7 +166,7 @@ export default function Navbar(props) {
               <div className="hidden md:flex w-28">
                 <img src={getLogo()} alt="logo" />
               </div>
-              <div className="flex w-14 md:hidden">
+              <div className="flex w-16 md:hidden">
                 <img
                   src={getLogoResponsive()}
                   alt="logoOne"
@@ -182,12 +178,12 @@ export default function Navbar(props) {
 
         <section
           className={` ${
-            isOpen ? "w-[50%] h-[300px] min-h-0 flex-col" : "hidden lg:flex"
-          } relative lg:min-h-fit items-center min-h-[60vh] lg:w-auto w-full flex`}
+            isOpen ? "flex-col" : "hidden lg:flex relative"
+          } lg:min-h-fit items-center min-h-[60vh] lg:w-auto w-full flex`}
         >
           <div
             className={`${
-              isOpen ? "mt-14" : "block"
+              isOpen ? "mt-10 " : "block"
             } lg:flex-shrink lg:flex-grow-0 lg:justify-start lg:px-2`}
           >
             <div className="relative block">
@@ -212,12 +208,12 @@ export default function Navbar(props) {
               )}
             </div>
           </div>
-          <ul className={`${isOpen ? "inline-block" : "flex"} gap-5 list-none`}>
+          <ul className={`${isOpen ? " " : "flex"} gap-5 list-none`}>
             {navlinks.map((link) => {
               return (
                 <li
                   key={link.label}
-                  className="hover:text-sky-500 transition ease-in duration-300"
+                  className="hover:underline hover:underline-offset-4 transition ease-in duration-300"
                 >
                   <Link
                     href={link.lien}
@@ -231,10 +227,7 @@ export default function Navbar(props) {
             })}
             <section className="items-center gap-6">
               {avatarUrl && profileName ? (
-                <div
-                  className="relative"
-                  onClick={toggleDropdown}
-                >
+                <div className="relative">
                   <Link href="/profile">
                   <img
                     src={avatarUrl || "/assets/avatar/narutoShippudenAvatar.png"}

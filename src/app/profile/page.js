@@ -37,9 +37,10 @@ export default function PageProfile() {
         const data = await response.json();
         setProfiles(data);
 
-        const avatarsResponse = await fetch(`/api/profiles`);
+        const avatarsResponse = await fetch(`/api/avatar`);
         const avatarsData = await avatarsResponse.json();
-
+        console.log("Avatar: ",avatarsData);
+        
         const avatarMap = avatarsData.reduce((acc, avatar) => {
           acc[avatar.id] = avatar;
           return acc;
@@ -86,7 +87,6 @@ export default function PageProfile() {
 
       if (response.ok) {
         alert(`L'utilisateur ${selectedAccount.username} à été supprimer avec succès`);
-        setShowModal(false);
       } else {
         console.error("Erreur lors de la suppression de l'utilisateur");
       }
@@ -119,8 +119,8 @@ export default function PageProfile() {
   return (
     <div className="bg-gradient-to-b from-emeralder-900 to-sky-500 text-slate-50">
       <button onClick={handleGoBack} className="text-left text-xl ml-5">Retour</button>
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <div className="w-full max-w-md p-4">
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="w-full p-4">
           <div className="flex justify-center">
             {profiles.length > 0 ? (
               profiles.map((profile) => {
@@ -153,7 +153,7 @@ export default function PageProfile() {
             {lien.map((liens, index) => {
               return (
                 <li key={index} className="p-3 border-b border-gray-700">
-                  <Link href={liens.name}>{liens.name}</Link>
+                  <Link href={liens.url}>{liens.name}</Link>
                 </li>
               );
             })}

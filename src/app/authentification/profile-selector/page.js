@@ -23,7 +23,7 @@ export default function PageChoixProfil() {
         const data = await response.json();
         setProfiles(data);
 
-        const avatarsResponse = await fetch(`/api/profiles`);
+        const avatarsResponse = await fetch(`/api/avatar`);
         const avatarsData = await avatarsResponse.json();
 
         const avatarMap = avatarsData.reduce((acc, avatar) => {

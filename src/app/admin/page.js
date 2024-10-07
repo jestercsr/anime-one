@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import PostAll from "./ui/PostAll";
 import DeleteAll from "./ui/DeleteAll";
 import AddListeAll from "./ui/AddListeAll";
-import UpdateForm from "./ui/UpdateForm";
 import UpdateAll from "./ui/UpdateAll";
 import { getManga } from "../../../_actions/postAction";
 
@@ -43,8 +42,7 @@ export default function PageAdmin() {
           <h3 className="text-2xl text-gray-700 underline mb-2 hover:text-orange-500">
             Modifier un manga
           </h3>
-          <UpdateForm onSearch={handleSearch} />
-          {manga && <UpdateAll manga={manga} />}
+          <UpdateAll />
         </div>
         <div>
           <h3 className="text-2xl text-gray-700 underline mb-2 hover:text-green-600">

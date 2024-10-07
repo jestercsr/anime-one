@@ -3,41 +3,43 @@ import mongoose, { Schema, models } from "mongoose";
 
 let ProductModel;
 
-if (mongoose.models.productAlls) {
-  ProductModel = models.productAlls;
+if (mongoose.models.produitsAll) {
+  ProductModel = models.produitsAll;
 } else {
   const ratingSchema = new Schema({
     userId: { type: String, required: true },
     rating: { type: Number, required: true, min: 1, max: 5 },
+    commentaires: [String],
   });
   const productAllSchema = new Schema(
     {
-      image: String,
+      image: [String],
       titre: { type: String, unique: true },
       url: String,
       prix: Number,
       genre: [String],
-      description: [String],
+      description: String,
       taille: [String],
       couleur: [String],
       ratings: [ratingSchema],
-      numRatings: { type: Number, default: 0 },
+      averageRating: { type: Number, default: 0 },
       typeContenu: String,
       quantite: Number,
-      commentaires: [String],
+      commentaires: [ratingSchema],
       articleRecommander: [
         {
-          image: String,
-          titre: { type: String, unique: true },
+          image: [String],
+          titreReco: String,
           url: String,
           prix: Number,
           genre: [String],
-          description: [String],
           taille: [String],
           couleur: [String],
+          ratings: [ratingSchema],
+          averageRating: { type: Number, default: 0 },
           typeContenu: String,
           quantite: Number,
-          commentaires: [String],
+          commentaires: [ratingSchema],
         },
       ],
     },
@@ -50,12 +52,12 @@ if (mongoose.models.productAlls) {
         (total, rating) => total + rating.rating,
         0
       );
-      this.numRatings = sum / this.ratings.length;
+      this.averageRating = sum / this.ratings.length;
     } else {
-      this.numRatings = 0;
+      this.averageRating = 0;
     }
   };
-  ProductModel = mongoose.model("productAlls", productAllSchema);
+  ProductModel = mongoose.model("produitsAll", productAllSchema);
 }
 
 export default ProductModel;

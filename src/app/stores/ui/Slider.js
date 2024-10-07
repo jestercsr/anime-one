@@ -49,11 +49,11 @@ export default function Slider() {
       >
         {top.map((item, i) => {
           return (
-            <div key={i} className="h-[400px] mb-5 md:mb-auto md:h-auto pb-4">
+            <div key={i} className="h-[400px] mb-5 md:mb-auto md:h-auto pb-4 mt-24">
               <div className="bg-sky-700 py-6 h-[390px] md:flex md:h-[450px] lg:h-[600px] grid grid-rows-2 md:grid-rows-0 md:grid-cols-2">
                 <img
                   src={item.image}
-                  className="object-cover w-[100%] h-[300px] md:w-[70%] md:h-[400px] lg:w-[80%] lg:h-auto"
+                  className="md:object-cover w-[100%] h-[300px] md:w-[70%] md:h-[400px] lg:w-[80%] lg:h-auto"
                 />
                 <div className="flex flex-col items-center mt-32 md:mt-5 md:justify-around ">
                   <h2 className="text-center relative text-sm md: lg:text-3xl font-semibold text-slate-50">

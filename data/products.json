@@ -1,7 +1,92 @@
 [
-    {
-        "image": "",
-        "titre": "",
-        "prix": 15.99
-    }
+  {
+    "image": [
+      "/assets/boutiques/figurines/kenlesurvivant/4582638216573_figure-kenshiro-muso-tensei-ver-fist-of-the-north-star-action-primary.jpg",
+      "/assets/boutiques/figurines/kenlesurvivant/4582638216573_figure-kenshiro-muso-tensei-ver-fist-of-the-north-star-action-alta.jpg"
+    ],
+    "titre": "Fist of the North Star - Kenshiro (Muso Tensei Ver.)",
+    "url": "stores/collections/kenlesurvivant/figure-kenshiro-muso-tensei-ver-fist-of-the-north-star",
+    "prix": 1,
+    "genre": ["Figurine"],
+    "description": "La figurine Fist of the North Star - Kenshiro (Muso Tensei Ver.) de Medicos Entertainment est un objet de collection très détaillé qui impressionnera à coup sûr tout fan de la populaire série animée et manga Ken le survivant.",
+    "taille": [],
+    "couleur": [],
+    "averageRating": 0,
+    "typeContenu": "En stock",
+    "quantite": 4,
+    "articleRecommander": [
+      {
+        "image": [
+          "/assets/boutiques/figurines/kenlesurvivant/4582638235604_figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders-action-primary.jpg"
+        ],
+        "titreReco": "JoJo's Bizarre Adventure - Jotaro Kujo",
+        "url": "stores/collections/jojo/figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders",
+        "prix": 1,
+        "genre": ["Figurine"],
+        "taille": [],
+        "couleur": [],
+        "averageRating": 0,
+        "typeContenu": "En stock",
+        "quantite": 1
+      }
+    ]
+  },
+  {
+    "image": [
+      "/assets/boutiques/figurines/aot/4573102669797_attack-on-titan-eren-jaeger-mikasa-ackermann-armin-arlert-ichibansho-figure-set_1.jpg"
+    ],
+    "titre": "L'Attaque des Titans - Eren Jaeger, Mikasa Ackermann, Armin Arlet Ichibansho Figurine",
+    "url": "stores/collections/aot/attack-on-titan-eren-jaeger-mikasa-ackermann-armin-arlert-ichibansho-figure",
+    "prix": 39.99,
+    "genre": ["Figurine", "New"],
+    "description": "Figurine qui représente nos trois héros de la série enfants avec leur rêve plein les yeux",
+    "taille": [],
+    "couleur": [],
+    "averageRating": 0,
+    "typeContenu": "En stock",
+    "quantite": 6,
+    "articleRecommander": [
+      {
+        "image": [
+          "/assets/boutiques/figurines/kenlesurvivant/4582638235604_figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders-action-primary.jpg"
+        ],
+        "titreReco": "JoJo's Bizarre Adventure - Jotaro Kujo",
+        "url": "stores/collections/jojo/figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders",
+        "prix": 1,
+        "genre": ["Figurine"],
+        "taille": [],
+        "couleur": [],
+        "averageRating": 0,
+        "typeContenu": "En stock",
+        "quantite": 1
+      }
+    ]
+  },
+  {
+    "image": [""],
+    "titre": "",
+    "url": "",
+    "prix": 1,
+    "genre": [""],
+    "description": "",
+    "taille": [""],
+    "couleur": [""],
+    "averageRating": 0,
+    "typeContenu": "",
+    "quantite": 1,
+    "articleRecommander": [
+      {
+        "image": [""],
+        "titreReco": "",
+        "url": "",
+        "prix": 1,
+        "genre": [""],
+        "taille": [""],
+        "couleur": [""],
+        "averageRating": 0,
+        "typeContenu": "",
+        "quantite": 1
+      }
+    ]
+  }
 ]

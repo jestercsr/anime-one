@@ -41,7 +41,7 @@ export default function PageFilmAdmin() {
           return(
             <div key={films.id} className=" bg-slate-50 rounded-lg shadow-lg overflow-hidden">
               <div className="w-full">
-              <Link href={films.url}>
+              <Link href={`/manga/`+films.manga+`/`+films.type+`/`+films.url}>
                 <img src={films.image} className="object-cover"/>
                 </Link>
               </div>

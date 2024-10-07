@@ -4,7 +4,7 @@
 
 Voir le site :[https://anime-one-project.vercel.app/](https://anime-one-project.vercel.app/)
 
-Ce projet utilise [Next.js](https://nextjs.org/) crée avec la commande [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Ce projet utilise [Next.js](https://nextjs.org/) crée avec la commande [`npx create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Outil
 

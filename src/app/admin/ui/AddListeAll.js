@@ -48,27 +48,27 @@ export default function AddListeAll() {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)} className="text-sm md:text-base lg:text-md xl:text-lg p-8 bg-gray-100 w-[90%] md:w-[60%] lg:w-[80%] m-auto rounded-xl text-sky-950">
-        <div className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]">
-          <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+        <div className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]">
+          <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             id="image"
             placeholder="Image d'Affiche"
             {...register("image")}
           />
 
-          <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             id="name"
             placeholder="Nom"
             {...register("name", { required: true })}
           />
 
-          <input id="url" placeholder="Lien (Url)" {...register("url")} className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]" />
+          <input id="url" placeholder="Lien (Url)" {...register("url")} className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]" />
         </div>
 
         <div>
           <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">Genre</h5>
           {categorieFields.map((item, index) => (
             <div key={item.id}>
-              <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                 {...register(`categorie.${index}`)}
                 defaultValue={item.value}
               />
@@ -86,7 +86,7 @@ export default function AddListeAll() {
           <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">Anime Type</h5>
           {animeFields.map((item, index) => (
             <div key={item.id}>
-              <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                 {...register(`anime.${index}`)}
                 defaultValue={item.value}
                 placeholder="Films, Series ou Scans"
@@ -105,7 +105,7 @@ export default function AddListeAll() {
           <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">Type Categories</h5>
           {typeCategorieFields.map((item, index) => (
             <div key={item.id}>
-              <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              <input className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                 {...register(`typeCategorie.${index}`)}
                 defaultValue={item.value}
                 placeholder="Recommander, Anime et Scan Trending, Movie Recommander"

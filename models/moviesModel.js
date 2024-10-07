@@ -16,6 +16,16 @@ if (mongoose.models.moviesAll) {
       description: String,
       production: [String],
       studio: [String],
+      videos: String,
+      manga: String,
+      type: String,
+      classNav: String,
+      backNav: String,
+      searchNav: String,
+      listeSearchNav: String,
+      titre: String,
+      rating: Number,
+      saison: Number,
     },
     { timestamps: true }
   );

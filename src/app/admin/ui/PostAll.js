@@ -5,6 +5,7 @@ import { useForm, useFieldArray } from "react-hook-form";
 export default function PostAll() {
   const { register, handleSubmit, control, reset } = useForm();
   const [animationField, setAnimationFields] = useState([]);
+  const [countdown, setCountdown] = useState(8);
 
   const {
     fields: animationFields,
@@ -34,7 +35,6 @@ export default function PostAll() {
   });
 
   const onSubmit = async (data) => {
-    console.log("Données envoyés:", data);
 
     const response = await fetch("/api/mangas", {
       method: "POST",
@@ -121,49 +121,51 @@ export default function PostAll() {
         <input
           {...register("slug")}
           placeholder="Identifiant (slug)"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
         />
         <input
           {...register("imageTop")}
           placeholder="Image Top"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
         />
         <input
           {...register("navClass")}
           placeholder="Navbar CSS (bg - text)"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
         />
         <input
           {...register("back")}
           placeholder="Background CSS (bg)"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
         />
         <input
           {...register("search")}
           placeholder="Barre de recherche CSS"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
         />
         <input
           {...register("listeSearch")}
           placeholder="Liste Barre de recherche CSS"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
-        /><br />
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
+        />
+        <br />
 
         {imageShowFields.map((imageShow, index) => (
           <div key={imageShow.id} className="mt-2">
             <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-              Info Manga (Episodes, Films, Scans, API) :
+              Info Manga (Series, Films, Scans, API) :
             </h5>
             <input
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
               {...register(`imageShow.${index}.img`)}
               placeholder="Image"
             />
             <input
               {...register(`imageShow.${index}.url`)}
               placeholder="Lien"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
+            <br />
             <button
               type="button"
               onClick={() => removeImageShow(index)}
@@ -185,7 +187,7 @@ export default function PostAll() {
         <input
           {...register("titre")}
           placeholder="Titre CSS (text)"
-          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+          className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
         />
         <br />
 
@@ -197,17 +199,17 @@ export default function PostAll() {
             <input
               {...register(`imageCarousel.${index}.image`)}
               placeholder="Image Manga Recommander"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`imageCarousel.${index}.name`)}
               placeholder="Nom Manga Recommander"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`imageCarousel.${index}.url`)}
               placeholder="Lien Manga Recommander"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <br />
             <button
@@ -236,53 +238,53 @@ export default function PostAll() {
             <input
               {...register(`animation.${animationIndex}.animeId`)}
               placeholder="Anime ID"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`animation.${animationIndex}.anime_imageTop`)}
               placeholder="Anime-Image Top"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`animation.${animationIndex}.classNav`)}
               placeholder="Navbar CSS (bg - text)"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`animation.${animationIndex}.backNav`)}
               placeholder="Background CSS (bg)"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`animation.${animationIndex}.searchNav`)}
               placeholder="Barre de recherche CSS Anime"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
             <input
               {...register(`animation.${animationIndex}.listeSearchNav`)}
               placeholder="Liste Barre de recherche Anime CSS"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
 
             <div className="m-3">
               {animation.imageSee?.map((imageSee, imageSeeIndex) => (
                 <div key={imageSeeIndex}>
                   <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                    Info Animation-Manga (Episodes, Films, Scans) :
+                    Info Animation-Manga (Series, Films, Scans) :
                   </h5>
                   <input
                     {...register(
                       `animation.${animationIndex}.imageSee.${imageSeeIndex}.images`
                     )}
                     placeholder="Image See"
-                    className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                    className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                   />
                   <input
                     {...register(
                       `animation.${animationIndex}.imageSee.${imageSeeIndex}.href`
                     )}
                     placeholder="Href"
-                    className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                    className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                   />
                   <button
                     type="button"
@@ -307,7 +309,7 @@ export default function PostAll() {
             <input
               {...register(`animation.${animationIndex}.anime_titre`)}
               placeholder="Anime-Titre CSS (text)"
-              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+              className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
             />
 
             <div>
@@ -322,21 +324,21 @@ export default function PostAll() {
                         `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_image`
                       )}
                       placeholder="Anime Image"
-                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                     />
                     <input
                       {...register(
                         `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_name`
                       )}
                       placeholder="Anime Name"
-                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                     />
                     <input
                       {...register(
                         `animation.${animationIndex}.anime_imageCarousel.${animeImageIndex}.anime_href`
                       )}
                       placeholder="Anime Href"
-                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-red-600 focus:border-2 outline-none px-[5px]"
+                      className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
                     />
                     <br />
                     <button

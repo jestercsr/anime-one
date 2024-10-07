@@ -6,7 +6,6 @@ import {
   FaTv,
   FaTable,
   FaSearch,
-  FaUserCircle,
 } from "react-icons/fa";
 import { useProfile } from "../../../../providers/ProfileContext";
 import { useEffect, useState } from "react";
@@ -15,6 +14,7 @@ import { Twirl as Hamburger } from "hamburger-react";
 import ReactLoading from "react-loading";
 import { getListeAll } from "../../../../_actions/postAction";
 import { useAvatar } from "../../../../providers/AvatarContext";
+import { TfiUser } from "react-icons/tfi";
 
 export default function Topbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +65,7 @@ export default function Topbar() {
       <div>
         <ReactLoading
           type="bubbles"
-          color="#ffffff"
+          color="#4f46e5"
           height={"30px"}
           width={"30px"}
         />
@@ -132,7 +132,7 @@ export default function Topbar() {
               )}
             </div>
           ) : (
-            <FaUserCircle className="text-gray-500 hidden lg:block" />
+            <TfiUser className="text-3xl" />
           )}
         </section>
       </div>
@@ -213,7 +213,7 @@ export default function Topbar() {
                   )}
                 </div>
               ) : (
-                <FaUserCircle className="text-gray-500" />
+                <TfiUser className="text-3xl" />
               )}
             </nav>
           </div>

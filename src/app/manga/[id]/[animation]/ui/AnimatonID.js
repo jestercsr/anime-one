@@ -6,7 +6,7 @@ import Link from "next/link";
 import Navbar from "@/app/accueil/ui/NavBar";
 import Footer from "@/app/ui/Footer";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
-import ReactLoading from 'react-loading';
+import ReactLoading from "react-loading";
 
 const formatTitle = (string) => {
   if (!string) return "";
@@ -75,10 +75,19 @@ export default function PageAnimeID({ props, animation }) {
   };
 
   if (loading) {
-    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
+    return (
+      <div>
+        <ReactLoading
+          type="bubbles"
+          color="#ffffff"
+          height={"3%"}
+          width={"3%"}
+        />
+      </div>
+    );
   }
 
-  if (animation === "episodes") {
+  if (animation === "series") {
     const {
       backNav,
       classNav,
@@ -91,7 +100,11 @@ export default function PageAnimeID({ props, animation }) {
     } = data.animation[1];
     return (
       <div className={backNav + ` min-h-screen`}>
-        <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
+        <Navbar
+          className={classNav}
+          liste={searchNav}
+          listing={listeSearchNav}
+        />
         <div className="h-4/5 justify-center m-auto flex">
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
         </div>
@@ -102,7 +115,7 @@ export default function PageAnimeID({ props, animation }) {
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
-              <Link href={select.href}>
+              <Link href={`series/` + select.href}>
                 <img
                   src={select.images}
                   alt={select.href}
@@ -124,7 +137,11 @@ export default function PageAnimeID({ props, animation }) {
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
-          <Carousel responsive={responsive} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
+          <Carousel
+            responsive={responsive}
+            swipeable={true}
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+          >
             {anime_imageCarousel?.map((select, indice) => (
               <div
                 className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
@@ -161,7 +178,11 @@ export default function PageAnimeID({ props, animation }) {
     } = data.animation[2];
     return (
       <div className={backNav + ` min-h-screen`}>
-        <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
+        <Navbar
+          className={classNav}
+          liste={searchNav}
+          listing={listeSearchNav}
+        />
         <div className="h-4/5 justify-center m-auto flex">
           <img src={anime_imageTop} className="w-9/12 h-5/6" />
         </div>
@@ -172,7 +193,7 @@ export default function PageAnimeID({ props, animation }) {
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
-              <Link href={select.href}>
+              <Link href={`scans/` + select.href}>
                 <img
                   src={select.images}
                   alt={select.href}
@@ -195,7 +216,11 @@ export default function PageAnimeID({ props, animation }) {
 
         <div className="my-px">
           <h2 className={anime_titre}>A voir également</h2>
-          <Carousel responsive={responsive} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
+          <Carousel
+            responsive={responsive}
+            swipeable={true}
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+          >
             {anime_imageCarousel?.map((select, indice) => (
               <div
                 className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
@@ -233,7 +258,7 @@ export default function PageAnimeID({ props, animation }) {
   } = data.animation[0];
   return (
     <div className={backNav + ` min-h-screen`}>
-      <Navbar className={classNav} liste={searchNav} listing={listeSearchNav}/>
+      <Navbar className={classNav} liste={searchNav} listing={listeSearchNav} />
       <div className="h-4/5 justify-center m-auto flex">
         <img src={anime_imageTop} className="w-9/12 h-5/6" />
       </div>
@@ -241,7 +266,7 @@ export default function PageAnimeID({ props, animation }) {
       <section className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid xs:grid-cols-1 md:grid md:grid-cols-3 md:gap-4 md:items-center xl:grid xl:grid-cols-4">
         {imageSee?.map((select, i) => (
           <div className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8" key={i}>
-            <Link href={select.href}>
+            <Link href={`films/` + select.href}>
               <img
                 src={select.images}
                 alt={select.href}
@@ -264,7 +289,11 @@ export default function PageAnimeID({ props, animation }) {
 
       <div className="my-px">
         <h2 className={anime_titre}>A voir également</h2>
-        <Carousel responsive={responsive} swipeable={true} removeArrowOnDeviceType={["tablet", "mobile"]}>
+        <Carousel
+          responsive={responsive}
+          swipeable={true}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
+        >
           {anime_imageCarousel?.map((select, indice) => (
             <div
               className="text-[9px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"

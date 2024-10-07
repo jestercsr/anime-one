@@ -36,7 +36,7 @@ export default function Sidebar() {
     }
   ]
   return (
-    <div className="hidden w-64 hover:text-slate-50 z-50 bg-indigo-800 text-white lg:flex flex-col">
+    <div className="hidden w-64 hover:text-slate-50 z-50 bg-indigo-800 text-white lg:flex flex-col lg:fixed lg:h-full">
       <div className="p-4 text-lg font-bold">Dashboard</div>
       <nav className="mt-5 flex-1">
         {side.map((sides, i) => {

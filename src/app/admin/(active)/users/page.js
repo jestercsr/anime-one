@@ -31,7 +31,7 @@ export default function PageUserAdmin() {
       <div>
         <ReactLoading
           type="bubbles"
-          color="#ffffff"
+          color="#4f46e5"
           height={"30px"}
           width={"30px"}
         />
@@ -57,7 +57,6 @@ export default function PageUserAdmin() {
               <th className="py-2">Nom</th>
               <th className="py-2">Prénom</th>
               <th className="py-2">Email</th>
-              <th className="py-2">Adresse</th>
               <th className="py-2">Téléphone</th>
               <th className="py-2">Date de naissance</th>
               <th className="py-2">Role</th>
@@ -71,7 +70,6 @@ export default function PageUserAdmin() {
                 <td className="border px-4 py-2">{user.nom}</td>
                 <td className="border px-4 py-2">{user.prenom}</td>
                 <td className="border px-4 py-2">{user.email}</td>
-                <td className="border px-4 py-2">{user.adresse}</td>
                 <td className="border px-4 py-2">{user.phone}</td>
                 <td className="border px-4 py-2">
                   {new Date(user.date_naissance).toLocaleDateString()}

@@ -9,9 +9,13 @@ export default function PageInscritComplet() {
     id: "",
     prenom: "",
     nom: "",
-    adresse: "",
     phone: "",
     date_naissance: "",
+    numero_rue: "",
+    voie: "",
+    code_postal: "",
+    ville: "",
+    pays: "",
     nom_carte: "",
     numero_carte: "",
     expiration: "",
@@ -40,8 +44,6 @@ export default function PageInscritComplet() {
 
     if (res.ok) {
       saveSignupData(formData);
-      console.log(saveSignupData);
-
       router.push("/authentification");
     } else {
       const errorData = await res.json();
@@ -56,8 +58,8 @@ export default function PageInscritComplet() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-b from-sky-600 to-cyan-900">
-      <div className="bg-gray-200 p-8 rounded-lg shadow-lg max-w-4xl w-full">
+    <div style={{ backgroundImage: "url('/assets/bgAuth.webp')" }} className="flex justify-center items-center min-h-screen">
+      <div className="bg-gradient-to-b from-sky-600 to-cyan-900 p-8 rounded-lg shadow-lg max-w-4xl w-full">
         <p className="text-red-600 text-2xl text-center">! Veuillez ne pas indiquez vos réelles informations personnelles, se site est un projet scolaire !</p>
         <div>
           <form onSubmit={handleSubmit}>
@@ -91,12 +93,45 @@ export default function PageInscritComplet() {
                   onChange={handleInputChange}
                   required
                 />
+                <h2>Adresse: </h2>
+                <input
+                  type="number"
+                  name="numero_rue"
+                  placeholder="Numéro de Rue"
+                  className="w-full p-2 mb-4 border rounded"
+                  value={formData.numero_rue}
+                  onChange={handleInputChange}
+                />
                 <input
                   type="text"
-                  name="adresse"
-                  placeholder="Adresse"
+                  name="voie"
+                  placeholder="Voie"
                   className="w-full p-2 mb-4 border rounded"
-                  value={formData.adresse}
+                  value={formData.voie}
+                  onChange={handleInputChange}
+                />
+                <input
+                  type="text"
+                  name="code_postal"
+                  placeholder="Code Postal"
+                  className="w-full p-2 mb-4 border rounded"
+                  value={formData.code_postal}
+                  onChange={handleInputChange}
+                />
+                <input
+                  type="text"
+                  name="ville"
+                  placeholder="Ville"
+                  className="w-full p-2 mb-4 border rounded"
+                  value={formData.ville}
+                  onChange={handleInputChange}
+                />
+                <input
+                  type="text"
+                  name="pays"
+                  placeholder="Pays"
+                  className="w-full p-2 mb-4 border rounded"
+                  value={formData.pays}
                   onChange={handleInputChange}
                 />
                 <input
@@ -112,12 +147,12 @@ export default function PageInscritComplet() {
               <div>
                 <h2 className="text-xl font-semibold mb-4">Paiement</h2>
                 <div className="bg-white p-4 rounded-lg shadow-md mb-4">
-                  <div className="flex justify-between items-center mb-4">
+                  <div className="bg-gradient-to-b from-greener-950 to-emeralder-900 text-slate-50 flex justify-between items-center mb-4">
                     <div>
-                    <h3 className="text-lg font-bold">{offreUser.nom}</h3>
-                    <p>{offreUser.prix}€</p>
+                      <h3 className="text-lg font-bold">{offreUser.nom}</h3>
+                      <p>{offreUser.prix}€</p>
                     </div>
-                    <button className="text-blue-600 font-semibold" onClick={handleChangeOffre}>
+                    <button className="font-semibold" onClick={handleChangeOffre}>
                       Changer
                     </button>
                   </div>
