@@ -5,6 +5,7 @@
 - [x] Boruto
 - [x] One Piece
 - [x] Dragon Ball
+- [x] Dragon Ball Daima
 - [x] Bleach
 - [x] JJK
 - [x] Snk
@@ -90,7 +91,28 @@
 - [x] Black Butler
 - [x] Black summoner
 - [x] Les Carnets de l'Apothicaire
-
+- [x] Code Breaker
+- [x] Cheat skill level
+- [x] Chivalry of a failed knights
+- [x] Demon slave
+- [x] Doubt
+- [x] Charlotte
+- [x] Dragon ball GT
+- [x] Days
+- [x] Dragon ball Super
+- [x] Death March to the Parallel World Rhapsody
+- [x] No Longer Allowed in Another World
+- [x] Code Geass: Rozé of the Recapture
+- [x] Classroom for Heroes
+- [x] Reincarnated as an Aristocrat with an appraisal skill
+- [x] The Do-Over Damsel Conquers the Dragon Emperor
+- [x] D.Gray-Man
+- [x] Demon lord, retry
+- [x] 7th Time Loop
+- [x] The Demon Sword Master of Excalibur Academy
+- [x] Accel world
+- [x] The 8th Son
+- [x] Bucchigiri?!
 
 
 
@@ -102,18 +124,14 @@
 
 - [ ] God of high school
 
-
 - [ ] Hell's paradise
 
 - [ ] Kenshin le vagabon
 
 
-
-
 - [ ] Mob psycho
 
 - [ ] Steins;gate
-
 
 - [ ] Edens zero
 - [ ] Monster
@@ -130,11 +148,7 @@
 - [ ] Tokyo revengers
 - [ ] Solo leveling
 
-- [ ] Demon slave
-- [ ] Doubt
 - [ ] Gambling school kakeguri
-
-- [ ] Charlotte
 
 - [ ] Hokuto no ken
 - [ ] Inuyasha
@@ -151,8 +165,6 @@
 - [ ] Isekai Shoukan wa Nidome Desu
 - [ ] How Not to Summon a Demon Lord
 - [ ] Isekai Cheat Magician
-- [ ] Death March to the Parallel World Rhapsody
-- [ ] The Demon Sword Master of Excalibur Academy
 
 - [ ] The Familiar of Zero
 - [ ] So I'm a Spider, So What?
@@ -167,17 +179,14 @@
 - [ ] How a Realist Hero Rebuilt the Kingdom
 - [ ] I'm Quitting Heroing
 
-
-
 - [ ] The Unwanted Undead Adventurer
 
 - [ ] Sailor Moon
 
-
 - [ ] Seraph of the End
 - [ ] Psycho Pass
 - [ ] Re Creator
-- [ ] Code Geass: Rozé of the Recapture
+
 - [ ] Gintama
 - [ ] Neon Genesis Evangelion
 - [ ] Ghost in the Shell
@@ -197,15 +206,12 @@
 
 - [ ] Suicide Squad ISEKAI
 
-- [ ] Bucchigiri?!
 - [ ] Sengoku Youko
 
-
-- [ ] No Longer Allowed in Another World
 - [ ] The Ossan Newbie Adventurer
 - [ ] Tasuketsu: Fate of the Majority
 - [ ] Villainess Level 99
-- [ ] Classroom for Heroes
+
 - [ ] Wistoria: Wand and Sword
 
 - [ ] The Great Cleric
@@ -232,5 +238,74 @@
 - [ ] Hikaru no go
 - [ ] Tekken: Bloodline
 - [ ] Hybrid x Heart Magias Academy Ataraxia
-- [ ] 
+- [ ] Tales of wedding rings
+
+- [ ] Shangri la frontier
+- [ ] SAO gun gun online
+- [ ] Uzumaki 
+- [ ] Ranma 1/2
+- [ ] Noble New World Adventures
+- [ ] Astro Note
+- [ ] Jinki: Extend
+- [ ] Dungeon People
+- [ ] Synduality noir
+- [ ] Darker than black
+- [ ] Kabaneri of the Iron Fortress
+- [ ] Sacred Seven
+- [ ] Criminelles Fiançailles
+- [ ] Viral hit
+- [ ] I'll Become a Villainess That Will Go Down in History
+- [ ] True beauty
+- [ ] Toriko
+- [ ] Studio Ghibli
+- [ ] The Strongest Sage with the Weakest Crest
+- [ ] Sand land
+- [ ] Ranking of Kings
+- [ ] I Parry Everything
+- [ ] The Most Notorious `Talker`
+- [ ] NieR:Automata
+- [ ] Mysterious Disappearances
+- [ ] You Are Ms. Servant
+- [ ] MF Ghost
+- [ ] Made in Abyss
+- [ ] Loner Life in Another World
+- [ ] Log Horizon
+- [ ] I've Been Killing Slimes for 300 Years and Maxed Out My Level
+- [ ] My Instant Death Ability Is So Overpowered
+- [ ] The Healer Who was Banished From His Party is Actually the Strongest
+- [ ] Mobile Suit Gundam
+- [ ] Let This Grieving Soul Retire
+- [ ] By The Grace Of The Gods
+- [ ] Gods Game We Play
+- [ ] The Fruit of Evolution
+- [ ] Food Wars
+- [ ] Firefighter Daigo
+- [ ] Fate/Stay Night
+- [ ] Dragon raja
+
+
+- [ ] Date a Live
+- [ ] The Banished Former Hero Lives as He Pleases
+- [ ] Cowboy Bebop
+- [ ] Nana
+- [ ] Chillin' in Another World with Level 2
+- [ ] Cat's Eye
+- [ ] Bye Bye, Earth
+- [ ] Bofuri
+- [ ] Banished From The Hero's Party
+- [ ] Albator
+
+
+- [ ] 365 Days to the Wedding
+
+- [ ] The Legendary Hero Is Dead
+- [ ] The Master of Ragnarok & Blesser of Einherjar
+- [ ] Reign of the Seven Spellblades
+- [ ] Fruits Basket
+- [ ] Harem in the Labyrinth of Another World
+- [ ] Sengoku Night Blood
+- [ ] Shirayuki aux cheveux rouges
+- [ ] World's End Harem
+- [ ] Yona: Princesse de l'aube
+- [ ] No Game No Life
 

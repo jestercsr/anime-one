@@ -3,7 +3,7 @@
 export function BouttonForm(props) {
   return (
     <div>
-      <button className="w-[80%] md:w-[60%] laptop:w-2/4 relative flex m-auto mt-2.5 rounded-2xl bg-sky-800">
+      <button className="w-[95%] md:w-[60%] laptop:w-2/4 relative flex m-auto mt-2.5 rounded-2xl bg-sky-800">
         <img
           src={props.image} alt={props.alt}
           className="items-center opacity-0 transition easi-in duration-500 rounded-2xl justify-center hover:opacity-100 "

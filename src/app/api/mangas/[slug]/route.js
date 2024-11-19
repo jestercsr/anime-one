@@ -1,3 +1,14 @@
+/**
+ * Modifier les données d'n manga
+ * @param {string} slug - Les données modifier a envoyer à la BDD
+ * @returns {message} - Les données ont bien été modifier
+ * Récuperer les données d'un manga en fonction de son nom (ID)
+ * @param {string} slug - Le nom du manga en minuscule
+ * @returns {object} - Les données du manga sélectionné
+ * Supprimer un manga par son nom (ID)
+ * @param {string} slug - Le nom du manga en minuscule
+ * @returns {message} Les données du manga qui a se nom là ont été supprimer définitivement
+ */
 import { NextResponse } from "next/server";
 import connectDB from "../../../../../config/database";
 import MangaModel from "../../../../../models/mangaModel";

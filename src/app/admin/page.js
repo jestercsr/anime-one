@@ -5,6 +5,7 @@ import DeleteAll from "./ui/DeleteAll";
 import AddListeAll from "./ui/AddListeAll";
 import UpdateAll from "./ui/UpdateAll";
 import { getManga } from "../../../_actions/postAction";
+import PostProduit from "./ui/PostProduit";
 
 export default function PageAdmin() {
   const [showDeleteForm, setShowDeleteForm] = useState(false);
@@ -59,6 +60,16 @@ export default function PageAdmin() {
           </h3>
           {showDeleteForm && <DeleteAll />}
         </div>
+      </div>
+      <h2 className="text-[26px] text-indigo-600">Gestion des Contenus Produits</h2>
+      <div className="grid lg:grid-cols-2">
+        <div>
+          <h3 className="text-2xl text-gray-700 underline mb-2 hover:text-green-600">
+            Ajouter un produit
+          </h3>
+          <PostProduit />
+        </div>
+        <div></div>
       </div>
     </div>
   );

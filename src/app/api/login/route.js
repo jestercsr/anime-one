@@ -1,4 +1,12 @@
 "use server";
+/**
+ * Récuperer les données d'un utilisateur en fonction de son email, mot de passe
+ * @param {string} req - Données récuperer de l'utilisateur
+ * @returns {object} - Les données de l'utilisateur sont envoyés a la page
+ * Modifier les données d'un utilisateur en le marquant qu'il est supprimé
+ * @param {number} userId - ID de l'utilisateur qui est connecté
+ * @returns {message} - L'utilisateur a été modifier pour qu'il apparaisse comme supprimé
+ */
 import bcrypt from "bcryptjs";
 import { NextResponse } from 'next/server';
 import { prisma } from "../../../../config/database";

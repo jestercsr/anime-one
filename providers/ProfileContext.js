@@ -19,6 +19,7 @@ export const ProfileProvider = ({ children }) => {
     const storedSignupData = localStorage.getItem("signupData");
     const storedLoginData = localStorage.getItem("loginData");
     const storedUserId = localStorage.getItem("userId");
+    setUserProfile(storedUserId ? parseInt(storedUserId, 10) : 0);
 
     if (storedProfile) {
       setSelectedProfile(JSON.parse(storedProfile));
@@ -105,10 +106,9 @@ export const ProfileProvider = ({ children }) => {
   };
 
   const logout = () => {
-    setSelectedProfile(null);
-    setSelectedAccount(null)
     clearSignupData();
     clearLoginData();
+    setUserProfile(0);
     localStorage.removeItem("selectedProfile");
     localStorage.removeItem("selectedAccount");
     localStorage.removeItem("userId");

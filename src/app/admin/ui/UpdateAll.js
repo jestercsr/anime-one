@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import ReactLoading from "react-loading";
 
@@ -6,6 +7,7 @@ export default function UpdateAll() {
   const [slug, setSlug] = useState("");
   const [manga, setManga] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter()
 
   const handleSearch = async (e) => {
     e.preventDefault();
@@ -36,6 +38,7 @@ export default function UpdateAll() {
 
     if (res.ok) {
       alert("Manga updated successfully");
+      router.push(`/admin`)
     } else {
       alert("Failed to update manga");
     }
@@ -206,7 +209,7 @@ export default function UpdateAll() {
           {manga.imageShow.map((imgObj, index) => (
             <div key={index} className="mt-2">
               <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                Info Manga (Series, Films, Scans, API) :
+                {`Info Manga (Series, Films, Scans, API) ${index + 1}:`}
               </h5>
               <label>
                 Image :
@@ -263,7 +266,7 @@ export default function UpdateAll() {
           {manga.imageCarousel.map((carouselObj, index) => (
             <div key={index}>
               <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                Info Manga Recommander (Max 8) :
+                {`Info Manga Recommander (Max 8) ${index + 1}:`}
               </h5>
               <label>
                 Image Manga Recommander :
@@ -336,7 +339,7 @@ export default function UpdateAll() {
           {manga.animation.map((animeObj, index) => (
             <div key={index}>
               <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                Info Animation-Manga :
+                {`Info Animation-Manga ${index + 1}:`}
               </h5>
               <label>
                 Anime ID :
@@ -444,7 +447,7 @@ export default function UpdateAll() {
                 {animeObj.imageSee.map((imgSeeObj, imgIndex) => (
                   <div key={imgIndex}>
                     <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                      Info Animation-Manga (Series, Films, Scans) :
+                      {`Info Animation-Manga (Series, Films, Scans) ${imgIndex + 1}:`}
                     </h5>
                     <label>
                       Image See :
@@ -523,7 +526,7 @@ export default function UpdateAll() {
                   (animeCarouselObj, carouselIndex) => (
                     <div key={carouselIndex}>
                       <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                        Info Contenu Manga Recommander (Max 8) :
+                        {`Info Contenu Manga Recommander (Max 8) ${carouselIndex + 1}:`}
                       </h5>
                       <label>
                         Anime Image :

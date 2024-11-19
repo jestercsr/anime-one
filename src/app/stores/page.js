@@ -7,16 +7,21 @@ import Banner from "./ui/Banner";
 import Widgets from "./ui/Widgets";
 import Newslater from "./ui/Newslater";
 import Footer from "./ui/E_Footer";
+import AllProduct from "./ui/AllProduct";
 
 export default function PageStores() {
   return (
-    <div className="bg-gray-100">
+    <div>
       <E_Navbar />
       <Slider />
       <Features />
+      <h2 className="text-[30px] text-center lg:text-[50px] my-10 text-sky-700 font-extrabold">
+        Nouveaux Arrivages
+      </h2>
       <Products />
       <Banner />
       <Widgets />
+      <AllProduct />
       <Newslater />
       <Footer />
     </div>

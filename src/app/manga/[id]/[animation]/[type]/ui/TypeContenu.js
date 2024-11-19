@@ -43,9 +43,19 @@ const Breadcrumb = ({ color }) => {
   );
 };
 
+const truncateText = (text, wordLimit) => {
+  const words = text.split(' ');
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(' ') + '...';
+  }
+  return text;
+};
+
 export default function TypeContenu({ props, animation, type }) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [showFullText, setShowFullText] = useState(false);
+  const limitMot = 25;
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -81,14 +91,33 @@ export default function TypeContenu({ props, animation, type }) {
 
   if (animation === "scans") {
     return (
-      <div>
+      <>
+      {data ? (
+      <div className={data.backNav + ` min-h-screen`}>
+        <Navbar
+        className={data.classNav}
+        liste={data.searchNav}
+        listing={data.listeSearchNav}
+        />
+        <Breadcrumb color={data.titre + ` text-[9px] md:text-sm`} />
         <p>HAHAHA</p>
       </div>
+    ): (
+        <div>
+          <Navbar className="bg-gradient-to-t from-yellow-500 to-orange-500 text-sky-900" liste="bg-gradient-to-t from-orange-500 to-yellow-500 text-sky-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0"/>
+          <div className="justify-center m-auto flex mb-20">
+            <img src="/assets/Soon.webp" className="w-full md:w-[50%]" />
+          </div>
+        </div>
+      )}
+      </>
     );
   }
 
   if (animation === "series") {
     return (
+      <>
+      {data? (
       <div className={data.backNav + ` min-h-screen`}>
       <Navbar
         className={data.classNav}
@@ -143,10 +172,17 @@ export default function TypeContenu({ props, animation, type }) {
         >
           <MdStars /> Synopsis
         </h2>
-        <p className={data.titre + ` text-md mt-5`}>{data.description}</p>
+        <p className={data.titre + ` text-md mt-5`}>{showFullText? data.description : truncateText(data.description, limitMot)}</p>
+        <button className={data.classNav + `mt-4 ml-4 p-1 hover:underline hover:bg-white/50 `} onClick={() => setShowFullText(!showFullText)}>
+          {showFullText ? 'Lire moins' : 'Lire plus'}
+        </button>
       </div>
-      <select className="m-auto">
-        <option value={data.episodes}>Episode {data.episodes}</option>
+        <select className="m-auto lg:ml-14">
+          {data.episodes.map((screen, i) => {
+            return(
+            <option key={i} value={screen}>Episode {screen}</option>
+          )
+        })}
       </select>
       <iframe
         src={data.videos}
@@ -157,10 +193,21 @@ export default function TypeContenu({ props, animation, type }) {
       />
       <Footer />
     </div>
+    ): (
+      <div>
+        <Navbar className="bg-gradient-to-t from-yellow-500 to-orange-500 text-sky-900" liste="bg-gradient-to-t from-orange-500 to-yellow-500 text-sky-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0"/>
+        <div className="justify-center m-auto flex mb-20">
+          <img src="/assets/Soon.webp" className="w-full md:w-[50%]" />
+        </div>
+      </div>
+    )}
+    </>
     );
   }
 
   return (
+    <>
+    {data? (
     <div className={data.backNav + ` min-h-screen`}>
       <Navbar
         className={data.classNav}
@@ -215,9 +262,12 @@ export default function TypeContenu({ props, animation, type }) {
         >
           <MdStars /> Synopsis
         </h2>
-        <p className={data.titre + ` text-md mt-5`}>{data.description}</p>
+        <p className={data.titre + ` text-md mt-5`}>{showFullText? data.description : truncateText(data.description, limitMot)}</p>
+        <button className="mt-4 text-blue-500 hover:underline" onClick={() => setShowFullText(!showFullText)}>
+          {showFullText ? 'Lire moins' : 'Lire plus'}
+        </button>
       </div>
-      <select className="m-auto">
+      <select className="m-auto lg:ml-14">
         <option value={data.name}>{data.name}</option>
       </select>
       <iframe
@@ -229,5 +279,14 @@ export default function TypeContenu({ props, animation, type }) {
       />
       <Footer />
     </div>
+    ): (
+      <div>
+        <Navbar className="bg-gradient-to-t from-yellow-500 to-orange-500 text-sky-900" liste="bg-gradient-to-t from-orange-500 to-yellow-500 text-sky-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0"/>
+        <div className="justify-center m-auto flex mb-20">
+          <img src="/assets/Soon.webp" className="w-full md:w-[50%]" />
+        </div>
+      </div>
+    )}
+    </>
   );
 }

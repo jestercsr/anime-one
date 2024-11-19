@@ -1,92 +1,423 @@
 [
   {
+    "_id": {
+      "$oid": "671281d6c2c162e7b1ad4133"
+    },
     "image": [
       "/assets/boutiques/figurines/kenlesurvivant/4582638216573_figure-kenshiro-muso-tensei-ver-fist-of-the-north-star-action-primary.jpg",
       "/assets/boutiques/figurines/kenlesurvivant/4582638216573_figure-kenshiro-muso-tensei-ver-fist-of-the-north-star-action-alta.jpg"
     ],
     "titre": "Fist of the North Star - Kenshiro (Muso Tensei Ver.)",
-    "url": "stores/collections/kenlesurvivant/figure-kenshiro-muso-tensei-ver-fist-of-the-north-star",
-    "prix": 1,
+    "url": "figure-kenshiro-muso-tensei-ver-fist-of-the-north-star",
+    "prix": 20.99,
+    "sale": null,
     "genre": ["Figurine"],
+    "manga": "kenlesurvivant",
     "description": "La figurine Fist of the North Star - Kenshiro (Muso Tensei Ver.) de Medicos Entertainment est un objet de collection très détaillé qui impressionnera à coup sûr tout fan de la populaire série animée et manga Ken le survivant.",
-    "taille": [],
+    "type": "Figurine d'action",
+    "taille": ["Taille Unique"],
     "couleur": [],
-    "averageRating": 0,
+    "averageRating": 4.2,
     "typeContenu": "En stock",
-    "quantite": 4,
-    "articleRecommander": [
-      {
-        "image": [
-          "/assets/boutiques/figurines/kenlesurvivant/4582638235604_figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders-action-primary.jpg"
-        ],
-        "titreReco": "JoJo's Bizarre Adventure - Jotaro Kujo",
-        "url": "stores/collections/jojo/figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders",
-        "prix": 1,
-        "genre": ["Figurine"],
-        "taille": [],
-        "couleur": [],
-        "averageRating": 0,
-        "typeContenu": "En stock",
-        "quantite": 1
-      }
-    ]
+    "quantite": 40,
+    "ratings": [],
+    "commentaires": []
   },
   {
+    "_id": {
+      "$oid": "671281d6c2c162e7b1ad4134"
+    },
     "image": [
       "/assets/boutiques/figurines/aot/4573102669797_attack-on-titan-eren-jaeger-mikasa-ackermann-armin-arlert-ichibansho-figure-set_1.jpg"
     ],
     "titre": "L'Attaque des Titans - Eren Jaeger, Mikasa Ackermann, Armin Arlet Ichibansho Figurine",
-    "url": "stores/collections/aot/attack-on-titan-eren-jaeger-mikasa-ackermann-armin-arlert-ichibansho-figure",
-    "prix": 39.99,
+    "url": "attack-on-titan-eren-jaeger-mikasa-ackermann-armin-arlert-ichibansho-figure",
+    "prix": 69.99,
+    "sale": null,
     "genre": ["Figurine", "New"],
+    "manga": "shingeki-no-kyojin",
     "description": "Figurine qui représente nos trois héros de la série enfants avec leur rêve plein les yeux",
-    "taille": [],
+    "type": "Figurine Non-Scale",
+    "taille": ["Taille Unique"],
     "couleur": [],
-    "averageRating": 0,
+    "averageRating": 3.8,
     "typeContenu": "En stock",
-    "quantite": 6,
-    "articleRecommander": [
-      {
-        "image": [
-          "/assets/boutiques/figurines/kenlesurvivant/4582638235604_figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders-action-primary.jpg"
-        ],
-        "titreReco": "JoJo's Bizarre Adventure - Jotaro Kujo",
-        "url": "stores/collections/jojo/figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders",
-        "prix": 1,
-        "genre": ["Figurine"],
-        "taille": [],
-        "couleur": [],
-        "averageRating": 0,
-        "typeContenu": "En stock",
-        "quantite": 1
-      }
-    ]
+    "quantite": 60,
+    "ratings": [],
+    "commentaires": []
   },
   {
-    "image": [""],
-    "titre": "",
-    "url": "",
-    "prix": 1,
-    "genre": [""],
+    "_id": {
+      "$oid": "671281d6c2c162e7b1ad4135"
+    },
+    "image": [
+      "/assets/boutiques/figurines/jojo/4582638235604_figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders-action-primary.jpg"
+    ],
+    "titre": "JoJo's Bizarre Adventure - Jotaro Kujo Stardust Crusaders",
+    "url": "figure-jotaro-kujo-ver-1-5-3rd-run-jojos-bizarre-adventure-part-3-stardust-crusaders",
+    "prix": 25.99,
+    "sale": null,
+    "genre": ["Figurine"],
+    "manga": "jojo-bizarre-adventure",
+    "description": "Figurine de Jotaro Kujo pendant la partie 3 Stardust Crusaders de Jojo's Bizarre Adventure",
+    "type": "Figurine d'action",
+    "taille": ["Taille Unique"],
+    "couleur": [],
+    "averageRating": 4.4,
+    "typeContenu": "En stock",
+    "quantite": 50,
+    "ratings": [],
+    "commentaires": []
+  },
+  {
+    "_id": {
+      "$oid": "671281d6c2c162e7b1ad4136"
+    },
+    "image": [
+      "/assets/boutiques/accessoires/attack-on-titan-scout-watch_1.webp",
+      "/assets/boutiques/accessoires/attack-on-titan-scout-watch_2.webp",
+      "/assets/boutiques/accessoires/attack-on-titan-scout-watch_3.webp"
+    ],
+    "titre": "L'Attaque des Titans - Montre Les Ailes de la Liberté",
+    "url": "attack-on-titan-scout-watch",
+    "prix": 89.99,
+    "sale": 59.99,
+    "genre": ["Accessoire"],
+    "manga": "shingeki-no-kyojin",
     "description": "",
-    "taille": [""],
+    "type": "Montre",
+    "taille": ["Taille Unique"],
+    "couleur": ["Marron"],
+    "averageRating": 3.2,
+    "typeContenu": "En stock",
+    "quantite": 40,
+    "ratings": [],
+    "commentaires": []
+  },
+  {
+    "_id": {
+      "$oid": "671281d6c2c162e7b1ad4137"
+    },
+    "image": [
+      "/assets/boutiques/accessoires/bioworld-backpacks-bags-dragon-ball-z-character-backpack-1.webp",
+      "/assets/boutiques/accessoires/bioworld-backpacks-bags-dragon-ball-z-character-backpack-2.webp"
+    ],
+    "titre": "Dragon Ball Z - Sac à Dos",
+    "url": "bioworld-backpacks-bags-dragon-ball-z-character-backpack",
+    "prix": 79.99,
+    "sale": null,
+    "genre": ["Accessoire"],
+    "manga": "dragon-ball",
+    "description": "Sac à dos Dragon Ball Z avec les personnages de la Z Team",
+    "type": "Sac à dos",
+    "taille": ["Taille Unique"],
+    "couleur": ["Noir"],
+    "averageRating": 2.5,
+    "typeContenu": "En stock",
+    "quantite": 30,
+    "ratings": [],
+    "commentaires": []
+  },
+  {
+    "_id": {
+      "$oid": "671a4b7084ef1c063a04f5e6"
+    },
+    "image": [
+      "/assets/boutiques/accessoires/bioworld-backpacks-bags-my-hero-academia-all-might-inspired-backpack-1.webp",
+      "/assets/boutiques/accessoires/bioworld-backpacks-bags-my-hero-academia-all-might-inspired-backpack-2.webp",
+      "/assets/boutiques/accessoires/bioworld-backpacks-bags-my-hero-academia-all-might-inspired-backpack-3.webp",
+      "/assets/boutiques/accessoires/bioworld-backpacks-bags-my-hero-academia-all-might-inspired-backpack-4.webp"
+    ],
+    "titre": "My Hero Academia - Sac à Dos inspiré d'All Might",
+    "url": "bioworld-backpacks-bags-my-hero-academia-all-might-inspired-backpack",
+    "prix": 69.99,
+    "sale": null,
+    "genre": ["New", "Accessoire"],
+    "manga": "my-hero-academia",
+    "description": "Sac à dos My Hero Academia inspiré de la tenue de All Might",
+    "type": "Sac à dos",
+    "taille": ["Taille Unique"],
+    "couleur": ["Bleu", "Rouge"],
+    "averageRating": 3.5,
+    "typeContenu": "En stock",
+    "quantite": 20,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-24T13:28:16.468Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-24T13:28:16.468Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671a64dc84ef1c063a04f5fc"
+    },
+    "image": [
+      "/assets/boutiques/accessoires/bioworld-hats-my-hero-academia-all-might-snap-back-1.webp",
+      "/assets/boutiques/accessoires/bioworld-hats-my-hero-academia-all-might-snap-back-2.webp",
+      "/assets/boutiques/accessoires/bioworld-hats-my-hero-academia-all-might-snap-back-3.webp"
+    ],
+    "titre": "My Hero Academia - Casquette All Might",
+    "url": "bioworld-hats-my-hero-academia-all-might-snap-back",
+    "prix": 39.99,
+    "sale": null,
+    "genre": ["Accessoire", "Vêtements"],
+    "manga": "my-hero-academia",
+    "description": "Casquette My Hero Academia avec le héros All Might en dessous de la casquette",
+    "type": "Casquette",
+    "taille": ["Taille Unique"],
+    "couleur": ["Bleu"],
+    "averageRating": 4.1,
+    "typeContenu": "En stock",
+    "quantite": 10,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-24T15:16:44.757Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-24T15:16:44.757Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6721604ed36dd5d3cec6828c"
+    },
+    "image": [
+      "/assets/boutiques/accessoires/bioworld-wallets-naruto-shippuden-akatsuki-bi-fold-wallet-1.webp",
+      "/assets/boutiques/accessoires/bioworld-wallets-naruto-shippuden-akatsuki-bi-fold-wallet-2.webp",
+      "/assets/boutiques/accessoires/bioworld-wallets-naruto-shippuden-akatsuki-bi-fold-wallet-3.webp"
+    ],
+    "titre": "Naruto - Porte monnaie Akatsuki",
+    "url": "bioworld-wallets-naruto-shippuden-akatsuki-bi-fold-wallet",
+    "prix": 15.99,
+    "sale": null,
+    "genre": ["Accessoire", "New"],
+    "manga": "naruto",
+    "description": "Porte monnaie avec un design inspiré de l'organisation criminelle de l'univers Naruto, l'Akatsuki.",
+    "type": "Porte monnaie",
+    "taille": ["Taille Unique"],
+    "couleur": ["Marron"],
+    "averageRating": 2.9,
+    "typeContenu": "Précommande",
+    "quantite": 20,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-29T22:23:10.378Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T22:23:10.378Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "672161c5d36dd5d3cec68294"
+    },
+    "image": ["/assets/boutiques/accessoires/bleach-kisuke-bucket-hat_1.webp"],
+    "titre": "Bleach - Bob de Kisuke Urahara",
+    "url": "bleach-kisuke-bucket-hat",
+    "prix": 29.99,
+    "sale": 25.99,
+    "genre": ["New", "Accessoire", "Vêtements"],
+    "manga": "bleach",
+    "description": "Bob mystique du personnage Kisuke Urahara dans la série Bleach",
+    "type": "Bob",
+    "taille": ["Taille Unique"],
+    "couleur": ["Blanc", "Vert"],
+    "averageRating": 3.5,
+    "typeContenu": "En stock",
+    "quantite": 15,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-29T22:29:25.503Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T22:29:25.503Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "672162e7d36dd5d3cec68296"
+    },
+    "image": ["/assets/boutiques/accessoires/chainsaw-man-denki-torse-1.webp"],
+    "titre": "Chainsaw Man - Chaîne du torse de Denji",
+    "url": "chainsaw-man-denki-torse-accessoire",
+    "prix": 89.99,
+    "sale": null,
+    "genre": ["New", "Accessoire"],
+    "manga": "chainsaw-man",
+    "description": "Chaîne qui représente le torse du personnage principal de Chainsaw Man, Denji après avoir fusionné avec Pochita",
+    "type": "Chaîne",
+    "taille": ["Taille Unique"],
     "couleur": [""],
-    "averageRating": 0,
-    "typeContenu": "",
-    "quantite": 1,
-    "articleRecommander": [
-      {
-        "image": [""],
-        "titreReco": "",
-        "url": "",
-        "prix": 1,
-        "genre": [""],
-        "taille": [""],
-        "couleur": [""],
-        "averageRating": 0,
-        "typeContenu": "",
-        "quantite": 1
-      }
-    ]
+    "averageRating": 4.2,
+    "typeContenu": "Rupture de stock",
+    "quantite": 0,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-29T22:34:15.340Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T22:34:15.340Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "672165d4d36dd5d3cec682a4"
+    },
+    "image": ["/assets/boutiques/clothes/Akatsuki_Hooded-Cloak-Coat.webp"],
+    "titre": "Naruto - Manteau à capuche Akatsuki",
+    "url": "akatsuki-hooded-cloak-coat",
+    "prix": 79.99,
+    "sale": null,
+    "genre": ["Vêtements"],
+    "manga": "naruto",
+    "description": "Manteau à capuche qui représente le célèbre long manteau noir orné de nuages rouges cerclés de blanc de l'Akatsuki",
+    "type": "Manteau",
+    "taille": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
+    "couleur": ["Noir"],
+    "averageRating": 3.7,
+    "typeContenu": "En stock",
+    "quantite": 40,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-29T22:46:44.698Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T22:46:44.698Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6721671fd36dd5d3cec682a6"
+    },
+    "image": ["/assets/boutiques/clothes/berserk-hoodies-1.webp"],
+    "titre": "Berserk -  Sweatshirt à capuche noir",
+    "url": "berserk-hoodies-noir",
+    "prix": 59.99,
+    "sale": null,
+    "genre": ["Vêtements"],
+    "manga": "berserk",
+    "description": "Sweatshirt à capuche noir du manga Berserk",
+    "type": "Sweatshirt",
+    "taille": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
+    "couleur": ["Noir"],
+    "averageRating": 3.7,
+    "typeContenu": "En stock",
+    "quantite": 40,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-29T22:52:15.522Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T22:52:15.522Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "672168e9d36dd5d3cec682a8"
+    },
+    "image": [
+      "/assets/boutiques/clothes/attack-on-titan-scout-regiment-kanji-holiday-sweater-crunchyroll-exclusive_1.webp",
+      "/assets/boutiques/clothes/attack-on-titan-scout-regiment-kanji-holiday-sweater-crunchyroll-exclusive_2.webp"
+    ],
+    "titre": "L'Attaque des Titans -  Sweatshirt Noël du Bataillon d'Exploration",
+    "url": "attack-on-titan-scout-regiment-kanji-holiday-sweater",
+    "prix": 59.99,
+    "sale": null,
+    "genre": ["Vêtements", "New"],
+    "manga": "shingeki-no-kyojin",
+    "description": "Sweatshirt Noël du Bataillon d'Exploration",
+    "type": "Sweatshirt",
+    "taille": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
+    "couleur": ["Vert"],
+    "averageRating": 2.9,
+    "typeContenu": "Précommande",
+    "quantite": 40,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-10-29T22:59:53.816Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T22:59:53.816Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "672932459ac883dfa257d304"
+    },
+    "image": [
+      "/assets/boutiques/clothes/bioworld-hoodies-outerwear-dragon-ball-z-saiyans-hoodie-1.webp"
+    ],
+    "titre": "Dragon Ball Z - Sweatshirt à capuche noir saga Saiyans",
+    "url": "bioworld-hoodies-outerwear-dragon-ball-z-saiyans-hoodie",
+    "prix": 59.99,
+    "sale": null,
+    "genre": ["Vêtements"],
+    "manga": "dragon-ball",
+    "description": "Sweatshirt à capuche noir qui représente la saga Saiyans du manga Dragon Ball",
+    "type": "Sweatshirt",
+    "taille": ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
+    "couleur": ["Noir"],
+    "averageRating": 3.9,
+    "typeContenu": "En stock",
+    "quantite": 70,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-11-04T20:44:53.567Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-04T20:44:53.567Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "672946969ac883dfa257d306"
+    },
+    "image": [
+      "/assets/boutiques/dvd/zom-100-bucket-list-of-the-dead-the-complete-first-season-blu-ray-limited-edition_1.webp",
+      "/assets/boutiques/dvd/zom-100-bucket-list-of-the-dead-the-complete-first-season-blu-ray-limited-edition_2.webp",
+      "/assets/boutiques/dvd/zom-100-bucket-list-of-the-dead-the-complete-first-season-blu-ray-limited-edition_3.webp"
+    ],
+    "titre": "Zom 100: Bucket List of the Dead - Saison 1 complète DVD Blu-ray Edition Limitée",
+    "url": "zom-100-bucket-list-of-the-dead-the-complete-first-season-blu-ray-limited-edition",
+    "prix": 79.99,
+    "sale": 69.99,
+    "genre": ["Dvd", "New"],
+    "manga": "bucket-list-of-the-dead",
+    "description": "Dvd Blu-ray de la première saison de la série Bucket List of the Dead",
+    "type": "Dvd Blu-ray",
+    "taille": ["Taille Unique"],
+    "couleur": ["Rose"],
+    "averageRating": 3.9,
+    "typeContenu": "En stock",
+    "quantite": 70,
+    "ratings": [],
+    "commentaires": [],
+    "createdAt": {
+      "$date": "2024-11-04T22:11:34.091Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-04T22:11:34.091Z"
+    },
+    "__v": 0
   }
 ]

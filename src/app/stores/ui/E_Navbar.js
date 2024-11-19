@@ -2,8 +2,11 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Twirl as Hamburger } from "hamburger-react";
-import { RiShoppingBag4Line } from "react-icons/ri";
+import { BsBag } from "react-icons/bs";
 import { IoSearch } from "react-icons/io5";
+import { usePathname } from "next/navigation";
+import { useAvatar } from "../../../../providers/AvatarContext";
+import { useCart } from "../../../../providers/CartContext";
 
 export default function E_Navbar() {
   const menuL = [
@@ -32,17 +35,15 @@ export default function E_Navbar() {
       href: "/stores/shop-by-series",
     },
     {
-      name: "Shop All",
-      href: "/stores/collections/all",
-    },
-    {
       name: "Promotions",
-      href: "/stores/collections/promotions",
+      href: "/stores/promotions",
     },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
+  const { avatarUrl, profileName } = useAvatar();
+  const { cart } = useCart();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -51,9 +52,13 @@ export default function E_Navbar() {
   const toggleSearch = () => {
     setShowSearch(!showSearch);
   };
+  const currentPath = usePathname()
+  const isActive = (path) => {
+    return currentPath === path
+  }
 
   return (
-    <div className="duration-200 z-40 bg-cyan-800 text-slate-50 fixed w-full">
+    <div className="duration-200 z-40 bg-cyan-800 text-slate-50 fixed top-0 w-full">
       <div className="bg-sky-500 text-slate-50 ">
         <div className="container py-2">
           <div className="flex justify-between items-center text-sm">
@@ -72,7 +77,7 @@ export default function E_Navbar() {
       >
         <div className={`${isOpen ? "flex gap-4" : "flex items-center gap-4"}`}>
           <Link href={"/stores"}>
-            <div className="block w-32">
+            <div className="block w-36">
               <img
                 src="/assets/LogoAnimeONE/LogoNavbar.webp"
                 className="block w-full"
@@ -99,7 +104,7 @@ export default function E_Navbar() {
                   <li key={i}>
                     <Link
                       href={data.href}
-                      className="text-center text-base md:text-lg lg:text-xl hover:text-sky-500 transition ease-in duration-300"
+                      className={`${isActive(data.href)?'underline underline-offset-8 inline-flex items-center mr-5':'inline-flex items-center mr-5 hover:text-sky-500 transition ease-in duration-300'}`}
                     >
                       {data.name}
                     </Link>
@@ -125,13 +130,28 @@ export default function E_Navbar() {
           </div>
         </section>
 
-        <div className={`${isOpen ? "flex" : "flex items-center"}`}>
+        <div className={`${isOpen ? "flex items-baseline" : "flex items-center"}`}>
           <div className="relative">
-            <RiShoppingBag4Line className="text-3xl" />
-            <div className="bg-red-600 rounded-full absolute top-0 right-0 grid place-items-center translate-x-1 -translate-y-1">
-              0
+            <BsBag className="text-3xl" />
+            <div className=" rounded-full absolute top-1 left-0 right-0 bottom-0 grid place-items-center translate-x-0 -translate-y-0">
+            {cart.length}
             </div>
           </div>
+          <section className={`${isOpen ? "flex w-8 h-8 items-baseline": "items-center ml-2 lg:gap-6"}`}>
+            {avatarUrl && profileName ? (
+              <div className="relative">
+                <Link href="/stores/profile">
+                  <img
+                    src={avatarUrl || "/assets/avatar/narutoShippudenAvatar.webp"}
+                    alt={profileName}
+                    className="w-8 h-8 lg:w-10 lg:h-10 rounded-full cursor-pointer"
+                /></Link>
+              </div>
+            ) : (
+              <Link href='/authentification'>
+                <TfiUser className="text-3xl" /></Link>
+            )}
+          </section>
           <button
             onClick={toggleMenu}
             className="focus:outline-none flex float-right lg:hidden"

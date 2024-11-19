@@ -4,6 +4,7 @@ import { useProfile } from "../../../../providers/ProfileContext";
 import { useRouter } from "next/navigation";
 import { useAvatar } from "../../../../providers/AvatarContext";
 import ReactLoading from "react-loading";
+import { FaTrashAlt, FaPencilAlt } from "react-icons/fa";
 
 export default function PageEditProfil() {
   const { userProfile, selectProfile } = useProfile();
@@ -13,8 +14,10 @@ export default function PageEditProfil() {
   const [selectedAvatar, setSelectedAvatar] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
-  const [showWindows, setShowWindows] = useState(false);
-  const [currentProfileName, setCurrentProfileName] = useState(profileName || "");
+  const [isAvatarModalOpen, setIsAvatarModalOpen] = useState(false);
+  const [currentProfileName, setCurrentProfileName] = useState(
+    profileName || ""
+  );
   const router = useRouter();
 
   useEffect(() => {
@@ -38,9 +41,19 @@ export default function PageEditProfil() {
   useEffect(() => {
     async function fetchAvatars() {
       try {
-        const response = await fetch("/api/profiles");
+        const response = await fetch("/api/avatar");
         const data = await response.json();
-        setAvatars(data);
+        const categorizedAvatars = data.reduce((acc, avatar) => {
+          const { category, ...rest } = avatar;
+          if (!acc[category]) {
+            acc[category] = [];
+          }
+          acc[category].push(rest);
+          return acc;
+        }, {});
+        console.log("Données récupérées des avatars :", categorizedAvatars);
+  
+        setAvatars(categorizedAvatars);
       } catch (error) {
         console.error("Erreur lors de la récupération des avatars:", error);
       }
@@ -74,19 +87,23 @@ export default function PageEditProfil() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: currentProfileName,
+          nom: currentProfileName,
           avatarId: selectedAvatar,
           profileId: selectProfile,
         }),
       });
 
       if (response.ok) {
-        const data = await response.json();
-        setProfiles(data);
-        const avatarUrl = avatars.find((avatar) => avatar.id === data.avatarId)?.images;
-        saveAvatarData(data.avatarId, avatarUrl, data.nom);
-        alert("Profil modifié avec succès");
+        const updatedProfile = await response.json();
+        console.log(updatedProfile);
+        const allAvatars = Object.values(avatars).flat();
+        const avatarUrl = allAvatars.find(
+          (avatar) => avatar.id === updatedProfile.avatarId
+        )?.images;
+  
+        saveAvatarData(updatedProfile.avatarId, avatarUrl, updatedProfile.nom);
         setShowModal(false);
+        alert("Profil modifié avec succès");
       } else {
         console.error("Erreur lors de la modification du profil");
       }
@@ -104,11 +121,23 @@ export default function PageEditProfil() {
   };
 
   const handleAvatarSelection = (avatarUrl) => {
-    setSelectedAvatar(avatarUrl);
-    setShowWindows(false);
+    console.log("Avatars disponibles :", avatars);
+    console.log("Avatar sélectionné :", avatarUrl);
+    const avatar = Object.values(avatars)
+    .flat()
+    .find((item) => item.id === avatarUrl);
+
+  if (avatar) {
+    setSelectedAvatar(avatar.id);
+  } else {
+    console.error("Avatar non trouvé :", avatarUrl);
+  }
+    setIsAvatarModalOpen(false);
   };
 
-  const selectedAvatarImage = avatars.find((avatar) => avatar.id === selectedAvatar)?.images || avatarUrl;
+  const selectedAvatarImage = Object.values(avatars)
+  .flat()
+  .find((avatar) => avatar.id === selectedAvatar)?.images || avatarUrl;
 
   if (loading) {
     return (
@@ -121,6 +150,9 @@ export default function PageEditProfil() {
         />
       </div>
     );
+  }
+  if (!Object.keys(avatars).length) {
+    return <p>Loading ...</p>;
   }
 
   return (
@@ -149,19 +181,15 @@ export default function PageEditProfil() {
                         setCurrentProfileName(profile.name);
                         setShowModal(true);
                       }}
-                      className="absolute bottom-0 right-0 p-1 rounded-full"
+                      className="absolute bottom-0 right-0 p-1 bg-green-500 rounded-full"
                     >
-                      <img
-                        src="/assets/avatar/FaPen.png"
-                        alt="faPen"
-                        className="rounded-full w-10"
-                      />
+                      <FaPencilAlt className="text-2xl" />
                     </button>
                     <button
                       onClick={() => handleDeleteProfile(profile.id)}
                       className="absolute bottom-0 left-0 bg-red-600 p-1 rounded-full"
                     >
-                      🗑️
+                      <FaTrashAlt className="text-2xl" />
                     </button>
                   </div>
                 </div>
@@ -203,14 +231,10 @@ export default function PageEditProfil() {
                 />
                 <button
                   type="button"
-                  onClick={() => setShowWindows(true)}
+                  onClick={() => setIsAvatarModalOpen(true)}
                   className="absolute bottom-0 left-14 ml-20 px-4 py-2"
                 >
-                  <img
-                    src="/assets/avatar/FaPen.png"
-                    alt="faPen"
-                    className="rounded-full w-12"
-                  />
+                  <FaPencilAlt className="text-2xl" />
                 </button>
               </div>
 
@@ -231,31 +255,52 @@ export default function PageEditProfil() {
             </form>
           </div>
 
-          {showWindows && (
+          {isAvatarModalOpen && (
             <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
               <div className="bg-gray-800 p-8 rounded-lg max-w-lg w-full">
-                <h2 className="text-2xl mb-4">Sélectionnez un Avatar</h2>
-                <div className="grid grid-cols-4 gap-4">
-                  {avatars.map((avatar) => (
-                    <div
-                      key={avatar.id}
-                      className="cursor-pointer"
-                      onClick={() => handleAvatarSelection(avatar.id)}
-                    >
-                      <img
-                        src={avatar.images}
-                        alt={`Avatar ${avatar.id}`}
-                        className="w-24 h-24 object-cover rounded-full"
-                      />
+                {avatars.length === 0 ? (
+                  <p>Aucun avatar disponible pour le moment</p>
+                ) : (
+                  <div>
+                    <h2 className="text-2xl mb-4">Sélectionnez un Avatar</h2>
+                    <div className="space-y-4 max-h-80 overflow-y-auto">
+                      {Object.keys(avatars).length > 0 ? (
+                        Object.keys(avatars).map((category) => (
+                          <div key={category}>
+                            <h3 className="text-lg font-semibold mb-2">
+                              {category}
+                            </h3>
+                            <div className="flex space-x-4 overflow-x-auto pb-2">
+                              {avatars[category].map((avatar) => (
+                                <div
+                                  key={avatar.id}
+                                  className="cursor-pointer flex-shrink-0"
+                                  onClick={() =>
+                                    handleAvatarSelection(avatar.id)
+                                  }
+                                >
+                                  <img
+                                    src={avatar.images}
+                                    alt={`Avatar ${avatar.id}`}
+                                    className="w-24 h-24 object-cover rounded-full"
+                                  />
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        ))
+                      ) : (
+                        <p>Aucun avatar disponible</p>
+                      )}
                     </div>
-                  ))}
-                </div>
-                <button
-                  onClick={() => setShowWindows(false)}
-                  className="mt-4 px-4 py-2 bg-red-600 rounded w-full"
-                >
-                  Fermer
-                </button>
+                    <button
+                      onClick={() => setIsAvatarModalOpen(false)}
+                      className="mt-4 px-4 py-2 bg-red-600 rounded w-full"
+                    >
+                      Fermer
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           )}

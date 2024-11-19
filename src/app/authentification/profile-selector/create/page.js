@@ -3,6 +3,8 @@
 import { useRouter } from "next/navigation";
 import { useProfile } from "../../../../../providers/ProfileContext";
 import { useEffect, useState } from "react";
+import { FaPencilAlt } from "react-icons/fa";
+import ReactLoading from "react-loading";
 
 export default function CreateProfile() {
   const { userProfile } = useProfile();
@@ -11,13 +13,14 @@ export default function CreateProfile() {
   const [selectedAvatar, setSelectedAvatar] = useState(null);
   const [nom, setNom] = useState("");
   const [showModal, setShowModal] = useState(false);
+  const [loading, setLoading] = useState(true);
 
-  const defaultAvatar = "/assets/avatar/narutoShippudenAvatar.png";
+  const defaultAvatar = "/assets/avatar/narutoShippudenAvatar.webp";
 
   useEffect(() => {
     async function fetchAvatars() {
       try {
-        const response = await fetch("/api/profiles");
+        const response = await fetch("/api/avatar");
         const data = await response.json();
         const groupedAvatars = data.reduce((acc, avatar) => {
           if (!acc[avatar.category]) {
@@ -28,8 +31,12 @@ export default function CreateProfile() {
         }, {});
 
         setAvatars(groupedAvatars);
+        console.log(groupedAvatars);
+        
       } catch (error) {
         console.error("Erreur lors de la récupération des avatars:", error);
+      } finally {
+        setLoading(false);
       }
     }
 
@@ -40,7 +47,7 @@ export default function CreateProfile() {
     e.preventDefault();
 
     try {
-      const response = await fetch("/api/profiles", {
+      const response = await fetch(`/api/profiles/${userProfile}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,8 +78,22 @@ export default function CreateProfile() {
     router.push("/authentification/profile-selector");
   };
 
+  if (loading) {
+    return (
+      <div>
+        <ReactLoading
+          type="bubbles"
+          color="#ffffff"
+          height={"30px"}
+          width={"30px"}
+        />
+      </div>
+    );
+  }
+
   const selectedAvatarImage =
-    avatars.find((avatar) => avatar.id === selectedAvatar)?.images ||
+  Object.values(avatars)
+  .flat().find((avatar) => avatar.id === selectedAvatar)?.images ||
     defaultAvatar;
 
   return (
@@ -103,11 +124,7 @@ export default function CreateProfile() {
             onClick={() => setShowModal(true)}
             className="absolute bottom-0 left-14 ml-20 px-4 py-2"
           >
-            <img
-              src="/assets/avatar/FaPen.png"
-              alt="faPen"
-              className="rounded-full w-12"
-            />
+            <FaPencilAlt className="text-2xl" />
           </button>
         </div>
 
@@ -131,26 +148,28 @@ export default function CreateProfile() {
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
           <div className="bg-gray-800 p-8 rounded-lg max-w-lg w-full">
             <h2 className="text-2xl mb-4">Sélectionnez un Avatar</h2>
-            {Object.keys(avatars).map((category) => (
-              <div key={category}>
-                <h3 className="text-lg font-semibold mb-2">{category}</h3>
-                <div className="grid grid-cols-4 gap-4 mb-4">
-                  {avatars[category].map((avatar) => (
-                    <div
-                      key={avatar.id}
-                      className="cursor-pointer"
-                      onClick={() => handleAvatarSelection(avatar.id)}
-                    >
-                      <img
-                        src={avatar.images}
-                        alt={`Avatar ${avatar.id}`}
-                        className="w-24 h-24 object-cover rounded-full"
-                      />
-                    </div>
-                  ))}
+            <div className="space-y-4 max-h-80 overflow-y-auto">
+        {Object.keys(avatars).map((category) => (
+          <div key={category}>
+            <h3 className="text-lg font-semibold mb-2">{category}</h3>
+            <div className="flex space-x-4 overflow-x-auto pb-2">
+              {avatars[category].map((avatar) => (
+                <div
+                  key={avatar.id}
+                  className="cursor-pointer flex-shrink-0"
+                  onClick={() => handleAvatarSelection(avatar.id)}
+                >
+                  <img
+                    src={avatar.images}
+                    alt={`Avatar ${avatar.id}`}
+                    className="w-24 h-24 object-cover rounded-full"
+                  />
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
             <button
               onClick={() => setShowModal(false)}
               className="mt-4 px-4 py-2 bg-red-600 rounded w-full"

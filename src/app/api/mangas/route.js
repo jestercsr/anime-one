@@ -1,4 +1,13 @@
 "use server";
+/**
+ * Envoyer les données pour la création de la page d'un manga
+ * @param {string} request - Toutes les données à envoyer
+ * @returns {object} - Envoie vers la BDD
+ * Récuperer les données des mangas
+ * Supprimer un manga par ID
+ * @param {string} request - L'ID du manga
+ * @returns {object} - Les données du manga sélectionné ont été supprimés définitivement
+ */
 import { NextResponse } from "next/server";
 import connectDB from "../../../../config/database";
 import MangaModel from "../../../../models/mangaModel";

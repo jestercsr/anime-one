@@ -1,0 +1,327 @@
+[
+  {
+    "header": "/assets/boutiques/collection/naruto_banner.webp",
+    "name": "Naruto",
+    "url": "naruto"
+  },
+  {
+    "header": "/assets/boutiques/collection/4knights_banner.webp",
+    "name": "Four Knights of the Apocalypse",
+    "url": "four-knights-of-the-apocalypse"
+  },
+  {
+    "header": "/assets/boutiques/collection/5seconds_banner.webp",
+    "name": "Battle Game in 5 Seconds",
+    "url": "battle-game-in-5-seconds"
+  },
+  {
+    "header": "/assets/boutiques/collection/7deadlysins_banner.webp",
+    "name": "The Seven Deadly Sins",
+    "url": "seven-deadly-sins"
+  },
+  {
+    "header": "/assets/boutiques/collection/7thprince_banner.webp",
+    "name": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
+    "url": "le-7-eme-prince"
+  },
+  {
+    "header": "/assets/boutiques/collection/8thson_banner.webp",
+    "name": "The 8th Son? Are You Kidding Me?",
+    "url": "the-8-th-son"
+  },
+  {
+    "header": "/assets/boutiques/collection/20thcentury_banner.webp",
+    "name": "20th Century Boys",
+    "url": "20th-century-boys"
+  },
+  {
+    "header": "/assets/boutiques/collection/86_banner.webp",
+    "name": "86 Eighty Six",
+    "url": "eighty-six"
+  },
+  {
+    "header": "/assets/boutiques/collection/akamegakill_banner.webp",
+    "name": "Red Eyes Sword: Akame Ga Kill !",
+    "url": "akame-ga-kill"
+  },
+  {
+    "header": "/assets/boutiques/collection/akashic_banner.webp",
+    "name": "Akashic Records of Bastard Magic Instructor",
+    "url": "akashic-record"
+  },
+  {
+    "header": "/assets/boutiques/collection/allowedworld_banner.webp",
+    "name": "No Longer Allowed in Another World",
+    "url": "no-longer-allowed-in-another-world"
+  },
+  {
+    "header": "/assets/boutiques/collection/alya_banner.webp",
+    "name": "Alya Sometimes Hides Her Feelings in Russian",
+    "url": "roshidere"
+  },
+  {
+    "header": "/assets/boutiques/collection/aot_banner.webp",
+    "name": "L'Attaque des Titans",
+    "url": "shingeki-no-kyojin"
+  },
+  {
+    "header": "/assets/boutiques/collection/arifureta_banner.webp",
+    "name": "Arifureta: From Commonplace to World's Strongest",
+    "url": "arifureta"
+  },
+  {
+    "header": "/assets/boutiques/collection/assaclassroom_banner.webp",
+    "name": "Assassination Classroom",
+    "url": "assassination-classroom"
+  },
+  {
+    "header": "/assets/boutiques/collection/baki_banner.webp",
+    "name": "Baki",
+    "url": "baki"
+  },
+  {
+    "header": "/assets/boutiques/collection/bakuman_banner.webp",
+    "name": "Bakuman.",
+    "url": "bakuman"
+  },
+  {
+    "header": "/assets/boutiques/collection/bbutler_banner.webp",
+    "name": "Black Butler",
+    "url": "black-butler"
+  },
+  {
+    "header": "/assets/boutiques/collection/bclover_banner.webp",
+    "name": "Black Clover",
+    "url": "black-clover"
+  },
+  {
+    "header": "/assets/boutiques/collection/beelzebub_banner.webp",
+    "name": "Beelzebub",
+    "url": "beelzebub"
+  },
+  {
+    "header": "/assets/boutiques/collection/berserk_banner.webp",
+    "name": "Berserk",
+    "url": "berserk"
+  },
+  {
+    "header": "/assets/boutiques/collection/berserkgluttony_banner.webp",
+    "name": "Berserk of Glouttony",
+    "url": "berserk-of-glouttony"
+  },
+  {
+    "header": "/assets/boutiques/collection/bexorcist_banner.webp",
+    "name": "Blue Exorcist",
+    "url": "blue-exorcist"
+  },
+  {
+    "header": "/assets/boutiques/collection/bleach_banner.webp",
+    "name": "Bleach",
+    "url": "bleach"
+  },
+  {
+    "header": "/assets/boutiques/collection/block_banner.webp",
+    "name": "Blue Lock",
+    "url": "blue-lock"
+  },
+  {
+    "header": "/assets/boutiques/collection/boruto_banner.webp",
+    "name": "Boruto",
+    "url": "boruto"
+  },
+  {
+    "header": "/assets/boutiques/collection/capothicaire_banner.webp",
+    "name": "Les Carnets de l'Apothicaire",
+    "url": "les-carnets-de-l-apothicaire"
+  },
+  {
+    "header": "/assets/boutiques/collection/chainsaw_banner.webp",
+    "name": "Chainsaw Man",
+    "url": "chainsaw-man"
+  },
+  {
+    "header": "/assets/boutiques/collection/classelite_banner.webp",
+    "name": "Classroom of the Elite",
+    "url": "classroom-of-the-elite"
+  },
+  {
+    "header": "/assets/boutiques/collection/codegeass_banner.webp",
+    "name": "Code Geass",
+    "url": "code-geass"
+  },
+  {
+    "header": "/assets/boutiques/collection/dandadan_banner.webp",
+    "name": "Dandadan",
+    "url": "dandadan"
+  },
+  {
+    "header": "/assets/boutiques/collection/db_banner.webp",
+    "name": "Dragon Ball",
+    "url": "dragon-ball"
+  },
+  {
+    "header": "/assets/boutiques/collection/dconan_banner.webp",
+    "name": "Detective Conan",
+    "url": "detective-conan"
+  },
+  {
+    "header": "/assets/boutiques/collection/deathnote_banner.webp",
+    "name": "Death Note",
+    "url": "death-note"
+  },
+  {
+    "header": "/assets/boutiques/collection/drstone_banner.webp",
+    "name": "Dr. Stone",
+    "url": "dr-stone"
+  },
+  {
+    "header": "/assets/boutiques/collection/ds_banner.webp",
+    "name": "Demon Slayer",
+    "url": "demon-slayer-kimetsu-no-yaiba"
+  },
+  {
+    "header": "/assets/boutiques/collection/eminence_banner.webp",
+    "name": "The Eminence in Shadow",
+    "url": "the-eminence-in-shadow"
+  },
+  {
+    "header": "/assets/boutiques/collection/eyeshield_banner.webp",
+    "name": "Eyeshield 21",
+    "url": "eyeshield-21"
+  },
+  {
+    "header": "/assets/boutiques/collection/fireforce_banner.webp",
+    "name": "Fire Force",
+    "url": "fire-force"
+  },
+  {
+    "header": "/assets/boutiques/collection/fma_banner.webp",
+    "name": "Fullmetal Alchemist",
+    "url": "fullmetal-alchemist"
+  },
+  {
+    "header": "/assets/boutiques/collection/frieren_banner.webp",
+    "name": "Frieren",
+    "url": "frieren"
+  },
+  {
+    "header": "/assets/boutiques/collection/fruitsbasket_banner.webp",
+    "name": "Fruits Basket",
+    "url": "fruits-basket"
+  },
+  {
+    "header": "/assets/boutiques/collection/ft_banner.webp",
+    "name": "Fairy Tail",
+    "url": "fairy-tail"
+  },
+  {
+    "header": "/assets/boutiques/collection/hxh_banner.webp",
+    "name": "Hunter x Hunter",
+    "url": "hunter-x-hunter"
+  },
+  {
+    "header": "/assets/boutiques/collection/inazuma_banner.webp",
+    "name": "Inazuma Eleven",
+    "url": "inazuma-eleven"
+  },
+  {
+    "header": "/assets/boutiques/collection/jjk_banner.webp",
+    "name": "Jujustu Kaisen",
+    "url": "jujustu-kaisen"
+  },
+  {
+    "header": "/assets/boutiques/collection/jojo_banner.webp",
+    "name": "Jojo's Bizarre Adventure",
+    "url": "jojo-bizarre-adventure"
+  },
+  {
+    "header": "/assets/boutiques/collection/kaiju8_banner.webp",
+    "name": "Kaiju n°8",
+    "url": "kaiju-no-8"
+  },
+  {
+    "header": "/assets/boutiques/collection/konosuba_banner.webp",
+    "name": "Konosuba: Sois béni monde merveilleux !",
+    "url": "konosuba"
+  },
+  {
+    "header": "/assets/boutiques/collection/kuroko_banner.webp",
+    "name": "Kuroko's Basket",
+    "url": "kuroko-basket"
+  },
+  {
+    "header": "/assets/boutiques/collection/mashle_banner.webp",
+    "name": "Mashle: Magic and Muscles",
+    "url": "mashle"
+  },
+  {
+    "header": "/assets/boutiques/collection/mha_banner.webp",
+    "name": "My Hero Academia",
+    "url": "my-hero-academia"
+  },
+  {
+    "header": "/assets/boutiques/collection/mob_banner.webp",
+    "name": "Mob Psycho 100",
+    "url": "mob-psycho"
+  },
+  {
+    "header": "/assets/boutiques/collection/mushoku_banner.webp",
+    "name": "Mushoku Tensei: Jobless Reincarnation",
+    "url": "mushoku-tensei"
+  },
+  {
+    "header": "/assets/boutiques/collection/onepiece_banner.webp",
+    "name": "One Piece",
+    "url": "one-piece"
+  },
+  {
+    "header": "/assets/boutiques/collection/opunchman_banner.webp",
+    "name": "One Punch Man",
+    "url": "one-punch-man"
+  },
+  {
+    "header": "/assets/boutiques/collection/rezero_banner.webp",
+    "name": "Re:ZERO -Starting Life in Another World",
+    "url": "re-zero"
+  },
+  {
+    "header": "/assets/boutiques/collection/sailormoon_banner.webp",
+    "name": "Sailor Moon",
+    "url": "sailor-moon"
+  },
+  {
+    "header": "/assets/boutiques/collection/sao_banner.webp",
+    "name": "Sword Art Online",
+    "url": "sword-art-online"
+  },
+  {
+    "header": "/assets/boutiques/collection/slime_banner.webp",
+    "name": "Moi, Quand je me Réincarne en Slime",
+    "url": "moi-quand-je-me-reincarne-en-slime"
+  },
+  {
+    "header": "/assets/boutiques/collection/spyxfamily_banner.webp",
+    "name": "Spy x Family",
+    "url": "spy-x-family"
+  },
+  {
+    "header": "/assets/boutiques/collection/sseiya_banner.webp",
+    "name": "Saint Seiya",
+    "url": "saint-seiya"
+  },
+  {
+    "header": "/assets/boutiques/collection/tokyoghoul_banner.webp",
+    "name": "Tokyo Ghoul",
+    "url": "tokyo-ghoul"
+  },
+  {
+    "header": "/assets/boutiques/collection/undead_banner.webp",
+    "name": "Undead Unluck",
+    "url": "undead-unluck"
+  },
+  {
+    "header": "/assets/boutiques/collection/vinland_banner.webp",
+    "name": "Vinland Saga",
+    "url": "vinland-saga"
+  }
+]

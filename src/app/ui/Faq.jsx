@@ -13,7 +13,7 @@ const Accordion = ({ title, children }) => {
         <span>{title}</span>
         <span>{isOpen ? "-" : "+"}</span>
       </button>
-      {isOpen && <div>{children}</div>}
+      {isOpen && <div className="bg-gray-100/25 p-4">{children}</div>}
     </div>
   );
 };

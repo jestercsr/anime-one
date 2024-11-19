@@ -1,3 +1,9 @@
+/**
+ * Récuperer les données de tous les mangas disponible aux visionnages
+ * Envoyer les données d'un manga pour la création dans le catalogue
+ * @param {string} req - Les données à envoyer écrit par l'admin
+ * @returns {message} - Les données du manga ont été envoyées avec succès
+ */
 import { NextResponse } from "next/server";
 import connectDB from "../../../../config/database";
 import ListeModel from "../../../../models/listeModel";

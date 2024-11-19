@@ -10,6 +10,7 @@ import Reco from "./ui/Reco";
 import AnimeTrending from "./ui/AnimeTrending";
 import ScanTrending from "./ui/ScanTrending";
 import MovieReco from "./ui/MovieReco";
+import Classique from "./ui/Classique";
 
 export default function PageAccueil() {
   return (
@@ -24,7 +25,7 @@ export default function PageAccueil() {
       <MovieReco />
 
       <SelectionWidget />
-
+      <Classique />
       <Footer />
     </div>
   );

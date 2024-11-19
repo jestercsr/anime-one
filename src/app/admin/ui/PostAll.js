@@ -153,7 +153,7 @@ export default function PostAll() {
         {imageShowFields.map((imageShow, index) => (
           <div key={imageShow.id} className="mt-2">
             <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-              Info Manga (Series, Films, Scans, API) :
+              {`Info Manga (Series, Films, Scans, API) ${index + 1}:`}
             </h5>
             <input
               className="text-sm md:text-base lg:text-md xl:text-lg m-2 rounded-md focus:border-green-600 focus:border-2 outline-none px-[5px]"
@@ -194,7 +194,7 @@ export default function PostAll() {
         {imageCarouselFields.map((imageCarousel, index) => (
           <div key={imageCarousel.id}>
             <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-              Info Manga Recommander (Max 8) :
+              {`Info Manga Recommander (Max 8) ${index + 1} :`} 
             </h5>
             <input
               {...register(`imageCarousel.${index}.image`)}
@@ -233,7 +233,7 @@ export default function PostAll() {
         {animationFields.map((animation, animationIndex) => (
           <div key={animation.id}>
             <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-              Contenu Animation :
+              {`Contenu Animation ${animationIndex + 1}:`}
             </h5>
             <input
               {...register(`animation.${animationIndex}.animeId`)}
@@ -270,7 +270,7 @@ export default function PostAll() {
               {animation.imageSee?.map((imageSee, imageSeeIndex) => (
                 <div key={imageSeeIndex}>
                   <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                    Info Animation-Manga (Series, Films, Scans) :
+                    {`Info Animation-Manga (Series, Films, Scans) ${imageSeeIndex + 1}:`}
                   </h5>
                   <input
                     {...register(
@@ -317,7 +317,7 @@ export default function PostAll() {
                 (animeImage, animeImageIndex) => (
                   <div key={animeImageIndex}>
                     <h5 className="text-md md:text-lg lg:text-xl xl:text-2xl text-indigo-400">
-                      Info Contenu Manga Recommander (Max 8) :
+                      {`Info Contenu Manga Recommander (Max 8) ${animeImageIndex + 1}:`}
                     </h5>
                     <input
                       {...register(

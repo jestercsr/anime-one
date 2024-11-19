@@ -11,14 +11,11 @@ export default function PageUserAdmin() {
     const fetchData = async () => {
       try {
         const res = await fetch("/api/users");
-        const response = await res.json()
+        const response = await res.json();
         setUsers(response);
       } catch (error) {
-        setError(
-          "Erreur pour recuperer la liste des utilisateurs:",
-          error
-        );
-      }finally {
+        setError("Erreur pour recuperer la liste des utilisateurs:", error);
+      } finally {
         setLoading(false);
       }
     };
@@ -50,36 +47,44 @@ export default function PageUserAdmin() {
         <h2 className="text-[26px] text-indigo-600">
           Liste Nombre d'utilisateur :{users.length}
         </h2>
-        <table className="min-w-full bg-white">
-          <thead>
-            <tr>
-              <th className="py-2">ID</th>
-              <th className="py-2">Nom</th>
-              <th className="py-2">Prénom</th>
-              <th className="py-2">Email</th>
-              <th className="py-2">Téléphone</th>
-              <th className="py-2">Date de naissance</th>
-              <th className="py-2">Role</th>
-              <th className="py-2">Active</th>
-            </tr>
-          </thead>
-          <tbody>
-            {users.map((user) => (
-              <tr key={user.id}>
-                <td className="border px-4 py-2">{user.id}</td>
-                <td className="border px-4 py-2">{user.nom}</td>
-                <td className="border px-4 py-2">{user.prenom}</td>
-                <td className="border px-4 py-2">{user.email}</td>
-                <td className="border px-4 py-2">{user.phone}</td>
-                <td className="border px-4 py-2">
-                  {new Date(user.date_naissance).toLocaleDateString()}
-                </td>
-                <td className="border px-4 py-2">{user.role}</td>
-                <td className="border px-4 py-2">{user.active ? "Oui" : "Non"}</td>
+        {users ? (
+          <table className="min-w-full bg-white">
+            <thead>
+              <tr>
+                <th className="py-2">ID</th>
+                <th className="py-2">Nom</th>
+                <th className="py-2">Prénom</th>
+                <th className="py-2">Email</th>
+                <th className="py-2">Téléphone</th>
+                <th className="py-2">Date de naissance</th>
+                <th className="py-2">Role</th>
+                <th className="py-2">Active</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {users.map((user) => (
+                <tr key={user.id}>
+                  <td className="border px-4 py-2">{user.id}</td>
+                  <td className="border px-4 py-2">{user.nom}</td>
+                  <td className="border px-4 py-2">{user.prenom}</td>
+                  <td className="border px-4 py-2">{user.email}</td>
+                  <td className="border px-4 py-2">{user.phone}</td>
+                  <td className="border px-4 py-2">
+                    {new Date(user.date_naissance).toLocaleDateString()}
+                  </td>
+                  <td className="border px-4 py-2">{user.role}</td>
+                  <td className="border px-4 py-2">
+                    {user.active ? "Oui" : "Non"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : (
+          <div>
+            <h1>Aucun utilisateur trouvé</h1>
+          </div>
+        )}
       </div>
     </div>
   );

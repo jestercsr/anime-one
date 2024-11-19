@@ -99,6 +99,8 @@ export default function PageAnimeID({ props, animation }) {
       anime_imageCarousel,
     } = data.animation[1];
     return (
+      <>
+      {data? (
       <div className={backNav + ` min-h-screen`}>
         <Navbar
           className={classNav}
@@ -164,6 +166,15 @@ export default function PageAnimeID({ props, animation }) {
 
         <Footer />
       </div>
+      ): (
+        <div>
+          <Navbar className="bg-gradient-to-t from-yellow-500 to-orange-500 text-sky-900" liste="bg-gradient-to-t from-orange-500 to-yellow-500 text-sky-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0"/>
+          <div className="justify-center m-auto flex mb-20">
+            <img src="/assets/Soon.webp" className="w-full md:w-[50%]" />
+          </div>
+        </div>
+      )}
+      </>
     );
   } else if (animation === "scans") {
     const {
@@ -177,6 +188,8 @@ export default function PageAnimeID({ props, animation }) {
       anime_imageCarousel,
     } = data.animation[2];
     return (
+      <>
+      {data? (
       <div className={backNav + ` min-h-screen`}>
         <Navbar
           className={classNav}
@@ -242,7 +255,15 @@ export default function PageAnimeID({ props, animation }) {
         </div>
 
         <Footer />
-      </div>
+      </div>): (
+        <div>
+          <Navbar className="bg-gradient-to-t from-yellow-500 to-orange-500 text-sky-900" liste="bg-gradient-to-t from-orange-500 to-yellow-500 text-sky-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0"/>
+          <div className="justify-center m-auto flex mb-20">
+            <img src="/assets/Soon.webp" className="w-full md:w-[50%]" />
+          </div>
+        </div>
+      )}
+      </>
     );
   }
 
@@ -257,6 +278,8 @@ export default function PageAnimeID({ props, animation }) {
     anime_imageCarousel,
   } = data.animation[0];
   return (
+    <>
+    {data? (
     <div className={backNav + ` min-h-screen`}>
       <Navbar className={classNav} liste={searchNav} listing={listeSearchNav} />
       <div className="h-4/5 justify-center m-auto flex">
@@ -316,5 +339,14 @@ export default function PageAnimeID({ props, animation }) {
 
       <Footer />
     </div>
+    ): (
+        <div>
+          <Navbar className="bg-gradient-to-t from-yellow-500 to-orange-500 text-sky-900" liste="bg-gradient-to-t from-orange-500 to-yellow-500 text-sky-900 absolute left-0 w-full divide-y-2 divide-slate-50 border-gray-300 mt-1 z-10 list-none" listing="cursor-pointer p-2 hover:bg-gray-200 hover:text-orange-500 border-t-0"/>
+          <div className="justify-center m-auto flex mb-20">
+            <img src="/assets/Soon.webp" className="w-full md:w-[50%]" />
+          </div>
+        </div>
+      )}
+      </>
   );
 }

@@ -6,7 +6,7 @@ import ProductModel from "../../../../models/productModel";
 
 export async function GET() {
   await connectDB();
-  const produit = await ProductModel.find({ genre: {$in: "New"}});
+  const produit = await ProductModel.aggregate([{ $sample: { size: 9 } }])
   return NextResponse.json({ produit }, {status: 200});
 }
 

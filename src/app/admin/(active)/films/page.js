@@ -7,8 +7,6 @@ import Link from "next/link";
 export default function PageFilmAdmin() {
   const [dataFilm, setDataFilm] = useState([])
   const [loading, setLoading] = useState(true);
-  const [showFullText, setShowFullText] = useState(false);
-  const limitMot = 15;
 
   useEffect(()=> {
     const fetchData = async () => {
@@ -36,7 +34,7 @@ export default function PageFilmAdmin() {
       <h1 className="text-4xl text-indigo-600 mb-10">Films</h1>
       <div>
         <h2 className="text-[26px] text-indigo-600">Liste de films : </h2>
-        <div className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid-cols-1 xs:m-auto md:grid-cols-4 md:gap-4 md:m-auto md:items-center">
+        <div className="w-4/5 lg:w-full grid grid-cols-2 gap-1 m-auto items-center xs:grid-cols-1 xs:m-auto md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-4 md:m-auto md:items-center">
         {dataFilm.map((films)=> {
           return(
             <div key={films.id} className=" bg-slate-50 rounded-lg shadow-lg overflow-hidden">
@@ -46,12 +44,9 @@ export default function PageFilmAdmin() {
                 </Link>
               </div>
               <div className="p-6 justify-center">
-                <h2 className="text-xl font-bold text-gray-900">{films.name}</h2>
-                <h3 className="text-lg text-gray-600">{films.auteur}</h3>
-                <p className="text-sm">{showFullText? films.description : truncateText(films.description, limitMot)}</p>
-                <button className="mt-4 text-blue-500 hover:underline" onClick={() => setShowFullText(!showFullText)}>
-                  {showFullText ? 'Lire moins' : 'Lire plus'}
-                </button>
+                <h2 className="text-lg line-clamp-2 lg:h-[60px] font-bold text-gray-900">{films.name}</h2>
+                <h3 className="text-md text-gray-600 line-clamp-1">{films.auteur}</h3>
+                <h3 className="text-md text-gray-600 line-clamp-1">Studio: {films.studio}</h3>
               </div>
             </div>
           )
@@ -61,11 +56,3 @@ export default function PageFilmAdmin() {
     </div>
   );
 }
-
-const truncateText = (text, wordLimit) => {
-  const words = text.split(' ');
-  if (words.length > wordLimit) {
-    return words.slice(0, wordLimit).join(' ') + '...';
-  }
-  return text;
-};

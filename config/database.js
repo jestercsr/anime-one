@@ -1,3 +1,6 @@
+/**
+ * Configuration de la connexion à MongoDB et Prisma
+ */
 import { PrismaClient } from "@prisma/client";
 import mongoose from "mongoose";
 

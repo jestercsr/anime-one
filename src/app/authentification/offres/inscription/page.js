@@ -147,7 +147,7 @@ export default function PageInscritComplet() {
               <div>
                 <h2 className="text-xl font-semibold mb-4">Paiement</h2>
                 <div className="bg-white p-4 rounded-lg shadow-md mb-4">
-                  <div className="bg-gradient-to-b from-greener-950 to-emeralder-900 text-slate-50 flex justify-between items-center mb-4">
+                  <div className="bg-gradient-to-b from-greener-950 to-emeralder-900 text-slate-50 p-2 rounded-md flex justify-between items-center mb-4">
                     <div>
                       <h3 className="text-lg font-bold">{offreUser.nom}</h3>
                       <p>{offreUser.prix}€</p>

@@ -2,6 +2,7 @@ import { Inter, Roboto } from "next/font/google";
 import "../globals.css";
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 import Error from "./error";
+import { CartProvider } from "../../../providers/CartContext";
  
 const roboto = Roboto({
   weight: '400',
@@ -10,7 +11,7 @@ const roboto = Roboto({
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Boutiques | Anime ONE ",
+  title: "Boutiques | Anime ONE Store",
   description: "Explorer la boutique en ligne avec toujours plus de manga",
 };
 
@@ -18,7 +19,7 @@ export default function StoresLayout({ children }) {
   return (
     <div className={roboto.className}>
       <ErrorBoundary fallback={<Error/>}>
-      {children}
+      <CartProvider>{children}</CartProvider>
       </ErrorBoundary>
     </div>
   );

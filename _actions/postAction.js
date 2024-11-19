@@ -5,6 +5,7 @@ import connectDB from "../config/database";
 import ListeModel from "../models/listeModel";
 import MovieModel from "../models/moviesModel";
 import ProductModel from "../models/productModel";
+import CollectionModel from "../models/collectionModel";
 
 export async function getManga(_actions) {
   try {
@@ -40,6 +41,22 @@ export async function getRecommander() {
         await ListeModel.find({
           typeCategorie: { $in: "Recommander" },
         }).sort({ name: "desc" })
+      )
+    );
+    return data;
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
+export async function getClassique() {
+  try {
+    await connectDB();
+    const data = JSON.parse(
+      JSON.stringify(
+        await ListeModel.find({
+          typeCategorie: { $in: "Classique" },
+        }).sort({ name: "asc" })
       )
     );
     return data;
@@ -160,6 +177,16 @@ export async function getFilmsAll() {
   try {
     await connectDB()
     const data = JSON.parse(JSON.stringify(await MovieModel.find({ type: {$in: "films"}}).sort({name: "asc"})))
+    return data
+  } catch (error) {
+    return { message: error.message };
+  }
+}
+
+export async function getSeriesAll() {
+  try {
+    await connectDB()
+    const data = JSON.parse(JSON.stringify(await MovieModel.find({ type: {$in: "series"}}).sort({name: "asc"})))
     return data
   } catch (error) {
     return { message: error.message };

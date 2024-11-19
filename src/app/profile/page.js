@@ -29,8 +29,8 @@ export default function PageProfile() {
   const router = useRouter();
 
   useEffect(() => {
+    if (!userProfile) return;
     const fetchProfiles = async () => {
-      if (!userProfile) return;
 
       try {
         const response = await fetch(`/api/profiles/${userProfile}`);
@@ -132,7 +132,7 @@ export default function PageProfile() {
                         src={avatar?.images}
                         alt={profile.nom}
                         className="rounded-full"
-                        onClick={() => handleSelectProfile(profile)}
+                        onClick={handleSelectProfile(profile)}
                       />
                     </div>
                     <p className="mt-2 text-center">{profile.nom}</p>
@@ -152,12 +152,12 @@ export default function PageProfile() {
           <ul>
             {lien.map((liens, index) => {
               return (
-                <li key={index} className="p-3 border-b border-gray-700">
+                <li key={index} className="p-3 border-b border-gray-700 hover:underline hover:underline-offset-8">
                   <Link href={liens.url}>{liens.name}</Link>
                 </li>
               );
             })}
-            <li className="p-3 border-b border-gray-700">
+            <li className="p-3 border-b border-gray-700 hover:underline hover:underline-offset-8">
               <button onClick={handleDeleteUser}>Supprimer le compte</button>
             </li>
             <li className="p-3 border-b border-gray-700 hover:text-red-500">

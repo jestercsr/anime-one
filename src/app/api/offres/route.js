@@ -1,4 +1,10 @@
 "use server";
+/**
+ * Récuperer les données des offres pour l'inscription
+ * Envoie des données pour modifier le choix de l'utilisateur
+ * @param {string} req - L'ID de l'utilisateur et l'ID de l'offre
+ * @returns {object} - Les données du manga sélectionné ont été envoyés
+ */
 import { NextResponse } from "next/server";
 import { prisma } from "../../../../config/database";
 

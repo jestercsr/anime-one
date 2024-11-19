@@ -7,6 +7,7 @@ export async function POST(req) {
     const { id, prenom, nom, numero_rue, voie, code_postal, ville, pays, phone, date_naissance, nom_carte, numero_carte, expiration, cvc, offreUtilisateur } = await req.json();
     console.log(id, offreUtilisateur);
     const UserId = parseInt(id, 10);
+    const userNum = parseInt(numero_rue, 10)
     const offreSelect = parseInt(offreUtilisateur.offreId, 10)
     
     await prisma.$queryRawUnsafe(`
@@ -17,7 +18,7 @@ export async function POST(req) {
     await prisma.$queryRawUnsafe(`INSERT INTO "CarteBancaire" ("nom_carte", "numero_carte", "expiration", "cvc", "userId")
       VALUES ($1, $2, $3::DATE, $4::smallint, $5)`,nom_carte, numero_carte, expiration, cvc, UserId)
     await prisma.$queryRawUnsafe(`INSERT INTO "Adresse" ("numero_rue", "voie", "code_postal", "ville", "pays", "userId")
-      VALUES ($1, $2, $3, $4, $5, $6)`, numero_rue, voie, code_postal, ville, pays, UserId)
+      VALUES ($1, $2, $3, $4, $5, $6)`, userNum, voie, code_postal, ville, pays, UserId)
     return NextResponse.json({ message: `L'inscription complète est terminer` },
       { status: 200 }
     );
