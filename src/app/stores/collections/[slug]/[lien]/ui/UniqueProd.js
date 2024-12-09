@@ -178,16 +178,18 @@ export default function UniqueProd({ props, url }) {
                   </p>
                 )}
                 <div className="flex items-center">
-                  <h2 className="font-bold text-md md:text-lg p-2 md:p-4">
-                    Quantité restante :
-                  </h2>
                   {data.quantite < 10 ? (
-                    <p className="text-red-600 ml-1 font-bold text-2xl">
+                    <div>
+                      <h2 className="font-bold text-md md:text-lg p-2 md:p-4">
+                        Quantité restante :
+                      </h2>
+                      <p className="text-red-600 ml-1 font-bold text-2xl">
                       {data.quantite}
-                    </p>
+                      </p>
+                    </div>
                   ) : (
                     <p className="ml-1 font-semibold text-xl">
-                      {data.quantite}
+                      Quantité disponible : {data.quantite}
                     </p>
                   )}
                 </div>
