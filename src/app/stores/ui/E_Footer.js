@@ -37,10 +37,6 @@ export default function E_Footer() {
       </div>
       <div className="grid grid-rows-2 text-center text-xs text-slate-50 md:text-sm lg:text-md">
         <p className="mx-2 mt-2">
-          Le contenu et les plateformes disponibles peuvent varier selon la zone
-          géographique.
-        </p>
-        <p className="mr-2 ml-2">
           © 2024 Anime ONE Store byJester. Tous droits réservés.
         </p>
       </div>

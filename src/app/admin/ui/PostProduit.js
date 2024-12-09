@@ -58,6 +58,22 @@ export default function PostProduit() {
     if (res.ok) {
       const data = await res.json();
       setIsLoading(false);
+      setFormData({
+        image: [""],
+    titre: "",
+    url: "",
+    prix: 0,
+    sale: 0,
+    genre: [""],
+    manga: "",
+    type: "",
+    description: "",
+    taille: [""],
+    couleur: [""],
+    averageRating: 0,
+    typeContenu: "",
+    quantite: 1,
+      })
       console.log("Success:", res);
     } else {
       console.error("Error:", res.statusText);

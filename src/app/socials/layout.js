@@ -11,7 +11,7 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  title: "Socials | Accueil | Anime ONE",
+  title: "Socials | Anime ONE",
   description: "Partager votre passion pour les mangas avec ce nouveau réseau sociale.",
 };
 

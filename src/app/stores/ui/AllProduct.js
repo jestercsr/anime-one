@@ -83,7 +83,8 @@ export default function AllProduct() {
     if (isInCart(product.id)) {
       dispatch({ type: "REMOVE_ITEM", payload: product.id });
     } else {
-      dispatch({ type: "ADD_ITEM", payload: { ...product, quantity: 1 } });
+      const productWithQuantity = { ...product, quantity: 1 };
+      dispatch({ type: "ADD_ITEM", payload: productWithQuantity });
     }
   };
 
@@ -93,8 +94,8 @@ export default function AllProduct() {
         {data.map((product) => {
           return (
             <div
-              key={product.id}
-              className="w-[140px] md:w-[180px] justify-items-center m-auto  px-[5px] py-[6px] cursor-pointer hover:shadow-2xl rounded-2xl mb-5 lg:w-[23%] lg:min-w-[250px] lg:py-[12px] lg:min-h-[400px] flex flex-col"
+              key={product._id}
+              className="w-[140px] md:w-[180px] justify-items-center m-auto px-[5px] py-[6px] cursor-pointer hover:shadow-2xl rounded-2xl mb-5 lg:w-[23%] lg:min-w-[250px] lg:py-[12px] lg:min-h-[400px] flex flex-col"
             >
               <Link
                 href={`/stores/collections/${product.manga}/${product.url}`}
@@ -134,13 +135,17 @@ export default function AllProduct() {
                     </p>
                   )}
                   <button
-                    onClick={toggleCart}
+                    onClick={() => toggleCart(product)}
                     className={`p-2 lg:p-4 rounded-full ${
                       isInCart(product.id)
                         ? "bg-red-500 text-white"
                         : "bg-skyer-600 text-white hover:bg-sky-500"
                     }`}
-                    title={isInCart(product.id) ? "Retirer du Panier" : "Ajouter au Panier"}
+                    title={
+                      isInCart(product.id)
+                        ? "Retirer du Panier"
+                        : "Ajouter au Panier"
+                    }
                   >
                     {isInCart(product.id) ? (
                       <MdRemoveShoppingCart className="text-2xl" />
@@ -153,6 +158,7 @@ export default function AllProduct() {
             </div>
           );
         })}
+
         <div className="h-[300px] md:h-[400px] flex justify-center items-center">
           <Link href="/stores/collections">
             <TbHexagonPlusFilled

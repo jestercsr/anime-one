@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Footer from "@/app/ui/Footer";
 import { getListeAll } from "../../../../_actions/postAction";
-import ReactLoading from 'react-loading';
+import ReactLoading from "react-loading";
+import { useProfile } from "../../../../providers/ProfileContext";
 
 function ListeAllManga() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const { userProfile } = useProfile();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,7 +27,9 @@ function ListeAllManga() {
   }, []);
 
   if (loading) {
-    return <div className="items-center"><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
+    return (
+      <div className="items-center"><ReactLoading type="bubbles" color="#ffffff" height={"3%"} width={"3%"} /></div>
+    );
   }
 
   return (
@@ -37,12 +41,27 @@ function ListeAllManga() {
               className="mx-1 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8"
               key={i}
             >
-              <Link href={`/manga/${select.url}`}>
-                <img
-                  src={select.image} alt={select.name}
-                  className="w-full rounded-2xl hover:opacity-100"
-                />
-              </Link>
+              {userProfile ? (
+                <div>
+                  <Link href={`/manga/${select.url}`}>
+                    <img
+                      src={select.image}
+                      alt={select.name}
+                      className="w-full rounded-2xl hover:opacity-100"
+                    />
+                  </Link>
+                </div>
+              ) : (
+                <div>
+                  <Link href={`/authentification`}>
+                    <img
+                      src={select.image}
+                      alt={select.name}
+                      className="w-full rounded-2xl hover:opacity-100"
+                    />
+                  </Link>
+                </div>
+              )}
             </div>
           );
         })}

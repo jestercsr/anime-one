@@ -6,6 +6,12 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { useProfile } from "../../../providers/ProfileContext";
 import { useAvatar } from "../../../providers/AvatarContext";
 
+/**
+ * Description placeholder
+ *
+ * @export
+ * @returns {*}
+ */
 export default function PageAuth() {
   const [isConnect, setIsConnect] = useState(false);
   const [randomText, setRandomText] = useState("");
@@ -54,6 +60,14 @@ export default function PageAuth() {
   });
   let [recaptchaToken, setRecaptchaToken] = useState(null);
 
+  const [passwordCriteria, setPasswordCriteria] = useState({
+    length: false,
+    uppercase: false,
+    lowercase: false,
+    number: false,
+    specialChar: false,
+  });
+
   const handleRecaptchaChange = (token) => {
     setRecaptchaToken(token);
   };
@@ -62,7 +76,21 @@ export default function PageAuth() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
   const handleInputSign = (e) => {
-    setFormSign({ ...formSign, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormSign({ ...formSign, [name]: value });
+    if (name === "password") {
+      validatePassword(value);
+    }
+  };
+
+  const validatePassword = (password) => {
+    setPasswordCriteria({
+      length: password.length >= 12,
+      uppercase: /[A-Z]/.test(password),
+      lowercase: /[a-z]/.test(password),
+      number: /[0-9]/.test(password),
+      specialChar: /[!@#$%^&*(),.?":{}|<>]/.test(password),
+    });
   };
 
   const handleLogin = async (e) => {
@@ -82,13 +110,14 @@ export default function PageAuth() {
     });
 
     if (res.ok) {
-      const profile = await res.json();
+      const response = await res.json();
+      const userProfil = response.profile;
       saveLoginData(formData);
-      saveRoleId(profile.role);
-      saveActiveCompte(profile.active);
-      saveUserId(profile.id);
-      selectAccount(profile);
-      if (profile.active === true) {
+      saveRoleId(userProfil.role);
+      saveActiveCompte(userProfil.active);
+      saveUserId(userProfil.id);
+      selectAccount(userProfil);
+      if (userProfil.active === true) {
         router.push("/authentification/profile-selector");
       } else {
         alert("Votre compte n'existe plus créé un nouveau");
@@ -235,6 +264,23 @@ export default function PageAuth() {
               onChange={handleInputSign}
               required
             />
+            <div className="text-left text-sm text-gray-600">
+        <p className={passwordCriteria.length ? "text-green-500" : "text-red-600"}>
+        {passwordCriteria.length ? "✔️" : "❌"} Au moins 12 caractères
+        </p>
+        <p className={passwordCriteria.uppercase ? "text-green-500" : "text-red-600"}>
+        {passwordCriteria.uppercase ? "✔️" : "❌"} Une majuscule
+        </p>
+        <p className={passwordCriteria.lowercase ? "text-green-500" : "text-red-600"}>
+        {passwordCriteria.lowercase ? "✔️" : "❌"} Une minuscule
+        </p>
+        <p className={passwordCriteria.number ? "text-green-500" : "text-red-600"}>
+        {passwordCriteria.number ? "✔️" : "❌"} Un chiffre
+        </p>
+        <p className={passwordCriteria.specialChar ? "text-green-500" : "text-red-600"}>
+        {passwordCriteria.specialChar ? "✔️" : "❌"} Un caractère spécial
+        </p>
+      </div>
             <div className="w-full max-w-xs mr-24 md:mx-auto transform scale-50 md:scale-100 lg:scale-105">
               <ReCAPTCHA
                 sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}

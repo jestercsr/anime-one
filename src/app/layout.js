@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 import Error from "./error";
 import { AvatarProvider } from "../../providers/AvatarContext";
+import CookieConsent from "./lib/ui/Cookies";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <ProfileProvider>
           <AvatarProvider>
           {children}
+          <CookieConsent />
           <Analytics />
           </AvatarProvider>
         </ProfileProvider>

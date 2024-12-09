@@ -8,7 +8,7 @@ export async function POST(req) {
     console.log(id, offreUtilisateur);
     const UserId = parseInt(id, 10);
     const userNum = parseInt(numero_rue, 10)
-    const offreSelect = parseInt(offreUtilisateur.offreId, 10)
+    const offreSelect = parseInt(offreUtilisateur.id, 10)
     
     await prisma.$queryRawUnsafe(`
         UPDATE "User"

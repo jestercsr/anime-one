@@ -12,10 +12,16 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Twirl as Hamburger } from "hamburger-react";
 import ReactLoading from "react-loading";
-import { getListeAll } from "../../../../_actions/postAction";
+import { getMovieAll } from "../../../../_actions/postAction";
 import { useAvatar } from "../../../../providers/AvatarContext";
 import { TfiUser } from "react-icons/tfi";
 
+  /**
+   * Component qui affiche une barre de navigation avec un menu de navigation et une barre de recherche.
+   * @component
+   * @param {Object} props Les propriétés du composant.
+   * @returns {ReactElement} Le composant Topbar.
+   */
 export default function Topbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { selectedProfile, logout } = useProfile();
@@ -37,7 +43,7 @@ export default function Topbar() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const listeData = await getListeAll();
+        const listeData = await getMovieAll();
         setData(listeData);
       } catch (error) {
         console.error("Erreur pour récupérer la liste des mangas:", error);
@@ -86,12 +92,12 @@ export default function Topbar() {
         />
         {searchTerm && filteredData.length > 0 && (
           <ul className="bg-gray-500 text-slate-50 absolute left-3 top-8 w-[90%] divide-y-2 divide-slate-50 border-gray-300 mt-2 z-10 list-none">
-            {filteredData.map((manga, i) => (
+            {filteredData.map((mangas, i) => (
               <li
                 key={i}
                 className="cursor-pointer p-2 hover:bg-gray-200 hover:text-indigo-600 border-t-0"
               >
-                <Link href={`/manga/${manga.url}`}>{manga.name}</Link>
+                <Link href={`/manga/${mangas.manga}/${mangas.type}/${mangas.url}`}>{mangas.name}</Link>
               </li>
             ))}
           </ul>

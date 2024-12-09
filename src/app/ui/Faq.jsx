@@ -7,7 +7,7 @@ const Accordion = ({ title, children }) => {
   return (
     <div>
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen(!isOpen)} aria-label="bouton-faq"
         className="bg-gray-100/25 p-4 flex justify-between items-center w-full text-md ml-1 md:text-lg lg:text-2xl font-semibold m-3"
       >
         <span>{title}</span>
@@ -20,7 +20,7 @@ const Accordion = ({ title, children }) => {
 
 export default function Faq() {
   return (
-    <div className="bg-gradient-to-b from-greener-950 to-blacker-950 pt-14 text-white text-base">
+    <div className="bg-gradient-to-b from-greener-950 to-emeralder-900 pt-14 text-white text-base">
       <div className="bg-skyer-500">
         <h1 className="text-2xl sm:text-4xl font-bold text-center p-4">
           FOIRE AUX QUESTIONS

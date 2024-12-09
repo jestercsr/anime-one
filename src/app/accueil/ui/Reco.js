@@ -3,7 +3,24 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { getRecommander } from "../../../../_actions/postAction";
 import Link from "next/link";
-import ReactLoading from 'react-loading';
+import ReactLoading from "react-loading";
+import { useProfile } from "../../../../providers/ProfileContext";
+import { IoStarOutline, IoStarSharp } from "react-icons/io5";
+
+const updateWatchlist = async (userId, animeId, action) => {
+  const response = await fetch(`/api/watchlist`, {
+    method: action === "add" ? "POST" : "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ userId, animeId }),
+  });
+  if (response.ok) {
+    return await response.json();
+  } else {
+    throw new Error("Erreur lors de la mise à jour de la liste de visionnage");
+  }
+};
 
 export default function Reco() {
   const responsive = {
@@ -31,6 +48,8 @@ export default function Reco() {
 
   const [dataReco, setDataReco] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [watchlist, setWatchlist] = useState([]);
+  const { userProfile } = useProfile();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -50,19 +69,42 @@ export default function Reco() {
     fetchData();
   }, []);
 
+  const isInWatchlist = (animeId) => watchlist.includes(animeId);
+
+  const handleWatchlistToggle = async (animeId) => {
+    try {
+      const action = isInWatchlist(animeId) ? "remove" : "add";
+      const updatedUser = await updateWatchlist(userProfile, animeId, action);
+      setWatchlist(updatedUser.watchlist);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   if (loading) {
-    return <div><ReactLoading type="bubbles" color="#ffffff" height={'3%'} width={'3%'} /></div>;
+    return (
+      <div>
+        <ReactLoading
+          type="bubbles"
+          color="#ffffff"
+          height={"3%"}
+          width={"3%"}
+        />
+      </div>
+    );
   }
   return (
     <>
       <div className="mt-5 text-slate-50 pb-5 text-xl">
         <h2 className="ml-1 ">Recommander pour Vous</h2>
-        <Carousel swipeable={true}
+        <Carousel
+          swipeable={true}
           responsive={responsive}
           infinite
           removeArrowOnDeviceType={["tablet", "mobile"]}
         >
           {dataReco.map((recommander, index) => {
+            const animeId = recommander._id;
             return (
               <div
                 className="text-[8px] md:text-xs lg:text-md mx-2 py-2 md:mx-2.5 md:py-5 lg:mx-5 lg:py-8 relative"
@@ -78,6 +120,16 @@ export default function Reco() {
                     {recommander.name}
                   </p>
                 </Link>
+                <button
+                  className="absolute bottom-2 md:bottom-5 lg:bottom-9 right-2 text-white"
+                  onClick={() => handleWatchlistToggle(animeId)}
+                >
+                  {isInWatchlist(animeId) ? (
+                    <IoStarSharp className="text-xl md:text-2xl" />
+                  ) : (
+                    <IoStarOutline className="text-xl md:text-2xl" />
+                  )}
+                </button>
               </div>
             );
           })}

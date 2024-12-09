@@ -58,7 +58,7 @@ export default function PageInscritComplet() {
   };
 
   return (
-    <div style={{ backgroundImage: "url('/assets/bgAuth.webp')" }} className="flex justify-center items-center min-h-screen">
+    <div style={{ backgroundImage: "url('/assets/bgAuth.webp')" }} className="bg-cover bg-center h-screen flex justify-center items-center min-h-screen">
       <div className="bg-gradient-to-b from-sky-600 to-cyan-900 p-8 rounded-lg shadow-lg max-w-4xl w-full">
         <p className="text-red-600 text-2xl text-center">! Veuillez ne pas indiquez vos réelles informations personnelles, se site est un projet scolaire !</p>
         <div>

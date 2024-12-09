@@ -1,4 +1,5 @@
 'use client'
+import Cookies from "js-cookie";
 import { useRouter } from "next/navigation";
 import React, { createContext, useContext, useState, useEffect } from "react";
 
@@ -10,7 +11,7 @@ export const ProfileProvider = ({ children }) => {
   const [selectedAccount, setSelectedAccount] = useState(null);
   const [signupData, setSignupData] = useState({});
   const [loginData, setLoginData] = useState({});
-  const [userProfile, setUserProfile] = useState([])
+  const [userProfile, setUserProfile] = useState(null)
   const router = useRouter();
 
   useEffect(() => {
@@ -19,7 +20,7 @@ export const ProfileProvider = ({ children }) => {
     const storedSignupData = localStorage.getItem("signupData");
     const storedLoginData = localStorage.getItem("loginData");
     const storedUserId = localStorage.getItem("userId");
-    setUserProfile(storedUserId ? parseInt(storedUserId, 10) : 0);
+    setUserProfile(storedUserId ? parseInt(storedUserId, 10) : null);
 
     if (storedProfile) {
       setSelectedProfile(JSON.parse(storedProfile));
@@ -41,32 +42,6 @@ export const ProfileProvider = ({ children }) => {
       setUserProfile(storedUserId);
     }
   }, []);
-
-  const addProfile = (profile) => {
-    const updatedProfiles = [...profiles, profile];
-    setProfiles(updatedProfiles);
-    localStorage.setItem('profiles', JSON.stringify(updatedProfiles));
-  };
-
-  const updateProfile = (updatedProfile) => {
-    const updatedProfiles = profiles.map(profile =>
-      profile.id === updatedProfile.id ? updatedProfile : profile
-    );
-    setProfiles(updatedProfiles);
-    localStorage.setItem('profiles', JSON.stringify(updatedProfiles));
-  };
-
-  const deleteProfile = (profileId) => {
-    const updatedProfiles = profiles.filter(profile => profile.id !== profileId);
-    setProfiles(updatedProfiles);
-    localStorage.setItem('profiles', JSON.stringify(updatedProfiles));
-  };
-
-  const selectProfile = (profileId) => {
-    const profile = profiles.find(p => p.id === profileId);
-    setSelectedProfile(profile);
-    localStorage.setItem('selectedProfile', JSON.stringify(profile));
-  };
 
   const selectAccount = (account) => {
     setSelectedAccount(account);
@@ -118,6 +93,7 @@ export const ProfileProvider = ({ children }) => {
     localStorage.removeItem("profileName");
     localStorage.removeItem("offreUser")
     localStorage.removeItem("active")
+    Cookies.remove("authToken")
     if (router && router.push) {
       router.push('/');
     }
@@ -130,10 +106,6 @@ export const ProfileProvider = ({ children }) => {
       signupData,
       loginData,
       userProfile,
-      addProfile,
-      updateProfile,
-      deleteProfile,
-      selectProfile,
       selectAccount,
       saveProfile,
       saveSignupData,

@@ -9,6 +9,10 @@ import Link from "next/link";
 import { TbHexagonPlusFilled } from "react-icons/tb";
 import { useCart } from "../../../../providers/CartContext";
 
+  /**
+   * Composant qui affiche les 12 derniers produits ajoutés au store.
+   * @returns Un composant React qui affiche les 12 derniers produits ajoutés au store.
+   */
 export default function Products() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);

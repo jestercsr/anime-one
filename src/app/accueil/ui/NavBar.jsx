@@ -29,27 +29,36 @@ export default function Navbar(props) {
     "bg-blacker-950", "bg-blacker-300", "bg-blacker-200", "bg-blacker-10",
     "bg-blacker-8", "bg-neutraler-900", "bg-neutraler-800", "bg-neutraler-100",
     "bg-slate-950", "bg-slate-900", "bg-slate-800", "bg-gray-950",
-    "bg-gray-900", "bg-gray-800", "bg-zinc-950", "bg-zinc-900","bg-indigo-800", "bg-indigo-900",
+    "bg-gray-900", "bg-gray-800", "bg-zinc-950", "bg-zinc-900",
     "bg-zinc-800", "bg-neutral-950", "bg-neutral-900", "bg-neutral-800","bg-red-900", "bg-stone-950", "bg-stone-900", "bg-black"
   ];
 
   const lightColors = [
-    "bg-skyer-950", "bg-skyer-600", "bg-skyer-500", "bg-blue-950",
-    "bg-blue-900", "bg-blue-800", "bg-blue-700", "bg-blue-600",
+    "bg-skyer-950", "bg-skyer-600", "bg-skyer-500", "bg-blue-700", "bg-blue-600",
     "bg-blue-500", "bg-blue-400", "bg-sky-400", "bg-sky-500",
-    "bg-sky-600", "bg-sky-700", "bg-sky-800", "bg-sky-900", "bg-teal-800",
-    "bg-sky-950", "bg-cyan-950", "bg-cyan-800", "bg-teal-950", "bg-teal-900",
+    "bg-sky-600", "bg-sky-700", "bg-teal-800",
     "bg-cyan-700", "bg-cyan-600", "bg-cyan-500", "bg-cyan-400","bg-greener-500"
+  ];
+
+  const blacksColors = [
+    "bg-blue-950",
+    "bg-blue-900", "bg-blue-800",
+    "bg-sky-800", "bg-sky-900",
+    "bg-sky-950", "bg-cyan-950", "bg-cyan-800", "bg-teal-950", "bg-teal-900",
+    "bg-indigo-800", "bg-indigo-900", "bg-indigo-950", "bg-violet-950", "bg-violet-900", "bg-violet-800"
+    , "bg-purple-950", "bg-purple-900", "bg-purple-800", "bg-fuchsia-950", "bg-fuchsia-900", "bg-fuchsia-800"
   ];
 
   const getLogo = () => {
     const classes = props.className.split(' ');
-    const bgColor = classes.find(cls => darkColors.includes(cls) || lightColors.includes(cls));
+    const bgColor = classes.find(cls => darkColors.includes(cls) || lightColors.includes(cls) || blacksColors.includes(cls));
 
     if (darkColors.includes(bgColor)) {
       return "/assets/LogoAnimeONE/logoAnimeOneDefault3.webp";
     } else if (lightColors.includes(bgColor)) {
       return "/assets/LogoAnimeONE/logoAnimeOneDefault2.webp";
+    } else if (blacksColors.includes(bgColor)) {
+      return "/assets/LogoAnimeONE/logoAnimeOneDefault4.webp";
     } else {
       return "/assets/LogoAnimeONE/logoAnimeOneDefault.webp";
     }

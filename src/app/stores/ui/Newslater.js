@@ -1,7 +1,5 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaXTwitter, FaFigma } from "react-icons/fa6";
-import { SiGmail } from "react-icons/si";
-import { RiInstagramFill } from "react-icons/ri";
 
 export default function Newslater() {
   return (
@@ -33,8 +31,6 @@ export default function Newslater() {
           <FaLinkedin className="hover:text-sky-800"/>
           <FaXTwitter className="hover:text-sky-800"/>
           <FaFigma className="hover:text-sky-800"/>
-          <SiGmail className="hover:text-sky-800"/>
-          <RiInstagramFill className="hover:text-sky-800"/>
         </div>
       </div>
     </div>

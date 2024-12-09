@@ -16,7 +16,9 @@
                 "file": "DevOps.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "DevOps"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "Web Service.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Web Service"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "Java Hibernate Spring.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Java Hibernate Spring"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "Page Catalogue fini.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Page Catalogue fini"
             }
           },
           {
@@ -64,7 +72,9 @@
                 "file": "No Sql Cours.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "No Sql Cours"
             }
           }
         ],
@@ -88,7 +98,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -103,7 +115,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
             }
           },
           {
@@ -111,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
             }
           }
         ]
@@ -142,7 +158,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Page Catalogue fini"
             }
           },
           {
@@ -154,7 +172,9 @@
                 "file": "Page Catalogue fini.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants de Page Catalogue fini"
             }
           },
           {
@@ -165,7 +185,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
             }
           },
           {
@@ -175,7 +197,9 @@
               "type": "outline",
               "state": {
                 "file": "Page Catalogue fini.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Plan de Page Catalogue fini"
             }
           }
         ]

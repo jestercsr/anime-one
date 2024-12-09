@@ -63,7 +63,7 @@ export default function Slider() {
       >
         {top.map((item, i) => {
           return (
-            <div key={i} className="mb-5 md:mb-auto md:h-auto pb-4 mt-24">
+            <div key={i} className="mb-5 md:mb-auto md:h-auto pb-4">
                 <Link href={item.href}>
                 <img
                   src={item.image}

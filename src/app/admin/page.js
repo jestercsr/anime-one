@@ -1,33 +1,38 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PostAll from "./ui/PostAll";
 import DeleteAll from "./ui/DeleteAll";
 import AddListeAll from "./ui/AddListeAll";
 import UpdateAll from "./ui/UpdateAll";
-import { getManga } from "../../../_actions/postAction";
 import PostProduit from "./ui/PostProduit";
+import { useRouter } from "next/navigation";
 
+  /**
+   * Page d'administration.
+   *
+   * Permet d'ajouter, modifier, supprimer des mangas et des produits.
+   *
+   * @returns {JSX.Element} Composant React.
+   */
 export default function PageAdmin() {
   const [showDeleteForm, setShowDeleteForm] = useState(false);
   const handleShowDelete = () => {
     setShowDeleteForm(!showDeleteForm);
   };
-  const [manga, setManga] = useState(null);
+  const router = useRouter();
 
-  const handleSearch = async (searchTerm) => {
-    console.log("Recherche en cours du manga:", searchTerm);
-    try {
-      const data = await getManga(searchTerm);
-      if (!data || data.message) {
-        alert(data.message || "Aucun Manga de ce nom");
-        return;
-      }
-      setManga(data);
-    } catch (error) {
-      console.error("Erreur dans la base de données:", error);
-      alert("Erreur dans la base de données. Réessayer plus tard.");
+  useEffect(() => {
+    const token = localStorage.getItem("role")
+
+    if (!token) {
+      router.push('/authentification');
+      return;
     }
-  };
+      if (token !== 'admin') {
+        router.push('/accueil');
+      }
+   
+  }, [router]);
 
   return (
     <div className="text-center bg-slate-50 min-h-screen">

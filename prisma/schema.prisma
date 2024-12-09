@@ -25,6 +25,7 @@ model User {
   carte_bancaire CarteBancaire[]    
   offre          Offre?    @relation(fields: [offreId], references: [id])
   commandes      Commande[]
+  watchlist  String[]
 }
 
 model CarteBancaire {

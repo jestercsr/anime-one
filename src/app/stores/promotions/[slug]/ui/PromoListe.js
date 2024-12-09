@@ -128,7 +128,7 @@ export default function PromoBySlug({ props }) {
       {manga && data ? (
         <div>
           <E_Navbar />
-          <div className="pt-[99px] lg:pt-[107px] mb-3">
+          <div className="mb-3">
             <div className="lg:px-24 xl:px-32">
               <img
                 src={manga.header}

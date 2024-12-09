@@ -126,7 +126,7 @@ export default function PageCollections() {
   return (
     <>
       <E_Navbar />
-      <div className="pt-[107px] mb-3">
+      <div className="mb-3">
         <div className="px-8 mt-2">
           <Breadcrumb color={`text-gray-700 `} />
           <div className="flex mt-3 text-gray-700">

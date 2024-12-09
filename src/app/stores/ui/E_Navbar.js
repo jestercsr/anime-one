@@ -58,7 +58,7 @@ export default function E_Navbar() {
   }
 
   return (
-    <div className="duration-200 z-40 bg-cyan-800 text-slate-50 fixed top-0 w-full">
+    <div className="duration-200 z-40 bg-cyan-800 text-slate-50 w-full">
       <div className="bg-sky-500 text-slate-50 ">
         <div className="container py-2">
           <div className="flex justify-between items-center text-sm">
@@ -77,7 +77,7 @@ export default function E_Navbar() {
       >
         <div className={`${isOpen ? "flex gap-4" : "flex items-center gap-4"}`}>
           <Link href={"/stores"}>
-            <div className="block w-36">
+            <div className="block w-32">
               <img
                 src="/assets/LogoAnimeONE/LogoNavbar.webp"
                 className="block w-full"

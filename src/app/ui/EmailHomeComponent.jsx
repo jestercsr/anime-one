@@ -8,7 +8,7 @@ export function EmailHomeComponent() {
       <div className="relative">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition animate-fade z-10">
           <img
-            src="/assets/LogoAnimeONE/logoAnimeOne.webp"
+            src="/assets/LogoAnimeONE/logoAnimeOneAlt2.webp"
             alt="logoAnimeOne"
             className="w-[100%]"
           />

@@ -8,7 +8,7 @@ Ce projet utilise [Next.js](https://nextjs.org/) crée avec la commande [`npx cr
 
 ## Outil
 
-J'utilise MongoDB, MySQL Workbench (local), TiDB Cloud (déploiement)
+J'utilise MongoDB, Prisma ORM (avec PostgreSQL)
 
 ## Getting Started
 

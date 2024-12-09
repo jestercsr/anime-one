@@ -51,7 +51,7 @@ export default function PageStoresSeries() {
     <>
       <E_Navbar />
       {Object.keys(data).map((letter) => (
-          <div key={letter} className="pt-32 px-8 mb-3">
+          <div key={letter} className="px-8 mb-3">
             <h2 className="text-orange-500 font-bold text-center text-2xl mb-1">{letter}</h2>
             <div className='grid grid-cols-2 gap-1 m-auto justify-items-center items-center xs:grid xs:grid-cols-1 xs:m-auto md:grid-cols-4 md:gap-4 md:m-auto xl:grid-cols-5'>
             {data[letter].map((manga, i) => {

@@ -9,6 +9,8 @@
  */
 import bcrypt from "bcryptjs";
 import { NextResponse } from 'next/server';
+import jwt from "jsonwebtoken"
+import { cookies } from 'next/headers';
 import { prisma } from "../../../../config/database";
 
 export async function POST(req) {
@@ -34,7 +36,40 @@ export async function POST(req) {
       return NextResponse.json({ error: "Email ou mot de passe incorrect" }, { status: 401 });
     } 
     console.log('User found:', user[0]);
-    return NextResponse.json(user[0])
+    const token = jwt.sign(
+      { id: user[0].id, email: user[0].email, role: user[0].role, active: user[0].active, username: user[0].username },
+      process.env.JWT_SECRET,
+      { expiresIn: "1h" }
+    );
+
+    const response = NextResponse.json({
+      message: "Connexion réussie",
+      profile: {
+        id: user[0].id,
+        email: user[0].email,
+        role: user[0].role,
+        active: user[0].active,
+        username: user[0].username
+      },
+    });
+
+    response.cookies.set('authToken', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 3600,
+      path: '/',
+      sameSite: 'strict',
+    });
+
+    response.cookies.set('cookieConsent', 'true', {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 365 * 24 * 60 * 60,
+      path: '/',
+      sameSite: 'strict',
+    });
+
+    return response;
     
   } catch (error) {
     console.error(error);

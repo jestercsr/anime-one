@@ -6,6 +6,16 @@ import { useRouter } from "next/navigation";
 import ReactLoading from "react-loading";
 import Link from "next/link";
 
+  /**
+   * Page de profil, permet de gérer les profils de l'utilisateur.
+   * Elle permet de :
+   * - Choisir un profil parmi les profils de l'utilisateur
+   * - Modifier les informations d'un profil
+   * - Supprimer un profil
+   * - Supprimer le compte utilisateur
+   * - Se déconnecter
+   * @returns {JSX.Element} Le composant de la page de profil
+   */
 export default function PageProfile() {
   const lien = [
     {

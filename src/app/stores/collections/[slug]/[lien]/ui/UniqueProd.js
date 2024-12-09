@@ -135,9 +135,9 @@ export default function UniqueProd({ props, url }) {
   return (
     <>
       {data ? (
-        <div className="max-w-screen-2xl">
+        <div>
           <E_Navbar />
-          <div className="pt-[99px] lg:pt-[107px] mb-3">
+          <div className="max-w-screen-2xl mb-3">
             <Breadcrumb color={`text-gray-700 text-xs md:text-sm`} />
             <div className="grid md:grid-cols-2 mt-9 text-gray-700">
               <div>
