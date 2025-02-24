@@ -8,44 +8,44 @@ import "react-multi-carousel/lib/styles.css";
 export function CarrouselForm() {
   const dataImage = [
     {
-      image: "/assets/TopScreen/bleach.webp",
-      name: "Bleach Thousand-Year Blood War - Nouvelles Saisons Disponibles",
-      url: "/manga/bleach",
+      image: "/assets/TopScreen/leveling.webp",
+      name: "Solo Leveling - Nouvelles Saisons Disponibles",
+      url: "/manga/solo-leveling",
     },
     {
-      image: "/assets/TopScreen/dandadan.webp",
-      name: "Dandadan - Nouveaux Episodes Disponibles",
-      url: "/manga/dandadan",
+      image: "/assets/TopScreen/stone.webp",
+      name: "Dr Stone - Nouvelles Saisons Disponibles",
+      url: "/manga/dr-stone",
     },
     {
-      image: "/assets/TopScreen/fairy_tail.webp",
-      name: "Fairy Tail 100 Years Quest - Nouveaux Episodes Disponibles",
-      url: "/manga/fairy-tail-100-years-quest",
+      image: "/assets/TopScreen/apothicaire.webp",
+      name: "Les Carnets de l'Apothicaire - Nouvelles Saisons Disponibles",
+      url: "/manga/les-carnets-de-l-apothicaire",
     },
     {
       image: "/assets/TopScreen/dbdaima.webp",
-      name: "Dragon Ball Daima - Nouveaux Episodes Bientôt Disponibles",
+      name: "Dragon Ball Daima - Nouveaux Episodes Disponibles",
       url: "/manga/dragon-ball-daima",
     },
     {
-      image: "/assets/TopScreen/danmachi.webp",
-      name: "DanMachi: La Légende des Familias - Nouvelles Saisons Disponibles",
-      url: "/manga/danmachi",
+      image: "/assets/TopScreen/exorcist.webp",
+      name: "Blue Exorcist - Nouvelles Saisons Disponibles",
+      url: "/manga/blue-exorcist",
     },
     {
-      image: "/assets/TopScreen/bluelock.webp",
-      name: "Blue Lock - Nouvelles Saisons Disponibles",
-      url: "/manga/blue-lock",
+      image: "/assets/TopScreen/memory.webp",
+      name: "Unnamed Memory - Nouvelles Saisons Disponibles",
+      url: "/manga/unnamed-memory",
     },
     {
-      image: "/assets/TopScreen/rezero.webp",
-      name: "Re-Zero - Nouvelles Saisons Disponibles",
-      url: "/manga/re-zero",
+      image: "/assets/TopScreen/happymarriage.webp",
+      name: "My Happy Marriage - Nouvelles Saisons Disponibles",
+      url: "/manga/my-happy-marriage",
     },
     {
-      image: "/assets/TopScreen/ranma.webp",
-      name: "Ranma 1/2 - Nouvelles Versions Disponibles",
-      url: "/manga/ranma-1-2",
+      image: "/assets/TopScreen/ishura.webp",
+      name: "Ishura - Nouvelles Saisons Disponibles",
+      url: "/manga/ishura",
     },
     {
       image: "/assets/TopScreen/shangri.webp",
@@ -82,44 +82,44 @@ export function CarrouselForm() {
   };
   const dataMobile = [
     {
-      image: "/assets/TopScreen/bleachTYW.webp",
-      name: "Bleach Thousand-Year Blood War - Nouvelles Saisons Disponibles",
-      url: "/manga/bleach",
+      image: "/assets/TopScreen/leveling2.webp",
+      name: "Solo Leveling - Nouvelles Saisons Disponibles",
+      url: "/manga/solo-leveling",
     },
     {
-      image: "/assets/TopScreen/danDadan2.webp",
-      name: "Dandadan - Nouveaux Episodes Disponibles",
-      url: "/manga/dandadan",
+      image: "/assets/TopScreen/stone2.webp",
+      name: "Dr Stone - Nouvelles Saisons Disponibles",
+      url: "/manga/dr-stone",
     },
     {
-      image: "/assets/TopScreen/fairyTail100.webp",
-      name: "Fairy Tail 100 Years Quest - Nouveaux Episodes Disponibles",
-      url: "/manga/fairy-tail-100-years-quest",
+      image: "/assets/TopScreen/apothicaire2.webp",
+      name: "Les Carnets de l'Apothicaire - Nouvelles Saisons Disponibles",
+      url: "/manga/les-carnets-de-l-apothicaire",
     },
     {
       image: "/assets/TopScreen/daima.webp",
-      name: "Dragon Ball Daima - Nouveaux Episodes Bientôt Disponibles",
+      name: "Dragon Ball Daima - Nouveaux Episodes Disponibles",
       url: "/manga/dragon-ball-daima",
     },
     {
-      image: "/assets/TopScreen/danmachiV.webp",
-      name: "DanMachi: La Légende des Familias - Nouvelles Saisons Disponibles",
-      url: "/manga/danmachi",
+      image: "/assets/TopScreen/exorcist2.webp",
+      name: "Blue Exorcist - Nouvelles Saisons Disponibles",
+      url: "/manga/blue-exorcist",
     },
     {
-      image: "/assets/TopScreen/bluelock2.webp",
-      name: "Blue Lock - Nouvelles Saisons Disponibles",
-      url: "/manga/blue-lock",
+      image: "/assets/TopScreen/memory2.webp",
+      name: "Unnamed Memory - Nouvelles Saisons Disponibles",
+      url: "/manga/unnamed-memory",
     },
     {
-      image: "/assets/TopScreen/rezero2.webp",
-      name: "Re-Zero - Nouvelles Saisons Disponibles",
-      url: "/manga/re-zero",
+      image: "/assets/TopScreen/happymarriage2.webp",
+      name: "My Happy Marriage - Nouvelles Saisons Disponibles",
+      url: "/manga/my-happy-marriage",
     },
     {
-      image: "/assets/TopScreen/ranma1_2.webp",
-      name: "Ranma 1/2 - Nouvelles Versions Disponibles",
-      url: "/manga/ranma-1-2",
+      image: "/assets/TopScreen/ishura2.webp",
+      name: "Ishura - Nouvelles Saisons Disponibles",
+      url: "/manga/ishura",
     },
     {
       image: "/assets/TopScreen/shangriLaFrontier.webp",
@@ -153,7 +153,7 @@ export function CarrouselForm() {
             return (
               <div key={i} className="md:hidden">
                 <Link href={imaScreen.url}>
-                <img src={imaScreen.image} alt={imaScreen.name} className="w-full relative"/>
+                <img src={imaScreen.image} alt={imaScreen.name} className="w-[350px] h-[300px] p-3 relative"/>
 
                 <p className="text-slate-50 text-sm z-10 absolute bottom-2 bg-neutral-950/50 transition ease-in duration-500 opacity-50 w-full p-1 text-center hover:opacity-100 rounded-2xl">
                   {imaScreen.name}
