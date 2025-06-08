@@ -8,14 +8,29 @@ import "react-multi-carousel/lib/styles.css";
 export function CarrouselForm() {
   const dataImage = [
     {
-      image: "/assets/TopScreen/leveling.webp",
-      name: "Solo Leveling - Nouvelles Saisons Disponibles",
-      url: "/manga/solo-leveling",
+      image: "/assets/TopScreen/one_piece2.webp",
+      name: "One Piece - Arc Egghead Disponible",
+      url: "/manga/one-piece",
     },
     {
-      image: "/assets/TopScreen/stone.webp",
-      name: "Dr Stone - Nouvelles Saisons Disponibles",
-      url: "/manga/dr-stone",
+      image: "/assets/TopScreen/fireForce.webp",
+      name: "Fire Force - Nouvelles Saisons Disponibles",
+      url: "/manga/fire-force",
+    },
+    {
+      image: "/assets/TopScreen/windBreaker.webp",
+      name: "Wind Breaker - Nouvelles Saisons Disponibles",
+      url: "/manga/wind-breaker",
+    },
+    {
+      image: "/assets/TopScreen/tbate.webp",
+      name: "The Beginning After The End - Nouveaux Episodes Disponibles",
+      url: "/manga/tbate",
+    },
+    {
+      image: "/assets/TopScreen/vigilantes.webp",
+      name: "My Hero Academia Vigilantes - Nouveaux Episodes Disponibles",
+      url: "/manga/my-hero-academia-vigilantes",
     },
     {
       image: "/assets/TopScreen/apothicaire.webp",
@@ -23,34 +38,19 @@ export function CarrouselForm() {
       url: "/manga/les-carnets-de-l-apothicaire",
     },
     {
-      image: "/assets/TopScreen/dbdaima.webp",
-      name: "Dragon Ball Daima - Nouveaux Episodes Disponibles",
-      url: "/manga/dragon-ball-daima",
+      image: "/assets/TopScreen/oldCountry.webp",
+      name: "From Old Country Bumpkin to Master Swordman - Nouveaux Episodes Disponibles",
+      url: "/manga/from-old-country-bumpkin-to-master-swordman",
     },
     {
-      image: "/assets/TopScreen/exorcist.webp",
-      name: "Blue Exorcist - Nouvelles Saisons Disponibles",
-      url: "/manga/blue-exorcist",
+      image: "/assets/TopScreen/blackButler.webp",
+      name: "Black Butler - Nouvelles Saisons Disponibles",
+      url: "/manga/black-butler",
     },
     {
-      image: "/assets/TopScreen/memory.webp",
-      name: "Unnamed Memory - Nouvelles Saisons Disponibles",
-      url: "/manga/unnamed-memory",
-    },
-    {
-      image: "/assets/TopScreen/happymarriage.webp",
-      name: "My Happy Marriage - Nouvelles Saisons Disponibles",
-      url: "/manga/my-happy-marriage",
-    },
-    {
-      image: "/assets/TopScreen/ishura.webp",
-      name: "Ishura - Nouvelles Saisons Disponibles",
-      url: "/manga/ishura",
-    },
-    {
-      image: "/assets/TopScreen/shangri.webp",
-      name: "Shangri-La Frontier - Nouvelles Saisons Disponibles",
-      url: "/manga/shangri-la-frontier",
+      image: "/assets/TopScreen/yaiba.webp",
+      name: "Yaiba - Nouveaux Episodes Disponibles",
+      url: "/manga/yaiba",
     },
     {
       image: "/assets/TopScreen/naruto.webp",
@@ -82,14 +82,29 @@ export function CarrouselForm() {
   };
   const dataMobile = [
     {
-      image: "/assets/TopScreen/leveling2.webp",
-      name: "Solo Leveling - Nouvelles Saisons Disponibles",
-      url: "/manga/solo-leveling",
+      image: "/assets/TopScreen/onePiece.webp",
+      name: "One Piece - Arc Egghead Disponible",
+      url: "/manga/one-piece",
     },
     {
-      image: "/assets/TopScreen/stone2.webp",
-      name: "Dr Stone - Nouvelles Saisons Disponibles",
-      url: "/manga/dr-stone",
+      image: "/assets/TopScreen/fireForce2.webp",
+      name: "Fire Force - Nouvelles Saisons Disponibles",
+      url: "/manga/fire-force",
+    },
+    {
+      image: "/assets/TopScreen/windBreaker2.webp",
+      name: "Wind Breaker - Nouvelles Saisons Disponibles",
+      url: "/manga/wind-breaker",
+    },
+    {
+      image: "/assets/TopScreen/tbate2.webp",
+      name: "The Beginning After The End - Nouveaux Episodes Disponibles",
+      url: "/manga/tbate",
+    },
+    {
+      image: "/assets/TopScreen/vigilantes2.webp",
+      name: "My Hero Academia Vigilantes - Nouveaux Episodes Disponibles",
+      url: "/manga/my-hero-academia-vigilantes",
     },
     {
       image: "/assets/TopScreen/apothicaire2.webp",
@@ -97,34 +112,19 @@ export function CarrouselForm() {
       url: "/manga/les-carnets-de-l-apothicaire",
     },
     {
-      image: "/assets/TopScreen/daima.webp",
-      name: "Dragon Ball Daima - Nouveaux Episodes Disponibles",
-      url: "/manga/dragon-ball-daima",
+      image: "/assets/TopScreen/oldCountry2.webp",
+      name: "From Old Country Bumpkin to Master Swordman - Nouveaux Episodes Disponibles",
+      url: "/manga/from-old-country-bumpkin-to-master-swordman",
     },
     {
-      image: "/assets/TopScreen/exorcist2.webp",
-      name: "Blue Exorcist - Nouvelles Saisons Disponibles",
-      url: "/manga/blue-exorcist",
+      image: "/assets/TopScreen/blackButler2.webp",
+      name: "Black Butler - Nouvelles Saisons Disponibles",
+      url: "/manga/black-butler",
     },
     {
-      image: "/assets/TopScreen/memory2.webp",
-      name: "Unnamed Memory - Nouvelles Saisons Disponibles",
-      url: "/manga/unnamed-memory",
-    },
-    {
-      image: "/assets/TopScreen/happymarriage2.webp",
-      name: "My Happy Marriage - Nouvelles Saisons Disponibles",
-      url: "/manga/my-happy-marriage",
-    },
-    {
-      image: "/assets/TopScreen/ishura2.webp",
-      name: "Ishura - Nouvelles Saisons Disponibles",
-      url: "/manga/ishura",
-    },
-    {
-      image: "/assets/TopScreen/shangriLaFrontier.webp",
-      name: "Shangri-La Frontier - Nouvelles Saisons Disponibles",
-      url: "/manga/shangri-la-frontier",
+      image: "/assets/TopScreen/yaiba2.webp",
+      name: "Yaiba - Nouveaux Episodes Disponibles",
+      url: "/manga/yaiba",
     },
     {
       image: "/assets/TopScreen/naruto2.webp",

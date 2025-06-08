@@ -574,7 +574,7 @@
       "Pompiers"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -947,7 +947,7 @@
       "Crime"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
+    "typeCategorie": ["AnimeTrending"],
     "createdAt": {
       "$date": "2024-07-26T10:37:49.608Z"
     },
@@ -1093,7 +1093,7 @@
       "Romance"
     ],
     "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["MovieRecommander", "AnimeTrending"]
+    "typeCategorie": ["MovieRecommander"]
   },
   {
     "_id": {
@@ -1155,7 +1155,7 @@
     "url": "wind-breaker",
     "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -1251,7 +1251,7 @@
       "Combats"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -2220,7 +2220,7 @@
       "Vengeance"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -2548,7 +2548,7 @@
       "Ninja"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending", "Classique"]
+    "typeCategorie": ["Classique"]
   },
   {
     "_id": {
@@ -2741,7 +2741,7 @@
       "Combats"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""],
+    "typeCategorie": ["AnimeTrending"],
     "createdAt": {
       "$date": "2024-07-17T13:49:34.889Z"
     },
@@ -3056,7 +3056,7 @@
       "Shonen"
     ],
     "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["Recommander", "ScanTrending", "MovieRecommander"]
+    "typeCategorie": ["Recommander", "ScanTrending", "MovieRecommander", "AnimeTrending"]
   },
   {
     "_id": {
@@ -3214,7 +3214,7 @@
     "url": "blue-exorcist",
     "categorie": ["Shonen", "Action", "Démons", "Surnaturel"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -3499,7 +3499,7 @@
       "Historique"
     ],
     "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -4019,7 +4019,7 @@
     "url": "shangri-la-frontier",
     "categorie": ["Shonen", "Action", "Adventure", "Fantasy", "Jeux"],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -4077,7 +4077,7 @@
     "url": "dragon-ball-daima",
     "categorie": ["Shonen", "Adventure", "Aliens", "Super-Pouvoir"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -4666,7 +4666,7 @@
       "Reincarnation"
     ],
     "anime": ["Scans", "Series"],
-    "typeCategorie": [],
+    "typeCategorie": ["AnimeTrending"],
     "createdAt": {
       "$date": "2024-10-29T17:39:09.852Z"
     },
@@ -5120,7 +5120,7 @@
     "url": "bye-bye-earth",
     "categorie": ["Seinen", "Action", "Fantasy", "Drame", "Voyage"],
     "anime": ["Scans", "Series"],
-    "typeCategorie": [],
+    "typeCategorie": ["AnimeTrending"],
     "createdAt": {
       "$date": "2024-10-29T18:36:27.876Z"
     },
@@ -5549,7 +5549,7 @@
     "url": "my-happy-marriage",
     "categorie": ["Drame", "Historique", "Romance"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:07:05.872Z"
     },
@@ -5574,7 +5574,7 @@
       "Vengeance"
     ],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:08:57.476Z"
     },
@@ -5592,7 +5592,7 @@
     "url": "zenshuu",
     "categorie": ["Romance", "Autre Monde", "Amour", "Travail"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:11:14.656Z"
     },
@@ -5610,7 +5610,7 @@
     "url": "i-m-getting-married-to-a-girl-i-hate-in-my-class",
     "categorie": ["Shonen", "Marriage", "Comédie", "Romance"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:13:54.076Z"
     },
@@ -5636,7 +5636,7 @@
       "Démons"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:16:11.121Z"
     },
@@ -5654,7 +5654,7 @@
     "url": "i-may-be-a-guild-receptionist-but-i-ll-solo-any-boss-to-clock-out-on-time",
     "categorie": ["Shonen", "Action", "Comédie", "Fantasy", "Magie"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:18:47.885Z"
     },
@@ -5680,7 +5680,7 @@
       "Monstres"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:20:55.636Z"
     },
@@ -5706,7 +5706,7 @@
       "Monstres"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:22:38.229Z"
     },
@@ -5724,7 +5724,7 @@
     "url": "les-100-petites-amies-qui-t-aiiiment-a-en-mourir",
     "categorie": ["Seinen", "Comédie", "Romance", "Amour", "Harem"],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:24:36.101Z"
     },
@@ -5749,7 +5749,7 @@
       "Harem"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:27:24.119Z"
     },
@@ -5767,7 +5767,7 @@
     "url": "i-m-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic",
     "categorie": ["Shojo", "Comédie", "Fantasy", "Autre Monde", "Magie"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:29:37.840Z"
     },
@@ -5819,7 +5819,7 @@
       "Drame"
     ],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:33:28.394Z"
     },
@@ -5845,7 +5845,7 @@
       "Ecole"
     ],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:35:44.086Z"
     },
@@ -5872,7 +5872,7 @@
       "Reincarnation"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:37:37.439Z"
     },
@@ -5890,7 +5890,7 @@
     "url": "the-daily-life-of-a-middle-aged-online-shopper-in-another-world",
     "categorie": ["Shonen", "Ecchi", "Fantasy", "Isekai", "Harem"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:39:34.154Z"
     },
@@ -5915,7 +5915,7 @@
       "Fantasy"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:41:43.425Z"
     },
@@ -5941,7 +5941,7 @@
       "Ninja"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:44:04.928Z"
     },
@@ -5959,7 +5959,7 @@
     "url": "grisaia",
     "categorie": ["Drame", "Ecchi", "Romance", "Ecole", "Harem"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:46:27.306Z"
     },
@@ -5977,7 +5977,7 @@
     "url": "promise-of-wizard",
     "categorie": ["Fantasy", "Autre Monde", "Harem", "Magie"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:48:06.109Z"
     },
@@ -6008,7 +6008,7 @@
       "Combats"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:50:11.340Z"
     },
@@ -6026,7 +6026,7 @@
     "url": "ishura",
     "categorie": ["Action", "Adventure", "Fantasy", "Isekai"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:51:17.196Z"
     },
@@ -6044,7 +6044,7 @@
     "url": "du-mouvement-de-la-terre",
     "categorie": ["Seinen", "Drame", "Historique", "Psychologique"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:53:36.656Z"
     },
@@ -6062,7 +6062,7 @@
     "url": "a-terrified-teacher-at-ghoul-school",
     "categorie": ["Shonen", "Comédie", "Fantasy", "Démons", "Ecole"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:55:47.992Z"
     },
@@ -6080,12 +6080,211 @@
     "url": "trillion-game",
     "categorie": ["Seinen", "Comédie"],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:56:58.909Z"
     },
     "updatedAt": {
       "$date": "2025-01-26T15:56:58.909Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68457346361a90f629949204"
+    },
+    "image": "/assets/DinnerDetective_poster.webp",
+    "name": "The Dinner Table Detective",
+    "url": "the-dinner-table-detective",
+    "categorie": ["Comédie", "Detective", "Policier", "Mystère"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:25:58.953Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:25:58.953Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6845745c361a90f629949206"
+    },
+    "image": "/assets/HealerShadow_poster.webp",
+    "name": "The Brilliant Healer's New Life in the Shadows",
+    "url": "the-brilliant-healer-new-life-in-the-shadows",
+    "categorie": ["Seinen", "Adventure", "Fantasy", "Magie", "Amour"],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:30:36.573Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:30:36.573Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "684574cb361a90f629949208"
+    },
+    "image": "/assets/Lazarus_poster.webp",
+    "name": "Lazarus",
+    "url": "lazarus",
+    "categorie": ["Mystère", "Thriller"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:32:27.505Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:32:27.505Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6845756b361a90f62994920a"
+    },
+    "image": "/assets/MhaVigilantes_poster.webp",
+    "name": "My Hero Academia: Vigilantes",
+    "url": "my-hero-academia-vigilantes",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Super-Héros",
+      "Drame",
+      "Comédie",
+      "Science-Fiction"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:35:07.718Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:35:07.718Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68457668361a90f62994920c"
+    },
+    "image": "/assets/OldCountry_poster.webp",
+    "name": "From Old Country Bumpkin to Master Swordman",
+    "url": "from-old-country-bumpkin-to-master-swordman",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Fantasy",
+      "Romance",
+      "Combats",
+      "Adventure"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:39:20.967Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:39:20.967Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68457751361a90f62994920e"
+    },
+    "image": "/assets/SwordDemonHunter_poster.webp",
+    "name": "Sword of the Demon Hunter",
+    "url": "sword-of-the-demon-hunter",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Historique",
+      "Démons",
+      "Psychologique",
+      "Surnaturel"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:43:13.935Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:43:13.935Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68457806361a90f629949210"
+    },
+    "image": "/assets/Tbate_poster.webp",
+    "name": "The Beginning After the End",
+    "url": "tbate",
+    "categorie": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai",
+      "Autre Monde",
+      "Combats",
+      "Reincarnation"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:46:14.260Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:46:14.260Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6845787f361a90f629949212"
+    },
+    "image": "/assets/UnawareMeister_poster.webp",
+    "name": "The Unaware Atelier Meister",
+    "url": "the-unaware-atelier-meister",
+    "categorie": ["Action", "Adventure", "Fantasy", "Harem", "Magie"],
+    "anime": ["Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:48:15.706Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:48:15.706Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "684578e4361a90f629949214"
+    },
+    "image": "/assets/Yaiba_poster.webp",
+    "name": "Yaiba",
+    "url": "yaiba",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Surnaturel"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-06-08T11:49:56.339Z"
+    },
+    "updatedAt": {
+      "$date": "2025-06-08T11:49:56.339Z"
     },
     "__v": 0
   }
