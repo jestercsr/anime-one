@@ -14,7 +14,7 @@ import CookieConsent, { Cookies } from "react-cookie-consent";
  * @returns {JSX.Element} Un composant JSX qui affiche le message de consentement
  * si l'utilisateur n'a pas encore consenti, ou `null` si l'utilisateur a déjà consenti.
  */
-export default function Cookies() {
+export default function CookiesPage() {
   const [showPreferences, setShowPreferences] = useState(false);
 
   const handlePreferences = () => {
