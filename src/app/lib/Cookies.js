@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import CookieConsent, { Cookies } from "react-cookie-consent";
 
 /**
  * Affiche un message de consentement pour les cookies si l'utilisateur n'a pas encore consenti.
@@ -13,10 +14,7 @@ import React, { useEffect, useState } from "react";
  * @returns {JSX.Element} Un composant JSX qui affiche le message de consentement
  * si l'utilisateur n'a pas encore consenti, ou `null` si l'utilisateur a déjà consenti.
  */
-
-import CookieConsent, { Cookies } from "react-cookie-consent";
-
-export default function MyCookieBanner() {
+export default function Cookies() {
   const [showPreferences, setShowPreferences] = useState(false);
 
   const handlePreferences = () => {

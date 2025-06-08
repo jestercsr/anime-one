@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { ErrorBoundary } from "next/dist/client/components/error-boundary";
 import Error from "./error";
 import { AvatarProvider } from "../../providers/AvatarContext";
-import CookieConsent from "./lib/Cookies";
+import Cookies from "./lib/Cookies";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +17,7 @@ const roboto = Roboto({
 export const metadata = {
   title: "Anime ONE | Bienvenue",
   description:
-    "Projet final Regardez des animes à succès, lire des scans et plus",
+    "Projet final. Regardez des animes à succès, lire des scans et plus",
 };
 
 export default function RootLayout({ children }) {
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
           <ProfileProvider>
             <AvatarProvider>
               {children}
-              <CookieConsent />
+              <Cookies />
               <Analytics />
             </AvatarProvider>
           </ProfileProvider>

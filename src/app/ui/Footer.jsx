@@ -41,7 +41,7 @@ export default function Footer() {
           géographique.
         </p>
         <p className=" mr-2 ml-2">
-          © 2024-2025 Anime ONE byJester. Tous droits réservés.
+          &copy; 2024-{new Date().getFullYear()} Anime ONE byJester. Tous droits réservés.
         </p>
       </div>
     </div>
