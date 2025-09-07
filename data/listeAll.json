@@ -379,7 +379,7 @@
     "url": "sakamoto-days",
     "categorie": ["Shonen", "Action", "Comédie", "Assassinat", "Combats"],
     "anime": ["Scans"],
-    "typeCategorie": ["ScanTrending"]
+    "typeCategorie": ["ScanTrending", "AnimeTrending"]
   },
   {
     "_id": {
@@ -471,7 +471,7 @@
       "Vengeance"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -574,7 +574,7 @@
       "Pompiers"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -947,7 +947,7 @@
       "Crime"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2024-07-26T10:37:49.608Z"
     },
@@ -1112,7 +1112,7 @@
       "Science-Fiction"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -1123,7 +1123,7 @@
     "url": "kaiju-no-8",
     "categorie": ["Shonen", "Adventure", "Science-Fiction"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["ScanTrending"]
+    "typeCategorie": ["ScanTrending", "AnimeTrending"]
   },
   {
     "_id": {
@@ -1155,7 +1155,7 @@
     "url": "wind-breaker",
     "categorie": ["Shonen", "Action", "Adventure", "Arts-Martiaux"],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -1251,7 +1251,7 @@
       "Combats"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -1530,7 +1530,7 @@
       "Aliens"
     ],
     "anime": ["Scans"],
-    "typeCategorie": ["ScanTrending"]
+    "typeCategorie": ["ScanTrending", "AnimeTrending"]
   },
   {
     "_id": {
@@ -2741,7 +2741,7 @@
       "Combats"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2024-07-17T13:49:34.889Z"
     },
@@ -3056,7 +3056,12 @@
       "Shonen"
     ],
     "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["Recommander", "ScanTrending", "MovieRecommander", "AnimeTrending"]
+    "typeCategorie": [
+      "Recommander",
+      "ScanTrending",
+      "MovieRecommander",
+      "AnimeTrending"
+    ]
   },
   {
     "_id": {
@@ -3235,7 +3240,7 @@
       "Reincarnation"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": [""]
+    "typeCategorie": ["AnimeTrending"]
   },
   {
     "_id": {
@@ -3499,7 +3504,7 @@
       "Historique"
     ],
     "anime": ["Films", "Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"]
+    "typeCategorie": [""]
   },
   {
     "_id": {
@@ -4666,7 +4671,7 @@
       "Reincarnation"
     ],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2024-10-29T17:39:09.852Z"
     },
@@ -5120,7 +5125,7 @@
     "url": "bye-bye-earth",
     "categorie": ["Seinen", "Action", "Fantasy", "Drame", "Voyage"],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2024-10-29T18:36:27.876Z"
     },
@@ -5793,7 +5798,7 @@
       "Magie"
     ],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-01-26T15:31:52.124Z"
     },
@@ -6098,7 +6103,7 @@
     "url": "the-dinner-table-detective",
     "categorie": ["Comédie", "Detective", "Policier", "Mystère"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:25:58.953Z"
     },
@@ -6116,7 +6121,7 @@
     "url": "the-brilliant-healer-new-life-in-the-shadows",
     "categorie": ["Seinen", "Adventure", "Fantasy", "Magie", "Amour"],
     "anime": ["Scans", "Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:30:36.573Z"
     },
@@ -6134,7 +6139,7 @@
     "url": "lazarus",
     "categorie": ["Mystère", "Thriller"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:32:27.505Z"
     },
@@ -6159,7 +6164,7 @@
       "Science-Fiction"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:35:07.718Z"
     },
@@ -6184,7 +6189,7 @@
       "Adventure"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:39:20.967Z"
     },
@@ -6210,7 +6215,7 @@
       "Surnaturel"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:43:13.935Z"
     },
@@ -6236,7 +6241,7 @@
       "Reincarnation"
     ],
     "anime": ["Series", "Scans"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:46:14.260Z"
     },
@@ -6254,7 +6259,7 @@
     "url": "the-unaware-atelier-meister",
     "categorie": ["Action", "Adventure", "Fantasy", "Harem", "Magie"],
     "anime": ["Series"],
-    "typeCategorie": ["AnimeTrending"],
+    "typeCategorie": [""],
     "createdAt": {
       "$date": "2025-06-08T11:48:15.706Z"
     },
@@ -6285,6 +6290,248 @@
     },
     "updatedAt": {
       "$date": "2025-06-08T11:49:56.339Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbaed91759343d861d8ea"
+    },
+    "image": "/assets/Gachiakuta_poster.webp",
+    "name": "Gachiakuta",
+    "url": "gachiakuta",
+    "categorie": [
+      "Action",
+      "Drame",
+      "Fantasy",
+      "Shonen",
+      "Mystère",
+      "Vengeance"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:03:41.436Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:03:41.436Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbb6891759343d861d8ec"
+    },
+    "image": "/assets/CallOfNight_poster.webp",
+    "name": "Call of the Night",
+    "url": "call-of-the-night",
+    "categorie": ["Shonen", "Comédie", "Romance", "Amour", "Fantasy"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:05:44.722Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:05:44.722Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbbbd91759343d861d8ee"
+    },
+    "image": "/assets/Clevatess_poster.webp",
+    "name": "Clevatess",
+    "url": "clevatess",
+    "categorie": ["Seinen", "Action", "Drame", "Fantasy", "Démons"],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:07:09.815Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:07:09.815Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbc5891759343d861d8f0"
+    },
+    "image": "/assets/TougenAnki_poster.webp",
+    "name": "Tougen Anki  - La Légende du sang maudit",
+    "url": "tougen-anki",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Drame",
+      "Démons",
+      "Surnaturel",
+      "Mystère"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:09:44.974Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:09:44.974Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbd0591759343d861d8f2"
+    },
+    "image": "/assets/Mynoghra_poster.webp",
+    "name": "Mynoghra - Annonciateur de l'Apocalypse",
+    "url": "mynoghra",
+    "categorie": [
+      "Seinen",
+      "Adventure",
+      "Drame",
+      "Fantasy",
+      "Autre monde",
+      "Magie",
+      "Reincarnation"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:12:37.351Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:12:37.351Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbd8a91759343d861d8f4"
+    },
+    "image": "/assets/NewSaga_poster.webp",
+    "name": "New Saga - Die & Retry",
+    "url": "new-saga",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Magie",
+      "Démons"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:14:50.987Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:14:50.987Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbf1991759343d861d8f6"
+    },
+    "image": "/assets/ScooopedSRank_poster.webp",
+    "name": "Scooped Up by an S-Rank Adventurer!",
+    "url": "la-nouvelle-vie-du-mage-blanc",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Romance",
+      "Harem",
+      "Magie"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:21:29.016Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:21:29.016Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdbfab91759343d861d8f8"
+    },
+    "image": "/assets/ShyHero_poster.webp",
+    "name": "The Shy Hero and the Assassin Princesses",
+    "url": "the-shy-hero-and-the-assassin-princesses",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Comédie",
+      "Fantasy",
+      "Harem",
+      "Assassinat"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:23:55.003Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:23:55.003Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdc02791759343d861d8fa"
+    },
+    "image": "/assets/Hotel_poster.webp",
+    "name": "Hotel Inhumans",
+    "url": "hotel-inhumans",
+    "categorie": [
+      "Shonen",
+      "Action",
+      "Drame",
+      "Assassinat",
+      "Comédie",
+      "Psychologique",
+      "Mafia"
+    ],
+    "anime": ["Series", "Scans"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:25:59.018Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:25:59.018Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "68bdc0b391759343d861d8fc"
+    },
+    "image": "/assets/UglyFighter_poster.webp",
+    "name": "Uglymug, Epicfighter",
+    "url": "uglymug-epicfighter",
+    "categorie": [
+      "Seinen",
+      "Action",
+      "Adventure",
+      "Comédie",
+      "Fantasy",
+      "Isekai",
+      "Reincarnation"
+    ],
+    "anime": ["Scans", "Series"],
+    "typeCategorie": ["AnimeTrending"],
+    "createdAt": {
+      "$date": "2025-09-07T17:28:19.873Z"
+    },
+    "updatedAt": {
+      "$date": "2025-09-07T17:28:19.873Z"
     },
     "__v": 0
   }

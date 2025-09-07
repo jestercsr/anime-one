@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="grid grid-cols-3  mb-5 mr-2 ml-2 text-xs md:text-md lg:text-lg">
         <button className="hover:text-sky-500 transition ease-in duration-300">Conditions générales d’abonnement</button>
         <button className="hover:text-sky-500 transition ease-in duration-300">Régles de Respect de la Vie Privée</button>
-        <button className="hover:text-sky-500 transition ease-in duration-300">Mentions Légales</button>
+        <button className="hover:text-sky-500 transition ease-in duration-300"><Link href={'/mentions-legales'}>Mentions Légales</Link></button>
       </div>
       <div className="grid grid-cols-5 md:mb-5 md:mr-2 md:ml-2 text-xs md:text-md lg:text-lg">
         <button className="hover:text-sky-500 transition ease-in duration-300">Politique de cookies</button>
