@@ -1,5 +1,5 @@
 
-const { default: PageProfile } = require('@/app/profile/page');
+const { default: PageProfile } = require('@/profile/+Page');
 const { render, screen } = require('@testing-library/react');
 
 

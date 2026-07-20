@@ -1,5 +1,5 @@
 
-const { default: PageCategories } = require('@/app/categories/page');
+const { default: PageCategories } = require('@/categories/+Page');
 const { render, screen, fireEvent } = require('@testing-library/react');
 
 

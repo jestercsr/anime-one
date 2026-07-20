@@ -1,5 +1,5 @@
 
-const { default: Home } = require('@/app/page');
+const { default: Home } = require('@/+Page');
 const { render, screen, fireEvent } = require('@testing-library/react');
 
 describe('Page d\'accueil', () => {

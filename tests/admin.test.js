@@ -1,4 +1,4 @@
-const { default: PageAdmin } = require('@/app/admin/page');
+const { default: PageAdmin } = require('@/admin/+Page');
 const { render, screen, fireEvent } = require('@testing-library/react');
 
 

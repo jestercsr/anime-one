@@ -1,5 +1,5 @@
 
-const { default: PageAuth } = require('@/app/authentification/page');
+const { default: PageAuth } = require('@/authentification/+Page');
 const { render, screen, fireEvent } = require('@testing-library/react');
 
 

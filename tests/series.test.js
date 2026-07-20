@@ -1,5 +1,5 @@
 
-const { default: ListeSeries } = require('@/app/series/ui/ListeSerie');
+const { default: ListeSeries } = require('@/series/ui/ListeSerie');
 const { render, screen } = require('@testing-library/react');
 
 

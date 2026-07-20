@@ -1,5 +1,5 @@
 
-const { default: ListeFilms } = require('@/app/films/ui/ListeFilms');
+const { default: ListeFilms } = require('@/films/ui/ListeFilms');
 const { render, screen } = require('@testing-library/react');
 
 

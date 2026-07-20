@@ -1,5 +1,5 @@
 
-const { default: ListeScans } = require('@/app/scans/ui/ListeScans');
+const { default: ListeScans } = require('@/scans/ui/ListeScans');
 const { render, screen } = require('@testing-library/react');
 
 
