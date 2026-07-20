@@ -1,10 +1,9 @@
 import vike from 'vike/plugin'
 import react from '@vitejs/plugin-react'
-import vercel from 'vike-vercel'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  plugins: [react(), vike(), vercel()],
+  plugins: [react(), vike()],
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
