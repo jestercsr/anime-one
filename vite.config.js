@@ -1,12 +1,15 @@
 import vike from 'vike/plugin'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 import { defineConfig } from 'vite'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
   plugins: [react(), vike()],
   resolve: {
     alias: {
-      '@': path.resolve(process.cwd(), './pages'),
+      '@': path.resolve(__dirname, './pages'),
     },
     dedupe: ['react', 'react-dom'],
   },
