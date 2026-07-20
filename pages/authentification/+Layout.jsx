@@ -1,4 +1,4 @@
-import "../globals.css";
+import "@/globals.css";
 import { ProfileProvider } from "../../providers/ProfileContext";
 
 export default function AuthLayout({ children }) {

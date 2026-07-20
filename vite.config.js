@@ -5,6 +5,9 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react(), vike()],
   resolve: {
+    alias: {
+      '@': path.resolve(process.cwd(), './pages'),
+    },
     dedupe: ['react', 'react-dom'],
   },
   server: {

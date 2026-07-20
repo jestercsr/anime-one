@@ -1,4 +1,4 @@
-import "../../globals.css";
+import "@/globals.css";
 import { CartProvider } from "../../../providers/CartContext";
 
 export default function PromotionLayout({ children }) {
